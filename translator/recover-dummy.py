@@ -20,6 +20,7 @@ def main():
         orig_head = orig_f.readline().rstrip('\n')
         summ_head = summ_f.readline().rstrip('\n')
         print(summ_head)
+        to_read = True
         for orig_line in orig_f:
             orig_line = orig_line.rstrip('\n').split('\t')
             if not orig_line[0]:
@@ -34,7 +35,10 @@ def main():
                 ]))
             else:
                 # Replace index
-                summ_line = summ_f.readline().rstrip('\n').split('\t', 1)
+                summ_line = summ_f.readline()
+                if not summ_line:
+                    break
+                summ_line = summ_line.rstrip('\n').split('\t', 1)
                 print('{}\t{}'.format(index, summ_line[1]))
             index += 1
         # Sanity check: the summary file should have been fully consumed

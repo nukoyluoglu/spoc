@@ -23,12 +23,12 @@ ERR_BLACK_AMOUNT = -1e6
 class _inp():
     text = 0
     code = 1
-    hitid = 2
-    workerid = 3
-    probid = 4
-    subid = 5
-    line = 6
-    indent = 7
+    # hitid = 2
+    workerid = 2
+    probid = 3
+    subid = 4
+    line = 5
+    indent = 6
 
 class _pred():
     text = 1
@@ -224,6 +224,8 @@ def generate_report(inp_stmt, pred_stmt):
     in_beam_exact_match = True
     
     for inp, pred in zip(inp_stmt, pred_stmt):
+        if pred == ['']:
+            break
         # print text, best and gold if not dummy
         # if dummy, all scores are dummy
         if pred[_pred.text] == 'DUMMY':
@@ -243,8 +245,8 @@ def generate_report(inp_stmt, pred_stmt):
             gold_rank = "NA"
             in_beam_exact_match = False
         # report pred, gold probs and gold rank
-        rep_file.write(str(pred[_pred.pred_score]) + " (" + str(math.exp(float(pred[3]))) + ")\t")
-        rep_file.write(str(pred[_pred.gold_score]) + " (" + str(math.exp(float(pred[2]))) + ")\t")
+        # rep_file.write(str(pred[_pred.pred_score]) + " (" + str(math.exp(pred[3])) + ")\t")
+        # rep_file.write(str(pred[_pred.gold_score]) + " (" + str(math.exp(pred[2])) + ")\t")
         rep_file.write(str(gold_rank) + "\n")
 
     rep_file.close()
@@ -1243,7 +1245,7 @@ def stitch():
                     break
                 count += 1
                 probid, subid = inp[_inp.probid].strip(), inp[_inp.subid].strip()
-                hitid = inp[_inp.hitid].strip()
+                # hitid = inp[_inp.hitid].strip()
             if count == probno:
                 inp_stmt.append(inp)
                 pred_stmt.append(pred)
@@ -1379,6 +1381,7 @@ def main():
 
     global ARGS
     ARGS = parser.parse_args()
+    ARGS.num_preds = 1
 
     if os.environ.get('PROG_DIR'):
         ARGS.prog_dir = str(os.environ['PROG_DIR'])    
