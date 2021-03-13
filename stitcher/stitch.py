@@ -326,6 +326,58 @@ def true_oracle(inp_stmt, pred_stmt, probid, subid):
         curr_i += 1
     return True
 
+def true_oracle_linebyline(inp_stmt, pred_stmt, probid, subid):
+    code_header = "#include <bits/stdc++.h>\n\nusing namespace std;\n\n"
+    curr_i = 0
+    num_lines = 0
+    num_success = 0
+    # check for predictions in the i-th line with everything else gold
+    for inp_i, pred_i in zip(inp_stmt, pred_stmt):
+        if pred_i[_pred.text] == 'DUMMY':
+            curr_i += 1
+            continue
+        gold_found = False
+        # iterate over the i-th line predictions
+        for i in range(_pred.pred_best, _pred.pred_best + ARGS.num_preds):
+            curr_j = 0
+            curr_ind, prev_line = 0, " "
+            code = code_header
+            # generate code with everything else gold except the i-th line
+            for inp_j, pred_j in zip(inp_stmt, pred_stmt):            
+                # find the number of tabs to insert
+                indent = '\t' * int(inp_j[_inp.indent])
+                tmp_ind = int(inp_j[_inp.indent])
+                # if tabs are decreasing then add } if not closing already
+                if tmp_ind < curr_ind:
+                    if inp_j[_inp.code] != "}":
+                        indent += "} "
+                    if curr_ind - tmp_ind > 1:
+                        indent += (curr_ind - tmp_ind - 1) * "} "
+                # if tabs are increasing then add { if not open already
+                elif tmp_ind > curr_ind:
+                    if not prev_line or prev_line[-1] != "{":
+                        indent += "{ "
+                    if tmp_ind - curr_ind > 1:
+                        indent += (tmp_ind - curr_ind - 1) * "{ "
+                curr_ind = tmp_ind
+                # pick the line of code
+                if pred_j[_pred.text] == 'DUMMY' or curr_j != curr_i:
+                    code += indent + remove_braces_gold(inp_j[_inp.code]) + "\n"
+                    prev_line = remove_braces_gold(inp_j[_inp.code])
+                else:
+                    code += indent + fix_strings(pred_i[i]) + "\n"
+                    prev_line = pred_j[i]
+                curr_j += 1
+            passing = oracle_code_check(code, probid, subid)
+            if passing:
+                gold_found = True
+                break
+        if gold_found:
+            num_success += 1
+        num_lines = += 1
+        curr_i += 1
+    return num_lines, num_success
+
 
 def filter_error_message(message, unique_id):
     return '\n'.join(x.replace(unique_id + '.cpp', '')
@@ -1272,6 +1324,11 @@ def stitch():
         if in_beam_true_oracle:
             tmp_f = open("in_beam_true_oracle.txt", "w")
             tmp_f.close()
+        # check if in beam for true oracle, line by line
+        num_lines, num_success = true_oracle_linebyline(inp_stmt, pred_stmt, probid, subid)
+        tmp_f = open("in_beam_true_oracle_linebyline.txt", "w")
+        tmp_f.writelines([num_lines, num_success])
+        tmp_f.close()
     # detailed oracle
     if ARGS.detailed_oracle:
         detailed_oracle(inp_stmt, pred_stmt, probid, subid)
