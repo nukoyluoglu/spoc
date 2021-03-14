@@ -1,0 +1,28 @@
+assign elements 4 , 7 , 44 , 77 , 47 , 74 , 444 , 447 , 474 , 477 , 777 , 744 , 747 , 774 to int array arr	int arr [ ] = { 4, 7, 44, 77, 47, 74, 444, 447, 474, 477, 777, 744, 747, 774 } ;
+	int arr [ ] = { 4 , 7 , 44 , 77 , 47 , 74 , 444 , 447 , 474 , 477 , 777 , 744 , 747 , 774 } ;	NA
+set bool s to false	bool s = false ;
+	bool s = false ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to 14 exclusive	for ( int i = 0 ; i < 14 ; i ++ )
+	for ( int i = 0 ; i < 14 ; ++ i )	NA
+if n mod arr [ i ] = 0	if ( n % arr [ i ] == 0 )
+	if ( n % arr [ i ] == 0 )	1
+print YES	puts ( " YES " ) ;
+	cout << " YES " << endl ;	NA
+s = true	s = true ;
+	s = true ;	1
+break	break ;
+	break ;	1
+else	else
+	else	1
+continue the loop	continue ;
+	continue ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if s is false , print NO and a newline	if (! s ) cout << " NO " << endl ;
+	if ( s == false ) cout << " NO " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

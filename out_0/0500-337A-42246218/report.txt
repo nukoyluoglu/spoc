@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create new variables n , m , i , j , total , val , diff and mini be ints with total = 0 and mini = 10000	int n, m, i, j, total = 0, val, diff, mini = 10000 ;
+	int n , m , i , j , total = 0 , val , diff , mini = 10000 ;	NA
+declare new vector of integers called v	vector < int > v ;
+	vector < int > v ;	1
+read variables n and m from the input	cin >> n >> m ;
+	cin >> n >> m ;	1
+for i = 0 to m exclusive	for ( int i = 0 ; i < m ; i ++ )
+	for ( i = 0 ; i < m ; i ++ )	NA
+read val	cin >> val ;
+	cin >> val ;	1
+push val to the end of v	v. push_back ( val ) ;
+	v . push_back ( val ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort v	sort ( v. begin ( ), v. end ( ) ) ;
+	sort ( v . begin ( ) , v . end ( ) ) ;	NA
+start for loop from i = 0 to m - n inclusive incrementing i	for ( int i = 0 ; i <= m - n ; i ++ )
+	for ( i = 0 ; i <= m - n ; i ++ )	NA
+change val to abs ( v [ i ] - v [ i + n - 1 ] )	val = abs ( v [ 1 ] - v [ i + n - 1 ] ) ;
+	val = abs ( v [ i ] - v [ i + n - 1 ] ) ;	NA
+change mini to min of mini and val	mini = min ( mini, val ) ;
+	mini = min ( mini , val ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print mini	cout << mini << endl ;
+	cout << mini << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

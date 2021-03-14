@@ -1,0 +1,45 @@
+declare constant int N = 1e6	const int N = 1e6 ;
+	const int N = 1e6 ;	1
+create integer array aa with size N + 2	int aa [ N + 2 ] ;
+	int aa [ N + 2 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integers n and p	int n, p ;
+	int n , p ;	NA
+read n and p	cin >> n >> p ;
+	cin >> n >> p ;	1
+for i from 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+declare string s	string s ;
+	string s ;	1
+read input to s	cin >> s ;
+	cin >> s ;	1
+if s is equal to " half "	if ( s == " half " )
+	if ( s == " half " )	1
+set aa [ i ] to 0	aa [ i ] = 0 ;
+	aa [ i ] = 0 ;	1
+else	else
+	else	1
+set aa [ i ] to 1	aa [ i ] = 1 ;
+	aa [ i ] = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare long longs app and ans where ans = 0	long long app, ans = 0 ;
+	long long app , ans = 0 ;	NA
+for integer i = n to 1 inclusive decrementing i	for ( int i = n ; i >= 1 ; i -- )
+	for ( int i = n ; i >= 1 ; i -- )	1
+if i = n	if ( i == n )
+	if ( i == n )	1
+set app to 1	int app = 1 ;
+	app = 1 ;	NA
+else	else
+	else	1
+set app to app * 2 + aa [ i ]	app = app * 2 + aa [ i ] ;
+	app = app * 2 + aa [ i ] ;	1
+add ( ( app / 2 ) * 1LL ) * p to ans	ans += ( ( app / 2 ) * 1LL ) * p ;
+	ans += ( ( app / 2 ) * 1LL ) * p ;	1
+if app is odd , increase ans by p / 2	if ( app % 2 ) ans += p / 2 ;
+	if ( app % 2 ) ans += ( p / 2 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

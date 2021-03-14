@@ -1,0 +1,21 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integers k and d	int k, d ;
+	int k , d ;	NA
+read k and d	cin >> k >> d ;
+	cin >> k >> d ;	1
+if k is greater than 1 and d is 0	if ( k > 1 && d == 0 )
+	if ( k > 1 && ! d )	NA
+print " No solution " and a new line	cout << " No solution " << endl ;
+	cout << " No solution " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print d	cout << d << endl ;
+	cout << d ;	NA
+decrease k by one	k -- ;
+	k -- ;	1
+print 0 in the loop while decrementing k	for ( int k = 0 ; ; k -- ) cout << " 0 " ;
+	while ( k -- ) cout << 0 ;	NA
+print new line	cout << endl ;
+	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

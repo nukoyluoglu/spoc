@@ -1,0 +1,36 @@
+boolean function search with int arguments ax , ay , bx , by , cx and cy	bool search ( int ax, int ay, int bx, int by, int cx, int cy )
+	bool search ( int ax , int ay , int bx , int by , int cx , int cy )	NA
+if bx < ax and cx < ax and by < ay and cy < ay	if ( bx < ax && cx > ax && by < ay && cy < ay )
+	if ( bx < ax && cx < ax && by < ay && cy < ay )	NA
+return true	return true ;
+	return true ;	1
+else if bx < ax and cx < ax and by > ay and cy > ay	else if ( bx < ax && cx > ax && by > ay && cy > ay )
+	else if ( bx < ax && cx < ax && by > ay && cy > ay )	NA
+return true	return true ;
+	return true ;	1
+else if bx > ax and cx > ax and by < ay and cy < ay	else if ( bx > ax && cx > ax and by < ay && cy < ay )
+	else if ( bx > ax && cx > ax && by < ay && cy < ay )	NA
+return true	return true ;
+	return true ;	1
+else if bx > ax and cx > ax and by > ay and cy > ay	else if ( bx > ax && cx > ax and by > ay && cy > ay )
+	else if ( bx > ax && cx > ax && by > ay && cy > ay )	NA
+return true	return true ;
+	return true ;	1
+return false	return false ;
+	return false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create ints n , ax , ay , bx , by , cx and cy	int n, ax, ay, bx, by, cx, cy ;
+	int n , ax , ay , bx , by , cx , cy ;	NA
+read n , ax , ay , bx , by , cx and cy	cin >> n >> ax >> ay >> bx >> by >> cx >> cy ;
+	cin >> n >> ax >> ay >> bx >> by >> cx >> cy ;	1
+if search ( ax , ay , bx , by , cx , cy ) returns true	if ( search ( ax, ay, bx, by, cx, cy ) )
+	if ( search ( ax , ay , bx , by , cx , cy ) )	NA
+print " YES "	puts ( " YES " ) ;
+	cout << " YES " << endl ;	NA
+else	else
+	else	1
+print " NO "	puts ( " NO " ) ;
+	cout << " NO " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

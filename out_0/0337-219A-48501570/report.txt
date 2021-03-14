@@ -1,0 +1,51 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let T , i , j , count , d and m be integers with count = 1 and m = 0	int T, i, j, count = 1, d, m = 0 ;
+	int T , i , j , count = 1 , d , m = 0 ;	NA
+create an arrays of characters s and k with size 1000	char s [ 1000 ] = { 0 }, k [ 10000 ] ;
+	char s [ 1000 ] , k [ 1000 ] ;	NA
+read T and s	cin >> T >> s ;
+	cin >> T >> s ;	1
+set j to length of s	j = s. length ( ) ;
+	j = strlen ( s ) ;	NA
+sort s	sort ( s. begin ( ), s. end ( ) ) ;
+	sort ( s , s + j ) ;	NA
+for i = 0 to j exclusive	for ( int i = 0 ; i < j ; i ++ )
+	for ( i = 0 ; i < j ; i ++ )	NA
+if s [ i ] = s [ i + 1 ]	if ( s [ i ] == s [ j + 1 ] )
+	if ( s [ i ] == s [ i + 1 ] )	NA
+add 1 to count	count ++ ;
+	count += 1 ;	NA
+else	else
+	else	1
+if count % T = 0	if ( count % T == 0 )
+	if ( count % T == 0 )	1
+assign count / T to d	d = count / T ;
+	d = count / T ;	1
+loop , decrementing d , while it is not 0	while ( d -- )
+	while ( d -- )	1
+set k [ m ] to s [ i ]	k [ m ] = s [ i ] ;
+	k [ m ] = s [ i ] ;	1
+increment m	m ++ ;
+	m ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set count to 1	count = 1 ;
+	count = 1 ;	1
+else	else
+	else	1
+print " - 1 "	puts ( " -1 " ) ;
+	cout << " -1 " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+set k [ m ] to ' \ 0 '	k [ m ] ='\0';
+	k [ m ] = ' \0 ' ;	NA
+decrement T and loop further , while T is not 0	while ( T -- )
+	while ( T -- )	1
+for i from 0 while k [ i ] ! = ' \ 0 ' incrementing i , print k [ i ] in a loop	for ( int i = 0 ; k [ i ]!='\0'; i ++ ) { cout << k [ ++ i ] ; }
+	for ( i = 0 ; k [ i ] != ' \0 ' ; i ++ ) { cout << k [ i ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print new line	cout << endl ;
+	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

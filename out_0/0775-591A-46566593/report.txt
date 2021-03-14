@@ -1,0 +1,9 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let l , p , q be double values	double l, p, q ;
+	double l , p , q ;	NA
+read l , p , q	cin >> l >> p >> q ;
+	cin >> l >> p >> q ;	1
+print ( l * p ) / ( p + q ) and newline	cout << ( l * p ) / ( p + q ) << endl ;
+	cout << ( l * p ) / ( p + q ) << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

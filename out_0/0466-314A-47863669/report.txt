@@ -1,0 +1,44 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer T with T = 1	int T = 1 ;
+	int T = 1 ;	1
+while decrement T is true	while ( T -- )
+	while ( T -- )	1
+create integers n , k	int n, k ;
+	int n , k ;	NA
+read n read k	cin >> n >> k ;
+	cin >> n >> k ;	1
+create long long integer vector arr initialized with n + 1	vector < long long int > arr ( n + 1 ) ;
+	vector < long long int > arr ( n + 1 ) ;	1
+set arr [ 0 ] to 0	arr [ 0 ] = 0 ;
+	arr [ 0 ] = 0 ;	1
+for i = 0 to n exclusive , read arr [ i + 1 ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> arr [ i + 1 ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> arr [ i + 1 ] ; }	1
+create long long integer c with c = 1	long long int c = 1 ;
+	long long int c = 1 ;	1
+create integer p_1 with p_1 = 1	int p_1 = 1 ;
+	int p_i = 1 ;	NA
+create long long integers cur_d , prev_d , di , with cur_d = 0 , prev_d = 0 , di = 0	long long int cur_d = 0, prev_d, di = 0 ;
+	long long int cur_d = 0 , prev_d = 0 , di = 0 ;	NA
+for i = 2 to n inclusive	for ( int i = 2 ; i <= n ; i ++ )
+	for ( int i = 2 ; i <= n ; i ++ )	1
+set cur_d to prev_d + 1LL * arr [ p_i ] * ( c - 1 )	cur_d = prev_d + 1LL * arr [ p_i ] * ( c - 1 ) ;
+	cur_d = prev_d + 1LL * arr [ p_i ] * ( c - 1 ) ;	1
+set di to cur_d - 1LL * ( n - i ) * ( c ) * arr [ i ]	di = cur_d - 1LL * ( n - i ) * ( c ) * arr [ i ] ;
+	di = cur_d - 1LL * ( n - i ) * ( c ) * arr [ i ] ;	1
+if di is less than k	if ( di < k )
+	if ( di < k )	1
+print i print ' \ n '	cout << i <<'\n';
+	cout << i << ' \n ' ;	NA
+else	else
+	else	1
+increment c	c ++ ;
+	c ++ ;	1
+set p_i to i	p_i = i ;
+	p_i = i ;	1
+set prev_d to cur_d	prev_d = cur_d ;
+	prev_d = cur_d ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

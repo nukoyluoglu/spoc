@@ -1,0 +1,63 @@
+in the function GCD that takes integer a , b	void GCD ( int a, int b )
+	int GCD ( int a , int b )	NA
+if a < b , swap a and b	if ( a < b ) swap ( a, b ) ;
+	if ( a < b ) swap ( a , b ) ;	NA
+a = a modulo b	a %= b ;
+	a %= b ;	1
+if a is 0	if ( a == 0 )
+	if ( a == 0 )	1
+return b	return b ;
+	return b ;	1
+else	else
+	else	1
+return GCD of a and b	return GCD ( a, b ) ;
+	return GCD ( a , b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+INF = const integer with INF = 1000000000	const int INF = 1000000000 ;
+	const int INF = 1000000000 ;	1
+INF64 = const long long with INF64 = 1e18 ;	const long long INF64 = 1e18 ;
+	const long long INF64 = 1e18 ;	1
+N = const integer with N = 2020	const int N = 2020 ;
+	const int N = 2020 ;	1
+M = const integer with M = 2000	const int M = 2000 ;
+	const int M = 2000 ;	1
+MOD = const integer with MOD = 1000000007	const int MOD = 1000000007 ;
+	const int MOD = 1000000007 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , p = long long	long long n, p ;
+	long long n , p ;	NA
+read n , p	cin >> n >> p ;
+	cin >> n >> p ;	1
+a = vector of integer with a = n	vector < int > a ( n ) ;
+	vector < int > a ( n ) ;	1
+for i = 0 to cast to int ( n )	for ( int i = 0 ; i < int ( n ) ; i ++ )
+	for ( int i = 0 ; i < int ( n ) ; i ++ )	1
+s = string	string s ;
+	string s ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+if s is half	if ( s == half )
+	if ( s == " half " )	NA
+a [ i ] = 0	a [ i ] = 0 ;
+	a [ i ] = 0 ;	1
+else	else
+	else	1
+a [ i ] = 1	a [ i ] = 1 ;
+	a [ i ] = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+k = long long with k = 0	long long k = 0 ;
+	long long k = 0 ;	1
+half = long long with half = 0	long long half = 0 ;
+	long long half = 0 ;	1
+for i = n - 1 down to 0	for ( int i = n - 1 ; i >= 0 ; i -- )
+	for ( int i = n - 1 ; i >= 0 ; i -- )	1
+k = k * 2 + a [ i ]	k = k * 2 + a [ i ] ;
+	k = k * 2 + a [ i ] ;	1
+half = half + a [ i ]	half += a [ i ] ;
+	half += a [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+res = long long with res = k * p - half * ( p / 2 )	long long res = k * p - half * ( p / 2 ) ;
+	long long res = k * p - half * ( p / 2 ) ;	1
+print res	cout << res << endl ;
+	cout << res << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

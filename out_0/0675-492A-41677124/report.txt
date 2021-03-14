@@ -1,0 +1,16 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer variables n , i and l with i and l = 0	int n, i = 0, l = 0 ;
+	int n , i = 0 , l = 0 ;	NA
+read standard input to n	cin >> n ;
+	cin >> n ;	1
+while l < = n	while ( l <= n )
+	while ( l <= n )	1
+increment i by one	i ++ ;
+	i ++ ;	1
+change l to sum of l and ( i * ( i + 1 ) ) / 2	l += ( i * ( i + 1 ) ) / 2 ;
+	l += ( i * ( i + 1 ) ) / 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print i - 1	cout << i - 1 << endl ;
+	cout << i - 1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,29 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , s , t , sum , m1 = int with sum = 0 and m1 = 0	int n, s, t, sum = 0, m1 = 0 ;
+	int n , s , t , sum = 0 , m1 = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+arr = int array of size n	int arr [ n ] ;
+	int arr [ n ] ;	1
+for i = 0 to n	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read arr [ i ]	cin >> arr [ i ] ;
+	cin >> arr [ i ] ;	1
+increment sum by arr [ i ]	sum += arr [ i ] ;
+	sum += arr [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+read s then t	cin >> s >> t ;
+	cin >> s >> t ;	1
+decrement s	s -- ;
+	s -- ;	1
+decrement t	t -- ;
+	t -- ;	1
+l = int with l = min of s and t	int l = min ( s, t ) ;
+	int l = min ( s , t ) ;	NA
+h = int with h = max of s and t	int h = max ( s, t ) ;
+	int h = max ( s , t ) ;	NA
+for i = l to j increment m1 by arr [ i ]	for ( int i = l ; i <= j ; i ++ ) { m1 += arr [ i ] ; }
+	for ( int i = l ; i < h ; i ++ ) { m1 += arr [ i ] ; }	NA
+print min of m1 and sum - m1	cout << min ( m1, sum - m1 ) << endl ;
+	cout << min ( m1 , sum - m1 ) << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,38 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+change output format flag to ios : : fixed	cout << fixed << ios :: fixed ;
+	cout . setf ( ios :: fixed ) ;	NA
+change output precision to 20	cout. precision ( 20 ) ;
+	cout . precision ( 20 ) ;	NA
+declare ints n , x1 , y1 , x2 and y2	int n, x1, y1, x2, y2 ;
+	int n , x1 , y1 , x2 , y2 ;	NA
+declare int variables xl and yl = 2139062143 and xr and yr = - 2139062143	int xl = 2139062143, yl = - 213962143 ;
+	int xl = 2139062143 , xr = - 2139062143 , yl = 2139062143 , yr = - 2139062143 ;	NA
+read input to n	cin >> n ;
+	cin >> n ;	1
+declare long long area = 0	long long area = 0 ;
+	long long area = 0 ;	1
+loop , decrementing n , while it is not 0	while ( n -- )
+	while ( n -- )	1
+read x1 , y1 , x2 and y2	cin >> x1 >> y1 >> x2 >> y2 ;
+	cin >> x1 >> y1 >> x2 >> y2 ;	1
+set xl to min of xl and x1	xb = min ( xl, x1 ) ;
+	xl = min ( xl , x1 ) ;	NA
+change xr to xr if xr > x2 , else to x2	xr = xr > x2? xr : x2 ;
+	xr = ( xr > x2 ? xr : x2 ) ;	NA
+set yl to min of yl and y1	yy = min ( yl, y1 ) ;
+	yl = min ( yl , y1 ) ;	NA
+change yr to yr if yr > y2 , else to y2	yr = ( ( ( yr > y2 ) )? ( yr ) : ( ( y1 ) ) ;
+	yr = ( yr > y2 ? yr : y2 ) ;	NA
+add 1LL * ( x2 - x1 ) * ( y2 - y1 ) to area	area += 1LL * ( x2 - x1 ) * ( y2 - y1 ) ;
+	area += 1LL * ( x2 - x1 ) * ( y2 - y1 ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if xr - xl = yr - yl and area = 1LL * ( xr - xl ) * ( yr - yl )	if ( ( xr - xl ) == yr - yl ) and area == 1LL * ( xrr - xll ) * ( yr - Yl ) )
+	if ( xr - xl == yr - yl && area == 1LL * ( xr - xl ) * ( yr - yl ) )	NA
+print " YES " to stdout	puts ( " YES " ) ;
+	puts ( " YES " ) ;	1
+else	else
+	else	1
+print " NO " to stdout	puts ( " NO " ) ;
+	puts ( " NO " ) ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

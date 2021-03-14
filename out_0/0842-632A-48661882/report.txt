@@ -1,0 +1,38 @@
+set N to 1e6 + 5 , MAX to 3e7 and MOD = 1e9 + 7	const int N = 1e6 + 5, MAX = 3e7, MOD = ( 1e9 + 7 ) ;
+	const int N = 1e6 + 5 , MAX = 3e7 , MOD = 1e9 + 7 ;	NA
+create int n and p	int n, p ;
+	int n , p ;	NA
+create string a [ N ]	string a [ N ] ;
+	string a [ N ] ;	1
+let ans be ans ans	ans = ans ;
+	long long ans ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n and p	cin >> n >> p ;
+	cin >> n >> p ;	1
+for i = 0 to n exclusive , read a [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;	1
+curr = 0	int curr = 0 ;
+	long long curr = 0 ;	NA
+for i = n - 1 to 0 inclusive	for ( int i = n - 1 ; i >= 0 ; i -- )
+	for ( int i = n - 1 ; i >= 0 ; i -- )	1
+if a [ i ] = half	if ( a [ i ] == half )
+	if ( a [ i ] == " half " )	NA
+set ans to ans + curr * p	ans += curr * p ;
+	ans += curr * p ;	1
+assign curr * 2 to curr	curr *= 2 ;
+	curr *= 2 ;	1
+else	else
+	else	1
+assign ans + curr * p to ans	ans += curr * p ;
+	ans += curr * p ;	1
+set ans to ans + p / 2	ans += p / 2 ;
+	ans += p / 2 ;	1
+set curr = curr * 2	curr *= 2 ;
+	curr *= 2 ;	1
+increment curr	curr ++ ;
+	curr ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans and a newline	cout << ans << " \n " ;
+	cout << ans << " \n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,68 @@
+create const integer MAX = 2e5 + 7	const int MAX = 2e5 + 7 ;
+	const int MAX = 2e5 + 7 ;	1
+create const integer INF = 0x3f3f3f3f	const int INF = int ( 0x3f3f )3f ;
+	const int INF = 0x3f3f3f3f ;	NA
+declare integer variables N , M and K	int N, M, K ;
+	int N , M , K ;	NA
+declare an arrays of integers prea and preb with size MAX	int prea [ MAX ] = { 0 }, preb [ max ] ;
+	int prea [ MAX ] , preb [ MAX ] ;	NA
+integer function cal with integer arguments a and b and char argument c	int cal ( int a, int b, char c )
+	int cal ( int a , char c , int b )	NA
+if c = ' & ' , return a & b	if ( c =='&') return a & b ;
+	if ( c == ' & ' ) return a & b ;	NA
+if c = ' | ' , return a | b	if ( c =='|') return a | b ;
+	if ( c == ' | ' ) return a | b ;	NA
+return a ^ b	return a ^ b ;
+	return a ^ b ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read N and loop further	while ( cin >> N )
+	while ( cin >> N )	1
+create integers x = 0 and y = 1023	int x = 0, y = 1023 ;
+	int x = 0 , y = 1023 ;	NA
+for i from 0 to N exclusive	for ( int i = 0 ; i < N ; i ++ )
+	for ( int i = 0 ; i < N ; i ++ )	1
+declare character c	char c ;
+	char c ;	1
+declare integer a	int a ;
+	int a ;	1
+read c and a	cin >> c >> a ;
+	cin >> c >> a ;	1
+set x to cal ( x , c , a )	x = cal ( x, c, a ) ;
+	x = cal ( x , c , a ) ;	NA
+set y to cal ( y , c , a )	y = cal ( y, c, a ) ;
+	y = cal ( y , c , a ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare integers a and b = 0 and c = 1023	int a = 0, c = 1023, b = 0 ;
+	int a = 0 , b = 0 , c = 1023 ;	NA
+for integer i = 0 to 10 exclusive	for ( int i = 0 ; i < 10 ; i ++ )
+	for ( int i = 0 ; i < 10 ; i ++ )	1
+integer p = 1 < < i	int p = 1 << i ;
+	int p = 1 << i ;	1
+if x & p ! = 0	if ( x & p )
+	if ( x & p )	1
+if y & p ! = 0	if ( y & p )
+	if ( y & p )	1
+a | = p	a |= p ;
+	a |= p ;	1
+else	else
+	else	1
+b | = p	b |= p ;
+	b |= p ;	1
+else	else
+	else	1
+if y & p = 0 , set c to c ^ p	if ( y & p ) c ^= p ;
+	if ( ! ( y & p ) ) c ^= p ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print 3	cout << 3 << endl ;
+	cout << 3 << endl ;	1
+print " | " and a	cout << " | " << a << endl ;
+	cout << " | " << a << endl ;	1
+print " ^ " and b	cout << " ^ " << b << endl ;
+	cout << " ^ " << b << endl ;	1
+print " & " and c	cout << " & " << c << endl ;
+	cout << " & " << c << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

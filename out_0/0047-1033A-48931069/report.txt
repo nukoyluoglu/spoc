@@ -1,0 +1,15 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+integers = n , ax , ay , bx , by , cx , cy	int n, ax, ay, bx, by, cx, cy ;
+	int n , ax , ay , bx , by , cx , cy ;	NA
+read n , ax , ay , bx , by , cx , cy	cin >> n >> ax >> ay >> bx >> by >> cx >> cy ;
+	cin >> n >> ax >> ay >> bx >> by >> cx >> cy ;	1
+if ( bx - ax ) * ( cx - ax ) is less than 0 or ( by - ay ) * ( cy - ay ) < 0 then do the following	if ( ( bx - ax ) * ( cx - ax ] < 0 || ( by - ay ) * pow ( ) ) < 0 )
+	if ( ( bx - ax ) * ( cx - ax ) < 0 || ( by - ay ) * ( cy - ay ) < 0 )	NA
+output NO	cout << " NO\n " ;
+	cout << " NO " << endl ;	NA
+else	else
+	else	1
+print YES	puts ( " YES " ) ;
+	cout << " YES " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

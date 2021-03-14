@@ -1,0 +1,23 @@
+create int n , a , b , c , d , ans	int n, a, b, c, d, ans ;
+	int n , a , b , c , d , ans ;	NA
+create int array dryer of length 101	int dryer [ 101 ] ;
+	int dryer [ 101 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , a and b	cin >> n >> a >> b ;
+	cin >> n >> a >> b ;	1
+while pre decrement n	while ( n -- )
+	while ( -- n )	NA
+read c and d	cin >> c >> d ;
+	cin >> c >> d ;	1
+for i = c to d exclusive , set dryer [ i ] to 1	for ( int i = c ; i < d ; i ++ ) { dryer [ i ] = 1 ; }
+	for ( int i = c ; i < d ; i ++ ) { dryer [ i ] = 1 ; }	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = a to b exclusive	for ( int i = a ; i < b ; i ++ )
+	for ( int i = a ; i < b ; i ++ )	1
+if dryer [ i ] equal to 0 , increment ans	if (! dryer [ i ] ) ans ++ ;
+	if ( dryer [ i ] == 0 ) { ans ++ ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

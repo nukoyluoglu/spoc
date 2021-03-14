@@ -1,0 +1,85 @@
+M = 110	const int M = 110 ;
+	const int M = 110 ;	1
+s = array of M by M char	char s [ M ] [ M + 1 ] ;
+	char s [ M ] [ M ] ;	NA
+a = array of M char	char a [ M ] ;
+	char a [ M ] ;	1
+f and t = array of M int	int f [ 0 ], t [ M ] ;
+	int f [ M ] , t [ M ] ;	NA
+b = array of M char	char b [ M ] ;
+	char b [ M ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;
+	int n ;	1
+while read a	while ( cin >> a )
+	while ( cin >> a )	1
+read n	cin >> n ;
+	cin >> n ;	1
+c = 0	c = 0 ;
+	int c = 0 ;	NA
+fill f with 0	memset ( f, 0, sizeof ( f ) ) ;
+	memset ( f , 0 , sizeof ( f ) ) ;	NA
+fill t with 0	memset ( t, 0, sizeof t ) ;
+	memset ( t , 0 , sizeof ( t ) ) ;	NA
+len = length of a	int len = a. length ( ) ;
+	int len = strlen ( a ) ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read s [ i ]	cin >> s [ i ] ;
+	cin >> s [ i ] ;	1
+len1 = length of s [ i ]	len1 = s [ i ]. length ( ) ;
+	int len1 = strlen ( s [ i ] ) ;	NA
+if len1 < len	if ( len1 < len )
+	if ( len1 < len )	1
+t [ i ] = 1	t [ i ] = 1 ;
+	t [ i ] = 1 ;	1
+continue	continue ;
+	continue ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for j = 0 to len exclusive	for ( int j = 0 ; j < len ; j ++ )
+	for ( int j = 0 ; j < len ; j ++ )	1
+if a [ j ] is not s [ i ] [ j ]	if ( a [ j ]!= s [ i ]. at ( j ) )
+	if ( a [ j ] != s [ i ] [ j ] )	NA
+t [ i ] = 1	t [ i ] = 1 ;
+	t [ i ] = 1 ;	1
+break	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if t [ i ] is 0	if ( t [ i ] == 0 )
+	if ( t [ i ] == 0 )	1
+f [ i ] = 1	f [ i ] = 1 ;
+	f [ i ] = 1 ;	1
+fill b with 0	memset ( b, 0, sizeof ( b ) ) ;
+	memset ( b , 0 , sizeof ( b ) ) ;	NA
+copy from s [ i ] to b	strcpy ( b, s [ i ] ) ;
+	strcpy ( b , s [ i ] ) ;	NA
+increment c	c ++ ;
+	c ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if c is 0	if ( c == 0 )
+	if ( c == 0 )	1
+print a	cout << a << endl ;
+	cout << a << endl ;	1
+else	else
+	else	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if f [ i ] is 1	if ( f [ i ] == 1 )
+	if ( f [ i ] == 1 )	1
+if b > s [ i ]	if ( b > s [ i ] )
+	if ( strcmp ( b , s [ i ] ) > 0 )	NA
+fill b with 0	memset ( b, 0, sizeof ( b ) ) ;
+	memset ( b , 0 , sizeof ( b ) ) ;	NA
+copy from s [ i ] to b	strcpy ( b, s [ i ] ) ;
+	strcpy ( b , s [ i ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print b	cout << b << endl ;
+	cout << b << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,28 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare int variable n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+declare an array of integers a with size 1005	int a [ 1005 ] ;
+	int a [ 1005 ] ;	1
+declare an array of integers ans with size 1005	int ans [ 1005 ] ;
+	int ans [ 1005 ] ;	1
+for i from 1 to n inclusive , read a [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 1 ; i <= n ; i ++ ) { cin >> a [ i ] ; }	NA
+create integer j = 0	int j = 0 ;
+	int j = 0 ;	1
+loop i from 1 to n exclusive	for ( int i = 1 ; i < n ; i ++ )
+	for ( int i = 1 ; i < n ; i ++ )	1
+if a [ i + 1 ] < = a [ i ] , set ans [ j ] to a [ i ] and increment j	if ( a [ i + 1 ] <= a [ j ] ) ans [ j ++ ] = a [ 1 ] ;
+	if ( a [ i + 1 ] <= a [ i ] ) { ans [ j ++ ] = a [ i ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+set ans [ j ] to a [ n ] and increment j	ans [ j ++ ] = a [ n ] ;
+	ans [ j ++ ] = a [ n ] ;	1
+print j	cout << j << endl ;
+	cout << j << endl ;	1
+for i = 0 to j - 1 exclusive , print ans [ i ] and " "	for ( int i = 0 ; i < j - 1 ; i ++ ) { cout << ans [ i ] << " " ; }
+	for ( int i = 0 ; i < j - 1 ; i ++ ) cout << ans [ i ] << " " ;	NA
+print ans [ j - 1 ]	cout << ans [ j - 1 ] ;
+	cout << ans [ j - 1 ] << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

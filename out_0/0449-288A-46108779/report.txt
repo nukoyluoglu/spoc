@@ -1,0 +1,37 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n and k	int n, k ;
+	int n , k ;	NA
+read n and k	cin >> n >> k ;
+	cin >> n >> k ;	1
+if n < k or ( k = 1 and n ! = 1 )	if ( n < k || ( k == 1 && n!= 1 ) )
+	if ( n < k || ( k == 1 && n != 1 ) )	NA
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+else if k = 1 and n = 1	else if ( k == 1 && n == 1 )
+	else if ( k == 1 && n == 1 )	1
+print ' a '	cout <<'a';
+	cout << ' a ' << endl ;	NA
+else	else
+	else	1
+for i = 1 to n - ( k - 2 ) inclusive	for ( int i = 1 ; i <= n - ( k - 2 ) ; i ++ )
+	for ( int i = 1 ; i <= n - ( k - 2 ) ; i ++ )	1
+if i & 1	if ( i & 1 )
+	if ( i & 1 )	1
+print ' a '	cout <<'a';
+	cout << ' a ' ;	NA
+else	else
+	else	1
+print ' b '	cout <<'b';
+	cout << ' b ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare integer variable x = n - ( k - 2 )	int x = n - ( k - 2 ) ;
+	int x = n - ( k - 2 ) ;	1
+declare character ch = ' c '	char ch ='c';
+	char ch = ' c ' ;	NA
+for i = 1 to k - 2 inclusive print ch and increment it	for ( int i = 1 ; i <= k - 2 ; i ++ ) cout << ch ;
+	for ( int i = 1 ; i <= k - 2 ; i ++ ) { cout << ch ++ ; }	NA
+print new line	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

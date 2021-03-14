@@ -1,0 +1,15 @@
+create integer array h with size 3	int h [ 3 ] ;
+	int h [ 3 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long doubles a , b , c	long long a, b, c ;
+	long double a , b , c ;	NA
+read a read b read c	cin >> a >> b >> c ;
+	cin >> a >> b >> c ;	1
+create long long double f with f = b + c	long long double f = b + c ;
+	long double f = b + c ;	NA
+create long long double t with t = a / f	long long double t = a / f ;
+	long double t = a / f ;	NA
+print b * t print ' \ n '	cout << b * t <<'\n';
+	cout << b * t << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

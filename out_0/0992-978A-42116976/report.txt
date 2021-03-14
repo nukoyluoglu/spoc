@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n and sum be integers , with sum = 0 ; a and b are arrays of integers with size 50 and v is an array of integers with size 1001 filled with 0	int n, a [ 50 ], v [ 1001 ] = { 0 }, sum = 0 ;
+	int a [ 50 ] , b [ 50 ] , v [ 1001 ] = { 0 } , n , sum = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+read n elements into a	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;	1
+for integer i = n - 1 to 0 inclusive counting down	for ( int i = n - 1 ; i >= 0 ; i -- )
+	for ( int i = n - 1 ; i >= 0 ; i -- )	1
+if v [ a [ i ] ] is 0	if ( v [ a [ i ] ] == 0 )
+	if ( ! v [ a [ i ] ] )	NA
+set value of v [ a [ i ] ] to 1	v [ a [ i ] ] = 1 ;
+	v [ a [ i ] ] = 1 ;	1
+set value of b [ sum ] to a [ i ]	b [ sum ] = a [ i ] ;
+	b [ sum ] = a [ i ] ;	1
+increment sum	sum ++ ;
+	sum ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print sum and a new line	cout << sum << endl ;
+	cout << sum << endl ;	1
+for i = sum - 1 to 0 exclusive counting down , print b [ i ] and ' '	for ( int i = sum - 1 ; i > 0 ; i -- ) { cout << b [ i ] <<' '; }
+	for ( int i = sum - 1 ; i > 0 ; i -- ) cout << b [ i ] << ' ' ;	NA
+print b [ 0 ] and a new line	cout << b [ 0 ] << endl ;
+	cout << b [ 0 ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

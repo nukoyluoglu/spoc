@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n and a	long long n, a ;
+	long long n , a ;	NA
+read n and keep looping	while ( cin >> n )
+	while ( cin >> n )	1
+set a to 3	a = 3 ;
+	a = 3 ;	1
+while n modulo a is 0	while ( n % a == 0 )
+	while ( n % a == 0 ) a *= 3 ;	NA
+print n / a + 1	cout << n / a + 1 << endl ;
+	cout << n / a + 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

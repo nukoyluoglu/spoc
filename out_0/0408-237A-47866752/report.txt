@@ -1,0 +1,29 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+integers = t	int t ;
+	int t ;	1
+read t	cin >> t ;
+	cin >> t ;	1
+integers array = arr [ t ] [ 2 ]	int arr [ t ] [ 2 ] ;
+	int arr [ t ] [ 2 ] ;	1
+read arr [ i ] [ 0 ] , arr [ i ] [ 1 ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> arr [ i ] [ 0 ] >> arr ( i ) [ 1 ] ) ; }
+	for ( int i = 0 ; i < t ; i ++ ) cin >> arr [ i ] [ 0 ] >> arr [ i ] [ 1 ] ;	NA
+set int count to 0 , temp to 1	int count = 0, temp = 1 ;
+	int count = 0 , temp = 1 ;	NA
+for i = 1 to less than t do the following	for ( int i = 1 ; i < t ; i ++ )
+	for ( int i = 1 ; i < t ; i ++ )	1
+set if ( temp > count ) count equals temp	if ( temp > count ) count = temp ;
+	if ( temp > count ) count = temp ;	1
+if arr [ i - 1 ] [ 0 ] is arr [ i ] [ 0 ] & & arr [ i - 1 ] [ 1 ] equals arr [ i ] [ 1 ] then do next	if ( arr [ i - 1 ] [ 0 ] == arr [ 2 ] [ 1 ] && arr [ j ] [ i ]!= arr [ 3 ] [ 4 ] )
+	if ( arr [ i - 1 ] [ 0 ] == arr [ i ] [ 0 ] && arr [ i - 1 ] [ 1 ] == arr [ i ] [ 1 ] )	NA
+add one to temp	temp ++ ;
+	temp ++ ;	1
+else	else
+	else	1
+set temp to 1	temp = 1 ;
+	temp = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set if ( temp > count ) count equals temp	if ( temp > count ) count = temp ;
+	if ( temp > count ) count = temp ;	1
+output count	cout << count << endl ;
+	cout << count << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

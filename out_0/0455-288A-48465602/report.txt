@@ -1,0 +1,18 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let s , s1 be strings	string s, s1 ;
+	string s , s1 ;	NA
+let n , k be integers	int n, k ;
+	int n , k ;	NA
+read n , k	cin >> n >> k ;
+	cin >> n >> k ;	1
+if ( k is greater than n or ( k is equal to 1 and n is greater than 1 ) ) , and print - 1 and endline , return 0	if ( k > n || k == 1 && n > 1 ) return cout << - 1 << endl, 0 ;
+	if ( k > n || ( k == 1 && n > 1 ) ) return cout << " -1 " << endl , 0 ;	NA
+if ( k is equal to 1 ) print a and endline , return 0	if ( k == 1 ) return cout << a << endl, 0 ;
+	if ( k == 1 ) return cout << " a " << endl , 0 ;	NA
+for ( i = 1 to k - 2 inclusive ) , s is equal to s + b + i	for ( int i = 1 ; i <= k - 2 ; i ++ ) { s += b + i ; }
+	for ( int i = 1 ; i <= k - 2 ; i ++ ) s += ' b ' + i ;	NA
+for ( i = 1 to n - k + 2 inclusive ) , s1 = s1 + ( if i modulus 2 ) ? a else b	for ( int i = 1 ; i <= n - k + 2 ; i ++ ) { s1 += ( i % 2? a : b ) ; }
+	for ( int i = 1 ; i <= n - k + 2 ; i ++ ) s1 += i % 2 ? ' a ' : ' b ' ;	NA
+print s1 and s and newline	cout << s1 << " " << s << endl ;
+	cout << s1 << s << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

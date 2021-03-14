@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , b , p , k , ptot , btot = int	int n, b, p, k, ptot, btot ;
+	int n , b , p , k , ptot , btot ;	NA
+read n then b then p	cin >> n >> b >> p ;
+	cin >> n >> b >> p ;	1
+set ptot to p * n	ptot = p * n ;
+	ptot = p * n ;	1
+set btot to 0	btot = 0 ;
+	btot = 0 ;	1
+loop while n is greater than 1	while ( n > 1 )
+	while ( n > 1 )	1
+set k to 1 bitshift left by ( floor of log2 of n ) as int	k = 1 << ( int ) log2 ( n ) ;
+	k = 1 << ( ( int ) floor ( log2 ( n ) ) ) ;	NA
+decrement n by k / 2	n -= k / 2 ;
+	n = n - ( k / 2 ) ;	NA
+increment btot by ( k * b ) + ( k / 2 )	btot += ( k * b ) + ( k / 2 ) ;
+	btot += ( ( k * b ) + ( k / 2 ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print btot and ptot	cout << btot << " " << ptot << endl ;
+	cout << btot << " " << ptot << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

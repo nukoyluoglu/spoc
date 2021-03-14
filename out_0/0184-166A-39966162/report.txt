@@ -1,0 +1,121 @@
+create int array a of size 100 containing array of size 100	int n, a [ 100 ] = { } ;
+	int a [ 100 ] [ 100 ] ;	NA
+declare margesort taking in ints l and r and int arrays p and t	void margesort ( int l, int r )
+	void margesort ( int p [ ] , int t [ ] , int l , int r ) ;	NA
+declare marge taking in int l , m , and r and int arrays p and t	int marge ( int l, int m, int r )
+	void marge ( int p [ ] , int t [ ] , int l , int m , int r ) ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let ints n and k and int arrays p of size 100 and t of size 100	int n, k, p [ 100 ] = { }, ans = { 0 } ;
+	int n , k , p [ 100 ] , t [ 100 ] ;	NA
+read n and k	cin >> n >> k ;
+	cin >> n >> k ;	1
+for i - 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read p [ i ] and t [ i ]	cin >> p [ i ] >> t [ j ] ;
+	cin >> p [ i ] >> t [ i ] ;	NA
+increment a [ p [ i ] ] [ t [ i ] ]	a [ p [ i ] ] [ t [ 1 ] ] ++ ;
+	a [ p [ i ] ] [ t [ i ] ] ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+call margesort with arguments p , t , 0 , and n - 1	margesort ( p, t, 0, n - 1 ) ;
+	margesort ( p , t , 0 , n - 1 ) ;	NA
+print a [ p [ k - 1 ] ] [ t [ k - 1 ] ]	cout << a [ p ] k - 1 ] ] [ t [ k - i ] ] << endl ;
+	cout << a [ p [ k - 1 ] ] [ t [ k - 1 ] ] << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+decalre margesort taking in ints l and r and int arrays p and t	void margesort ( int p [ ], int t [ ] )
+	void margesort ( int p [ ] , int t [ ] , int l , int r )	NA
+if l is less than r	if ( l < r )
+	if ( l < r )	1
+let int m = ( l + r - 1 ) / 2	int m = ( l + r - 1 ) / 2 ;
+	int m = ( l + r - 1 ) / 2 ;	1
+call margesort ( p , t , l , m )	margesort ( p, t, l, m ) ;
+	margesort ( p , t , l , m ) ;	NA
+call margesort ( p , t , m + 1 , r )	margesort ( p, t, m + 1, r ) ;
+	margesort ( p , t , m + 1 , r ) ;	NA
+call margesort with arguments p , t , l , m , and r	margesort ( p, t, l, m, r ) ;
+	marge ( p , t , l , m , r ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+declare marge taking in ints l , m , and r and int arrays p and t	int marge ( int l, int m, int r )
+	void marge ( int p [ ] , int t [ ] , int l , int m , int r )	NA
+let ints i , j , and k	int i, j, k ;
+	int i , j , k ;	NA
+create integer n1 = m - l + 1	int n1 = m - l + 1 ;
+	int n1 = m - l + 1 ;	1
+let integer n2 = r - m	int n2 = r - m ;
+	int n2 = r - m ;	1
+create int arrays L of size n1 , R of size n2 , ll of size n1 , and rr of size n2	int L [ n1 ], R [ n2 ], ll ( n1 ), rr ( n2 ) ;
+	int L [ n1 ] , R [ n2 ] , ll [ n1 ] , rr [ n2 ] ;	NA
+for i = 0 to n1 exclusive	for ( int i = 0 ; i < n1 ; i ++ )
+	for ( i = 0 ; i < n1 ; i ++ )	NA
+set L [ i ] to p [ l + i ]	L [ i ] = p [ l + i ] ;
+	L [ i ] = p [ l + i ] ;	1
+set ll [ i ] to t [ l + i ]	l [ i ] = t [ l + i ] ;
+	ll [ i ] = t [ l + i ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for j = 0 to n2 exclusive	for ( int j = 0 ; j < n2 ; j ++ )
+	for ( j = 0 ; j < n2 ; j ++ )	NA
+set R [ j ] to p [ m + 1 + j ]	R [ j ] = p [ m + 1 + j ] ;
+	R [ j ] = p [ m + 1 + j ] ;	1
+set rr [ j ] to t [ m + 1 + j ]	rr [ j ] = t [ m + 1 + j ] ;
+	rr [ j ] = t [ m + 1 + j ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set i to 0	i = 0 ;
+	i = 0 ;	1
+set j to 0	j = 0 ;
+	j = 0 ;	1
+set k to l	k = l ;
+	k = l ;	1
+while i is less than n1 and j is less than n2	while ( i < n1 && j < n2 )
+	while ( i < n1 && j < n2 )	1
+if L [ i ] is greater than R [ j ]	if ( L [ i ] > R [ j ] )
+	if ( L [ i ] > R [ j ] )	1
+set p [ k ] to L [ i ]	p [ k ] = L [ i ] ;
+	p [ k ] = L [ i ] ;	1
+set t [ k ] to ll [ i ]	t [ k ] = ll [ i ] ;
+	t [ k ] = ll [ i ] ;	1
+increase i by 1	i ++ ;
+	i ++ ;	1
+else if L [ i ] is equal to R [ j ] and ll [ i ] is less than or equal to rr [ j ]	else if ( L [ i ] =='R'[ j ] && ll [ ++ i ] <= rr [ ++ j ] )
+	else if ( L [ i ] == R [ j ] && ll [ i ] <= rr [ j ] )	NA
+set p [ k ] to L [ i ]	p [ k ] = L [ i ] ;
+	p [ k ] = L [ i ] ;	1
+set t [ k ] to ll [ i ]	t [ k ] = ll [ i ] ;
+	t [ k ] = ll [ i ] ;	1
+increment i	i ++ ;
+	i ++ ;	1
+else	else
+	else	1
+set p [ k ] to R [ j ]	p [ k ] = R [ j ] ;
+	p [ k ] = R [ j ] ;	1
+set t [ k ] to rr [ j ]	t [ k ] = rr [ j ] ;
+	t [ k ] = rr [ j ] ;	1
+increment j	j ++ ;
+	j ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+increase k by 1	k ++ ;
+	k ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+while i is less than n1	while ( i < n1 )
+	while ( i < n1 )	1
+set p [ k ] to L [ i ]	p [ k ] = L [ i ] ;
+	p [ k ] = L [ i ] ;	1
+set t [ k ] to ll [ i ]	t [ k ] = ll [ i ] ;
+	t [ k ] = ll [ i ] ;	1
+increment i	i ++ ;
+	i ++ ;	1
+increment k	k ++ ;
+	k ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+while j is less than n2	while ( j < n2 )
+	while ( j < n2 )	1
+set p [ k ] to R [ j ]	p [ k ] = R [ j ] ;
+	p [ k ] = R [ j ] ;	1
+set t [ k ] to rr [ j ]	t [ k ] = rr [ j ] ;
+	t [ k ] = rr [ j ] ;	1
+increment j	j ++ ;
+	j ++ ;	1
+add 1 to k	k ++ ;
+	k ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,44 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer x	int x ;
+	int x ;	1
+create long long integer k with k = 0	long long int k = 0 ;
+	long long int k = 0 ;	1
+read x	cin >> x ;
+	cin >> x ;	1
+create long long integer vector v	vector < long long int > v ;
+	vector < long long int > v ;	1
+create integer arrays a , b , with a size x , b size x	int a [ 0 ], b [ x ] ;
+	int a [ x ] , b [ x ] ;	NA
+for i = 0 to x exclusive	for ( int i = 0 ; i < x ; i ++ )
+	for ( int i = 0 ; i < x ; i ++ )	1
+create integer s	int s ;
+	int s ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+increment k by s	k += s ;
+	k += s ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to x exclusive	for ( int i = 0 ; i < x ; i ++ )
+	for ( int i = 0 ; i < x ; i ++ )	1
+create long long integer d	long long int d ;
+	long long int d ;	1
+read d	cin >> d ;
+	cin >> d ;	1
+add element d to end of v	v. push_back ( d ) ;
+	v . push_back ( d ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort elements from beginning of v to end of v	sort ( v. begin ( ), v. end ( ) ) ;
+	sort ( v . begin ( ) , v . end ( ) ) ;	NA
+create long long integer s with s = v [ x - 1 ] + v [ x - 2 ]	long long int s = v [ x - 1 ] + v [ v - 2 ] ;
+	long int s = v [ x - 1 ] + v [ x - 2 ] ;	NA
+if s is greater than or equal to k	if ( s >= k )
+	if ( s >= k )	1
+print " YES " print newline	cout << " YES " << endl ;
+	cout << " YES " << endl ;	1
+else	else
+	else	1
+print " NO " print newline	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

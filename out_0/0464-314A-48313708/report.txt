@@ -1,0 +1,23 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , k , sum , cur with sum = 0 , cur = 0	long long n, k, sum = 0, cur = 0 ;
+	long long n , k , sum = 0 , cur = 0 ;	NA
+read n read k	cin >> n >> k ;
+	cin >> n >> k ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( long long i = 1 ; i <= n ; i ++ )	NA
+create integer a	int a ;
+	int a ;	1
+read a	cin >> a ;
+	cin >> a ;	1
+if i is greater than 1 and sum - ( i - cur - 1 ) * ( n - 1 ) * a is less than k	if ( i > 1 && ( sum - ( i - cur - 1 ) * ( n - i ) * a < k )
+	if ( i > 1 && sum - ( i - cur - 1 ) * ( n - i ) * a < k )	NA
+print i print newline	cout << i << endl ;
+	cout << i << endl ;	1
+increment cur	cur ++ ;
+	cur ++ ;	1
+else	else
+	else	1
+increment sum by a * ( i - cur - 1 )	sum += a * ( i - cur - 1 ) ;
+	sum += a * ( i - cur - 1 ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

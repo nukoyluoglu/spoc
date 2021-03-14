@@ -1,0 +1,35 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare vector of long longs v	vector < long long > v ;
+	vector < long long > v ;	1
+create new vector of long longs v1	vector < long long > v1 ;
+	vector < long long > v1 ;	1
+declare long longs i , j , n , ans , min , t and flag with min = 1000000002	long long i, j, n, ans, min = 1000000002, t, flag ;
+	long long i , j , n , ans , min = 1000000002 , t , flag ;	NA
+read input to n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	NA
+declare long long variable x	long long x ;
+	long long x ;	1
+read from the input to x	cin >> x ;
+	cin >> x ;	1
+push x to the back of v	v. push_back ( x ) ;
+	v . push_back ( x ) ;	NA
+if x is less than min , set min to x	if ( x < min ) min = x ;
+	if ( x < min ) { min = x ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	NA
+if min = v [ i ] , push i into v1	if ( min == v [ i ] ) v1. push_back ( i ) ;
+	if ( min == v [ i ] ) { v1 . push_back ( i ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+assign 1000000002 to min	int min = 1000000002 ;
+	min = 1000000002 ;	NA
+start for loop from i = 1 to length of v1 exclusive	for ( int i = 1 ; i < v1. size ( ) ; i ++ )
+	for ( i = 1 ; i < v1 . size ( ) ; i ++ )	NA
+if ( v1 [ i ] - v1 [ i - 1 ] ) is less than min , assign v1 [ i ] - v1 [ i - 1 ] to min	if ( ( v1. at ( i ] - v1 [ i - 1 ] ) < min ) { min = v2. at_l ( i + 1 ) ; }
+	if ( ( v1 [ i ] - v1 [ i - 1 ] ) < min ) { min = ( v1 [ i ] - v1 [ i - 1 ] ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print min to the standard output	cout << min << endl ;
+	cout << min << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

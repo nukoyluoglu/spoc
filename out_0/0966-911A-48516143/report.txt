@@ -1,0 +1,35 @@
+create new array of long longs a with 200050 elements	long long a [ 200050 ] ;
+	long long a [ 200050 ] ;	1
+create new array of long longs b with size 200050	long long b [ 200050 ] ;
+	long long b [ 200050 ] ;	1
+declare integer variable len with value 0	int len = 0 ;
+	int len = 0 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare new integer called n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i from 0 to n exclusive , read standard input to a [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;	1
+create long long minn with value 1000000009	long long minn = 1000000009 ;
+	long long minn = 1000000009 ;	1
+for integer i = 0 to n exclusive , set minn to min of minn and a [ i ]	for ( int i = 0 ; i < n ; i ++ ) { minn = min ( minn, a [ i ] ) ; }
+	for ( int i = 0 ; i < n ; i ++ ) { minn = min ( minn , a [ i ] ) ; }	NA
+for integer i = 0 to n exclusive incrementing i	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if a [ i ] = minn	if ( a [ i ] == minn )
+	if ( a [ i ] == minn )	1
+assign i to b [ len ]	b [ len ] = i ;
+	b [ len ] = i ;	1
+increment len by one	len ++ ;
+	len ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+declare new long long called minnn = 200000050	long long minnn = 200000050 ;
+	long long minnn = 200000050 ;	1
+in a for loop , change i from 1 to len exclusive , assigning min of minnn and b [ i ] - b [ i - 1 ] to minnn on each loop	for ( int i = 1 ; i < len ; i ++ ) { minnn = min ( minnn, b [ i ] - b [ 1 ] ) ; }
+	for ( int i = 1 ; i < len ; i ++ ) { minnn = min ( minnn , b [ i ] - b [ i - 1 ] ) ; }	NA
+print minnn to the standard output	cout << minnn << endl ;
+	cout << minnn << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

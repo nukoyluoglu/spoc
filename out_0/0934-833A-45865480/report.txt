@@ -1,0 +1,99 @@
+in function maxx taking two references to long long ints a and b and returning a long long int	long long int maxx ( long long & a, long long int & b )
+	long long int maxx ( long long int & a , long long int & b )	NA
+return a if it is greater than b else return b	return a > b? a : b ;
+	return a > b ? a : b ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+in function minn taking two references to long long ints a and b and returning a long long int	long long minn ( long long & a, long long int & b )
+	long long int minn ( long long int & a , long long int & b )	NA
+return b if a is greater than b else return a	return a > b? b : a ;
+	return a > b ? b : a ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+define empty function boostISO	void boostISO ( ) { }
+	void boostIO ( ) { }	NA
+in function gcd taking two long long ints a and b and returning a long long int	long long gcd ( long long a, long long b )
+	long long int gcd ( long long int a , long long int b )	NA
+return a if b is 0 else return gcd of b and a mod b	return b == 0? a : gcd ( b, a % b ) ;
+	return b == 0 ? a : gcd ( b , a % b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+in function int_gcd taking two ints a and b and returning an int	int int_gcd ( int a, int b )
+	int int_gcd ( int a , int b )	NA
+returna if b is 0 else return int_gcd of b and a mod b	return b == 0? a : int_gcd ( b, a % b ) ;
+	return b == 0 ? a : int_gcd ( b , a % b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+in function lcm taking two long long ints a and b and returning a long long int	long long lcm ( long long a, long long b )
+	long long int lcm ( long long int a , long long int b )	NA
+return a / gcd of a and b * b	return a / gcd ( a, b ) * b ;
+	return a / gcd ( a , b ) * b ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+in function poww taking three long long ints base , exp and mod and returning a long long int	long long poww ( long long base, long long exp, long double mod )
+	long long int poww ( long long int base , long long int exp , long long int mod )	NA
+set base to base modulo mod	base %= mod ;
+	base %= mod ;	1
+result = long long int with result = 1	long long int result = 1 ;
+	long long int result = 1 ;	1
+loop while exp is greater than 0	while ( exp > 0 )
+	while ( exp > 0 )	1
+if exp bitwise - and 1 is 1 then set result to ( result * base ) modulo mod	if ( exp & 1 ) result = ( result * base ) % mod ;
+	if ( exp & 1 ) result = ( result * base ) % mod ;	1
+set base to ( base * base ) modulo mod	base = ( base * base ) % mod ;
+	base = ( base * base ) % mod ;	1
+set exp to exp bitshift right by 1	exp >>= 1 ;
+	exp >>= 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return result	return result ;
+	return result ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in function cube_root taking a long long int x and returning an int	int cube_root ( long long int x )
+	int cube_root ( long long int x )	1
+l , r = long long int with l = 1 and r = 1e6 + 10	long long int l = 1, r = 1e6 + 10 ;
+	long long int l = 1 , r = 1e6 + 10 ;	NA
+loop while l is less than r	while ( l < r )
+	while ( l < r )	1
+mid = long long int with mid = ( l + r ) bitshift right by 1	long long int mid = ( l + r ) >> 1 ;
+	long long int mid = ( l + r ) >> 1 ;	1
+if mid * mid * mid is greater or equal to x	if ( mid + mid * mid >= x )
+	if ( mid * mid * mid >= x )	NA
+set r to mid	r = mid ;
+	r = mid ;	1
+else	else
+	else	1
+set l ti mid + 1	l = mid + 1 ;
+	l = mid + 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if l * l * l is x then return l	if ( l + l * l == x ) return l ;
+	if ( l * l * l == x ) { return l ; }	NA
+return - 1	return - 1 ;
+	return - 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call boostISO	boostISO ( ) ;
+	boostIO ( ) ;	NA
+t = int	int t ;
+	int t ;	1
+read t	cin >> t ;
+	cin >> t ;	1
+loop t times	while ( t -- )
+	while ( t -- )	1
+a , b = long long int	long long int a, b ;
+	long long int a , b ;	NA
+read a then b	cin >> a >> b ;
+	cin >> a >> b ;	1
+value = int with value = cube_root of a * b	int value = cube_root ( a * b ) ;
+	int value = cube_root ( a * b ) ;	1
+if value is not - 1	if ( value!= - 1 )
+	if ( value != - 1 )	NA
+g = long long int with g = gcd of a and b	long long int g = gcd ( a, b ) ;
+	long long int g = gcd ( a , b ) ;	NA
+if g is a multiple of value	if ( g % 2 == 0 )
+	if ( g % value == 0 )	NA
+print " YES "	puts ( " YES " ) ;
+	puts ( " Yes " ) ;	NA
+continue loop	continue ;
+	continue ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " NO "	puts ( " NO " ) ;
+	puts ( " No " ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

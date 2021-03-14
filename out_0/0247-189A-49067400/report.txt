@@ -1,0 +1,20 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n , create integer array a with size 3	int n, a [ 3 ] ;
+	int n , a [ 3 ] ;	NA
+read n read a [ 0 ] read a [ 1 ] read a [ 2 ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ 0 ] >> b [ i ] ; }
+	cin >> n >> a [ 0 ] >> a [ 1 ] >> a [ 2 ] ;	NA
+sort elements from a to a + 3	sort ( a, a + 3 ) ;
+	sort ( a , a + 3 ) ;	NA
+create integers i , j , k , ans with i = 0 , j = 0 , k = 0 , ans = - 1	int i = 0, j = 1, k = 0 }, ans = - 1 ;
+	int i = 0 , j = 0 , k = 0 , ans = - 1 ;	NA
+for i = 0 to a * a [ 2 ] is less than n + 1 , incrementing i	for ( int i = 0 ; a * a [ 2 ] < n + 1 ; i ++ )
+	for ( i = 0 ; i * a [ 2 ] < n + 1 ; i ++ )	NA
+for j = 0 to i * a [ 2 ] + j * a [ 1 ] is less than n + 1 , incrementing j	for ( int j = 0 ; i * a [ 2 ] + j * i [ 1 ] < n + 1 ; j ++ )
+	for ( j = 0 ; i * a [ 2 ] + j * a [ 1 ] < n + 1 ; j ++ )	NA
+if ( n - i * a [ 2 ] - j * a [ 1 ] ) % a [ 0 ] is 0 , set ans to maximum of ans and i + j + ( n - i * a [ 2 ] - j * a [ 1 ] ) / a [ 0 ] )	if ( ( n - i * a [ 2 ] - j * i [ 1 ] ) % a [ 0 ] == 0 ) { ans = max ( ans, ( i + j + ( n / i * ( a [ 3 ] - ( j * a ] ) ) ) / a [ 7 ] ) ; }
+	if ( ( n - i * a [ 2 ] - j * a [ 1 ] ) % a [ 0 ] == 0 ) { ans = max ( ans , i + j + ( n - i * a [ 2 ] - j * a [ 1 ] ) / a [ 0 ] ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans print newline	cout << ans << endl ;
+	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

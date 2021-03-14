@@ -1,0 +1,41 @@
+c array of size 500005 ] , s , bit array size of 100 , origin array size of 100 = long long integers	long long int c [ 500005 ], s, bit [ 100 ], origin [ 50 ] ;
+	long long c [ 500005 ] , s , bit [ 100 ] , origin [ 100 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+integers = n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to less than n do the following	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+ong a , b = long long integers	long long a, b ;
+	long long a , b ;	NA
+read a , b	cin >> a >> b ;
+	cin >> a >> b ;	1
+set s ^ = a , c [ i ] to a ^ b	if ( s ^ a ) c [ i ] = a ^ b ;
+	s ^= a , c [ i ] = a ^ b ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+set integer cnt to 0	int cnt = 0 ;
+	int cnt = 0 ;	1
+for i = 0 to less than n do the following	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+for j = 0 to less than cnt do the following	for ( int j = 0 ; j < cnt ; j ++ )
+	for ( int j = 0 ; j < cnt ; ++ j )	NA
+if c [ i ] & bit [ j ] is true	if ( c [ i ] & bit [ j ] )
+	if ( c [ i ] & bit [ j ] ) c [ i ] ^= origin [ j ] ;	NA
+set if ( c [ i ] ) is true then origin [ cnt ] equals c [ i ] , bit [ cnt ] equals c [ i ] and - c [ i ] , and add 1 to cnt	if ( ( c [ i ] ) ) origin [ cnt ++ ] = c [ 1 ], bit [ ++ cnt ] += c [ j ] ;
+	if ( c [ i ] ) origin [ cnt ] = c [ i ] , bit [ cnt ] = c [ i ] & - c [ i ] , ++ cnt ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for j = 0 to less than cnt do the following	for ( int j = 0 ; j < cnt ; j ++ )
+	for ( int j = 0 ; j < cnt ; ++ j )	NA
+if s & bit [ j ] is true	if ( s & bit [ j ] )
+	if ( s & bit [ j ] ) s ^= origin [ j ] ;	NA
+if s is true	if ( s )
+	if ( s )	1
+output 1 / 1	cout << 1 / 1 << endl ;
+	cout << " 1/1 " << endl ;	NA
+else	else
+	else	1
+output ( 1ll , cnt ) - 1 , / , ( 1ll < < cnt )	cout << ( 1ll, cnt ) - 1 << " " << 1ll << cnt << " \n " ;
+	cout << ( 1ll << cnt ) - 1 << ' / ' << ( 1ll << cnt ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

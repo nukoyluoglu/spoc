@@ -1,0 +1,33 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variables n , m , u , v , x and y	int n, m, u, v, x, y ;
+	int n , m , u , v , x , y ;	NA
+read user input to n	cin >> n ;
+	cin >> n ;	1
+a is a new array of integers with size 105	int a [ 105 ] ;
+	int a [ 105 ] = { 0 } ;	NA
+start for loop from i = 1 to n inclusive , reading user input to a [ i ] on each loop	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 1 ; i <= n ; i ++ ) { cin >> a [ i ] ; }	NA
+read u and v from the user input	cin >> u >> v ;
+	cin >> u >> v ;	1
+if u is greater than v , swap u and v	if ( u > v ) swap ( u, v ) ;
+	if ( u > v ) { swap ( u , v ) ; }	NA
+declare int variables m1 and m2 = 0	int m1 = 0, m2 = 0 ;
+	int m1 = 0 , m2 = 0 ;	NA
+for integer i = u to v exclusive , change m1 to m1 + a [ i ]	for ( int i = u ; i < v ; i ++ ) { m1 += a [ i ] ; }
+	for ( int i = u ; i < v ; i ++ ) { m1 += a [ i ] ; }	1
+start for loop from i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if i < u or i > = v , add a [ i ] to m2	if ( i < u || i >= v ) m2 += a [ i ] ;
+	if ( i < u || i >= v ) { m2 += a [ i ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if u = v	if ( u == v )
+	if ( u == v )	1
+print 0	cout << 0 << endl ;
+	cout << 0 << endl ;	1
+else	else
+	else	1
+print min of m1 and m2 to the standard output	cout << min ( m1, m2 ) << endl ;
+	cout << min ( m1 , m2 ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

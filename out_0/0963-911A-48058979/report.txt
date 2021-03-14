@@ -1,0 +1,30 @@
+create long long array a of length 100005	long long a [ 100005 ] ;
+	long long a [ 100005 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long a and mi , set mi to 1000000007	long long a, mi = 1000000007 ;
+	long long n , mi = 1000000007 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n + 1 exclusive	for ( int i = 1 ; i < n + 1 ; ++ i )
+	for ( long long i = 1 ; i < n + 1 ; i ++ )	NA
+read a [ i ]	cin >> a [ i ] ;
+	cin >> a [ i ] ;	1
+set mi to min of mi and a [ i ]	mi = min ( mi, a [ i ] ) ;
+	mi = min ( mi , a [ i ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+set j to - 1000000007 and ans to 1000000007	long long int j = - 1000000007, ans = 1e9 + 7 ;
+	long long j = - 1000000007 , ans = 1000000007 ;	NA
+for i = 1 to n + 1 exclusive	for ( int i = 1 ; i < n + 1 ; ++ i )
+	for ( long long i = 1 ; i < n + 1 ; i ++ )	NA
+if a [ i ] = mi	if ( a [ i ] == mi )
+	if ( a [ i ] == mi )	1
+set ans to min of ans and i - j	ans = min ( ans, i - j ) ;
+	ans = min ( ans , i - j ) ;	NA
+assign i to j	j = i ;
+	j = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,36 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string s	string s ;
+	string s ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+make integer n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+make string vector a of size n	vector < string > a ( n ) ;
+	vector < string > a ( n ) ;	1
+for i = 0 to n exclusive , read a [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < n ; ++ i ) { cin >> a [ i ] ; }	NA
+let int opt = - 1	int opt = - 1 ;
+	int opt = - 1 ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+if ( int ) ( a [ i ] ) . size ( ) is less than ( int ) ( s ) . size ( ) , continue to next loop iteration	if ( ( ( int ) ( a [ i ] ). size ( ) < ( ( double ) ( s ).size ( ) ) ) continue ;
+	if ( ( int ) ( a [ i ] ) . size ( ) < ( int ) ( s ) . size ( ) ) { continue ; }	NA
+if a [ i ] . substr ( 0 , ( int ) ( s ) . size ( ) ) is not equal to s , continue to next loop iteration	if ( a [ i ]. substr ( 0, ( int ) ( s ). size ( ) )!= s ) continue ;
+	if ( a [ i ] . substr ( 0 , ( int ) ( s ) . size ( ) ) != s ) { continue ; }	NA
+if opt is equal to - 1 or a [ i ] is less than a [ opt ] , set opt to i	if ( opt == - 1 || a [ i ] < a [ opt ] ) { opt = i ; }
+	if ( opt == - 1 || a [ i ] < a [ opt ] ) { opt = i ; }	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if opt is not equal to - 1	if ( opt!= - 1 )
+	if ( opt != - 1 )	NA
+print a [ opt ]	cout << a [ opt ] ;
+	cout << a [ opt ] ;	1
+else	else
+	else	1
+print s	cout << s << endl ;
+	cout << s ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print new line	cout << endl ;
+	cout << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

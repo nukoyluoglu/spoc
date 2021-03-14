@@ -1,0 +1,75 @@
+integer function Get	int Get ( )
+	int Get ( )	1
+declare character c	char c ;
+	char c ;	1
+read c from the input , then loop , while c is not a digit or ' - '	while ( cin >> c )
+	while ( c = getchar ( ) , ( c < ' 0 ' || c > ' 9 ' ) && ( c != ' - ' ) )	NA
+;	;	;	DUMMY	DUMMY	DUMMY
+create boolean Flag = true if c = ' - ' , or false otherwise	bool Flag = c =='-';
+	bool Flag = ( c == ' - ' ) ;	NA
+if Flag is true , read c from the input	if ( Flag ) c = getchar ( ) ;
+	if ( Flag ) c = getchar ( ) ;	1
+create int X = 0	int X = 0 ;
+	int X = 0 ;	1
+while c > = ' 0 ' & & c < = ' 9 '	while ( c >='0'&& c <='9')
+	while ( c >= ' 0 ' && c <= ' 9 ' )	NA
+set X to X * 10 + c - 48	X = X * 10 + c - 48 ;
+	X = X * 10 + c - 48 ;	1
+read c from the input	cin >> c ;
+	c = getchar ( ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return - X if Flag if set , else return X	return Flag? - X : X ;
+	return Flag ? - X : X ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+function Output with int argument X	void Output ( int X )
+	void Output ( int X )	1
+if X is less than 0	if ( X < 0 )
+	if ( X < 0 )	1
+print ' - '	cout <<'-';
+	putchar ( ' - ' ) ;	NA
+invert the sign of X	X = - X ;
+	X = - X ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare int Len = 0 and int array Data with size 10	int Data [ 10 ], Len = 0 ;
+	int Len = 0 , Data [ 10 ] ;	NA
+while X is not 0	while ( X )
+	while ( X )	1
+set Data [ Len ] to X % 10 and increment Len	Data [ Len ++ ] = X % 10 ;
+	Data [ Len ++ ] = X % 10 ;	1
+divide X by 10	X /= 10 ;
+	X /= 10 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if Len is false , change Data [ Len ] to 0 and increment Len	if (! Len ) Data [ Len ++ ] = 0 ;
+	if ( ! Len ) Data [ Len ++ ] = 0 ;	NA
+decrement Len and loop further , while Len ! = 0 , printing Data [ Len ] + 48 on each iteration	while ( Len -- ) cout << Data [ Len ] + 48 ;
+	while ( Len -- ) putchar ( Data [ Len ] + 48 ) ;	NA
+print ' \ n '	cout <<'\n';
+	putchar ( ' \n ' ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer N = Get ( )	int N = Get ( ) ;
+	int N = Get ( ) ;	1
+create long longs Sum = 0 and K = Get ( )	long long Sum = 0, K = Get ( ) ;
+	long long K = Get ( ) , Sum = 0 ;	NA
+declare integers Top and Number = 0 and Total = N	int Top = 0, Number = 0 ;
+	int Top = 0 , Total = N , Number = 0 ;	NA
+for integer i = 0 to N exclusive	for ( int i = 0 ; i < N ; i ++ )
+	for ( int i = 0 ; i < N ; i ++ )	1
+declare long long X = Get ( )	long long X = Get ( ) ;
+	long long X = Get ( ) ;	1
+if Sum - X * Number * ( Total - Number - 1 ) < K	if ( Sum - X * Number * ( Total - Number - 1 ) < K )
+	if ( Sum - X * Number * ( Total - Number - 1 ) < K )	1
+call Output of i + 1	Output ( i + 1 ) ;
+	Output ( i + 1 ) ;	1
+decrement Total	Total -- ;
+	Total -- ;	1
+else	else
+	else	1
+increase Sum by Number * X	Sum += Number * X ;
+	Sum += Number * X ;	1
+increment Number	Number ++ ;
+	Number ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,46 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create integers cur , cnt with cur = 1 , cnt = 0	int cur = 1, cnt = 0 ;
+	int cur = 1 , cnt = 0 ;	NA
+create integer vector ans	vector < int > ans ;
+	vector < int > ans ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+create integer x	int x ;
+	int x ;	1
+read x	cin >> x ;
+	cin >> x ;	1
+if x is cur	if ( x == cur )
+	if ( x == cur )	1
+increment cnt	cnt ++ ;
+	cnt ++ ;	1
+increment cur	cur ++ ;
+	cur ++ ;	1
+else	else
+	else	1
+add element cnt to end of ans	ans. push ( cnt ) ;
+	ans . push_back ( cnt ) ;	NA
+set cnt to 1	cnt = 1 ;
+	cnt = 1 ;	1
+set cur to 2	cur = 2 ;
+	cur = 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if i is n - 1 , add element cnt to end of ans	if ( i == n - 1 ) ans. push_back ( cnt ) ;
+	if ( i == n - 1 ) { ans . push_back ( cnt ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print integer casted size of ans print newline	cout << ( int ) ans. size ( ) << endl ;
+	cout << ( int ) ans . size ( ) << endl ;	NA
+for i = 0 to integer casted size of ans exclusive	for ( int i = 0 ; i < ( ( int ) ans. size ( ) ) ; i ++ )
+	for ( int i = 0 ; i < ( int ) ans . size ( ) ; i ++ )	NA
+if i is greater than 0 , print " "	if ( i > 0 ) cout << " " ;
+	if ( i > 0 ) cout << " " ;	1
+print ans [ i ]	cout << ans [ i ] ;
+	cout << ans [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print newline	cout << endl ;
+	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

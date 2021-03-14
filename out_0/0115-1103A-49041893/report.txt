@@ -1,0 +1,50 @@
+create string s	string s ;
+	string s ;	1
+create integer array r with size 1001	int r [ 1001 ] ;
+	int r [ 1001 ] ;	1
+create integer array c with size 1001	int c [ 1001 ] ;
+	int c [ 1001 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read s	cin >> s ;
+	cin >> s ;	1
+create integer n with n = length of s	int n = s. length ( ) ;
+	int n = s . length ( ) ;	NA
+create boolean slot_0 with slot_0 = false	bool slot_0 = false ;
+	bool slot_0 = false ;	1
+create boolean slot_1 with slot_1 = false	bool slot_1 = false ;
+	bool slot_1 = false ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if s [ i ] is ' 0 '	if ( s [ i ] =='0')
+	if ( s [ i ] == ' 0 ' )	NA
+if not slot_0	if (! slot_0 )
+	if ( ! slot_0 )	NA
+print " 1 1 \ n "	cout << " 1 1\n " ;
+	cout << " 1 1\n " ;	1
+set slot_0 to true	slot_0 = true ;
+	slot_0 = true ;	1
+else	else
+	else	1
+print " 3 1 \ n "	cout << " 31\n " ;
+	cout << " 3 1\n " ;	NA
+set slot_0 to false	slot_0 = false ;
+	slot_0 = false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+if not slot_1	if (! slot_1 )
+	if ( ! slot_1 )	NA
+print " 4 3 \ n "	cout << " 43\n " ;
+	cout << " 4 3\n " ;	NA
+set slot_1 to true	slot_1 = true ;
+	slot_1 = true ;	1
+else	else
+	else	1
+print " 4 1 \ n "	cout << " 41\n " ;
+	cout << " 4 1\n " ;	NA
+set slot_1 to false	slot_1 = false ;
+	slot_1 = false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

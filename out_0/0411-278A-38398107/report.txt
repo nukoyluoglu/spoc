@@ -1,0 +1,43 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , i , s , t , n = int , b , c , l1 , l2 = 0 , arr = array of 105 int	int a, i, s, t, n, b, c, l1, l2 = 0, arr [ 105 ] ;
+	int a , i , b = 0 , c = 0 , s , t , n , l1 = 0 , l2 = 0 , arr [ 105 ] ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for a = 1 to n inclusive read arr [ a ]	for ( int a = 1 ; a <= n ; a ++ ) cin >> arr [ a ] ;
+	for ( a = 1 ; a <= n ; a ++ ) { cin >> arr [ a ] ; }	NA
+read s	cin >> s ;
+	cin >> s ;	1
+read t	cin >> t ;
+	cin >> t ;	1
+if s > t	if ( s > t )
+	if ( s > t )	1
+b = t	b = t ;
+	b = t ;	1
+c = s	c = s ;
+	c = s ;	1
+else	else
+	else	1
+b = s	b = s ;
+	b = s ;	1
+c = t	c = t ;
+	c = t ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for a = b to c exclusive add arr [ a ] to l1	for ( int a = b ; a < c ; a ++ ) { l1 += arr [ a ] ; }
+	for ( a = b ; a < c ; a ++ ) { l1 = l1 + arr [ a ] ; }	NA
+increment a from c while a is not b	for ( a = c ; a!= b ; a ++ )
+	for ( a = c ; a != b ; a ++ )	NA
+add arr [ a ] to l2	l2 += arr [ a ] ;
+	l2 = l2 + arr [ a ] ;	NA
+if a is n a = 0	if ( a == n ) a = 0 ;
+	if ( a == n ) a = 0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if l1 < = l2	if ( l1 <= l2 )
+	if ( l1 <= l2 )	1
+print l1	cout << l1 << endl ;
+	cout << l1 << endl ;	1
+else	else
+	else	1
+print l2	cout << l2 << endl ;
+	cout << l2 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

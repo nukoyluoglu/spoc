@@ -1,0 +1,38 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare double variables k , b , n and t	double k, b, n, t ;
+	double k , b , n , t ;	NA
+read k , b , n and t	cin >> k >> b >> n >> t ;
+	cin >> k >> b >> n >> t ;	1
+declare integer x = 0	int x = 0 ;
+	int x = 0 ;	1
+declare double variable dub = ( t * ( k - 1 ) + b ) / ( b + k - 1 )	double dub = ( t * ( k - i ) + b ) / ( b + k - 1 ) ;
+	double dub = ( t * ( k - 1 ) + b ) / ( b + k - 1 ) ;	NA
+if k = 1	if ( k == 1 )
+	if ( k == 1 )	1
+dub = ( t - 1 ) / b	dub = ( t - 1 ) / b ;
+	dub = ( t - 1 ) / b ;	1
+set value of x to dub casted to integer	x = ( int ) dub ;
+	x = ( int ) dub ;	1
+if x is greater than n	if ( x > n )
+	if ( x > n ) { x = n ; }	NA
+else	else
+	else	1
+for i = 1 to n + 1 inclusive	for ( int i = 1 ; i <= n + 1 ; ++ i )
+	for ( int i = 1 ; i <= n + 1 ; i ++ )	NA
+if pow ( k , i ) > = dub + 1	if ( pow ( k, i ) >= dub + 1 )
+	if ( pow ( k , i ) >= ( int ) dub + 1 )	NA
+set value of x to i - 1	x = i - 1 ;
+	x = i - 1 ;	1
+stop the loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if i = n + 1 , assign value of n to x	if ( i == n + 1 ) x = n ;
+	if ( i == n + 1 ) { x = n ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+create integer ans = n - x	int ans = n - x ;
+	int ans = n - x ;	1
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

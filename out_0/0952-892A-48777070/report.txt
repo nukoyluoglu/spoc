@@ -1,0 +1,49 @@
+declare gcd with long longs a , b as arguments , returning long long	long long gcd ( long long a, long long b )
+	long long gcd ( long long a , long long b )	NA
+while b is true , swap values of ( set a to a % b , and b )	while ( b ) swap ( a %= b, b ) ;
+	while ( b ) swap ( a %= b , b ) ;	NA
+return a	return a ;
+	return a ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long n	long long n ;
+	long long n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create long long vector nums initialized with n	vector < long long > nums ( n ) ;
+	vector < long long > nums ( n ) ;	1
+create long long sum with sum = 0	long long sum = 0 ;
+	long long sum = 0 ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( long long i = 0 ; i < n ; ++ i )	NA
+create long long a	long long a ;
+	long long a ;	1
+read a	cin >> a ;
+	cin >> a ;	1
+increment sum by a	sum += a ;
+	sum += a ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+create long longs mx1 , mx2 with mx1 = 0 , mx2 = 0	long long mx1 = 0, mx2 = 0 ;
+	long long mx1 = 0 , mx2 = 0 ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( long long i = 0 ; i < n ; ++ i )	NA
+read nums [ i ]	cin >> nums [ i ] ;
+	cin >> nums [ i ] ;	1
+if nums [ i ] is greater than mx1	if ( nums [ i ] > mx1 )
+	if ( nums [ i ] > mx1 )	1
+set mx2 to mx1 , set mx1 to nums [ i ]	mx2 = mx2, mx1 = nums [ i ] ;
+	mx2 = mx1 , mx1 = nums [ i ] ;	NA
+else if nums [ i ] is less than or equal to mx1 and nums [ i ] is greater than mx2	else if ( nums [ i ] <= mx1 && nums ( i ] > mx2 ) )
+	else if ( nums [ i ] <= mx1 && nums [ i ] > mx2 )	NA
+set mx2 to nums [ i ]	mx2 = nums [ i ] ;
+	mx2 = nums [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if sum is less than or equal to mx1 + mx2	if ( sum <= mx1 + mx2 )
+	if ( sum <= mx1 + mx2 )	1
+print " YES " print newline	cout << " YES " << endl ;
+	cout << " YES " << endl ;	1
+else	else
+	else	1
+print " NO " print newline	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

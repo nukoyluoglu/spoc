@@ -1,0 +1,18 @@
+create long long int mod = 1000000007	long long mod = 1000000007 ;
+	long long int mod = 1000000007 ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let a , b and r be integers	int a, b, r ;
+	int a , b , r ;	NA
+read a , b and r	cin >> a >> b >> r ;
+	cin >> a >> b >> r ;	1
+if 2 * r is greater than min ( a , b )	if ( 2 * r > min ( a, b ) )
+	if ( 2 * r > min ( a , b ) )	NA
+print Second	cout << " Second\n " ;
+	cout << " Second " << endl ;	NA
+else	else
+	else	1
+print First	cout << " First\n " ;
+	cout << " First " << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

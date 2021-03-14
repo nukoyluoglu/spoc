@@ -1,0 +1,35 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare long long n	long long n ;
+	long long n ;	1
+while read n is true	while ( cin >> n )
+	while ( cin >> n )	1
+declare i as integer	int i ;
+	int i ;	1
+declare long long t = 0	long long t = 0 ;
+	long long t = 0 ;	1
+declare long long k = 0	long long k = 0 ;
+	long long k = 0 ;	1
+declare last as integer	int last ;
+	int last ;	1
+for i = 1 , incrementing i	for ( int i = 1 ; ; i ++ )
+	for ( i = 1 ; ; i ++ )	NA
+increment t by i	t += i ;
+	t += i ;	1
+increment k by t	k += t ;
+	k += t ;	1
+if n is greater than or equal to k	if ( n >= k )
+	if ( n >= k )	1
+let last be i	last = i ;
+	last = i ;	1
+else	else
+	else	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if n is 0 , let last be 0	if ( n == 0 ) last = 0 ;
+	if ( n == 0 ) { last = 0 ; }	NA
+print last , newline	cout << last << endl ;
+	cout << last << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

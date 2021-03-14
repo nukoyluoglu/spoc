@@ -1,0 +1,23 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+a , b = int array of size n each	int a [ n ] = { }, b ( n ) ;
+	int a [ n ] , b [ n ] ;	NA
+cntr , ans = int with cntr = 0 and ans = 0	int cntr = 0, ans = 0 ;
+	int cntr = 0 , ans = 0 ;	NA
+for i = 0 to n	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read a [ i ] then b [ i ]	cin >> a [ i ] >> b [ j ] ;
+	cin >> a [ i ] >> b [ i ] ;	NA
+decrement cntr by a [ i ]	cntr -= a [ i ] ;
+	cntr -= a [ i ] ;	1
+increment cntr by b [ i ]	cntr += b [ i ] ;
+	cntr += b [ i ] ;	1
+set ans to max of ans and cntr	ans = max ( ans, cntr ) ;
+	ans = max ( ans , cntr ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

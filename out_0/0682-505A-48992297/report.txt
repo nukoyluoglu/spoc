@@ -1,0 +1,28 @@
+declare string variable s	string s ;
+	string s ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read s	cin >> s ;
+	cin >> s ;	1
+for char = ' a ' to ' z ' inclusive going alphabetically	for ( char i ='a'; i <='z'; ++ i )
+	for ( char c = ' a ' ; c <= ' z ' ; c ++ )	NA
+for integer i = 0 to length of s inclusive	for ( int i = 0 ; i <= s. length ( ) ; i ++ )
+	for ( int i = 0 ; i <= s . size ( ) ; i ++ )	NA
+declare string t = s	string t = s ;
+	string t = s ;	1
+insert character c to the t at position i	t. insert ( i, c ) ;
+	t . insert ( i , 1 , c ) ;	NA
+create string k = t	string k = t ;
+	string k = t ;	1
+reverse k	reverse ( k. begin ( ), k. end ( ) ) ;
+	reverse ( k . begin ( ) , k . end ( ) ) ;	NA
+if k = t	if ( k == t )
+	if ( k == t )	1
+print t	cout << t << endl ;
+	cout << t << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " NA "	puts ( " NA " ) ;
+	cout << " NA " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

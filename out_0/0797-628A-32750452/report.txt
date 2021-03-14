@@ -1,0 +1,92 @@
+N = int	int N ;
+	int N ;	1
+A = int	int A ;
+	int A ;	1
+T = int	int T ;
+	int T ;	1
+values = two dimensional int array of sizes 1001 and 1001	int values [ 1001 ] [ 1002 ] ;
+	int values [ 1001 ] [ 1001 ] ;	NA
+pagamento = int array of size 1001	int negamento [ 1001 ] ;
+	int pagamento [ 1001 ] ;	NA
+aguinha = int	intaguinha ;
+	int aguinha ;	NA
+in function strlen taking char array of size 1001 t and returning int	int strlen ( char a [ 1001 ], char t )
+	int strlen ( char t [ 1001 ] )	NA
+ret = int with ret = 0	int ret = 0 ;
+	int ret = 0 ;	1
+loop while t [ ret ] is not ' \ 0 ' increment ret	while ( t [ ret ]!='\0') ret ++ ;
+	while ( t [ ret ] != ' \0 ' ) { ret ++ ; }	NA
+return ret	return ret ;
+	return ret ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in function maxfunc taking int t1 , int t2 and returning int	int maxfunc ( int t1, int t2 )
+	int maxfunc ( int t1 , int t2 )	NA
+ret = int with ret = t1	int ret = t1 ;
+	int ret = t1 ;	1
+if t2 > t1 set ret to t2	if ( t2 > t1 ) ret = t2 ;
+	if ( t2 > t1 ) { ret = t2 ; }	NA
+return ret	return ret ;
+	return ret ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in function minfunc taking int t1 , int t2 and returning int	int minfunc ( int t1, int t2 )
+	int minfunc ( int t1 , int t2 )	NA
+ret = int with ret = t1	int ret = t1 ;
+	int ret = t1 ;	1
+if t2 < t1 set ret to t2	if ( t2 < t1 ) ret = t2 ;
+	if ( t2 < t1 ) { ret = t2 ; }	NA
+return ret	return ret ;
+	return ret ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in function epar taking int x and returning int	int epar ( int x )
+	int epar ( int x )	1
+ret = int with ret = 0	int ret = 0 ;
+	int ret = 0 ;	1
+if x is even set ret to 1	if ( x % 2 == 0 ) ret = 1 ;
+	if ( ( x % 2 ) == 0 ) { ret = 1 ; }	NA
+return ret	return ret ;
+	return ret ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in function atoifunc taking char x and returning int	int atoifunc ( char x )
+	int atoifunc ( char x )	1
+return x - ' 0 '	return x -'0';
+	return x - ' 0 ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+result = int with result = =	int result = 0 ;
+	int result = 0 ;	1
+size = int	int size ;
+	int size ;	1
+set N to 0	N = 0 ;
+	N = 0 ;	1
+N = int	int N ;
+	int N ;	1
+A = int	int A ;
+	int A ;	1
+T = int	int T ;
+	int T ;	1
+read N then A then T	cin >> N >> A >> T ;
+	cin >> N >> A >> T ;	1
+set aguinha to A * 2 + 1	aguinha = A * 2 + 1 ;
+	aguinha = A * 2 + 1 ;	1
+njogos = int with njogos = 0	int njogos = 0 ;
+	int njogos = 0 ;	1
+resta = int with resta = N	int resta = N ;
+	int resta = N ;	1
+loop while resta is not 1	while ( resta!= 1 )
+	while ( resta != 1 )	NA
+increment njogos by resta / 2	njogos += resta / 2 ;
+	njogos += resta / 2 ;	1
+if epar of resta	if ( epar ( resta ) )
+	if ( epar ( resta ) )	1
+set resta to resta / a	resta /= a ;
+	resta = ( resta / 2 ) ;	NA
+else	else
+	else	1
+set resta to resta / 2 + 1	resta = resta / 2 + 1 ;
+	resta = ( resta / 2 ) + 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print njogos * aguinha and N * T	cout << njogos * aguinha << N * T << endl ;
+	cout << njogos * aguinha << ' ' << N * T << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

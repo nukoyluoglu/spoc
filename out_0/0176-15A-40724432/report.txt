@@ -1,0 +1,42 @@
+create integers n and t	int n, t ;
+	int n , t ;	NA
+coord = vector of doubles	vector < double >coord ;
+	vector < double > coord ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n and t	cin >> n >> t ;
+	cin >> n >> t ;	1
+for integer i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+declare integers called x and a	int x, a ;
+	int x , a ;	NA
+read x and a	cin >> x >> a ;
+	cin >> x >> a ;	1
+push 1 . 0 * x - 1 . 0 * a / 2 into coord	coord. push_back ( ( 1.0 * x ) - ( 1.0 * a ) / 2 ) ;
+	coord . push_back ( 1.0 * x - 1.0 * a / 2 ) ;	NA
+push 1 . 0 * x + 1 . 0 * a / 2 into coord	coord. push_back ( ( 1.0 * x ) + ( 1.0 * a ) / 2 ) ;
+	coord . push_back ( 1.0 * x + 1.0 * a / 2 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort coord	sort ( coord. begin ( ), coord. end ( ) ) ;
+	sort ( coord . begin ( ) , coord . end ( ) ) ;	NA
+create integer ans with value 2	int ans = 2 ;
+	int ans = 2 ;	1
+for i = 1 to the length of coord - 1 exclusive with increments of 2	for ( int i = 1 ; i < coord. length ( ) - 1 + 2 ; i += 2 )
+	for ( int i = 1 ; i < coord . size ( ) - 1 ; i += 2 )	NA
+let double x1 = coord [ i ] and double x2 = coord [ i + 1 ]	double x1 = coord [ i ], x2 = coord. at ( i + 1 ) ;
+	double x1 = coord [ i ] , x2 = coord [ i + 1 ] ;	NA
+if x2 - x1 is less than t	if ( x2 - x1 < t )
+	if ( x2 - x1 < t )	1
+go to the start of the loop	continue ;
+	continue ;	1
+else if x2 - x1 is equal to t	else if ( x2 - x1 == t )
+	else if ( x2 - x1 == t )	1
+increase ans by 1	ans ++ ;
+	ans += 1 ;	NA
+else	else
+	else	1
+increase ans by 2	ans += 2 ;
+	ans += 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans and " \ n "	cout << ans << " \n " ;
+	cout << ans << " \n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

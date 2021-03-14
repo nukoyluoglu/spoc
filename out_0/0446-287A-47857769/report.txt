@@ -1,0 +1,56 @@
+create character array m with 4 by 4 elements	char n, m [ 4 ] [ 5 ] ;
+	char m [ 4 ] [ 4 ] ;	NA
+function check with integer arguments i and j that returns boolean	bool check ( int i, int j )
+	bool check ( int i , int j )	NA
+declare integers cnt and cnt2 = 0	int cnt = 0, cnt2 = 0 ;
+	int cnt = 0 , cnt2 = 0 ;	NA
+for k = i to i + 2 exclusive	for ( int k = i ; k < i + 2 ; k ++ )
+	for ( int k = i ; k < i + 2 ; k ++ )	1
+for d = j to j + 2 exclusive	for ( int d = j ; d < j + 2 ; d ++ )
+	for ( int d = j ; d < j + 2 ; d ++ )	1
+if m [ k ] [ d ] is ' # '	if ( m [ k ] [ d ] =='#')
+	if ( m [ k ] [ d ] == ' # ' )	NA
+increment cnt	cnt ++ ;
+	++ cnt ;	NA
+else	else
+	else	1
+increment cnt2	cnt2 ++ ;
+	++ cnt2 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return true if cnt = 3 | | cnt = 4 | | cnt2 = 3 | | cnt2 = 4	if ( cnt == 3 || cnt1 == 4 || Cnt2 == 3| cnt2 = 4 ) return true ;
+	if ( cnt == 3 || cnt == 4 || cnt2 == 3 || cnt2 == 4 ) return true ;	NA
+return false	return false ;
+	return false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+for integer i = 0 to 4 exclusive	for ( int i = 0 ; i < 4 ; i ++ )
+	for ( int i = 0 ; i < 4 ; i ++ )	1
+declare string variable s	string s ;
+	string s ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+for integer j = 0 to 4 exclusive , set m [ i ] [ j ] to s [ j ]	for ( int j = 0 ; j < 4 ; j ++ ) { m [ i ] [ j ] = s [ j'; }
+	for ( int j = 0 ; j < 4 ; j ++ ) { m [ i ] [ j ] = s [ j ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare boolean variable sol = false	bool sol = false ;
+	bool sol = false ;	1
+for integer i = 0 to 3 exclusive	for ( int i = 0 ; i < 3 ; i ++ )
+	for ( int i = 0 ; i < 3 ; i ++ )	1
+for j = 0 to 3 exclusive	for ( int j = 0 ; j < 3 ; j ++ )
+	for ( int j = 0 ; j < 3 ; j ++ )	1
+if check ( i , j ) is true , set sol to true	if ( check ( i, j ) ) sol = true ;
+	if ( check ( i , j ) ) sol = true ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if sol is true	if ( sol )
+	if ( sol )	1
+print " YES \ n "	cout << " YES\n " ;
+	cout << " YES\n " ;	1
+else	else
+	else	1
+print " NO \ n "	cout << " NO\n " ;
+	cout << " NO\n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

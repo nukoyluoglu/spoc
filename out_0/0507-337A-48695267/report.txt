@@ -1,0 +1,27 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , m be integers	int n, m ;
+	int n , m ;	NA
+read n and m	cin >> n >> m ;
+	cin >> n >> m ;	1
+a = array of integers of length m	int a [ m ] ;
+	int a [ m ] ;	1
+for i = 0 to m exclusive , read a [ i ]	for ( int i = 0 ; i < m ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < m ; i ++ ) cin >> a [ i ] ;	1
+sort the values a and a + m	sort ( a, a + m ) ;
+	sort ( a , a + m ) ;	NA
+let min be a integer with min = 1000000	int min = 1000000 ;
+	int min = 1000000 ;	1
+for i = 0 to m - n + 1 exclusive	for ( int i = 0 ; i < m - n + 1 ; i ++ )
+	for ( int i = 0 ; i < m - n + 1 ; i ++ )	1
+if a [ i + n - 1 ] - a [ i ] is less than min , the value of min is equal to a [ i + n - 1 ] - a [ i ]	if ( a [ i + n - 1 ] - a [ 1 ] < min ) { min = a [ ( i + ( n - i ) ) - ( i ] ) ; }
+	if ( ( a [ i + n - 1 ] - a [ i ] ) < min ) { min = a [ i + n - 1 ] - a [ i ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if min is equal to 1000000	if ( min == 1000000 )
+	if ( min == 1000000 )	1
+print 0 and newline	cout << 0 << endl ;
+	cout << " 0\n " ;	NA
+else do the following	else
+	else	1
+print min and newline	cout << min << endl ;
+	cout << min << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

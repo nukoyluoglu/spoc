@@ -1,0 +1,90 @@
+declare integer variable n	int n ;
+	int n ;	1
+declare string t	string t ;
+	string t ;	1
+declare int k	int k ;
+	int k ;	1
+create int ans_len	int ans_len ;
+	int ans_len ;	1
+create char array str with 20 * 100010 elements	char str [ 20 * 100010 ] ;
+	char str [ 20 * 100010 ] ;	1
+create int array chars s with size 80 * 100010	char s [ 80 * 100010 ] ;
+	int chars [ 80 * 100010 ] ;	NA
+function push_up with int argument rt	void push_up ( int rt )
+	void push_up ( int rt )	1
+chars [ rt ] = chars [ rt < < 1 ] + chars [ rt < < 1 | 1 ]	chars [ rt ] = chars [ 0t << 1 ] + chars [ 1 ] << 1 | 1 ] ;
+	chars [ rt ] = chars [ rt << 1 ] + chars [ rt << 1 | 1 ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+void function update with int arguments L , R , left , right and rt	void update ( int L, int R, int left, int right, int rt ) ;
+	void update ( int L , int R , int left , int right , int rt )	NA
+if chars [ rt ] > = right - left + 1 , return	if ( chars [ rt ] >= right - left + 1 ) return ;
+	if ( chars [ rt ] >= right - left + 1 ) return ;	1
+if left is equal to right	if ( left == right )
+	if ( left == right )	1
+create char array s with rt elements	char s [ rt ] ;
+	chars [ rt ] = 1 ;	NA
+set str [ left ] to t [ left - L ]	str [ left ] = t [ left - L ] ;
+	str [ left ] = t [ left - L ] ;	1
+return	return ;
+	return ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if L > right or R < left , return	if ( L > right || R < left ) return ;
+	if ( L > right || R < left ) return ;	1
+int mid = ( left + right ) > > 1	int mid = ( left + right ) >> 1 ;
+	int mid = ( left + right ) >> 1 ;	1
+if mid > = R	if ( mid >='R')
+	if ( mid >= R )	NA
+call update with arguments L , R , left , mid and rt < < 1	update ( L, R, left, mid, rt << 1 ) ;
+	update ( L , R , left , mid , rt << 1 ) ;	NA
+else if mid is less than L	else if ( mid < L )
+	else if ( mid < L )	1
+call update with arguments L , R , mid + 1 , right and rt < < 1 | 1	update ( L, R, mid + 1, right, rt << 1 << 1 ) ;
+	update ( L , R , mid + 1 , right , rt << 1 | 1 ) ;	NA
+else	else
+	else	1
+call update with arguments L , R , left , mid and rt < < 1	update ( L, R, left, mid, rt << 1 ) ;
+	update ( L , R , left , mid , rt << 1 ) ;	NA
+call update with arguments L , R , mid + 1 , right and rt < < 1 | 1	update ( L, R, mid + 1, right, rt << 1 << 1 ) ;
+	update ( L , R , mid + 1 , right , rt << 1 | 1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+call push_up ( rt )	push_up ( rt ) ;
+	push_up ( rt ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int pos	int pos ;
+	int pos ;	1
+declare integer endpos	int endpos ;
+	int endpos ;	1
+read n and loop further	while ( cin >> n )
+	while ( cin >> n )	1
+change ans_len to 0	ans_len = 0 ;
+	ans_len = 0 ;	1
+for i from 1 to 2000010 exclusive , assign ' a ' to str [ i ]	for ( int i = 1 ; i < 2000010 ; i ++ ) str [ i ] ='a';
+	for ( int i = 1 ; i < 2000010 ; i ++ ) str [ i ] = ' a ' ;	NA
+set sizeof ( chars ) bytes at the pointer chars to 0	memset ( chars, 0, sizeof ( chars ) ) ;
+	memset ( chars , 0 , sizeof ( chars ) ) ;	NA
+for i from 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+read input to t and k	cin >> t >> k ;
+	cin >> t >> k ;	1
+loop j from 1 to k inclusive	for ( int j = 1 ; j <= k ; j ++ )
+	for ( int j = 1 ; j <= k ; j ++ )	1
+read pos	cin >> pos ;
+	cin >> pos ;	1
+set endpos to pos + length of t - 1	endpos = pos + t. size ( ) - 1 ;
+	endpos = pos + t . length ( ) - 1 ;	NA
+call update with arguments pos , endpos , 1 , 2000010 and 1	update ( pos, endpos, 1, 2000010, 1 ) ;
+	update ( pos , endpos , 1 , 2000010 , 1 ) ;	NA
+if j = k	if ( j == k )
+	if ( j == k )	1
+change ans_len to endpos if endpos is greater than ans_len	ans_len = endpos > ans_len ;
+	if ( endpos > ans_len ) ans_len = endpos ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i from 1 to ans_len inclusive , print str [ i ]	for ( int i = 1 ; i <= ans_len ; i ++ ) cout << str [ i ] ;
+	for ( int i = 1 ; i <= ans_len ; i ++ ) cout << str [ i ] ;	1
+print new line	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

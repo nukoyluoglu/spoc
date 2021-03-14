@@ -1,0 +1,29 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+l , b , n , t = long long	long long l, b, n, t ;
+	long long k , b , n , t ;	NA
+read k , b , n , t	cin >> k >> b >> n >> t ;
+	cin >> k >> b >> n >> t ;	1
+set x = 1 and cnt = - 1	int x = 1, cnt = - 1 ;
+	long long x = 1 , cnt = - 1 ;	NA
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( long long i = 1 ; i <= n ; ++ i )	NA
+set x = k * x + b	x = k * x + b ;
+	x = k * x + b ;	1
+if x is greater than t	if ( x > t )
+	if ( x > t )	1
+set cnt = i - 1	cnt = i - 1 ;
+	cnt = i - 1 ;	1
+stop the loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if cnt is equal to - 1	if ( cnt == - 1 )
+	if ( cnt == - 1 )	1
+print 0	cout << 0 << endl ;
+	cout << 0 << endl ;	1
+otherwise	else
+	else	1
+print n - cnt	cout << n - cnt << endl ;
+	cout << n - cnt << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

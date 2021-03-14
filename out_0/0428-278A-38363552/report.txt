@@ -1,0 +1,42 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare long longs i , x , j , y , tn = 1 , ans = 0 , long long array ar size 100000	long long i, x, j, y, tn = 1, ans = 0, ar [ 100000 ] ;
+	long long ar [ 100000 ] , i , x , j , y , tn = 1 , ans = 0 ;	NA
+declare n , m as integers	int n, m ;
+	int n , m ;	NA
+declare tc as long long	long long tc ;
+	long long tc ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+declare v , v1 as long long vectors	vector < long long > v, v1 ;
+	vector < long long > v , v1 ;	NA
+add 0 to end of v	v. push_back ( 0 ) ;
+	v . push_back ( 0 ) ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	NA
+read x	cin >> x ;
+	cin >> x ;	1
+add x to end of v	v. push_back ( x ) ;
+	v . push_back ( x ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+let v1 be v	v1 = v ;
+	v1 = v ;	1
+for i = 1 to size of v exclusive , increment v [ i ] by v [ i - 1 ]	for ( int i = 1 ; i < v. size ( ) ; i ++ ) v [ i ] += v [ j - 1 ] ;
+	for ( i = 1 ; i < v . size ( ) ; i ++ ) v [ i ] += v [ i - 1 ] ;	NA
+read x read y	cin >> x >> y ;
+	cin >> x >> y ;	1
+if x is greater than y , swap values between x and y	if ( x > y ) swap ( x, y ) ;
+	if ( x > y ) swap ( x , y ) ;	NA
+if x is y	if ( x == y )
+	if ( x == y )	1
+print 0 , newline	cout << 0 << endl ;
+	cout << 0 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+declare integer t1 = v [ y - 1 ] - v [ x - 1 ]	int t1 = v [ y - i ] - v [ x - 1 ] ;
+	int t1 = v [ y - 1 ] - v [ x - 1 ] ;	NA
+declare integer t2 = v [ size of v - 1 ] - v [ y ] + v1 [ y ] + v [ x - 1 ]	int t2 = v [ ( v ). size ( ) - 1 ] - v [ y ] + v1 [ ( y ) + v [ x ) - ( 1 ] ;
+	int t2 = v [ v . size ( ) - 1 ] - v [ y ] + v1 [ y ] + v [ x - 1 ] ;	NA
+print minimum of t1 and t2 , newline	cout << min ( t1, t2 ) << endl ;
+	cout << min ( t1 , t2 ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,66 @@
+dp = two dimensional char array of sizes 10 and 10	char dp [ 20 ] [ 10 ] ;
+	char dp [ 10 ] [ 10 ] ;	NA
+mp = long long and long long map	map < long long, long long > mp ;
+	map < long long , long long > mp ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , x = long long	long long n, x ;
+	long long n , x ;	NA
+a = long long array of size 10	long long a [ 10 ] ;
+	long long a [ 10 ] ;	1
+for i = 0 to 6	for ( int i = 0 ; i < 6 ; i ++ )
+	for ( int i = 0 ; i < 6 ; i ++ )	1
+read a [ i ]	cin >> a [ i ] ;
+	cin >> a [ i ] ;	1
+increment mp [ a [ i ] ]	mp [ a [ i ] ] ++ ;
+	mp [ a [ i ] ] ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+ok = bool with ok = false	bool ok = false ;
+	bool ok = false ;	1
+for i = 0 to 6	for ( int i = 0 ; i < 6 ; i ++ )
+	for ( int i = 0 ; i < 6 ; i ++ )	1
+if mp [ a [ i ] ] is 6 set ok to true	if ( mp [ a [ i ] ] == 6 ) ok = true ;
+	if ( mp [ a [ i ] ] == 6 ) ok = true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if ok is true	if ( ok )
+	if ( ok )	1
+print " Elephant "	puts ( " Elephant " ) ;
+	cout << " Elephant " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to 6	for ( int i = 0 ; i < 6 ; i ++ )
+	for ( int i = 0 ; i < 6 ; i ++ )	1
+if mp [ a [ i ] ] is 5 set ok to true	if ( mp [ a [ i ] ] == 5 ) ok = true ;
+	if ( mp [ a [ i ] ] == 5 ) ok = true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if ok is true	if ( ok )
+	if ( ok )	1
+print " Bear "	puts ( " Bear " ) ;
+	cout << " Bear " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to 6	for ( int i = 0 ; i < 6 ; i ++ )
+	for ( int i = 0 ; i < 6 ; i ++ )	1
+if mp [ a [ i ] ] is 4 set ok to true	if ( mp [ a [ i ] ] == 4 ) ok = true ;
+	if ( mp [ a [ i ] ] == 4 ) ok = true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if ok is false	if (! ok )
+	if ( ! ok )	NA
+print " Alien "	puts ( " Alien " ) ;
+	cout << " Alien " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to 6	for ( int i = 0 ; i < 6 ; i ++ )
+	for ( int i = 0 ; i < 6 ; i ++ )	1
+if mp [ a [ i ] ] is 2 set ok to false	if ( mp [ a [ i ] ] == 2 ) ok = false ;
+	if ( mp [ a [ i ] ] == 2 ) ok = false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if ok is true	if ( ok )
+	if ( ok )	1
+print " Bear "	puts ( " Bear " ) ;
+	cout << " Bear " << endl ;	NA
+else	else
+	else	1
+print " Elephant "	puts ( " Elephant " ) ;
+	cout << " Elephant " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

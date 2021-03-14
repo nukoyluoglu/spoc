@@ -1,0 +1,19 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = integer	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+arr = integer array of size n	int arr [ n ] ;
+	int arr [ n ] ;	1
+for i = 0 to n exclusive read arr [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> arr [ i ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> arr [ i ] ; }	1
+for i = 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )
+	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+increase arr [ i ] by arr [ i + 1 ]	arr [ i ] += arr [ i + 1 ] ;
+	arr [ i ] += arr [ i + 1 ] ;	1
+print arr [ i ] followed by a space	cout << arr [ i ] << " " ;
+	cout << arr [ i ] << " " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print arr [ n - 1 ]	cout << arr [ n - 1 ] << endl ;
+	cout << arr [ n - 1 ] << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

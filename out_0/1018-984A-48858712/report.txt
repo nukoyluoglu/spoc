@@ -1,0 +1,38 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+v = vector of int	vector < int > v ;
+	vector < int > v ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+x = int	int x ;
+	int x ;	1
+read x	cin >> x ;
+	cin >> x ;	1
+add x at end of v	v. push_back ( x ) ;
+	v . push_back ( x ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort first n items of v in numeric ascending order	sort ( v, v + n ) ;
+	sort ( v . begin ( ) , v . begin ( ) + n , greater < int > ( ) ) ;	NA
+turn = 0	int turn = 0 ;
+	int turn = 0 ;	1
+while size of v is not 1	while ( v. size ( )!= 1 )
+	while ( v . size ( ) != 1 )	NA
+if turn is even	if ( turn % 2 == 0 )
+	if ( turn % 2 == 0 )	1
+erase first item of v	v. erase ( v. begin ( ) ) ;
+	v . erase ( v . begin ( ) ) ;	NA
+else	else
+	else	1
+pop last item of v	v. pop_back ( ) ;
+	v . pop_back ( ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+turn = ( incremented value of turn ) modulo 2	turn = ( turn ++ ) % 2 ;
+	turn = ( ++ turn ) % 2 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print first item of v	cout << v. first << endl ;
+	cout << v . front ( ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

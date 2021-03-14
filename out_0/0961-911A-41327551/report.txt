@@ -1,0 +1,57 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = integer	int n ;
+	int n ;	1
+while read n	while ( cin >> n )
+	while ( cin >> n )	1
+v = vector of integer with v = n	vector < int > v ( n ) ;
+	vector < int > v ( n ) ;	1
+s = vector of integer with s = n	vector < int > s ( n ) ;
+	vector < int > s ( n ) ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read v [ i ]	cin >> v [ i ] ;
+	cin >> v [ i ] ;	1
+s [ i ] = v [ i ]	s [ i ] = v [ 1 ] ;
+	s [ i ] = v [ i ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort s . begin ( ) and s . end ( )	sort ( s. begin ( ), s. end ( ) ) ;
+	sort ( s . begin ( ) , s . end ( ) ) ;	NA
+a , b = integers	int a, b ;
+	int a , b ;	NA
+a = s [ 0 ]	a = s [ 0 ] ;
+	a = s [ 0 ] ;	1
+b = s [ 1 ]	b = s [ 1 ] ;
+	b = s [ 1 ] ;	1
+x , y , d = integers	int x, y, d ;
+	int x , y , d ;	NA
+d = x = y = 1000000100	int d = x = y = 1000000100 ;
+	d = x = y = 1000000100 ;	NA
+sw = bool with sw = true	bool sw = true ;
+	bool sw = true ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if a is v [ i ]	if ( a == v [ i ] )
+	if ( a == v [ i ] )	1
+x = i	x = i ;
+	x = i ;	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = x + 1 to n exclusive	for ( int i = x + 1 ; i < n ; i ++ )
+	for ( int i = x + 1 ; i < n ; i ++ )	1
+if b is v [ i ]	if ( b == v [ i ] )
+	if ( b == v [ i ] )	1
+y = i	y = i ;
+	y = i ;	1
+d = min of d and abs ( x - y )	d = min ( d, abs ( x - y ) ) ;
+	d = min ( d , abs ( x - y ) ) ;	NA
+x = i	x = i ;
+	x = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print d	cout << d << endl ;
+	cout << d << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

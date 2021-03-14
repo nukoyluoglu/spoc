@@ -1,0 +1,116 @@
+s1 , s2 = string	string s1, s2 ;
+	string s1 , s2 ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read a line into s1 using cin	getline ( cin, s1, cin ) ;
+	getline ( cin , s1 ) ;	NA
+read a line into s2 using cin	getline ( cin, s2, cin ) ;
+	getline ( cin , s2 ) ;	NA
+sz1 = int with sz1 = size of s1	int sz1 = s1. size ( ) ;
+	int sz1 = s1 . size ( ) ;	NA
+sz2 = int with sz2 = size of s2	int sz2 = s2. size ( ) ;
+	int sz2 = s2 . size ( ) ;	NA
+swaped = bool with swaped = false	bool swaped = false ;
+	bool swaped = 0 ;	NA
+if sz1 is less than sz2	if ( sz1 < sz2 )
+	if ( sz1 < sz2 )	1
+call swap on s1 and s2	swap ( s1, s2 ) ;
+	swap ( s1 , s2 ) ;	NA
+call swap on sz1 and sz2	swap ( sz1, sz2 ) ;
+	swap ( sz1 , sz2 ) ;	NA
+set swaped to true	swaped = true ;
+	swaped = 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if sz1 is greater than sz2	if ( sz1 > sz2 )
+	if ( sz1 > sz2 )	1
+aux = string with aux = " "	string aux = " " ;
+	string aux = " " ;	1
+for i = 1 to sz1 - sz2 inclusive append " 0 " to aux	for ( int i = 1 ; i <= sz1 - sz2 ; i ++ ) aux += " 0 " ;
+	for ( int i = 1 ; i + sz2 <= sz1 ; ++ i ) { aux += " 0 " ; }	NA
+prepend aux to s2	s2 = aux + s2 ;
+	s2 = aux + s2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+prepend " 0 " to s1	s1 = " 0 " + s1 ;
+	s1 = " 0 " + s1 ;	1
+prepend " 0 " to s2	s2 = " 0 " + s2 ;
+	s2 = " 0 " + s2 ;	1
+increment sz1	sz1 ++ ;
+	sz1 ++ ;	1
+for i = 1 to sz1 - 1	for ( int i = 1 ; i <= sz1 - 1 ; ++ i )
+	for ( int i = 1 ; i + 1 < sz1 ; ++ i )	NA
+if s1 [ i ] and s1 [ i + 1 ] are both ' 1 '	if ( s1 [ i ] =='1'&& s1. at ( i + 1 ) =='2')
+	if ( s1 [ i ] == ' 1 ' and s1 [ i + 1 ] == ' 1 ' )	NA
+set s1 [ i - 1 ] to ' 1 '	s1 [ i - 1 ] ='1';
+	s1 [ i - 1 ] = ' 1 ' ;	NA
+set s1 [ i ] to ' 0 '	s1 [ i ] ='0';
+	s1 [ i ] = ' 0 ' ;	NA
+set s1 [ i + 1 ] to ' 0 '	s1 [ i + 1 ] ='0';
+	s1 [ i + 1 ] = ' 0 ' ;	NA
+j = int with j = i - 2	int j = i - 2 ;
+	int j = i - 2 ;	1
+loop while j is greater than 0 and s1 [ j ] is ' 1 '	while ( j > 0 && s1 [ j ] =='1')
+	while ( j - 1 >= 0 and s1 [ j ] == ' 1 ' )	NA
+set s1 [ j - 1 ] to ' 1 '	s1 [ j - 1 ] ='1';
+	s1 [ j - 1 ] = ' 1 ' ;	NA
+set s1 [ j ] to ' 0 '	s1 [ j ] ='0';
+	s1 [ j ] = ' 0 ' ;	NA
+set s1 [ j + 1 ] to ' 0 '	s1 [ j + 1 ] ='0';
+	s1 [ j + 1 ] = ' 0 ' ;	NA
+decrement j by 2	j -= 2 ;
+	j -= 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s2 [ i ] and s2 [ i + 1 ] are both ' 1 '	if ( ( s2 [ i ] =='1') && ( s1 [ i + 1 ] == a 1 ) )
+	if ( s2 [ i ] == ' 1 ' and s2 [ i + 1 ] == ' 1 ' )	NA
+set s2 [ i - 1 ] to ' 1 '	s2 [ i - 1 ] ='1';
+	s2 [ i - 1 ] = ' 1 ' ;	NA
+set s2 [ i ] to ' 0 '	s2 [ i ] ='0';
+	s2 [ i ] = ' 0 ' ;	NA
+set s2 [ i + 1 ] to ' 0 '	s2 [ i + 1 ] ='0';
+	s2 [ i + 1 ] = ' 0 ' ;	NA
+j = int with j = i - 2	int j = i - 2 ;
+	int j = i - 2 ;	1
+loop while j is greater than 0 and s2 [ j ] is ' 1 '	while ( j > 0 && s2 [ j ] =='1')
+	while ( j - 1 >= 0 and s2 [ j ] == ' 1 ' )	NA
+set s2 [ j - 1 ] to ' 1 '	s2 [ j - 1 ] ='1';
+	s2 [ j - 1 ] = ' 1 ' ;	NA
+set s2 [ j ] to ' 0 '	s2 [ j ] ='0';
+	s2 [ j ] = ' 0 ' ;	NA
+set s2 [ j + 1 ] to ' 0 '	s2 [ j + 1 ] ='0';
+	s2 [ j + 1 ] = ' 0 ' ;	NA
+decrement j by 2	j -= 2 ;
+	j -= 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to sz1	for ( int i = 0 ; i < sz1 ; i ++ )
+	for ( int i = 0 ; i < sz1 ; ++ i )	NA
+if s1 [ i ] is greater than s2 [ i ]	if ( s1 [ i ] > s2 [ j ] )
+	if ( s1 [ i ] > s2 [ i ] )	NA
+if swaped is false	if (! swaped )
+	if ( ! swaped )	NA
+print ' > '	cout <<'>';
+	cout << ' > ' << ' \n ' ;	NA
+else	else
+	else	1
+print ' < '	cout <<'<';
+	cout << ' < ' << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+if s18i ] is less than s2 [ i ]	if ( s18i ] < s2 [ i ] )
+	else if ( s1 [ i ] < s2 [ i ] )	NA
+if swaped is false	if (! swaped )
+	if ( ! swaped )	NA
+print ' < '	cout <<'<';
+	cout << ' < ' << ' \n ' ;	NA
+else	else
+	else	1
+print ' > '	cout <<'>';
+	cout << ' > ' << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ' = '	cout <<'='<< endl ;
+	cout << ' = ' << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

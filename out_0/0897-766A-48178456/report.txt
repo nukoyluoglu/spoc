@@ -1,0 +1,23 @@
+create new constant long long integer INF with value 8e18	const long long int INF = 8e18 ;
+	const long long int INF = ( long long int ) ( 8e18 ) ;	NA
+create new constant long long integer called MOD = 998244353	const long long int MOD = 998244353 ;
+	const long long int MOD = 998244353 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare string variables a and b	string a, b ;
+	string a , b ;	NA
+read input to a and b	cin >> a >> b ;
+	cin >> a >> b ;	1
+if length of a ! = length of b	if ( a. length ( )!= b. size ( ) )
+	if ( a . length ( ) != b . length ( ) )	NA
+print max of length of a and length of b and ' \ n '	cout << max ( a. length ( ), b. size ( ) ) <<'\n';
+	cout << max ( a . length ( ) , b . length ( ) ) << ' \n ' ;	NA
+else if a ! = b	else if ( a!= b )
+	else if ( a != b )	NA
+print length of a and ' \ n '	cout << a. size ( ) <<'\n';
+	cout << a . length ( ) << ' \n ' ;	NA
+else	else
+	else	1
+print - 1 and ' \ n '	cout << - 1 <<'\n';
+	cout << - 1 << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

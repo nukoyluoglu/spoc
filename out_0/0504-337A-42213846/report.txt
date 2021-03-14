@@ -1,0 +1,16 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let i , a , b , j , s , c , d be integers with c = array of integers of length 1000 , d = array of integers of length 1000	int i, a, b, j, s, c [ 1000 ], d [ 1000000 ] ;
+	int i , a , b , j , s , c [ 1000 ] , d [ 1000 ] ;	NA
+read a , b	cin >> a >> b ;
+	cin >> a >> b ;	1
+for i = 0 to b exclusive , read c [ i ]	for ( int i = 0 ; i < b ; i ++ ) cin >> c [ i ] ;
+	for ( i = 0 ; i < b ; i ++ ) { cin >> c [ i ] ; }	NA
+sort the values c and c + b	sort ( c, c + b ) ;
+	sort ( c , c + b ) ;	NA
+for i = 0 , j = 0 , i is less than b - a + 1 , increment i , j by 1 , d [ j ] is equal to c [ i + a - 1 ] - c [ i ]	for ( int i = 0, j = 0 ; i < b - a + 1 ; i ++, j ++ ) { d [ j ] = c [ i + a - 1 ] - c [ 1 ] ; }
+	for ( i = 0 , j = 0 ; i < b - a + 1 ; i ++ , j ++ ) { d [ j ] = c [ i + a - 1 ] - c [ i ] ; }	NA
+sort the values d , d + b - a + 1	sort ( d, d + b - a + 1 ) ;
+	sort ( d , d + b - a + 1 ) ;	NA
+print d [ 0 ] and newline	cout << d [ 0 ] << endl ;
+	cout << d [ 0 ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

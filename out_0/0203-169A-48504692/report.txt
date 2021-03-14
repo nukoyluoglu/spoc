@@ -1,0 +1,15 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , a , b , i be long integers	long long n, a, b, i ;
+	long long n , a , b , i ;	NA
+read n , a , b	cin >> n >> a >> b ;
+	cin >> n >> a >> b ;	1
+let c [ n ] be long integer	long long c [ n ] ;
+	long long c [ n ] ;	1
+for i = 0 to n exclusive , read ith element of c	for ( int i = 0 ; i < n ; i ++ ) cin >> c [ i ] ;
+	for ( i = 0 ; i < n ; i ++ ) { cin >> c [ i ] ; }	NA
+sort the values of c and c + n	sort ( c, c + n ) ;
+	sort ( c , c + n ) ;	NA
+print c [ b ] - c [ b - 1 ] and newline	cout << c [ b ] - c [ n - 1 ] << endl ;
+	cout << c [ b ] - c [ b - 1 ] << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

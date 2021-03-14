@@ -1,0 +1,74 @@
+create constant integer maxn with maxn = 2e5 + 10	const int maxn = 2e5 + 10 ;
+	const int maxn = 2e5 + 10 ;	1
+create integers n , m	int n, m ;
+	int n , m ;	NA
+create string array s with size 110	string s [ 110 ] ;
+	string s [ 110 ] ;	1
+create 2d integer array l with size 110 by 10010	int l [ 110 ] [ 10010 ] ;
+	int l [ 110 ] [ 10010 ] ;	1
+create 2d integer array r with size 110 by 10010	int r [ 110 ] [ 10010 ] ;
+	int r [ 110 ] [ 10010 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n read m	cin >> n >> m ;
+	cin >> n >> m ;	1
+for i = 0 to n exclusive , read s [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> s [ i ] ;
+	for ( int i = 0 ; i < n ; ++ i ) cin >> s [ i ] ;	NA
+create boolean bad with bad = false	bool Bad = false ;
+	bool bad = false ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+create integer last with last = - 1	int last = - 1 ;
+	int last = - 1 ;	1
+for j = 0 to m exclusive	for ( int j = 0 ; j < m ; j ++ )
+	for ( int j = 0 ; j < m ; ++ j )	NA
+if s [ i ] [ j ] is ' 0 '	if ( s [ i ] [ j ] =='0')
+	if ( s [ i ] [ j ] == ' 0 ' )	NA
+set l [ i ] [ j ] to - 1 if last is - 1 , else j - last	l [ i ] [ j ] = last == - 1? - 1 : j - last ;
+	l [ i ] [ j ] = ( last == - 1 ? - 1 : j - last ) ;	NA
+else	else
+	else	1
+set l [ i ] [ j ] to 0 , set last to j	l [ i ] [ j ] = 0, last = j ;
+	l [ i ] [ j ] = 0 , last = j ;	NA
+if last is less than 0 , set bad to true	if ( last < 0 ) bad = true ;
+	if ( last < 0 ) bad = true ;	1
+set last to - 1	last = - 1 ;
+	last = - 1 ;	1
+for j = m - 1 to 0 inclusive , decrementing j	for ( int j = m - 1 ; j >= 0 ; j -- )
+	for ( int j = m - 1 ; j >= 0 ; -- j )	NA
+if s [ i ] [ j ] is ' 0 '	if ( s [ i ] [ j ] =='0')
+	if ( s [ i ] [ j ] == ' 0 ' )	NA
+set r [ i ] [ j ] to - 1 if last is - 1 , else last - j	r [ i ] [ j ] = last == - 1? - 1 : last - j ;
+	r [ i ] [ j ] = ( last == - 1 ? - 1 : last - j ) ;	NA
+else	else
+	else	1
+set r [ i ] [ j ] to 0 , set last to j	r [ i ] [ j ] = 0, last = j ;
+	r [ i ] [ j ] = 0 , last = j ;	NA
+for j = 0 to m exclusive	for ( int j = 0 ; j < m ; j ++ )
+	for ( int j = 0 ; j < m ; ++ j )	NA
+if l [ i ] [ j ] is less than 0 , set l [ i ] [ j ] to j + l [ i ] [ m - 1 ] + 1	if ( l [ i ] [ j ] < 0 ) { l [ ++ j ] [ m - 1 ] += 1 ; }
+	if ( l [ i ] [ j ] < 0 ) l [ i ] [ j ] = j + l [ i ] [ m - 1 ] + 1 ;	NA
+for j = m - 1 to 0 inclusive , decrementing j	for ( int j = m - 1 ; j >= 0 ; j -- )
+	for ( int j = m - 1 ; j >= 0 ; -- j )	NA
+if r [ i ] [ j ] is less than 0 , set r [ i ] [ j ] to ( m - 1 ) - j + r [ i ] [ 0 ] + 1	if ( r [ i ] [ j ] < 0 ) { r [ ++ j ] = ( m - 1 ) - j + r [ 1 ] [ 0 ] + 1 ; }
+	if ( r [ i ] [ j ] < 0 ) r [ i ] [ j ] = ( m - 1 ) - j + r [ i ] [ 0 ] + 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if bad is true	if ( bad )
+	if ( bad )	1
+print - 1 print " \ n "	cout << - 1 << " \n " ;
+	cout << - 1 << " \n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+create long long ans with ans = n * m + 1	long long ans = n * m + 1 ;
+	long long ans = n * m + 1 ;	1
+for j = 0 to m exclusive	for ( int j = 0 ; j < m ; j ++ )
+	for ( int j = 0 ; j < m ; ++ j )	NA
+create long long cur with cur = 0	long long cur = 0 ;
+	long long cur = 0 ;	1
+for i = 0 to n exclusive , increment cur by minimum of l [ i ] [ j ] and r [ i ] [ j ]	for ( int i = 0 ; i < n ; i ++ ) { cur += min ( l [ i ] [ j ], r [ i - j ] ) ; }
+	for ( int i = 0 ; i < n ; ++ i ) cur += min ( l [ i ] [ j ] , r [ i ] [ j ] ) ;	NA
+set ans to minimum of ans and cur	ans = min ( ans, cur ) ;
+	ans = min ( ans , cur ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans print " \ n "	cout << ans << " \n " ;
+	cout << ans << " \n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

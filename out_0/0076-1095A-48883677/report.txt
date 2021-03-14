@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , sum , index	int n, sum, index ;
+	int n , sum , index ;	NA
+create character arrays s , a , with s size 55 , a size 55	char s [ 55 ], n ;
+	char s [ 55 ] , a [ 55 ] ;	NA
+read n read s	cin >> n >> s ;
+	cin >> n >> s ;	1
+set sum to index to 0	sum = index = 0 ;
+	sum = index = 0 ;	1
+for i = 0	for ( int i = 0 ; ; i ++ )
+	for ( int i = 0 ; ; i ++ )	1
+increment index by i	index += i ;
+	index += i ;	1
+if index is greater than or equal to n , break loop	if ( index >= n ) break ;
+	if ( index >= n ) break ;	1
+set a [ increment sum ] to s [ index ]	a [ sum ++ ] = s [ index ] ;
+	a [ sum ++ ] = s [ index ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set a [ sum ] to ' \ 0 '	a [ sum ] ='\0';
+	a [ sum ] = ' \0 ' ;	NA
+print a print newline	cout << a << endl ;
+	cout << a << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

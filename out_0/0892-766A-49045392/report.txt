@@ -1,0 +1,15 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+s , ss = string	string s, ss ;
+	string s , ss ;	NA
+read s then ss	cin >> s >> ss ;
+	cin >> s >> ss ;	1
+if s is ss	if ( s == ss )
+	if ( s == ss )	1
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << " \n " ;	NA
+else	else
+	else	1
+print max of length of ss and length of s	cout << max ( ss. length ( ), s. size ( ) ) << endl ;
+	cout << max ( ss . length ( ) , s . length ( ) ) << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

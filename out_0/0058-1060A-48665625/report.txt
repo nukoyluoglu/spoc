@@ -1,0 +1,23 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string s	string s ;
+	string s ;	1
+create int n and sum , set to sum 0	int n, sum = 0 ;
+	int n , sum = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+for i = 0 to length of s exclusive	for ( int i = 0 ; i < s. length ( ) ; i ++ )
+	for ( int i = 0 ; i < s . length ( ) ; i ++ )	NA
+if s [ i ] equal to 8 , increment sum	if ( s [ i ] =='8') sum ++ ;
+	if ( s [ i ] == ' 8 ' ) sum ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if n / 11 greater than 11	if ( n / 11 > 11 )
+	if ( n / 11 < sum )	NA
+print n / 11	cout << n / 11 << endl ;
+	cout << ( n / 11 ) << endl ;	NA
+else	else
+	else	1
+print sum and a newline	cout << sum << " \n " ;
+	cout << sum << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

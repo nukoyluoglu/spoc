@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+set precision to 10	cout. precision ( 10 ) ;
+	cout . precision ( 10 ) ;	NA
+print fixed	cout << fixed ;
+	cout << fixed ;	1
+n , m = integers	int n, m ;
+	int n , m ;	NA
+read n , m	cin >> n >> m ;
+	cin >> n >> m ;	1
+v = vector of integer with v = m	vector < int > v ( m ) ;
+	vector < int > v ( m ) ;	1
+for i = 0 to m exclusive , print v [ i ]	for ( int i = 0 ; i < m ; i ++ ) cout << v [ i ] ;
+	for ( int i = 0 ; i < m ; i ++ ) cin >> v [ i ] ;	NA
+sort v . begin ( ) and v . end ( )	sort ( v. begin ( ), v. end ( ) ) ;
+	sort ( v . begin ( ) , v . end ( ) ) ;	NA
+diff = vector of integer	vector < int > diff ;
+	vector < int > diff ;	1
+for i = 0 to m - n + 1 exclusive , append ( abs ( v [ i ] - v [ n + i - 1 ] ) ) in diff	for ( int i = 0 ; i < m - n + 1 ; i ++ ) diff. push_back ( abs ( v [ i ] - v [ n + i - 1 ] ) ) ;
+	for ( int i = 0 ; i < m - n + 1 ; i ++ ) { diff . push_back ( abs ( v [ i ] - v [ n + i - 1 ] ) ) ; }	NA
+print pointer min_element ( diff . begin ( ) , diff . end ( ) )	cout << * min_element ( diff. begin ( ), diff. end ( ) ) << endl ;
+	cout << * min_element ( diff . begin ( ) , diff . end ( ) ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

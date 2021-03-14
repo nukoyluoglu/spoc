@@ -1,0 +1,19 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string A	string A ;
+	string A ;	1
+read A	cin >> A ;
+	cin >> A ;	1
+let string B	string B ;
+	string B ;	1
+read B	cin >> B ;
+	cin >> B ;	1
+if A is equal to B	if ( A == B )
+	if ( A == B )	1
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print max of A . size ( ) and B . size ( )	cout << max ( A. size ( ), B. size of ) ) << endl ;
+	cout << max ( A . size ( ) , B . size ( ) ) << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

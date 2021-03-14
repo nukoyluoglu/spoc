@@ -1,0 +1,41 @@
+ctn = int array of length 30	int cnt [ 30 ] ;
+	int cnt [ 30 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , k be int	int n, k ;
+	int n , k ;	NA
+let s be a string	string s ;
+	string s ;	1
+read k and s	cin >> k >> s ;
+	cin >> k >> s ;	1
+set n to the lenght of s	n = s. length ( ) ;
+	n = s . length ( ) ;	NA
+for i = 0 to n exclusive increment cnt at s [ i ] - ' a '	for ( int i = 0 ; i < n ; i ++ ) cnt [ s [ i ] -'a'] ++ ;
+	for ( int i = 0 ; i < n ; i ++ ) { cnt [ s [ i ] - ' a ' ] ++ ; }	NA
+let can = true be a boolean	bool can = true ;
+	bool can = true ;	1
+let ss be a blank string	string ss = " " ;
+	string ss = " " ;	1
+for x = ' a ' to ' z ' inclusive	for ( char x ='a'; x <='z'; ++ x )
+	for ( char x = ' a ' ; x <= ' z ' ; x ++ )	NA
+if cnt [ x - ' a ' ] mod k is not 0	if ( cnt [ x -'a'] % k!= 0 )
+	if ( cnt [ x - ' a ' ] % k != 0 )	NA
+can is false	can = false ;
+	can = false ;	1
+else	else
+	else	1
+for j = 0 to cnt [ x - ' a ' ] / k increment ss by x	for ( int j = 0 ; j < cnt [ x -'a'] / k ; j ++ ) ss += x ;
+	for ( int j = 0 ; j < cnt [ x - ' a ' ] / k ; j ++ ) { ss += x ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if can	if ( can )
+	if ( can )	1
+print ss for k times	for ( int i = 0 ; i < k ; i ++ ) { cout << ss ; }
+	for ( int i = 0 ; i < k ; i ++ ) { cout << ss ; }	1
+print new line	cout << endl ;
+	cout << endl ;	1
+else	else
+	else	1
+print - 1 and new line	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,30 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers k , q , with q = 1	int k, q = 1 ;
+	int k , q = 1 ;	NA
+create character d	char d ;
+	char d ;	1
+create string s with s = " "	string s = " " ;
+	string s = " " ;	1
+read k read d	cin >> k >> d ;
+	cin >> k >> d ;	1
+if d - ' 0 ' is 0	if ( d -'0'== 0 )
+	if ( d - ' 0 ' == 0 )	NA
+if k is 1	if ( k == 1 )
+	if ( k == 1 )	1
+print 0 print newline	cout << 0 << endl ;
+	cout << 0 << endl ;	1
+else	else
+	else	1
+print " No solution " print newline	cout << " No solution " << endl ;
+	cout << " No solution " << endl ;	1
+else	else
+	else	1
+increment s by d	s += d ;
+	s += d ;	1
+for i = 1 to k exclusive , increment s by " 0 "	for ( int i = 1 ; i < k ; i ++ ) { s += " 0 " ; }
+	for ( int i = 1 ; i < k ; i ++ ) s += " 0 " ;	NA
+print s print newline	cout << s << endl ;
+	cout << s << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

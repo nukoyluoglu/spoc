@@ -1,0 +1,36 @@
+create long long array num with 100010 elements	long long num [ 100010 ] ;
+	long long num [ 100010 ] ;	1
+function cmp with integer arguments a and b that returns boolean	bool cmp ( int a, int b )
+	bool cmp ( int a , int b )	NA
+return a > b	return a > b ;
+	return a > b ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare long long variable sum = 0	long long sum = 0 ;
+	long long sum = 0 ;	1
+declare integer n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for integer i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+declare integer a	int a ;
+	int a ;	1
+read a	cin >> a ;
+	cin >> a ;	1
+increase sum by a	sum += a ;
+	sum += a ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+read n elements into num	for ( int i = 0 ; i < n ; i ++ ) cin >> num [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> num [ i ] ; }	NA
+sort num using cmp as comparator function	sort ( num, num + cmp ) ;
+	sort ( num , num + n , cmp ) ;	NA
+if num [ 0 ] + num [ 1 ] > = sum	if ( num [ 0 ] + num [ 1 ] >= sum )
+	if ( num [ 0 ] + num [ 1 ] >= sum )	1
+print " YES "	puts ( " YES " ) ;
+	cout << " YES " << endl ;	NA
+else	else
+	else	1
+print " NO "	puts ( " NO " ) ;
+	cout << " NO " << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

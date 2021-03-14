@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , b = string	string a, b ;
+	string a , b ;	NA
+read a then b	cin >> a >> b ;
+	cin >> a >> b ;	1
+if a is not b	if ( a!= b )
+	if ( a != b )	NA
+print max of length of a and length of b	cout << max ( a. length ( ), b. size ( ) ) << endl ;
+	cout << max ( a . length ( ) , b . length ( ) ) << endl ;	NA
+else	else
+	else	1
+print " - 1 "	puts ( " -1 " ) ;
+	cout << " -1\n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n be a integer	int n ;
+	int n ;	1
+read n	cin >> n ;
+	while ( cin >> n )	NA
+the 1000th element of sum1 is equal to 0	sum1 [ 1000 ] = 0 ;
+	int sum1 [ 1000 ] = { 0 } ;	NA
+the 1000th element of sum2 is equal to 1	sum2 [ 1000 ] = 1 ;
+	int sum2 [ 1000 ] = { 1 } ;	NA
+let sum be a integer with sum = 0	int sum = 0 ;
+	int sum = 0 ;	1
+for i = 1 to 50 exclusive	for ( int i = 1 ; i < 50 ; i ++ )
+	for ( int i = 1 ; i < 50 ; i ++ )	1
+increment sum by i	sum += i ;
+	sum += i ;	1
+sum1 [ i - 1 ] is equal to sum	sum1 [ i - 1 ] = sum ;
+	sum1 [ i - 1 ] = sum ;	1
+sum1 [ i ] is equal to sum1 [ i - 1 ] + i + 1	sum2 [ i ] = sum1 [ i - 1 ] + i + 1 ;
+	sum1 [ i ] = sum1 [ i - 1 ] + i + 1 ;	NA
+sum2 [ i ] is equal to sum2 [ i - 1 ] + sum1 [ i ]	sum2 [ j ] = sum2 [ i - 1 ] + sum1 [ i ] ;
+	sum2 [ i ] = sum2 [ i - 1 ] + sum1 [ i ] ;	NA
+if sum2 [ i - 1 ] < = n and sum2 [ i ] is greater than n , print i and newline	if ( sum1 [ i - 1 ] <= n && sum2 [ i ] > n ) cout << i << endl ;
+	if ( ( sum2 [ i - 1 ] <= n ) && ( sum2 [ i ] > n ) ) cout << i << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , k = int	int n, k ;
+	int n , k ;	NA
+read n then k	cin >> n >> k ;
+	cin >> n >> k ;	1
+x , y , x0 , y0 , total = double with total = 0 . 0	double x, y, x0, y0, total = 0.0 ;
+	double x , y , x0 , y0 , total ( 0.0 ) ;	NA
+read x0 then y0	cin >> x0 >> y0 ;
+	cin >> x0 >> y0 ;	1
+loop n times	while ( n -- )
+	while ( -- n )	NA
+read x then y	cin >> x >> y ;
+	cin >> x >> y ;	1
+add sqrt ( ( x - x0 ) * ( x - x0 ) + ( y - y0 ) * ( y - y0 ) ) to total	total = total + sqrt ( ( x - x0 ) * x - y0 ) + ( y - yot ) * ( y + y0) ) ;
+	total += sqrt ( ( x - x0 ) * ( x - x0 ) + ( y - y0 ) * ( y - y0 ) ) ;	NA
+set x0 = x	x0 = x ;
+	x0 = x ;	1
+set y0 = y	y0 = y ;
+	y0 = y ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print total * k / 50 with 6 decimal digits	cout. precision ( total * k / 50 ) ;
+	cout << fixed << setprecision ( 6 ) << total * k / 50 << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

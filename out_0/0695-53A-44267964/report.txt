@@ -1,0 +1,42 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+str = string	string str ;
+	string str ;	1
+read str	cin >> str ;
+	cin >> str ;	1
+len = int with len = length of str	int len = str. length ( ) ;
+	int len = str . length ( ) ;	NA
+n = int	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+vec = string vector	vector < string > vec ;
+	vector < string > vec ;	1
+for i = 0 to n	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+temp = string	string temp ;
+	string temp ;	1
+read temp	cin >> temp ;
+	cin >> temp ;	1
+pos = int with pos = index of str in temp	int pos = temp. find ( str ) ;
+	int pos = temp . find ( str ) ;	NA
+if pos is 0	if ( pos == 0 )
+	if ( pos == 0 )	1
+suffix = string with suffix = substr of len on temp	string prefix = temp. substr ( 0, len ) ;
+	string suffix = temp . substr ( len ) ;	NA
+append suffix to vec	vec. push_back ( suffix ) ;
+	vec . push_back ( suffix ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if size of vec is 0	if ( vec. size ( ) == 0 )
+	if ( vec . size ( ) == 0 )	NA
+pritn str	cout << str << endl ;
+	cout << str << endl ;	1
+else	else
+	else	1
+sort vec	sort ( vec. begin ( ), vec. end ( ) ) ;
+	sort ( vec . begin ( ) , vec . end ( ) ) ;	NA
+print str + vec [ 0 ]	cout << str + vec [ 0 ] << endl ;
+	cout << ( str + vec [ 0 ] ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

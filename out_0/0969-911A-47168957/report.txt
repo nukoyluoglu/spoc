@@ -1,0 +1,45 @@
+a is a new array of integers with size 1e5 + 5	int a [ 1e5 + 5 ] ;
+	int a [ ( int ) 1e5 + 5 ] ;	NA
+function min with long long arguments a and b that returns long long	long long min ( long long a, long long b )
+	long long min ( long long a , long long b )	NA
+if a is greater than b	if ( a > b )
+	if ( a > b )	1
+return b	return b ;
+	return b ;	1
+else	else
+	else	1
+return a	return a ;
+	return a ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n	int n ;
+	int n ;	1
+read n from the user input	cin >> n ;
+	cin >> n ;	1
+declare long long m with value 1e9 + 1	long long m = 1e9 + 1 ;
+	long long m = 1e9 + 1 ;	1
+for integer i = 1 to n inclusive incrementing i	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+read input to a [ i ]	cin >> a [ i ] ;
+	cin >> a [ i ] ;	1
+change m to min of m and a [ i ]	m = min ( m, a [ i ] ) ;
+	m = min ( m , a [ i ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare vector of integers called ans	vector < int > ans ;
+	vector < int > ans ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if a [ i ] is equal to m , push i into ans	if ( a [ i ] == m ) ans. push_back ( i ) ;
+	if ( a [ i ] == m ) { ans . push_back ( i ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create new integer called mins = 1e9	int mins = 1e9 ;
+	int mins = 1e9 ;	1
+declare integer size with value length of ans - 1	int size = ans. size ( ) - 1 ;
+	int size = ans . size ( ) - 1 ;	NA
+for i from 1 to size inclusive , assign min of mins and ans [ i ] - ans [ i - 1 ] to mins	for ( int i = 1 ; i <= size ; i ++ ) { mins = min ( mins, ans [ i ] - ans [ 1 ] ) ; }
+	for ( int i = 1 ; i <= size ; i ++ ) { mins = min ( mins , ans [ i ] - ans [ i - 1 ] ) ; }	NA
+print mins to the standard output	cout << mins << endl ;
+	cout << mins << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

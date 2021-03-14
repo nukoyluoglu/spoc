@@ -1,0 +1,55 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create vector of booleans called good with n elements filled with 1	bool good ( n, 1 ) ;
+	vector < bool > good ( n , 1 ) ;	NA
+for i from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+for j from 0 to n exclusive	for ( int j = 0 ; j < n ; j ++ )
+	for ( int j = 0 ; j < n ; j ++ )	1
+declare integer x	int x ;
+	int x ;	1
+read input to x	cin >> x ;
+	cin >> x ;	1
+if x < = 0	if ( x <= 0 )
+	if ( x <= 0 )	1
+go to the start of the loop	continue ;
+	continue ;	1
+else if x = 1	else if ( x == 1 )
+	else if ( x == 1 )	1
+set good [ i ] to 0	good [ i ] = 0 ;
+	good [ i ] = 0 ;	1
+else if x = 2	else if ( x == 2 )
+	else if ( x == 2 )	1
+set good [ j ] to 0	good [ j ] = 0 ;
+	good [ j ] = 0 ;	1
+else	else
+	else	1
+set good [ i ] and good [ j ] to 0	good [ i ] = good [ j ] = 0 ;
+	good [ i ] = good [ j ] = 0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+declare vector of integers called sol	vector < int > sol ;
+	vector < int > sol ;	1
+for i from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if good [ i ] is true , push i + 1 to sol	if ( good [ i ] ) sol. push_back ( i + 1 ) ;
+	if ( good [ i ] ) sol . push_back ( i + 1 ) ;	NA
+print length of sol	cout << sol. size ( ) << endl ;
+	cout << sol . size ( ) << endl ;	NA
+if length of sol > 0	if ( sol. size ( ) > 0 )
+	if ( sol . size ( ) > 0 )	NA
+for integer i = 0 to length of sol exclusive	for ( int i = 0 ; i < sol. size ( ) ; i ++ )
+	for ( int i = 0 ; i < sol . size ( ) ; i ++ )	NA
+if i ! = 0 , print ' '	if ( i!= 0 ) cout <<' ';
+	if ( i != 0 ) cout << ' ' ;	NA
+print sol [ i ]	cout << sol [ i ] ;
+	cout << sol [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print new line	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

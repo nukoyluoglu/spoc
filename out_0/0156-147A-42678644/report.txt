@@ -1,0 +1,27 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+s = string	string s ;
+	string s ;	1
+read s	cin >> s ;
+	getline ( cin , s ) ;	NA
+for i = 0 to s . length ( ) exclusive	for ( int i = 0 ; i < s. length ( ) ; i ++ )
+	for ( int i = 0 ; i < s . length ( ) ; i ++ )	NA
+while ( s [ i - 1 ] is character ' ' and s [ i ] is character ' ' ) , erase ( s . begin ( ) + i - 1 ) from s	while ( ( s [ i - 1 ] ==' ') && ( s. begin ( ) + i + 1 ) ) ) { s. erase ( ( char ) ('s'+'i') ) ; }
+	while ( s [ i - 1 ] == ' ' && s [ i ] == ' ' ) s . erase ( s . begin ( ) + i - 1 ) ;	NA
+if ( ( s [ i ] is . or s [ i ] is ! or s [ i ] is , or s [ i ] is ? ) )	if ( ( s [ i ] == '.'|| s [ 1 ]!= '!'or s [ 2 ] == "?') )
+	if ( ( s [ i ] == ' . ' || s [ i ] == ' ! ' || s [ i ] == ' , ' || s [ i ] == ' ? ' ) )	NA
+if ( s [ i - 1 ] is character ' ' and s [ i + 1 ] is character ' ' )	if ( ( s [ i - 1 ] ==' ') && ( ( int ) s [ j + i ] == " " ) )
+	if ( s [ i - 1 ] == ' ' && s [ i + 1 ] == ' ' )	NA
+erase ( s . begin ( ) + i - 1 ) from s	s. erase ( s. begin ( ) + i - 1 ) ;
+	s . erase ( s . begin ( ) + i - 1 ) ;	NA
+else if ( s [ i + 1 ] is not character ' '	else if ( s [ i + 1 ]!=' ')
+	else if ( s [ i + 1 ] != ' ' )	NA
+insert ( s . begin ( ) + i + 1 , character ' ' ) in s	s. insert ( s. begin ( ) + i + 1,' ') ;
+	s . insert ( s . begin ( ) + i + 1 , ' ' ) ;	NA
+while ( s [ i - 1 ] is character ' ' ) erase ( s . begin ( ) + i - 1 ) from s	while ( s [ i - 1 ] ==' ') { s. erase ( s. begin ( ) + i + 1 ) ; }
+	while ( s [ i - 1 ] == ' ' ) s . erase ( s . begin ( ) + i - 1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print s	cout << s << endl ;
+	cout << s << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

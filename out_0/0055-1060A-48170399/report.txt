@@ -1,0 +1,25 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+st , s = string	string st, s ;
+	string st , s ;	NA
+i , a , b , count = int with count = 0	int i, a, b, count = 0 ;
+	int i , a , b , count = 0 ;	NA
+read a then st	cin >> a >> st ;
+	cin >> a >> st ;	1
+set b to a / 11	b = a / 11 ;
+	b = a / 11 ;	1
+for i = 0 to a	for ( int i = 0 ; i < a ; i ++ )
+	for ( i = 0 ; i < a ; i ++ )	NA
+if st [ i ] is ' 8 ' then increment count	if ( st [ i ] =='8') count ++ ;
+	if ( st [ i ] == ' 8 ' ) { count ++ ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if count is less than b	if ( count < b )
+	if ( count < b )	1
+print count	cout << count ;
+	cout << count << endl ;	NA
+else	else
+	else	1
+print b	cout << b << endl ;
+	cout << b << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

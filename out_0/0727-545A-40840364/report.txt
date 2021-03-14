@@ -1,0 +1,54 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , d , s = int , dist = array of 105 int	int n, d, s, dist [ 105 ] ;
+	int n , d , dist [ 105 ] , s ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+s = n	s = n ;
+	s = n ;	1
+fill dist with 0	dist. assign ( 0, sizeof ( dist ) ) ;
+	memset ( dist , 0 , sizeof ( dist ) ) ;	NA
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+for j = 1 to n inclusive	for ( int j = 1 ; j <= n ; j ++ )
+	for ( int j = 1 ; j <= n ; j ++ )	1
+read d	cin >> d ;
+	cin >> d ;	1
+if d is 1 increment dist [ i ]	if ( d == 1 ) dist [ i ] ++ ;
+	if ( d == 1 ) dist [ i ] ++ ;	1
+if d is 2 increment dist [ j ]	if ( d == 2 ) dist [ j ] ++ ;
+	if ( d == 2 ) dist [ j ] ++ ;	1
+if d is 3	if ( d == 3 )
+	if ( d == 3 )	1
+increment dist [ i ]	dist [ i ] ++ ;
+	dist [ i ] ++ ;	1
+increment dist [ j ]	dist [ j ] ++ ;
+	dist [ j ] ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n inclusive	for ( int i = 0 ; i <= n ; i ++ )
+	for ( int i = 0 ; i <= n ; i ++ )	1
+if dist [ i ] ! = 0 decrement s	if ( dist [ i ]!= 0 ) s -- ;
+	if ( dist [ i ] != 0 ) s -- ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print s	cout << s << endl ;
+	cout << s << endl ;	1
+flot = 1	flot = 1 ;
+	int flot = 1 ;	NA
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if dist [ i ] is 0 and flot	if ( dist [ i ] == 0 && flot )
+	if ( dist [ i ] == 0 && flot )	1
+print i	cout << i << endl ;
+	cout << i ;	NA
+flot = 0	flot = 0 ;
+	flot = 0 ;	1
+else if dist [ i ] is 0 and not flot	else if ( dist [ i ] == 0 &&! flot )
+	else if ( dist [ i ] == 0 && ! flot )	NA
+print space , i	<< " " << i << endl ;
+	cout << " " << i ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if s print newline	if ( s ) cout << endl ;
+	if ( s ) cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

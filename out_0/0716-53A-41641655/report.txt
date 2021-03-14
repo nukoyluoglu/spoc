@@ -1,0 +1,58 @@
+in the function lexi_comp that takes const string reference a , b and returns bool	bool lexi_comp ( const string & a, string & b )
+	bool lexi_comp ( const string & a , const string & b )	NA
+n = integer with n = min of a . size ( ) and b . size ( )	int n = min ( ( int ) a. size ( ), ( double ) ( b.size ( ) ) ) ;
+	int n = min ( a . size ( ) , b . size ( ) ) ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if a [ i ] is not b [ i ] , return a [ i ] < b [ i ]	if ( a [ i ]!= b [ 1 ] ) { return a [ ++ i ] < b [ 0 ] ; }
+	if ( a [ i ] != b [ i ] ) { return a [ i ] < b [ i ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return a . size ( ) < b . size ( )	return a. size ( ) < b.size ( ) ;
+	return a . size ( ) < b . size ( ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+in the function isPrefix that takes const string reference a , b and returns bool	bool isPrefix ( const string & a, string & b )
+	bool isPrefix ( const string & a , const string & b )	NA
+if b . size ( ) < a . size ( ) , return false	if ( b. size ( ) < a.size ( ) ) { return false ; }
+	if ( b . size ( ) < a . size ( ) ) { return false ; }	NA
+for i = 0 to a . size ( ) exclusive	for ( int i = 0 ; i < a. size ( ) ; i ++ )
+	for ( int i = 0 ; i < a . size ( ) ; i ++ )	NA
+if a [ i ] is not b [ i ] , return false	if ( a [ i ]!= b [ 1 ] ) return false ;
+	if ( a [ i ] != b [ i ] ) { return false ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return true	return true ;
+	return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , b , ans = string	string a, b, ans ;
+	string a , b , ans ;	NA
+n = integer	int n ;
+	int n ;	1
+read a , n	cin >> a >> n ;
+	cin >> a >> n ;	1
+ans = a + string on 100 an z	ans ='a'+ string ( 100, z ) ;
+	ans = a + string ( 100 , ' z ' ) ;	NA
+ok = bool with ok = false	bool ok = false ;
+	bool ok = false ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read b	cin >> b ;
+	cin >> b ;	1
+if isPrefix on a and b	if ( isPrefix ( a, b ) )
+	if ( isPrefix ( a , b ) )	NA
+ok = true	ok = true ;
+	ok = true ;	1
+if lexi_comp ( b , ans ) , swap b and ans	if ( lexi_comp ( b, ans ) ) swap ( a, b ), ans ++ ;
+	if ( lexi_comp ( b , ans ) ) { swap ( b , ans ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if ok	if ( ok )
+	if ( ok )	1
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+else	else
+	else	1
+print a	cout << a << endl ;
+	cout << a << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

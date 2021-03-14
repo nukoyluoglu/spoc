@@ -1,0 +1,22 @@
+s = integer	int s ;
+	int s ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers x , a [ 10001 ] , b [ 10001 ] , maxs , set maxs to 0	int x, a [ 100001 ], b [ 10001 ], maxs = 0 ;
+	int x , a [ 10001 ] , b [ 10001 ] , maxs = 0 ;	NA
+read x	cin >> x ;
+	cin >> x ;	1
+for i = 1 to x inclusive , read a [ i ] and b [ i ]	for ( int i = 1 ; i <= x ; i ++ ) { cin >> a [ i ] >> b [ j ] ; }
+	for ( int i = 1 ; i <= x ; i ++ ) cin >> a [ i ] >> b [ i ] ;	NA
+for i = 1 to x inclusive	for ( int i = 1 ; i <= x ; i ++ )
+	for ( int i = 1 ; i <= x ; i ++ )	1
+set s to s - a [ i ]	s -= a [ i ] ;
+	s -= a [ i ] ;	1
+assign s + b [ i ] to s	s += b [ i ] ;
+	s += b [ i ] ;	1
+if s greater than maxs , set maxs to s	if ( s > maxs ) maxs = s ;
+	if ( s > maxs ) maxs = s ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print maxs	cout << maxs << endl ;
+	cout << maxs << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,30 @@
+let str , s be strings with s = array of strings of length 105	string str, s [ 105 ] ;
+	string str , s [ 105 ] ;	NA
+create a vector of strings s1	vector < string > s1 ;
+	vector < string > s1 ;	1
+let n be a integer	int n ;
+	int n ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read str	cin >> str ;
+	cin >> str ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive , read s [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> s [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) cin >> s [ i ] ;	1
+sort the values s and s + n	sort ( s, s + n ) ;
+	sort ( s , s + n ) ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if s [ i ] . find ( str ) is equal to 0 , push_back s [ i ] in s1	if ( s [ i ]. find ( str ) == 0 ) { s1. push_back ( s1 [ j ] ) ; }
+	if ( s [ i ] . find ( str ) == 0 ) s1 . push_back ( s [ i ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if length of s1	if ( s1. length ( ) )
+	if ( s1 . size ( ) )	NA
+print s1 [ 0 ] and newline	cout << s1 [ 0 ] << endl ;
+	cout << s1 [ 0 ] << " \n " ;	NA
+else do the following	else
+	else	1
+print str and newline	cout << str << endl ;
+	cout << str << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

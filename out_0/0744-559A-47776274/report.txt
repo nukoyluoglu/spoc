@@ -1,0 +1,19 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+set ee and acc = 0	int ee = 0, acc = 0 ;
+	int ee = 0 , acc = 0 ;	NA
+for i = 0 to 6 exclusive	for ( int i = 0 ; i < 6 ; i ++ )
+	for ( int i = 0 ; i < 6 ; i ++ )	1
+create int e	int e ;
+	int e ;	1
+read e	cin >> e ;
+	cin >> e ;	1
+if i is even , assign acc + e * e to acc	if ( i % 2 == 0 ) acc += e * e ;
+	if ( i % 2 == 0 ) acc += e * e ;	1
+if i is less than 3 , ee = ee + e	if ( i < 3 ) ee += e ;
+	if ( i < 3 ) ee += e ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set ans equal to ee * ee - acc	ans = ee * ee- acc ;
+	int ans = ee * ee - acc ;	NA
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

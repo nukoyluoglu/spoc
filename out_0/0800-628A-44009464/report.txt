@@ -1,0 +1,19 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer variables p , b , t and x	int p, b, t, x ;
+	int p , b , t , x ;	NA
+read input to p , b and t	cin >> p >> b >> t ;
+	cin >> p >> b >> t ;	1
+create new integer match with value 0	int match = 0 ;
+	int match = 0 ;	1
+change x to p	x = p ;
+	x = p ;	1
+while p ! = 1	while ( p )
+	while ( p != 1 )	NA
+change match to match + ( p / 2 )	match += ( p / 2 ) ;
+	match += ( p / 2 ) ;	1
+set p to ( p / 2 ) + ( p % 2 )	p = ( p / 2 ) + ( p % 2 ) ;
+	p = ( p / 2 ) + ( p % 2 ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print match + ( 2 * match * b ) , " " and x * t to the standard output	cout << match + ( 2 * match * b ) << " " << x * t << endl ;
+	cout << match + ( 2 * match * b ) << " " << x * t << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

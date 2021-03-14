@@ -1,0 +1,28 @@
+let a = array of integers of length 200020 , pair of integets	pair < int, int > a [ 200020 ] ;
+	pair < pair < int , int > , int > a [ 200020 ] ;	NA
+let n , k , c , x , y , m , z , ac , t , b , i be long integers	long long n, k, c, x, y, m, z, ac, t, b, i ;
+	long long n , k , c , x , y , m , z , ac , t , b , i ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+for read n , n is decreased by 1 , i is increased by 1	for ( cin >> n ; n -- ; )
+	for ( cin >> n ; n -- ; i ++ )	NA
+for read the values k , c , x , y , m , t , t = 0 , k value is decreased by 1 , z = maximum of z and t	for ( cin >> k >> c >> x >> y >> m >> t = 0 ; k -- ) z = max ( z, t ) ;
+	for ( cin >> k >> c >> x >> y >> m , t = 0 ; k -- ; z = max ( z , t ) )	NA
+if ac < = 200000 , a [ ac + + ] = make_pair ( pair < int , int > ( t , c ) , i	if ( ac <= 200000 ) a [ ac ++ ] = make_pair ( pair < int, int > ( t, c ), i ) ;
+	if ( ac <= 200000 ) a [ ac ++ ] = make_pair ( pair < int , int > ( t , c ) , i ) ;	NA
+let the value of b is equal to c * x + y modulo m	b = c * x + y % m ;
+	b = ( c * x + y ) % m ;	NA
+if b is less than c and k , increase t by 1	if ( b < c && b < k ) t ++ ;
+	if ( b < c && k ) t ++ ;	NA
+the value of b is assigned to c	c = b ;
+	c = b ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print z and newline	cout << z << endl ;
+	cout << z << endl ;	1
+if ac is less than 200001	if ( ac < 200001 )
+	if ( ac < 200001 )	1
+sort the values a and a + ac	sort ( a, a + ac ) ;
+	sort ( a , a + ac ) ;	NA
+for i = 0 to ac exclusive , print a [ i ] . first . second and a [ i ] . second + 1 and newline	for ( int i = 0 ; i < ac ; i ++ ) { cout << a [ i ]. first. second << " " << ( ( i ). second + 1 ) << endl ; }
+	for ( int i = 0 ; i < ac ; i ++ ) cout << a [ i ] . first . second << " " << a [ i ] . second + 1 << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

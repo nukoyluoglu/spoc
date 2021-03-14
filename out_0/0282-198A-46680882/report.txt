@@ -1,0 +1,44 @@
+in the function solve that takes long long k , b , n , t and returns long long	long long solve ( long long k, long long b, int n, int t )
+	long long solve ( long long k , long long b , long long n , long long t )	NA
+if k is 1	if ( k == 1 )
+	if ( k == 1 )	1
+low , high = long long with low = - 1 , high = n	long long low = - 1, high = n ;
+	long long low = - 1 , high = n ;	NA
+while high - low > 1	while ( high - low > 1 )
+	while ( high - low > 1 )	1
+mid = long long with mid = ( low + high ) / 2	long long mid = ( low + high ) / 2 ;
+	long long mid = ( low + high ) / 2 ;	1
+if 1 - t + b * ( n - mid ) < = 0	if ( 1 - t + b * ( n - mid ) <= 0 )
+	if ( 1 - t + b * ( n - mid ) <= 0 )	1
+high = mid	high = mid ;
+	high = mid ;	1
+else	else
+	else	1
+low = mid	low = mid ;
+	low = mid ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return high	return high ;
+	return high ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+answ = long long with answ = n	long long answ = n ;
+	long long answ = n ;	1
+pow = __float128 with pow = 1	const int pow = 1LL ;
+	__float128 pow = 1 ;	NA
+while answ > 0 and ( k - 1 ) * ( pow * k - t ) + b * ( pow * k - 1 ) < = 0	while ( answ > 0 && ( k - 1 ) * ( pow * k - t ) + b * ( p * k + 1 ) <= 0 )
+	while ( answ > 0 && ( k - 1 ) * ( pow * k - t ) + b * ( pow * k - 1 ) <= 0 )	NA
+pow = pow * k	pow *= k ;
+	pow *= k ;	1
+decrement answ	ansh -- ;
+	answ -- ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return answ	return answ ;
+	return answ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+k , b , n , t = long long	long long k, b, n, t ;
+	long long k , b , n , t ;	NA
+while read k , b , n , t , print solve ( k , b , n , t )	while ( cin >> k >> b >> n >> t ) { cout << solve ( k, b, n, t ) << endl ; }
+	while ( cin >> k >> b >> n >> t ) { cout << solve ( k , b , n , t ) << endl ; }	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

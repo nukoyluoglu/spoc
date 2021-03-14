@@ -1,0 +1,20 @@
+create integer n	int n ;
+	int n ;	1
+create integer array arr with arr = { 4 , 7 , 44 , 47 , 74 , 77 , 444 , 447 , 474 , 477 }	int arr [ ] = { 4, 7, 44, 47, 74, 77, 444, 447, 474, 477 } ;
+	int arr [ ] = { 4 , 7 , 44 , 47 , 74 , 77 , 444 , 447 , 474 , 477 } ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to size of arr / 4 exclusie	for ( int i = 0 ; i < arr. size ( ) / 4 ; i ++ )
+	for ( int i = 0 ; i < sizeof ( arr ) / 4 ; i ++ )	NA
+if not ( n % arr [ i ] )	if (! ( n % arr [ i ] ) )
+	if ( ! ( n % arr [ i ] ) )	NA
+print " YES \ n "	cout << " YES\n " ;
+	cout << " YES\n " ;	1
+exit from program with code 0	exit ( 0 ) ;
+	exit ( 0 ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print " NO \ n "	cout << " NO\n " ;
+	cout << " NO\n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

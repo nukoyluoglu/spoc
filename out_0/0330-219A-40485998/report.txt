@@ -1,0 +1,30 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare string variables str , str2 and s	string str, str2, s ;
+	string str , str2 , s ;	NA
+declare integer variables num and i	int num, i ;
+	int num , i ;	NA
+read num and str and loop further	while ( cin >> num >> str )
+	while ( cin >> num >> str )	1
+sort str	sort ( str. begin ( ), str. end ( ) ) ;
+	sort ( str . begin ( ) , str . end ( ) ) ;	NA
+for i from 0 to length of str exclusive adding num to i , append str [ i ] to str2	for ( int i = 0 ; i < str. length ( ) ; i += num ) { str2 += str [ i ] ; }
+	for ( i = 0 ; i < str . size ( ) ; i += num ) { str2 += str [ i ] ; }	NA
+for i = 0 to num exclusive , append str2 to s	for ( int i = 0 ; i < num ; i ++ ) { s. push_back ( str2 ) ; }
+	for ( i = 0 ; i < num ; i ++ ) { s += str2 ; }	NA
+assign s to str2	str2 = s ;
+	str2 = s ;	1
+sort str2	sort ( str2, str2 + n ) ;
+	sort ( str2 . begin ( ) , str2 . end ( ) ) ;	NA
+if str2 ! = str	if ( str2!= str )
+	if ( str2 != str )	NA
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+;	;	;	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+print s	cout << s << endl ;
+	cout << s << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

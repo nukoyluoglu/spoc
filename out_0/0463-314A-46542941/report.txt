@@ -1,0 +1,31 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , k	long long n, k ;
+	long long n , k ;	NA
+read n readk	cin >> n >> k ;
+	cin >> n >> k ;	1
+create long long sum with sum = 0	long long sum = 0 ;
+	long long sum = 0 ;	1
+create long long pos with pos = 1	long long pos = 1 ;
+	long long pos = 1 ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( long long i = 1 ; i <= n ; i ++ )	NA
+create long long x	long long x ;
+	long long x ;	1
+read x	cin >> x ;
+	cin >> x ;	1
+create long long d with d = sum - ( pos - 1 ) * ( n - i ) * x	long long d = sum - ( pos - 1 ) * ( n - i ) * x ;
+	long long d = sum - ( pos - 1 ) * ( n - i ) * x ;	1
+if d is less than k	if ( d < k )
+	if ( d < k )	1
+print i print ' \ n '	cout << i <<'\n';
+	cout << i << ' \n ' ;	NA
+else	else
+	else	1
+increment sum by x * ( pos - 1 )	sum += x * ( pos - 1 ) ;
+	sum += x * ( pos - 1 ) ;	1
+increment pos	pos ++ ;
+	pos ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

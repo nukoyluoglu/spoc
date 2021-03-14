@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , m , i , j , k	long long n, m, i, j, k ;
+	long long n , m , i , j , k ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+set k to 3	k = 3 ;
+	k = 3 ;	1
+while 1 is true	while ( 1 )
+	while ( 1 )	1
+if n % k is not 0	if ( n % k!= 0 )
+	if ( n % k != 0 )	NA
+set m to ( n / k ) + 1	m = ( n / k ) + 1 ;
+	m = ( n / k ) + 1 ;	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set value of k to 3	k = 3 ;
+	k *= 3 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print m print newline	cout << m << endl ;
+	cout << m << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

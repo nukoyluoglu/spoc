@@ -1,0 +1,109 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare string s	string s ;
+	string s ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+declare integer variable pntr = length of s - 1	int pntr = s. length ( ) - 1 ;
+	int pntr = s . size ( ) - 1 ;	NA
+declare character c	char c ;
+	char c ;	1
+for i = 0 to length of s / 2 exclusive	for ( int i = 0 ; i < s. length ( ) / 2 ; i ++ )
+	for ( int i = 0 ; i < s . size ( ) / 2 ; i ++ )	NA
+if s [ i ] ! = s [ pntr ]	if ( s [ i ]!= s [ pntr ] )
+	if ( s [ i ] != s [ pntr ] )	NA
+declare boolean b = true	bool b = true ;
+	bool b = true ;	1
+declare integer variable pntr2 = pntr	int pntr2 = pntntr ;
+	int pntr2 = pntr ;	NA
+for integer j = i + 1 to ( length of s + 1 ) / 2 exclusive	for ( int j = i + 1 ; j < ( s. length ( ) + 1 ) / 2 ; j ++ )
+	for ( int j = i + 1 ; j < ( s . size ( ) + 1 ) / 2 ; j ++ )	NA
+if s [ j ] ! = s [ pntr2 ]	if ( s [ j ]!= s [ pntr2 ] )
+	if ( s [ j ] != s [ pntr2 ] )	NA
+set b to false	b = false ;
+	b = false ;	1
+else	else
+	else	1
+decrease pntr2	pntr2 -- ;
+	pntr2 -- ;	1
+if b is true	if ( b )
+	if ( b )	1
+assign value of s [ i ] to c	c = s [ i ] ;
+	c = s [ i ] ;	1
+for integer j = 0 to length of s exclusive	for ( int j = 0 ; j < s. length ( ) ; j ++ )
+	for ( int j = 0 ; j < s . size ( ) ; j ++ )	NA
+print s [ j ]	cout << s [ j ] ;
+	cout << s [ j ] ;	1
+if j = pntr print c	if ( j == pntr ) cout << c << endl ;
+	if ( j == pntr ) cout << c ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print new line	cout << endl ;
+	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+pntr2 = pntr - 1	pntr2 = pntr - 1 ;
+	pntr2 = pntr - 1 ;	1
+set value of b to true	b = true ;
+	b = true ;	1
+for integer j = i to ( length of s + 1 ) / 2 exclusive	for ( int j = i ; j < ( s. length ( ) + 1 ) / 2 ; j ++ )
+	for ( int j = i ; j < ( s . size ( ) + 1 ) / 2 ; j ++ )	NA
+if s [ j ] ! = s [ pntr2 ]	if ( s [ j ]!= s [ pntr2 ] )
+	if ( s [ j ] != s [ pntr2 ] )	NA
+b = false	b = false ;
+	b = false ;	1
+else	else
+	else	1
+decrement pntr2	pntr2 -- ;
+	pntr2 -- ;	1
+if b	if ( b )
+	if ( b )	1
+assign value of s [ pntr ] to c	c = s [ pntr ] ;
+	c = s [ pntr ] ;	1
+for integer j = 0 to length of s exclusive	for ( int j = 0 ; j < s. length ( ) ; j ++ )
+	for ( int j = 0 ; j < s . size ( ) ; j ++ )	NA
+if j = i	if ( j == i )
+	if ( j == i ) cout << c ;	NA
+print s [ j ]	cout << s [ j ] ;
+	cout << s [ j ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print new line	cout << endl ;
+	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " NA "	puts ( " NA " ) ;
+	cout << " NA " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+decrement pntr	pntr -- ;
+	pntr -- ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if length of s is an even number	if ( s. length ( ) % 2 == 0 )
+	if ( s . size ( ) % 2 )	NA
+for i = 0 to length of s exclusive	for ( int i = 0 ; i < s. length ( ) ; i ++ )
+	for ( int i = 0 ; i < s . size ( ) ; i ++ )	NA
+if i = ( length of s ) / 2	if ( i == ( s. length ( ) ) / 2 )
+	if ( i == ( s . size ( ) ) / 2 )	NA
+print s [ i ] and s [ i ]	cout << s [ i ] << " " ;
+	cout << s [ i ] << s [ i ] ;	NA
+else	else
+	else	1
+print s [ i ]	cout << s [ i ] ;
+	cout << s [ i ] ;	1
+print new line	cout << endl ;
+	cout << endl ;	1
+else	else
+	else	1
+for integer i = 0 to length of s exclusive	for ( int i = 0 ; i < s. length ( ) ; i ++ )
+	for ( int i = 0 ; i < s . size ( ) ; i ++ )	NA
+if i = ( length of s / 2 )	if ( i == s. length ( ) / 2 )
+	if ( i == ( s . size ( ) / 2 ) )	NA
+print " a " and s [ i ]	cout << " a " << s [ i ] ;
+	cout << " a " << s [ i ] ;	1
+else	else
+	else	1
+print s [ i ]	cout << s [ i ] ;
+	cout << s [ i ] ;	1
+print new line	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

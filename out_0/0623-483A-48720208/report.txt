@@ -1,0 +1,25 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , m	long long n, m ;
+	long long n , m ;	NA
+read n read m	cin >> n >> m ;
+	cin >> n >> m ;	1
+if m - n is less than 2	if ( m - n < 2 )
+	if ( m - n < 2 )	1
+print - 1 print newline	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+else	else
+	else	1
+if n % 2 is 0	if ( n % 2 == 0 )
+	if ( n % 2 == 0 )	1
+print n print " " print n + 1 print " " print n + 2 print newline	cout << n <<' '<< n + 1 << " " << ( n + 2 ) << endl ;
+	cout << n << " " << n + 1 << " " << n + 2 << endl ;	NA
+else if n % 2 is not 0 and n + 3 is less than or equal to m	else if ( n % 2!= 0 && n + 3 <= m )
+	else if ( n % 2 != 0 && n + 3 <= m )	NA
+print n + 1 print " " print n + 2 print " " print n + 3 print newline	cout << n + 1 << " " << ( n + 3 ) << " \n ", i + 3 << endl ;
+	cout << n + 1 << " " << n + 2 << " " << n + 3 << endl ;	NA
+else	else
+	else	1
+print - 1 print newline	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

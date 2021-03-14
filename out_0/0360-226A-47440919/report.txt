@@ -1,0 +1,41 @@
+declare power with long longs x , integers y , m as arguments , returning long long	long long power ( long long x, int y, long long m )
+	long long power ( long long x , int y , int m )	NA
+create long long res with res = 1	long long res = 1 ;
+	long long res = 1 ;	1
+while y is greater than 0	while ( y > 0 )
+	while ( y > 0 )	1
+if y bitwise and 1	if ( y & 1 )
+	if ( y & 1 )	1
+set res to res * x	res *= x ;
+	res = res * x ;	NA
+set res to res % m	res = res % m ;
+	res %= m ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+set y to y bitwise right 1	y >>= 1 ;
+	y = y >> 1 ;	NA
+set x to x * x	x = x * x ;
+	x = x * x ;	1
+set x to x % m	x = x % m ;
+	x %= m ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return res from function	return res ;
+	return res ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , m	int n, m ;
+	int n , m ;	NA
+read n read m	cin >> n >> m ;
+	cin >> n >> m ;	1
+create integer ans with ans = result of run power with long long casted ( 3 ) , n , m as arguments	int ans = power ( ( long long ) 3 ), n, m ) ;
+	int ans = power ( ( long long ) 3 , n , m ) ;	NA
+if ans is 0	if ( ans == 0 )
+	if ( ans == 0 )	1
+print m - 1 print newline	cout << m - 1 << endl ;
+	cout << m - 1 << endl ;	1
+else	else
+	else	1
+print ans - 1 print newline	cout << ans - 1 << endl ;
+	cout << ans - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

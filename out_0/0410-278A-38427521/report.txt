@@ -1,0 +1,23 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n be a long integer	long long n ;
+	long long int n ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+let Arr , Sum be long integers with Sum = 0 , Arr = array of long integers of length n + 2	long long Arr [ n + 2 ], Sum = 0 ;
+	long long int Arr [ n + 2 ] , Sum = 0 ;	NA
+for i = 1 to n inclusive , read Arr [ i ] , increment Sum by Arr [ i ]	for ( int i = 1 ; i <= n ; i ++ ) { cin >> Arr [ i ], Sum += ArR [ j ] ; }
+	for ( int i = 1 ; i <= n ; i ++ ) cin >> Arr [ i ] , Sum += Arr [ i ] ;	NA
+let s , t be long integers	long long s, t ;
+	long long int s , t ;	NA
+read s , t	cin >> s >> t ;
+	cin >> s >> t ;	1
+let Cnt be a long integer with Cnt = 0	long long Cnt = 0 ;
+	long long int Cnt = 0 ;	NA
+if s is greater than t , swap s , t	if ( s > t ) swap ( s, t ) ;
+	if ( s > t ) swap ( s , t ) ;	NA
+for i = s to t exclusive , increment Cnt by Arr [ i ]	for ( int i = s ; i < t ; i ++ ) Cnt += Arr [ i ] ;
+	for ( int i = s ; i < t ; i ++ ) Cnt += Arr [ i ] ;	1
+print minimum of Cnt , Sum - Cnt and newline	cout << min ( Cnt, Sum - Cnt ) << endl ;
+	cout << min ( Cnt , Sum - Cnt ) << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integers n and m	int n, m ;
+	int n , m ;	NA
+read n and m	cin >> n >> m ;
+	cin >> n >> m ;	1
+create long long a = 3	long long a = 3 ;
+	long long a = 3 ;	1
+create integer i = 1	int i = 1 ;
+	int i = 1 ;	1
+create integer two = 0	int two = 0 ;
+	int two = 0 ;	1
+while n > 0	while ( n -- )
+	while ( n > 0 )	NA
+if n is odd , assign i * a % m to i	if ( n % 2 ) i = i * a % m ;
+	if ( n % 2 == 1 ) i = i * a % m ;	NA
+set n to n / 2	n /= 2 ;
+	n = n / 2 ;	NA
+change a to a squared modulo m	a = ( a * a ) % m ;
+	a = ( a * a ) % m ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ( i - 1 + m ) % m	cout << ( i - 1 + m ) % m << endl ;
+	cout << ( i - 1 + m ) % m << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

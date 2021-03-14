@@ -1,0 +1,70 @@
+create 2d integer array bio with size 1000 by 1000	int bio [ 1000 ] [ 1000 + 1 ] ;
+	int bio [ 1000 ] [ 1000 ] ;	NA
+create constant integer array smjeroviX with size 8 with smjeroviX = { 0 , 0 , 1 , - 1 , 1 , 1 , - 1 , - 1 }	const int smjeroviX [ 8 ] = { 0, 0, 1, - 1, 1 } ;
+	const int smjeroviX [ 8 ] = { 0 , 0 , 1 , - 1 , 1 , 1 , - 1 , - 1 } ;	NA
+create constant integer array smjeroviY with size 8 with smjeroviY = { 1 , - 1 , 0 , 0 , 1 , - 1 , 1 , - 1 }	const int smjeroviY [ 8 ] = { 1, - 1, 0, 0 } ;
+	const int smjeroviY [ 8 ] = { 1 , - 1 , 0 , 0 , 1 , - 1 , 1 , - 1 } ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , aX , aY , bX , bY , cX , cY	int n, aX, aY, bX, bY, cX, cY ;
+	int n , aX , aY , bX , bY , cX , cY ;	NA
+read n read aX read aY read bX read bY read cX read cY	cin >> n >> aX >> aY >> bX >> bY >> cX >> cY ;
+	cin >> n >> aX >> aY >> bX >> bY >> cX >> cY ;	1
+decrement aX	-- aX ;
+	aX -- ;	NA
+decrement aY	-- aY ;
+	aY -- ;	NA
+decrement bX	bX -- ;
+	bX -- ;	1
+decrement bY	bY -- ;
+	bY -- ;	1
+decrement cX	-- cX ;
+	cX -- ;	NA
+decrement cY	-- cY ;
+	cY -- ;	NA
+create integer queue q	queue < int > q ;
+	queue < int > q ;	1
+add element bX to end of q	q. push ( bX ) ;
+	q . push ( bX ) ;	NA
+add element bY to end of q	q. push ( bY ) ;
+	q . push ( bY ) ;	NA
+set bio [ bX ] [ bY ] to 1	bio [ bX ] [ bY ] = 1 ;
+	bio [ bX ] [ bY ] = 1 ;	1
+while q is not empty	while (! q. empty ( ) )
+	while ( ! q . empty ( ) )	NA
+create integer x with x = front of q	int x = q. front ( ) ;
+	int x = q . front ( ) ;	NA
+remove next element from q	q. pop ( ) ;
+	q . pop ( ) ;	NA
+set y to front of q	y = q. front ( ) ;
+	int y = q . front ( ) ;	NA
+remove next element from q	q. pop ( ) ;
+	q . pop ( ) ;	NA
+if x is cX and y is cY	if ( x == cX && y == cY )
+	if ( x == cX && y == cY )	1
+print " YES \ n "	cout << " YES\n " ;
+	cout << " YES\n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to 8 exclusive	for ( int i = 0 ; i < 8 ; i ++ )
+	for ( int i = 0 ; i < 8 ; i ++ )	1
+create integer X with X = x + smjeroviX [ i ]	int X = x + smjeroviX [ i ] ;
+	int X = x + smjeroviX [ i ] ;	1
+create integer Y with Y = y + smjeroviY [ i ]	int Y = y + smjeroviY [ i ] ;
+	int Y = y + smjeroviY [ i ] ;	1
+if X is less than 0 or X is n or Y is less than 0 or Y is n or bio [ X ] [ Y ] , break current loop iteration	if ( X < 0 || X == n || Y < 0 ) Y = n || bio [ X ] [ Y ] ) continue ;
+	if ( X < 0 || X == n || Y < 0 || Y == n || bio [ X ] [ Y ] ) continue ;	NA
+set bio [ X ] [ Y ] to 1	bio [ X ] [ Y ] = 1 ;
+	bio [ X ] [ Y ] = 1 ;	1
+if X is not aX and Y is not aY and ( X + Y is not aX + aY ) and ( X - Y is not aX - aY )	if ( X!= " aX " && Y!= " Y " && ( X + Y!= aX + aY " && X - Y!='aX'-'aY') )
+	if ( X != aX && Y != aY && ( X + Y != aX + aY ) && ( X - Y != aX - aY ) )	NA
+add element X to end of q	q. push ( X ) ;
+	q . push ( X ) ;	NA
+add element Y to end of q	q. push ( Y ) ;
+	q . push ( Y ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " NO \ n "	cout << " NO\n " ;
+	cout << " NO\n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

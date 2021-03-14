@@ -1,0 +1,48 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;
+	int n ;	1
+create vector of integers T with 1001 element filled with 1	vector < int > T ( 1001, 1 ) ;
+	vector < int > T ( 1001 , 1 ) ;	NA
+create vector of chararcters rla	vector < char > rla ;
+	vector < char > rla ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )
+	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+create character c	char c ;
+	char c ;	1
+read c	cin >> c ;
+	cin >> c ;	1
+push c to rla	rla. push_back ( c ) ;
+	rla . push_back ( c ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for integer i = 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )
+	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+if rla [ i ] is ' R '	if ( rla [ i ] =='R')
+	if ( rla [ i ] == ' R ' )	NA
+T [ i + 1 ] = max ( T [ i + 1 ] , T [ i ] + 1 )	T [ 1 ] = max ( T [ i + 1 ], T [ j ] + 1 ) ;
+	T [ i + 1 ] = max ( T [ i + 1 ] , T [ i ] + 1 ) ;	NA
+else if rla [ i ] is ' = '	else if ( rla [ i ] =='=')
+	else if ( rla [ i ] == ' = ' )	NA
+T [ i + 1 ] = T [ i ]	T [ i + 1 ] = T [ i ] ;
+	T [ i + 1 ] = T [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = n - 2 to 0	for ( int i = n - 2 ; i >= 0 ; i -- )
+	for ( int i = n - 2 ; i >= 0 ; i -- )	1
+if rla [ i ] is ' L '	if ( rla [ i ] =='L')
+	if ( rla [ i ] == ' L ' )	NA
+assign value of max of T [ i ] and T [ i + 1 ] + 1 to T [ i ]	T [ j ] = max ( T [ i ], T [ j + 1 ] + 1 ) ;
+	T [ i ] = max ( T [ i ] , T [ i + 1 ] + 1 ) ;	NA
+else if rla [ i ] is ' = '	else if ( rla [ i ] =='=')
+	else if ( rla [ i ] == ' = ' )	NA
+set T [ i ] to T [ i + 1 ]	T [ i ] = T [ i + 1 ] ;
+	T [ i ] = T [ i + 1 ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive print T [ i ] , " \ n " and [ i = = n - 1 ]	for ( int i = 0 ; i < n ; i ++ ) { cout << T [ i ] << " \n " << [ i == n - 1 ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) { cout << T [ i ] << " \n " [ i == n - 1 ] ; }	NA
+print flush	cout << flush << endl ;
+	cout << flush ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

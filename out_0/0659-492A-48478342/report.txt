@@ -1,0 +1,13 @@
+cube = long long	long longcube ;
+	long long cube ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+res = long long	long long res ;
+	long long res ;	1
+read cube	cin >> cube ;
+	cin >> cube ;	1
+for i = 0 loop while i * ( i + 1 ) * ( i + 2 ) < = 6 * cube set res to i	for ( int i = 0 ; i * ( i + 1 ) * i + 2 ) <= 6 * cube ; i ++ ) res = i ;
+	for ( long long i = 0 ; i * ( i + 1 ) * ( i + 2 ) <= 6 * cube ; ++ i ) { res = i ; }	NA
+print res	cout << res << endl ;
+	cout << res << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

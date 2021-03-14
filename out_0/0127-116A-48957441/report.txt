@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create integer arrays a , b with a size n , b size n	int a [ n ], b [ N ] ;
+	int a [ n ] , b [ n ] ;	NA
+for i = 0 to n exclusive , read a [ i ] read b [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ i ] >> b [ j ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ i ] >> b [ i ] ; }	NA
+create integer curr with curr = 0	int curr = 0 ;
+	int curr = 0 ;	1
+create integer req with req = 0	int req = 0 ;
+	int req = 0 ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+decrement curr by a [ i ]	curr -= a [ i ] ;
+	curr -= a [ i ] ;	1
+increment cur by b [ i ]	cur += b [ i ] ;
+	curr += b [ i ] ;	NA
+if curr is greater than req , set req to curr	if ( curr > req ) req = curr ;
+	if ( curr > req ) { req = curr ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print req print newline	cout << req << endl ;
+	cout << req << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,39 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+k = int	int k ;
+	int k ;	1
+s = string	string s ;
+	string s ;	1
+c = int array of size 26 with all values set to 0	int c [ 26 ] = { 0 } ;
+	int c [ 26 ] = { 0 } ;	1
+read k then s	cin >> k >> s ;
+	cin >> k >> s ;	1
+if size of s is not a multiple of k	if ( s. size ( ) % k!= 0 )
+	if ( s . size ( ) % k != 0 )	NA
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to size of s increment c [ s [ i ] - ' a ' ]	for ( int i = 0 ; i < s. size ( ) ; i ++ ) { c [ s [ i ] -'a'] ++ ; }
+	for ( int i = 0 ; i < s . size ( ) ; ++ i ) { ++ c [ s [ i ] - ' a ' ] ; }	NA
+for i = 0 to 26	for ( int i = 0 ; i < 26 ; i ++ )
+	for ( int i = 0 ; i < 26 ; ++ i )	NA
+if c [ i ] is not a multiple of k	if ( c [ i ] % k!= 0 )
+	if ( c [ i ] % k != 0 )	NA
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+res = string	string res ;
+	string res ;	1
+for i = 0 to 26	for ( int i = 0 ; i < 26 ; i ++ )
+	for ( int i = 0 ; i < 26 ; ++ i )	NA
+for j = 0 to c [ i ] / k increment res by ( ' a ' + i ) as char	for ( int j = 0 ; j < c [ i ] / k ; j ++ ) { res += char ('a'+ i ) ; }
+	for ( int j = 0 ; j < c [ i ] / k ; ++ j ) { res += char ( ' a ' + i ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to k print res	for ( int i = 0 ; i < k ; i ++ ) cout << res << endl ;
+	for ( int i = 0 ; i < k ; ++ i ) { cout << res ; }	NA
+print newline	cout << endl ;
+	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

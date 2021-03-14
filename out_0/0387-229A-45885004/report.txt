@@ -1,0 +1,86 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , m	int n, m ;
+	int n , m ;	NA
+read n read m	cin >> n >> m ;
+	cin >> n >> m ;	1
+create 2d character array a of size n by m	char a [ n ] [ m ] ;
+	char a [ n ] [ m ] ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+for j = 0 to m exclusive , read a [ i ] [ j ]	for ( int j = 0 ; j < m ; j ++ ) { cin >> a [ i ] [ j ] ; }
+	for ( int j = 0 ; j < m ; ++ j ) { cin >> a [ i ] [ j ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+if not count of ' 1 ' from a [ i ] to a [ i ] + m	if (! count ( a [ i ],'1') )
+	if ( ! count ( a [ i ] , a [ i ] + m , ' 1 ' ) )	NA
+print - 1 print ' \ n '	cout << - 1 <<'\n';
+	cout << - 1 << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+create 2d integer arrays nearest , l , r , with nearest size n by m , l size n by m , r size n by m	int nearest [ n ] [ m ], l [ n - m ] = { }, r [ n + m ] ;
+	int nearest [ n ] [ m ] , l [ n ] [ m ] , r [ n ] [ m ] ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+create integer lst with lst = - 1	int lst = - 1 ;
+	int lst = - 1 ;	1
+for j = 0 to m exclusive	for ( int j = 0 ; j < m ; j ++ )
+	for ( int j = 0 ; j < m ; ++ j )	NA
+if a [ i ] [ j ] is ' 1 ' , set lst to j	if ( a [ i ] [ j ] =='1') lst = j ;
+	if ( a [ i ] [ j ] == ' 1 ' ) lst = j ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create boolean c with c = true	bool c = true ;
+	bool c = true ;	1
+for j = 0 to m exclusive	for ( int j = 0 ; j < m ; j ++ )
+	for ( int j = 0 ; j < m ; ++ j )	NA
+set lst to j if a [ i ] [ j ] is ' 1 ' , else lst	lst = a [ i ] [ j ] =='1 '? j : lst ;
+	lst = ( a [ i ] [ j ] == ' 1 ' ? j : lst ) ;	NA
+set c to ( c bitwise and a [ i ] [ j ] ) is 0	c = ( c & a [ i ] [ j ] ) == 0 ;
+	c &= a [ i ] [ j ] == ' 0 ' ;	NA
+set l [ i ] [ j ] to m - lst + j if c is true , else absolute value of j - lst	l [ i ] [ j ] = ( c )? m - lst + j : abs ( j - k ) ;
+	l [ i ] [ j ] = ( c ? m - lst + j : abs ( j - lst ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+set lst to - 1	lst = - 1 ;
+	lst = - 1 ;	1
+set c to true	c = true ;
+	c = true ;	1
+for j = 0 to m exclusive	for ( int j = 0 ; j < m ; j ++ )
+	for ( int j = 0 ; j < m ; ++ j )	NA
+if a [ i ] [ j ] is ' 1 '	if ( a [ i ] [ j ] =='1')
+	if ( a [ i ] [ j ] == ' 1 ' )	NA
+set lst to j	lst = j ;
+	lst = j ;	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for j = m - 1 to 0 inclusive , decrementing j	for ( int j = m - 1 ; j >= 0 ; j -- )
+	for ( int j = m - 1 ; j >= 0 ; -- j )	NA
+set lst to j if a [ i ] [ j ] is ' 1 ' , else lst	lst = a [ i ] [ j ] =='1 '? j : lst ;
+	lst = ( a [ i ] [ j ] == ' 1 ' ? j : lst ) ;	NA
+set c to ( c bitwise and a [ i ] [ j ] ) is 0	c = ( c & a [ i ] [ j ] ) == 0 ;
+	c &= a [ i ] [ j ] == ' 0 ' ;	NA
+set r [ i ] [ j ] to lst + 1 + m - ( j + 1 ) if c is true , else absolute value of j - lst	r [ i ] [ j ] = c? lst + 1 + m - ( j + 1 ) : abs ( j - lst ) ;
+	r [ i ] [ j ] = ( c ? lst + 1 + m - ( j + 1 ) : abs ( j - lst ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+for j = 0 to m exclusive , set nearest [ i ] [ j ] to minimum of r [ i ] [ j ] and l [ i ] [ j ]	for ( int j = 0 ; j < m ; j ++ ) { nearest [ i ] [ j ] = min ( r [ i - j ] ( j ] ), l [ i ) [ j - 1 ] ) ; }
+	for ( int j = 0 ; j < m ; ++ j ) { nearest [ i ] [ j ] = min ( r [ i ] [ j ] , l [ i ] [ j ] ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create integer ans with ans = 0x3f3f3f3f	int ans = 0x3f3f0f ;
+	int ans = 0x3f3f3f3f ;	NA
+for j = 0 to m exclusive	for ( int j = 0 ; j < m ; j ++ )
+	for ( int j = 0 ; j < m ; ++ j )	NA
+create integer cur with cur = 0	int cur = 0 ;
+	int cur = 0 ;	1
+for i = 0 to n exclusive , increment cur by nearest [ i ] [ j ]	for ( int i = 0 ; i < n ; i ++ ) { cur += nearest [ i ] [ j ] ; }
+	for ( int i = 0 ; i < n ; ++ i ) { cur += nearest [ i ] [ j ] ; }	NA
+set ans to minimum of ans and cur	ans = min ( ans, cur ) ;
+	ans = min ( ans , cur ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans print ' \ n '	cout << ans <<'\n';
+	cout << ans << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

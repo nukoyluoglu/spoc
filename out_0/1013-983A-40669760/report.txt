@@ -1,0 +1,51 @@
+create long longs p , q , k	long long p, q, k ;
+	long long p , q , k ;	NA
+declare gcd with long longs a , b as arguments , returning long long	long long gcd ( long long a, long long b )
+	long long gcd ( long long a , long long b )	NA
+return a if b is 0 , else result of run gcd with b , a % b as arguments	return b == 0? a : gcd ( b, a % b ) ;
+	return b == 0 ? a : gcd ( b , a % b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare inline rd with no arguments , returning long long	inline long long rd ( )
+	inline long long rd ( )	1
+create long longs x , f , with x = 0 , f = 1	long long x = 0, f = 1 ;
+	long long x = 0 , f = 1 ;	NA
+create character ch with ch = getchar	char ch = getchar ( ) ;
+	char ch = getchar ( ) ;	1
+while ch is greater than ' 9 ' or ch is less than ' 0 '	while ( ch >'9'|| ch <'0')
+	while ( ch > ' 9 ' || ch < ' 0 ' )	NA
+if ch is ' - ' , set f to - 1	if ( ch =='-') f = - 1 ;
+	if ( ch == ' - ' ) f = - 1 ;	NA
+set ch to read character	ch = getchar ( ) ;
+	ch = getchar ( ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+while ch is greater than or equal to ' 0 ' and ch is less than or equal to ' 9 '	while ( ch >='0'&& ch <='9')
+	while ( ch >= ' 0 ' && ch <= ' 9 ' )	NA
+set x to ( x bitshift left 1 ) + ( x bitshift left 3 ) + ch - ' 0 '	x = x << 1 ) + ( x << 3 ) + ch -'0';
+	x = ( x << 1 ) + ( x << 3 ) + ch - ' 0 ' ;	NA
+set ch to read character	ch = getchar ( ) ;
+	ch = getchar ( ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return x * f from function	return x * f ;
+	return x * f ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare inline solve with no arguments , returning void	inline void solve ( )
+	inline void solve ( )	1
+set p to result of run rd , set q to result of run rd , set k to result of run rd	p = rd ( ), q = rnd ( ) ;
+	p = rd ( ) , q = rd ( ) , k = rd ( ) ;	NA
+create long long t with t = result of run gcd with p , q as arguments	long long t = gcd ( p, q ) ;
+	long long t = gcd ( p , q ) ;	NA
+set q to q / t	q /= t ;
+	q /= t ;	1
+while ( set t to result of run gcd with k , q as arguments ) is not 1	while ( t = gcd ( k, q )!= 1 )
+	while ( ( t = gcd ( k , q ) ) != 1 )	NA
+while ( q % t is 0 ) set q to q / t	while ( q % t == 0 ) q /= t ;
+	while ( q % t == 0 ) q /= t ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print " Finite " if q is 1 , else " Infinite "	puts ( q == 1? " Finite " : " Infinite " ) ;
+	puts ( q == 1 ? " Finite " : " Infinite " ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+for T = result of run rd to T , decrementing T , run solve	for ( T = rd ( T ) ; T ; T -- ) { solve ( ) ; }
+	for ( int T = rd ( ) ; T ; T -- ) solve ( ) ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

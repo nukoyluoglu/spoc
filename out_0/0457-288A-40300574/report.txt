@@ -1,0 +1,45 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n and k	int n, k ;
+	int n , k ;	NA
+read n , k	cin >> n >> k ;
+	cin >> n >> k ;	1
+if n < k or k equal to 1 and n different from 1	if ( n < k || k == 1 && n!= 1 )
+	if ( n < k || ( k == 1 && n != 1 ) )	NA
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+otherwise	else
+	else	1
+if n equal to or greater than 2	if ( n >= 2 )
+	if ( n >= 2 )	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n - k ; i ++ )	NA
+if 1 modulo 2 equal to 0	if ( 1 % 2 == 0 )
+	if ( i % 2 == 0 )	NA
+print b	cout << b << endl ;
+	cout << " b " ;	NA
+other	else
+	else	1
+print a	cout << a << endl ;
+	cout << " a " ;	NA
+if n - k mod 2 = 0	if ( n - k % 2 == 0 )
+	if ( ( n - k ) % 2 == 0 )	NA
+print ab	cout << ab << endl ;
+	cout << " ab " ;	NA
+for i = 3 to k inclusive , print i + a - 1	for ( int i = 3 ; i <= k ; i ++ ) cout << i + a - 1 << endl ;
+	for ( int i = 3 ; i <= k ; i ++ ) cout << char ( i + ' a ' - 1 ) ;	NA
+else	else
+	else	1
+print ba	cout << ba << endl ;
+	cout << " ba " ;	NA
+for i = 3 to k inclusive , print i + a - 1	for ( int i = 3 ; i <= k ; i ++ ) cout << i + a - 1 << endl ;
+	for ( int i = 3 ; i <= k ; i ++ ) cout << char ( i + ' a ' - 1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print a new line	cout << endl ;
+	cout << endl ;	1
+otherwise	else
+	else	1
+print a and a new line	cout << a << endl ;
+	cout << " a " << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

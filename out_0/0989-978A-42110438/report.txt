@@ -1,0 +1,44 @@
+declare integers n and t , integer arrays a and b with 100 elements and an array of integers visit with 1010 elements	int n, t, a [ 100 ], visit [ 1010 ] ;
+	int n , a [ 100 ] , b [ 100 ] , visit [ 1010 ] , t ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+while reading n	while ( cin >> n )
+	while ( cin >> n )	1
+call memset with arguments a , 0 and sizeof ( a )	memset ( a, 0, sizeof ( a ) ) ;
+	memset ( a , 0 , sizeof ( a ) ) ;	NA
+call memset with arguments b , 0 and sizeof ( b )	memset ( b, 0, sizeof ( b ) ) ;
+	memset ( b , 0 , sizeof ( b ) ) ;	NA
+call memset with arguments visit , 0 and sizeof ( visit )	memset ( visit, 0, sizeof ( visit ) ) ;
+	memset ( visit , 0 , sizeof ( visit ) ) ;	NA
+t = 0	t = 0 ;
+	t = 0 ;	1
+for i = 0 to n exclusive read a [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ i ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;	NA
+declare integer variable p = n	int p = n ;
+	int p = n ;	1
+for i = n - 1 to 0 inclusive counting down	for ( int i = n - 1 ; i >= 0 ; i -- )
+	for ( int i = n - 1 ; i >= 0 ; i -- )	1
+if visit [ a [ i ] ] is greater than 0	if ( visit [ a [ i ] ] > 0 )
+	if ( visit [ a [ i ] ] > 0 )	1
+decrement p	p -- ;
+	p -- ;	1
+continue the loop	continue ;
+	continue ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set b [ t ] to a [ i ] and increment t	b [ t ++ ] = a [ i ] ;
+	b [ t ++ ] = a [ i ] ;	1
+increase visit [ a [ i ] ]	visit [ a [ i ] ] ++ ;
+	visit [ a [ i ] ] ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print p	cout << p << endl ;
+	cout << p << endl ;	1
+for i = t - 1 to 0 inclusive counting down	for ( int i = t - 1 ; i >= 0 ; i -- )
+	for ( int i = t - 1 ; i >= 0 ; i -- )	1
+print b [ i ]	cout << b [ i ] ;
+	cout << b [ i ] ;	1
+if i ! = 0 , print " "	if ( i!= 0 ) cout << " " ;
+	if ( i != 0 ) cout << " " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print new line	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,49 @@
+declare constant integer N = 2e5 + 5	const int N = 2e5 + 5 ;
+	const int N = 2e5 + 5 ;	1
+create integer arrays Prv and vis with N elements	int Prv [ n ], vis [ N ] ;
+	int Prv [ N ] , vis [ N ] ;	NA
+dfs is a void function with integer argument u	void dfs ( int u )
+	void dfs ( int u )	1
+if vis [ u ] is not 0 , return	if ( vis [ u ] ) return ;
+	if ( vis [ u ] ) return ;	1
+set value of vis [ u ] to true	vis [ u ] = true ;
+	vis [ u ] = true ;	1
+call function dfs with arguments Prv [ u ]	dfs ( Prv [ u ] ) ;
+	dfs ( Prv [ u ] ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for integer i = 1 to n inclusive read Prv [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> Prv [ i ] ;
+	for ( int i = 1 ; i <= n ; i ++ ) cin >> Prv [ i ] ;	1
+create integer now = 1	int now = 1 ;
+	int now = 1 ;	1
+for integer i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+create integer x	int x ;
+	int x ;	1
+read x	cin >> x ;
+	cin >> x ;	1
+increase now by x	now += x ;
+	now += x ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare integer Res = 0	int Res = 0 ;
+	int Res = 0 ;	1
+for integer i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if vis [ i ] is 0	if ( vis [ i ] == 0 )
+	if ( ! vis [ i ] )	NA
+call function dfs with argument i	dfs ( i ) ;
+	dfs ( i ) ;	1
+increment Res	Res ++ ;
+	Res ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+decrement Res if Res = 1	if ( Res == 1 ) Res -- ;
+	if ( Res == 1 ) Res -- ;	1
+print Res + ( now % 2 ) and " \ n "	cout << Res + ( now % 2 ) << " \n " ;
+	cout << ( Res + ( now % 2 ) ) << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,28 @@
+create int array a of length 105	int a [ 105 ] ;
+	int a [ 105 ] ;	1
+create integers n , x , y , i , l , r	int n, x, y, i, l, r ;
+	int n , x , y , i , l , r ;	NA
+let sum and j be integers	int sum, j ;
+	int sum , j ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+read x and y	cin >> x >> y ;
+	cin >> x >> y ;	1
+for i = 1 to n exclusive	for ( int i = 1 ; i < n ; i ++ )
+	for ( i = 1 ; i < n ; i ++ )	NA
+read l and r	cin >> l >> r ;
+	cin >> l >> r ;	1
+for j = l to r exclusive , set a [ j ] to 1	for ( int j = l ; j < r ; j ++ ) a [ j ] = 1 ;
+	for ( j = l ; j < r ; j ++ ) { a [ j ] = 1 ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+assign 0 to sum	sum = 0 ;
+	sum = 0 ;	1
+for i = x to y exclusive	for ( int i = x ; i < y ; i ++ )
+	for ( i = x ; i < y ; i ++ )	NA
+if a [ i ] equal to 0 , sum = sum + 1	if ( a [ i ] == 0 ) { sum += 1 ; }
+	if ( a [ i ] == 0 ) sum ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print sum	cout << sum << endl ;
+	cout << sum << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

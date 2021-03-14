@@ -1,0 +1,9 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long a , b , c	long long a, b, c ;
+	long long a , b , c ;	NA
+read a , b , c	cin >> a >> b >> c ;
+	cin >> a >> b >> c ;	1
+print ( a * b * c ) - ( ( a - 1 ) * ( b - 1 ) * ( c - 1 ) )	cout << ( a * b * c ) - ( ( a - 1 ) * ( b - 1, * ( c - i ) ) << endl ;
+	cout << ( a * b * c ) - ( ( a - 1 ) * ( b - 1 ) * ( c - 1 ) ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

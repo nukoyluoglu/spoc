@@ -1,0 +1,42 @@
+declare check taking in strings s and t and returning bool	bool check ( string s, string t )
+	bool check ( string s , string t )	NA
+if length of s is less than length of t , return false	if ( s. length ( ) < t. size ( ) ) return false ;
+	if ( s . length ( ) < t . length ( ) ) return false ;	NA
+if i = 0 to length of t exclusive	for ( int i = 0 ; i < t. size ( ) ; i ++ )
+	for ( int i = 0 ; i < t . length ( ) ; i ++ )	NA
+if s [ i ] is not equal to t [ i ] , return false	if ( s [ i ]!= t [ 1 ] ) return false ;
+	if ( s [ i ] != t [ i ] ) return false ;	NA
+return true	return true ;
+	return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let string t	string t ;
+	string t ;	1
+read t	cin >> t ;
+	cin >> t ;	1
+create integer n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+let string array s of size 1000	string s [ 1000 ] ;
+	string s [ 1000 ] ;	1
+for i = 1 to n , read s [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> s [ i ] ;
+	for ( int i = 1 ; i <= n ; i ++ ) cin >> s [ i ] ;	1
+create string min = " "	string min = " " ;
+	string min = " " ;	1
+for i = 1 to n	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if check ( s [ i ] , t ) is true	if ( check ( s [ i ], t ) )
+	if ( check ( s [ i ] , t ) )	NA
+if min is equal to " " or s [ i ] is less than min , set min to s [ i ]	if ( min == " " || s [ i ] < min ) min = s [ j ] ;
+	if ( min == " " || s [ i ] < min ) min = s [ i ] ;	NA
+if min is equal to " "	if ( min == " " )
+	if ( min == " " )	1
+print t	cout << t << endl ;
+	cout << t << endl ;	1
+else	else
+	else	1
+print min	cout << min << endl ;
+	cout << min << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

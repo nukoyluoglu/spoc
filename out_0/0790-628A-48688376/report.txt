@@ -1,0 +1,43 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers m , b , p , total and total_p where total = 0	int m, b, p, total = 0, total_p ;
+	int m , b , p , total = 0 , total_p ;	NA
+read variables m , b and p from the input	cin >> m >> b >> p ;
+	cin >> m >> b >> p ;	1
+assign m * p to total_p	total_p = m * p ;
+	total_p = m * p ;	1
+start infinite loop	while ( 1 )
+	while ( 1 )	1
+declare integer variable k = [ ] ( int n ) - > int	int k = [ ] ;
+	int k = [ ] ( int n ) -> int	NA
+declare ints i = 1 and res = pow ( 2 , 0 )	int i = 1, res = pow ( 2, 0 ) ;
+	int i = 1 , res = pow ( 2 , 0 ) ;	NA
+looping infinitely	while ( 1 )
+	while ( 1 )	1
+declare new integer variable temp = 2 in the power of i	int temp = pow ( 2, i ) ;
+	int temp = pow ( 2 , i ) ;	NA
+if temp is greater than n , break	if ( temp > n ) break ;
+	if ( temp > n ) break ;	1
+set res to temp	res = temp ;
+	res = temp ;	1
+increment i by one	i ++ ;
+	i ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return res	return res ;
+	return res ;	1
+( m )	( m ) ;
+	( m ) ;	1
+create integer variable with name matches and value = k / 2	int matches = k / 2 ;
+	int matches = k / 2 ;	1
+change total to sum of total and matches * ( 2 * b )	total += matches * ( 2 * b ) ;
+	total += matches * ( 2 * b ) ;	1
+increase total by matches	total += matches ;
+	total += matches ;	1
+assign ( k / 2 ) + ( m - k ) to m	m = ( k / 2 ) + ( m - k ) ;
+	m = ( k / 2 ) + ( m - k ) ;	1
+if matches = 0 , break the loop	if ( matches == 0 ) { break ; }
+	if ( matches == 0 ) break ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print total , " " and total_p	cout << total << " " << total_p << endl ;
+	cout << total << " " << total_p << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

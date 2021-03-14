@@ -1,0 +1,17 @@
+k , i , n , ans , m = integers	int k, i, n, ans, m ;
+	int k , i , n , ans , m ;	NA
+s = string	string s ;
+	string s ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , s	cin >> n >> s ;
+	cin >> n >> s ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	NA
+if s [ i ] is 8 , increment k	if ( s [ i ] =='8') k ++ ;
+	if ( s [ i ] == ' 8 ' ) k ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+ans = min of k and n / 11	ans = min ( k, n / 11 ) ;
+	ans = min ( k , n / 11 ) ;	NA
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

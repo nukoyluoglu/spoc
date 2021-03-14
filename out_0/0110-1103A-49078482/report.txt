@@ -1,0 +1,44 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+s is string	string s ;
+	string s ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+l1 is integer = length of s	int l1 = s. length ( ) ;
+	int l1 = s . length ( ) ;	NA
+create booleans vertikal and horizontal = 0	bool vertikal = 0, horizontal = 0 ;
+	bool vertikal = 0 , horizontal = 0 ;	NA
+for integer i = 0 to l1 exclusive	for ( int i = 0 ; i < l1 ; i ++ )
+	for ( int i = 0 ; i < l1 ; i ++ )	1
+if s [ i ] = ' 0 '	if ( s [ i ] =='0')
+	if ( s [ i ] == ' 0 ' )	NA
+if vertikal is not 0	if ( vertikal )
+	if ( vertikal )	1
+assign value of 0 to vertikal	vertikal = 0 ;
+	vertikal = 0 ;	1
+print " 3 1 \ n "	cout << " 31\n " ;
+	cout << " 3 1\n " ;	NA
+else	else
+	else	1
+assign value of 1 to vertikal	vertikal = 1 ;
+	vertikal = 1 ;	1
+print " 1 1 \ n "	cout << " 1 1\n " ;
+	cout << " 1 1\n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+if horizontal is not 0	if ( horizontal!= 0 )
+	if ( horizontal )	NA
+assign value of 0 to horizontal	horizontal = 0 ;
+	horizontal = 0 ;	1
+print " 4 1 \ n "	cout << " 41\n " ;
+	cout << " 4 1\n " ;	NA
+else	else
+	else	1
+set value of horizontal to 1	horizontal = 1 ;
+	horizontal = 1 ;	1
+print " 4 3 \ n "	cout << " 43\n " ;
+	cout << " 4 3\n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

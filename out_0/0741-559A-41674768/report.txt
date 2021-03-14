@@ -1,0 +1,11 @@
+maxn = const int with maxn = 1e6	const int maxn = 1e6 ;
+	const int maxn = 1e6 ;	1
+inf = const double with inf = 0x3f3f3f3f3f3f3f3f	const double inf = ( 0x3f )3f3f ;
+	const double inf = 0x3f3f3f3f3f3f3f3f ;	NA
+a , b , c , d , e , f = int	int a, b, c, d, e, f ;
+	int a , b , c , d , e , f ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+while reading a then b then c then d then e then f print ( a + b + c ) * ( a + b + c ) - a * a - c * c - e * e	while ( cin >> a >> b >> c >> d >> e >> f )
+	while ( cin >> a >> b >> c >> d >> e >> f ) { cout << ( a + b + c ) * ( a + b + c ) - a * a - c * c - e * e << endl ; }	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

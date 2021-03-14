@@ -1,0 +1,44 @@
+declare prn with integer pos as argument , returning void	void prn ( int pos )
+	void prn ( int pos )	1
+print pos print " \ n "	cout << pos << " \n " ;
+	cout << pos << " \n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , k	long long n, k ;
+	long long n , k ;	NA
+read n read k	cin >> n >> k ;
+	cin >> n >> k ;	1
+create long long sz with sz = n	long long sz = n ;
+	long long sz = n ;	1
+create integer pos with pos = 1	int pos = 1 ;
+	int pos = 1 ;	1
+create long long ai	long long ai ;
+	long long ai ;	1
+read ai	cin >> ai ;
+	cin >> ai ;	1
+create long long sum with sum = 0	long long sum = 0 ;
+	long long sum = 0 ;	1
+for i = 2 to sz inclusive	for ( int i = 2 ; i <= sz ; i ++ )
+	for ( int i = 2 ; i <= sz ; ++ i )	NA
+increment pos	pos ++ ;
+	++ pos ;	NA
+read ai	cin >> ai ;
+	cin >> ai ;	1
+create long long d with d = sum - ( n - pos ) * ( pos - 1 ) * ai	long long d = sum - ( n - pos ) * ( pos - 1 ) * ai ;
+	long long d = sum - ( n - pos ) * ( pos - 1 ) * ai ;	1
+if d is less than k	if ( d < k )
+	if ( d < k )	1
+run prn with i as argument	prn ( i ) ;
+	prn ( i ) ;	1
+decrement pos	pos -- ;
+	-- pos ;	NA
+decrement n	n -- ;
+	-- n ;	NA
+else	else
+	else	1
+increment sum by ai * ( pos - 1 )	sum += ai * ( pos - 1 ) ;
+	sum += ai * ( pos - 1 ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,38 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , k , sig with sig = 0	int n, k, sig = 0 ;
+	int n , k , sig = 0 ;	NA
+create string s	string s ;
+	string s ;	1
+read n read k	cin >> n >> k ;
+	cin >> n >> k ;	1
+if k is 1 and n is greater than 1	if ( k == 1 && n > 1 )
+	if ( k == 1 && n > 1 )	1
+print " - 1 \ n "	cout << " -1\n " ;
+	cout << " -1\n " ;	1
+else if k is greater than n	else if ( k > n )
+	else if ( k > n )	1
+print " - 1 \ n "	cout << " -1\n " ;
+	cout << " -1\n " ;	1
+else if n is 1 and k is 1	else if ( n == 1 && k == 1 )
+	else if ( n == 1 && k == 1 )	1
+print " a \ n "	cout << " a\n " ;
+	cout << " a\n " ;	1
+else	else
+	else	1
+create integers i , j with j = n - k + 1	int i, j = n - k + 1 ;
+	int i , j = n - k + 1 ;	NA
+if ( j bitwise and 1 ) is 0 , decrement j , set sig to 1	if ( ( j & 1 ) == 0 ) j --, sig = 1 ;
+	if ( ( j & 1 ) == 0 ) { j -- , sig = 1 ; }	NA
+for i = 0 to j inclusive , increment i by 2 , increment s by " ab "	for ( int i = 0 ; i <= j ; i += 2 ) { s += " ab " ; }
+	for ( i = 0 ; i <= j ; i += 2 ) s += " ab " ;	NA
+if sig is true , increment s by " a " , set a to j + 2	if ( sig ) s += " a ", a = j + 2 ;
+	if ( sig ) { s += " a " , i = j + 2 ; }	NA
+create character c with c = ' b '	char c ='b';
+	char c = ' b ' ;	NA
+for i is less than n , incrementing i , increment s by character casted ( c + 1 ) , set c to s [ i ]	for ( ; i < n ; i ++ ) { s += ( char ) ( c + 1 ) ; }
+	for ( ; i < n ; i ++ ) s += ( char ) ( c + 1 ) , c = s [ i ] ;	NA
+print s print newline	cout << s << endl ;
+	cout << s << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

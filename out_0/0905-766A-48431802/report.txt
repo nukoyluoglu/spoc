@@ -1,0 +1,17 @@
+N , INF = const int with N = 1e5 + 10 and INF = 1e9 + 7	const int N = ( int ) 1e5 + 10, INF = 1e9 + 7 ;
+	const int N = 1e5 + 10 , INF = 1e9 + 7 ;	NA
+a , b = string	string a, b ;
+	string a , b ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read a then b	cin >> a >> b ;
+	cin >> a >> b ;	1
+if a is b	if ( a == b )
+	if ( a == b )	1
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << ' \n ' ;	NA
+else	else
+	else	1
+print max of size of a and size of b	cout << max ( a. length ( ), b. size ( ) ) << endl ;
+	cout << max ( ( int ) a . size ( ) , ( int ) b . size ( ) ) << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

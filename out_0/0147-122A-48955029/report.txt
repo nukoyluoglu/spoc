@@ -1,0 +1,52 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+set int i , j , l , x , m , m1 , k to 0 , res = 0	int i, j, l, x, m, m1, k = 0, res = 0 ;
+	int i , j , l , x , m , m1 , k = 0 , res = 0 ;	NA
+read x	cin >> x ;
+	cin >> x ;	1
+set int a as array of 1000 all to 0	int a [ 1000 ] = { 0 } ;
+	int a [ 1000 ] = { 0 } ;	1
+for = 4 to less than or equal to 1000 do the following	for ( i = 4 ; i <= 1000 ; i ++ )
+	for ( j = 4 ; j <= 1000 ; j ++ )	NA
+set i to j	i = j ;
+	i = j ;	1
+set m to 0 , m1	m = 0, m1 = 0 ;
+	m = 0 , m1 = 0 ;	NA
+if i is greater than 0 then do	while ( i > 0 )
+	while ( i > 0 )	1
+set l to i modulo 10	l = i % 10 ;
+	l = i % 10 ;	1
+if l is 4 or 7 then add one to m	if ( l == 4 || l == 7 ) m ++ ;
+	if ( l == 4 || l == 7 ) m ++ ;	1
+set i to i / 10	i = i / 10 ;
+	i = i / 10 ;	1
+add one to m1	m1 ++ ;
+	m1 ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if m is m1 then do the following	if ( m == m1 )
+	if ( m == m1 )	1
+set a [ k ] to j	a [ k ] = j ;
+	a [ k ] = j ;	1
+add one to k	k ++ ;
+	k ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for = 0 to less than k do the following	for ( i = 0 ; i < k ; i ++ )
+	for ( i = 0 ; i < k ; i ++ )	1
+if x modulo a [ i ] is 0 then do	if ( x % a [ i ] == 0 )
+	if ( x % a [ i ] == 0 )	1
+set res to 5	res = 5 ;
+	res = 5 ;	1
+break	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if res is 5 then do the following commands	if ( res == 5 )
+	if ( res == 5 )	1
+output YES	cout << " YES\n " ;
+	cout << " YES " << endl ;	NA
+else	else
+	else	1
+output NO	cout << " NO\n " ;
+	cout << " NO " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

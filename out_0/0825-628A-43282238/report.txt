@@ -1,0 +1,9 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , b , p = int	int n, b, p ;
+	int n , b , p ;	NA
+read n then b then p	cin >> n >> b >> p ;
+	cin >> n >> b >> p ;	1
+print ( n - 1 ) * ( b * 2 + 1 ) and p * n	cout << ( n - 1 ) * ( b * 2 + 1 ) << p * n << endl ;
+	cout << ( n - 1 ) * ( b * 2 + 1 ) << " " << p * n << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

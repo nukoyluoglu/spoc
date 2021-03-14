@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , i , j , k , max , cap = int	int n, i, j, k, max, cap ;
+	int n , i , j , k , max , cap ;	NA
+set max to - 1	max = - 1 ;
+	max = - 1 ;	1
+set cap to 0	int cap = 0 ;
+	cap = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n	for ( int i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	NA
+rad j then k	cin >> j >> k ;
+	cin >> j >> k ;	1
+set cap to cap - j + k	cap = cap - j + k ;
+	cap = cap - j + k ;	1
+if cap is greater than max set max to cap	if ( cap > max ) max = cap ;
+	if ( cap > max ) max = cap ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print max	cout << max << endl ;
+	cout << max << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

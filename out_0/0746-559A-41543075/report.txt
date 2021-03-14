@@ -1,0 +1,10 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers a , b , c , d , e and f	int a, b, c, d, e, f ;
+	int a , b , c , d , e , f ;	NA
+read a , b , c , d , e and f	cin >> a >> b >> c >> d >> e >> f ;
+	cin >> a >> b >> c >> d >> e >> f ;	1
+if e > c then swap e and c and swap f and b	if ( e > c ) swap ( e, c ), swap ( f, b ) ;
+	if ( e > c ) swap ( e , c ) , swap ( f , b ) ;	NA
+print 2 * c * ( d + e ) - e * e + 2 * a * b + b * b	cout << 2 * c * ( d + e ) - e * e + 2 * a * b + b * b << endl ;
+	cout << 2 * c * ( d + e ) - e * e + 2 * a * b + b * b << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

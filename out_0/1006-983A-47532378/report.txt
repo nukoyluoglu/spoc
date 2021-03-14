@@ -1,0 +1,90 @@
+long long function gcd with long long arguments a and b	long long gcd ( long long a, long long b )
+	long long gcd ( long long a , long long b )	NA
+while b > 0	while ( b )
+	while ( b > 0 )	NA
+a = a modulo b	a %= b ;
+	a %= b ;	1
+swap a and b	swap ( a, b ) ;
+	swap ( a , b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return a	return a ;
+	return a ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare string sy = " Finite \ n "	string sy = " Finite\n " ;
+	string sy = " Finite\n " ;	1
+declare string sn = " Infinite \ n "	string sn = " Infinite\n " ;
+	string sn = " Infinite\n " ;	1
+create map m of long long pairs to chars	map < pair < long long, char >, int > m ;
+	map < pair < long long , long long > , char > m ;	NA
+void function solve	void solve ( )
+	void solve ( )	1
+create int n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+loop i from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+create long longs p , q and b	long long p, q, b ;
+	long long p , q , b ;	NA
+read input to p , q and b	cin >> p >> q >> b ;
+	cin >> p >> q >> b ;	1
+p = p modulo q	p %= q ;
+	p %= q ;	1
+declare long long g = gcd of p and q	long long g = gcd ( p, q ) ;
+	long long g = gcd ( p , q ) ;	NA
+divide p by g	p /= g ;
+	p /= g ;	1
+divide q by g	q /= g ;
+	q /= g ;	1
+if p = 0	if ( p == 0 )
+	if ( p == 0 )	1
+print sy	cout << sy << endl ;
+	cout << sy ;	NA
+go to the start of the loop	continue ;
+	continue ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if pair { q , b } is present in m	if ( m. find ( pair < q, b } ) == m. end ( ) )
+	if ( m . find ( { q , b } ) != m . end ( ) )	NA
+if m [ { q , b } ] ! = 0	if ( m [ { q, b } ]!= 0 )
+	if ( m [ { q , b } ] )	NA
+print sy	cout << sy << endl ;
+	cout << sy ;	NA
+else	else
+	else	1
+print sn	cout << sn << endl ;
+	cout << sn ;	NA
+continue the loop	continue ;
+	continue ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare long long q1 = q	long long q1 = q ;
+	long long q1 = q ;	1
+change g to gcd ( q , b )	g = gcd ( q, b ) ;
+	g = gcd ( q , b ) ;	NA
+while g > 1	while ( g > 1 )
+	while ( g > 1 )	1
+while q % g = 0	while ( q % g == 0 )
+	while ( q % g == 0 ) q /= g ;	NA
+set g to gcd ( q , b )	g = gcd ( q, b ) ;
+	g = gcd ( q , b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if q = 1	if ( q == 1 )
+	if ( q == 1 )	1
+assign true to m [ { q1 , b } ]	m [ { q1, b } ] = true ;
+	m [ { q1 , b } ] = true ;	NA
+print sy	cout << sy << endl ;
+	cout << sy ;	NA
+else	else
+	else	1
+assign false to m [ { q1 , b } ]	m [ { q1, b } ] = false ;
+	m [ { q1 , b } ] = false ;	NA
+print sn	cout << sn << endl ;
+	cout << sn ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+initialize random number generator using 555 as a seed	srand ( number ( 555 ) ) ;
+	srand ( 555 ) ;	NA
+invoke function solve	solve ( ) ;
+	solve ( ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

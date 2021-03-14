@@ -1,0 +1,23 @@
+let num be integer array with size 101	int num [ 101 ] ;
+	int num [ 101 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for integer i = 0 to n exclusive , set num [ i ] to i + 1	for ( int i = 0 ; i < n ; i ++ ) { num [ i ] = i + 1 ; }
+	for ( int i = 0 ; i < n ; i ++ ) num [ i ] = i + 1 ;	NA
+if n is even	if ( n % 2 == 0 )
+	if ( n % 2 )	NA
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+else	else
+	else	1
+for i = 1 to n exclusive swap num [ i - 1 ] and num [ i ]	for ( int i = 1 ; i < n ; i ++ ) swap ( num [ i - 1 ], num [ j ] ) ;
+	for ( int i = 1 ; i < n ; i += 2 ) { swap ( num [ i - 1 ] , num [ i ] ) ; }	NA
+for integer i = 0 to n - 1 exclusive print num [ i ] and " "	for ( int i = 0 ; i < n - 1 ; i ++ ) { cout << num [ i ] << " " ; }
+	for ( int i = 0 ; i < n - 1 ; i ++ ) cout << num [ i ] << " " ;	NA
+print num [ n - 1 ]	cout << num [ n - 1 ] << endl ;
+	cout << num [ n - 1 ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

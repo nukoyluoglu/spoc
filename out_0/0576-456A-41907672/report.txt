@@ -1,0 +1,20 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variables n , a and b	int n, a, b ;
+	int n , a , b ;	NA
+read input to n	cin >> n ;
+	cin >> n ;	1
+for integer i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+read a and b	cin >> a >> b ;
+	cin >> a >> b ;	1
+if a ! = b	if ( a!= b )
+	if ( a != b )	NA
+print " Happy Alex "	cout << " Happy Alex " << endl ;
+	cout << " Happy Alex " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " Poor Alex "	cout << " PoorAlex " << endl ;
+	cout << " Poor Alex " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

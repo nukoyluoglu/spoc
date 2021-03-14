@@ -1,0 +1,33 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+str = string array of size 41	string str [ 41 ] ;
+	string str [ 41 ] ;	1
+n , p , i , flag = int with flag = 0	int n, p, i, flag = 0 ;
+	int n , p , i , flag = 0 ;	NA
+a = long long with a = 0	long long a = 0 ;
+	long long a = 0 ;	1
+read n then p	cin >> n >> p ;
+	cin >> n >> p ;	1
+for i = 1 to n inclusive read str [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> str [ i ] ;
+	for ( i = 1 ; i <= n ; i ++ ) { cin >> str [ i ] ; }	NA
+if str [ i - 1 ] is " halfplus "	if ( str [ i - 1 ] == " halfplus " )
+	if ( str [ i - 1 ] == " halfplus " )	1
+increment a by p / 2	a += p / 2 ;
+	a += p / 2 ;	1
+increment flag	flag ++ ;
+	flag ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for j = i - 2 to 0 decrementing j	for ( int j = i - 2 ; j > 0 ; j -- )
+	for ( int j = i - 2 ; j > 0 ; j -- )	1
+if str [ j ] is " halfplus "	if ( str [ j ] == " halfplus " )
+	if ( str [ j ] == " halfplus " )	1
+set a to a + ( a + flag * p / 2 + p / 2 )	a += ( a + flag * p / 2 + p / 3 ) ;
+	a = a + ( a + flag * p / 2 + p / 2 ) ;	NA
+increment flag	flag ++ ;
+	flag ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if str [ j ] is " half " increment a by a + flag * p / 2	if ( str [ j ] == " half " ) a += a + flag * p / 2 ;
+	if ( str [ j ] == " half " ) { a = a + ( a + flag * p / 2 ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print a	cout << a << endl ;
+	cout << a << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

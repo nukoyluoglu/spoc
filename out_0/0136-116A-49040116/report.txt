@@ -1,0 +1,17 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , x , y , i , max , a = long long integer with max , a = 0	long long int n, x, y, i, max = 0, a = 0 ;
+	long long int n , x , y , i , max = 0 , a = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	NA
+read x , y	cin >> x >> y ;
+	cin >> x >> y ;	1
+a = a - x + y	a -= x + y ;
+	a = a - x + y ;	NA
+if max < a , max = a	if ( max < a ) max = a ;
+	if ( max < a ) { max = a ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print max	cout << max << endl ;
+	cout << max << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

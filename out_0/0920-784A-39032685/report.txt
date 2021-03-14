@@ -1,0 +1,65 @@
+in the function es_primo that takes integer n and returns bool	bool es_primo ( int n )
+	bool es_primo ( int n )	1
+if n < 4 , return true	if ( n < 4 ) return true ;
+	if ( n < 4 ) return true ;	1
+for i = 2 to i * i < = n	for ( int i = 2 ; i * i <= n ; i ++ )
+	for ( int i = 2 ; i * i <= n ; i ++ )	1
+if n modulo i is 0 , return false	if ( n % i == 0 ) return false ;
+	if ( n % i == 0 ) return false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return true	return true ;
+	return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in the function sum_digitos that takes integer n and returns int	int sum_digitos ( int n )
+	int sum_digitos ( int n )	1
+sum = integer with sum = 0	int sum = 0 ;
+	int sum = 0 ;	1
+while n > 0	while ( n -- )
+	while ( n > 0 )	NA
+sum = sum + n modulo 10	sum += n % 10 ;
+	sum += n % 10 ;	1
+n = n / 10	n = n / 10 ;
+	n /= 10 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return sum	return sum ;
+	return sum ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in the function sum_factores that takes integer n and returns integer	int sum_factores ( int n )
+	int sum_factores ( int n )	1
+sum = integer with sum = 0	int sum = 0 ;
+	int sum = 0 ;	1
+for i = 2 to i * i < = n	for ( int i = 2 ; i * i <= n ; i ++ )
+	for ( int i = 2 ; i * i <= n ; i ++ )	1
+while n modulo i is 0	while ( n % i == 0 )
+	while ( n % i == 0 )	1
+sum = sum + sum_digitos ( i )	sum += sum_digitos ( i ) ;
+	sum += sum_digitos ( i ) ;	1
+n = n / i	n = n / i ;
+	n /= i ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if n > 1 , sum = sum + sum_digitos ( n )	if ( n > 1 ) sum += sum_digitos ( n ) ;
+	if ( n > 1 ) { sum += sum_digitos ( n ) ; }	NA
+return sum	return sum ;
+	return sum ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in the function busca_sig that takes integer n and returns integer	int busca_sig ( int n )
+	int busca_sig ( int n )	1
+do increment n , while es_primo ( n ) or sum_digitos ( n ) is not sum_factores ( n )	do { n ++ ; } while ( es_primo ( n ) || sum_digitos ( N )!= sum_factores ( n) )
+	do { n ++ ; } while ( es_primo ( n ) || sum_digitos ( n ) != sum_factores ( n ) ) ;	NA
+return n	return n ;
+	return n ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = integer	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+act = integer with act = 0	int act = 0 ;
+	int act = 0 ;	1
+for i = 1 to n , act = busca_sig ( act )	for ( int i = 1 ; i <= n ; i ++ ) act = busca_sig ( act ) ;
+	for ( int i = 1 ; i <= n ; i ++ ) { act = busca_sig ( act ) ; }	NA
+print act	cout << act << endl ;
+	cout << act << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

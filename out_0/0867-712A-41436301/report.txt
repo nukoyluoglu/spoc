@@ -1,0 +1,31 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int n , r , s i , j and arrays a and b of length 100001	int n, r, s, a [ 100001 ], j ;
+	int n , a [ 100001 ] , r , s , b [ 100001 ] , i , j = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n inclusive , read a [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;
+	for ( i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;	NA
+increment j	j ++ ;
+	j ++ ;	1
+b [ j ] = a [ n ]	b [ j ] = a [ n ] ;
+	b [ j ] = a [ n ] ;	1
+for i = n to 1 exclusive	for ( int i = n ; i >= 1 ; i -- )
+	for ( i = n ; i > 1 ; i -- )	NA
+set r = a [ i ] + a [ i - 1 ]	r = a [ i ] + a [ j - 1 ] ;
+	r = a [ i ] + a [ i - 1 ] ;	NA
+add 1 to j	j ++ ;
+	j ++ ;	1
+assign r to b [ j ]	b [ j ] = r ;
+	b [ j ] = r ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = j to 0 exclusive	for ( int i = j ; i > 0 ; i -- )
+	for ( i = j ; i > 0 ; i -- )	NA
+print b [ i ]	cout << b [ i ] ;
+	cout << b [ i ] ;	1
+if i different fro 1 , print " "	if ( i!= 1 ) cout << " " ;
+	if ( i != 1 ) cout << " " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print a newline	cout << endl ;
+	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

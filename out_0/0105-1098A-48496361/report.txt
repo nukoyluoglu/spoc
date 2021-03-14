@@ -1,0 +1,39 @@
+create long long p with size 200000	long long p [ 200000 ] ;
+	long long p [ 200000 ] ;	1
+create long long s with size 200000	long long s [ 200000 ] ;
+	long long s [ 200000 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long num with num = 0	long long num = 0 ;
+	long long num = 0 ;	1
+create long longs n , i , j	long long n, i, j ;
+	long long n , i , j ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 2 to n inclusive , read p [ i ]	for ( int i = 2 ; i <= n ; i ++ ) cin >> p [ i ] ;
+	for ( i = 2 ; i <= n ; i ++ ) { cin >> p [ i ] ; }	NA
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( i = 1 ; i <= n ; i ++ )	NA
+read s [ i ]	cin >> s [ i ] ;
+	cin >> s [ i ] ;	1
+if s [ i ] is - 1 , set s [ i ] to 1e10	if ( s [ i ] == - 1 ) s [ j ] = 1e10 ;
+	if ( s [ i ] == - 1 ) s [ i ] = 1e10 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 1 to n inclusive , set s [ p [ i ] ] to minimum of s [ p [ i ] ] and s [ i ]	for ( int i = 1 ; i <= n ; i ++ ) { s [ p [ i ] ] = min ( s [ 0 ] ], s [ 1 ] ) ; }
+	for ( i = 1 ; i <= n ; i ++ ) s [ p [ i ] ] = min ( s [ p [ i ] ] , s [ i ] ) ;	NA
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( i = 1 ; i <= n ; i ++ )	NA
+if s [ p [ i ] ] is greater than s [ i ]	if ( s [ p [ i ] ] > s [ 1 ] )
+	if ( s [ p [ i ] ] > s [ i ] )	NA
+print - 1 print newline	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ i ] is 1e10 , set s [ i ] to s [ p [ i ] ]	if ( s [ i ] =='1'&& s [ j + 1 ]!='9') { s [ ++ i ] = s [ p [ j ] ] ; }
+	if ( s [ i ] == 1e10 ) s [ i ] = s [ p [ i ] ] ;	NA
+increment num by s [ i ] - s [ p [ i ] ]	num += ( s [ i ] - s [ p [ 1 ] ] ) ;
+	num += s [ i ] - s [ p [ i ] ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print num print newline	cout << num << endl ;
+	cout << num << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

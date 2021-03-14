@@ -1,0 +1,47 @@
+declare integers n and res where n = 6 and array of integers a with 10 elements	int n = 6, res, a [ 10 ] ;
+	int n = 6 , res , a [ 10 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+for i = 1 to n inclusive read a [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;	1
+declare integers root = a [ 1 ] * 2 + 1 and curr = root	int root = a [ 1 ] * 2 + 1, curr = root ;
+	int root = a [ 1 ] * 2 + 1 , curr = root ;	NA
+create integers first_layer , second_layer and third_layer = 0	int first_layer, second_layer = 0, third_ layer = 0 ;
+	int first_layer = 0 , second_layer = 0 , third_layer = 0 ;	NA
+if a [ 2 ] > = a [ n ]	if ( a [ 2 ] >= a [ n ] )
+	if ( a [ 2 ] >= a [ n ] )	1
+set first_layer = a [ n ] and second_layer = a [ 2 ] - a [ n ]	int first_layer = a [ n ], second_layer += a [ 2 ] -'a'] ;
+	first_layer = a [ n ] , second_layer = a [ 2 ] - a [ n ] ;	NA
+else	else
+	else	1
+set first_layer = a [ 2 ] and second_layer = a [ n ] - a [ 2 ]	int first_layer = a [ 2 ], second_layer += a [ n ] - a [ 1 ] ;
+	first_layer = a [ 2 ] , second_layer = a [ n ] - a [ 2 ] ;	NA
+for i = 1 to first_layer inclusive	for ( int i = 1 ; i <= first_layer ; i ++ )
+	for ( int i = 1 ; i <= first_layer ; i ++ )	1
+set value of res to res + curr	res = res + curr ;
+	res = res + curr ;	1
+curr = curr + 2	curr += 2 ;
+	curr = curr + 2 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if first_layer = a [ 2 ]	if ( first_layer == a [ 2 ] )
+	if ( first_layer == a [ 2 ] )	1
+second_layer = min of second_layer and a [ 3 ]	second_layer = min ( second_layer, a [ 3 ] ) ;
+	second_layer = min ( second_layer , a [ 3 ] ) ;	NA
+else	else
+	else	1
+second_layer = min of second_layer and a [ 5 ]	second_layer = min ( second_layer, a [ 5 ] ) ;
+	second_layer = min ( second_layer , a [ 5 ] ) ;	NA
+for i = 1 to second_layer inclusive , increase res by curr - 1	for ( int i = 1 ; i <= second_layer ; i ++ ) res += curr - 1 ;
+	for ( int i = 1 ; i <= second_layer ; i ++ ) res = res + curr - 1 ;	NA
+set root = a [ 4 ] * 2 + 1 and curr = root	int root = a [ 4 ] * 2 + 1, curr = root ;
+	root = a [ 4 ] * 2 + 1 , curr = root ;	NA
+for integer i = 1 to min of a [ 3 ] and a [ 5 ] inclusive	for ( int i = 1 ; i <= min ( a [ 3 ], a [ 5 ] ) ; i ++ )
+	for ( int i = 1 ; i <= min ( a [ 3 ] , a [ 5 ] ) ; i ++ )	NA
+res = res + curr	res += curr ;
+	res = res + curr ;	NA
+set curr to curr + 2	curr += 2 ;
+	curr = curr + 2 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print res and ' \ n '	cout << res <<'\n';
+	cout << res << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

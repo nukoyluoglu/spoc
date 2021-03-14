@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , i , no_of_8 , groups = integers with no_of_8 = 0	int n, i, no_of_8 = 0, groups ;
+	int n , i , no_of_8 = 0 , groups ;	NA
+c = character	char c ;
+	char c ;	1
+Read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n exclusive	for ( int i = 1 ; i < n ; i ++ )
+	for ( i = 1 ; i <= n ; i ++ )	NA
+Read c	cin >> c ;
+	cin >> c ;	1
+f c is 8 , then increment no_of_8	if ( c == 8 ) no_of_8 ++ ;
+	if ( c == ' 8 ' ) no_of_8 ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+set groups to n / 11	groups = n / 11 ;
+	groups = n / 11 ;	1
+if no_of_8 is greater than or equal to groups	if ( no_of_8 >= groups )
+	if ( no_of_8 >= groups )	1
+print groups and a new line	cout << groups << endl ;
+	cout << groups << endl ;	1
+else do the following	else
+	else	1
+print no_of_8 and a new line	cout << no_of_8 << endl ;
+	cout << no_of_8 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,49 @@
+vis = array of 105 int , f = array of 105 by 105 int	int vis [ 105 ] = { }, f ( 105 ] [ 105 ) ;
+	int vis [ 105 ] , f [ 105 ] [ 105 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+for j = 1 to n inclusive	for ( int j = 1 ; j <= n ; j ++ )
+	for ( int j = 1 ; j <= n ; j ++ )	1
+read f [ i ] [ j ]	cin >> f [ i ] [ j ] ;
+	cin >> f [ i ] [ j ] ;	1
+if f [ i ] [ j ] is 1	if ( f [ i ] [ j ] == 1 )
+	if ( f [ i ] [ j ] == 1 )	1
+vis [ i ] = 1	vis [ i ] = 1 ;
+	vis [ i ] = 1 ;	1
+else if f [ i ] [ j ] is 2	else if ( f [ i ] [ j ] == 2 )
+	else if ( f [ i ] [ j ] == 2 )	1
+vis [ j ] = 1	vis [ j ] = 1 ;
+	vis [ j ] = 1 ;	1
+else if f [ i ] [ j ] is 3	else if ( f [ i ] [ j ] == 3 )
+	else if ( f [ i ] [ j ] == 3 )	1
+vis [ i ] = vis [ j ] = 1	vis [ i ] = vis [ j ] = 1 ;
+	vis [ i ] = vis [ j ] = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+a = array of 105 int , top = 0	int a [ 105 ], top = 0 ;
+	int a [ 105 ] , top = 0 ;	NA
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if not vis [ i ] a [ top ] = i , increment top	if (! vis [ i ] ) a [ top ++ ] = i ;
+	if ( ! vis [ i ] ) { a [ top ++ ] = i ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print top	cout << top << endl ;
+	cout << top << endl ;	1
+for i = 0 to top exclusive	for ( int i = 0 ; i < top ; i ++ )
+	for ( int i = 0 ; i < top ; i ++ )	1
+if i is top - 1	if ( i == top - 1 )
+	if ( i == top - 1 )	1
+print a [ i ]	cout << a [ i ] ;
+	cout << a [ i ] << endl ;	NA
+else	else
+	else	1
+print a [ i ] and space	cout << a [ i ] << " " ;
+	cout << a [ i ] << " " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

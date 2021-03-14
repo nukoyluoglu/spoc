@@ -1,0 +1,50 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , tam , comeco , fim = int witha = 0 and tam = 0 and comeco = 0 and fim = 0	int a ( 0 ), tam ( 0 ], comeco ( 1 ), fim ( 0, 1 ) ;
+	int a = 0 , tam = 0 , comeco = 0 , fim = 0 ;	NA
+read a then tam	cin >> a >> tam ;
+	cin >> a >> tam ;	1
+isThere = bool array of size tam + 1	bool isThere [ tam + 1 ] ;
+	bool isThere [ tam + 1 ] ;	1
+set all values of isThere to false	for ( int i = 0 ; i < isThere. size ( ) ; i ++ ) isThere [ i ] = false ;
+	for ( int j = 0 ; j <= tam ; j ++ ) { isThere [ j ] = false ; }	NA
+for b = 0 to a	for ( b = 0 ; b < a ; b ++ )
+	for ( int b = 0 ; b < a ; b ++ )	NA
+read comeco then fim	cin >> comeco >> fim ;
+	cin >> comeco >> fim ;	1
+for c = comeco to fim inclusive set siThere [ c ] to true	for ( int c = comeco ; c <= fim ; c ++ ) siThere [ c ] = true ;
+	for ( int c = comeco ; c <= fim ; c ++ ) { isThere [ c ] = true ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+resp = int with resp = 0	int resp = 0 ;
+	int resp = 0 ;	1
+presentes = int array of size tam + 1	int presentes [ tam + 1 ] ;
+	int presentes [ tam + 1 ] ;	1
+ordem = string with ordem = " "	string ordem = " " ;
+	string ordem = " " ;	1
+for b = 1 to tam inclusive	for ( b = 1 ; b <= tam ; b ++ )
+	for ( int b = 1 ; b <= tam ; b ++ )	NA
+is isThere [ b ] is false	if (! isThere [ b ] )
+	if ( ! isThere [ b ] )	NA
+set presentes [ resp ] to b	presentes [ resp ] = b ;
+	presentes [ resp ] = b ;	1
+increment resp	resp ++ ;
+	resp ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print resp	cout << resp << endl ;
+	cout << resp << endl ;	1
+for b = 0 to resp	for ( b = 0 ; b < resp ; b ++ )
+	for ( int b = 0 ; b < resp ; b ++ )	NA
+print presentes [ b ]	cout << presentes [ b ] << endl ;
+	cout << presentes [ b ] ;	NA
+if b is resp - 1	if ( b == resp - 1 )
+	if ( b == resp - 1 )	1
+print newline	cout << endl ;
+	cout << endl ;	1
+else	else
+	else	1
+print " "	cout << " " ;
+	cout << " " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

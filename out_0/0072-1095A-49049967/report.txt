@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;
+	int n ;	1
+create string s	string s ;
+	string s ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+create string t with t = " "	string t = " " ;
+	string t = " " ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+create integer k with k = ( i * ( i + 1 ) ) / 2	int k = ( i * ( i + 1 ) ) / 2 ;
+	int k = ( i * ( i + 1 ) ) / 2 ;	1
+if k is greater than or equal to n , break loop	if ( k >= n ) break ;
+	if ( k >= n ) { break ; }	NA
+set t to t + s [ k ]	t += s [ k ] ;
+	t = t + s [ k ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print t print newline	cout << t << endl ;
+	cout << t << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

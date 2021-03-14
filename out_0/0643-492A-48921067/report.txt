@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , count = int with count = 0	int n, count = 0 ;
+	int n , count = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+flag , i , x = int with flag = 0 and i = 2 and x = 1	int flag = 0, i = 2, x = 1 ;
+	int flag = 0 , i = 2 , x = 1 ;	NA
+loop while flag < = n	while ( flag <= n )
+	while ( flag <= n )	1
+increment flag by x	flag += x ;
+	flag += x ;	1
+increment x by i	x += i ;
+	x += i ;	1
+increment i	i ++ ;
+	i ++ ;	1
+if flag < = n increment count	if ( flag <= n ) count ++ ;
+	if ( flag <= n ) count ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print count	cout << count ;
+	cout << count << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

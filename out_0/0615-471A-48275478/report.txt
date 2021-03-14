@@ -1,0 +1,31 @@
+a , b , n = int and s = int array of size 10	int a, b, n, s [ 10 ] ;
+	int s [ 10 ] , a , b , n ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+for i = 0 to 6	for ( int i = 0 ; i < 6 ; i ++ )
+	for ( int i = 0 ; i < 6 ; i ++ )	1
+read n	cin >> n ;
+	cin >> n ;	1
+increment s [ n ]	s [ n ] ++ ;
+	s [ n ] ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to 10	for ( int i = 0 ; i < 10 ; i ++ )
+	for ( int i = 0 ; i < 10 ; i ++ )	1
+if s [ i ] is greater or equal to 4 set b to 1	if ( s [ i ] >='4') b = 1 ;
+	if ( s [ i ] >= 4 ) { b = 1 ; }	NA
+if s [ i ] is 2 or 6 set a to 1	if ( s [ i ] =='2'|| a =='6') a = 1 ;
+	if ( s [ i ] == 2 || s [ i ] == 6 ) { a = 1 ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if b is 0	if ( b == 0 )
+	if ( b == 0 )	1
+print " Alien "	puts ( " Alien " ) ;
+	cout << " Alien " << endl ;	NA
+else if a is 1	else if ( a == 1 )
+	else if ( a == 1 )	1
+print " Elephant "	puts ( " Elephant " ) ;
+	cout << " Elephant " << endl ;	NA
+else	else
+	else	1
+print " Bear "	puts ( " Bear " ) ;
+	cout << " Bear " << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

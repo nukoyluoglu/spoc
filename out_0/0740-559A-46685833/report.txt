@@ -1,0 +1,8 @@
+let a , b , c , d , e , f be ints	int a, b, c, d, e, f ;
+	int a , b , c , d , e , f ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read a , b , c , d , e , f	cin >> a >> b >> c >> d >> e >> f ;
+	cin >> a >> b >> c >> d >> e >> f ;	1
+print ( a + b + c ) * ( a + b + c ) - a * a - c * c - e * e and one newline	cout << ( long long ) ( a + b + c ) * ( char ) ( ( long double ) a * a - c * c - e * e ) << endl ;
+	cout << ( a + b + c ) * ( a + b + c ) - a * a - c * c - e * e << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

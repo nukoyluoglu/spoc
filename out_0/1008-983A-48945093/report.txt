@@ -1,0 +1,44 @@
+N = integer	int N ;
+	int N ;	1
+P , Q , B = long long	long long P, Q, B ;
+	long long P , Q , B ;	NA
+in the function gcd that takes long long x , y and returns long long	long long gcd ( long long x, long long y )
+	long long gcd ( long long x , long long y )	NA
+if y is 0 , return x	if ( y == 0 ) return x ;
+	if ( y == 0 ) return x ;	1
+return gcd of y and x modulo y	return gcd ( y, x % y ) ;
+	return gcd ( y , x % y ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read N	cin >> N ;
+	cin >> N ;	1
+while decrement N	while ( N -- )
+	while ( N -- )	1
+read P , Q , B	cin >> P >> Q >> B ;
+	cin >> P >> Q >> B ;	1
+P = P modulo Q	P %= Q ;
+	P %= Q ;	1
+G = long long with G = gcd of P and Q	long long G = gcd ( P, Q ) ;
+	long long G = gcd ( P , Q ) ;	NA
+Q = Q / G	Q = Q / G ;
+	Q /= G ;	NA
+C = long long with C = gcd of B and Q	long long C = gcd ( B, Q ) ;
+	long long C = gcd ( B , Q ) ;	NA
+while C is not 1	while ( C!= 1 )
+	while ( C != 1 )	NA
+Q = Q / C	Q = Q / C ;
+	Q /= C ;	NA
+C = gcd of C and Q	C = gcd ( C, Q ) ;
+	C = gcd ( C , Q ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if Q is not 1	if ( Q!= 1 )
+	if ( Q != 1 )	NA
+print Infinite	cout << " Infinite " << endl ;
+	cout << " Infinite\n " ;	NA
+else	else
+	else	1
+print Finite	cout << " Finite " << endl ;
+	cout << " Finite\n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

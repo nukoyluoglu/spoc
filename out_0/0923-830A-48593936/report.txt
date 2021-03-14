@@ -1,0 +1,59 @@
+mod = const int with mod = 1000000007	const int mod = 1000000007 ;
+	const int mod = 1000000007 ;	1
+inf = const long long with inf = 1000000000000	const long long inf = 1000000000000 ;
+	const long long inf = 1000000000000 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , k , p = int	int n, k, p ;
+	int n , k , p ;	NA
+read n then k then p	cin >> n >> k >> p ;
+	cin >> n >> k >> p ;	1
+A , B = vector of long longs	vector < long long > A, B ;
+	vector < long long > A , B ;	NA
+for i = 0 to n	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+x = long long	long long x ;
+	long long x ;	1
+read x	cin >> x ;
+	cin >> x ;	1
+append x to A	A. push_back ( x ) ;
+	A . push_back ( x ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to k	for ( int i = 0 ; i < k ; i ++ )
+	for ( int i = 0 ; i < k ; i ++ )	1
+x = long long	long long x ;
+	long long x ;	1
+read x	cin >> x ;
+	cin >> x ;	1
+append x to B	B. push_back ( x ) ;
+	B . push_back ( x ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort vector A	sort ( A. begin ( ), A. end ( ) ) ;
+	sort ( A . begin ( ) , A . end ( ) ) ;	NA
+sort vector B	sort ( B. begin ( ), B. end ( ) ) ;
+	sort ( B . begin ( ) , B . end ( ) ) ;	NA
+ans = long long with ans = inf	long long ans = inf ;
+	long long ans = inf ;	1
+for i = 0 to k - n inclusive	for ( int i = 0 ; i <= k - n ; i ++ )
+	for ( int i = 0 ; i <= k - n ; i ++ )	1
+temp = long long with temp = 0	long long temp = 0 ;
+	long long temp = 0 ;	1
+index = int with index = i	int index = i ;
+	int index = i ;	1
+for j = 0 to n	for ( int j = 0 ; j < n ; j ++ )
+	for ( int j = 0 ; j < n ; j ++ )	1
+temp2 = long long with temp2 = 0	long long temp2 = 0 ;
+	long long temp2 = 0 ;	1
+set temp2 to the sum the absolute value of A [ j ] - B [ index ] and the absolute value of B [ index ] - p	temp2 = sum + abs ( A [ j ] - B [ index ] ), abs ( B [index ] - p ) ;
+	temp2 = abs ( A [ j ] - B [ index ] ) + abs ( B [ index ] - p ) ;	NA
+set temp to max between temp and temp2	temp = max ( temp, temp2 ) ;
+	temp = max ( temp , temp2 ) ;	NA
+increment index	index ++ ;
+	index ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set ans to min between ans and temp	ans = min ( ans, temp ) ;
+	ans = min ( ans , temp ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

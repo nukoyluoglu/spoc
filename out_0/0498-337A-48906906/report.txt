@@ -1,0 +1,29 @@
+create integers array dx initialized with 1 , 0 , - 1 , 0 , 1 , 1 , - 1 , - 1	const int dx [ ] = { 1, 0, - 1, 1, 2, 1 } ;
+	int dx [ ] = { 1 , 0 , - 1 , 0 , 1 , 1 , - 1 , - 1 } ;	NA
+create integers array dy initialized with 0 , 1 , 0 , - 1 , 1 , - 1 , 1 , - 1	int dy [ ] = { 0, 1, 0, - 1, 1 } ;
+	int dy [ ] = { 0 , 1 , 0 , - 1 , 1 , - 1 , 1 , - 1 } ;	NA
+in the function fast	void fast ( ) { }
+	void fast ( ) { }	1
+declare const long long md = 1e9 + 7	const long long md = 1e9 + 7 ;
+	const long long md = 1e9 + 7 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call fast ( )	fast ( ) ;
+	fast ( ) ;	1
+create long longs n and m	long long n, m ;
+	long long n , m ;	NA
+read n and m	cin >> n >> m ;
+	cin >> n >> m ;	1
+declare an array of long longs a with m + 5 elements	long long a [ m + 5 ] ;
+	long long a [ m + 5 ] ;	1
+read a from the input m times	for ( int i = 0 ; i < m ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < m ; i ++ ) cin >> a [ i ] ;	1
+sort first m elements of a	sort ( a, a + m ) ;
+	sort ( a , a + m ) ;	NA
+declare long long variable ans = LLONG_MAX	long long ans = LLONG_MAX ;
+	long long ans = LLONG_MAX ;	1
+for i from 0 to m - n inclusive , change ans to min of ans and a [ i + ( n - 1 ) ] - a [ i ]	for ( int i = 0 ; i <= m - n ; i ++ ) ans = min ( ans, a [ i + ( n - 1 ) ] - a [ 1 ] ) ;
+	for ( int i = 0 ; i <= m - n ; i ++ ) { ans = min ( ans , a [ i + ( n - 1 ) ] - a [ i ] ) ; }	NA
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

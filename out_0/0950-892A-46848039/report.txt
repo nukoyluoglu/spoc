@@ -1,0 +1,36 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+let sum and cur be long longs where sum = 0	long long sum = 0, cur ;
+	long long sum = 0 , cur ;	NA
+for size_t = 0 to n exclusive	for ( size_t i = 0 ; i < n ; ++ i )
+	for ( size_t i = 0 ; i < n ; i ++ )	NA
+read cur	cin >> cur ;
+	cin >> cur ;	1
+increase sum by cur	sum += cur ;
+	sum += cur ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+create long longs Max1 and Max2 = - 1	long long Max1 = 0, Max2 = - 1 ;
+	long long Max1 = - 1 , Max2 = - 1 ;	NA
+for size_t = 0 to n exclusive	for ( size_t i = 0 ; i < n ; ++ i )
+	for ( size_t i = 0 ; i < n ; i ++ )	NA
+read cur	cin >> cur ;
+	cin >> cur ;	1
+if cur is greater than Max1	if ( cur > Max1 )
+	if ( cur > Max1 )	1
+set Max2 to Max1	Max2 = Max1 ;
+	Max2 = Max1 ;	1
+set value of Max1 to cur	Max1 = cur ;
+	Max1 = cur ;	1
+else if cur is greater than Max2	else if ( cur > Max2 )
+	else if ( cur > Max2 )	1
+Max2 = cur	Max2 = cur ;
+	Max2 = cur ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " YES \ n " if Max2 + Max1 > = sum , else pring " NO \ n "	cout << ( Max2 + Max1 >= sum? " YES\n " : " NO)\n " ) ;
+	cout << ( ( Max2 + Max1 >= sum ) ? " YES\n " : " NO\n " ) ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

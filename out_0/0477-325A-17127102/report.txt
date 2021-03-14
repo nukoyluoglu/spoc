@@ -1,0 +1,45 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = integer	int n ;
+	int n ;	1
+S = integer array of size 10	int S [ 10 ] ;
+	int S [ 10 ] ;	1
+while read n	while ( cin >> n )
+	while ( cin >> n )	1
+set all contents of S to 0	memset ( S, 0, sizeof ( S ) ) ;
+	memset ( S , 0 , sizeof ( S ) ) ;	NA
+maxx , maxy = integers with maxx = 0 , maxy = 0	int maxx = 0, maxy = 0 ;
+	int maxx = 0 , maxy = 0 ;	NA
+minx , miny = integers with minx = 10000000 , miny = 10000000	int minx = 10000000, miny = 1e5 ;
+	int minx = 10000000 , miny = 10000000 ;	NA
+C = integer with C = 0	int C = 0 ;
+	int C = 0 ;	1
+x1 , x2 , y1 , y2 = integers	int x1, x2, y1, y2 ;
+	int x1 , x2 , y1 , y2 ;	NA
+for i = 1 to n	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; ++ i )	NA
+read x1 , x2 , y1 , y2	cin >> x1 >> x2 >> y1 >> y2 ;
+	cin >> x1 >> y1 >> x2 >> y2 ;	NA
+S [ i ] = ( x2 - x1 ) * ( y2 - y1 )	S [ i ] = ( x2 - x1 ) * ( y2 - y1 ) ;
+	S [ i ] = ( x2 - x1 ) * ( y2 - y1 ) ;	1
+C = C + S [ i ]	C += S [ i ] ;
+	C += S [ i ] ;	1
+if x1 < minx , minx = x1	if ( x1 < minx ) minx = x1 ;
+	if ( x1 < minx ) minx = x1 ;	1
+if x2 > maxx , maxx = x2	if ( x2 > maxx ) maxx = x2 ;
+	if ( x2 > maxx ) maxx = x2 ;	1
+if y1 < miny , miny = y1	if ( y1 < miny ) miny = y1 ;
+	if ( y1 < miny ) miny = y1 ;	1
+if y2 > maxy , maxy = y2	if ( y2 > maxy ) maxy = y2 ;
+	if ( y2 > maxy ) maxy = y2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if C is ( maxx - minx ) * ( maxy - miny ) and ( maxx - minx ) is ( maxy - miny )	if ( C == ( maxx - minx ) * ( maxy - miny ) && C == 1 )
+	if ( C == ( maxx - minx ) * ( maxy - miny ) && ( maxx - minx ) == ( maxy - miny ) )	NA
+print YES	puts ( " YES " ) ;
+	cout << " YES " << endl ;	NA
+else	else
+	else	1
+print NO	cout << " NO\n " ;
+	cout << " NO " << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

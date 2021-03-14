@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare int variables n , s , t , sum , res and mini with sum , res and mini = 0 , and an array of integers d with 100 elements	int n, s, t, sum = 0, d [ 100 ], res = 0 ;
+	int n , d [ 100 ] , s , t , sum = 0 , res = 0 , mini = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for integer i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read d [ i ]	cin >> d [ i ] ;
+	cin >> d [ i ] ;	1
+increase sum by d [ i ]	sum += d [ i ] ;
+	sum += d [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+read input to s and t	cin >> s >> t ;
+	cin >> s >> t ;	1
+for i from min of s - 1 and t - 1 to max of t - 1 and s - 1 exclusive , add d [ i ] to res	for ( int i = min ( s - 1, t - 1 ) ; i < max ( t - i, s - i ) ; ++ i ) { res += d [ i ] ; }
+	for ( int i = min ( s - 1 , t - 1 ) ; i < max ( t - 1 , s - 1 ) ; i ++ ) { res += d [ i ] ; }	NA
+change mini to min of res and sum - res	mini = min ( res, sum - res ) ;
+	mini = min ( res , sum - res ) ;	NA
+print mini	cout << mini << endl ;
+	cout << mini << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

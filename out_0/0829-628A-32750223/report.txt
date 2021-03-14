@@ -1,0 +1,30 @@
+p2 = int array with the values 1 , 2 , 4 , 8 , 16 , 32 , 64 , 128 , 256	int p2 [ ] = { 1, 2, 4, 8, 16, 32, 64, 128, 256 } ;
+	int p2 [ ] = { 1 , 2 , 4 , 8 , 16 , 32 , 64 , 128 , 256 } ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , b , p , k , m = int	int n, b, p, k, m ;
+	int n , b , p , k , m ;	NA
+bn = int with bn = 0	int bn = 0 ;
+	int bn = 0 ;	1
+read n then b then p	cin >> n >> b >> p ;
+	cin >> n >> b >> p ;	1
+set m to n	m = n ;
+	m = n ;	1
+loop while m is greater than 1	while ( m > 1 )
+	while ( m > 1 )	1
+for k = 8 to 0 inclusive decrementing k	for ( int k = 8 ; k >= 0 ; k -- )
+	for ( k = 8 ; k >= 0 ; k -- )	NA
+if p2 [ k ] is less or equal to m	if ( p2 [ k ] <= m )
+	if ( p2 [ k ] <= m )	1
+increment bn by p2 [ k ] / 2 + p2 [ k ] * b	nn += p2 [ k ] / 2 + p2. k ] * b ;
+	bn += p2 [ k ] / 2 + p2 [ k ] * b ;	NA
+break	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+set m to p2 [ k ] / 2 + ( m - p2 [ k ] )	m = p2 [ k ] / 2 + ( m - p2. k ] ) ;
+	m = p2 [ k ] / 2 + ( m - p2 [ k ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print bn and n * p	cout << bn << n * p << endl ;
+	cout << bn << " " << n * p << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

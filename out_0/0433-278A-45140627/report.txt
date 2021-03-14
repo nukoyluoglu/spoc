@@ -1,0 +1,29 @@
+create constant integer maxn with maxn = 105	const int maxn = 105 ;
+	const int maxn = 105 ;	1
+create integers n , s , t , create integer array d with size maxn	int n, s, t, d [ maxn ] ;
+	int n , d [ maxn ] , s , t ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n inclusive , read d [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> d [ i ] ;
+	for ( int i = 1 ; i <= n ; i ++ ) cin >> d [ i ] ;	1
+read s read t	cin >> s >> t ;
+	cin >> s >> t ;	1
+create integers clock , revert , i with clock = 0 , revert = 0	int clock = 0, revert ( 0 ), i ;
+	int clock = 0 , revert = 0 , i ;	NA
+create integers front , tail , with front = minimum of s and t , tail = maximum of s and t	int front = min ( s, t ), tail = max ( s. begin ( ), t. end ( ) ) ;
+	int front = min ( s , t ) , tail = max ( s , t ) ;	NA
+for i = front to tail exclusive , increment clock by d [ i ]	for ( int i = front ; i < tail ; i ++ ) { clock += d [ i ] ; }
+	for ( i = front ; i < tail ; i ++ ) { clock += d [ i ] ; }	NA
+for i = tail to i is not front , incrementing i	for ( long long i = tail ; i!= front ; i ++ )
+	for ( i = tail ; i != front ; i ++ )	NA
+if i is greater than n , set i to i % n	if ( i > n ) i %= n ;
+	if ( i > n ) i %= n ;	1
+if i is front , break loop	if ( i == front ) break ;
+	if ( i == front ) break ;	1
+increment revert by d [ i ]	reversed += d [ i ] ;
+	revert += d [ i ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print minimum of clock and revert print newline	cout << min ( clock, revert ) << endl ;
+	cout << min ( clock , revert ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

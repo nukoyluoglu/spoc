@@ -1,0 +1,31 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let participants , bottles , towels be integers	int participants, bottles, towels ;
+	int participants , bottles , towels ;	NA
+let total_b , total_t , matches be integers with total_b = 0 , total_t = 0	int total_b = 1, total_t = 0, matches ;
+	int total_b = 0 , total_t = 0 , matches ;	NA
+read participants , bottles , towels	cin >> participants >> bottles >> towels ;
+	cin >> participants >> bottles >> towels ;	1
+the value of total_t = participants * towels	total_t = participants * towels ;
+	total_t = participants * towels ;	1
+while participants is not equal to 1	while ( participants!= 1 )
+	while ( participants != 1 )	NA
+the value of matches = participants / 2	matches = participants / 2 ;
+	matches = participants / 2 ;	1
+if participants modulo 2 is equal to 1	if ( participants % 2 == 1 )
+	if ( participants % 2 == 1 )	1
+total_b is equal to total_b + ( participants - 1 ) * bottles + matches	total_b += ( participants - 1 ) * bottles + matches ;
+	total_b += ( participants - 1 ) * bottles + matches ;	1
+the value of participants = participants / 2 + 1	participants = participants / 2 + 1 ;
+	participants = participants / 2 + 1 ;	1
+else do the following	else
+	else	1
+total_b is equal to total_b + participants * bottles + matches	total_b += participants * bottles + matches ;
+	total_b += participants * bottles + matches ;	1
+the value of participants = participants / 2	participants /= 2 ;
+	participants = participants / 2 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print total_b and space and total_t and newline	cout << total_b << " " <<total_t << endl ;
+	cout << total_b << " " << total_t << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,48 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create character array c with size 4 by 4	char c [ 4 ] [ 4 + 1 ] ;
+	char c [ 4 ] [ 4 ] ;	NA
+for i = 0 to 4 exclusive	for ( int i = 0 ; i < 4 ; i ++ )
+	for ( int i = 0 ; i < 4 ; i ++ )	1
+for j = 0 to 4 exclusive read c [ i ] [ j ]	for ( int j = 0 ; j < 4 ; j ++ ) { cin >> c [ i ] [ j ] ; }
+	for ( int j = 0 ; j < 4 ; j ++ ) { cin >> c [ i ] [ j ] ; }	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare integers x , y , z and v = 0	int x, y, z, v = 0 ;
+	int x = 0 , y = 0 , z = 0 , v = 0 ;	NA
+in the infinite loop	while ( true )
+	while ( true )	1
+for j = z to z + 2 exclusive	for ( int j = z ; j < z + 2 ; j ++ )
+	for ( int j = z ; j < z + 2 ; j ++ )	1
+if c [ v ] [ j ] = ' # ' increment x	if ( c [ v ] [ j ] =='#') x ++ ;
+	if ( c [ v ] [ j ] == ' # ' ) x ++ ;	NA
+if c [ v ] [ j ] = ' . ' increment y	if ( c [ v ] [ j ] == '.') y ++ ;
+	if ( c [ v ] [ j ] == ' . ' ) y ++ ;	NA
+if c [ v + 1 ] [ j ] = ' # ' increment x	if ( c [ v + 1 ] [ j ] =='#') x ++ ;
+	if ( c [ v + 1 ] [ j ] == ' # ' ) x ++ ;	NA
+if c [ v + 1 ] [ j ] = ' . ' increment y	if ( c [ v + 1 ] [ j ] == '.') y ++ ;
+	if ( c [ v + 1 ] [ j ] == ' . ' ) y ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if x > y or y is greater than x	if ( x > y || y > x )
+	if ( x > y || y > x )	1
+print " YES "	puts ( " YES " ) ;
+	cout << " YES " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+set x to 0	x = 0 ;
+	x = 0 ;	1
+set y to 0	y = 0 ;
+	y = 0 ;	1
+increase z by one	z ++ ;
+	z ++ ;	1
+if z = 3	if ( z == 3 )
+	if ( z == 3 )	1
+increase v by one	v ++ ;
+	v ++ ;	1
+set z to 0	z = 0 ;
+	z = 0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if v = 3 , break the loop	if ( v == 3 ) break ;
+	if ( v == 3 ) { break ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print " NO "	puts ( " NO " ) ;
+	cout << " NO " << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

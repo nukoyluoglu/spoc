@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long n	long long n ;
+	long long n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create string palabra	string palabra ;
+	string palabra ;	1
+read palabra	cin >> palabra ;
+	cin >> palabra ;	1
+create string answer with answer = " "	string answer = " " ;
+	string answer = " " ;	1
+create long long aumento with aumento = 1	long long aumento = 1 ;
+	long long aumento = 1 ;	1
+for i = 0 to n exclusive , setting i to i + aumento	for ( int i = 0 ; i < n ; i += a )
+	for ( long long i = 0 ; i < n ; i = i + aumento )	NA
+add element substring of palabra from i to 1 to end of answer	answer. push_back ( palabra. substr ( i, 1 ) ) ;
+	answer . append ( palabra . substr ( i , 1 ) ) ;	NA
+increment aumento	++ aumento ;
+	aumento ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print answer print newline	cout << answer << endl ;
+	cout << answer << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

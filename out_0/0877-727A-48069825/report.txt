@@ -1,0 +1,44 @@
+let k and flag be long ints with flag = 0	long int k, flag = 0 ;
+	long int k , flag = 0 ;	NA
+declare vector of long long integers ans	vector < long long int > ans ;
+	vector < long long int > ans ;	1
+function dfs with long long int arguments n and level	void dfs ( long long int n, long long integer level )
+	void dfs ( long long int n , long long int level )	NA
+if n is equal to k , assign 1 to flag	if ( n == k ) flag = 1 ;
+	if ( n == k ) { flag = 1 ; }	NA
+if 2 * n < = k and flag = 0 , call dfs ( 2 * n , level + 1 )	if ( 2 * n <= k && flag == 0 ) dfs ( 3 * n, level + 1 ) ;
+	if ( 2 * n <= k && flag == 0 ) { dfs ( 2 * n , level + 1 ) ; }	NA
+if 10 * n + 1 < = k and flag = 0 , call dfs ( 10 * n + 1 , level + 1 )	if ( 10 * n + 1 <= k && flag == 0 ) dfs ( 1e9 + 1, level + 1 ) ;
+	if ( 10 * n + 1 <= k && flag == 0 ) { dfs ( 10 * n + 1 , level + 1 ) ; }	NA
+if flag = 1 , push n to ans	if ( flag == 1 ) ans. push_back ( n ) ;
+	if ( flag == 1 ) { ans . push_back ( n ) ; }	NA
+return	return ;
+	return ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long int n	long long int n ;
+	long long int n ;	1
+read n and k	cin >> n >> k ;
+	cin >> n >> k ;	1
+call dfs ( n , 1 )	dfs ( n, 1 ) ;
+	dfs ( n , 1 ) ;	NA
+if flag is 1	if ( flag == 1 )
+	if ( flag == 1 )	1
+print " YES "	puts ( " YES " ) ;
+	cout << " YES " << endl ;	NA
+declare int sz = length of ans	int sz = ans. size ( ) ;
+	int sz = ans . size ( ) ;	NA
+print sz	cout << sz << endl ;
+	cout << sz << endl ;	1
+for i = sz - 1 to 1 inclusive decrementing i , print ans [ i ] and " "	for ( int i = sz - 1 ; i >= 1 ; -- i ) cout << ans [ i ] << " " ;
+	for ( long long int i = sz - 1 ; i >= 1 ; i -- ) { cout << ans [ i ] << " " ; }	NA
+if sz > = 1 , print ans [ 0 ]	if ( sz >= 1 ) cout << ans [ 0 ] << endl ;
+	if ( sz >= 1 ) cout << ans [ 0 ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+print " NO "	puts ( " NO " ) ;
+	cout << " NO " << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

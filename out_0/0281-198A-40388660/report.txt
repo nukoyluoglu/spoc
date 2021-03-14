@@ -1,0 +1,42 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let c1 , c2 , x , k , i , b , n , t , cnt be long long with cnt = 0	long long c1, c2, x, k, i, b, n, t, cnt = 0 ;
+	long long c1 , c2 , x , k , i , b , n , t , cnt = 0 ;	NA
+read k , b , n , t	cin >> k >> b >> n >> t ;
+	cin >> k >> b >> n >> t ;	1
+set c1 = b + t * ( k - 1 )	c1 = b + t * ( k - 1 ) ;
+	c1 = b + t * ( k - 1 ) ;	1
+set c2 = b + k - 1	c2 = b + k - 1 ;
+	c2 = b + k - 1 ;	1
+set cnt = 1	int cnt = 1 ;
+	cnt = 1 ;	NA
+set x = n	x = n ;
+	x = n ;	1
+if k not equal to 1 do the following	while ( k!= 1 )
+	if ( k != 1 )	NA
+for i = n iterate while i is less than or equal to 0 having i decrease by 1 after each iteration	for ( int i = n ; i >= 0 ; i -- )
+	for ( i = n ; i >= 0 ; i -- )	NA
+if c1 is greater or equal to cnt * c2 do the following	if ( c1 >= cnt * c2 )
+	if ( c1 >= cnt * c2 )	1
+set x = i	x = i ;
+	x = i ;	1
+else do the following	else
+	else	1
+break out of the iteration loop	continue ;
+	break ;	NA
+set cnt = cnt * k	cnt *= k ;
+	cnt *= k ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print x and one newline	cout << x << endl ;
+	cout << x << endl ;	1
+else do the following	else
+	else	1
+for i = 0 to n inclusive	for ( int i = 0 ; i <= n ; i ++ )
+	for ( i = 0 ; i <= n ; i ++ )	NA
+if i * b is greater or equal to 1 + n * b - t break out of the iteration loop	if ( i * b >= 1 + n * b - t ) continue ;
+	if ( i * b >= 1 + n * b - t ) break ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print i and one newline	cout << i << endl ;
+	cout << i << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

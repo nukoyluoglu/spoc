@@ -1,0 +1,23 @@
+let b , d , sum , i , n , resh , ans1 , ans2 , ans3 , ans4 , j and k be long longs and a be long long array with length 10001	long long a [ 10001 ], b, d, sum, i, n, resh, ans1, ans2, ans3, ans4, j, k ;
+	long long a [ 10001 ] , b , d , sum , i , n , resh , ans1 , ans2 , ans3 , ans4 , j , k ;	NA
+create strings s and s1	string s, s1 ;
+	string s , s1 ;	NA
+create char array c with length 10001	char c [ 10001 ] ;
+	char c [ 10001 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n and k	cin >> n >> k ;
+	cin >> n >> k ;	1
+if ( n is smaller than k ) or ( k is equal to 1 and n is greater than 1 ) return 0 and print - 1	if ( ( n < k ) || ( k == 1 && n > 1 ) ) return puts ( " -1 " ), 0 ;
+	if ( n < k or ( k == 1 and n > 1 ) ) return cout << - 1 << " \n " , 0 ;	NA
+if n is equal to 1 return 0 and print a and newline	if ( n == 1 ) return cout << a << endl, 0 ;
+	if ( n == 1 ) return cout << " a\n " , 0 ;	NA
+for i = 0 to ( n - ( k - 2 ) ) / 2 exclusive print " ab "	for ( int i = 0 ; i < ( n - ( k - 2 ) ) / 2 ; i ++ ) cout << " ab " ;
+	for ( int i = 0 ; i < ( n - ( k - 2 ) ) / 2 ; ++ i ) cout << " ab " ;	NA
+if ( n - ( k - 2 ) mod 2 ) print " a "	if ( n - ( k - 2 ) % 2 ) cout << " a " ;
+	if ( ( n - ( k - 2 ) ) % 2 ) cout << " a " ;	NA
+for i = 0 to k - 2 exclusive print char ( i + ' c ' )	for ( int i = 0 ; i < k - 2 ; i ++ ) { cout << char ( i +'c') ; }
+	for ( int i = 0 ; i < k - 2 ; ++ i ) cout << char ( i + ' c ' ) ;	NA
+print newline	cout << endl ;
+	cout << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

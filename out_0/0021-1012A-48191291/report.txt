@@ -1,0 +1,19 @@
+create integer N	int N ;
+	int N ;	1
+create long long array A with size 200005	long long A [ 200005 ] ;
+	long long A [ 200005 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read N	cin >> N ;
+	cin >> N ;	1
+for i = 0 to 2 * N - 1 inclusive , read A [ i ]	for ( int i = 0 ; i <= 2 * N - 1 ; i ++ ) cin >> A [ i ] ;
+	for ( int i = 0 ; i <= 2 * N - 1 ; i ++ ) cin >> A [ i ] ;	1
+sort elements from A to A + 2 * N	sort ( A, A + 2 * N ) ;
+	sort ( A , A + 2 * N ) ;	NA
+create long long Ans with Ans = ( A [ N - 1 ] - A [ 0 ] ) * ( A [ 2 * N - 1 ] - A [ N ] )	long long Ans = A [ N - 1 ] - A [ 0 ] ) * ( A [ 2 * N - i ] - a [ N ] ) ;
+	long long Ans = ( A [ N - 1 ] - A [ 0 ] ) * ( A [ 2 * N - 1 ] - A [ N ] ) ;	NA
+for i = 1 to N - 1 inclusive , set Ans to minimum of Ans and ( A [ 2 * N - 1 ] - A [ 0 ] ) * ( A [ i + N - 1 ] - A [ i ] )	for ( int i = 1 ; i <= N - 1 ; ++ i ) Ans = min ( Ans, A [ 2 * N - i ] - A [ 0 ] ) * ( A [ i + n - 1 ] -'A'[ i ] ) ) ;
+	for ( int i = 1 ; i <= N - 1 ; i ++ ) { Ans = min ( Ans , ( A [ 2 * N - 1 ] - A [ 0 ] ) * ( A [ i + N - 1 ] - A [ i ] ) ) ; }	NA
+print Ans print ' \ n '	cout << Ans <<'\n';
+	cout << Ans << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

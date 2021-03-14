@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , b , n , i = integers	int a, b, n, i ;
+	int a , b , n , i ;	NA
+Read a , b , n	cin >> a >> b >> n ;
+	cin >> n >> a >> b ;	NA
+C = array of n integers	int C [ n ] ;
+	int C [ n ] ;	1
+Read n values into array C	for ( int i = 0 ; i < n ; i ++ ) cin >> C [ i ] ;
+	for ( i = 0 ; i < n ; i ++ ) cin >> C [ i ] ;	NA
+sort array elements of C in ascending order	sort ( C, C + n ) ;
+	sort ( C , C + n ) ;	NA
+print C [ b ] - C [ b - 1 ] and a new line	cout << C [ a ] - C [ b - 1 ] << endl ;
+	cout << C [ b ] - C [ b - 1 ] << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,23 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n be an integer	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+max = int = 0	int max = 0 ;
+	int max = 0 ;	1
+cp = 0 = int	int cp = 0 ;
+	int cp = 0 ;	1
+for i = 0 to n	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+let a , b be ints	int a, b ;
+	int a , b ;	NA
+read a and b	cin >> a >> b ;
+	cin >> a >> b ;	1
+increment cp by ( b - a )	cp += ( b - a ) ;
+	cp += ( b - a ) ;	1
+if cp > = max then set max to cp	if ( cp >= max ) max = cp ;
+	if ( cp >= max ) max = cp ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print max	cout << max << endl ;
+	cout << max << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

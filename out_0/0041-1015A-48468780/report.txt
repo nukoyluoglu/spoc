@@ -1,0 +1,34 @@
+let is be integer array with size 105	int is [ 105 ] ;
+	int is [ 105 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , m , a and b	int n, m, a, b ;
+	int n , m , a , b ;	NA
+read n and m	cin >> n >> m ;
+	cin >> n >> m ;	1
+for integer i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read a and b	cin >> a >> b ;
+	cin >> a >> b ;	1
+for j = a to b inclusive set is [ j ] to 1	for ( int j = a ; j <= b ; j ++ ) is [ j ] = 1 ;
+	for ( int j = a ; j <= b ; j ++ ) is [ j ] = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare integer vector ans	vector < int > ans ;
+	vector < int > ans ;	1
+for i = 1 to m inclusive	for ( int i = 1 ; i <= m ; i ++ )
+	for ( int i = 1 ; i <= m ; i ++ )	1
+if is [ i ] is 0 , push i into ans	if (! is [ i ] ) ans. push_back ( i ) ;
+	if ( ! is [ i ] ) ans . push_back ( i ) ;	NA
+print length of ans and " \ n "	cout << ans. size ( ) << " \n " ;
+	cout << ans . size ( ) << " \n " ;	NA
+for i = 0 to length of ans exclusive	for ( int i = 0 ; i < ans. size ( ) ; i ++ )
+	for ( int i = 0 ; i < ans . size ( ) ; i ++ )	NA
+if i ! = length of ans - 1	if ( i!= ans. size ( ) - 1 )
+	if ( i != ans . size ( ) - 1 )	NA
+print ans [ i ] and " "	cout << ans [ i ] << " " ;
+	cout << ans [ i ] << " " ;	1
+else	else
+	else	1
+print ans [ i ] and " \ n "	cout << ans [ i ] << " \n " ;
+	cout << ans [ i ] << " \n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

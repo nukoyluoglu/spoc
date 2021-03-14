@@ -1,0 +1,38 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create doubles x and y	double x, y ;
+	double x , y ;	NA
+create double z	double z ;
+	double z ;	1
+double pointer * arr points to new array of doubles with size n	double * arr = new double [ n ] ;
+	double * arr = new double [ n ] ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read x and y	cin >> x >> y ;
+	cin >> x >> y ;	1
+declare double variable q = x + ( y / 100000 )	double q = x + ( y / 100000 ) ;
+	double q = x + ( y / 100000 ) ;	1
+set value of arr [ i ] to q	arr [ i ] = q ;
+	arr [ i ] = q ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+sort arr	sort ( arr, arr + n ) ;
+	sort ( arr , arr + n ) ;	NA
+for integer i = 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )
+	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+if arr [ i ] ! = arr [ i + 1 ]	if ( arr [ i ]!= arr [ j + 1 ] )
+	if ( int ( arr [ i ] ) != int ( arr [ i + 1 ] ) )	NA
+if arr [ i + 1 ] - arr [ i ] is less than 1	if ( arr [ i + 1 ] - arr [ j ] < 1 )
+	if ( arr [ i + 1 ] - arr [ i ] < 1 )	NA
+print " Happy Alex "	cout << " Happy Alex " << endl ;
+	cout << " Happy Alex " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " Poor Alex "	cout << " PoorAlex " << endl ;
+	cout << " Poor Alex " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

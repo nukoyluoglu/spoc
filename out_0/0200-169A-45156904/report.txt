@@ -1,0 +1,15 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , a , b = int	int n, a, b ;
+	int n , a , b ;	NA
+read n then a then b	cin >> n >> a >> b ;
+	cin >> n >> a >> b ;	1
+V = int vector of size n	vector < int > V ( n ) ;
+	vector < int > V ( n ) ;	1
+read n values into V	for ( int i = 0 ; i < n ; i ++ ) cin >> V [ i ] ;
+	for ( int i = 0 ; i < n ; ++ i ) cin >> V [ i ] ;	NA
+sort V	sort ( V. begin ( ), V. end ( ) ) ;
+	sort ( V . begin ( ) , V . end ( ) ) ;	NA
+print V [ b ] - V [ b - 1 ]	cout << V [ b ] - V [ a - 1 ] << endl ;
+	cout << V [ b ] - V [ b - 1 ] << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

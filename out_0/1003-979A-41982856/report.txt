@@ -1,0 +1,9 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = long long	long long n ;
+	long long n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+print if not n then 0 else if n & 1 then ( n + 1 ) > > 1 else n + 1	cout << ( ( n!= n )? 0 : ( n & 1 ) > 1 )? 1 : n + 1 ) << endl ;
+	cout << ( ! n ? 0 : n & 1 ? ( n + 1 ) >> 1 : n + 1 ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

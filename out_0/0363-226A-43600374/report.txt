@@ -1,0 +1,25 @@
+in function pow taking three long longs a , b and m and returning a long long	long long pow ( long long a, long long b, long int m )
+	long long pow ( long long a , long long b , long long m )	NA
+res = long long with res = 1	long long res = 1 ;
+	long long res = 1 ;	1
+loop while b is not 0	while ( b )
+	while ( b )	1
+if b bitwise - and 1 is true then set res to ( res * a ) mod m	if ( b & 1 ) res = ( res * a ) % m ;
+	if ( b & 1 ) { res = ( res * a ) % m ; }	NA
+set a to ( a * a ) mod m	a = ( a * a ) % m ;
+	a = ( a * a ) % m ;	1
+set b to b bithsift right by 1	b = b >> 1 ;
+	b >>= 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return res	return res ;
+	return res ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , m = long long	long long n, m ;
+	long long n , m ;	NA
+read n then m	cin >> n >> m ;
+	cin >> n >> m ;	1
+print ( ( pow of 3 , n and m ) - 1 + m ) mod m	cout << ( pow ( 3, n, m ) - 1 + m ) % m << endl ;
+	cout << ( pow ( 3 , n , m ) - 1 + m ) % m << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

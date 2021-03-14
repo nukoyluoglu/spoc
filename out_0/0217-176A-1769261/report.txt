@@ -1,0 +1,53 @@
+n , m , k = int	int n, m, k ;
+	int n , m , k ;	NA
+a , b , c = array of 11 by 111 int	int a [ 11 ], b [ 111 ], c [ 110 ] ;
+	int a [ 11 ] [ 111 ] , b [ 11 ] [ 111 ] , c [ 11 ] [ 111 ] ;	NA
+f = array of 111 int	int f [ 111 ] ;
+	int f [ 111 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , m , k	cin >> n >> m >> k ;
+	cin >> n >> m >> k ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+name = string	string name ;
+	string name ;	1
+read name	cin >> name ;
+	cin >> name ;	1
+for j = 0 to m exclusive read a [ i ] [ j ] , b [ i ] [ j ] , c [ i ] [ j ]	for ( int j = 0 ; j < m ; j ++ ) { cin >> a [ i ] [ j ] >> b [ i == [ j + 1 ] >> c [ ++ j ] ; }
+	for ( int j = 0 ; j < m ; ++ j ) { cin >> a [ i ] [ j ] >> b [ i ] [ j ] >> c [ i ] [ j ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+ans = 0	int ans = 0 ;
+	int ans = 0 ;	1
+for st = 0 to n exclusive	for ( int st = 0 ; st < n ; st ++ )
+	for ( int st = 0 ; st < n ; ++ st )	NA
+for fn = 0 to n exclusive	for ( int fn = 0 ; fn < n ; fn ++ )
+	for ( int fn = 0 ; fn < n ; ++ fn )	NA
+if st is not fn	if ( st!= fn )
+	if ( st != fn )	NA
+cst and num = array of 111 int	int cst [ 111 ], num [ 110 ] ;
+	int cst [ 111 ] , num [ 111 ] ;	NA
+for j = 0 to m exclusive	for ( int j = 0 ; j < m ; j ++ )
+	for ( int j = 0 ; j < m ; ++ j )	NA
+cst [ j ] = b [ fn ] [ j ] - a [ st ] [ j ]	char cst [ j ] = b [ fn ] [ i ] - a [ st ] [ ++ j ] ;
+	cst [ j ] = b [ fn ] [ j ] - a [ st ] [ j ] ;	NA
+num [ j ] = c [ st ] [ j ]	num [ j ] = c [ st ] [ i ] ;
+	num [ j ] = c [ st ] [ j ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+fill f with - 1	memset ( f, - 1, sizeof f ) ;
+	memset ( f , - 1 , sizeof ( f ) ) ;	NA
+f [ 0 ] = 0	f [ 0 ] = 0 ;
+	f [ 0 ] = 0 ;	1
+for j = 0 to m exclusive	for ( int j = 0 ; j < m ; j ++ )
+	for ( int j = 0 ; j < m ; ++ j )	NA
+for cnt = 0 to num [ j ] exclusive	for ( int cnt = 0 ; cnt < num [ j ] ; ++ cnt )
+	for ( int cnt = 0 ; cnt < num [ j ] ; ++ cnt )	1
+for pos = k - 1 down to 0 inclusive	for ( pos = k - 1 ; pos >= 0 ; pos -- )
+	for ( int pos = k - 1 ; pos >= 0 ; -- pos )	NA
+if f [ pos ] > = 0 f [ pos + 1 ] = max ( f [ pos + 1 ] , f [ pos ] + cst [ j ] )	if ( f [ pos ] >='0') { f [ ++ 1 ] = max ( ( long long ) f [pos + 1 ], ( long double ) cst [ j ] ) ) ; }
+	if ( f [ pos ] >= 0 ) f [ pos + 1 ] = max ( f [ pos + 1 ] , f [ pos ] + cst [ j ] ) ;	NA
+ans = max ( ans , element pointed by max_element ( f , f + k + 1 ) )	ans = max ( ans, * max_element ( f, f + k + 1 ) ) ;
+	ans = max ( ans , * max_element ( f , f + k + 1 ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+pritn ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
