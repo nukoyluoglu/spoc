@@ -28,8 +28,9 @@ def main(pred_path):
 		gold_score = 'N/A'
 		pred_score = 'N/A'
 		gold = format_code(tgt)
-		predd = format_code(pred)
-		data = [index, text, gold_score, pred_score, gold, predd]
+		preds = pred.split('\t')
+		preds = [format_code(pred) for pred in preds]
+		data = [index, text, gold_score, pred_score, gold] + preds
 		print("\t".join(str(x) for x in data), file=fout)
 
 if __name__ == "__main__":

@@ -374,7 +374,7 @@ def true_oracle_linebyline(inp_stmt, pred_stmt, probid, subid):
                 break
         if gold_found:
             num_success += 1
-        num_lines = += 1
+        num_lines += 1
         curr_i += 1
     return num_lines, num_success
 
@@ -1327,7 +1327,7 @@ def stitch():
         # check if in beam for true oracle, line by line
         num_lines, num_success = true_oracle_linebyline(inp_stmt, pred_stmt, probid, subid)
         tmp_f = open("in_beam_true_oracle_linebyline.txt", "w")
-        tmp_f.writelines([num_lines, num_success])
+        tmp_f.writelines([str(num_lines) + '\n', str(num_success)])
         tmp_f.close()
     # detailed oracle
     if ARGS.detailed_oracle:
