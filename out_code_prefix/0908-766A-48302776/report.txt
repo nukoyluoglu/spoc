@@ -1,0 +1,27 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create strings s and second	string s, second ;
+	string s , second ;	NA
+read user input to s and second	cin >> s >> second ;
+	cin >> s >> second ;	1
+declare long long variables p and q = 0	long long p = 0, q = 0 ;
+	long long p = 0 , q = 0 ;	NA
+create new long long called xx with value 0	long long xx = 0 ;
+	long long xx = 0 ;	1
+create new long long variable cnt = 0	long long cnt = 0 ;
+	long long cnt = 0 ;	1
+if s = second	if ( s == second )
+	if ( s == second )	1
+print " - 1 " to the standard output	cout << " -1 " ;
+	cout << " -1 " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if length of s is greater than length of second	if ( s. length ( ) > second. size ( ) )
+	if ( s . size ( ) > second . size ( ) )	NA
+print length of s to the standard output	cout << s. size ( ) << endl ;
+	cout << s . size ( ) << endl ;	NA
+else	else
+	else	1
+print length of second	cout << second. size ( ) << endl ;
+	cout << second . size ( ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

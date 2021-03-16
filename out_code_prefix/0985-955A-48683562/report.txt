@@ -1,0 +1,52 @@
+declare int array freq with size 1005	int freq [ 1005 ] ;
+	int freq [ 1005 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare int variables hh and mm	int hh, mm ;
+	int hh , mm ;	NA
+declare double variables h , d , c and n	double h, d, c, n ;
+	double h , d , c , n ;	NA
+declare doubles cost1 and cost2	double cost1, cost2 ;
+	double cost1 , cost2 ;	NA
+read hh and mm	cin >> hh >> mm ;
+	cin >> hh >> mm ;	1
+read input to h , d , c and n	cin >> h >> d >> c >> n ;
+	cin >> h >> d >> c >> n ;	1
+declare int time = ( hh * 60 ) + mm	int time = ( hh * 60 ) + mm ;
+	int time = ( hh * 60 ) + mm ;	1
+declare int buns = 0	int buns = 0 ;
+	int buns = 0 ;	1
+declare int hunger = h	int hunger = h ;
+	int hunger = h ;	1
+while hunger > 0	while ( hunger > 0 )
+	while ( hunger > 0 )	1
+subtract n from hunger	hunger -= n ;
+	hunger -= n ;	1
+increment buns	buns ++ ;
+	buns ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+assign buns * c to cost1	cost1 = buns * c ;
+	cost1 = buns * c ;	1
+if time is less than 1200	if ( time < 1200 )
+	if ( time < 1200 )	1
+set hunger to h + ( ( 1200 - time ) * d )	hunger = h + ( ( 1200 - time ) * d ) ;
+	hunger = h + ( ( 1200 - time ) * d ) ;	1
+else	else
+	else	1
+change hunger to h	hunger = h ;
+	hunger = h ;	1
+change buns to 0	buns = 0 ;
+	buns = 0 ;	1
+while hunger > 0	while ( hunger )
+	while ( hunger > 0 )	NA
+decrease hunger by n	hunger -= n ;
+	hunger -= n ;	1
+increment buns	buns ++ ;
+	buns ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+decrease c by c * ( 20 . 0 / 100 )	c -= c * ( 20.0 / 100 ) ;
+	c -= c * ( 20.0 / 100 ) ;	1
+change cost2 to c * buns	cost2 = c * buns ;
+	cost2 = c * buns ;	1
+change decimal precision of the output to 5 , set showpoint and fixed flags and print the min of cost2 and cost1	cout << 5 << setprecision ( 0 ) << fixed ;
+	cout << setprecision ( 5 ) << showpoint << fixed << min ( cost2 , cost1 ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

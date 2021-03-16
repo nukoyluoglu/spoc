@@ -1,0 +1,114 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let a be string	string a ;
+	string a ;	1
+s = integer	int s ;
+	int s ;	1
+read a and s	cin >> a >> s ;
+	cin >> a >> s ;	1
+declare integer variable d	int d ;
+	int d ;	1
+if a is equal to " January "	if ( a == " January " )
+	if ( a == " January " )	1
+set d to 1	d = 1 ;
+	d = 1 ;	1
+else if a is equal to " February "	else if ( a == " February " )
+	else if ( a == " February " )	1
+set value of d to 2	d = 2 ;
+	d = 2 ;	1
+else if a is equal to " March "	else if ( a == " March " )
+	else if ( a == " March " )	1
+set value of d to 3	d = 3 ;
+	d = 3 ;	1
+else if a is equal to " April "	else if ( a == " April " )
+	else if ( a == " April " )	1
+set value of d to 4	d = 4 ;
+	d = 4 ;	1
+else if a is equal to " May "	else if ( a == " May " )
+	else if ( a == " May " )	1
+set d to 5	d = 5 ;
+	d = 5 ;	1
+else if a is equal to " June "	else if ( a == " June " )
+	else if ( a == " June " )	1
+set value of d to 6	d = 6 ;
+	d = 6 ;	1
+else if a is equal to " July "	else if ( a == " July " )
+	else if ( a == " July " )	1
+set value of d to 7	d = 7 ;
+	d = 7 ;	1
+else if a is equal to " August "	else if ( a == " August " )
+	else if ( a == " August " )	1
+set value of d to 8	d = 8 ;
+	d = 8 ;	1
+else if a is equal to " September "	else if ( a == " September " )
+	else if ( a == " September " )	1
+set d to 9	d = 9 ;
+	d = 9 ;	1
+else if a is equal to " October "	else if ( a == " October " )
+	else if ( a == " October " )	1
+set d to 10	d = 10 ;
+	d = 10 ;	1
+else if a is equal to " November "	else if ( a == " November " )
+	else if ( a == " November " )	1
+d = 11	d = 11 ;
+	d = 11 ;	1
+else	else
+	else	1
+d = 12	d = 12 ;
+	d = 12 ;	1
+decrease d by one	d -- ;
+	d -- ;	1
+d = d + s	d += s ;
+	d = d + s ;	NA
+d = d % 12	d = d % 12 ;
+	d = d % 12 ;	1
+if d is equal to 0	if ( d == 0 )
+	if ( d == 0 )	1
+a = " January "	a = " January " ;
+	a = " January " ;	1
+else if d is equal to 1	else if ( d == 1 )
+	else if ( d == 1 )	1
+a = " February "	a = " February " ;
+	a = " February " ;	1
+else if d is equal to 2	else if ( d == 2 )
+	else if ( d == 2 )	1
+a = " March "	a = " March " ;
+	a = " March " ;	1
+else if d is equal to 3	else if ( d == 3 )
+	else if ( d == 3 )	1
+a = " April "	a = " April " ;
+	a = " April " ;	1
+else if d is equal to 4	else if ( d == 4 )
+	else if ( d == 4 )	1
+a = " May "	a = " May " ;
+	a = " May " ;	1
+else if d is equal to 5	else if ( d == 5 )
+	else if ( d == 5 )	1
+a = " June "	a = " June " ;
+	a = " June " ;	1
+else if d is equal to 6	else if ( d == 6 )
+	else if ( d == 6 )	1
+a = " July "	a = " July " ;
+	a = " July " ;	1
+else if d is equal to 7	else if ( d == 7 )
+	else if ( d == 7 )	1
+a = " August "	a = " August " ;
+	a = " August " ;	1
+else if d is equal to 8	else if ( d == 8 )
+	else if ( d == 8 )	1
+a = " September "	a = " September " ;
+	a = " September " ;	1
+else if d is equal to 9	else if ( d == 9 )
+	else if ( d == 9 )	1
+a = " October "	a = " October " ;
+	a = " October " ;	1
+else if d is equal to 10	else if ( d == 10 )
+	else if ( d == 10 )	1
+a = " November "	a = " November " ;
+	a = " November " ;	1
+else	else
+	else	1
+a = " December "	a = " December " ;
+	a = " December " ;	1
+print a and a new line	cout << a << endl ;
+	cout << a << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,50 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string str , str2 , ans , set ans to a	string str, str2, ans ='a';
+	string str , str2 , ans = " a " ;	NA
+create int n and flag , assign 0 to flag	int n, flag = 0 ;
+	int n , flag = 0 ;	NA
+read str	cin >> str ;
+	cin >> str ;	1
+set len to length of str	int len = str. length ( ) ;
+	int len = str . length ( ) ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read str2	cin >> str2 ;
+	cin >> str2 ;	1
+set flag to 0	flag = 0 ;
+	flag = 0 ;	1
+for j = 0 to len	for ( int j = 0 ; j < len ; j ++ )
+	for ( int j = 0 ; j < len ; j ++ )	1
+if str [ j ] different from str2 [ j ]	if ( str [ j ]!= str2 [ i ] )
+	if ( str [ j ] != str2 [ j ] )	NA
+flag = 1	flag = 1 ;
+	flag = 1 ;	1
+break	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if flag = 1 , continue	if ( flag == 1 ) continue ;
+	if ( flag == 1 ) { continue ; }	NA
+if ans equal to a	if ( ans == a )
+	if ( ans == " a " )	NA
+set ans to str2	ans = str2 ;
+	ans = str2 ;	1
+else if str2 < ans	else if ( str2 < ans )
+	else if ( str2 < ans )	1
+set ans = str2	ans = str2 ;
+	ans = str2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if ans different from a	if ( ans!= a )
+	if ( ans != " a " )	NA
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+else	else
+	else	1
+print str and a newline	cout << str << endl ;
+	cout << str << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,18 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let i , n , k be integers	int i, n, k ;
+	int i , n , k ;	NA
+while read n	while ( cin >> n )
+	while ( cin >> n )	1
+k is equal to 0	k = 0 ;
+	k = 0 ;	1
+for i is equal to 1 , n > = 0 , increment i by 1	for ( i = 1 ; n >= 0 ; i ++ )
+	for ( i = 1 ; n >= 0 ; i ++ )	1
+increment k by i	k += i ;
+	k += i ;	1
+decrement n by k	n -= k ;
+	n -= k ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print i - 2 and newline	cout << i - 2 << endl ;
+	cout << ( i - 2 ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

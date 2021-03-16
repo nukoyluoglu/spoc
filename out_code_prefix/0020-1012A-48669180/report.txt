@@ -1,0 +1,37 @@
+declare const int INF = 0x3f3f3f3f	const int INF = ( 0x3f3f7f ) ;
+	const int INF = 0x3f3f3f3f ;	NA
+create const int maxa = 1e5 + 10	const int maxa = 1e5 + 10 ;
+	const int maxa = 1e5 + 10 ;	1
+declare int array a with size maxa < < 1	int a [ maxa << 1 ] ;
+	int a [ maxa << 1 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n	int n ;
+	int n ;	1
+read n and loop further	while ( cin >> n )
+	while ( cin >> n )	1
+declare int variable i	int i ;
+	int i ;	1
+for i = 0 to 2 * n exclusive , read a [ i ]	for ( i = 0 ; i < 2 * n ; i ++ ) { cin >> a [ i ] ; }
+	for ( i = 0 ; i < 2 * n ; i ++ ) cin >> a [ i ] ;	NA
+sort a	sort ( a, a + n ) ;
+	sort ( a , a + 2 * n ) ;	NA
+declare long long x = a [ n - 1 ] - a [ 0 ]	long long x = a [ n - 1 ] - a [ 0 ] ;
+	long long x = a [ n - 1 ] - a [ 0 ] ;	1
+create long long y = a [ 2 * n - 1 ] - a [ n ]	long long y = a [ 2 * n - 1 ] - a [ n ] ;
+	long long y = a [ 2 * n - 1 ] - a [ n ] ;	1
+declare long long minsq = x * y	long long minsq = x * y ;
+	long long minsq = x * y ;	1
+set x to a [ 2 * n - 1 ] - a [ 0 ]	x = a [ 2 * n - 1 ] - a [ 0 ] ;
+	x = a [ 2 * n - 1 ] - a [ 0 ] ;	1
+for i from 1 to n exclusive	for ( int i = 1 ; i < n ; i ++ )
+	for ( i = 1 ; i < n ; i ++ )	NA
+set y to a [ i + n - 1 ] - a [ i ]	y = a [ i + n - 1 ] - a [ 1 ] ;
+	y = a [ i + n - 1 ] - a [ i ] ;	NA
+change minsq to min of minsq and x * y	minq = min ( minsq, x * y ) ;
+	minsq = min ( minsq , x * y ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print minsq	cout << minsq << endl ;
+	cout << minsq << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

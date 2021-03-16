@@ -1,0 +1,20 @@
+set N to 1e6 + 10	const int N = 1e6 + 10 ;
+	const int N = 1e6 + 10 ;	1
+mod = 998244353	const int mod = 998244353 ;
+	const int mod = 998244353 ;	1
+create int n	int n ;
+	int n ;	1
+create string x	string x ;
+	string x ;	1
+create map m from int to int	map < int, int > m ;
+	map < int , int > m ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n and x	cin >> n >> x ;
+	cin >> n >> x ;	1
+for i = 0 to n exclusive , increment m [ x [ i ] - 0 ]	for ( int i = 0 ; i < n ; i ++ ) { m [ x [ i ] -'0'] ++ ; }
+	for ( int i = 0 ; i < n ; i ++ ) m [ x [ i ] - ' 0 ' ] ++ ;	NA
+set s to size of x	int s = x. size ( ) ;
+	int s = x . size ( ) ;	NA
+print min of m [ 8 ] and s / 11	cout << min ( m [ 8 ], s / 11 ) << endl ;
+	cout << min ( m [ 8 ] , s / 11 ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

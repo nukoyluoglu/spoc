@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , a , b , c = int	int n, a, b, c ;
+	int n , a , b , c ;	NA
+read n then a then b then c	cin >> n >> a >> b >> c ;
+	cin >> n >> a >> b >> c ;	1
+ans = int with ans = 0	int ans = 0 ;
+	int ans = 0 ;	1
+for i = 0 to 4000 inclusive	for ( int i = 0 ; i <= 4000 ; i ++ )
+	for ( int i = 0 ; i <= 4000 ; i ++ )	1
+for k = 0 to 4000 inclusive	for ( int k = 0 ; k <= 4000 ; k ++ )
+	for ( int k = 0 ; k <= 4000 ; k ++ )	1
+sum = int with sum = a * i + b * k	int sum = a * i + b * k ;
+	int sum = a * i + b * k ;	1
+if sum is greater than n then continue inner loop	if ( sum > n ) continue ;
+	if ( sum > n ) continue ;	1
+if ( n - sum ) mod c equals 0 then set ans to max of ans and ( i + k + ( n - sum ) / c )	if ( ( n - sum ) % c == 0 ) { ans = max ( ans, ( i + k + ( n / sum ) / c ) ; }
+	if ( ( n - sum ) % c == 0 ) { ans = max ( ans , ( i + k + ( n - sum ) / c ) ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

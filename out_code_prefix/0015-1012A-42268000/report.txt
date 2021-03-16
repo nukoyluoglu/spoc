@@ -1,0 +1,34 @@
+declare const int N = 1e5 + 50	const int N = 1e5 + 50 ;
+	const int N = 1e5 + 50 ;	1
+declare ints T , n , m , L and R	int T, n, m, L, R ;
+	int T , n , m , L , R ;	NA
+declare long long array a with size 2 * N	long long a [ 2 * N ] ;
+	long long a [ 2 * N ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read input to n	cin >> n ;
+	cin >> n ;	1
+for i from 0 to n * 2 exclusive , read a [ i ]	for ( int i = 0 ; i < n * 2 ; i ++ ) { cin >> a [ i ] ; }
+	for ( int i = 0 ; i < n * 2 ; i ++ ) { cin >> a [ i ] ; }	1
+if n < = 1	if ( n <= 1 )
+	if ( n <= 1 )	1
+print " 0 "	puts ( " 0 " ) ;
+	cout << " 0 " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+sort a from the start to the position 2 * n	sort ( a, a + n ) ;
+	sort ( a , a + 2 * n ) ;	NA
+declare long long ans = ( a [ n - 1 ] - a [ 0 ] ) * ( a [ 2 * n - 1 ] - a [ n ] )	long long ans = ( long long ) ( a [ n - 1 ] - a [ 0 ] ) * ( ( long double ) a [ 2 * n - i ] ) - ( long int ) ( n [ n ] ) ;
+	long long ans = ( a [ n - 1 ] - a [ 0 ] ) * ( a [ 2 * n - 1 ] - a [ n ] ) ;	NA
+declare long long C = a [ 2 * n - 1 ] - a [ 0 ]	long long C = a [ 2 * n - 1 ] - a [ 0 ] ;
+	long long C = a [ 2 * n - 1 ] - a [ 0 ] ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+declare long long variable temp = C * ( a [ i + n - 1 ] - a [ i ] )	long long temp = C * ( A [ i + n - 1 ] - a [ i ] ) ;
+	long long temp = C * ( a [ i + n - 1 ] - a [ i ] ) ;	NA
+set ans to min of ans and temp	ans = min ( ans, temp ) ;
+	ans = min ( ans , temp ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

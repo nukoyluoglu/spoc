@@ -1,0 +1,18 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+l , r , R = long long arrays of size 1000 each	long long int l [ 1000 ], r [ 10000 ], R [ 100 ] ;
+	long long l [ 1000 ] , r [ 1000 ] , R [ 1000 ] ;	NA
+for i = 0 to n	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read l [ i ] then r [ i ]	for ( int j = 0 ; j < n ; j ++ ) { cin >> l [ i ] >> r [ j ] ; }
+	cin >> l [ i ] >> r [ i ] ;	NA
+set R [ i ] to r [ i ] / l [ i ]	R [ i ] /= l [ 1 ] ;
+	R [ i ] = r [ i ] / l [ i ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n print l [ i ] then " " then l [ i ] * R [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cout << l [ i ] << " " << l ( i ] * R [ 1 ] << endl ; }
+	for ( int i = 0 ; i < n ; i ++ ) cout << l [ i ] << " " << l [ i ] * R [ i ] << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

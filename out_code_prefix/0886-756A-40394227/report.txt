@@ -1,0 +1,52 @@
+create integer n	int n ;
+	int n ;	1
+create constant integer MAXN with MAXN = 200005	const int MAXN = 200005 ;
+	const int MAXN = 200005 ;	1
+create integer array p with size MAXN	int p [ MAXN ] ;
+	int p [ MAXN ] ;	1
+create boolean array vis with size MAXN	bool vis [ MAXN ] ;
+	bool vis [ MAXN ] ;	1
+declare dfs with integer idx as argument , returning void	void dfs ( int idx )
+	void dfs ( int idx )	1
+set vis [ idx ] to true	vis [ idx ] = true ;
+	vis [ idx ] = true ;	1
+if not vis [ p [ idx ] ] , run dfs with p [ idx ] as argument	if (! vis [ p [ idx ] ] ) dfs ( p [ Idx ] ) ;
+	if ( ! vis [ p [ idx ] ] ) dfs ( p [ idx ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n inclusive , read p [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> p [ i ] ;
+	for ( int i = 1 ; i <= n ; i ++ ) cin >> p [ i ] ;	1
+create integer counter with counter = 0	int counter = 0 ;
+	int counter = 0 ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+create integer b	int b ;
+	int b ;	1
+read b	cin >> b ;
+	cin >> b ;	1
+if b is 1 , increment counter	if ( b == 1 ) counter ++ ;
+	if ( b == 1 ) counter ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+create integer cycle with cycle = 0	int cycle = 0 ;
+	int cycle = 0 ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if not vis [ i ]	if (! vis [ i ] )
+	if ( ! vis [ i ] )	NA
+run dfs with i as argument	dfs ( i ) ;
+	dfs ( i ) ;	1
+increment cycle	cycle ++ ;
+	cycle ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if cycle is 1	if ( cycle == 1 )
+	if ( cycle == 1 )	1
+print 1 - counter % 2 print " \ n "	cout << 1 - counter % 2 << " \n " ;
+	cout << 1 - counter % 2 << " \n " ;	1
+else	else
+	else	1
+print cycle + 1 - counter % 2 print " \ n "	cout << cycle + 1 - counter % 2 << " \n " ;
+	cout << cycle + 1 - counter % 2 << " \n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

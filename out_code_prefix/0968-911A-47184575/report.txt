@@ -1,0 +1,56 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let ints n , min = INT_MAX , cnt = 0 , first , last , and selisih and int array num of size 100005	int n, min = INT_MAX, cnt = 0, first, last, selisih, num [ 100005 ] ;
+	int n , num [ 100005 ] , min = INT_MAX , cnt = 0 , first , last , selisih ;	NA
+create int has = INT_MAX and int array arrpos of size 100005	int has = INT_MAX, arrpos [ 100005 ] ;
+	int arrpos [ 100005 ] , has = INT_MAX ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for x = 1 to n	for ( int x = 1 ; x <= n ; x ++ )
+	for ( int x = 1 ; x <= n ; x ++ )	1
+read num [ x ]	cin >> num [ x ] ;
+	cin >> num [ x ] ;	1
+if num [ x ] is less than min , set min to num [ x ]	if ( num [ x ] < min ) min = num [ y ] ;
+	if ( num [ x ] < min ) { min = num [ x ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for x = 1 to n	for ( int x = 1 ; x <= n ; x ++ )
+	for ( int x = 1 ; x <= n ; x ++ )	1
+if num [ x ] equals min	if ( num [ x ] == min )
+	if ( num [ x ] == min )	1
+if cnt is equal to 0	if ( cnt == 0 )
+	if ( cnt == 0 )	1
+set arrpos [ x ] to x	arrpos [ x ] = x ;
+	arrpos [ x ] = x ;	1
+set first to x	first = x ;
+	first = x ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if cnt equals 1	if ( cnt == 1 )
+	if ( cnt == 1 )	1
+set arrpos [ x ] to x	arrpos [ x ] = x ;
+	arrpos [ x ] = x ;	1
+set last to x	last = x ;
+	last = x ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if cnt is greater than or equal to 2	if ( cnt >= 2 )
+	if ( cnt >= 2 )	1
+set first to last	first = last ;
+	first = last ;	1
+set last to x	last = x ;
+	last = x ;	1
+set arrpos [ x ] to x	arrpos [ x ] = x ;
+	arrpos [ x ] = x ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+increment cnt	cnt ++ ;
+	cnt ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if cnt is greater than or equal to 2	if ( cnt >= 2 )
+	if ( cnt >= 2 )	1
+set selisih to the result of arrpos [ last ] - arrpos [ first ]	int selisih = arrpos [ last ] -arrpos [ first ] ;
+	selisih = arrpos [ last ] - arrpos [ first ] ;	NA
+if selisih is less than has , set has to selisih	if ( selisih < has ) { has = seisih ; }
+	if ( selisih < has ) { has = selisih ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print has	cout << has << endl ;
+	cout << has << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

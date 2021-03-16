@@ -1,0 +1,23 @@
+create ints n , a , b and c	int n, a, b, c ;
+	int n , a , b , c ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+declare integer array w with size 5	int w [ 5 ] ;
+	int w [ 5 ] ;	1
+loop i from 1 to 3 inclusive , read input to w [ i ]	for ( int i = 1 ; i <= 3 ; i ++ ) { cin >> w [ i ] ; }
+	for ( int i = 1 ; i <= 3 ; i ++ ) cin >> w [ i ] ;	NA
+let e be int array with size 5000	int e [ 5000 ] ;
+	int e [ 5000 ] ;	1
+set sizeof ( e ) bytes at the pointer e to - 40	memset ( e, - 40, sizeof ( e ) ) ;
+	memset ( e , - 40 , sizeof ( e ) ) ;	NA
+assign 0 to e [ 0 ]	e [ 0 ] = 0 ;
+	e [ 0 ] = 0 ;	1
+loop i from 1 to 3 inclusive	for ( int i = 1 ; i <= 3 ; i ++ )
+	for ( int i = 1 ; i <= 3 ; i ++ )	1
+for j = w [ i ] to n inclusive , assign max of e [ j - w [ i ] ] + 1 and e [ j ] to e [ j ]	for ( int j = w [ i ] ; j <= n ; j ++ ) { e [ j ] = max ( e [ i - w [ 1 ] ] + 1, e [ k ] ) ; }
+	for ( int j = w [ i ] ; j <= n ; j ++ ) { e [ j ] = max ( e [ j - w [ i ] ] + 1 , e [ j ] ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print e [ n ]	cout << e [ n ] << endl ;
+	cout << e [ n ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

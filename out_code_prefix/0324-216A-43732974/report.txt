@@ -1,0 +1,23 @@
+create constant integer MAX with MAX = 5e4 + 5	const int MAX = 5e4 + 5 ;
+	const int MAX = 5e4 + 5 ;	1
+create constant long long MAX2 with MAX2 = 11	const long long MAX2 = 11 ;
+	const long long MAX2 = 11 ;	1
+create constant integer MOD with MOD = 1000000000 + 7	const int MOD = 1000000000 + 7 ;
+	const int MOD = 1000000000 + 7 ;	1
+create constant long long INF with INF = 20000	const long long INF = 20000 ;
+	const long long INF = 20000 ;	1
+create constant integer array dr with dr = { 1 , 0 , - 1 , 0 , 1 , 1 , - 1 , - 1 }	const int dr [ 4 ] = { 1, 0, - 1, 1, 2, 1 } ;
+	const int dr [ ] = { 1 , 0 , - 1 , 0 , 1 , 1 , - 1 , - 1 } ;	NA
+create constant integer array dc with dc = { 0 , 1 , 0 , - 1 , 1 , - 1 , 1 , - 1 }	const int dc [ ] = { 0, 1, 0, - 1, 1 } ;
+	const int dc [ ] = { 0 , 1 , 0 , - 1 , 1 , - 1 , 1 , - 1 } ;	NA
+create constant double pi with pi = acosign of - 1	const double pi = acos ( - 1 ) ;
+	const double pi = acos ( - 1 ) ;	1
+create integer a , b , c	int a, b, c ;
+	int a , b , c ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read a read b read c	cin >> a >> b >> c ;
+	cin >> a >> b >> c ;	1
+print a * b + ( a + b - 1 ) * ( c - 1 ) print " \ n "	cout << a * b + ( a + b - 1 ) * ( c - 1.0 ) << " \n " ;
+	cout << a * b + ( a + b - 1 ) * ( c - 1 ) << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

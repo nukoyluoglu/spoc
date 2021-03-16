@@ -1,0 +1,44 @@
+MOD = const int with MOD = 1e9 + 7	const int MOD = 1e9 + 7 ;
+	const int MOD = 1e9 + 7 ;	1
+INF = const long long int with INF = 1e18	const long long int INF = 1e18 ;
+	const long long int INF = 1e18 ;	1
+keya , per = vectors of long long int	vector < long long int > keya, per ;
+	vector < long long int > key , per ;	NA
+ans = long long int with ans = INF	long long int ans = INF ;
+	long long int ans = INF ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+i , j , k , n , p , x = integers	long long int i, j, k, n, p, x ;
+	int i , j , k , n , p , x ;	NA
+read n , k , p	cin >> n >> k >> p ;
+	cin >> n >> k >> p ;	1
+for i = 0 to n exclusive	for ( i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	1
+read x	cin >> x ;
+	cin >> x ;	1
+append x in per	per. push_back ( x ) ;
+	per . push_back ( x ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to k exclusive	for ( i = 0 ; i < k ; i ++ )
+	for ( i = 0 ; i < k ; i ++ )	1
+read x	cin >> x ;
+	cin >> x ;	1
+append x in key	key. push_back ( x ) ;
+	key . push_back ( x ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort begin of per and end of per	sort ( per. begin ( ), per. end ( ) ) ;
+	sort ( per . begin ( ) , per . end ( ) ) ;	NA
+sort begin of key and end of key	sort ( key. begin ( ), key. end ( ) ) ;
+	sort ( key . begin ( ) , key . end ( ) ) ;	NA
+for j = 0 to j + n - 1 < k	for ( j = 0 ; j + n - 1 < k ; j ++ )
+	for ( j = 0 ; j + n - 1 < k ; j ++ )	1
+now = long long int with now = 0	long long int now = 0 ;
+	long long int now = 0 ;	1
+for i = 0 to n exclusive now = max of now and abs ( per [ i ] - key [ j + i ] ) + abs ( key [ j + i ] - p )	for ( i = 0 ; i < n ; i ++ ) { now = max ( now, abs ( per [ i ] - key [ j + i ] ) + abs ( key. j + 1 ] - p ) ) ; }
+	for ( i = 0 ; i < n ; i ++ ) { now = max ( now , abs ( per [ i ] - key [ j + i ] ) + abs ( key [ j + i ] - p ) ) ; }	NA
+ans = min of ans and now	ans = min ( ans, now ) ;
+	ans = min ( ans , now ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

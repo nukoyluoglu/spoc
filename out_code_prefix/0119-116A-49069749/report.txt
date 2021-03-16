@@ -1,0 +1,22 @@
+create string str	string str ;
+	string str ;	1
+let n , a , b , capacity , total be integers , set capacity = 0 , total = 0	int n, a, b, capacity = 0, total = 0 ;
+	int n , a , b , capacity = 0 , total = 0 ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+read a and b	cin >> a >> b ;
+	cin >> a >> b ;	1
+total = total - a	total -= a ;
+	total -= a ;	1
+set total to total + b	total += b ;
+	total += b ;	1
+assign max of capacity and total to capacity	capacity = max ( capacity, total ) ;
+	capacity = max ( capacity , total ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print capacity	cout << capacity << endl ;
+	cout << capacity << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

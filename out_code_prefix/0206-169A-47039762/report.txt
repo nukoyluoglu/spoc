@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer vector h	vector < int > h ;
+	vector < int > h ;	1
+create integers a , b , n , num	int a, b, n, num ;
+	int a , b , n , num ;	NA
+read n read a read b	cin >> n >> a >> b ;
+	cin >> n >> a >> b ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read num	cin >> num ;
+	cin >> num ;	1
+add element num to end of h	h. push_back ( num ) ;
+	h . push_back ( num ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort elements from beginning of h to end of h	sort ( h. begin ( ), h. end ( ) ) ;
+	sort ( h . begin ( ) , h . end ( ) ) ;	NA
+if h [ b - 1 ] is h [ b ]	if (! ( h [ b - 1 ] ) )
+	if ( h [ b - 1 ] == h [ b ] )	NA
+print 0 print newline	cout << 0 << endl ;
+	cout << 0 << endl ;	1
+else	else
+	else	1
+print h [ b ] - h [ b - 1 ] print newline	cout << h [ b ] - h [ n - 1 ] << endl ;
+	cout << h [ b ] - h [ b - 1 ] << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,11 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare int64_t N	int64_t N ;
+	int64_t N ;	1
+read N	cin >> N ;
+	cin >> N ;	1
+declare int64_t ans = 0 if N = 0 , ( N + 1 ) / 2 if N is even , or N + 1 if N is odd	int64_t ans = 0? 0 : ( N + 1 ) / 2 if ( N % 2 == 0 )? ( 0 ) : ( 1 ) ;
+	int64_t ans = N == 0 ? 0 : ( N % 2 ? ( N + 1 ) / 2 : N + 1 ) ;	NA
+print ans	cout << ans << " \n " ;
+	cout << ans << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

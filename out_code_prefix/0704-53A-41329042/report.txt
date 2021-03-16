@@ -1,0 +1,50 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string s	string s ;
+	string s ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+let int len = s . length ( )	int len = s. length ( ) ;
+	int len = s . length ( ) ;	NA
+let int n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+let string array array of size n	string a [ n ] ;
+	string array [ n ] ;	NA
+let string array output of size n	string output [ n ] ;
+	string output [ n ] ;	1
+create integer count = 0	int count = 0 ;
+	int count = 0 ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read array [ i ]	cin >> array [ i ] ;
+	cin >> array [ i ] ;	1
+let int flag = 0	int flag = 0 ;
+	int flag = 0 ;	1
+if array [ i ] . length ( ) is less than len , continue to next loop iteration	if ( array [ i ]. length ( ) < len ) continue ;
+	if ( array [ i ] . length ( ) < len ) { continue ; }	NA
+for j = 0 to len exclusive	for ( int j = 0 ; j < len ; j ++ )
+	for ( int j = 0 ; j < len ; j ++ )	1
+if array [ i ] [ j ] is not equal to s [ j ]	if ( array [ i ] [ j ]!= s [ j - 1 ] )
+	if ( array [ i ] [ j ] != s [ j ] )	NA
+set flag to 1	flag = 1 ;
+	flag = 1 ;	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if flag is equal to 0 , set output [ count + + ] to array [ i ]	if ( flag == 0 ) output [ count ++ ] = array [ i ] ;
+	if ( flag == 0 ) { output [ count ++ ] = array [ i ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if count is 0	if ( count == 0 )
+	if ( count == 0 )	1
+print s	cout << s << endl ;
+	cout << s << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+sort output using argument output + count	sort ( output, output + count ) ;
+	sort ( output , output + count ) ;	NA
+print output [ 0 ]	cout << output [ 0 ] << endl ;
+	cout << output [ 0 ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

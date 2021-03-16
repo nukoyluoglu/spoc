@@ -1,0 +1,21 @@
+n , i , s1 , s2 , s , t , a = integers with a = array of size 105	int n, i, s1, s2, s, t, a [ 105 ] ;
+	int n , i , s1 , s2 , s , t , a [ 105 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n , read a [ i ]	for ( i = 1 ; i <= n ; i ++ ) { cin >> a [ i ] ; }
+	for ( i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;	NA
+read s , t	cin >> s >> t ;
+	cin >> s >> t ;	1
+if s > t , swap s and t	if ( s > t ) swap ( s, t ) ;
+	if ( s > t ) swap ( s , t ) ;	NA
+for i = s to t exclusive , s1 = s1 + a [ i ]	for ( i = s ; i < t ; i ++ ) s1 += a [ i ] ;
+	for ( i = s ; i < t ; i ++ ) s1 += a [ i ] ;	1
+for i = 1 to s exclusive , s2 = s2 + a [ i ]	for ( i = 1 ; i < s ; i ++ ) s2 += a [ i ] ;
+	for ( i = 1 ; i < s ; i ++ ) s2 += a [ i ] ;	1
+for i = n to t , s2 = s2 + a [ i ]	for ( i = n ; i < t ; i ++ ) s2 += a [ i ] ;
+	for ( i = n ; i >= t ; i -- ) s2 += a [ i ] ;	NA
+print min of s1 and s2	cout << min ( s1, s2 ) << endl ;
+	cout << min ( s1 , s2 ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

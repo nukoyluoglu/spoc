@@ -1,0 +1,20 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , m , and f with 1000 indices be int	int n, m, f [ 1000 ] ;
+	int n , m , f [ 1000 ] ;	NA
+read n and m	cin >> n >> m ;
+	cin >> n >> m ;	1
+read f of i i times from 0 to m exclusive	for ( int i = 0 ; i < m ; i ++ ) cin >> f [ i ] ;
+	for ( int i = 0 ; i < m ; ++ i ) { cin >> f [ i ] ; }	NA
+sort f and f plus m	sort ( f, f + m ) ;
+	sort ( f , f + m ) ;	NA
+let least be f [ n - 1 ] - f [ 0 ]	int least = f [ n - 1 ] - f [ 0 ] ;
+	int least = f [ n - 1 ] - f [ 0 ] ;	1
+for i from to 1 m - n inclusive	for ( int i = 1 ; i <= 1 ; ++ i )
+	for ( int i = 1 ; i <= m - n ; ++ i )	NA
+if f [ i + n - 1 ] - f [ i ] < least set least to least = f [ i + n - 1 ] - f [ i ]	if ( f [ i + n - 1 ] - f [ 1 ] < least ) least = least = f [ ( i + m - 1 ) - f ( i ] ;
+	if ( f [ i + n - 1 ] - f [ i ] < least ) { least = f [ i + n - 1 ] - f [ i ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print least	cout << least << endl ;
+	cout << least << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

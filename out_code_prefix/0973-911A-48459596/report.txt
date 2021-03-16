@@ -1,0 +1,45 @@
+nums is a new vector of integers	vector < int > nums ;
+	vector < int > nums ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare int variables n , a , last and dist	int n, a, last, dist ;
+	int n , a , last , dist ;	NA
+create integer variable min with value INT_MAX	int min = INT_MAX ;
+	int min = INT_MAX ;	1
+mindist is a new integer with value INT_MAX	int mindist = INT_MAX ;
+	int mindist = INT_MAX ;	1
+read n from the user input	cin >> n ;
+	cin >> n ;	1
+for i from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read input to a	cin >> a ;
+	cin >> a ;	1
+push a to the end of nums	nums. push_back ( a ) ;
+	nums . push_back ( a ) ;	NA
+if a is less than min , set min to a	if ( a < min ) min = a ;
+	if ( a < min ) min = a ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in a for loop , change i from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if nums [ i ] = min	if ( nums [ i ] == min )
+	if ( nums [ i ] == min )	1
+change last to i	last = i ;
+	last = i ;	1
+break	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i from last + 1 to n exclusive incrementing i	for ( int i = last + 1 ; i < n ; i ++ )
+	for ( int i = last + 1 ; i < n ; i ++ )	1
+if nums [ i ] = min	if ( nums [ i ] == min )
+	if ( nums [ i ] == min )	1
+change dist to i - last	dist = i - last ;
+	dist = i - last ;	1
+if dist is less than mindist , change mindist to dist	if ( dist < mindist ) { mindist = dist ; }
+	if ( dist < mindist ) mindist = dist ;	NA
+assign i to last	last = i ;
+	last = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print mindist to the standard output	cout << mindist << endl ;
+	cout << mindist << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

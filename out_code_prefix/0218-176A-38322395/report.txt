@@ -1,0 +1,87 @@
+let a , b , c be int matrices of size 11x101 , and d , e int arrays of length 101	int a [ 11 ], b [ 101 ], c [ 1010 ], d [ 1017 ], e [ 1011 ] ;
+	int a [ 11 ] [ 101 ] , b [ 11 ] [ 101 ] , c [ 11 ] [ 101 ] , d [ 101 ] , e [ 101 ] ;	NA
+let x , y be ints	int x, y ;
+	int x , y ;	NA
+let n , m , kkk , maxn be ints	int n, m, kkk, maxn ;
+	int n , m , kkk , maxn ;	NA
+in boolean function cmp that takes int x , int y	bool cmp ( int x, int y )
+	bool cmp ( int x , int y )	NA
+return d [ x ] > d [ y ]	return d [ x ] > d [ y ] ;
+	return d [ x ] > d [ y ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , m , kkk	cin >> n >> m >> kkk ;
+	cin >> n >> m >> kkk ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+cc = string	string cc ;
+	string cc ;	1
+read cc	cin >> cc ;
+	cin >> cc ;	1
+for j = 0 to m exclusive , read a [ i ] [ j ] , b [ i ] [ j ] , c [ i ] [ j ]	for ( int j = 0 ; j < m ; j ++ ) { cin >> a [ i ] [ j ] >> b [ i - [ j - 1 ] >> c [ i ++ [ j + 1 ] ; }
+	for ( int j = 0 ; j < m ; j ++ ) cin >> a [ i ] [ j ] >> b [ i ] [ j ] >> c [ i ] [ j ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+let ans be an int	int ans ;
+	int ans ;	1
+for j = 0 to n exclusive	for ( int j = 0 ; j < n ; j ++ )
+	for ( int j = 0 ; j < n ; j ++ )	1
+set ans to 0	ans = 0 ;
+	ans = 0 ;	1
+if i is different from j	if ( i!= j )
+	if ( i != j )	NA
+reset d to all 0	memset ( d, 0, sizeof ( d ) ) ;
+	memset ( d , 0 , sizeof ( d ) ) ;	NA
+for k = 0 to m exclusive set e [ k ] to k	for ( int k = 0 ; k < m ; k ++ ) { e [ k ] = k ; }
+	for ( int k = 0 ; k < m ; k ++ ) e [ k ] = k ;	NA
+for k = 0 to m exclusive , set d [ k ] to b [ j ] [ k ] - a [ i ] [ k ]	for ( int k = 0 ; k < m ; k ++ ) { d [ k ] = b [ j ] [ k - a [ i ] [ ( k ] ) ; }
+	for ( int k = 0 ; k < m ; k ++ ) { d [ k ] = b [ j ] [ k ] - a [ i ] [ k ] ; }	NA
+sort the first m elements of e using cmp	sort ( e, e + m, cmp ) ;
+	sort ( e , e + m , cmp ) ;	NA
+let kk = kkk be an int	int kk = kkk ;
+	int kk = kkk ;	1
+let p be an integer	int p ;
+	int p ;	1
+set p = 0	p = 0 ;
+	p = 0 ;	1
+while p < m and kk is positive	while ( p < m && kk > 0 )
+	while ( ( p < m ) && ( kk > 0 ) )	NA
+if d [ e [ p ] ] is negative or zero	if ( d [ e [ p ] ] < 0 )
+	if ( d [ e [ p ] ] <= 0 )	NA
+set kk to 0	kk = 0 ;
+	kk = 0 ;	1
+exit loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if c [ i ] [ e [ p ] ] < = kk	if ( c [ i ] [ e [ p ] ] <= kk )
+	if ( c [ i ] [ e [ p ] ] <= kk )	1
+increment ans by c [ i ] [ e [ p ] ] * d [ e [ p ] ]	ans = ans + c [ i ] [ e [ p ] ] * d [ ep ] ] ;
+	ans = ans + c [ i ] [ e [ p ] ] * d [ e [ p ] ] ;	NA
+decrement kk by c [ i ] [ e [ p ] ]	kk -= c [ i ] [ e [ p ] ] ;
+	kk = kk - c [ i ] [ e [ p ] ] ;	NA
+increment p	p ++ ;
+	p = p + 1 ;	NA
+else	else
+	else	1
+increment ans by kk * d [ e [ p ] ]	ans += kk * d [ e [ p ] ] ;
+	ans = ans + kk * d [ e [ p ] ] ;	NA
+set kk to 0	kk = 0 ;
+	kk = 0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if ans > maxn	if ( ans > maxn )
+	if ( ans > maxn )	1
+set maxn to ans	maxn = ans ;
+	maxn = ans ;	1
+set x = i	x = i ;
+	x = i ;	1
+set y = j	y = j ;
+	y = j ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print maxn	cout << maxn << endl ;
+	cout << maxn << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

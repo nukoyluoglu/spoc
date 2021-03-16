@@ -1,0 +1,58 @@
+N = constant integer with value of 2e5 + 50	const int N = 2e5 + 50 ;
+	const int N = 2e5 + 50 ;	1
+M = constant integer with value of 1e6	const int M = 1e6 ;
+	const int M = 1e6 ;	1
+oo = constant long long with value of 1e18	const long long oo = 1e18 ;
+	const long long oo = 1e18 ;	1
+mod = constant integer with value of 1e9 + 7	const int mod = 1e9 + 7 ;
+	const int mod = 1e9 + 7 ;	1
+a , b = long long arrays with a length of 1010 and b length of 2010	long long a [ 1010 ], b [ 2010 ] ;
+	long long a [ 1010 ] , b [ 2010 ] ;	NA
+n , k , p = long long	long long n, k, p ;
+	long long n , k , p ;	NA
+in function can that takes long long variable md and returns a boolean	bool can ( long long md )
+	bool can ( long long md )	1
+id = long long with value of 0	long long id = 0 ;
+	long long id = 0 ;	1
+for i = 0 to k exclusive	for ( long long i = 0 ; i < k ; i ++ )
+	for ( int i = 0 ; i < k ; i ++ )	NA
+if the absolute value of ( a [ id ] - b [ i ] ) plus the absolute value of ( b [ i ] - p ) is greater than md then continue	if ( abs ( a [ id ] - b [ i ] ) + abs ( b [ j ] - p ) > md ) continue ;
+	if ( abs ( a [ id ] - b [ i ] ) + abs ( b [ i ] - p ) > md ) continue ;	NA
+add 1 to id	id ++ ;
+	id ++ ;	1
+if id equals n return 1	if ( id == n ) return 1 ;
+	if ( id == n ) return 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , k , and p	cin >> n >> k >> p ;
+	cin >> n >> k >> p ;	1
+for i = 0 to n exclusive read a [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;	1
+for i = 0 to k exclusive read b [ i ]	for ( int i = 0 ; i < k ; i ++ ) cin >> b [ i ] ;
+	for ( int i = 0 ; i < k ; i ++ ) cin >> b [ i ] ;	1
+sort the first n elements of a	sort ( a, a + n ) ;
+	sort ( a , a + n ) ;	NA
+sort the first k elements of b	sort ( b, b + k ) ;
+	sort ( b , b + k ) ;	NA
+md , lo , hi , and ans = long long with lo value of 0 and hi value of 2e9 and ans value of 0	long long md, lo = 0, hi = 2e9, ans = 0 ;
+	long long md , lo = 0 , hi = 2e9 , ans = 0 ;	NA
+while lo is less than or equal to hi	while ( lo <= hi )
+	while ( lo <= hi )	1
+set md to half of lo plus hi	md = lo / hi + hi ;
+	md = ( lo + hi ) / 2 ;	NA
+if call can with argument of md is true	if ( can ( md ) )
+	if ( can ( md ) )	1
+set hi to md minus 1	hi = md - 1 ;
+	hi = md - 1 ;	1
+set ans to md	ans = md ;
+	ans = md ;	1
+else	else
+	else	1
+set lo to md plus 1	lo = md + 1 ;
+	lo = md + 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,19 @@
+n = integer	int n ;
+	int n ;	1
+a = long long array of size 200001 , ans = long long	long long a [ 200001 ], ans ;
+	long long a [ 200001 ] , ans ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to ( left shift n 1 place ) , read a [ i ]	for ( int i = 1 ; i << n ; i ++ ) { cin >> a [ i ] ; }
+	for ( int i = 1 ; i <= ( n << 1 ) ; i ++ ) cin >> a [ i ] ;	NA
+sort a + 1 and a + ( n < < 1 ) + 1	sort ( a + 1, a + ( n << 1 ) + 1 ) ;
+	sort ( a + 1 , a + ( n << 1 ) + 1 ) ;	NA
+ans = ( a [ n ] - a [ 1 ] ) * ( a [ shift n 1 place ] - a [ n + 1 ] )	ans = ( a [ n ] - a [ 1 ] ) * ( ( n << 1 ) - ( n + 1 ) ) ;
+	ans = ( a [ n ] - a [ 1 ] ) * ( a [ n << 1 ] - a [ n + 1 ] ) ;	NA
+for i = 1 to n exclusive , ans = min ( ( a [ left shift n 1 place ] - a [ 1 ] ) * ( a [ n + i ] - a [ i + 1 ] ) , ans )	for ( int i = 1 ; i < n ; i ++ ) { ans = min ( ( a [ n << 1 ] - a [ 1 ] ) * ( b [ n + i ] ), ans ) ; }
+	for ( int i = 1 ; i < n ; i ++ ) ans = min ( ( a [ n << 1 ] - a [ 1 ] ) * ( a [ n + i ] - a [ i + 1 ] ) , ans ) ;	NA
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

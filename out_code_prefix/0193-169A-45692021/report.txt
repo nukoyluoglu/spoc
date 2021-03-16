@@ -1,0 +1,14 @@
+create ints n , a and b	int n, a, b ;
+	int n , a , b ;	NA
+declare integer array x with 2005 elements	int x [ 2005 ] ;
+	int x [ 2005 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , a and b	cin >> n >> a >> b ;
+	cin >> n >> a >> b ;	1
+for i from 0 to n exclusive , read input to x [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> x [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) cin >> x [ i ] ;	1
+sort x	sort ( x, x + n ) ;
+	sort ( x , x + n ) ;	NA
+print x [ b ] - x [ b - 1 ] and ' \ n '	cout << x [ b ] - x [ n - 1 ] <<'\n';
+	cout << x [ b ] - x [ b - 1 ] << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

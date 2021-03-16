@@ -1,0 +1,38 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = integer	int n ;
+	int n ;	1
+Read n	cin >> n ;
+	cin >> n ;	1
+sumx = integer , set to 0	int sumx = 0 ;
+	int sumx = 0 ;	1
+sumy = integer , set to 0	int sumy = 0 ;
+	int sumy = 0 ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+x = integer	int x ;
+	int x ;	1
+Read x	cin >> x ;
+	cin >> x ;	1
+set sumx to sumx + x	sumx += x ;
+	sumx = sumx + x ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+y = integer	int y ;
+	int y ;	1
+Read y	cin >> y ;
+	cin >> y ;	1
+set sumy to sumy + y	sumy = sumy + y ;
+	sumy = sumy + y ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if sumy is less than or equal to sumx	if ( sumy <= sumx )
+	if ( sumy <= sumx )	1
+print YES and a new line	cout << " YES " << endl ;
+	cout << " YES " << endl ;	1
+else do the following	else
+	else	1
+print NO and a new line	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

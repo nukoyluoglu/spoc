@@ -1,0 +1,37 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create n , k and zzz	int n, k, zzz ;
+	int n , k , zzz ;	NA
+read n , k	cin >> n >> k ;
+	cin >> n >> k ;	1
+if n < k or k = 1 and n is different from 1	if ( n < k || k == 1 && n!= 1 )
+	if ( n < k || ( k == 1 && n != 1 ) )	NA
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+else if k = 1 and n = 1	else if ( k == 1 && n == 1 )
+	else if ( k == 1 && n == 1 )	1
+print a and a new line	cout << a << endl ;
+	cout << ' a ' << endl ;	NA
+else	else
+	else	1
+for i = 1 to n - k - 2 inclusive	for ( int i = 1 ; i <= n - k - 2 ; i ++ )
+	for ( int i = 1 ; i <= n - ( k - 2 ) ; i ++ )	NA
+if i is odd	if ( i % 2!= 0 )
+	if ( i & 1 )	NA
+print a	cout <<'a'<< endl ;
+	cout << ' a ' ;	NA
+els	else
+	else	1
+print b and a new line	cout <<'b';
+	cout << ' b ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+set x to n - k - 2	x = n - k - 2 ;
+	int x = n - ( k - 2 ) ;	NA
+assign c to ch	char ch = c ;
+	char ch = ' c ' ;	NA
+for i = 1 to k inclusive , print increment ch	for ( int i = 1 ; i <= k ; i ++ ) cout << ch ;
+	for ( int i = 1 ; i <= k - 2 ; i ++ ) { cout << ch ++ ; }	NA
+print a new line	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

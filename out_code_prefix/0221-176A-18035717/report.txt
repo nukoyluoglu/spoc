@@ -1,0 +1,51 @@
+create constant integers Maxn , Maxm with Maxn = 15 , Maxm = 100 + 5	const int Maxn = 15, Maxm = 100 + 5 ;
+	const int Maxn = 15 , Maxm = 100 + 5 ;	NA
+create integers n , m , k , ans create 2d integer arrays a , b , c , with a size Maxn by Maxm , b size Maxn by Maxm , c size Maxn by Maxm	int n, m, k, ans, a [ Maxn ] [ Maxm ] = { 0 }, b [ MaxN ] [ MAXm ], c [ Maxmn ], ans ;
+	int n , m , k , a [ Maxn ] [ Maxm ] , b [ Maxn ] [ Maxm ] , c [ Maxn ] [ Maxm ] , ans ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n read m read k	cin >> n >> m >> k ;
+	cin >> n >> m >> k ;	1
+create string s	string s ;
+	string s ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read s	cin >> s ;
+	cin >> s ;	1
+for j = 0 to m exclusive , read a [ i ] [ j ] read b [ i ] [ j ] read c [ i ] [ j ]	for ( int j = 0 ; j < m ; j ++ ) { cin >> a [ i ] [ j ] >> b [ ++ j ] [ k ] >> c [ 1 ] [ s ] ; }
+	for ( int j = 0 ; j < m ; j ++ ) cin >> a [ i ] [ j ] >> b [ i ] [ j ] >> c [ i ] [ j ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create pair of integer , integer array d with size Maxm	pair < int, int > d [ Maxm ] ;
+	pair < int , int > d [ Maxm ] ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+for j = 0 to n exclusive	for ( int j = 0 ; j < n ; j ++ )
+	for ( int j = 0 ; j < n ; j ++ )	1
+for l = 0 to m exclusive , set d [ l ] to make pair from ( b [ j ] [ l ] - a [ i ] [ l ] and c [ i ] [ l ] )	for ( int l = 0 ; l < m ; l ++ ) { d [ l ] = make_pair ( b [ j ] [ k ] - a [ i ] [ l - 1 [ i + 1 ], c [ i - 1 ] ) ; }
+	for ( int l = 0 ; l < m ; l ++ ) d [ l ] = make_pair ( b [ j ] [ l ] - a [ i ] [ l ] , c [ i ] [ l ] ) ;	NA
+sort elements from d to d + m	sort ( d, d + m ) ;
+	sort ( d , d + m ) ;	NA
+reverse sort elements from d to d + m	reverse ( d, d + m ) ;
+	reverse ( d , d + m ) ;	NA
+create integers num , p , cnt with num = 0 , p = 0 , cnt = 0	int num ( 0 ), p = 0, cnt = 0 ;
+	int num = 0 , p = 0 , cnt = 0 ;	NA
+while p is less than m and cnt + second element of d [ p ] is less than or equal to k	while ( p < m && cnt + d [ p ]. second <= k )
+	while ( p < m && cnt + d [ p ] . second <= k )	NA
+if first element of d [ p ] is less than 0 , break loop	if ( d [ p ]. first < 0 ) break ;
+	if ( d [ p ] . first < 0 ) break ;	NA
+increment cnt by second element of d [ p ]	cnt += d [ p ]. second ;
+	cnt += d [ p ] . second ;	NA
+increment num by first element of d [ p ] * second eleement of d [ p ]	num += ( d [ p ]. first ) * second * element ( d. second ) ;
+	num += d [ p ] . first * d [ p ] . second ;	NA
+increment p	p ++ ;
+	p ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if first element of d [ p ] is greater than 0 , increment num by first element of d [ p ] * ( k - cnt )	if ( d [ p ]. first > 0 ) num += d [. first * ( k - cnt ) ;
+	if ( d [ p ] . first > 0 ) num += d [ p ] . first * ( k - cnt ) ;	NA
+set ans to maximum of ans and num	ans = max ( ans, num ) ;
+	ans = max ( ans , num ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans print newline	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

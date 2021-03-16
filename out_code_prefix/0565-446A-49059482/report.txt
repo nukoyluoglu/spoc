@@ -1,0 +1,60 @@
+maxn = const integer with maxn = 100005	const int maxn = 100005 ;
+	const int maxn = 100005 ;	1
+INF = const integer with INF = 0x3fffffff	const int INF = 0x3fffffff ;
+	const int INF = 0x3fffffff ;	1
+eps = double with eps = 1e - 8	double eps = 1e-8 ;
+	double eps = 1e-8 ;	1
+pi = double with pi = acos of - 1	double pi = acos ( - 1 ) ;
+	double pi = acos ( - 1 ) ;	1
+f = integer array of size maxn	int f [ maxn ] ;
+	int f [ maxn ] ;	1
+g = integer array of size maxn	int g [ maxn ] ;
+	int g [ maxn ] ;	1
+a = integer array of size maxn	int a [ maxn ] ;
+	int a [ maxn ] ;	1
+n = integer	int n ;
+	int n ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n , read a [ i ]	for ( int i = 1 ; i <= n ; i ++ ) { cin >> a [ i ] ; }
+	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;	NA
+for i = 1 to n	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if a [ i ] > a [ i - 1 ]	if ( a [ i ] > a [ 1 - 1 ] )
+	if ( a [ i ] > a [ i - 1 ] )	NA
+f [ i ] = f [ i - 1 ] + 1	f [ i ] = f [ i - 1 ] + 1 ;
+	f [ i ] = f [ i - 1 ] + 1 ;	1
+else	else
+	else	1
+f [ i ] = 1	f [ i ] = 1 ;
+	f [ i ] = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = n down to 1	for ( int i = n ; i >= 1 ; i -- )
+	for ( int i = n ; i >= 1 ; i -- )	1
+if a [ i ] < a [ i + 1 ]	if ( a [ i ] < a [ j + 1 ] )
+	if ( a [ i ] < a [ i + 1 ] )	NA
+g [ i ] = g [ i + 1 ] + 1	g [ i ] = g [ i + 1 ] + 1 ;
+	g [ i ] = g [ i + 1 ] + 1 ;	1
+else	else
+	else	1
+g [ i ] = 1	g [ i ] = 1 ;
+	g [ i ] = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+ans = integer with ans = 0	int ans = 0 ;
+	int ans = 0 ;	1
+for i = 1 to n	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if a [ i + 1 ] - a [ i - 1 ] > 1	if ( a [ i + 1 ] - b [ i - 1 ] > 1 )
+	if ( a [ i + 1 ] - a [ i - 1 ] > 1 )	NA
+ans = max of ans and f [ i - 1 ] + g [ i + 1 ] + 1	ans = max ( ans, f [ i - 1 ] + g [ i + 1 ] ) + 1 ;
+	ans = max ( ans , f [ i - 1 ] + g [ i + 1 ] + 1 ) ;	NA
+else	else
+	else	1
+ans = max of ans and max ( f [ i - 1 ] + 1 , g [ i + 1 ] + 1 )	ans = max ( ans, max ( f [ i - 1 ] + 1, g [ i + 1 ] ) + 1 ) ;
+	ans = max ( ans , max ( f [ i - 1 ] + 1 , g [ i + 1 ] + 1 ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

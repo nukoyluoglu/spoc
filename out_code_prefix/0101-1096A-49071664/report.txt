@@ -1,0 +1,18 @@
+x , y = long long	long long x, y ;
+	long long x , y ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+T = int	int T ;
+	int T ;	1
+read T	cin >> T ;
+	cin >> T ;	1
+loop T times	while ( T -- )
+	while ( T -- )	1
+read x then y	cin >> x >> y ;
+	cin >> x >> y ;	1
+r = long long with r = y mod x	long long r = y % x ;
+	long long r = y % x ;	1
+print x then " " then y - r	cout << x << " " << y - r << endl ;
+	cout << x << " " << y - r << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

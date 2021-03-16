@@ -1,0 +1,83 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare ints i , j , l , test , ans and len with test = 0	int i, j, l, test = 0, ans, len ;
+	int i , j , l , test = 0 , ans , len ;	NA
+declare character ch and array of characters str with 1003 elements	char ch, str [ 1003 ] ;
+	char str [ 1003 ] , ch ;	NA
+declare doubles maps and k where maps = 0	double maps = 0, k ;
+	double maps = 0 , k ;	NA
+read l	cin >> l ;
+	cin >> l ;	1
+for i from 0 to l exclusive	for ( i = 0 ; i < l ; i ++ )
+	for ( i = 0 ; i < l ; i ++ )	1
+read input to str	cin >> str ;
+	cin >> str ;	1
+if str is " ABSINTH "	if ( str == " ABSINTH " )
+	if ( strcmp ( str , " ABSINTH " ) == 0 )	NA
+increment test	test ++ ;
+	test ++ ;	1
+if str is " BEER "	if ( strcmp ( str, " BEER " ) == 0 )
+	else if ( strcmp ( str , " BEER " ) == 0 )	NA
+increment test by one	test ++ ;
+	test ++ ;	1
+if str is " BRANDY "	if ( strcmp ( str, " BRANDY " ) == 0 )
+	else if ( strcmp ( str , " BRANDY " ) == 0 )	NA
+increment test by one	test ++ ;
+	test ++ ;	1
+if str is " CHAMPAGNE "	else if ( strcmp ( str, " CHAMPAGNE " ) == 0 )
+	else if ( strcmp ( str , " CHAMPAGNE " ) == 0 )	NA
+increment test by one	test ++ ;
+	test ++ ;	1
+if str is " GIN "	if ( strcmp ( str, " GIN " ) == 0 )
+	else if ( strcmp ( str , " GIN " ) == 0 )	NA
+increment test by one	test ++ ;
+	test ++ ;	1
+if str is " RUM "	if ( strcmp ( str, " RUM " ) == 0 )
+	else if ( strcmp ( str , " RUM " ) == 0 )	NA
+increment test	test ++ ;
+	test ++ ;	1
+if str is " SAKE "	else if ( strcmp ( str, " SAKE " ) == 0 )
+	else if ( strcmp ( str , " SAKE " ) == 0 )	NA
+increment test by one	test ++ ;
+	test ++ ;	1
+if str is " TEQUILA "	else if ( strcmp ( str, " TEQUILA " ) == 0 )
+	else if ( strcmp ( str , " TEQUILA " ) == 0 )	NA
+increment test by one	test ++ ;
+	test ++ ;	1
+if str is " VODKA "	else if ( strcmp ( str, " VODKA " ) == 0 )
+	else if ( strcmp ( str , " VODKA " ) == 0 )	NA
+increment test by one	test ++ ;
+	test ++ ;	1
+if str is " WHISKEY "	else if ( strcmp ( str, " WHISKEY " ) == 0 )
+	else if ( strcmp ( str , " WHISKEY " ) == 0 )	NA
+increment test	test ++ ;
+	test ++ ;	1
+if str is " WINE "	if ( strcmp ( str, " WINE " ) == 0 )
+	else if ( strcmp ( str , " WINE " ) == 0 )	NA
+increment test by one	test ++ ;
+	test ++ ;	1
+else if str [ 0 ] > = 48 and str [ 0 ] < = 57	else if ( strcmp ( str, " 48 " ) >= 48 && str [ 0 ] <= 57 )
+	else if ( str [ 0 ] >= 48 && str [ 0 ] <= 57 )	NA
+assign length of str to len	len = strlen ( str ) ;
+	len = strlen ( str ) ;	1
+set k to 0	k = 0 ;
+	k = 0 ;	1
+set maps to 0	map = 0 ;
+	maps = 0 ;	NA
+for j = len - 1 to 0 inclusive counting down	for ( j = len - 1 ; j >= 0 ; j -- )
+	for ( j = len - 1 ; j >= 0 ; j -- )	1
+change str [ j ] to str [ j ] - ' 0 '	str [ j ] -='0';
+	str [ j ] = str [ j ] - ' 0 ' ;	NA
+assign maps + ( str [ j ] * pow ( 10 . 0 , k ) ) to maps	map = maps + ( str [ j ] * pow ( 10.0, k ) ) ;
+	maps = maps + ( str [ j ] * pow ( 10.0 , k ) ) ;	NA
+increment k	k ++ ;
+	k ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+change ans to maps	ans = maps ;
+	ans = ( int ) maps ;	NA
+if ans is less than 18 , increment test	if ( ans < 18 ) test ++ ;
+	if ( ans < 18 ) { test ++ ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print test	cout << test << endl ;
+	cout << test << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

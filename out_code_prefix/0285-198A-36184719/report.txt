@@ -1,0 +1,52 @@
+set constant integer M = 100 + 10	const int M = 100 + 10 ;
+	const int M = 100 + 10 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long integer k , b , n , t	long long int k, b, n, t ;
+	long long int k , b , n , t ;	NA
+read k , b , n , t	cin >> k >> b >> n >> t ;
+	cin >> k >> b >> n >> t ;	1
+if k = 1	if ( k == 1 )
+	if ( k == 1 )	1
+set z = 1 + n * b	long long int z = 1 + n * b ;
+	long long int z = 1 + n * b ;	1
+if z is equal to or less than t	if ( z <= t )
+	if ( z <= t )	1
+print 0	cout << 0 << endl ;
+	cout << " 0 " << endl ;	NA
+otherwise	else
+	else	1
+set res = z - t	long long int res = z - t ;
+	long long int res = z - t ;	1
+ans = res / b + ( res modulo b different from 0 )	long long int ans = res / b + ( res % b!= 0 ) ;
+	long long int ans = res / b + ( res % b != 0 ) ;	NA
+print and and a new line	cout << " \n " ;
+	cout << ans << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+otherwise	else
+	else	1
+set long long integer num1 = t * ( k - 1 ) + b	long long int num1 = t * ( k - 1 ) + b ;
+	long long int num1 = t * ( k - 1 ) + b ;	1
+num2 = k - 1 + b	long long int num2 = k - 1 + b ;
+	long long int num2 = k - 1 + b ;	1
+set num3 = num1 / num2	long long int num3 = num1 / num2 ;
+	long long int num3 = num1 / num2 ;	1
+set num1 equal to 1	num1 = 1 ;
+	long long int num = 1 ;	NA
+set integer tm = 0	int tm = 0 ;
+	int tm = 0 ;	1
+while num * k is equal to or less than num3	while ( num * k <= num3 )
+	while ( num * k <= num3 )	1
+set num = num * k	num *= k ;
+	num = num * k ;	NA
+increment tm	tm ++ ;
+	tm ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set m = n - tm	m = n - tm ;
+	int m = n - tm ;	NA
+m = max between m and 0	m = max ( m, 0 ) ;
+	m = max ( m , 0 ) ;	NA
+print m	cout << m << endl ;
+	cout << m << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

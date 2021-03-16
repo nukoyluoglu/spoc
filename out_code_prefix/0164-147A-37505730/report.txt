@@ -1,0 +1,32 @@
+declare isp with character c as argument , returning boolean	bool isp ( char c )
+	bool isp ( char c )	1
+if c is ' . ' or c is ' , ' or c is ' ! ' or c is ' ? ' , return true from function	if ( c == '.'|| c == ",') return true ;
+	if ( c == ' . ' or c == ' , ' or c == ' ! ' or c == ' ? ' ) return true ;	NA
+return false from function	return false ;
+	return false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string s	string s ;
+	string s ;	1
+read line from cin to s	getline ( cin, s ) ;
+	getline ( cin , s ) ;	NA
+create integer len with len = size of s	int len = s. size ( ) ;
+	int len = s . size ( ) ;	NA
+create string s2	string s2 ;
+	string s2 ;	1
+create integer lenn with lenn = len - 1	int lenn = len - 1 ;
+	int lenn = len - 1 ;	1
+for i = 0 to lenn exclusive	for ( int i = 0 ; i < lenn ; i ++ )
+	for ( int i = 0 ; i < lenn ; i ++ )	1
+if s [ i ] is ' ' and ( s [ i + 1 ] is ' ' or result of run isp with s [ i + 1 ] as argument is true ) , break current loop iteration	if ( s [ i ] ==' '&& isp ( i + 1 ] ) == true || isp. substr ( lenn, lenn ) ) { continue ; }
+	if ( s [ i ] == ' ' and ( s [ i + 1 ] == ' ' or isp ( s [ i + 1 ] ) ) ) continue ;	NA
+increment s2 by s [ i ]	s2 += s [ i ] ;
+	s2 += s [ i ] ;	1
+if result of run isp with s [ i ] as argument is true and s [ i + 1 ] is not ' ' , increment s2 by ' '	if ( isp ( s [ i ] ) == true and s [ ( i + 1 ] )!=' ') s2 += " " ;
+	if ( isp ( s [ i ] ) and s [ i + 1 ] != ' ' ) s2 += ' ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+increment s2 by s [ len - 1 ]	s2 += s [ len - 1 ] ;
+	s2 += s [ len - 1 ] ;	1
+print s2 print newline	cout << s2 << endl ;
+	cout << s2 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

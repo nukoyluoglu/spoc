@@ -1,0 +1,26 @@
+create int array v [ 105 ]	int v [ 105 ] ;
+	int v [ 105 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long n and sum , set sum to 0	long long n, sum = 0 ;
+	long long n , sum = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+let x and y be int	int x, y ;
+	int x , y ;	NA
+read x , y	cin >> x >> y ;
+	cin >> x >> y ;	1
+for i = 2 to n inclusive	for ( int i = 2 ; i <= n ; i ++ )
+	for ( int i = 2 ; i <= n ; ++ i )	NA
+create int a and b	int a, b ;
+	int a , b ;	NA
+read a and b	cin >> a >> b ;
+	cin >> a >> b ;	1
+for j = a + 1 to b inclusive , set v [ j ] to 1	for ( int j = a + 1 ; j <= b ; ++ j ) v [ j ] = 1 ;
+	for ( int j = a + 1 ; j <= b ; ++ j ) v [ j ] = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = x + 1 to y inclusive , assign sum + 1 - v [ i ] to sum	for ( int i = x + 1 ; i <= y ; ++ i ) sum = sum + 1 - v [ i ] ;
+	for ( int i = x + 1 ; i <= y ; ++ i ) sum += 1 - v [ i ] ;	NA
+print sum and a newline	cout << sum << " \n " ;
+	cout << sum << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

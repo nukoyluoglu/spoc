@@ -1,0 +1,31 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integers n and k	int n, k ;
+	int n , k ;	NA
+while reading n and k	while ( cin >> n >> k )
+	while ( cin >> n >> k )	1
+create long long temp = 0	long long temp = 0 ;
+	long long temp = 0 ;	1
+declare long long variable a	long long a ;
+	long long a ;	1
+declare integer j = 1	int j = 1 ;
+	int j = 1 ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+read a	cin >> a ;
+	cin >> a ;	1
+if temp - ( i - 1 ) * ( n - i ) * a is less than k	if ( temp - ( i - 1 ) * ( n - i ) * a < k )
+	if ( temp - ( i - 1 ) * ( n - i ) * a < k )	1
+print j	cout << j << endl ;
+	cout << j << endl ;	1
+decrease i and n	i --, n -- ;
+	i -- , n -- ;	NA
+else	else
+	else	1
+increase temp by ( i - 1 ) * a	temp += ( i - 1 ) * a ;
+	temp += ( i - 1 ) * a ;	1
+increase j	j ++ ;
+	j ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

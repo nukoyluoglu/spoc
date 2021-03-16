@@ -1,0 +1,30 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+integers = i , n , x1 , x2 , y1 , y2 , mx = 99999 , my = 99999 , Mx = - 1 , My = - 1 , R = 0	int i, n, x1, x2, y1, y2, mx = 99999, my = - 1, My = - 2, R = 0 ;
+	int i , n , x1 , x2 , y1 , y2 , mx = 99999 , my = 99999 , Mx = - 1 , My = - 1 , R = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for = 0 to less than n do the following	for ( i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	1
+read x1 , y1 , x2 , y2	cin >> x1 >> y1 >> x2 >> y2 ;
+	cin >> x1 >> y1 >> x2 >> y2 ;	1
+R equals R plus ( x2 - x1 ) * ( y2 - y1 )	R += ( x2 - x1 ) * ( y2 - y1 ) ;
+	R += ( x2 - x1 ) * ( y2 - y1 ) ;	1
+if Mx is less than x2 then do the following Mx = x2	if ( Mx < x2 ) Mx = x2 ;
+	if ( Mx < x2 ) Mx = x2 ;	1
+if My is less than y2 then do the following My = y2	if ( My < y2 ) My = y2 ;
+	if ( My < y2 ) My = y2 ;	1
+if mx is greater than x1 then do the following mx = x1	if ( mx > x1 ) mx = x1 ;
+	if ( mx > x1 ) mx = x1 ;	1
+if my is greater than y1 then do the following my = y1	if ( my > y1 ) my = y1 ;
+	if ( my > y1 ) my = y1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if is R and Mx - mx equals My - my then do the following	if ( R == R && Mx - mx == ( My - my ) )
+	if ( ( Mx - mx ) * ( My - my ) == R && Mx - mx == My - my )	NA
+output YES	cout << " YES\n " ;
+	cout << " YES " << endl ;	NA
+else	else
+	else	1
+output NO	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

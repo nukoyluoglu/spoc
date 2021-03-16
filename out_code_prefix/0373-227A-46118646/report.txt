@@ -1,0 +1,85 @@
+declare fp with long longs n , p as arguments , returning long long	long long fp ( long long n, long long p )
+	long long fp ( long long n , long long p )	NA
+if p is 0 , return 1 from function	if ( p == 0 ) return 1 ;
+	if ( p == 0 ) return 1 ;	1
+if p is 1 , return n from function	if ( p == 1 ) return n ;
+	if ( p == 1 ) return n ;	1
+create long long res with res = result of run fp with n , p / 2 as arguments	long long res = fp ( n, p / 2 ) ;
+	long long res = fp ( n , p / 2 ) ;	NA
+set res to res * res	res *= res ;
+	res = ( ( res ) * ( res ) ) ;	NA
+if p % 2 , set res to res * n	if ( p % 2 ) res *= n ;
+	if ( p % 2 ) res = ( res * n ) ;	NA
+return res from function	return res ;
+	return res ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create pair of integer , integer array arr with size 5	pair < int, int > arr [ 5 ] ;
+	pair < int , int > arr [ 5 ] ;	NA
+create integers a , b , c	int a, b, c ;
+	int a , b , c ;	NA
+create soubles s , ss , with s = - 1 , ss = - 1	int s = - 1, ss = " -1 " ;
+	double s = - 1 , ss = - 1 ;	NA
+create boolean f with f = 0	bool f = 0 ;
+	bool f = 0 ;	1
+for i = 0 to 3 exclusive	for ( int i = 0 ; i < 3 ; i ++ )
+	for ( int i = 0 ; i < 3 ; i ++ )	1
+read first element of arr [ i ] read second element of arr [ i ]	cin >> arr [ i ]. front ( ) ;
+	cin >> arr [ i ] . first >> arr [ i ] . second ;	NA
+if i is 1	if ( i == 1 )
+	if ( i == 1 )	1
+if ( ( first element of arr [ i ] - first element of arr [ i - 1 ] ) is not 0 ) set s to ( second element of arr [ i ] - second element of arr [ i - 1 ] ) / ( first element of arr [ i ] - first element of arr [ i - 1 ] )	if ( ( ( arr [ i ]. first - arr [ 1 ]. second )!= 0 ) { s = ( s. second - str [ i - 1 ] ) / ( s -> first ) - strcmp [ arr [ 0 ]. front ( ) ) ; }
+	if ( ( arr [ i ] . first - arr [ i - 1 ] . first ) != 0 ) s = ( arr [ i ] . second - arr [ i - 1 ] . second ) / ( arr [ i ] . first - arr [ i - 1 ] . first ) ;	NA
+else if i is 2	else if ( i == 2 )
+	else if ( i == 2 )	1
+if ( ( first element of arr [ i ] - first element of arr [ i - 1 ] ) is not 0 ) set ss to ( second element of arr [ i ] - second element of arr [ i - 1 ] ) / ( first element of arr [ i ] - first element of arr [ i - 1 ] )	if ( ( arr [ i ]. first - arr [ 1 ]. second )!= 0 ) { ss = ss = s. second + arr [ 0 ]. back ( ) / s [ i - 1 ]. first / s. first ; }
+	if ( ( arr [ i ] . first - arr [ i - 1 ] . first ) != 0 ) ss = ( arr [ i ] . second - arr [ i - 1 ] . second ) / ( arr [ i ] . first - arr [ i - 1 ] . first ) ;	NA
+if s is ss , set f to 1	if ( s == ss ) f = 1 ;
+	if ( s == ss ) f = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if f is true , return print " TOWARDS " print ' \ n ' , 0 from function	if ( f ) return cout << " TOWARDS " <<'\n ', 0 ;
+	if ( f ) return cout << " TOWARDS " << ' \n ' , 0 ;	NA
+if second element of arr [ 0 ] is greater than second element of arr [ 1 ]	if ( arr [ 0 ]. second > arr [ 1 ]. first )
+	if ( arr [ 0 ] . second > arr [ 1 ] . second )	NA
+if first element of arr [ 2 ] is greater than first element of arr [ 1 ]	if ( arr [ 2 ]. first > arr [ 1 ]. second )
+	if ( arr [ 2 ] . first > arr [ 1 ] . first )	NA
+return print " LEFT " print ' \ n ' , 0 from function	return cout << " LEFT " <<'\n ', 0 ;
+	return cout << " LEFT " << ' \n ' , 0 ;	NA
+else	else
+	else	1
+return print " RIGHT " print ' \ n ' , 0 from function	return cout << " RIGHT " <<'\n ', 0 ;
+	return cout << " RIGHT " << ' \n ' , 0 ;	NA
+else if second element of arr [ 0 ] is less than second element of arr [ 1 ]	else if ( arr [ 0 ]. first < arr [ 1 ]. second )
+	else if ( arr [ 0 ] . second < arr [ 1 ] . second )	NA
+if first element of arr [ 2 ] is less than first element of arr [ 1 ]	if ( arr [ 2 ]. first < arr [ 1 ]. second )
+	if ( arr [ 2 ] . first < arr [ 1 ] . first )	NA
+return print " LEFT " print ' \ n ' , 0 from function	return cout << " LEFT " <<'\n ', 0 ;
+	return cout << " LEFT " << ' \n ' , 0 ;	NA
+else	else
+	else	1
+return print " RIGHT " print ' \ n ' , 0 from function	return cout << " RIGHT " <<'\n ', 0 ;
+	return cout << " RIGHT " << ' \n ' , 0 ;	NA
+else if second element of arr [ 0 ] is second element of arr [ 1 ] and first element of arr [ 0 ] is less than first element of arr [ 1 ]	else if ( arr [ 0 ]. second == arr [ 1 ]. first && arr [. first < arr [ 2 ]. front )
+	else if ( arr [ 0 ] . second == arr [ 1 ] . second && arr [ 0 ] . first < arr [ 1 ] . first )	NA
+if second element of arr [ 2 ] is greater than second element of arr [ 1 ]	if ( arr [ 2 ]. second > arr [ 1 ]. first )
+	if ( arr [ 2 ] . second > arr [ 1 ] . second )	NA
+return print " LEFT " print ' \ n ' , 0 from function	return cout << " LEFT " <<'\n ', 0 ;
+	return cout << " LEFT " << ' \n ' , 0 ;	NA
+else	else
+	else	1
+return print " RIGHT " print ' \ n ' , 0 from function	return cout << " RIGHT " <<'\n ', 0 ;
+	return cout << " RIGHT " << ' \n ' , 0 ;	NA
+else if second element of arr [ 0 ] is second element of arr [ 1 ] and first element of arr [ 0 ] is greater than first element of arr [ 1 ]	else if ( arr [ 0 ]. second == arr [ 1 ]. first && arr [. first > arr [ 2 ]. front )
+	else if ( arr [ 0 ] . second == arr [ 1 ] . second && arr [ 0 ] . first > arr [ 1 ] . first )	NA
+if second element of arr [ 2 ] is less than second element of arr [ 1 ]	if ( arr [ 2 ]. second < arr [ 1 ]. first )
+	if ( arr [ 2 ] . second < arr [ 1 ] . second )	NA
+return print " LEFT " print ' \ n ' , 0 from function	return cout << " LEFT " <<'\n ', 0 ;
+	return cout << " LEFT " << ' \n ' , 0 ;	NA
+else	else
+	else	1
+return print " RIGHT " print ' \ n ' , 0 from function	return cout << " RIGHT " <<'\n ', 0 ;
+	return cout << " RIGHT " << ' \n ' , 0 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

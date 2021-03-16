@@ -1,0 +1,36 @@
+v = string vector	vector < string > v ;
+	vector < string > v ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+x = string	string x ;
+	string x ;	1
+read x	cin >> x ;
+	cin >> x ;	1
+n , i = long long	long long n, i ;
+	long long n , i ;	NA
+y = string	string y ;
+	string y ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+while n is not 0 subtract 1 from n and do	while ( n -- )
+	while ( n -- )	1
+read y	cin >> y ;
+	cin >> y ;	1
+append y to the end of v	v. push_back ( y ) ;
+	v . push_back ( y ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort v	sort ( v. begin ( ), v. end ( ) ) ;
+	sort ( v . begin ( ) , v . end ( ) ) ;	NA
+for i = 0 to size of v exclusive	for ( int i = 0 ; i < v. size ( ) ; i ++ )
+	for ( i = 0 ; i < v . size ( ) ; i ++ )	NA
+f = long long with value of the position of x within v [ i ]	long long f = v [ i ]. find ( x ) ;
+	long long f = v [ i ] . find ( x ) ;	NA
+if f equals 0	if ( f == 0 )
+	if ( f == 0 )	1
+print v [ i ]	cout << v [ i ] << endl ;
+	cout << v [ i ] << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print x	cout << x << " \n " ;
+	cout << x << " \n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

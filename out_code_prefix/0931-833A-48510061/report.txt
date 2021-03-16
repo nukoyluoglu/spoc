@@ -1,0 +1,29 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long t	long long t ;
+	long long t ;	1
+read t	cin >> t ;
+	cin >> t ;	1
+decrement t and loop further , while t > 0	while ( t -- )
+	while ( t -- )	1
+declare long longs a and b	long long a, b ;
+	long long a , b ;	NA
+read a and b	cin >> a >> b ;
+	cin >> a >> b ;	1
+long long c = pow ( a * b , 1 . 0 / 3 . 0 )	long long c = pow ( a * b, 1.0 / 3.0 ) ;
+	long long c = pow ( a * b , 1.0 / 3.0 ) ;	NA
+increment c while c * c * c < a * b	while ( c * c * ( c < a * b ) ) { c ++ ; }
+	while ( c * c * c < a * b ) c ++ ;	NA
+decrement c while c * c * c > a * b	while ( c * c * ( c > a * b ) c -- ;
+	while ( c * c * c > a * b ) c -- ;	NA
+if c * c * c = a * b & & a % c = 0 & & b % c = 0	if ( c [ c * c ] == a * b && a % c == 0 && b % c = 0 )
+	if ( c * c * c == a * b && a % c == 0 && b % c == 0 )	NA
+print " Yes \ n "	cout << " Yes\n " ;
+	cout << " Yes\n " ;	1
+else	else
+	else	1
+print " No \ n "	cout << " No\n " ;
+	cout << " No\n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

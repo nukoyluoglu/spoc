@@ -1,0 +1,30 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , x = integers	int n, x ;
+	int n , x ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+set cnt1 , cnt2 = 0	int cnt1 = 0, cnt2 = 0 ;
+	int cnt1 = 0 , cnt2 = 0 ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read x	cin >> x ;
+	cin >> x ;	1
+set cnt1 = cnt1 + x	cnt1 += x ;
+	cnt1 += x ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read x	cin >> x ;
+	cin >> x ;	1
+set cnt2 = cnt2 + x	cnt2 += x ;
+	cnt2 += x ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if cnt1 > = cnt2	if ( cnt1 >= cnt2 )
+	if ( cnt1 >= cnt2 )	1
+print " YES "	cout << " YES\n " ;
+	cout << " YES " << endl ;	NA
+else	else
+	else	1
+print " NO "	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,23 @@
+let in be long long array with size 200010	long long in [ 200010 ] ;
+	long long in [ 200010 ] ;	1
+create ints n and n2	int n, n2 ;
+	int n , n2 ;	NA
+declare long long ans	long long ans ;
+	long long ans ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+change n2 to n * 2	n2 = n * 2 ;
+	n2 = n * 2 ;	1
+for integer i = 0 to n2 exclusive , read in [ i ]	for ( int i = 0 ; i < n2 ; i ++ ) cin >> in [ i ] ;
+	for ( int i = 0 ; i < n2 ; i ++ ) cin >> in [ i ] ;	1
+sort n2 elements of in	sort ( in, in + n2 ) ;
+	sort ( in , in + n2 ) ;	NA
+assign ( in [ n - 1 ] - in [ 0 ] ) * ( in [ n2 - 1 ] - in [ n ] ) to ans	ans = ( long long ) ( in [ n - 1 ] - in [ 0 ] ) * ( ( long double ) in [ ( n2 - i ] ) ) - ( long int )in [ n ] ) ;
+	ans = ( in [ n - 1 ] - in [ 0 ] ) * ( in [ n2 - 1 ] - in [ n ] ) ;	NA
+for i from 1 to n exclusive , set ans to min of ans and in [ n - 1 + i ] - in [ i ] ) * ( in [ n2 - 1 ] - in [ 0 ]	for ( int i = 1 ; i < n ; i ++ ) { ans = min ( ans, ( in [ n - 1 + i ] - in [ i ] ) * (in [ n2 - 1 ] -in [ 0 ] ) ; }
+	for ( int i = 1 ; i < n ; i ++ ) ans = min ( ans , ( in [ n - 1 + i ] - in [ i ] ) * ( in [ n2 - 1 ] - in [ 0 ] ) ) ;	NA
+print ans and ' \ n '	cout << ans <<'\n';
+	cout << ans << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

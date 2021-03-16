@@ -1,0 +1,57 @@
+declare integers n , m , a , b and 2d array of integers v of size 2100 by 2100	int n, m, a, b, v [ 201 ] [ 2100 ] ;
+	int n , m , a , b , v [ 2100 ] [ 2100 ] ;	NA
+declare integers k , x , y and 2d array of integers d of size 2100 by 2100	int k, x, y, d [ 201 ] [ 2100 ] ;
+	int k , d [ 2100 ] [ 2100 ] , x , y ;	NA
+boolean function solve with integer arguments x , y and k	bool solve ( int x, int y, int k )
+	bool solve ( int x , int y , int k )	NA
+create ingteger variables t , l = max of 1 and x - k ; r = min of x + k and n	int t, l = max ( 1, x - k ), r = min ( x + k, n ) ;
+	int l = max ( 1 , x - k ) , r = min ( x + k , n ) , t ;	NA
+for integer i = l to r inclusive	for ( int i = l ; i <= r ; i ++ )
+	for ( int i = l ; i <= r ; i ++ )	1
+set t to k - abs ( i - x )	t = k - abs ( i - x ) ;
+	t = k - abs ( i - x ) ;	1
+if y - t is greater than 0 & & ! v [ i ] [ y - t ]	if ( y - t > 0 &&! v [ i ] [ y - k ] )
+	if ( y - t > 0 && ! v [ i ] [ y - t ] )	NA
+set a to i	a = i ;
+	a = i ;	1
+set value of b to y - t	b = y - t ;
+	b = y - t ;	1
+return 1	return 1 ;
+	return 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if y + t < = m & & ! v [ i ] [ y + t ]	if ( y + t <= m &&! v [ i ] [ y - t ] )
+	if ( y + t <= m && ! v [ i ] [ y + t ] )	NA
+a = i	a = i ;
+	a = i ;	1
+b = y + t	b = y + t ;
+	b = y + t ;	1
+return 1	return 1 ;
+	return 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , m and k	cin >> n >> m >> k ;
+	cin >> n >> m >> k ;	1
+for i = 0 to k exclusive	for ( int i = 0 ; i < k ; i ++ )
+	for ( int i = 0 ; i < k ; i ++ )	1
+read x and y	cin >> x >> y ;
+	cin >> x >> y ;	1
+for integer j = - 2 to 2 inclusive	for ( int j = 0 ; j <= 2 ; j ++ )
+	for ( int j = - 2 ; j <= 2 ; j ++ )	NA
+for integer k = - 2 to 2 inclusive	for ( int k = - 2 ; k <= 2 ; )
+	for ( int k = - 2 ; k <= 2 ; k ++ )	NA
+if x + j < 1 | | x + j > n | | y + k < 1 | | y + k is greater than m , continue the loop	if ( ( x + j < 1 ) || ( y + j > n || y + k < 1.0 ) ) { continue ; }
+	if ( x + j < 1 || x + j > n || y + k < 1 || y + k > m ) continue ;	NA
+d [ x ] [ y ] = max ( d [ x ] [ y ] , d [ x + j ] [ y + k ] - abs ( j ) - abs ( k ) )	d [ x ] [ y ] = max ( d [ x - y ], d [ ( x + j ] [ ( y + k ] - abs ( j ) - ( k ) ) ;
+	d [ x ] [ y ] = max ( d [ x ] [ y ] , d [ x + j ] [ y + k ] - abs ( j ) - abs ( k ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+while solve ( x , y , d [ x ] [ y ] ) is false , increment d [ x ] [ y ]	while (! solve ( x, y, d [ x ] [ y ] ) ) { d [ ++ y ] ++ ; }
+	while ( ! solve ( x , y , d [ x ] [ y ] ) ) d [ x ] [ y ] ++ ;	NA
+v [ a ] [ b ] = 1	v [ a ] [ b ] = 1 ;
+	v [ a ] [ b ] = 1 ;	1
+print a , " " , b and a new line	cout << a << " " << b << endl ;
+	cout << a << " " << b << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

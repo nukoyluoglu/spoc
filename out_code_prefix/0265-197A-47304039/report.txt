@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int min , height , width , radius	int min, height, width, radius ;
+	int min , height , width , radius ;	NA
+while read height , width , radius	while ( cin >> height >> width >> radius )
+	while ( cin >> height >> width >> radius )	1
+if heigth less than width	if ( heigth < width )
+	if ( height < width )	NA
+set min to height	min = height ;
+	min = height ;	1
+else	else
+	else	1
+min = width	min = width ;
+	min = width ;	1
+assign radius * 2 to radius	radius = radius * 2 ;
+	radius = radius * 2 ;	1
+if min > = radius	if ( min >= radius )
+	if ( min >= radius )	1
+print First	cout << " First\n " ;
+	cout << " First " << endl ;	NA
+else	else
+	else	1
+print Second	cout << " Second " << endl ;
+	cout << " Second " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

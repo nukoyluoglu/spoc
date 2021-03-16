@@ -1,0 +1,36 @@
+declare const int N = 4005	const int N = 4005 ;
+	const int N = 4005 ;	1
+declare const int inf = 1e9	const int inf = 1e9 ;
+	const int inf = 1e9 ;	1
+create const long long INF = 1e18	const long long INF = 1e18 ;
+	const long long INF = 1e18 ;	1
+declare const double PI = acos ( - 1 . 0 )	const double PI = acos ( - 1.0 ) ;
+	const double PI = acos ( - 1.0 ) ;	1
+declare const double EPS = 1e - 8	const double EPS = 1e-8 ;
+	const double EPS = 1e-8 ;	1
+create const int MOD = 1000000007	const int MOD = 1000000007 ;
+	const int MOD = 1000000007 ;	1
+declare integer variables n , a , b and c	int n, a, b, c ;
+	int n , a , b , c ;	NA
+declare int array dp with size N	int dp [ N ] ;
+	int dp [ N ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , a , b and c	cin >> n >> a >> b >> c ;
+	cin >> n >> a >> b >> c ;	1
+loop i from 0 to n inclusive , assign - inf to dp [ i ]	for ( int i = 0 ; i <= n ; i ++ ) { dp [ i ] = - inf ; }
+	for ( int i = 0 ; i <= n ; i ++ ) dp [ i ] = - inf ;	NA
+assign 0 to dp [ 0 ]	dp [ 0 ] = 0 ;
+	dp [ 0 ] = 0 ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if a < = i , set dp [ i ] to max of dp [ i ] and dp [ i - a ] + 1	if ( a <= i ) { dp [ i ] = max ( dp. i ], dp. i - a ] + 1 ) ; }
+	if ( a <= i ) dp [ i ] = max ( dp [ i ] , dp [ i - a ] + 1 ) ;	NA
+if b < = i , assign max of dp [ i ] and dp [ i - b ] + 1 to dp [ i ]	if ( b <= i ) dp [ i ] = max ( dp. i ], dp. i - b ] + 1 ) ;
+	if ( b <= i ) dp [ i ] = max ( dp [ i ] , dp [ i - b ] + 1 ) ;	NA
+if c < = i , change dp [ i ] to max of dp [ i ] and dp [ i - c ] + 1	if ( c <= i ) dp [ i ] = max ( dp. i ], dp. i - c ] + 1 ) ;
+	if ( c <= i ) dp [ i ] = max ( dp [ i ] , dp [ i - c ] + 1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print dp [ n ] and " \ n "	cout << dp [ n ] << " \n " ;
+	cout << dp [ n ] << " \n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

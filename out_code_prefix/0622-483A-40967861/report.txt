@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare long long variables k and l	long long k, l ;
+	long long k , l ;	NA
+read k and l and keep looping	while ( cin >> k >> l )
+	while ( cin >> k >> l )	1
+if l - k is less than 2	if ( l - k < 2 )
+	if ( l - k < 2 )	1
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+else if k is even	else if ( k % 2 == 0 )
+	else if ( ! ( k % 2 ) )	NA
+print k , " " , k + 1 , " " and k + 2	cout << k << " " << ( k + 1 ) <<' '<< k + 2 << endl ;
+	cout << k << " " << k + 1 << " " << k + 2 << endl ;	NA
+else if k is odd & & l - k > = 3	else if ( k % 2!= 0 && l - k >= 3 )
+	else if ( k % 2 && l - k >= 3 )	NA
+print k + 1 , " " , k + 2 , " " and k + 3	cout << k + 1 << " " << ( k + 2 ) <<' '>> k + 3 << endl ;
+	cout << k + 1 << " " << k + 2 << " " << k + 3 << endl ;	NA
+else	else
+	else	1
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

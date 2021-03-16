@@ -1,0 +1,88 @@
+M = const int with M = 3010	const int M = 3010 ;
+	const int M = 3010 ;	1
+b = int vector and a = int vector array of size M	vector < int > b, a [ M ] ;
+	vector < int > a [ M ] , b ;	NA
+n , m = int	int n, m ;
+	int n , m ;	NA
+in function judge taking an int x and returning a bool	bool judge ( int x )
+	bool judge ( int x )	1
+num1 = int with num1 = size of a [ 1 ]	int num1 = a [ 1 ]. size ( ) ;
+	int num1 = a [ 1 ] . size ( ) ;	NA
+for i = 2 to m inclusive	for ( int i = 2 ; i <= m ; i ++ )
+	for ( int i = 2 ; i <= m ; i ++ )	1
+if size of a [ i ] is greater than x	if ( a [ i ]. size ( ) > x )
+	if ( a [ i ] . size ( ) > x )	NA
+increment num1 by size of a [ i ] - x	num1 += a [ i ]. size ( ) - x ;
+	num1 += a [ i ] . size ( ) - x ;	NA
+else	else
+	else	1
+increment num1 by size of a [ i ]	num1 += a [ i ]. size ( ) ;
+	num1 += a [ i ] . size ( ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return true if num1 is greater than x else return false	return num1 > x ;
+	return num1 > x ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in function get_ans taking an int x and returning a long long	long long get_ans ( int x )
+	long long get_ans ( int x )	1
+ans = long long with ans = 0	long long ans = 0 ;
+	long long ans = 0 ;	1
+num1 = int with num1 = size of a [ 1 ]	int num1 = a [ 1 ]. size ( ) ;
+	int num1 = a [ 1 ] . size ( ) ;	NA
+clear b	b. clear ( ) ;
+	b . clear ( ) ;	NA
+for i = 2 to m inclusive	for ( int i = 2 ; i <= m ; i ++ )
+	for ( int i = 2 ; i <= m ; i ++ )	1
+if size of a [ i ] is greater than x	if ( a [ i ]. size ( ) > x )
+	if ( a [ i ] . size ( ) > x )	NA
+for j = x to size of a [ i ]	for ( int j = x ; j < a [ i ]. size ( ) ; j ++ )
+	for ( int j = x ; j < a [ i ] . size ( ) ; j ++ )	NA
+increment num1	num1 ++ ;
+	num1 ++ ;	1
+increment ans by a [ i ] [ j ]	ans += a [ i ] [ j ] ;
+	ans += a [ i ] [ j ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for j = 0 to x append a [ i ] [ j ] to b	for ( int j = 0 ; j < x ; j ++ ) { b += a [ i ] [ j ] ; }
+	for ( int j = 0 ; j < x ; j ++ ) b . push_back ( a [ i ] [ j ] ) ;	NA
+else	else
+	else	1
+for j = 0 to size of a [ i ] append a [ i ] [ j ] to b	for ( int j = 0 ; j < a [ 1 ]. size ( ) ; j ++ ) b. push_back ( a [ i ] [ j ] ) ;
+	for ( int j = 0 ; j < a [ i ] . size ( ) ; j ++ ) b . push_back ( a [ i ] [ j ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort b	sort ( b. begin ( ), b. end ( ) ) ;
+	sort ( b . begin ( ) , b . end ( ) ) ;	NA
+if num1 is less than x and x - num1 + 1 is greater than size of b then return 10000000000000ll	if ( num1 < x && x - num1 + 1 > b. size ( ) ) return 10000000000000ll ;
+	if ( num1 < x && x - num1 + 1 > b . size ( ) ) return 10000000000000ll ;	NA
+hh = int with hh = x - num1 + 1	int hh = x - num1 + 1 ;
+	int hh = x - num1 + 1 ;	1
+for i = 0 to hh increment ans by b [ i ]	for ( int i = 0 ; i < hh ; i ++ ) ans += b [ i ] ;
+	for ( int i = 0 ; i < hh ; i ++ ) ans += b [ i ] ;	1
+return ans	return ans ;
+	return ans ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in function cmp taking two ints x and y and returning a bool	bool cmp ( int x, int y )
+	bool cmp ( int x , int y )	NA
+return true if x is greater than y else return false	return x > y ;
+	return x > y ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n then m	cin >> n >> m ;
+	cin >> n >> m ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+x , y = int	int x, y ;
+	int x , y ;	NA
+read x then y	cin >> x >> y ;
+	cin >> x >> y ;	1
+append y to a [ x ]	a [ x ]. push_back ( y ) ;
+	a [ x ] . push_back ( y ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 1 to m inclusive sort a [ i ] using cmp	for ( int i = 1 ; i <= m ; i ++ ) { a [ i ]. sort ( cmp ) ; }
+	for ( int i = 1 ; i <= m ; i ++ ) sort ( a [ i ] . begin ( ) , a [ i ] . end ( ) , cmp ) ;	NA
+ans = long long with ans = 10000000000000ll	long long ans = 10000000000000ll ;
+	long long ans = 10000000000000ll ;	1
+for i = 0 to n / 2 inclusive set ans to min of ans and get_ans of i	for ( int i = 0 ; i <= n / 2 ; i ++ ) { ans = min ( ans, get_ans ( i ) ) ; }
+	for ( int i = 0 ; i <= n / 2 ; i ++ ) ans = min ( ans , get_ans ( i ) ) ;	NA
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

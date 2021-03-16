@@ -1,0 +1,17 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare new integers n , agua and toalha with toalha = 0	int n, agua, toalha = 0 ;
+	int n , agua , toalha = 0 ;	NA
+read user input to n , agua and toalha	cin >> n >> agua >> toalha ;
+	cin >> n >> agua >> toalha ;	1
+declare integers nrod , tagua and ttoalha with ttoalha = 0	int nrod, tagua, ttoalha = 0 ;
+	int nrod , tagua , ttoalha = 0 ;	NA
+assign n - 1 to nrod	nrod = n - 1 ;
+	nrod = n - 1 ;	1
+change tagua to nrod + nrod * agua * 2	tagua = nrod + nrod * agua * 2 ;
+	tagua = nrod + nrod * agua * 2 ;	1
+assign toalha * n to ttoalha	ttoalha = toalha * n ;
+	ttoalha = toalha * n ;	1
+print tagua , " " and ttoalha	cout << tagua << " " << ttoalha << endl ;
+	cout << tagua << " " << ttoalha << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

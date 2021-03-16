@@ -1,0 +1,27 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare long long n	long long n ;
+	long long n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+if n = 0	if ( n == 0 )
+	if ( n == 0 )	1
+print 0 and " \ n "	cout << 0 << " \n " ;
+	cout << 0 << " \n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if n = 1	if ( n == 1 )
+	if ( n == 1 )	1
+print 1 and " \ n "	cout << 1 << " \n " ;
+	cout << 1 << " \n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if odd is greater than even	if ( odd > 0 )
+	if ( n % 2 == 1 )	NA
+print ( n + 1 ) / 2 and " \ n "	cout << ( n + 1 ) / 2 << " \n " ;
+	cout << ( n + 1 ) / 2 << " \n " ;	1
+else	else
+	else	1
+print n + 1 and " \ n "	cout << n + 1 << " \n " ;
+	cout << n + 1 << " \n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

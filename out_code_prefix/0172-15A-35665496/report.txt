@@ -1,0 +1,39 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let x , d and c be doubles	double x, d, c ;
+	double x , d , c ;	NA
+assign value 0 , n , t to the integer cnt	int cnt = 0, n, t ;
+	int cnt = 0 , n , t ;	NA
+arr is an array of double double pairs	pair < double, double > arr ;
+	pair < double , double > arr [ 1500 ] ;	NA
+read n and t	cin >> n >> t ;
+	cin >> n >> t ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read x and d	cin >> x >> d ;
+	cin >> x >> d ;	1
+divide d by 2	d /= 2 ;
+	d /= 2 ;	1
+arr [ i ] = make_pair ( x - d , x + d )	arr [ i ] = make_pair ( x - d, x + d ) ;
+	arr [ i ] = make_pair ( x - d , x + d ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort arr	sort ( arr, arr + n ) ;
+	sort ( arr , arr + n ) ;	NA
+for integer i = 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )
+	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+c = first element of arr [ i + 1 ] - second element	c = arr [ i + 1 ]. front ( ) ;
+	c = arr [ i + 1 ] . first - arr [ i ] . second ;	NA
+decrease c by t	c -= t ;
+	c -= t ;	1
+if c = 0	if ( c == 0 )
+	if ( c == 0 )	1
+increase cnt	cnt ++ ;
+	cnt ++ ;	1
+else if c is greater than 0	else if ( c > 0 )
+	else if ( c > 0 )	1
+increase cnt by 2	cnt += 2 ;
+	cnt += 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print cnt + 2 and a new line	cout << cnt + 2 << endl ;
+	cout << cnt + 2 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

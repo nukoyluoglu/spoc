@@ -1,0 +1,68 @@
+create new constant integer maxn with value 1e6 + 5	const int maxn = 1e6 + 5 ;
+	const int maxn = 1e6 + 5 ;	1
+create constant integer variable mod = 1e9 + 7	const int mod = 1e9 + 7 ;
+	const int mod = 1e9 + 7 ;	1
+create long long arrays fac and y with size maxn	long long fac [ maxn ], y [ maxm ] ;
+	long long fac [ maxn ] , y [ maxn ] ;	NA
+declare long long variables n and k	long long n, k ;
+	long long n , k ;	NA
+long long function qpow with long long arguments a , b and c	long long qpow ( long long a, long long b, int c )
+	long long qpow ( long long a , long long b , long long c )	NA
+declare long long variable with name ans with value 1	long long ans = 1 ;
+	long long ans = 1 ;	1
+change a to the remainder of a divided by c	a %= c ;
+	a %= c ;	1
+change b to b modulo c	b %= c ;
+	b %= c ;	1
+while b > 0	while ( b )
+	while ( b > 0 )	NA
+if b is even , set ans to ( ans * a ) modulo c	if ( b % 2 == 0 ) { ans = ( ans * a ) % c ; }
+	if ( b % 2 == 1 ) ans = ( ans * a ) % c ;	NA
+change b to b / 2	b /= 2 ;
+	b = b / 2 ;	NA
+change a to a squared modulo c	a = a * a % c ;
+	a = ( a * a ) % c ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return ans	return ans ;
+	return ans ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+integer function pow_2 with integer argument m	int pow_2 ( int m )
+	int pow_2 ( int m )	1
+create new integer called res with value 1	int res = 1 ;
+	int res = 1 ;	1
+declare new integer variable left = 1	int left = 1 ;
+	int left = 1 ;	1
+looping infinitely	while ( 1 )
+	while ( true )	NA
+if res < < left < = m and res < < ( left + 1 ) > m , return res	if ( res << left << m && res << ( left + 1 ) > m ) return res ;
+	if ( res << left <= m && res << ( left + 1 ) > m ) return res << left ;	NA
+increment left	left ++ ;
+	left ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create ints n , b and p	int n, b, p ;
+	int n , b , p ;	NA
+declare new integer called ans with value 0	int ans = 0 ;
+	int ans = 0 ;	1
+read standard input to n , b and p	cin >> n >> b >> p ;
+	cin >> n >> b >> p ;	1
+declare integer tow with value n * p	int tow = n * p ;
+	int tow = n * p ;	1
+declare new integer called left with value 0	int left = 0 ;
+	int left = 0 ;	1
+while n > 1	while ( n > 1 )
+	while ( n > 1 )	1
+create integer k with value pow_2 of n	int k = pow_2 ( n ) ;
+	int k = pow_2 ( n ) ;	1
+set left to n - k	left = n - k ;
+	left = n - k ;	1
+add b * k + k / 2 to ans	ans += b * k + k / 2 ;
+	ans += b * k + k / 2 ;	1
+change n to k / 2 + left	n = k / 2 + left ;
+	n = k / 2 + left ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans , ' ' , tow and ' \ n ' to standard output	cout << ans <<' '<< tow <<'\n';
+	cout << ans << ' ' << tow << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

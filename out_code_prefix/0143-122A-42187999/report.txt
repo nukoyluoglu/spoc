@@ -1,0 +1,78 @@
+function str ( get int n , return string )	string str ( int n )
+	string str ( int n )	1
+ss = stringstream	stringstream ss ;
+	stringstream ss ;	1
+push n into ss	ss. push ( n ) ;
+	ss << n ;	NA
+s = string	string s ;
+	string s ;	1
+s = ss	s = ss ;
+	ss >> s ;	NA
+return s	return s ;
+	return s ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+sorte = array of 1001 int	int sorte [ 1001 ] ;
+	int sorte [ 1001 ] ;	1
+tam = 0	int tam = 0 ;
+	int tam = 0 ;	1
+function lucky	void lucky ( )
+	void lucky ( )	1
+for i = 0 to 1001 exclusive	for ( int i = 0 ; i < 1001 ; i ++ )
+	for ( int i = 0 ; i < 1001 ; i ++ )	1
+s string = str ( i )	string s = str ( i ) ;
+	string s = str ( i ) ;	1
+sorte2 = true	sorte2 = true ;
+	bool sorte2 = true ;	NA
+for c = 0 to length of s exclusive	for ( int c = 0 ; c < s. size ( ) ; c ++ )
+	for ( int c = 0 ; c < s . length ( ) ; c ++ )	NA
+if s [ c ] ! = ' 4 ' and ! = ' 7 '	if ( ( s [ c ]!='4') && ( s. at ( c )!='7') )
+	if ( s [ c ] != ' 4 ' && s [ c ] != ' 7 ' )	NA
+sorte2 = false	sorte2 = false ;
+	sorte2 = false ;	1
+break	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if sorte2	if ( sorte2 )
+	if ( sorte2 )	1
+sorte [ tam ] = i	sorte [ tam ] = i ;
+	sorte [ tam ] = i ;	1
+increment tam	tam ++ ;
+	tam ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call lucky ( )	lucky ( ) ;
+	lucky ( ) ;	1
+n = int	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+pos = 0	int pos = 0 ;
+	int pos = 0 ;	1
+divide = false	int divide = false ;
+	bool divide = false ;	NA
+while sorte [ pos ] < = n and pos < tam	while ( sorte [ pos ] <= n && pos < tam )
+	while ( sorte [ pos ] <= n && pos < tam )	1
+if n modulo sorte [ pos ] is zero	if ( n % sorte [ pos ] == 0 )
+	if ( n % sorte [ pos ] == 0 )	1
+divide = true	divide = true ;
+	divide = true ;	1
+break	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+increment pos	pos ++ ;
+	pos ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if divide	if ( divide )
+	if ( divide )	1
+print " YES "	cout << " YES\n " ;
+	cout << " YES\n " ;	1
+else	else
+	else	1
+print " NO "	cout << " NO\n " ;
+	cout << " NO\n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

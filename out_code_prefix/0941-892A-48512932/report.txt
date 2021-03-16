@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , sum be long integers with sum is equal to 0	long long n, sum = 0 ;
+	long long n , sum = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+b = array of long inters of length n	long long b [ n ] ;
+	long long b [ n ] ;	1
+for long integer i = 0 to n exclusive	for ( long long i = 0 ; i < n ; i ++ )
+	for ( long long i = 0 ; i < n ; i ++ )	1
+let x be a long integer	long long x ;
+	long long x ;	1
+read x	cin >> x ;
+	cin >> x ;	1
+sum is equal to sum + x	sum += x ;
+	sum += x ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for long integer i = 0 to n exclusive , read ith element of b array	for ( long long i = 0 ; i < n ; i ++ ) { cin >> b [ i ] ; }
+	for ( long long i = 0 ; i < n ; i ++ ) { cin >> b [ i ] ; }	1
+sorting the data of b , b + n	sort ( b, b + n ) ;
+	sort ( b , b + n ) ;	NA
+print YES if ( b [ n - 2 ] + b [ n - 1 ] > = sum ) else print NO	cout << ( ( b [ n - 2 ] + b. n - 1 ] >= sum )? " YES " : " NO " ) << endl ;
+	cout << ( b [ n - 2 ] + b [ n - 1 ] >= sum ? " YES " : " NO " ) << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

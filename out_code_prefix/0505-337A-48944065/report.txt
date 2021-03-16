@@ -1,0 +1,27 @@
+create int array A of size 1000100	int A [ 1000100 ] ;
+	int A [ 100010 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let ints n and m	int n, m ;
+	int n , m ;	NA
+read n and m	cin >> n >> m ;
+	cin >> n >> m ;	1
+for i = 0 to m exclusive , read A [ i ]	for ( int i = 0 ; i < m ; i ++ ) { cin >> A [ i ] ; }
+	for ( int i = 0 ; i < m ; i ++ ) cin >> A [ i ] ;	NA
+sort A	sort ( A, A + n ) ;
+	sort ( A , A + m ) ;	NA
+create ints high = n - 1 and low = 0	int high = n - 1, low = 0 ;
+	int high = n - 1 , low = 0 ;	NA
+let int mini = A [ high ] - A [ low ]	int mini = A [ high ] - A [ low ] ;
+	int mini = A [ high ] - A [ low ] ;	1
+while high is less than m	while ( high < m )
+	while ( high < m )	1
+increment low	low ++ ;
+	low ++ ;	1
+increment high	high ++ ;
+	high ++ ;	1
+if high is less than m , set mini to the min of mini and A [ high ] - A [ low ]	if ( high < m ) mini = min ( mini, A [ high ] - A [ low ] ) ;
+	if ( high < m ) mini = min ( mini , A [ high ] - A [ low ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print mini	cout << mini << endl ;
+	cout << mini << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

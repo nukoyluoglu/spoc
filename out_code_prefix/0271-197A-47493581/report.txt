@@ -1,0 +1,28 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers a , b , r	int a, b, r ;
+	int a , b , r ;	NA
+read a read b read r	cin >> a >> b >> r ;
+	cin >> a >> b >> r ;	1
+if a is greater than or equal to b	if ( a >= b )
+	if ( a >= b )	1
+if ( 2 * r is less than or equal to b )	if ( 2 * r <= b )
+	if ( 2 * r <= b )	1
+print " First \ n "	cout << " First\n " ;
+	cout << " First\n " ;	1
+else	else
+	else	1
+print " Second \ n "	cout << " Second\n " ;
+	cout << " Second\n " ;	1
+else	else
+	else	1
+if ( 2 * r is less than or equal to a )	if ( 2 * r <= a )
+	if ( 2 * r <= a )	1
+print " First \ n "	cout << " First\n " ;
+	cout << " First\n " ;	1
+else	else
+	else	1
+print " Second \ n "	cout << " Second\n " ;
+	cout << " Second\n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

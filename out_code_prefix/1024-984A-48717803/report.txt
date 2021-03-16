@@ -1,0 +1,13 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let int n and int array a of size 1110	int n, a [ 1110 ] ;
+	int n , a [ 1110 ] ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive , read a [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ i ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ i ] ; }	1
+sort array a	sort ( a, a + n ) ;
+	sort ( a , a + n ) ;	NA
+print a [ ( n - 1 ) / 2 ]	cout << a [ ( n - 1 ) / 2 ] << endl ;
+	cout << a [ ( n - 1 ) / 2 ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,19 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+i , res = 0	int i, res = 0 ;
+	long long i = 0 , res = 0 ;	NA
+s1 , s2 = string	string s1, s2 ;
+	string s1 , s2 ;	NA
+read s1 , s2	cin >> s1 >> s2 ;
+	cin >> s1 >> s2 ;	1
+if s1 = = s2	if ( s1 == s2 )
+	if ( s1 == s2 )	1
+res = - 1	res = - 1 ;
+	res = - 1 ;	1
+else	else
+	else	1
+res = max ( size of s1 , size of s2 )	res = max ( s1. length ( ), s2. size ( ) ) ;
+	res = max ( s1 . size ( ) , s2 . size ( ) ) ;	NA
+print res	cout << res << endl ;
+	cout << res << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

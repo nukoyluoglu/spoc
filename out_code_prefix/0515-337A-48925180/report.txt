@@ -1,0 +1,32 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , m	long long n, m ;
+	long long n , m ;	NA
+read n read m	cin >> n >> m ;
+	cin >> n >> m ;	1
+create long long vector a initialized with ( m , 0 )	vector < long long > a ( m, 0 ) ;
+	vector < long long > a ( m , 0 ) ;	NA
+for i = 0 to m exclusive , read a [ i ]	for ( long long i = 0 ; i < m ; i ++ ) { cin >> a [ i ] ; }
+	for ( long long i = 0 ; i < m ; i ++ ) { cin >> a [ i ] ; }	1
+sort elements from beginning of a to end of a	sort ( a. begin ( ), a. end ( ) ) ;
+	sort ( a . begin ( ) , a . end ( ) ) ;	NA
+create long longs l , r	long long l, r ;
+	long long l , r ;	NA
+set l to r to 0	l = r = 0 ;
+	l = r = 0 ;	1
+set r to n - 1	r = n - 1 ;
+	r = n - 1 ;	1
+create long long mn with mn = a [ m - 1 ] - a [ 0 ]	long long mn = a [ m - 1 ] - a [ 0 ] ;
+	long long mn = a [ m - 1 ] - a [ 0 ] ;	1
+while r is not m	while ( r!= m )
+	while ( r != m )	NA
+set mn to minimum of ( mn and a [ r ] - a [ l ] )	mn = min ( mn, a [ r ] - a [ l ] ) ;
+	mn = min ( mn , a [ r ] - a [ l ] ) ;	NA
+increment l	l ++ ;
+	l ++ ;	1
+increment r	r ++ ;
+	r ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print mn print newline	cout << mn << endl ;
+	cout << mn << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

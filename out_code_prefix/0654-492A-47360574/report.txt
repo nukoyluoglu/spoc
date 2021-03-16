@@ -1,0 +1,17 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n be an integer	int n ;
+	int n ;	1
+get input in n	cin >> n ;
+	cin >> n ;	1
+let i = 2 = int	int i = 2 ;
+	int i = 2 ;	1
+while n - i * ( i + 1 ) / 2 is positive	while ( n - i * ( i + 1 ) / 2 > 0 )
+	while ( n - i * ( i + 1 ) / 2 > 0 )	1
+decrement n by i * ( i + 1 ) / 2	n -= i * ( i + 1 ) / 2 ;
+	n -= i * ( i + 1 ) / 2 ;	1
+increment i	i ++ ;
+	i ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print i - 1	cout << i - 1 << endl ;
+	cout << i - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

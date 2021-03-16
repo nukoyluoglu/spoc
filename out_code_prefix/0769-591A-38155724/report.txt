@@ -1,0 +1,12 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create doubles l , p and q	double l, p, q ;
+	double l , p , q ;	NA
+read input to l , p and q	cin >> l >> p >> q ;
+	cin >> l >> p >> q ;	1
+declare double variable t_total = 3 * l / ( p + q )	double t_total = 3 * l / ( p + q ) ;
+	double t_total = 3 * l / ( p + q ) ;	1
+declare double t1 = l / ( p + q )	double t1 = l / ( p + q ) ;
+	double t1 = l / ( p + q ) ;	1
+print ( t_total - 2 * t1 ) * p	cout << ( t_total - 2 * t1 ) * p << endl ;
+	cout << ( t_total - 2 * t1 ) * p << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

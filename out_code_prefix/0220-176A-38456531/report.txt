@@ -1,0 +1,69 @@
+declare arrays of integers a , b and c with size 105 by 105 and integer variables n , m and k	int n, m, k, a [ 105 ] [ 105 + 105 ] ;
+	int a [ 105 ] [ 105 ] , b [ 105 ] [ 105 ] , c [ 105 ] [ 105 ] , n , m , k ;	NA
+function buy with int arguments x and y that returns int	int buy ( int x, int y )
+	int buy ( int x , int y )	NA
+create an array of integers v with size 105	int v [ 105 ] ;
+	int v [ 105 ] = { 0 } ;	NA
+let ans and i be integers with ans = 0	int ans = 0, i ;
+	int ans = 0 , i ;	NA
+declare integer variable last = k	int last = k ;
+	int last = k ;	1
+while last is not 0	while ( last )
+	while ( last )	1
+declare integer variable maxn = 0	int maxn = 0 ;
+	int maxn = 0 ;	1
+declare int maxi	int maxi ;
+	int maxi ;	1
+declare integer variable num	int num ;
+	int num ;	1
+for i from 1 to m inclusive	for ( int i = 1 ; i <= m ; i ++ )
+	for ( i = 1 ; i <= m ; i ++ )	NA
+if v [ i ] is true , skip the rest of the loop	if ( v [ i ] ) continue ;
+	if ( v [ i ] ) continue ;	1
+if b [ y ] [ i ] - a [ x ] [ i ] is greater than maxn	if ( b [ y ] [ i ] - a [ x ] [ j ] > maxn )
+	if ( b [ y ] [ i ] - a [ x ] [ i ] > maxn )	NA
+assign i to maxi	maxi = i ;
+	maxi = i ;	1
+set maxn to b [ y ] [ i ] - a [ x ] [ i ]	maxn = b [ y ] [ i ] - a [ x ] [ 1 ] ;
+	maxn = b [ y ] [ i ] - a [ x ] [ i ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if maxn = 0 , stop the loop	if ( maxn == 0 ) break ;
+	if ( maxn == 0 ) break ;	1
+change num to min of last and c [ x ] [ maxi ]	num = min ( last, c [ x ] [ maxi ] ) ;
+	num = min ( last , c [ x ] [ maxi ] ) ;	NA
+add num * maxn to ans	ans += num * maxn ;
+	ans += num * maxn ;	1
+assign 1 to v [ maxi ]	v [ maxi ] = 1 ;
+	v [ maxi ] = 1 ;	1
+decrease last by num	last -= num ;
+	last -= num ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return ans	return ans ;
+	return ans ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare ints i and j	int i, j ;
+	int i , j ;	NA
+declare string variable s	string s ;
+	string s ;	1
+read n , m and k	cin >> n >> m >> k ;
+	cin >> n >> m >> k ;	1
+loop i from 1 to n inclusive	for ( i = 1 ; i <= n ; i ++ )
+	for ( i = 1 ; i <= n ; i ++ )	1
+read input to s	cin >> s ;
+	cin >> s ;	1
+read a [ i ] [ j ] , b [ i ] [ j ] and c [ i ] [ j ] m times	for ( j = 1 ; j <= m ; j ++ ) { cin >> a [ i ] [ j ] >> b [ i - j ] ; }
+	for ( j = 1 ; j <= m ; j ++ ) { cin >> a [ i ] [ j ] >> b [ i ] [ j ] >> c [ i ] [ j ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create int ans = 0	int ans = 0 ;
+	int ans = 0 ;	1
+for i = 1 to n inclusive	for ( i = 1 ; i <= n ; i ++ )
+	for ( i = 1 ; i <= n ; i ++ )	1
+loop j from 1 to n inclusive , change ans to max of ans and buy ( i , j )	for ( j = 1 ; j <= n ; j ++ ) { ans = max ( ans, buy ( i, j ) ) ; }
+	for ( j = 1 ; j <= n ; j ++ ) { ans = max ( ans , buy ( i , j ) ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

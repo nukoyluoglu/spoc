@@ -1,0 +1,27 @@
+create integer array arrx with size 101	int arrx [ 101 ] ;
+	int arrx [ 101 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create integers l , r	int l, r ;
+	int l , r ;	NA
+read l read r	cin >> l >> r ;
+	cin >> l >> r ;	1
+for i = 1 to n exclusive	for ( int i = 1 ; i < n ; i ++ )
+	for ( int i = 1 ; i < n ; i ++ )	1
+create integers a , b	int a, b ;
+	int a , b ;	NA
+read a read b	cin >> a >> b ;
+	cin >> a >> b ;	1
+for j = a to b exclusive , set arrx [ j ] to 1	for ( int j = a ; j < b ; j ++ ) { arrx [ j ] = 1 ; }
+	for ( int j = a ; j < b ; j ++ ) arrx [ j ] = 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create integer total with total = 0	int total = 0 ;
+	int total = 0 ;	1
+for i = l to r exclusive , increment total by 0 if arrx [ i ] is true , else 1	for ( int i = l ; i < r ; i ++ ) { total += arrx [ i ]? 0 : 1 ; }
+	for ( int i = l ; i < r ; i ++ ) { total += arrx [ i ] ? 0 : 1 ; }	NA
+print total print newline	cout << total << endl ;
+	cout << total << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

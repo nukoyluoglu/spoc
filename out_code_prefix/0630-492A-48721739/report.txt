@@ -1,0 +1,20 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , res = integer with res = 0	int n, res = 0 ;
+	int n , res = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+total = integer with total = 0	int total = 0 ;
+	int total = 0 ;	1
+while total < n	while ( total < n )
+	while ( total < n )	1
+increment res	res ++ ;
+	res ++ ;	1
+total = total + res * ( res + 1 ) / 2	total += res * ( res + 1 ) / 2 ;
+	total += res * ( res + 1 ) / 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if total > n , decrement res	if ( total > n ) res -- ;
+	if ( total > n ) { res -- ; }	NA
+print res	cout << res << endl ;
+	cout << res << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,29 @@
+declare power taking in long long ints x , y , and MOD and returning long long int	long long int power ( long long x, long long int y, int MOD )
+	long long power ( long long x , long long y , long long MOD )	NA
+create unsigned long long int res = 1	unsigned long long res = 1 ;
+	unsigned long long res = 1 ;	1
+set x to x modulo MOD	x %= MOD ;
+	x = x % MOD ;	NA
+while y is more than 0	while ( y > 0 )
+	while ( y > 0 )	1
+if y & 1 is truthy , set res to ( res * x ) % MOD	if ( y & 1 ) res = ( res * x ) % MOD ;
+	if ( y & 1 ) { res = ( res * x ) % MOD ; }	NA
+set y to y > > 1	y = y >> 1 ;
+	y = y >> 1 ;	1
+set x to ( x * x ) % MOD	x = ( x * x ) % MOD ;
+	x = ( x * x ) % MOD ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+convert res to long long int and return it	return res ;
+	return ( long long ) res ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create long long ints n , m , and res	long long n, m, res ;
+	long long n , m , res ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n and m	cin >> n >> m ;
+	cin >> n >> m ;	1
+set res to power ( 3 , n , m ) - 1	res = pow ( 3, n, m ) - 1 ;
+	res = power ( 3 , n , m ) - 1 ;	NA
+print ( res + m ) % m	cout << ( res + m ) % m << endl ;
+	cout << ( res + m ) % m << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

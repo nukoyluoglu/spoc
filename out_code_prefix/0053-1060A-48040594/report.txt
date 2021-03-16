@@ -1,0 +1,32 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer n	int n ;
+	int n ;	1
+declare integer variable c8 = 0	int c8 = 0 ;
+	int c8 = 0 ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+read from the input input and ignore it	cin. ignore ( ) ;
+	cin . ignore ( ) ;	NA
+let s be char array with size 101	char s [ 101 ] ;
+	char s [ 101 ] ;	1
+read s	cin >> s ;
+	gets ( s ) ;	NA
+if n > = 11	if ( n >= 11 )
+	if ( n >= 11 )	1
+declare integer r = n / 11	int r = n / 11 ;
+	int r = n / 11 ;	1
+loop i from 0 while s [ i ] ! = 0 , incrementing i	for ( int i = 0 ; s [ i ]!='0'; i ++ )
+	for ( int i = 0 ; s [ i ] ; i ++ )	NA
+if s [ i ] is equal to ' 8 ' , increment c8	if ( s [ i ] =='8') c8 ++ ;
+	if ( s [ i ] == ' 8 ' ) c8 ++ ;	NA
+if c8 is equal to r , break the loop	if ( c8 == r ) break ;
+	if ( c8 == r ) break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print c8	cout << c8 << endl ;
+	cout << c8 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print c8	cout << c8 << endl ;
+	cout << c8 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

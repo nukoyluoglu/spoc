@@ -1,0 +1,58 @@
+create 2d boolean array a with size 4 by 4	bool a [ 4 ] [ 5 ] ;
+	bool a [ 4 ] [ 4 ] ;	NA
+declare f with no arguments , returning boolean	bool f ( )
+	bool f ( )	1
+for i = 0 to 3 exclusive	for ( int i = 0 ; i < 3 ; i ++ )
+	for ( int i = 0 ; i < 3 ; i ++ )	1
+for j = 0 to 3 exclusive	for ( int j = 0 ; j < 3 ; j ++ )
+	for ( int j = 0 ; j < 3 ; j ++ )	1
+create boolean bol with bol = a [ i ] [ j ]	bool bol = a [ i ] [ j ] ;
+	bool bol = a [ i ] [ j ] ;	1
+if a [ i + 1 ] [ j ] is bol and a [ i + 1 ] [ j + 1 ] is bol and a [ i ] [ j + 1 ] is bol , return true from function	if ( ( a [ i + 1 ] [ j ] == bol ) && ( ( b [ i ) [ j - 1 ] == ( bol ) ) &&! ( ( B [ i ] [ J ] ) ) ) { return true ; }
+	if ( a [ i + 1 ] [ j ] == bol && a [ i + 1 ] [ j + 1 ] == bol && a [ i ] [ j + 1 ] == bol ) { return true ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return false from function	return false ;
+	return false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create character h	char h ;
+	char h ;	1
+for i = 0 to 4 exclusive	for ( int i = 0 ; i < 4 ; i ++ )
+	for ( int i = 0 ; i < 4 ; i ++ )	1
+for j = 0 to 4 exclusive	for ( int j = 0 ; j < 4 ; j ++ )
+	for ( int j = 0 ; j < 4 ; j ++ )	1
+set h to read character	h = getchar ( ) ;
+	h = getchar ( ) ;	1
+if h is ' # '	if ( h =='#')
+	if ( h == ' # ' )	NA
+set a [ i ] [ j ] to true	a [ i ] [ j ] = true ;
+	a [ i ] [ j ] = true ;	1
+else	else
+	else	1
+set a [ i ] [ j ] to false	a [ i ] [ j ] = false ;
+	a [ i ] [ j ] = false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set h to read character	h = getchar ( ) ;
+	h = getchar ( ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to 4 exclusive	for ( int i = 0 ; i < 4 ; i ++ )
+	for ( int i = 0 ; i < 4 ; i ++ )	1
+for j = 0 to 4 exclusive	for ( int j = 0 ; j < 4 ; j ++ )
+	for ( int j = 0 ; j < 4 ; j ++ )	1
+set a [ i ] [ j ] to false if a [ i ] [ j ] is true , else true	a [ i ] [ j ] = ( a [ i - j ] )? false : true ;
+	a [ i ] [ j ] = ( a [ i ] [ j ] == true ? false : true ) ;	NA
+if result of run f is true	if ( f ( ) )
+	if ( f ( ) == true )	NA
+print " YES " print newline	cout << " YES " << endl ;
+	cout << " YES " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+set a [ i ] [ j ] to false if a [ i ] [ j ] is true , else true	a [ i ] [ j ] = ( a [ i - j ] == true? false : true ) ;
+	a [ i ] [ j ] = ( a [ i ] [ j ] == true ? false : true ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " NO " print newline	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

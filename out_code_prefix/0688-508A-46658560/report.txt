@@ -1,0 +1,41 @@
+create constant integer N with N = 1e5 + 5	const int N = 1e5 + 5 ;
+	const int N = 1e5 + 5 ;	1
+create integers x , y , create integer array arr with size 1005 by 1005	int x, y, arr [ 1005 ] [ 1015 ] ;
+	int x , y , arr [ 1005 ] [ 1005 ] = { } ;	NA
+declare solve with integers st1 , st2 as arguments , returning boolean	bool solve ( int st1, int st2 )
+	bool solve ( int st1 , int st2 )	NA
+for z = st1 to st1 + 1 inclusive	for ( int z = st1 ; z <= st1 + 1 ; z ++ )
+	for ( int z = st1 ; z <= st1 + 1 ; ++ z )	NA
+for v = st2 to st2 + 2 inclusive	for ( int v = st2 ; v <= st2 + 2 ; ++ v )
+	for ( int v = st2 ; v <= st2 + 1 ; ++ v )	NA
+if not arr [ x + z ] [ y + v ] , return false from function	if (! arr [ x + z ] [ y + v ] ) return false ;
+	if ( ! arr [ x + z ] [ y + v ] ) return false ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return true from function	return true ;
+	return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , m , k	int n, m, k ;
+	int n , m , k ;	NA
+read n read m read k	cin >> n >> m >> k ;
+	cin >> n >> m >> k ;	1
+for i = 1 to k inclusive	for ( int i = 1 ; i <= k ; i ++ )
+	for ( int i = 1 ; i <= k ; ++ i )	NA
+read x read y	cin >> x >> y ;
+	cin >> x >> y ;	1
+set arr [ x ] [ y ] to 1	arr [ x ] [ y ] = 1 ;
+	arr [ x ] [ y ] = 1 ;	1
+for t = - 1 to 0 inclusive	for ( int t = - 1 ; t >= 0 ; -- t )
+	for ( int t = - 1 ; t <= 0 ; ++ t )	NA
+for u = - 1 to 0 inclusive	for ( int u = - 1 ; u >= 0 ; -- u )
+	for ( int u = - 1 ; u <= 0 ; ++ u )	NA
+if result of run solve with t , u as arguments is true , return print i print " \ n " , 0 from function	if ( solve ( t, u ) ) return cout << i << " \n ", 0 ;
+	if ( solve ( t , u ) ) return cout << i << " \n " , 0 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return print 0 print " \ n " , 0 from function	return cout << 0 << " \n ", 0 ;
+	return cout << 0 << " \n " , 0 ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

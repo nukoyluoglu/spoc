@@ -1,0 +1,31 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let l , r be long integers	long long l, r ;
+	long long l , r ;	NA
+read l and r	cin >> l >> r ;
+	cin >> l >> r ;	1
+if r - l is less than 2	if ( r - l < 2 )
+	if ( r - l < 2 )	1
+print - 1 and newline	cout << - 1 << endl ;
+	cout << - 1 << ' \n ' ;	NA
+else if r - l is equal to 2	else if ( r - l == 2 )
+	else if ( r - l == 2 )	1
+if r modulo 2	if ( r % 2 )
+	if ( r % 2 )	1
+print - 1 and newline	cout << - 1 <<'\n';
+	cout << - 1 << ' \n ' ;	NA
+else do the following	else
+	else	1
+print l and space and l + 1 and space and r and newline	cout << l << " " << l + 1 <<' '<< r <<'\n';
+	cout << l << " " << l + 1 << " " << r << ' \n ' ;	NA
+else do the following	else
+	else	1
+if l modulo 2	if ( l % 2 )
+	if ( l % 2 )	1
+print l + 1 and space and l + 2 and space and l + 3 and newline	cout << ( l + 1 ) << " " << l + 2 <<' ') << ( L + 3 ) <<'\n';
+	cout << l + 1 << " " << l + 2 << " " << l + 3 << ' \n ' ;	NA
+else do the following	else
+	else	1
+print l and space and l + 1 and space and l + 2 and newline	cout << l <<' '<< l + 1 << " "<< l + 2 <<'\n';
+	cout << l << " " << l + 1 << " " << l + 2 << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

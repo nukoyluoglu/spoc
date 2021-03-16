@@ -1,0 +1,28 @@
+in the function solve	void solve ( )
+	void solve ( )	1
+n , b , p = integers	int n, b, p ;
+	int n , b , p ;	NA
+read n , b , p	cin >> n >> b >> p ;
+	cin >> n >> b >> p ;	1
+br = integer with br = 0	int br = 0 ;
+	int br = 0 ;	1
+tr = integer with tr = n * p ;	int tr = n * p ;
+	int tr = n * p ;	1
+while n > 1	while ( n > 1 )
+	while ( n > 1 )	1
+x = integer with x = 1	int x = 1 ;
+	int x = 1 ;	1
+while 2 * x < n , x = x * 2	while ( 2 * x < n ) { x *= 2 ; }
+	while ( 2 * x < n ) { x *= 2 ; }	1
+br = br + x * ( 2 * b + 1	br += x * ( 2 * b + 1 ) ;
+	br += x * ( 2 * b + 1 ) ;	1
+n = n - x	n -= x ;
+	n -= x ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print br , " " , tr	cout << br << " " << tr << endl ;
+	cout << br << " " << tr << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call solve	solve ( ) ;
+	solve ( ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

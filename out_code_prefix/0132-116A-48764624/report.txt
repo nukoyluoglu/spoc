@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create character array s with size 10001	char s [ 10001 ] ;
+	char s [ 10001 ] ;	1
+create integer t	int t ;
+	int t ;	1
+while read t is true	while ( cin >> t )
+	while ( cin >> t )	1
+create integers ns , sm with ns = - 1 , sm = 0	int ns = - 1, sm = 0 ;
+	int ns = - 1 , sm = 0 ;	NA
+while decrement t is true	while ( t -- )
+	while ( t -- )	1
+create integers doll , puppet	int doll, puppet ;
+	int doll , puppet ;	NA
+read doll read puppet	cin >> doll >> puppet ;
+	cin >> doll >> puppet ;	1
+set sm to sm - doll + puppet	sm -= doll + puppet ;
+	sm = sm - doll + puppet ;	NA
+set ns to maximum of ns and sm	ns = max ( ns, sm ) ;
+	ns = max ( ns , sm ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ns print newline	cout << ns << endl ;
+	cout << ns << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

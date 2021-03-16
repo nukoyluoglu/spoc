@@ -1,0 +1,30 @@
+a = array of integers of length 100010	int a [ 100010 ] ;
+	int a [ 100010 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , m , j , k , l , i , o , p be integers with j = INT_MAX , l = INT_MAX	int n, m, j = INT_MAX, k, l, i, o, p ;
+	int n , m , j = INT_MAX , k , l = INT_MAX , i , o , p ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n inclusive	for ( i = 1 ; i <= n ; i ++ )
+	for ( i = 1 ; i <= n ; i ++ )	1
+read a [ i ]	cin >> a [ i ] ;
+	cin >> a [ i ] ;	1
+l is equal to minimum of l , a [ i ]	l = min ( l, a [ i ] ) ;
+	l = min ( l , a [ i ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+k is equal to distance ( a , find ( a + 1 , a + n + 1 , l ) )	k = distance ( a, find ( a + i, a + n + 1, l ) ) ;
+	k = distance ( a , find ( a + 1 , a + n + 1 , l ) ) ;	NA
+for i = k + 1 to n inclusive	for ( i = k + 1 ; i <= n ; i ++ )
+	for ( i = k + 1 ; i <= n ; i ++ )	1
+if a [ i ] is equal to l	if ( a [ i ] == l )
+	if ( a [ i ] == l )	1
+j is equal to minimum of j , i - k	j = min ( j, i - k ) ;
+	j = min ( j , i - k ) ;	NA
+k is equal to i	k = i ;
+	k = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print j and newline	cout << j << endl ;
+	cout << j << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , m , i , j , k , a , b , create integer array x with size 51	int n, m, i, j, k, a, b, x [ 51 ] ;
+	int n , m , x [ 51 ] , i , j , k , a , b ;	NA
+while read n read m	while ( cin >> n >> m )
+	while ( cin >> n >> m )	1
+set j to 0	j = 0 ;
+	j = 0 ;	1
+for i = 0 to n exclusive	for ( i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	1
+read a read b	cin >> a >> b ;
+	cin >> a >> b ;	1
+set x [ i ] to a * 50 - b	x [ i ] = a * 50 - b ;
+	x [ i ] = a * 50 - b ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+sort elements from x to x + n	sort ( x, x + n ) ;
+	sort ( x , x + n ) ;	NA
+for i = 0 to n exclusive	for ( i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	1
+if x [ i ] is x [ n - m ] , increment j	if ( x [ i ] == x [ n - m ] ) j ++ ;
+	if ( x [ i ] == x [ n - m ] ) { j ++ ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print j print newline	cout << j << endl ;
+	cout << j << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

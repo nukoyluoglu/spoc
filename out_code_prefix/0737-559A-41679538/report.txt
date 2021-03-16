@@ -1,0 +1,21 @@
+create integer arrays a , b , with a size 10 , b size 5005	int a [ 10 ], b [ 5005 ] ;
+	int a [ 10 ] , b [ 5005 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+set b [ 0 ] to 0	b [ 0 ] = 0 ;
+	b [ 0 ] = 0 ;	1
+set b [ 1 ] to 1	b [ 1 ] = 1 ;
+	b [ 1 ] = 1 ;	1
+for i = 2 to 5005 exclusive , set b [ i ] to i * i	for ( int i = 2 ; i < 5005 ; i ++ ) b [ i ] = i * i ;
+	for ( int i = 2 ; i < 5005 ; i ++ ) { b [ i ] = i * i ; }	NA
+create integer len with len = 0	int len = 0 ;
+	int len = 0 ;	1
+for i = 1 to 6 inclusive , read a [ i ]	for ( int i = 1 ; i <= 6 ; i ++ ) { cin >> a [ i ] ; }
+	for ( int i = 1 ; i <= 6 ; i ++ ) { cin >> a [ i ] ; }	1
+create integer m with m = a [ 1 ] + a [ 2 ] + a [ 3 ]	int m = a [ 1 ] + a [ 2 ] + b [ 3 ] ;
+	int m = a [ 1 ] + a [ 2 ] + a [ 3 ] ;	NA
+set len to b [ m ] - ( b [ a [ 1 ] ] + b [ a [ 3 ] ] + b [ a [ 5 ] ] )	len = b [ m ] - ( b [ a [ 1 ] ] + b [ b [ 3 ] ] ) ;
+	len = b [ m ] - ( b [ a [ 1 ] ] + b [ a [ 3 ] ] + b [ a [ 5 ] ] ) ;	NA
+print len print newline	cout << len << endl ;
+	cout << len << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

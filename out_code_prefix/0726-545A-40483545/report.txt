@@ -1,0 +1,51 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+define ints n , i , j	int n, i, j ;
+	int n , i , j ;	NA
+define 2 - dimensional int array a to be of 105 x 105 elements , int array f to be of 105 elements , int t , and int array b to be of 105 elements	int a [ 105 ], f ( 105 ), t, b ( 105 ] ;
+	int a [ 105 ] [ 105 ] , f [ 105 ] , t , b [ 105 ] ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+assign zero to t	t = 0 ;
+	t = 0 ;	1
+for i by 1 from 0 to n ( exclusive ) , set f [ i ] to 1	for ( i = 0 ; i < n ; i ++ ) f [ i ] = 1 ;
+	for ( i = 0 ; i < n ; i ++ ) f [ i ] = 1 ;	1
+for i from 0 to n ( exclusive ) by 1	for ( i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	1
+for j from 0 to n ( exclusive ) by 1	for ( j = 0 ; j < n ; j ++ )
+	for ( j = 0 ; j < n ; j ++ )	1
+read a [ i ] [ j ]	cin >> a [ i ] [ j ] ;
+	cin >> a [ i ] [ j ] ;	1
+if a [ i ] [ j ] is 1	if ( a [ i ] [ j ] == 1 )
+	if ( a [ i ] [ j ] == 1 )	1
+set f [ i ] to 0	f [ i ] = 0 ;
+	f [ i ] = 0 ;	1
+else if a [ i ] [ j ] is two	else if ( a [ i ] [ j ] == 2 )
+	else if ( a [ i ] [ j ] == 2 )	1
+zero f [ j ]	f [ j ] = 0 ;
+	f [ j ] = 0 ;	1
+otherwise if a [ i ] j ] = three	else if ( a [ i ] [ j ] == 3 )
+	else if ( a [ i ] [ j ] == 3 )	1
+zero f [ i ] and f [ j ]	f [ i ] = f [ j ] = 0 ;
+	f [ i ] = f [ j ] = 0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i from 0 to n ( exclusive ) by 1	for ( int i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	NA
+if f [ i ] , then set b [ t ] to i + 1 and then increment t	if ( f [ i ] ) b [ t ++ ] = i + 1 ;
+	if ( f [ i ] ) b [ t ++ ] = i + 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print t and newline	cout << t << endl ;
+	cout << t << endl ;	1
+for i from 0 to t ( exclusive ) by 1	for ( i = 0 ; i < t ; i ++ )
+	for ( i = 0 ; i < t ; i ++ )	1
+if i isn ' t t - 1	if ( i!= t - 1 )
+	if ( i != t - 1 )	NA
+print b [ i ] and " "	cout << b [ i ] << " " ;
+	cout << b [ i ] << " " ;	1
+else	else
+	else	1
+print b [ i ] and newline	cout << b [ i ] << endl ;
+	cout << b [ i ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

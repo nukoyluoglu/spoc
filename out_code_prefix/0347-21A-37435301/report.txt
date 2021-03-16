@@ -1,0 +1,97 @@
+declare myCompare with constant pair address ' s i , j , from string to integer	void myCompare ( const pair < string, int > & ( int ) i, j )
+	bool myCompare ( const pair < string , int > & i , const pair < string , int > & j )	NA
+return second element of i is less than second element of j	return i. second < j. second ;
+	return i . second < j . second ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create string s	string s ;
+	string s ;	1
+declare check with no arguments , returning integer	int check ( )
+	int check ( )	1
+create integers x , y , 0 , with x = 0 , y = 0 , flag = 0	int x = 0, y = 1, flag = 0 ;
+	int x = 0 , y = 0 , flag = 0 ;	NA
+for i = 0 to size of s	for ( int i = 0 ; i < s. size ( ) ; i ++ )
+	for ( int i = 0 ; i < s . size ( ) ; i ++ )	NA
+if flag is 0	if ( flag == 0 )
+	if ( flag == 0 )	1
+if s [ i ] is ' @ '	if ( s [ i ] =='@')
+	if ( s [ i ] == ' @ ' )	NA
+if i - x is greater than 16 or i - x is less than 1 or i + 1 is size of s , return 0 from function	if ( i - x > 16 || i - y < 1 || i + 1 == s. size ( ) ) return 0 ;
+	if ( ( i - x ) > 16 || ( i - x ) < 1 || ( i + 1 == s . size ( ) ) ) return 0 ;	NA
+set x to i + 1	x = i + 1 ;
+	x = i + 1 ;	1
+set y to i + 1	y = i + 1 ;
+	y = i + 1 ;	1
+set flag to 1	flag = 1 ;
+	flag = 1 ;	1
+else if s [ i ] is alphanumeric or s [ i ] is digit or s [ i ] is ' _ '	else if ( s [ i ] ==' '|| s [ 1 ] >='0'|| S [ i + 1 =='9')
+	else if ( isalpha ( s [ i ] ) || isdigit ( s [ i ] ) || s [ i ] == ' _ ' )	NA
+break current loop iteration	continue ;
+	continue ;	1
+else if s [ i ] is not alphanumeric or s [ i ] is not digit or s [ i ] is not ' _ '	else if ( isalpha ( s [ i ] ) || s [ 1 ]!=' '|| s. at ( i )!='_')
+	else if ( ! isalpha ( s [ i ] ) || ! isdigit ( s [ i ] ) || s [ i ] != ' _ ' )	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+else if flag is 1	else if ( flag == 1 )
+	else if ( flag == 1 )	1
+if s [ i ] is ' / '	if ( s [ i ] =='/')
+	if ( s [ i ] == ' / ' )	NA
+if i - x is greater than 32 or i - x is less than 1 or i + 1 is size of s or s [ i - 1 ] is ' . ' , return 0 from function	if ( i - x > 32 || i - k < 1 || i + 1 == s. size ( ) || s [ i - 1 ] == '.') return 0 ;
+	if ( ( i - x ) > 32 || ( i - x ) < 1 || ( i + 1 == s . size ( ) ) || s [ i - 1 ] == ' . ' ) return 0 ;	NA
+set x to i + 1	x = i + 1 ;
+	x = i + 1 ;	1
+set flag to 2	flag = 2 ;
+	flag = 2 ;	1
+else if s [ i ] is ' . '	else if ( s [ i ] == '.')
+	else if ( s [ i ] == ' . ' )	NA
+if i - y is greater than 16 or i - y is less than 1 or i + 1 is size of s , return 0 from function	if ( i - y > 16 || i - x < 1 || i + 1 == s. size ( ) ) return 0 ;
+	if ( ( i - y ) > 16 || ( i - y ) < 1 || ( i + 1 == s . size ( ) ) ) return 0 ;	NA
+set y to i + 1	y = i + 1 ;
+	y = i + 1 ;	1
+else if s [ i ] is alphanumeric or s [ i ] is digit or s [ i ] is ' . ' or s [ i ] is ' _ '	else if ( s [ i ] ==' '|| s [ 1 ] <='Z'|| c [ i == '.'|| str [ i + 1 =='_')
+	else if ( isalpha ( s [ i ] ) || isdigit ( s [ i ] ) || s [ i ] == ' . ' || s [ i ] == ' _ ' )	NA
+if i + 1 is size of s	if ( i + 1 == s. size ( ) )
+	if ( i + 1 == s . size ( ) )	NA
+if i - x + 1 is greater than 32 or i - x + 1 is less than 1 , return 0 from function	if ( i - x + 1 > 32 || i - y + 1 < 1 ) return 0 ;
+	if ( ( i - x + 1 ) > 32 || ( i - x + 1 ) < 1 ) return 0 ;	NA
+if i - y + 1 is greater than 16 or i - y + 1 is less than 1 , return 0 from function	if ( ( i - y + 1 ) > 16 || ( i + y ) < 1 ) return 0 ;
+	if ( ( i - y + 1 ) > 16 || ( i - y + 1 ) < 1 ) return 0 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+break current loop iteration	continue ;
+	continue ;	1
+else if s [ i ] is not alphanumeric or s [ i ] is not digit or s [ i ] is not ' . ' or s [ i ] is not ' _ '	else if ( isalpha ( s [ i ] ) || isdigit ( s. at ( i - 1 ) ) || s [ 1 ]!= '.'|| s.!='_')
+	else if ( ! isalpha ( s [ i ] ) || ! isdigit ( s [ i ] ) || s [ i ] != ' . ' || s [ i ] != ' _ ' )	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+if s [ i ] is ' _ ' and i + 1 is size of s , return 0 from function	if ( s [ i ] =='_'&& i + 1 == s. size ( ) ) return 0 ;
+	if ( s [ i ] == ' _ ' && i + 1 == s . size ( ) ) return 0 ;	NA
+if s [ i ] is alphanumeric or s [ i ] is digit or s [ i ] is ' _ '	if ( isalpha ( s [ i ] ) || s [ 1 ] ==' '|| s. at ( i - 1 ) =='_')
+	if ( isalpha ( s [ i ] ) || isdigit ( s [ i ] ) || s [ i ] == ' _ ' )	NA
+if i + 1 is size of s	if ( i + 1 == s. size ( ) )
+	if ( i + 1 == s . size ( ) )	NA
+if i - x + 1 is greater than 16 or i - x + 1 is less than 1 , return 0 from function	if ( i - x + 1 > 16 || i - ( x ) + 1 < 1 ) return 0 ;
+	if ( ( i - x + 1 ) > 16 || ( i - x + 1 ) < 1 ) return 0 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+break current loop iteration	continue ;
+	continue ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ i ] is not alphanumeric or s [ i ] is not digit or s [ i ] is not ' _ ' , return 0 from function	if ( s [ i ] <'0'|| s [ 1 ]!='9'|| isdigit ( s. size ( ) ) || s.!='_') return 0 ;
+	if ( ! isalpha ( s [ i ] ) || ! isdigit ( s [ i ] ) || s [ i ] != ' _ ' ) { return 0 ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if flag is greater than 0	if ( flag > 0 )
+	if ( flag > 0 )	1
+return 1 from function	return 1 ;
+	return 1 ;	1
+else	else
+	else	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read s	cin >> s ;
+	cin >> s ;	1
+print " YES " if result of run check is true , else " NO " print newline	cout << ( check ( )? " YES " : " NO " ) << endl ;
+	cout << ( check ( ) ? " YES " : " NO " ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

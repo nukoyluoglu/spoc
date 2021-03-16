@@ -1,0 +1,54 @@
+a1 , a2 , n , k , second , ans , ans1 = long long with second = 0 and ans = 0	long long a1, a2, n, k, second = 0, ans = 0 ;
+	long long a1 , a2 , n , k , second = 0 , ans = 0 , ans1 ;	NA
+h = pair of long long and pair of long long and long long vector	pair < long long, long long > h ;
+	vector < pair < long long , pair < long long , long long >> > h ;	NA
+in function read	void read ( )
+	void read ( void )	NA
+read n	cin >> n ;
+	cin >> n ;	1
+x , y , m = int then for i = 0 to n	for ( int i = 0, y, m ; i < n ; i ++ )
+	for ( int i = 0 , x , y , m ; i < n ; ++ i )	NA
+read k	cin >> k ;
+	cin >> k ;	1
+add k to second	second += k ;
+	second += k ;	1
+read a1	cin >> a1 ;
+	cin >> a1 ;	1
+t = long long with t = a1	long long t = a1 ;
+	long long t = a1 ;	1
+read x then y then m	cin >> x >> y >> m ;
+	cin >> x >> y >> m ;	1
+append make_pair of 0 and make_pair of a1 and i + 1 to h	h. push_back ( make_pair ( 0.0, a1, i + 1 ) ) ;
+	h . push_back ( make_pair ( 0 , make_pair ( a1 , i + 1 ) ) ) ;	NA
+set ans1 to 0	ans1 = 0 ;
+	ans1 = 0 ;	1
+for j = 1 to k	for ( int j = 1 ; j <= k ; j ++ )
+	for ( int j = 1 ; j < k ; ++ j )	NA
+set a2 to ( a1 * x + y ) mod m	a2 = ( a1 * x + y ) % m ;
+	a2 = ( a1 * x + y ) % m ;	1
+if a2 is less than a1 then increment ans1	if ( a2 < a1 ) ans1 ++ ;
+	if ( a2 < a1 ) ans1 ++ ;	1
+set a1 to a2	a1 = a2 ;
+	a1 = a2 ;	1
+set t to max of t and a1	t = max ( t, a1 ) ;
+	t = max ( t , a1 ) ;	NA
+if size of h is less or equal to 200000 then append make_pair of ans1 and make_pair of a1 and i + 1 to h	if ( h. size ( ) <= 200000 ) { h. push_back ( make_pair ( ans1, make_p < a1, i + 1 ) ) ; }
+	if ( h . size ( ) <= 200000 ) h . push_back ( make_pair ( ans1 , make_pair ( a1 , i + 1 ) ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+set ans to max of ans and ans1	ans = max ( ans, ans1 ) ;
+	ans = max ( ans , ans1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort vector h	sort ( h. begin ( ), h. end ( ) ) ;
+	sort ( h . begin ( ) , h . end ( ) ) ;	NA
+print ans	cout << ans << endl ;
+	cout << ans << " \n " ;	NA
+if second is less or equal to 200000	if ( second <= 200000 )
+	if ( second <= 200000 )	1
+for i = 0 to second print h [ i ] . second . first and h [ i ] . second . second	for ( int i = 0 ; i < second ; i ++ ) { cout << h [ i ]. second. first << " \n " ; }
+	for ( int i = 0 ; i < second ; ++ i ) cout << h [ i ] . second . first << " " << h [ i ] . second . second << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call read	read ( ) ;
+	read ( ) ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
