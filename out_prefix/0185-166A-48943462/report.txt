@@ -1,0 +1,21 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integers n , k	int n, k ;
+	int n , k ;	NA
+read n read k	cin >> n >> k ;
+	cin >> n >> k ;	1
+declare pair of integer , integer array a size 50	pair < int, int > a [ 50 ] ;
+	pair < int , int > a [ 50 ] ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read first element for a [ i ] , second element of a [ i ]	cin >> a [ i ]. front ( ) >> b [ a [ 1 ]. second ;
+	cin >> a [ i ] . first >> a [ i ] . second ;	NA
+let first element of a [ i ] be first element of a [ i ] * - 1	a [ i ]. first *= - 1 ;
+	a [ i ] . first *= - 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort elements from a to a + n	sort ( a, a + n ) ;
+	sort ( a , a + n ) ;	NA
+print result of run count with a , a + n , a [ k - 1 ] as arguments , newline	cout << count ( a, a + n, a [ k - 1 ] ) << endl ;
+	cout << count ( a , a + n , a [ k - 1 ] ) << endl ;	NA
+return 0 from function	return 0 ;
+	return ( 0 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

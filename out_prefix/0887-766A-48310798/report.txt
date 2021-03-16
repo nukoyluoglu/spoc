@@ -1,0 +1,16 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create strings s1 and s2	string s1, s2 ;
+	string s1 , s2 ;	NA
+read s1 and s2	cin >> s1 >> s2 ;
+	cin >> s1 >> s2 ;	1
+if s1 is equal to s2	if ( s1 == s2 )
+	if ( s1 == s2 )	1
+print " - 1 \ n "	cout << " -1\n " ;
+	cout << " -1\n " ;	1
+else	else
+	else	1
+print the max of s1 . size ( ) and s2 . size ( )	cout << max ( s1. size ( ), s2. size( ) ) << endl ;
+	cout << max ( s1 . size ( ) , s2 . size ( ) ) << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

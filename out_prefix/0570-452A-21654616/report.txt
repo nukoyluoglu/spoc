@@ -1,0 +1,149 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer N	int N ;
+	int N ;	1
+create string jolteon with jolteon = " jolteaon "	string jolteon = " joltyaon " ;
+	string jolteon = " jolteon " ;	NA
+create integer jol with jol = 0	int jol = 0 ;
+	int jol = 0 ;	1
+create string flareon with flareon = " flareon "	string flareon = " flareon " ;
+	string flareon = " flareon " ;	1
+create integer fla with fla = 0	int fla = 0 ;
+	int fla = 0 ;	1
+create string umbreon with umbreon = " umbreon "	string umbreon = " umbreon " ;
+	string umbreon = " umbreon " ;	1
+create integer umb with umb = 0	int umb = 0 ;
+	int umb = 0 ;	1
+create string leafeon with leafeon = " leafeon "	string leafon = " leafeon " ;
+	string leafeon = " leafeon " ;	NA
+create integer leaf with leaf = 0	int leaf = 0 ;
+	int leaf = 0 ;	1
+create string glaceon with glaceon = " glaceon "	string glaceon = " glaseon " ;
+	string glaceon = " glaceon " ;	NA
+create integer gla with gla = 0	int gla = 0 ;
+	int gla = 0 ;	1
+create string sylveon with sylveon = " sylveon "	string sylveon = " sylveston " ;
+	string sylveon = " sylveon " ;	NA
+create integer syl with syl = 0	int syl = 0 ;
+	int syl = 0 ;	1
+create string eevee	string eevee ;
+	string eevee ;	1
+read N	cin >> N ;
+	cin >> N ;	1
+read eevee	cin >> eevee ;
+	cin >> eevee ;	1
+if N is 8	if ( N == 8 )
+	if ( N == 8 )	1
+print " vaporeon \ n "	cout << " vaporeon\n " ;
+	cout << " vaporeon\n " ;	1
+else if N is 6	else if ( N == 6 )
+	else if ( N == 6 )	1
+print " espeon \ n "	cout << " espeon\n " ;
+	cout << " espeon\n " ;	1
+else	else
+	else	1
+for x = 0 to N exclusive	for ( int x = 0 ; x < N ; x ++ )
+	for ( int x = 0 ; x < N ; x ++ )	1
+if eevee [ x ] is not ' . '	if ( eevee [ x ]!= '.')
+	if ( eevee [ x ] != ' . ' )	NA
+iif eevee [ x ] is flareon [ x ] and fla is 0	if (! eevee [ x ] &&! fla )
+	if ( eevee [ x ] == flareon [ x ] && fla == 0 )	NA
+if x is not 2 , set leaf to 1	if ( x!= 2 ) leaf = 1 ;
+	if ( x != 2 ) { leaf = 1 ; }	NA
+set jol to 1	jol = 1 ;
+	jol = 1 ;	1
+set syl to 1	syl = 1 ;
+	syl = 1 ;	1
+set umb to 1	umb = 1 ;
+	umb = 1 ;	1
+if x is not 1 and x is not 2 , set gla to 1	if ( x!= 1 && x!= 2 ) gla = 1 ;
+	if ( x != 1 && x != 2 ) { gla = 1 ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if eevee [ x ] is glaceon [ x ] and gla is 0	if ( eevee [ x ] == glaceon [ y ] && gla == 0 )
+	if ( eevee [ x ] == glaceon [ x ] && gla == 0 )	NA
+if x is not 2 , set leaf to 1	if ( x!= 2 ) leaf = 1 ;
+	if ( x != 2 ) { leaf = 1 ; }	NA
+set jol to 1	jol = 1 ;
+	jol = 1 ;	1
+set syl to 1	syl = 1 ;
+	syl = 1 ;	1
+set umb to 1	umb = 1 ;
+	umb = 1 ;	1
+if x is not 1 and x is not 2 , set fla to 1	if ( x!= 1 && x!= 2 ) fla = 1 ;
+	if ( x != 1 && x != 2 ) { fla = 1 ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if eevee [ x ] is leafeon [ x ] and leaf is 0	if ( eevee [ x ] == leafeon [ x - 1 ] && leaf == 0 )
+	if ( eevee [ x ] == leafeon [ x ] && leaf == 0 )	NA
+if x is not 2	if ( x!= 2 )
+	if ( x != 2 )	NA
+set fla to 1	fla = 1 ;
+	fla = 1 ;	1
+set gla to 1	fla = 1 ;
+	gla = 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+set jol to 1	jol = 1 ;
+	jol = 1 ;	1
+set syl to 1	syl = 1 ;
+	syl = 1 ;	1
+set umb to 1	umb = 1 ;
+	umb = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if eevee [ x ] is jolteon [ x ] and jol is 0	if ( eevee [ x ] == jolteon [ yol ] && jol == 0 )
+	if ( eevee [ x ] == jolteon [ x ] && jol == 0 )	NA
+set leaf to 1	leaf = 1 ;
+	leaf = 1 ;	1
+set fla to 1	fla = 1 ;
+	fla = 1 ;	1
+if x is not 2 , set syl to 1	if ( x!= 2 ) syl = 1 ;
+	if ( x != 2 ) { syl = 1 ; }	NA
+set umb to 1	umb = 1 ;
+	umb = 1 ;	1
+set gla to 1	fla = 1 ;
+	gla = 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if eevee [ x ] is umbreon [ x ] and umb is 0	if ( eevee [ x ] == umbreon [ 1 ] && umb == 0 )
+	if ( eevee [ x ] == umbreon [ x ] && umb == 0 )	NA
+set leaf to 1	leaf = 1 ;
+	leaf = 1 ;	1
+set jol to 1	jol = 1 ;
+	jol = 1 ;	1
+set syl to 1	syl = 1 ;
+	syl = 1 ;	1
+set fla to 1	fla = 1 ;
+	fla = 1 ;	1
+set gla to 1	fla = 1 ;
+	gla = 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if eevee [ x ] is sylveon [ x ] and syl is 0	if ( eevee [ x ] == sylveon [ x - 1 ] && syl == 0 )
+	if ( eevee [ x ] == sylveon [ x ] && syl == 0 )	NA
+set leaf to 1	leaf = 1 ;
+	leaf = 1 ;	1
+set fla to 1	fla = 1 ;
+	fla = 1 ;	1
+if x is not 2 , set jol to 1	if ( x!= 2 ) jol = 1 ;
+	if ( x != 2 ) { jol = 1 ; }	NA
+set umb to 1	umb = 1 ;
+	umb = 1 ;	1
+set gla to 1	fla = 1 ;
+	gla = 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if syl + leaf + jol + umb + gla + fla is 5	if ( syl + leaf + jol + umb + gla + fla == 5 )
+	if ( syl + leaf + jol + umb + gla + fla == 5 )	1
+if syl is 0 , print sylveon print " \ n "	if ( syl == 0 ) cout << sylveon << " \n " ;
+	if ( syl == 0 ) { cout << sylveon << " \n " ; }	NA
+if gla is 0 , print glaceon print " \ n "	if ( gla == 0 ) cout << glaceon << " \n " ;
+	if ( gla == 0 ) { cout << glaceon << " \n " ; }	NA
+if fla is 0 , print flareon print " \ n "	if ( fla == 0 ) { cout << flareon << " \n " ; }
+	if ( fla == 0 ) { cout << flareon << " \n " ; }	1
+if jol is 0 , print jolteon print " \ n "	if ( jol == 0 ) cout << jolteon << " \n " ;
+	if ( jol == 0 ) { cout << jolteon << " \n " ; }	NA
+if umb is 0 print umbreon print " \ n "	if ( umb == 0 ) { cout << umbreon << " \n " ; }
+	if ( umb == 0 ) { cout << umbreon << " \n " ; }	1
+if leaf is 0 print leafon print " \ n "	if ( leaf == 0 ) { cout << leafon << " \n " ; }
+	if ( leaf == 0 ) { cout << leafeon << " \n " ; }	NA
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

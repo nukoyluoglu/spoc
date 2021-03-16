@@ -1,0 +1,35 @@
+declare const int INF = 0x3f3f3f3f	const int INF = ( 0x3f3f )3f ;
+	const int INF = 0x3f3f3f3f ;	NA
+create int array a with size 11	int a [ 11 ] ;
+	int a [ 11 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variables n , m and t	int n, m, t ;
+	int n , m , t ;	NA
+declare integer variables i , j and k	int i, j, k ;
+	int i , j , k ;	NA
+for i = 0 to 6 exclusive , read t and increment a [ t ]	for ( i = 0 ; i < 6 ; i ++ ) cin >> t, a [ t ] ++ ;
+	for ( i = 0 ; i < 6 ; i ++ ) cin >> t , a [ t ] ++ ;	NA
+for i = 1 to 9 inclusive	for ( i = 1 ; i <= 9 ; i ++ )
+	for ( i = 1 ; i <= 9 ; i ++ )	1
+if a [ i ] > = 4 , break	if ( a [ i ] >= 4 ) break ;
+	if ( a [ i ] >= 4 ) break ;	1
+if i is greater than 9	if ( i > 9 )
+	if ( i > 9 )	1
+print " Alien "	cout << " Alien\n " ;
+	cout << " Alien " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i from 1 to 9 inclusive	for ( int i = 1 ; i <= 9 ; i ++ )
+	for ( i = 1 ; i <= 9 ; i ++ )	NA
+if a [ i ] = 2 or a [ i ] = 6 , stop the loop	if ( a [ i ] == 2 || a [ j ] == 6 ) break ;
+	if ( a [ i ] == 2 || a [ i ] == 6 ) break ;	NA
+if i is greater than 9	if ( i > 9 )
+	if ( i > 9 )	1
+print " Bear "	puts ( " Bear " ) ;
+	cout << " Bear " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " Elephant "	puts ( " Elephant " ) ;
+	cout << " Elephant " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

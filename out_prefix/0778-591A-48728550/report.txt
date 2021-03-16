@@ -1,0 +1,8 @@
+a , b , c , tt = long long integers	long long int a, b, c, tt ;
+	long long int a , b , c , tt ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read a , b , c	cin >> a >> b >> c ;
+	cin >> a >> b >> c ;	1
+output ( float ) a / ( b + c ) * b	cout << ( float ) a / ( b + c ) * b << endl ;
+	cout << ( float ) a / ( b + c ) * b << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

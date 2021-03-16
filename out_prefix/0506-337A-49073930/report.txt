@@ -1,0 +1,51 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create ints num and buy	int num, buy ;
+	int num , buy ;	NA
+create int vector v	vector < int > v ;
+	vector < int > v ;	1
+read num and buy	cin >> num >> buy ;
+	cin >> num >> buy ;	1
+for i = 0 to buy exclusive	for ( int i = 0 ; i < buy ; i ++ )
+	for ( int i = 0 ; i < buy ; i ++ )	1
+let int x	int x ;
+	int x ;	1
+read x	cin >> x ;
+	cin >> x ;	1
+append x to vector v	v. push_back ( x ) ;
+	v . push_back ( x ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort vector v	sort ( v. begin ( ), v. end ( ) ) ;
+	sort ( v . begin ( ) , v . end ( ) ) ;	NA
+let ints max = 0 , min = 0 , and differ = 1000000	int max = 0, min ( 0 ), differ = 1000000 ;
+	int max = 0 , min = 0 , differ = 1000000 ;	NA
+for i = 0 to size of v exclusive	for ( int i = 0 ; i < v. size ( ) ; i ++ )
+	for ( int i = 0 ; i < v . size ( ) ; i ++ )	NA
+if i + num is greater than the size of v	if ( i + num > v. size ( ) )
+	if ( ( i + num ) > v . size ( ) )	NA
+break loop	break ;
+	break ;	1
+otherwise do	else
+	else	1
+set min to the min value in v	min = v. size ( ) ;
+	min = min_element ( v . begin ( ) + i , v . begin ( ) + ( i + num ) ) - v . begin ( ) ;	NA
+set max to the max value in v	max = v. size ( ) ;
+	max = max_element ( v . begin ( ) + i , v . begin ( ) + ( i + num ) ) - v . begin ( ) ;	NA
+if v . at ( max ) - v . at ( min ) is less than differ , set differ to v . at ( max ) - v . at ( min )	if ( v. [ max ] - v. at ( min ) < differ ) { differ = v.. [ ( max ) - ( v ) [ min ] ] ; }
+	if ( ( v . at ( max ) - v . at ( min ) ) < differ ) { differ = v . at ( max ) - v . at ( min ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to size of v exclusive	for ( int i = 0 ; i < v. size ( ) ; i ++ )
+	for ( int i = 0 ; i < v . size ( ) ; i ++ )	NA
+let int total = count ( v . begin ( ) , v . end ( ) , v . at ( i ) ) ;	int total = count ( v. begin ( ), v. end ( ), v. at ( i ) ) ;
+	int total = count ( v . begin ( ) , v . end ( ) , v . at ( i ) ) ;	NA
+if total is greater than or equal to num	if ( total >= num )
+	if ( total >= num )	1
+set differ to 0	differ = 0 ;
+	differ = 0 ;	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print differ	cout << differ << endl ;
+	cout << differ << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,35 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers i , Len , k , create integer array Arr with size 26 with Arr = { 0 }	int i, Len, k, Arr [ 26 ] = { 0 } ;
+	int i , Len , k , Arr [ 26 ] = { 0 } ;	NA
+create strings s , kString	string s, kString ;
+	string s , kString ;	NA
+read k read s	cin >> k >> s ;
+	cin >> k >> s ;	1
+for i = 0 to length of s exclusive , increment Arr [ s [ i ] - ' a ' ]	for ( i = 0 ; i < s. length ( ) ; i ++ ) { Arr [ s [ i ] -'a'] ++ ; }
+	for ( i = 0 ; i < s . length ( ) ; i ++ ) { Arr [ s [ i ] - ' a ' ] ++ ; }	NA
+for i = 0 to 26 exclusive	for ( i = 0 ; i < 26 ; i ++ )
+	for ( i = 0 ; i < 26 ; i ++ )	1
+if Arr [ i ] % k is not 0	if ( Arr [ i ] % k!= 0 )
+	if ( Arr [ i ] % k != 0 )	NA
+{	{	{	DUMMY	DUMMY	DUMMY
+break loop	break ;
+	break ;	1
+else	else
+	else	1
+append ' a ' + i to kString ( Arr [ i ] / k ) times	for ( int i = 0 ; i < 26 ; i ++ ) { kString ( Arr [ i ] / k ) ; }
+	kString . append ( Arr [ i ] / k , ' a ' + i ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if i is 26	if ( i == 26 )
+	if ( i == 26 )	1
+while decrement k is true , print kString	while ( k -- ) cout << kString << endl ;
+	while ( k -- ) { cout << kString ; }	NA
+print newline	cout << endl ;
+	cout << endl ;	1
+else	else
+	else	1
+print - 1 print newline	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

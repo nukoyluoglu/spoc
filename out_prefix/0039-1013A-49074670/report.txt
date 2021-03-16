@@ -1,0 +1,20 @@
+create integer arrays x , y , with x size 51 , y size 51	int x [ 51 ] = { 0 }, y [ 50 ] ={ 0 } ;
+	int x [ 51 ] , y [ 51 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , sum_x , sum_y , with sum_x = 0 , sum_y = 0	int n, sum_x = 0, sum-y = 0 ;
+	int n , sum_x = 0 , sum_y = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive , read x [ i ] , increment sum_x by x [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> x [ i ], sum_x += x [ 1 ] ;
+	for ( int i = 0 ; i < n ; i ++ ) cin >> x [ i ] , sum_x += x [ i ] ;	NA
+for i = 0 to n exclusive , read y [ i ] , increment sum_y by y [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> y [ i ], sum_y += y [ 1 ] ;
+	for ( int i = 0 ; i < n ; i ++ ) cin >> y [ i ] , sum_y += y [ i ] ;	NA
+if sum_x is greater than or equal than sum_y	if ( sum_x >= sum_y )
+	if ( sum_x >= sum_y )	1
+print " YES " print newline	cout << " YES " << endl ;
+	cout << " YES " << endl ;	1
+else	else
+	else	1
+print " NO " print newline	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

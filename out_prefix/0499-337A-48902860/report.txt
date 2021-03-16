@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , m = integers	int n, m ;
+	int n , m ;	NA
+read n , m	cin >> n >> m ;
+	cin >> n >> m ;	1
+arr = integer array of size 100000	int arr [ 100000 ] ;
+	int arr [ 100000 ] ;	1
+for i = 0 to m exclusive , read arr [ i ]	for ( int i = 0 ; i < m ; i ++ ) { cin >> arr [ i ] ; }
+	for ( int i = 0 ; i < m ; ++ i ) { cin >> arr [ i ] ; }	NA
+sort arr and arr + m	sort ( arr, arr + m ) ;
+	sort ( arr , arr + m ) ;	NA
+mindiff = integer with mindiff = INT_MAX	int mindiff = INT_MAX ;
+	int mindiff = INT_MAX ;	1
+for i = 0 to m - ( n - 1 ) exclusive	for ( int i = 0 ; i < m - ( n - 1 ) ; i ++ )
+	for ( int i = 0 ; i < m - ( n - 1 ) ; i ++ )	1
+diff = integer with diff = arr [ i + n - 1 ] - arr [ i ]	int diff = arr [ i + n - 1 ] - arr [ 1 ] ;
+	int diff = arr [ i + n - 1 ] - arr [ i ] ;	NA
+if diff < mindiff , mindiff = diff	if ( diff < mindiff ) { mindiff = diff ; }
+	if ( diff < mindiff ) { mindiff = diff ; }	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print mindiff	cout << mindiff << endl ;
+	cout << mindiff << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

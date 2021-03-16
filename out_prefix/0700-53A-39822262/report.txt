@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string pointer ch , create string var	string * ch, var ;
+	string * ch , var ;	NA
+create integer n	int n ;
+	int n ;	1
+read var read n	cin >> var >> n ;
+	cin >> var >> n ;	1
+set ch to new string array with size n	ch = new string [ n ] ;
+	ch = new string [ n ] ;	1
+for i = 0 to n exclusive , read ch [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> ch [ i ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) cin >> ch [ i ] ;	NA
+sort elements from ch to ch + n	sort ( ch, ch + n ) ;
+	sort ( ch , ch + n ) ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if first index of var in ch [ i ] is 0	if ( ch [ i ]. find ( var ) == 0 )
+	if ( ch [ i ] . find ( var ) == 0 )	NA
+print ch [ i ] print newline	cout << ch [ i ] << endl ;
+	cout << ch [ i ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print var print newline	cout << var << endl ;
+	cout << var << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

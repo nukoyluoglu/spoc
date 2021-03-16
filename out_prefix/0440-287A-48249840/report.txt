@@ -1,0 +1,34 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string vector vs initialized with 4	vector < string > vs ( 4 ) ;
+	vector < string > vs ( 4 ) ;	1
+for i = 0 to 4 exclusive , read vs [ i ]	for ( int i = 0 ; i < 4 ; i ++ ) { cin >> vs [ i ] ; }
+	for ( size_t i = 0 ; i < 4 ; ++ i ) { cin >> vs [ i ] ; }	NA
+create boolean pass with pass = false	bool pass = false ;
+	bool pass = false ;	1
+for top = 0 to top is less than or equal to 2 and not pass , incrementing top	for ( int top = 0 ; top <= 2 &&! pass ; top ++ )
+	for ( size_t top = 0 ; top <= 2 && ! pass ; ++ top )	NA
+for left = 0 to 2 inclusive	for ( int left = 0 ; left <= 2 ; left ++ )
+	for ( size_t left = 0 ; left <= 2 ; ++ left )	NA
+create integer dot with dot = 0	int dot = 0 ;
+	int dot = 0 ;	1
+for r = 0 to 2 exclusive	for ( int r = 0 ; r < 2 ; r ++ )
+	for ( size_t r = 0 ; r < 2 ; ++ r )	NA
+for c = 0 to 2 exclusive	for ( int c = 0 ; c < 2 ; c ++ )
+	for ( size_t c = 0 ; c < 2 ; ++ c )	NA
+if vs [ top + r ] [ left + c ] is ' . ' , increment dot by 1	if ( vs [ top + r ] [ left + c ] == '.') dot ++ ;
+	if ( vs [ top + r ] [ left + c ] == ' . ' ) { dot += 1 ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if dot is not 2	if ( dot!= 2 )
+	if ( dot != 2 )	NA
+set pass to true	pass = true ;
+	pass = true ;	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " YES " if pass is true , else " NO " , print newline	cout << ( pass? " YES " : " NO " ) << endl ;
+	cout << ( pass ? " YES " : " NO " ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

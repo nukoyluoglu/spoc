@@ -1,0 +1,52 @@
+mod = const long long with mod = 1000000007	const long long mod = 1000000007 ;
+	long long const mod = 1000000007 ;	NA
+in function powmod taking two long longs a and b and returning a long long	long long powmod ( long long a, long long b )
+	long long powmod ( long long a , long long b )	NA
+res = long long with res = 1	long long res = 1 ;
+	long long res = 1 ;	1
+set a to a mod mod	a %= mod ;
+	a %= mod ;	1
+call assert on b is greater or equal to 0	assert ( b ) ;
+	assert ( b >= 0 ) ;	NA
+loop while b is not 0 setting b to b bitwise rightshift 1 each time	for ( ; b ; b >>= 1 )
+	for ( ; b ; b >>= 1 )	1
+if b bitwise and 1 is 1 then set re to res * a modulo mod	if ( b & 1 ) re = res * a % mod ;
+	if ( b & 1 ) res = res * a % mod ;	NA
+set a to a * a modulo mod	a = a * a % mod ;
+	a = a * a % mod ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return res	return res ;
+	return res ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in = ifstream of " txt . in "	ifstream in ( " txt.in " ) ;
+	ifstream in ( " txt.in " ) ;	1
+out = ofstream of " txt . out "	ofstream out ( " txt.out " ) ;
+	ofstream out ( " txt.out " ) ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call fixed and setprecision of 12 on cout	cout << fixed << setprecision ( 12 ) ;
+	cout << fixed << setprecision ( 12 ) ;	1
+a , b = long long	long long a, b ;
+	long long a , b ;	NA
+read a then b	cin >> a >> b ;
+	cin >> a >> b ;	1
+n = long long	long long n ;
+	long long n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+mx = double with mx = 2e9	double mx = 2e9 ;
+	double mx = 2e9 ;	1
+for i = 1 to n inclusive	for ( long long i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; ++ i )	NA
+x , y , k = long long	long long x, y, k ;
+	long long x , y , k ;	NA
+read x then y then k	cin >> x >> y >> k ;
+	cin >> x >> y >> k ;	1
+dis = double with dis = result of sqrt of ( x - a ) * ( x - a ) + ( y - b ) * ( y - b ) / k	double dis = sqrt ( x -'a') * ( x 'a') + ( y -'b'* ( y 'b') / k ;
+	double dis = sqrt ( ( x - a ) * ( x - a ) + ( y - b ) * ( y - b ) ) / k ;	NA
+mx = min of mx and dis	mx = min ( mx, dis ) ;
+	mx = min ( mx , dis ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print mx	cout << mx << endl ;
+	cout << mx << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

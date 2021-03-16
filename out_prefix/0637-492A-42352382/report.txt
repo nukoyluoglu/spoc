@@ -1,0 +1,23 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+var , n , aux , x = int with var = 1 and aux = 0 and x = 0	int var = 1, n, aux = 0, x = 0 ;
+	int var = 1 , n , aux = 0 , x = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+level = int with level = 0	int level = 0 ;
+	int level = 0 ;	1
+loop infinitely	while ( 1 )
+	while ( 1 )	1
+increment x by var	x += var ;
+	x += var ;	1
+increment aux by x	aux += x ;
+	aux += x ;	1
+if aux > n break	if ( aux > n ) break ;
+	if ( aux > n ) break ;	1
+increment level	level ++ ;
+	level ++ ;	1
+increment var	var ++ ;
+	var ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print level	cout << level << endl ;
+	cout << level << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let integers n , m , i , and ans = INT_MAX and int array a of size 1000	int n, m, i, a [ 1000 ], ans = INT_MAX ;
+	int n , m , a [ 1000 ] , i , ans = INT_MAX ;	NA
+read n and m	cin >> n >> m ;
+	cin >> n >> m ;	1
+for i = 0 to m exclusive , read a [ i ]	for ( i = 0 ; i < m ; i ++ ) cin >> a [ i ] ;
+	for ( i = 0 ; i < m ; i ++ ) cin >> a [ i ] ;	1
+sort array a	sort ( a, a + m ) ;
+	sort ( a , a + m ) ;	NA
+for i = 0 to m - n , set ans to the min of ans and a [ i + n - 1 ] - a [ i ]	for ( i = 0 ; i < m - n ; i ++ ) { ans = min ( ans, a [ i + n - 1 ] - a [ 1 ] ) ; }
+	for ( i = 0 ; i <= m - n ; i ++ ) ans = min ( ans , a [ i + n - 1 ] - a [ i ] ) ;	NA
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,13 @@
+let gcd be a function which accepts integers a and b	int gcd ( int a, int b )
+	int gcd ( int a , int b )	NA
+return gcd ( b , a modulo b ) if b else a	return b? gcd ( b, a % b ) : a ;
+	return b ? gcd ( b , a % b ) : a ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , m , c be integers	int n, m, c ;
+	int n , m , c ;	NA
+read n , m , c	cin >> n >> m >> c ;
+	cin >> n >> m >> c ;	1
+print n * m * c - ( n - 1 ) * ( m - 1 ) * ( c - 1 ) and newline	cout << n * m * c - ( n - 1 ) * ( m - 1) * ( c - 1.0 ) << endl ;
+	cout << n * m * c - ( n - 1 ) * ( m - 1 ) * ( c - 1 ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

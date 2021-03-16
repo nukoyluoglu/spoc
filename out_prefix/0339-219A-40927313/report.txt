@@ -1,0 +1,70 @@
+declare long longs i , j , k , n , m , ans , sz , c1 , c2 , x , f , z , declare long long arrays a with size 100009 , ch with size 26	long long i, j, k, n, m, ans, sz, c1, c2, x, f, z, a [ 100009 ], ch [ 26 ] ;
+	long long i , j , k , n , m , a [ 100009 ] , ans , sz , c1 , c2 , x , ch [ 26 ] , f , z ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare string s	string s ;
+	string s ;	1
+read k , s	cin >> k >> s ;
+	cin >> k >> s ;	1
+let sz be size of s	sz = s. size ( ) ;
+	sz = s . size ( ) ;	NA
+declare character set st	set < char > st ;
+	set < char > st ;	1
+declare it as character set iterator	set < char > :: iterator it ;
+	set < char > :: iterator it ;	1
+for i = 0 to sz exclusive	for ( int i = 0 ; i < sz ; i ++ )
+	for ( i = 0 ; i < sz ; i ++ )	NA
+insert s [ i ] into st	st. insert ( s [ i ] ) ;
+	st . insert ( s [ i ] ) ;	NA
+increment ch [ s [ i ] - ' a ' ]	ch [ s [ i ] -'a'] ++ ;
+	ch [ s [ i ] - ' a ' ] ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare long long vector v	vector < long long > v ;
+	vector < long long > v ;	1
+for it = beginning of st to it is not end of st , incrementing it	for ( it = st. begin ( ) ; it!= st. end ( ) - 1 ; it ++ )
+	for ( it = st . begin ( ) ; it != st . end ( ) ; it ++ )	NA
+create character c	char c ;
+	char c ;	1
+set c to value of it	c = * it ;
+	c = * it ;	1
+add ch [ c - ' a ' ] to end of v	v. push_back ( ch [ c -'a'] ) ;
+	v . push_back ( ch [ c - ' a ' ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+let sz be size of v	sz = v. size ( ) ;
+	sz = v . size ( ) ;	NA
+for i = 0 to sz exclusive	for ( int i = 0 ; i < sz ; i ++ )
+	for ( i = 0 ; i < sz ; i ++ )	NA
+if v [ i ] % k is not 0	if ( v [ i ] % k!= 0 )
+	if ( v [ i ] % k != 0 )	NA
+let f be 1	f = 1 ;
+	f = 1 ;	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if f is true	if ( f )
+	if ( f )	1
+print " - 1 " print newline	cout << " -1 " << endl ;
+	cout << " -1 " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+declare ss as string	string ss ;
+	string ss ;	1
+for it = beginning of st to it is not end of st , incrementing it	for ( map < string, int > :: iterator it = st. begin ( ) ; it!= st. end ( ) - 1 ; ++ it )
+	for ( it = st . begin ( ) ; it != st . end ( ) ; it ++ )	NA
+declare character c	char c ;
+	char c ;	1
+let c be value of it	c = * it ;
+	c = * it ;	1
+let z be ch [ c - ' a ' ] / k	z = ch [ c -'a'] / k ;
+	z = ch [ c - ' a ' ] / k ;	NA
+for i = 0 to z exclusive , increment ss by c	for ( int i = 0 ; i < z ; i ++ ) ss += c ;
+	for ( i = 0 ; i < z ; i ++ ) ss += c ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to k exclusive , print ss	for ( int i = 0 ; i < k ; i ++ ) cout << ss << endl ;
+	for ( i = 0 ; i < k ; i ++ ) cout << ss ;	NA
+print newline	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

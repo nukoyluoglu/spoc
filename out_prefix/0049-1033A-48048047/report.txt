@@ -1,0 +1,65 @@
+n , qx , qy , kx , ky , tx , ty = integers	int n, qx, qy, kx, ky, tx, ty ;
+	int n , qx , qy , kx , ky , tx , ty ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+Read n	cin >> n ;
+	cin >> n ;	1
+Read qx	cin >> qx ;
+	cin >> qx ;	1
+Read qy	cin >> qy ;
+	cin >> qy ;	1
+Read kx	cin >> kx ;
+	cin >> kx ;	1
+Read ky	cin >> ky ;
+	cin >> ky ;	1
+Read tx	cin >> tx ;
+	cin >> tx ;	1
+Read ty	cin >> ty ;
+	cin >> ty ;	1
+if kx is less than qx	if ( kx < qx )
+	if ( kx < qx )	1
+if ky is less than qy	if ( ky < qy )
+	if ( ky < qy )	1
+if tx is less than qx and ty is less than qy	if ( tx < qx && ty < qy )
+	if ( tx < qx && ty < qy )	1
+print YES and a new line	cout << " YES " << endl ;
+	cout << " YES " << endl ;	1
+else do the following	else
+	else	1
+print NO and a new line	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+else do the following	else
+	else	1
+if tx is less than qx and ty is greater than qy	if ( tx < qx && ty > qy )
+	if ( tx < qx && ty > qy )	1
+print YES and a new line	cout << " YES " << endl ;
+	cout << " YES " << endl ;	1
+else do the following	else
+	else	1
+print NO and a new line	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+else do the following	else
+	else	1
+if ky is less than qy	if ( ky < qy )
+	if ( ky < qy )	1
+if tx is greater than qx and ty is less than qy	if ( tx > qx && ty < qy )
+	if ( tx > qx && ty < qy )	1
+print YES and a new line	cout << " YES " << endl ;
+	cout << " YES " << endl ;	1
+else do the following	else
+	else	1
+print NO and a new line	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+else do the following	else
+	else	1
+if tx is greater than qx and ty is greater than qy	if ( tx > qx && ty > qy )
+	if ( tx > qx && ty > qy )	1
+print YES and a new line	cout << " YES " << endl ;
+	cout << " YES " << endl ;	1
+else do the following	else
+	else	1
+print NO and a new line	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

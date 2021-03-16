@@ -1,0 +1,23 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+count , i , j , n = int with count = 0 and a , b = int array of size 100001 each	int count = 0, i, j, n, a [ 100001 ], b [ 1000001 ] ;
+	int a [ 100001 ] , b [ 100001 ] , count = 0 , i , j , n ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+read n values into a then b	for ( i = 0 ; i < n ; i ++ ) { cin >> a [ i ] >> b [ ++ i ] ; }
+	for ( i = 0 ; i < n ; i ++ ) { cin >> a [ i ] >> b [ i ] ; }	NA
+for j = 0 to n	for ( j = 0 ; j < n ; j ++ )
+	for ( j = 0 ; j < n ; j ++ )	1
+if a [ j ] is not b [ j ]	if ( a [ j ]!= b [ i ] )
+	if ( a [ j ] != b [ j ] )	NA
+print " Happy Alex "	cout << " Happy Alex " << endl ;
+	cout << " Happy Alex " << endl ;	1
+set count to 1	count = 1 ;
+	count = 1 ;	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if count is 0 then print " Poor Alex "	if ( count == 0 ) { cout << " Poor Alex " << endl ; }
+	if ( count == 0 ) cout << " Poor Alex " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

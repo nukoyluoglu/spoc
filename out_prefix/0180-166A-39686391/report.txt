@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create new integers n and k	int n, k ;
+	int n , k ;	NA
+read n and k	cin >> n >> k ;
+	cin >> n >> k ;	1
+create an array of int int pairs A witn n + 1 element	pair < int, int > A [ n + 1 ] ;
+	pair < int , int > A [ n + 1 ] ;	NA
+for integer i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+read input to A [ i ] . first and A [ i ] . second	cin >> A [ i ]. first >> A. second ;
+	cin >> A [ i ] . first >> A [ i ] . second ;	NA
+invert the sign of A [ i ] . first	A [ i ]. first = - 1 ;
+	A [ i ] . first *= - 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort A from position 1 to n + 1	sort ( A + 1, A + n + 1 ) ;
+	sort ( A + 1 , A + n + 1 ) ;	NA
+create integer ans = 0	int ans = 0 ;
+	int ans = 0 ;	1
+for i = 1 to n inclusive incrementing i	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if A [ i ] = A [ k ] , increment ans by one	if ( A [ i ] == A [ k ] ) ans ++ ;
+	if ( A [ i ] == A [ k ] ) ans ++ ;	1
+print ans and ' \ n '	cout << ans <<'\n';
+	cout << ans << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

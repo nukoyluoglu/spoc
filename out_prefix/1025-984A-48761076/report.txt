@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create vector of integers v with size n	vector < int > v ( n ) ;
+	vector < int > v ( n ) ;	1
+read n elements into v	for ( int i = 0 ; i < n ; i ++ ) cin >> v [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> v [ i ] ; }	NA
+sort v	sort ( v. begin ( ), v. end ( ) ) ;
+	sort ( v . begin ( ) , v . end ( ) ) ;	NA
+for i from 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )
+	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+if i is odd	if ( i % 2!= 0 )
+	if ( i % 2 != 0 )	NA
+remove first element from v	v. erase ( v. begin ( ) ) ;
+	v . erase ( v . begin ( ) ) ;	NA
+else	else
+	else	1
+remove the last element from v	v. pop_back ( ) ;
+	v . pop_back ( ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print the first element of v	cout << v. first << endl ;
+	cout << v [ 0 ] << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,28 @@
+create const int oo = 1e9	const int oo = 1e9 ;
+	const int oo = 1e9 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare int variable n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+declare vector of integers called a with n elements	vector < int > a ( n ) ;
+	vector < int > a ( n ) ;	1
+read n elements from the input into a	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;	1
+create int mn = pointer to the min element of a	int mn = * min_element ( a. begin ( ), a. end ( ) ) ;
+	int mn = * min_element ( a . begin ( ) , a . end ( ) ) ;	NA
+create integer ans = oo	int ans = oo ;
+	int ans = oo ;	1
+for i = 0 and prev = - oo while i < n , incrementing i	for ( int i = 0, prev = - oo ; i < n ; ++ i )
+	for ( int i = 0 , prev = - oo ; i < n ; i ++ )	NA
+if a [ i ] is equal to mn	if ( a [ i ] == mn )
+	if ( a [ i ] == mn )	1
+set ans to min of ans and i - prev	ans = min ( ans, i - prev ) ;
+	ans = min ( ans , i - prev ) ;	NA
+set prev to i	prev = i ;
+	prev = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans and ' \ n '	cout << ans <<'\n';
+	cout << ans << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

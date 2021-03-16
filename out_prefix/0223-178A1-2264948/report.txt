@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare n as long long , a as long long array with size 100100	long long n, a [ 100100 ] ;
+	long long n , a [ 100100 ] ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive , read a [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < n ; ++ i ) cin >> a [ i ] ;	NA
+declare s as long long = 0	long long s = 0 ;
+	long long s = 0 ;	1
+for k = 0 to n - 1 exclusive	for ( int k = 0 ; k < n - 1 ; k ++ )
+	for ( int k = 0 ; k < n - 1 ; ++ k )	NA
+declare integer t = 0	int t = 0 ;
+	int t = 0 ;	1
+while k + ( 1 bitshift left t + 1 ) is less than n , increment i	while ( k + ( 1 << t + 1 ) < n ) i ++ ;
+	while ( k + ( 1 << t + 1 ) < n ) ++ t ;	NA
+increment s by a [ k ] , a [ k + ( 1 < < t ) ] by a [ k ]	s = s + a [ k ], a [ ( k + ( 1 << t ) ] += a [ i ] ) ;
+	s += a [ k ] , a [ k + ( 1 << t ) ] += a [ k ] ;	NA
+print s , newline	cout << s << endl ;
+	cout << s << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

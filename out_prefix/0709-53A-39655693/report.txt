@@ -1,0 +1,24 @@
+p , s , ans = string	string p, s, ans ;
+	string p , s , ans ;	NA
+n = int	int n ;
+	int n ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read p then n	cin >> p >> n ;
+	cin >> p >> n ;	1
+set ans to " "	ans = " " ;
+	ans = " " ;	1
+loop n times	while ( n -- )
+	while ( n -- )	1
+read s	cin >> s ;
+	cin >> s ;	1
+if size of s as int is greater or equal to size of p as int	if ( ( int ) s. size ( ) >= int ( p ) )
+	if ( ( int ) s . size ( ) >= ( int ) p . size ( ) )	NA
+aux = string with aux = substr of 0 and size of p as int on s	string aux = s. substr ( 0, p. size ( ) ) ;
+	string aux = s . substr ( 0 , ( int ) p . size ( ) ) ;	NA
+if aux is p and ( s is less than ans or ans is " " ) set ans to s	if ( aux == p && ( s < ans || ans == " " ) ) ans = s ;
+	if ( aux == p && ( s < ans || ans == " " ) ) { ans = s ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print p if ans is " " else print ans	cout << ( ans ==' '? p : ans ) << endl ;
+	cout << ( ans == " " ? p : ans ) << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

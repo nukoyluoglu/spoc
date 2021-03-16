@@ -1,0 +1,25 @@
+inf = const integer with inf = 0x3f3f3f3f	const int inf = ( 0x3f3f )3f ;
+	const int inf = 0x3f3f3f3f ;	NA
+mod1 = const integer with mod1 = 1e9 + 7	const int mod1 = 1e9 + 7 ;
+	const int mod1 = 1e9 + 7 ;	1
+mod = const long long with mod = 1e16	const long long mod = 1e16 ;
+	const long long mod = 1e16 ;	1
+maxn = const integer with maxn = 1000	const int maxn = 1000 ;
+	const int maxn = 1000 ;	1
+dx , dy = integer array of size 5 with dx = { 0 , 1 , 0 , - 1 , 0 } , dy = { 1 , 0 , - 1 , 0 , 0 }	int dx [ 5 ] = { 0, 1, 0, - 1, - 2, 0 }, dy [ 5 } = { 1,0, - i, 0, 0 } ;
+	int dx [ 5 ] = { 0 , 1 , 0 , - 1 , 0 } , dy [ 5 ] = { 1 , 0 , - 1 , 0 , 0 } ;	NA
+dir = integer array of size [ 4 ] [ 2 ] with dir = { { 1 , 0 } , { - 1 , 0 } , { 0 , 1 } , { 0 , - 1 } }	int dir [ 4 ] [ 2 ] = { { 1, 0 }, { - 1, { 0, 1 }, 0, - 1 } } ;
+	int dir [ 4 ] [ 2 ] = { { 1 , 0 } , { - 1 , 0 } , { 0 , 1 } , { 0 , - 1 } } ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , x , y = double	double n, x, y ;
+	double n , x , y ;	NA
+read n , x , y	cin >> n >> x >> y ;
+	cin >> n >> x >> y ;	1
+d = double with d = n / ( x + y )	double d = n / ( x + y ) ;
+	double d = n / ( x + y ) ;	1
+e = double with e = d * x	double e = d * x ;
+	double e = d * x ;	1
+print e	cout << e << endl ;
+	cout << e << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

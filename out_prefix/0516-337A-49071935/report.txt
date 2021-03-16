@@ -1,0 +1,31 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , m be integers	int n, m ;
+	int n , m ;	NA
+read n and m	cin >> n >> m ;
+	cin >> n >> m ;	1
+arr = vector	vector < int > arr ;
+	vector < int > arr ;	1
+while m is greater than 0	while ( m > 0 )
+	while ( m > 0 )	1
+let i be int	int i ;
+	int i ;	1
+read i	cin >> i ;
+	cin >> i ;	1
+push_back i onto r	r. push_back ( i ) ;
+	arr . push_back ( i ) ;	NA
+decrement m	m -- ;
+	m -- ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+sort with functions arr . begin and arr . end	sort ( arr. begin ( ), arr. end ( ) ) ;
+	sort ( arr . begin ( ) , arr . end ( ) ) ;	NA
+let distance be integer with value 1e9	int distance = 1e9 ;
+	int distance = 1e9 ;	1
+for i from 0 to arr size minus n + 1 exclusive	for ( int i = 0 ; i < arr. size ( ) - n + 1 ; i ++ )
+	for ( int i = 0 ; i < arr . size ( ) - n + 1 ; i ++ )	NA
+if arr [ i + n - 1 ] - arr [ i ] < distance then set distance to arr [ i + n - 1 ] - arr [ i ]	if ( ( arr [ i + n - 1 ] - arr [ 1 ] ) < distance ) distance = ( int ) arr [ ( i ) + ( n - i ] ) - ( n + 1 ) ;
+	if ( arr [ i + n - 1 ] - arr [ i ] < distance ) { distance = arr [ i + n - 1 ] - arr [ i ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print distance	cout << distance << endl ;
+	cout << distance << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

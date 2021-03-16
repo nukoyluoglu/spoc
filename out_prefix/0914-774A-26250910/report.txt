@@ -1,0 +1,53 @@
+let n , c1 , c2 be long integers	long long n, c1, c2 ;
+	long long n , c1 , c2 ;	NA
+let solve accepts long integer g	void solve ( long long g )
+	long long solve ( long long g )	NA
+t1 , t2 , left , res be long integers with t1 = ceiling of ( double ) n / g , t2 = n / g , left = n , res = 0	long long t1 = ceil ( ( double ) n / g, t2 = n / G, left = n, res = 0 ;
+	long long t1 = ceil ( ( double ) n / g ) , t2 = n / g , left = n , res = 0 ;	NA
+for t2 * g is not equal to left and left is greater than 0 , decrement left by t1 , decrement g by 1 , res = res + ( c1 + c2 * ( t1 - 1 ) * ( t1 - 1 ) )	for ( ; t2 * g!= left && left > 0 ; left -= t1, g -- ) res = res + ( c1 + c2 * ( t1 - 1 ) * t1 + 1 ) ) ;
+	for ( ; t2 * g != left && left > 0 ; left -= t1 , g -- ) res += ( c1 + c2 * ( t1 - 1 ) * ( t1 - 1 ) ) ;	NA
+for g is greater than 0 , decrement left by t2 , decrement g by 1 , the value of res = res + ( c1 + c2 * ( t2 - 1 ) * ( t2 - 1 ) )	for ( ; g > 0 ; g --, left -= t2, g -- ) { res += ( c1 + c2 * ( t2 - 1 ) * (t2 - i ) ) ; }
+	for ( ; g > 0 ; left -= t2 , g -- ) res += ( c1 + c2 * ( t2 - 1 ) * ( t2 - 1 ) ) ;	NA
+return the value of res	return res ;
+	return res ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let t be a character	char t ;
+	char t ;	1
+read n , c1 , c2	cin >> n >> c1 >> c2 ;
+	cin >> n >> c1 >> c2 ;	1
+let p , r , i be long integers with p = 0 , r = 0	long long p = 0, r = 1, i ;
+	long long p = 0 , r = 0 , i ;	NA
+for i = 0 to n exclusive	for ( i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	1
+read t	cin >> t ;
+	cin >> t ;	1
+if t is equal to 1 increment p by 1 else increment r by 1	t == 1? p ++ : r ++ ;
+	( t == ' 1 ' ) ? p ++ : r ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+let lo , hi be long integers with lo = 1 , hi = p	long long lo = 1, hi = p ;
+	long long lo = 1 , hi = p ;	NA
+while lo is less than hi	while ( lo < hi )
+	while ( lo < hi )	1
+let diff be a long integer with diff = hi - lo	long long diff = hi - lo ;
+	long long diff = hi - lo ;	1
+let p1 , p2 be long integers with p1 = lo + diff / 3 , p2 = lo + ( 2 * diff + 2 ) / 3	long long p1 = lo + diff / 3, p2 = Lo + ( 2 * diff + 2 ) / 3 ;
+	long long p1 = lo + diff / 3 , p2 = lo + ( 2 * diff + 2 ) / 3 ;	NA
+let s1 , s2 be a long integers with s1 = solve ( p1 ) , s2 = solve ( p2 )	long long int s1 = solve ( p1 ), s2 = fix ( p2 ) ;
+	long long s1 = solve ( p1 ) , s2 = solve ( p2 ) ;	NA
+if s1 is equal to s2	if ( s1 == s2 )
+	if ( s1 == s2 )	1
+lo is equal to p1 + 1 , hi is equal to p2 - 1	lo = p1 + 1, hi = p2 - 1 ;
+	lo = p1 + 1 , hi = p2 - 1 ;	NA
+else if s1 is greater than s2	else if ( s1 > s2 )
+	else if ( s1 > s2 )	1
+the value of lo = p1 + 1	lo = p1 + 1 ;
+	lo = p1 + 1 ;	1
+else do the following	else
+	else	1
+the value of hi = p2 - 1	hi = p2 - 1 ;
+	hi = p2 - 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print solve ( lo ) and newline	cout << solve ( lo ) << endl ;
+	cout << solve ( lo ) << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

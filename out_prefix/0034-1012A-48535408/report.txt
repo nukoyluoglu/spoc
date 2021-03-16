@@ -1,0 +1,31 @@
+create constant integer MAXN with MAXN = integer casted ( 2 * 1e5 + 5 )	const int MAXN = int ( 2 * 1e5 + 5 ) ;
+	const int MAXN = ( int ) ( 2 * 1e5 + 5 ) ;	NA
+create integer n	int n ;
+	int n ;	1
+create long long array a with size MAXN	long long a [ MAXN ] ;
+	long long a [ MAXN ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n + n exclusive , read a [ i ]	for ( int i = 0 ; i < n + n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < n + n ; i ++ ) { cin >> a [ i ] ; }	NA
+sort elements from a to a + n + n	sort ( a, a + n + n ) ;
+	sort ( a , a + n + n ) ;	NA
+if n is less than or equal to 1	if ( n <= 1 )
+	if ( n <= 1 )	1
+print " 0 " print newline	cout << " 0 " << endl ;
+	cout << " 0 " << endl ;	1
+else	else
+	else	1
+create long long ans with ans = a [ n - 1 ] - a [ 0 ]	long long ans = a [ n - 1 ] - a [ 0 ] ;
+	long long ans = a [ n - 1 ] - a [ 0 ] ;	1
+set ans to ans * ( a [ n + n - 1 ] - a [ n ] )	ans = ans * ( a [ n + n - 1 ] - a [ 1 ] ) ;
+	ans *= a [ n + n - 1 ] - a [ n ] ;	NA
+create long long l with l = a [ n + n - 1 ] - a [ 0 ]	long long l = a [ n + n - 1 ] - a [ 0 ] ;
+	long long l = a [ n + n - 1 ] - a [ 0 ] ;	1
+for i = 1 to n inclusive , set ans to minimum of ( ans and ( l * ( a [ i + n - 1 ] - a [ i ] ) ) )	for ( long long i = 1 ; i <= n ; i ++ ) ans = min ( ans, ( l * ( a [ i + n - 1 ] - a [ 1 ] ) ) ) ;
+	for ( int i = 1 ; i <= n ; i ++ ) { ans = min ( ans , l * ( a [ i + n - 1 ] - a [ i ] ) ) ; }	NA
+print ans print newline	cout << ans << endl ;
+	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

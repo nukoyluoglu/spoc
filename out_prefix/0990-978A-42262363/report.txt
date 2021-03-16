@@ -1,0 +1,41 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer arrays a , b with a size 5000 , b size 5000	int a [ 5000 ] = { 0 }, b [ 3000 ] ;
+	int a [ 5000 ] , b [ 5000 ] ;	NA
+create integer array flag of size 5000	int flag [ 5000 ] ;
+	int flag [ 5000 ] ;	1
+set bytes from flag to size of flag to value true	memset ( flag, true, sizeof flag ) ;
+	memset ( flag , true , sizeof ( flag ) ) ;	NA
+create integer n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive , read a [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ i ] ; }	NA
+create integer len with len = 0	int len = 0 ;
+	int len = 0 ;	1
+for i = n - 1 to 0 inclusive , decrementing i	for ( int i = n - 1 ; i >= 0 ; i -- )
+	for ( int i = n - 1 ; i >= 0 ; i -- )	1
+if flag [ a [ i ] ] is true	if ( flag [ a [ i ] ] )
+	if ( flag [ a [ i ] ] )	1
+increment len	len ++ ;
+	len ++ ;	1
+set b [ len ] to a [ i ]	b [ len ] = a [ i ] ;
+	b [ len ] = a [ i ] ;	1
+set flag [ a [ i ] ] to false	flag [ a [ i ] ] = false ;
+	flag [ a [ i ] ] = false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print len print newline	cout << len << endl ;
+	cout << len << endl ;	1
+for i = len to 1 inclusive , decrementing i	for ( int i = len ; i >= 1 ; i -- )
+	for ( int i = len ; i >= 1 ; i -- )	1
+if i is not 1	if ( i!= 1 )
+	if ( i != 1 )	NA
+print b [ i ] print ' '	cout << b [ i ] <<' ';
+	cout << b [ i ] << ' ' ;	NA
+else	else
+	else	1
+print b [ i ] print newline	cout << b [ i ] << endl ;
+	cout << b [ i ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

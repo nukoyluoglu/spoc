@@ -1,0 +1,26 @@
+declare long longs p , he and shu	long long p, he, shu ;
+	long long p , he , shu ;	NA
+declare integer n	int n ;
+	int n ;	1
+declare an array of strings s with 50 elements	string s [ 50 ] ;
+	string s [ 50 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read input to n and p	cin >> n >> p ;
+	cin >> n >> p ;	1
+divide p by 2	p /= 2 ;
+	p /= 2 ;	1
+for i = 1 to n inclusive , read s [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> s [ i ] ;
+	for ( int i = 1 ; i <= n ; i ++ ) cin >> s [ i ] ;	1
+for integer i = n to 1 inclusive counting down	for ( int i = n ; i >= 1 ; i -- )
+	for ( int i = n ; i >= 1 ; i -- )	1
+set shu to shu * 2	shu *= 2 ;
+	shu = shu * 2 ;	NA
+if s [ i ] ! = " half " , increase shu by 1	if ( s [ i ]!= " half " ) shu ++ ;
+	if ( s [ i ] != " half " ) shu += 1 ;	NA
+add shu to he	he += shu ;
+	he += shu ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print he * p	cout << he * p << endl ;
+	cout << he * p << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

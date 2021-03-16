@@ -1,0 +1,18 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long integers n , m , a , b	long long int n, m, a, b ;
+	long long int n , m , a , b ;	NA
+read n read m read a read b	cin >> n >> m >> a >> b ;
+	cin >> n >> m >> a >> b ;	1
+if m * a is less than b	if ( m * a < b )
+	if ( m * a < b )	1
+print n * a print newline	cout << n * a << endl ;
+	cout << n * a << endl ;	1
+else	else
+	else	1
+create long long integer price with price = ( n / m ) * b + minimum of ( n % m ) * b and b	long long int price = ( n / m ) * b + min ( n % m, b ) ;
+	long long int price = ( n / m ) * b + min ( ( n % m ) * a , b ) ;	NA
+print price print newline	cout << price << endl ;
+	cout << price << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

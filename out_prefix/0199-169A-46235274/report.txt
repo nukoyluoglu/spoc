@@ -1,0 +1,17 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , a , b , i , ans = int	int n, a, b, i, ans ;
+	int n , a , b , i , ans ;	NA
+read n then a then b	cin >> n >> a >> b ;
+	cin >> n >> a >> b ;	1
+f = int vector of size n	vector < int > f ( n ) ;
+	vector < int > f ( n ) ;	1
+read n values into f	for ( i = 0 ; i < n ; i ++ ) cin >> f [ i ] ;
+	for ( i = 0 ; i < n ; i ++ ) cin >> f [ i ] ;	1
+sort f from rbegin to rend	sort ( f. begin ( ), f. rend ( ) ) ;
+	sort ( f . rbegin ( ) , f . rend ( ) ) ;	NA
+set ans to n , a , b , i , ans	ans = n >> a >> b >> i ;
+	ans = - ( f [ a ] - f [ a - 1 ] ) ;	NA
+print ans	cout << ans << endl ;
+	cout << ans << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

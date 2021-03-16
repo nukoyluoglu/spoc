@@ -1,0 +1,17 @@
+create integer array h with size 2000	int h [ 2000 ] ;
+	int h [ 2000 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , a , b	int n, a, b ;
+	int n , a , b ;	NA
+read n read a read b	cin >> n >> a >> b ;
+	cin >> n >> a >> b ;	1
+for i = 0 to n exclusive , read h [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> h [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> h [ i ] ; }	NA
+sort elements from h to h + n	sort ( h, h + n ) ;
+	sort ( h , h + n ) ;	NA
+create integer ans with ans = h [ b ] - h [ b - 1 ]	int ans = h [ b ] - h [ c - 1 ] ;
+	int ans = h [ b ] - h [ b - 1 ] ;	NA
+print ans print newline	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

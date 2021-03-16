@@ -1,0 +1,49 @@
+N = int	int N ;
+	int N ;	1
+P = long long	long long P ;
+	long long P ;	1
+S = array of 2000010 string	string S [ 2000010 ] ;
+	string S [ 2000010 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read N , P	cin >> N >> P ;
+	cin >> N >> P ;	1
+for i = 1 to N inclusive read S [ i ]	for ( int i = 1 ; i <= N ; i ++ ) cin >> S [ i ] ;
+	for ( int i = 1 ; i <= N ; i ++ ) { cin >> S [ i ] ; }	NA
+fans = 0	int fans = 0 ;
+	long double fans = 0 ;	NA
+for i = N down to 1 inclusive	for ( int i = N ; i >= 1 ; i -- )
+	for ( int i = N ; i >= 1 ; i -- )	1
+if S [ i ] is " halfplus "	if ( S [ i ] == " halfplus " )
+	if ( S [ i ] == " halfplus " )	1
+add 0 . 5 to fans	Fans += 0.5 ;
+	fans += 0.5 ;	NA
+multiply fans by 2	fans *= 2 ;
+	fans *= 2.00000000 ;	NA
+else	else
+	else	1
+multiply fans by 2	fans *= 2 ;
+	fans *= 2.00000000 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+cost = 0	int cost = 0 ;
+	long double cost = 0 ;	NA
+for i = 1 to N inclusive	for ( int i = 1 ; i <= N ; i ++ )
+	for ( int i = 1 ; i <= N ; i ++ )	1
+add ( fans / 2 ) * P to cost	cost += ( fans / 2 ) * P ;
+	cost += ( fans / 2.00000 ) * ( P ) ;	NA
+if S [ i ] is " half "	if ( S [ i ] == " half " )
+	if ( S [ i ] == " half " )	1
+divide fans by 2	frests /= 2 ;
+	fans /= 2.000 ;	NA
+else	else
+	else	1
+divide fans by 2	fans /= 2 ;
+	fans /= 2.000 ;	NA
+subtract 0 . 5 from fans	fans -= 0.5 ;
+	fans -= 0.500 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print cost with 0 decimal digits	cout. precision ( 0 ) ;
+	cout << fixed << setprecision ( 0 ) << cost << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

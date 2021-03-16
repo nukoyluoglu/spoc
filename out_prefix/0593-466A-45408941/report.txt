@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , m	int n, m ;
+	int n , m ;	NA
+create floats a , b	float a, b ;
+	float a , b ;	NA
+read n read m read a read b	cin >> n >> m >> a >> b ;
+	cin >> n >> m >> a >> b ;	1
+create integer sum with sum = 0	int sum = 0 ;
+	int sum = 0 ;	1
+if ( n % m ) * a is less than or equal to b	if ( ( n % m ) * a <= b )
+	if ( ( n % m ) * a <= b )	1
+increment sum by n / m * b + ( n % m ) * a	sum += n / m * b + ( n % m ) * a ;
+	sum += n / m * b + ( n % m ) * a ;	1
+else	else
+	else	1
+set sum to ( n / m + 1 ) * b	sum = ( n / m + 1 ) * b ;
+	sum = ( n / m + 1 ) * b ;	1
+if sum is greater than n * a , set sum to n * a	if ( sum > n * a ) sum = n * b ;
+	if ( sum > n * a ) sum = n * a ;	NA
+print sum print newline	cout << sum << endl ;
+	cout << sum << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

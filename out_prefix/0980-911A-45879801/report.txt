@@ -1,0 +1,30 @@
+arr = array of integers of length 1000000	int arr [ 1000000 ] ;
+	int arr [ 1000000 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n be a integer	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+let minimum , answer be integers wih answer = ( int ) 1e9	int minimum, answer = ( int ) 1e9 ;
+	int minimum , answer = ( int ) 1e9 ;	NA
+create a vector of integers with name occurrences	vector < int > occurrences ;
+	vector < int > occurrences ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read arr [ i ]	cin >> arr [ i ] ;
+	cin >> arr [ i ] ;	1
+if not i , minimum is equal to arr [ 0 ]	if (! i ) minimum = arr [ 0 ] ;
+	if ( ! i ) minimum = arr [ 0 ] ;	NA
+minimum is equal to minimum of minimum , arr [ i ]	minimum = min ( minimum, arr [ i ] ) ;
+	minimum = min ( minimum , arr [ i ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if arr [ i ] is equal to minimum , push i into occurrences from back	if ( arr [ i ] == minimum ) back. push_back ( i ) ;
+	if ( arr [ i ] == minimum ) occurrences . push_back ( i ) ;	NA
+for i = 1 to length of occurrences exclusive , answer = minimum of answer , occurrences [ i ] - occurrences [ i - 1 ]	for ( int i = 1 ; i < occurrences. size ( ) ; i ++ ) answer = min ( answer, occurrences [ i ] - occurrences [ 1 - 1 ] ) ;
+	for ( int i = 1 ; i < occurrences . size ( ) ; i ++ ) answer = min ( answer , occurrences [ i ] - occurrences [ i - 1 ] ) ;	NA
+print answer and newline	cout << answer << endl ;
+	cout << answer << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

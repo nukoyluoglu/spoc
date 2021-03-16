@@ -1,0 +1,17 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n and i and an arrays of integers a and b with size 100000	int n, i, a [ 100000 ], b [ 1000000 ] ;
+	int n , i , a [ 100000 ] , b [ 100000 ] ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+read n elements into a	for ( i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;
+	for ( i = 0 ; i < n ; i ++ ) { cin >> a [ i ] ; }	NA
+for i = 0 to n - 1 exclusive , set value of b [ i ] to a [ i ] + a [ i + 1 ]	for ( i = 0 ; i < n - 1 ; i ++ ) { b [ i ] = a [ 1 ] + a [ i + 1 ] ; }
+	for ( i = 0 ; i < n - 1 ; i ++ ) { b [ i ] = a [ i ] + a [ i + 1 ] ; }	NA
+set value of b [ n - 1 ] to a [ n - 1 ]	b [ n - 1 ] = a [ n -- 1 ] ;
+	b [ n - 1 ] = a [ n - 1 ] ;	NA
+for i = 0 to n - 1 exclusive print b [ i ] and " "	for ( i = 0 ; i < n - 1 ; i ++ ) { cout << b [ i ] << " " ; }
+	for ( i = 0 ; i < n - 1 ; i ++ ) { cout << b [ i ] << " " ; }	1
+print b [ n - 1 ]	cout << b [ n - 1 ] << endl ;
+	cout << b [ n - 1 ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

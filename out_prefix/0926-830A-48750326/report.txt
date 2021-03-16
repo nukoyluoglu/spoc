@@ -1,0 +1,66 @@
+create long longs n , k , p	long long n, k, p ;
+	long long n , k , p ;	NA
+create long long arrays a , b , with a size 1005 , b size 2005	long long a [ 1005 ], b [ 2005 ] ;
+	long long a [ 1005 ] , b [ 2005 ] ;	NA
+declare moze with long long x as argument , returning boolean	bool moze ( long long x )
+	bool moze ( long long x )	1
+create long long h with h = 0	long long h = 0 ;
+	long long h = 0 ;	1
+for i = 0 to n exclusive	for ( long long i = 0 ; i < n ; i ++ )
+	for ( long long i = 0 ; i < n ; i ++ )	1
+if h is k , return false from function	if ( h == k ) return false ;
+	if ( h == k ) return false ;	1
+create boolean sat with sat = false	bool sat = false ;
+	bool sat = false ;	1
+while h is less than k	while ( h < k )
+	while ( h < k )	1
+create long long d with d = absolute value of ( a [ i ] - b [ h ] ) + absolute value of ( b [ h ] - p )	long long d = abs ( a [ i ] - b [ h ] ) + abs ( b [ u ] - p ) ;
+	long long d = abs ( a [ i ] - b [ h ] ) + abs ( b [ h ] - p ) ;	NA
+increment h	h ++ ;
+	h ++ ;	1
+if d is less than or equal to x	if ( d <= x )
+	if ( d <= x )	1
+set sat to true	sat = true ;
+	sat = true ;	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if not sat , return false from function	if (! sat ) return false ;
+	if ( ! sat ) return false ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return true from function	return true ;
+	return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n read k read p	cin >> n >> k >> p ;
+	cin >> n >> k >> p ;	1
+for i = 0 to n exclusive , read a [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;	1
+for i = 0 to k exclusive , read b [ i ]	for ( int i = 0 ; i < k ; i ++ ) cin >> b [ i ] ;
+	for ( int i = 0 ; i < k ; i ++ ) cin >> b [ i ] ;	1
+sort elements from a to a + n	sort ( a, a + n ) ;
+	sort ( a , a + n ) ;	NA
+sort elements from b to b + n	sort ( b, b + n ) ;
+	sort ( b , b + k ) ;	NA
+create long longs l , r , o , with l = 0 , r = 4e9 , o = - 1	long long l = 0, r = 4e9, o = - 1 ;
+	long long l = 0 , r = 4e9 , o = - 1 ;	NA
+while l is less than or equal to r	while ( l <= r )
+	while ( l <= r )	1
+create long long m with m = ( l + r ) bitshift right 1	long long m = ( l + r ) >> 1 ;
+	long long m = ( l + r ) >> 1 ;	1
+if result of run moze with m as argument is true	if ( moze ( m ) )
+	if ( moze ( m ) )	1
+set o to m	o = m ;
+	o = m ;	1
+set r to m - 1	r = m - 1 ;
+	r = m - 1 ;	1
+else	else
+	else	1
+set l to m + 1	l = m + 1 ;
+	l = m + 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print o print ' \ n '	cout << o <<'\n';
+	cout << o << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

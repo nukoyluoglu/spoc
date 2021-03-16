@@ -1,0 +1,88 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+integers = a	int a ;
+	int a ;	1
+read a	cin >> a ;
+	cin >> a ;	1
+set int l to 0	int l = 0 ;
+	int l = 0 ;	1
+set int m to a	int m = a ;
+	int m = a ;	1
+for i = 0 to less than a do the following	for ( int i = 0 ; i < a ; i ++ )
+	for ( int i = 0 ; i < a ; i ++ )	1
+set m to m / 10	m /= 10 ;
+	m = m / 10 ;	NA
+set l to l + 1	l = l + 1 ;
+	l = l + 1 ;	1
+if m is 0 then do break	if ( m == 0 ) break ;
+	if ( m == 0 ) { break ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for k = 1 to less than or equal to l do the following	for ( int k = 1 ; k <= l ; k ++ )
+	for ( int k = 1 ; k <= l ; k ++ )	1
+set int b [ k ] to	int b [ k ] = ;
+	int b [ k ] = { } ;	NA
+for i = 1 to less than or equal to k do the following	for ( int i = 1 ; i <= k ; i ++ )
+	for ( int i = 1 ; i <= k ; i ++ )	1
+set int sum1 to 0	int sum1 = 0 ;
+	int sum1 = 0 ;	1
+set b [ k - i ] to 4	b [ k - i ] = 4 ;
+	b [ k - i ] = 4 ;	1
+for j = 0 to less than k then sum1 = 10 * sum1 + b [ j ]	for ( int j = 0 ; j < k ; j ++ ) sum1 = 10 * sum1 + b [ j ] ;
+	for ( int j = 0 ; j < k ; j ++ ) { sum1 = 10 * sum1 + b [ j ] ; }	NA
+if a modulo sum1 is 0 then do	if ( a % sum1 == 0 )
+	if ( a % sum1 == 0 )	1
+output YES	cout << " YES\n " ;
+	cout << " YES " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 1 to less than or equal to k do the following	for ( int i = 1 ; i <= k ; i ++ )
+	for ( int i = 1 ; i <= k ; i ++ )	1
+set int sum1 to 0	int sum1 = 0 ;
+	int sum1 = 0 ;	1
+set b [ k - i ] to 7	b [ k - i ] = 7 ;
+	b [ k - i ] = 7 ;	1
+for j = 0 to less than k do the following	for ( int j = 0 ; j < k ; j ++ )
+	for ( int j = 0 ; j < k ; j ++ ) { sum1 = 10 * sum1 + b [ j ] ; }	NA
+if a modulo sum1 is 0 then do	if ( a % sum1 == 0 )
+	if ( a % sum1 == 0 )	1
+output YES	cout << " YES\n " ;
+	cout << " YES " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for j = 0 to less than k do b [ j ] = 0	for ( int j = 0 ; j < k ; j ++ ) b [ j ] ='0';
+	for ( int j = 0 ; j < k ; j ++ ) { b [ j ] = 0 ; }	NA
+for i = 1 to less than or equal to k do the following	for ( int i = 1 ; i <= k ; i ++ )
+	for ( int i = 1 ; i <= k ; i ++ )	1
+set int sum1 to 0	int sum1 = 0 ;
+	int sum1 = 0 ;	1
+set b [ k - i ] to 7	b [ k - i ] = 7 ;
+	b [ k - i ] = 7 ;	1
+for j = 0 to less than k do the following	for ( int j = 0 ; j < k ; j ++ )
+	for ( int j = 0 ; j < k ; j ++ ) { sum1 = 10 * sum1 + b [ j ] ; }	NA
+if a modulo sum1 is 0 then do	if ( a % sum1 == 0 )
+	if ( a % sum1 == 0 )	1
+output YES	cout << " YES\n " ;
+	cout << " YES " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 1 to less than or equal to k do the following	for ( int i = 1 ; i <= k ; i ++ )
+	for ( int i = 1 ; i <= k ; i ++ )	1
+set int sum1 to 0	int sum1 = 0 ;
+	int sum1 = 0 ;	1
+set b [ k - i ] to 4	b [ k - i ] = 4 ;
+	b [ k - i ] = 4 ;	1
+for j = 0 to less than k do the following	for ( int j = 0 ; j < k ; j ++ )
+	for ( int j = 0 ; j < k ; j ++ ) { sum1 = 10 * sum1 + b [ j ] ; }	NA
+if a modulo sum1 is 0 then do	if ( a % sum1 == 0 )
+	if ( a % sum1 == 0 )	1
+output YES	cout << " YES\n " ;
+	cout << " YES " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+output NO	cout << " NO\n " ;
+	cout << " NO " << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

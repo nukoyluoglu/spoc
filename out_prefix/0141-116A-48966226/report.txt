@@ -1,0 +1,20 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , r , t , with r = 0 , t = 0	int n, r = 0, t = 0 ;
+	int n , r = 0 , t = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+create integers a , b	int a, b ;
+	int a , b ;	NA
+read a read b	cin >> a >> b ;
+	cin >> a >> b ;	1
+set t to t = a + b	t = a + b ;
+	t = t - a + b ;	NA
+if t is greater than r , set r to t	if ( t > r ) r = t ;
+	if ( t > r ) r = t ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print r print newline	cout << r << endl ;
+	cout << r << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

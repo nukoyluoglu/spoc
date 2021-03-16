@@ -1,0 +1,31 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create ints participants , bottles , and towels	int participants, bottles, towels ;
+	int participants , bottles , towels ;	NA
+let ints total_b = 0 , total_t = 0 , and matches	int total_b = 0, total_t ( 0 ), matches ;
+	int total_b = 0 , total_t = 0 , matches ;	NA
+read participants , bottles , and towels	cin >> participants >> bottles >> towels ;
+	cin >> participants >> bottles >> towels ;	1
+set total_t to the result of participants * towels	total_t = participants * towels ;
+	total_t = participants * towels ;	1
+while participants is not 1	while ( participants!= 1 )
+	while ( participants != 1 )	NA
+set matches to participants / 2	matches = participants / 2 ;
+	matches = participants / 2 ;	1
+if participants modulo 2 is equal to 1	if ( participants % 2 == 1 )
+	if ( participants % 2 == 1 )	1
+set total_ b to total_b + ( participants - 1 ) * bottles + matches	total_b += ( participants - 1 ) * bottles + matches ;
+	total_b += ( participants - 1 ) * bottles + matches ;	1
+set participants to participants / 2 + 1	participants = participants / 2 + 1 ;
+	participants = participants / 2 + 1 ;	1
+otherwise do	else
+	else	1
+set total_b to total_b + participants * bottles + matches	total_b += participants * bottles + matches ;
+	total_b += participants * bottles + matches ;	1
+set participants to the result of participants / 2	participants = participants / 2 ;
+	participants = participants / 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print total_b , " " , and total_t	cout <<total_b << " " << total_t << endl ;
+	cout << total_b << " " << total_t << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

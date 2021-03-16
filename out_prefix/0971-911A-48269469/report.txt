@@ -1,0 +1,56 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer x	int x ;
+	int x ;	1
+read x from the input	cin >> x ;
+	cin >> x ;	1
+create new array of integers ara with x elements	int ara [ x ] ;
+	int ara [ x ] ;	1
+create new integer maxn	int maxn ;
+	int maxn ;	1
+create new set of integers s	set < int > s ;
+	set < int > s ;	1
+set maxn to 1000000009	maxn = 1000000009 ;
+	maxn = 1000000009 ;	1
+declare new integer variable d with value 1000000009	int d = 1000000009 ;
+	int d = 1000000009 ;	1
+create boolean variable with name b with value 0	bool b = 0 ;
+	bool b = 0 ;	1
+in the for loop , change integer w from 0 to x exclusive	for ( int w = 0 ; w < x ; w ++ )
+	for ( int w = 0 ; w < x ; w ++ )	1
+read variable ara [ w ] from the input	cin >> ara [ w ] ;
+	cin >> ara [ w ] ;	1
+if ara [ w ] is less than maxn , change maxn to ara [ w ]	if ( ara [ w ] < maxn ) maxn = ara ( w ] ;
+	if ( ara [ w ] < maxn ) { maxn = ara [ w ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for w from 0 to x exclusive	for ( int w = 0 ; w < x ; w ++ )
+	for ( int w = 0 ; w < x ; w ++ )	1
+if ara [ w ] = maxn , insert w into set s	if ( ara [ w ] == maxn ) s. insert ( w ) ;
+	if ( ara [ w ] == maxn ) { s . insert ( w ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+i is a new iterator for the set of integers	set < int > :: iterator i ;
+	set < int > :: iterator i ;	1
+j is a new iterator for the set of integers pointed to the end of s	set < int > :: iterator j = s. begin ( ) ;
+	set < int > :: iterator j = s . end ( ) ;	NA
+decrement j	j -- ;
+	j -- ;	1
+declare ints l and m	int l, m ;
+	int l , m ;	NA
+move i through s in a for loop	for ( ; i = s. begin ( ) ; )
+	for ( i = s . begin ( ) ; i != s . end ( ) ; i ++ )	NA
+if i is equal to j , skip the rest of the loop	if ( i == j ) continue ;
+	if ( i == j ) continue ;	1
+change m to the value pointed by i	m = pointed ( i ) ;
+	m = * i ;	NA
+increment i	i ++ ;
+	i ++ ;	1
+change l to the value pointed by i	l = pointed ( i ) ;
+	l = * i ;	NA
+decrement i	i -- ;
+	i -- ;	1
+if l - m is less than d , set d to ( l - m )	if ( ( l - m ) < d ) { d = ( k ) - m ; }
+	if ( l - m < d ) d = ( l - m ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print d to the standard output	cout << d << endl ;
+	cout << d << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

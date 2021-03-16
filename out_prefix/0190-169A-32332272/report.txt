@@ -1,0 +1,23 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = integer with 0	int n = 0 ;
+	int n = 0 ;	1
+a = integer with 0	int a = 0 ;
+	int a = 0 ;	1
+b = integer with 0	int b = 0 ;
+	int b = 0 ;	1
+Read n	cin >> n ;
+	cin >> n ;	1
+Read a	cin >> a ;
+	cin >> a ;	1
+Read b	cin >> b ;
+	cin >> b ;	1
+h = array of 2000 integers	int h [ 2000 ] ;
+	int h [ 2000 ] ;	1
+Read n values into array h	for ( int i = 0 ; i < n ; i ++ ) { cin >> h [ i ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) cin >> h [ i ] ;	NA
+sort array elements of h in ascending order	sort ( h, h + n ) ;
+	sort ( h , h + n ) ;	NA
+print h [ b ] - h [ b - 1 ] and a new line	cout << h [ b ] - h [ c - 1 ] << endl ;
+	cout << h [ b ] - h [ b - 1 ] << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

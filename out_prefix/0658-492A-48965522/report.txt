@@ -1,0 +1,27 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let int n	int n ;
+	int n ;	1
+read n and while n is truthy	while ( cin >> n )
+	while ( cin >> n )	1
+let long long int sum = 0	long long int sum = 0 ;
+	long long sum = 0 ;	NA
+let int i	int i ;
+	int i ;	1
+for i = 1 loop indefinitely	for ( i ; ; i ++ )
+	for ( i = 1 ; ; i ++ )	NA
+make long long current = 1LL * i * ( i + 1 ) / 2	long long current = 1LL * i * ( i + 1 ) / 2 ;
+	long long current = 1LL * i * ( i + 1 ) / 2 ;	1
+if sum + current is less than or equal to n	if ( sum + current <= n )
+	if ( sum + current <= n )	1
+set n to n - sum + current	n -= sum + current ;
+	n -= sum + current ;	1
+else do	else
+	else	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print i - 1	cout << i - 1 << endl ;
+	cout << i - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

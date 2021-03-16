@@ -1,0 +1,44 @@
+declare integer n	int n ;
+	int n ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+create integers xmin and ymin = 1000000000 and xmax and ymax = - 1	int xmin = 1000000000, ymin = 1e9, xmax = - 1 ;
+	int xmin = 1000000000 , xmax = - 1 , ymin = 1000000000 , ymax = - 1 ;	NA
+create integer act = 0	int act = 0 ;
+	int act = 0 ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+create ints a , b , c and d	int a, b, c, d ;
+	int a , b , c , d ;	NA
+read a , b , c and d	cin >> a >> b >> c >> d ;
+	cin >> a >> b >> c >> d ;	1
+set xmin to min of xmin and a	xmin = min ( xmin, a ) ;
+	xmin = min ( xmin , a ) ;	NA
+set xmin to min of xmin and c	xmin = min ( xmin, c ) ;
+	xmin = min ( xmin , c ) ;	NA
+set xmax to min of xmax and a	xmax = min ( xmax, a ) ;
+	xmax = max ( xmax , a ) ;	NA
+set xmax to max of xmax and a	xmax = max ( xmax, a ) ;
+	xmax = max ( xmax , c ) ;	NA
+set ymin to min of ymin and b	ymin = min ( ymin, b ) ;
+	ymin = min ( ymin , b ) ;	NA
+set ymin to min of ymin and d	ymin = min ( ymin, d ) ;
+	ymin = min ( ymin , d ) ;	NA
+set ymax to max of ymax and b	ymax = max ( ymax, b ) ;
+	ymax = max ( ymax , b ) ;	NA
+set ymax to max of ymax and d	ymax = max ( ymax, d ) ;
+	ymax = max ( ymax , d ) ;	NA
+add abs ( a - c ) * abs ( b - d ) to act	act += abs ( a - c ) * abs ( b - d ) ;
+	act += ( abs ( a - c ) * abs ( b - d ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if ymax - ymin = xmax - xmin and act = ( ( ymax - ymin ) * ( xmax - xmin ) )	if ( ymax - ymin == xmax - xmin && act == ( ( ymin - yMin ) * ( xmax + xmin ) ) )
+	if ( ymax - ymin == xmax - xmin && act == ( ( ymax - ymin ) * ( xmax - xmin ) ) )	NA
+print " YES \ n "	cout << " YES\n " ;
+	cout << " YES\n " ;	1
+else	else
+	else	1
+print " NO \ n "	cout << " NO\n " ;
+	cout << " NO\n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

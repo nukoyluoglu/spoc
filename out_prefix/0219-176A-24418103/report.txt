@@ -1,0 +1,44 @@
+declare const int MOD = 1e9 + 7	const int MOD = 1e9 + 7 ;
+	const int MOD = 1e9 + 7 ;	1
+create integers n , m and k	int n, m, k ;
+	int n , m , k ;	NA
+create 2d arrays of integers a , b and c with size 10 by 100	int a [ 10 ], b [ 100 ], c [ 101 ] [ 110 ] ;
+	int a [ 10 ] [ 100 ] , b [ 10 ] [ 100 ] , c [ 10 ] [ 100 ] ;	NA
+integer function solve with int arguments u and v	int solve ( int u, int v )
+	int solve ( int u , int v )	NA
+create vector of integers profits	vector < int > profits ;
+	vector < int > profits ;	1
+for i = 0 to m exclusive	for ( int i = 0 ; i < m ; i ++ )
+	for ( int i = 0 ; i < m ; ++ i )	NA
+loop j from 0 to c [ u ] [ i ] exclusive , push max of 0 and b [ v ] [ i ] - a [ u ] [ i ] into profits	for ( int j = 0 ; j < c [ u ] [ i ] ; j ++ ) { profits. push_back ( max ( 0, b [ v ] [ 1 ] - a [ u - i ] ) ) ; }
+	for ( int j = 0 ; j < c [ u ] [ i ] ; ++ j ) profits . push_back ( max ( 0 , b [ v ] [ i ] - a [ u ] [ i ] ) ) ;	NA
+sort profits	sort ( profits. begin ( ), profits. end ( ) ) ;
+	sort ( profits . rbegin ( ) , profits . rend ( ) ) ;	NA
+declare integer variable ans = 0	int ans = 0 ;
+	int ans = 0 ;	1
+for i = 0 to min of k and length of profits exclusive , increase ans by profits [ i ]	for ( int i = 0 ; i < min ( k, profits. size ( ) ) ; i ++ ) { ans += profits [ i ] ; }
+	for ( int i = 0 ; i < min ( k , ( int ) profits . size ( ) ) ; ++ i ) ans += profits [ i ] ;	NA
+return ans	return ans ;
+	return ans ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , m and k	cin >> n >> m >> k ;
+	cin >> n >> m >> k ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+declare string variable name	string name ;
+	string name ;	1
+read name	cin >> name ;
+	cin >> name ;	1
+loop j from 0 to m exclusive , read a [ i ] [ j ] , b [ i ] [ j ] and c [ i ] [ j ]	for ( int j = 0 ; j < m ; j ++ ) { cin >> a [ i ] [ j ] >> b [ i - j ] ; }
+	for ( int j = 0 ; j < m ; ++ j ) cin >> a [ i ] [ j ] >> b [ i ] [ j ] >> c [ i ] [ j ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create integer ans = 0	int ans = 0 ;
+	int ans = 0 ;	1
+for i from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+for j from 0 to n exclusive , assign max of ans and solve ( i , j ) to ans	for ( int j = 0 ; j < n ; j ++ ) ans = max ( ans, solve ( i, j ) ) ;
+	for ( int j = 0 ; j < n ; ++ j ) ans = max ( ans , solve ( i , j ) ) ;	NA
+print ans and ' \ n '	cout << ans <<'\n';
+	cout << ans << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

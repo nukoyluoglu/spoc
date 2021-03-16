@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , a , b	int n, a, b ;
+	int n , a , b ;	NA
+read n read a read b	cin >> n >> a >> b ;
+	cin >> n >> a >> b ;	1
+create integer array p with size n	int p [ n ] ;
+	int p [ n ] ;	1
+for i = 0 to n exclusive , read p [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> p [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> p [ i ] ; }	NA
+sort elements from p to p + n	sort ( p, p + n ) ;
+	sort ( p , p + n ) ;	NA
+create long long count with count = 0	long long count = 0 ;
+	long long count = 0 ;	1
+if p [ b - 1 ] is not p [ b ]	if ( p [ b - 1 ]!= p [ c ] )
+	if ( p [ b - 1 ] != p [ b ] )	NA
+increment count by p [ b ] - p [ b - 1 ]	count += p [ b ] - p [ n - 1 ] ;
+	count += p [ b ] - p [ b - 1 ] ;	NA
+print count print newline	cout << count << endl ;
+	cout << count << endl ;	1
+else	else
+	else	1
+print " 0 " print newline	cout << " 0 " << endl ;
+	cout << " 0 " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

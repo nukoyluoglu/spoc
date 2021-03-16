@@ -1,0 +1,32 @@
+n , j , minnum and ans are integers with minnum = 1000000002 and ans = 100002	int n, j, minnum = 1000000002, ans = 100002 ;
+	int n , j , minnum = 1000000002 , ans = 100002 ;	NA
+create an arrays of ints a and flag with size 100005	int n, flag [ 100005 ] ;
+	int a [ 100005 ] , flag [ 100005 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i from 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+read a [ i ]	cin >> a [ i ] ;
+	cin >> a [ i ] ;	1
+if minnum is greater than a [ i ] , change minnum to a [ i ]	if ( minnum > a [ 1 ] ) minnum = a [ i ] ;
+	if ( minnum > a [ i ] ) minnum = a [ i ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i from 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if a [ i ] = minnum	if ( a [ i ] == minnum )
+	if ( a [ i ] == minnum )	1
+increment j	j ++ ;
+	j ++ ;	1
+change flag [ j ] to i	flag [ j ] = i ;
+	flag [ j ] = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for integer i = 1 to j exclusive	for ( int i = 1 ; i < j ; i ++ )
+	for ( int i = 1 ; i < j ; i ++ )	1
+if flag [ i + 1 ] - flag [ i ] is less than ans , set ans to flag [ i + 1 ] - flag [ i ]	if ( flag [ i + 1 ] - flag [ 1 ] < ans ) { ans = flag [ j + i ] -flag [ i ] ; }
+	if ( flag [ i + 1 ] - flag [ i ] < ans ) ans = flag [ i + 1 ] - flag [ i ] ;	NA
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

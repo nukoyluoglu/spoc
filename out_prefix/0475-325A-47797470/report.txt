@@ -1,0 +1,34 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+x1 , y1 , x2 , y2 and sum are long long ints where sum = 0	long long int x1, y1, x2, y2, sum = 0 ;
+	long long int x1 , y1 , x2 , y2 , sum = 0 ;	NA
+declare long long int minmum = INT_MIN , maxmum = INT_MIN , p = INT_MAX and q = INT_MAX	long long int minmum = INT_MIN, maxmum= INT_MAX, p = INTPMAX, q = INT-MAX ;
+	long long int minmum = INT_MIN , maxmum = INT_MIN , p = INT_MAX , q = INT_MAX ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read input to x1 , y1 , x2 and y2	cin >> x1 >> y1 >> x2 >> y2 ;
+	cin >> x1 >> y1 >> x2 >> y2 ;	1
+change maxmum to max of maxmum and max ( x2 and x1 )	maxmum = max ( maxmum, max ( x2, x1 ) ) ;
+	maxmum = max ( maxmum , max ( x2 , x1 ) ) ;	NA
+change minmum to max of minmum and max ( y2 and y1 )	minmum = max ( minmum, max ( y2, y1 ) ) ;
+	minmum = max ( minmum , max ( y2 , y1 ) ) ;	NA
+assign min of p and min ( y2 and y1 ) to p	p = min ( p, min ( y2, y1 ) ) ;
+	p = min ( p , min ( y2 , y1 ) ) ;	NA
+set q to min of q and min ( x2 and x1 )	q = min ( q, min ( x2, x1 ) ) ;
+	q = min ( q , min ( x2 , x1 ) ) ;	NA
+add fabs ( x2 - x1 ) * fabs ( y2 - y1 ) to sum	sum += fabs ( x2 - x1 ) * fabs [ y2 - y1 ] ;
+	sum += fabs ( x2 - x1 ) * fabs ( y2 - y1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if sum = ( ( minmum - p ) * ( maxmum - q ) ) and ( maxmum - q ) = = ( minmum - p )	if ( ( sum == ( ( minmum - p ) * ( maxmum- q ) ) && ( maxMum - q ) == ( minpum - x1 ) )
+	if ( sum == ( ( minmum - p ) * ( maxmum - q ) ) && ( maxmum - q ) == ( minmum - p ) )	NA
+print " YES "	cout << " YES\n " ;
+	cout << " YES " << endl ;	NA
+else	else
+	else	1
+print " NO \ n "	cout << " NO\n " ;
+	cout << " NO\n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

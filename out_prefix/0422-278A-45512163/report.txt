@@ -1,0 +1,52 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = long long int	long long int n ;
+	long long int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+d = long long int array of size n	long long int d [ n ] ;
+	long long int d [ n ] ;	1
+read n values into d	for ( long long int i = 0 ; i < n ; i ++ ) cin >> d [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> d [ i ] ; }	NA
+s , t = long long int	long long int s, t ;
+	long long int s , t ;	NA
+read s then t	cin >> s >> t ;
+	cin >> s >> t ;	1
+if s is greater than t	if ( s > t )
+	if ( s > t )	1
+temp = long long int with temp = s	long long int temp = s ;
+	long long int temp = s ;	1
+set s to t	s = t ;
+	s = t ;	1
+set t to temp	t = temp ;
+	t = temp ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+dist1 , dist2 = long long int with dist1 = 0 and dist2 = 0	long long int dist1 = 0, dist2 = 0 ;
+	long long int dist1 = 0 , dist2 = 0 ;	NA
+for i = s - 1 to t - 1 increment dist1 by d [ i ]	for ( long long int i = s - 1 ; i < t ; i ++ ) dist1 += d [ i ] ;
+	for ( int i = s - 1 ; i < t - 1 ; i ++ ) { dist1 += d [ i ] ; }	NA
+flag = bool with flag = true	bool flag = true ;
+	bool flag = true ;	1
+for i = t - 1 to s - 1	for ( long long int i = t - 1 ; i <= s - l ; i ++ )
+	for ( int i = t - 1 ; i != s - 1 ; i ++ )	NA
+if i is a multiple of n and flag is true	if ( i % n == 0 && flag )
+	if ( i % n == 0 && flag )	1
+set i to - 1	i = - 1 ;
+	i = - 1 ;	1
+set flag to false	flag = false ;
+	flag = false ;	1
+continue	continue ;
+	continue ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+increment dist2 by d [ i ]	dist2 += d [ i ] ;
+	dist2 += d [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if dist2 > dist1	if ( dist2 > dist1 )
+	if ( dist2 > dist1 )	1
+print dist1	cout << dist1 << endl ;
+	cout << dist1 << endl ;	1
+else	else
+	else	1
+print dist2	cout << dist2 << endl ;
+	cout << dist2 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

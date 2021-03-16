@@ -1,0 +1,23 @@
+create string st and string array st1 of size 102	string st, st1 [ 102 ] ;
+	string st , st1 [ 102 ] ;	NA
+let long long int n	long long int n ;
+	long long n ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read st and n	cin >> st >> n ;
+	cin >> st >> n ;	1
+for i = 1 to n , read st1 [ i ]	for ( long long int i = 1 ; i <= n ; i ++ ) cin >> st1 [ i ] ;
+	for ( int i = 1 ; i <= n ; i ++ ) cin >> st1 [ i ] ;	NA
+sort st1 + 1 using argument st1 + n + 1	sort ( st1 + 1, st1+ n + 1 ) ;
+	sort ( st1 + 1 , st1 + n + 1 ) ;	NA
+for i = 1 to n	for ( long long int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	NA
+if st [ i ] . find ( st ) is equal to 0	if ( st [ i ]. find ( st ) == 0 )
+	if ( st1 [ i ] . find ( st ) == 0 )	NA
+print st1 [ i ]	cout << st1 [ i ] << endl ;
+	cout << st1 [ i ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print st	cout << st << endl ;
+	cout << st << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

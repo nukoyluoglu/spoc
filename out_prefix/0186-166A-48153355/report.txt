@@ -1,0 +1,20 @@
+n , i , p , t , k = int and a = int array of size 111111	int n, i, p, t, k, a [ 111111 ] ;
+	int n , i , a [ 111111 ] , p , t , k ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n then k	cin >> n >> k ;
+	cin >> n >> k ;	1
+for i = 0 to n	for ( i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	1
+read p then t	cin >> p >> t ;
+	cin >> p >> t ;	1
+increment a [ p * 50 - t ]	a [ p * 50 - t ] ++ ;
+	a [ p * 50 - t ] ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set t to 2500	t = 2500 ;
+	t = 2500 ;	1
+loop while a [ t ] is less than k decrement k by a [ t ] then decrement t	while ( a [ t ] < k ) { k -= a [ ++ t ], t -- ; }
+	while ( a [ t ] < k ) k -= a [ t -- ] ;	NA
+print a [ t ]	cout << a [ t ] << endl ;
+	cout << a [ t ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

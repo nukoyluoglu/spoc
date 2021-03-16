@@ -1,0 +1,28 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare long long variables cans , sum and aux , with sum = 0	long long cans, sum = 0, aux ;
+	long long cans , sum = 0 , aux ;	NA
+read cans	cin >> cans ;
+	cin >> cans ;	1
+val is an array of long longs with size cans + 2	long long val [ cans + 2 ] ;
+	long long val [ cans + 2 ] ;	1
+for i = 0 to cans exclusive	for ( int i = 0 ; i < cans ; i ++ )
+	for ( int i = 0 ; i < cans ; i ++ )	1
+read aux	cin >> aux ;
+	cin >> aux ;	1
+increase sum by aux	sum += aux ;
+	sum += aux ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+read val cans times	for ( int i = 0 ; i < cans ; i ++ ) cin >> val [ i ] ;
+	for ( int i = 0 ; i < cans ; i ++ ) cin >> val [ i ] ;	1
+sort val	sort ( val, val + cans ) ;
+	sort ( val , val + cans ) ;	NA
+if sum < = val [ cans - 1 ] + val [ cans - 2 ]	if ( sum <= val [ cans - 1 ] + val [ can - 2 ] )
+	if ( sum <= val [ cans - 1 ] + val [ cans - 2 ] )	NA
+print " YES \ n "	cout << " YES\n " ;
+	cout << " YES\n " ;	1
+else	else
+	else	1
+print " NO \ n "	cout << " NO\n " ;
+	cout << " NO\n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,28 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;
+	int n ;	1
+create integer maxValue set maxValue = INT_MIN	int maxValue = INT_MIN ;
+	int maxValue = INT_MIN ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create Integer a , b	int a, b ;
+	int a , b ;	NA
+create integer d set d = 0	int d = 0 ;
+	int d = 0 ;	1
+create integer c set c = 0	int c = 0 ;
+	int c = 0 ;	1
+for i = 0 to n execute	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+print a , b	cin >> a >> b ;
+	cin >> a >> b ;	1
+set c = c + a	c += a ;
+	c = c + a ;	NA
+set d = d + b	d += b ;
+	d = d + b ;	NA
+if maxValue is less than the absolute value of c - d set maxValue = abs ( c - d )	maxValue = abs ( c - d ) ;
+	if ( maxValue < abs ( c - d ) ) maxValue = abs ( c - d ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print maxValue	cout << maxValue << endl ;
+	cout << maxValue << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

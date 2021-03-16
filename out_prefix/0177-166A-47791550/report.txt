@@ -1,0 +1,61 @@
+mod = int with mod = 1e9 + 7	int mod = 1e9 + 7 ;
+	int mod = ( 1e9 ) + 7 ;	NA
+n = int	int n ;
+	int n ;	1
+N = const int with N = 50	const int N = 50 ;
+	const int N = 50 ;	1
+p , t = int array of size N each	int * p = new int [ N ], t [ N N ] ;
+	int p [ N ] , t [ N ] ;	NA
+in function compare taking int a , int b and returning bool	bool compare ( int a, int b )
+	bool compare ( int a , int b )	NA
+if p [ a ] > p [ b ] return 1	if ( p [ a ] > p [ b ] ) return 1 ;
+	if ( p [ a ] > p [ b ] ) return 1 ;	1
+if p [ a ] is p [ b ] and t [ a ] < = t [ b ] return 1	if ( ( p [ a ] == p [ b ] ) && ( t [ p ] <= t [ b - 1 ] ) ) return 1 ;
+	if ( p [ a ] == p [ b ] && t [ a ] <= t [ b ] ) return 1 ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+in function eq taking int a , int b and returning bool	bool eq ( int a, int b )
+	bool eq ( int a , int b )	NA
+if p [ a ] is p [ b ] and t [ a ] is t [ b ] return 1	if ( ( p [ a ] == p [ b ] ) && ( ( t [ a - 1 ] == t [ b + 1 ] ) ) return 1 ) ;
+	if ( p [ a ] == p [ b ] && t [ a ] == t [ b ] ) return 1 ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+k = int	int k ;
+	int k ;	1
+read n then k	cin >> n >> k ;
+	cin >> n >> k ;	1
+a = int array of size n	int a [ n ] ;
+	int a [ n ] ;	1
+for i = 0 to n	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read p [ i ] then t [ i ]	cin >> p [ i ] >> t [ 1 ] ;
+	cin >> p [ i ] >> t [ i ] ;	NA
+set a [ i ] to i	a [ i ] = i ;
+	a [ i ] = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+call stable_sort on a , a + n , compare	stable_sort ( a, a + n, compare ) ;
+	stable_sort ( a , a + n , compare ) ;	NA
+c = int with c = 1	int c = 1 ;
+	int c = 1 ;	1
+i = int with i = k - 2	int i = k - 2 ;
+	int i = k - 2 ;	1
+loop while i > = 0 and eq of a [ k - 1 ] , a [ i ]	while ( i >= 0 && eq ( a [ k - 1 ], a [ i ] ) )
+	while ( i >= 0 && eq ( a [ k - 1 ] , a [ i ] ) )	NA
+increment c	c ++ ;
+	c ++ ;	1
+decrement i	i -- ;
+	i -- ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set to k	k = 0 ;
+	i = k ;	NA
+loop while i < n and eq of a [ k - 1 ] , a [ i ]	while ( i < n && eq ( a [ k - 1 ], a [ i ] ) )
+	while ( i < n && eq ( a [ k - 1 ] , a [ i ] ) )	NA
+increment c	c ++ ;
+	c ++ ;	1
+increment i	i ++ ;
+	i ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print c	cout << c << endl ;
+	cout << c << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

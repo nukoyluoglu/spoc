@@ -1,0 +1,83 @@
+create 2d long long array a with size 11 by 105	long long a [ 11 ] [ 105 ] ;
+	long long a [ 11 ] [ 105 ] ;	1
+create 2d long long array b with size 11 by 105	long long b [ 11 ] [ 105 ] ;
+	long long b [ 11 ] [ 105 ] ;	1
+create 2d long long array c with size 11 by 105	long long c [ 11 ] [ 105 ] ;
+	long long c [ 11 ] [ 105 ] ;	1
+declare boolean array vis with 105 elements	bool vis [ 105 ] ;
+	bool vis [ 105 ] ;	1
+declare long longs n , m and k	long long n, m, k ;
+	long long n , m , k ;	NA
+cal is a long long function with int arguments x and y	long long cal ( int x, int y )
+	long long cal ( int x , int y )	NA
+create long long last = k	long long last = k ;
+	long long last = k ;	1
+create long long ans = 0	long long ans = 0 ;
+	long long ans = 0 ;	1
+set sizeof ( vis ) bytes at the pointer vis to 0	memset ( vis, 0, sizeof ( vis ) ) ;
+	memset ( vis , 0 , sizeof ( vis ) ) ;	NA
+while last ! = 0	while ( last!= 0 )
+	while ( last )	NA
+declare long long v = 0	long long v = 0 ;
+	long long v = 0 ;	1
+declare long long p	long long p ;
+	long long p ;	1
+declare long long flag = 0	long long flag = 0 ;
+	long long flag = 0 ;	1
+for integer i = 1 to m inclusive	for ( int i = 1 ; i <= m ; i ++ )
+	for ( int i = 1 ; i <= m ; i ++ )	1
+if vis [ i ] is false	if (! vis [ i ] )
+	if ( ! vis [ i ] )	NA
+if b [ y ] [ i ] - a [ x ] [ i ] is greater than v	if ( b [ y ] [ i ] - a [ x ] [ 1 ] > v )
+	if ( b [ y ] [ i ] - a [ x ] [ i ] > v )	NA
+assign b [ y ] [ i ] - a [ x ] [ i ] to v	v = b [ y ] [ i ] - a [ x ] [ 1 ] ;
+	v = b [ y ] [ i ] - a [ x ] [ i ] ;	NA
+set p to i	p = i ;
+	p = i ;	1
+assign 1 to flag	flag = 1 ;
+	flag = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if flag = 0 , break	if ( flag == 0 ) break ;
+	if ( flag == 0 ) break ;	1
+set vis [ p ] to 1	vis [ p ] = 1 ;
+	vis [ p ] = 1 ;	1
+if last > = c [ x ] [ p ]	if ( last >= c [ x ] [ p ] )
+	if ( last >= c [ x ] [ p ] )	1
+increase ans by c [ x ] [ p ] * v	ans += c [ x ] [ p ] * v ;
+	ans += c [ x ] [ p ] * v ;	1
+decrease last by c [ x ] [ p ]	last -= c [ x ] [ p ] ;
+	last -= c [ x ] [ p ] ;	1
+else	else
+	else	1
+increase ans by last * v	ans += last * v ;
+	ans += last * v ;	1
+change last to 0	last = 0 ;
+	last = 0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return ans	return ans ;
+	return ans ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , m and k	cin >> n >> m >> k ;
+	cin >> n >> m >> k ;	1
+for i from 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+declare string s	string s ;
+	string s ;	1
+read input to s	cin >> s ;
+	cin >> s ;	1
+for j from 1 to m inclusive , read input to a [ i ] [ j ] , b [ i ] [ j ] and c [ i ] [ j ]	for ( int j = 1 ; j <= m ; j ++ ) { cin >> a [ i ] [ j ] >> b [ 1 ] [ k ] >> c [ i - j ] ; }
+	for ( int j = 1 ; j <= m ; j ++ ) cin >> a [ i ] [ j ] >> b [ i ] [ j ] >> c [ i ] [ j ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare long long variable ans = 0	long long ans = 0 ;
+	long long ans = 0 ;	1
+loop i from 1 to n inclusive	for ( long long i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	NA
+for int j = 1 to n inclusive , change ans to max of ans and cal ( i , j )	for ( int j = 1 ; j <= n ; j ++ ) ans = max ( ans, cal ( i, j ) ) ;
+	for ( int j = 1 ; j <= n ; j ++ ) { ans = max ( ans , cal ( i , j ) ) ; }	NA
+print ans and " \ n "	cout << ans << " \n " ;
+	cout << ans << " \n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

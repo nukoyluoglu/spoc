@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , m , mn be integers wtih mn = 1005 and a be an integer array of size 60	int n, m, mn = 1005, a [ 60 ] ;
+	int n , m , a [ 60 ] , mn = 1005 ;	NA
+input n	cin >> n ;
+	cin >> n ;	1
+input m	cin >> m ;
+	cin >> m ;	1
+input m number of items into a	for ( int i = 0 ; i < m ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < m ; i ++ ) { cin >> a [ i ] ; }	NA
+call sort with parameters a , a + m	sort ( a, a + m ) ;
+	sort ( a , a + m ) ;	NA
+for i = 0 to m - n	for ( int i = 0 ; i < m - n ; i ++ )
+	for ( int i = 0 ; i < m - n + 1 ; i ++ )	NA
+set integer d to a [ i + n - 1 ] - a [ i ]	int d = a [ i + n - 1 ] - a [ 1 ] ;
+	int d = a [ i + n - 1 ] - a [ i ] ;	NA
+if d < mn set mn = d	if ( d < mn ) mn = d ;
+	if ( d < mn ) mn = d ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print mn	cout << mn << endl ;
+	cout << mn << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

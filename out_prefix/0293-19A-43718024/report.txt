@@ -1,0 +1,65 @@
+create maps pt , sc , mi from string to integer	map < string, int > pt, sc, mi ;
+	map < string , int > pt , sc , mi ;	NA
+create string array name with size 50	string name [ 50 ] ;
+	string name [ 50 ] ;	1
+declare cmp with strings s1 , s2 as arguments , returning boolean	bool cmp ( string s1, string s2 )
+	bool cmp ( string s1 , string s2 )	NA
+if pt [ s1 ] is not pt [ s2 ] , return pt [ s1 ] is greater than pt [ s2 ] from function	if ( pt [ s1 ]!= pt [ 2 ] ) { return pt [ 1 ] > pt [ 02 ] ; }
+	if ( pt [ s1 ] != pt [ s2 ] ) return pt [ s1 ] > pt [ s2 ] ;	NA
+if mi [ s1 ] is not mi [ s2 ]	if ( Mi [ s1 ]!= mi [ s2 ] )
+	if ( mi [ s1 ] != mi [ s2 ] )	NA
+return mi [ s1 ] is greater than mi [ s2 ] from function	return Mi [ s1 ] > mi [ s2 ] ;
+	return mi [ s1 ] > mi [ s2 ] ;	NA
+else	else
+	else	1
+return sc [ s1 ] is greater than sc [ s2 ] from function	return sc [ s1 ] > sc [ S2 ] ;
+	return sc [ s1 ] > sc [ s2 ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive , read name [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> name [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) cin >> name [ i ] ;	1
+discard characters from stdin	freopen ( " ", stdin ) ;
+	cin . ignore ( ) ;	NA
+for i = 0 to n * ( n - 1 ) / 2 exclusive	for ( int i = 0 ; i < n * ( n - 1 ) / 2 ; i ++ )
+	for ( int i = 0 ; i < n * ( n - 1 ) / 2 ; i ++ )	1
+create strings A , B	string A, B ;
+	string A , B ;	NA
+read line from cin to A with ' - ' as delimiter	getline ( cin, A,'-') ;
+	getline ( cin , A , ' - ' ) ;	NA
+read line from cin to B with ' ' as delimiter	getline ( cin, B,' ') ;
+	getline ( cin , B , ' ' ) ;	NA
+create character ch	char ch ;
+	char ch ;	1
+create integers pA , pB	int pA, pB ;
+	int pA , pB ;	NA
+read pA read ch read pB	cin >> pA >> ch >> pB ;
+	cin >> pA >> ch >> pB ;	1
+discard characters from stdin	putchar (' ') ;
+	cin . ignore ( ) ;	NA
+if pA is less than pB , increment pt [ B ] by 3	if ( pA < pB ) pt [ B ] += 3 ;
+	if ( pA < pB ) pt [ B ] += 3 ;	1
+if pA is greater than pB , increment pt [ A ] by 3	if ( pA > pB ) pt [ A ] += 3 ;
+	if ( pA > pB ) pt [ A ] += 3 ;	1
+if pA is pB , increment pt [ A ] , increment pt [ B ]	if ( pA == pB ) pt [ A ] ++, pt [ B ] ++ ;
+	if ( pA == pB ) pt [ A ] ++ , pt [ B ] ++ ;	NA
+increment sc [ A ] by pA	sc [ A ] += pA ;
+	sc [ A ] += pA ;	1
+increment mi [ A ] by pA - pB	mi [ A ] += pA - pB ;
+	mi [ A ] += pA - pB ;	1
+increment sc [ B ] by pB	sc [ B ] += pB ;
+	sc [ B ] += pB ;	1
+increment mi [ B ] by pB - pA	mi [ B ] += pB - pA ;
+	mi [ B ] += pB - pA ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+sort elements from name to name + n using cmp function to compare	sort ( name, name + n, cmp ( cmp ) ) ;
+	sort ( name , name + n , cmp ) ;	NA
+sort elements from name to name + n / 2	sort ( name, name + n / 2 ) ;
+	sort ( name , name + n / 2 ) ;	NA
+for i = 0 to n / 2 exclusive , print name [ i ] print newline	for ( int i = 0 ; i < n / 2 ; i ++ ) cout << name [ i ] << endl ;
+	for ( int i = 0 ; i < n / 2 ; i ++ ) cout << name [ i ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,57 @@
+declare inline nxt with no arguments , returning long long	inline long long nxt ( )
+	inline long long nxt ( )	1
+create long longs _x , _tmp with _x = 0 , _tmp = 1	long long _x = 0, _tmp = 1 ;
+	long long _x = 0 , _tmp = 1 ;	NA
+create character _tc with _tc = read character	char _tc = getchar ( ) ;
+	char _tc = getchar ( ) ;	1
+while _tc is less than ' 0 ' or _tc is greater than ' 9 ' and _tc is not ' - ' , set _tc to read character	while ( _tc <'0'|| _tc >'9'&& _tc!='-') _tc = getchar ( ) ;
+	while ( ( _tc < ' 0 ' || _tc > ' 9 ' ) && _tc != ' - ' ) _tc = getchar ( ) ;	NA
+if _tc is ' - ' , set _tc to read character , set _tmp to - 1	if ( _tc =='-') _tc = getchar ( ), _tmp = - 1 ;
+	if ( _tc == ' - ' ) _tc = getchar ( ) , _tmp = - 1 ;	NA
+while _tc is greater than or equal to ' 0 ' and _tc is less than or equal to ' 9 ' , set _x to _x * 10 , increment _x by ( _tc - ' 0 ' ) , set _tc to read character	while ( _tc >='0'&& _tc <='9') _x = _x * 10, _x += _tc -'1 ', _tc = getchar ( ) ;
+	while ( _tc >= ' 0 ' && _tc <= ' 9 ' ) _x *= 10 , _x += ( _tc - ' 0 ' ) , _tc = getchar ( ) ;	NA
+return _x * _tmp from function	return _x * _tmp ;
+	return _x * _tmp ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string array s with size 170	string s [ 170 ] ;
+	string s [ 170 ] ;	1
+for i = 1 to 160 inclusive	for ( int i = 1 ; i <= 160 ; i ++ )
+	for ( int i = 1 ; i <= 160 ; ++ i )	NA
+if ( i % 12 = = 1 ) s [ i ] = " January " ;	if ( i % l == 1 ) s [ i ] = " January " ;
+	if ( i % 12 == 1 ) s [ i ] = " January " ;	NA
+if ( i % 12 = = 2 ) s [ i ] = " February " ;	if ( i % l2 == 2 ) s [ i ] = " February " ;
+	if ( i % 12 == 2 ) s [ i ] = " February " ;	NA
+if ( i % 12 = = 3 ) s [ i ] = " March " ;	if ( i % l2 == 3 ) s [ i ] = " March " ;
+	if ( i % 12 == 3 ) s [ i ] = " March " ;	NA
+if ( i % 12 = = 4 ) s [ i ] = " April " ;	if ( i % l2 == 4 ) s [ i ] = " April " ;
+	if ( i % 12 == 4 ) s [ i ] = " April " ;	NA
+if ( i % 12 = = 5 ) s [ i ] = " May " ;	if ( i % 12 == 5 ) s [ i ] = " May " ;
+	if ( i % 12 == 5 ) s [ i ] = " May " ;	1
+if ( i % 12 = = 6 ) s [ i ] = " June " ;	if ( i % l2 == 6 ) s [ i ] = " June " ;
+	if ( i % 12 == 6 ) s [ i ] = " June " ;	NA
+if ( i % 12 = = 7 ) s [ i ] = " July " ;	if ( i % l2 == 7 ) s [ i ] = " July " ;
+	if ( i % 12 == 7 ) s [ i ] = " July " ;	NA
+if ( i % 12 = = 8 ) s [ i ] = " August " ;	if ( i % l2 == 8 ) s [ i ] = " August " ;
+	if ( i % 12 == 8 ) s [ i ] = " August " ;	NA
+if ( i % 12 = = 9 ) s [ i ] = " September " ;	if ( i % l2 == 9 ) s [ i ] = " September " ;
+	if ( i % 12 == 9 ) s [ i ] = " September " ;	NA
+if ( i % 12 = = 10 ) s [ i ] = " October " ;	if ( i % l2 == 10 ) s [ i ] = " October " ;
+	if ( i % 12 == 10 ) s [ i ] = " October " ;	NA
+if ( i % 12 = = 11 ) s [ i ] = " November " ;	if ( i % l2 == 11 ) s [ i ] = " November " ;
+	if ( i % 12 == 11 ) s [ i ] = " November " ;	NA
+if ( i % 12 = = 0 ) s [ i ] = " December " ;	if ( i % l2 == 0 ) s [ i ] = " December " ;
+	if ( i % 12 == 0 ) s [ i ] = " December " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create string str	string str ;
+	string str ;	1
+create integer n	int n ;
+	int n ;	1
+read str read n	cin >> str >> n ;
+	cin >> str >> n ;	1
+for i = 1 to 12 inclusive	for ( int i = 1 ; i <= 12 ; i ++ )
+	for ( int i = 1 ; i <= 12 ; ++ i )	NA
+if s [ i ] is str , print s [ i + n ] print newline	if ( str == str ) cout << s [ i + n ] << endl ;
+	if ( s [ i ] == str ) { cout << s [ i + n ] << endl ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create pair array of integer , integer pr with size n	pair < int, int > pr [ n ] ;
+	pair < int , int > pr [ n ] ;	NA
+for i = 0 to n exclusive , read first element of pr [ i ] read second element of pr [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> pr [ i ]. first >> pr. second ; }
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> pr [ i ] . first >> pr [ i ] . second ; }	NA
+sort elements from pr to pr + n	sort ( pr, pr + n ) ;
+	sort ( pr , pr + n ) ;	NA
+for j = 0 to n - 1 exclusive	for ( int j = 0 ; j < n - 1 ; j ++ )
+	for ( int j = 0 ; j < n - 1 ; j ++ )	1
+if first element of pr [ j ] is less than first element of pr [ j + 1 ] and second element of pr [ j ] is greater than second element of pr [ j + 1 ]	if ( pr [ 0 ]. first < pr [ j + 1 ]. front ( ) && pr [ 2 ]. second > pr [ 3 + i ]. back ( ) )
+	if ( pr [ j ] . first < pr [ j + 1 ] . first && pr [ j ] . second > pr [ j + 1 ] . second )	NA
+print " Happy Alex " print newline	cout << " Happy Alex " << endl ;
+	cout << " Happy Alex " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " Poor Alex " print newline	cout << " Poor Alex " << endl ;
+	cout << " Poor Alex " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

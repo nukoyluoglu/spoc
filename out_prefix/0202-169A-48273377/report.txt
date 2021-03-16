@@ -1,0 +1,31 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;
+	int n ;	1
+a = int	int a ;
+	int a ;	1
+b = int	int b ;
+	int b ;	1
+complexity = int vector	vector < int > complexity ;
+	vector < int > complexity ;	1
+read n then a then b	cin >> n >> a >> b ;
+	cin >> n >> a >> b ;	1
+i = int with i = 0	int i = 0 ;
+	int i = 0 ;	1
+loop while i is less than n incrementing i each time	for ( ; i < n ; i ++ )
+	for ( ; i < n ; i ++ )	1
+tmp = int	int tmp ;
+	int tmp ;	1
+read tmp	cin >> tmp ;
+	cin >> tmp ;	1
+append tmp to complexity	complexity. push_back ( tmp ) ;
+	complexity . push_back ( tmp ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort complexity	sort ( complexity. begin ( ), complexity. end ( ) ) ;
+	sort ( complexity . begin ( ) , complexity . end ( ) ) ;	NA
+cnt = int with cnt = 0	int cnt = 0 ;
+	int cnt = 0 ;	1
+for i = complexity [ b - 1 ] to complexity [ b ] increment cnt	for ( int i = complexity [ b - 1 ] ; i <= complexity [ cnt ] ; ++ i ) cnt ++ ;
+	for ( i = complexity [ b - 1 ] ; i < complexity [ b ] ; i ++ ) { cnt ++ ; }	NA
+print cnt	cout << cnt << endl ;
+	cout << cnt << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

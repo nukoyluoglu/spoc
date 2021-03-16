@@ -1,0 +1,17 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n	int n ;
+	int n ;	1
+read input to n	cin >> n ;
+	cin >> n ;	1
+declare vector of integers a with size n	vector < int > a ( n ) ;
+	vector < int > a ( n ) ;	1
+for i from 0 to n exclusive , read a [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ i ] ; }	NA
+sort a	sort ( a. begin ( ), a. end ( ) ) ;
+	sort ( a . begin ( ) , a . end ( ) ) ;	NA
+create integer idx = ( length of a - 1 ) / 2	int idx = ( a. size ( ) - 1 ) / 2 ;
+	int idx = ( a . size ( ) - 1 ) / 2 ;	NA
+print a [ idx ]	cout << a [ idx ] << endl ;
+	cout << a [ idx ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

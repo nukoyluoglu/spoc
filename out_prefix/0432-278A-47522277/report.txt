@@ -1,0 +1,28 @@
+declare array of integers arr with size 10005	int arr [ 10005 ] ;
+	int arr [ 10005 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to i = n - 1 read arr [ i + 1 ]	for ( int i = 0 ; i <= n - 1 ; i ++ ) cin >> arr [ i + 1 ] ;
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> arr [ i + 1 ] ; }	NA
+let s and t be integers	int s, t ;
+	int s , t ;	NA
+read s and t	cin >> s >> t ;
+	cin >> s >> t ;	1
+if s is greater than t then swap s and t	if ( s > t ) swap ( s, t ) ;
+	if ( s > t ) { swap ( s , t ) ; }	NA
+create integer aa and set it to 0	int aa = 0 ;
+	int aa = 0 ;	1
+for i = s to i = t exclusive set aa to aa + arr [ i ]	for ( int i = s ; i < t ; i ++ ) { aa += arr [ i ] ; }
+	for ( int i = s ; i < t ; i ++ ) { aa += arr [ i ] ; }	1
+create integer bb = 0	int bb = 0 ;
+	int bb = 0 ;	1
+for i = 1 to i = t exclusive assign bb + arr [ i ] to bb	for ( int i = 1 ; i < t ; i ++ ) bb += arr [ i ] ;
+	for ( int i = 1 ; i < s ; i ++ ) { bb += arr [ i ] ; }	NA
+for i = t to i = n do bb = bb + arr [ i ]	for ( int i = t ; i <= n ; i ++ ) bb += arr [ i ] ;
+	for ( int i = t ; i <= n ; i ++ ) { bb += arr [ i ] ; }	NA
+print min of aa and bb	cout << min ( aa, bb ) << endl ;
+	cout << min ( aa , bb ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

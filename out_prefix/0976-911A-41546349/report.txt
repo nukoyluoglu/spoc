@@ -1,0 +1,45 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+t , n , i , x , pp , count , sum = int , flag , dis , min = 0	int t, n, i, x, pp, count, sum, flag = 0, dis, min = 0 ;
+	int t , n , i , x , pp , count , flag = 0 , dis = 0 , min = 0 , sum ;	NA
+v = vector of int	vector < int > v ;
+	vector < int > v ;	1
+it = iterator on vector of int	vector < int > :: iterator it ;
+	vector < int > :: iterator it ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+while decremented value of n is not zero	while ( n -- )
+	while ( n -- )	1
+read x	cin >> x ;
+	cin >> x ;	1
+put x at end of v	v. push_back ( x ) ;
+	v . push_back ( x ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+t = item of v with min value	t = v. top ( ) ;
+	t = * min_element ( v . begin ( ) , v . end ( ) ) ;	NA
+for i = 0 to size of v exclusive	for ( int i = 0 ; i < v. size ( ) ; i ++ )
+	for ( i = 0 ; i < v . size ( ) ; i ++ )	NA
+if v [ i ] is t	if ( v [ i ] == t )
+	if ( v [ i ] == t )	1
+if flag ! = 0	if ( flag )
+	if ( flag != 0 )	NA
+dis = i - pp	dis = i - pp ;
+	dis = i - pp ;	1
+if min is 0 and dis is not 0	if ( min == 0 && dis!= 0 )
+	if ( min == 0 && dis != 0 )	NA
+min = dis	min = dis ;
+	min = dis ;	1
+else if min is not 0 and min > dis	else if ( min!= 0 && min > dis )
+	else if ( min != 0 && min > dis )	NA
+min = dis	min = dis ;
+	min = dis ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+increment flag	flag ++ ;
+	flag ++ ;	1
+pp = i	pp = i ;
+	pp = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print min	cout << min << endl ;
+	cout << min << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

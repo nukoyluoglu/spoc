@@ -1,0 +1,36 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string s	string s ;
+	string s ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+create integers o , z , with o = 0 , z = 0	int o = 0, z = 0 ;
+	int o = 0 , z = 0 ;	NA
+for i = 0 to size of s exclusive	for ( int i = 0 ; i < s. size ( ) ; i ++ )
+	for ( int i = 0 ; i < s . size ( ) ; i ++ )	NA
+if s [ i ] is ' 0 '	if ( s [ i ] =='0')
+	if ( s [ i ] == ' 0 ' )	NA
+increment o	o ++ ;
+	o ++ ;	1
+if o % 2	if ( o % 2 )
+	if ( o % 2 )	1
+print 1 print " " print 1 print newline	cout << 1 << " " << i << endl ;
+	cout << 1 << " " << 1 << endl ;	NA
+else	else
+	else	1
+print 3 print " " print 1 print newline	cout << 3 << " " << 1 << endl ;
+	cout << 3 << " " << 1 << endl ;	1
+else if s [ i ] is ' 1 '	else if ( s [ i ] =='1')
+	else if ( s [ i ] == ' 1 ' )	NA
+increment z	z ++ ;
+	z ++ ;	1
+if z % 2	if ( z % 2 )
+	if ( z % 2 )	1
+print 4 print " " print 3 print newline	cout << 4 << " " << 3 << endl ;
+	cout << 4 << " " << 3 << endl ;	1
+else	else
+	else	1
+print 4 print " " print 1 print newline	cout << 4 << " " << 1 << endl ;
+	cout << 4 << " " << 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers a , b	int a, b ;
+	int a , b ;	NA
+create integer counter with counter = 0	int counter = 0 ;
+	int counter = 0 ;	1
+create integer tranSize with tranSize = 0	int tranSize = 0 ;
+	int tranSize = 0 ;	1
+create integer rep	int rep ;
+	int rep ;	1
+read rep	cin >> rep ;
+	cin >> rep ;	1
+while decrement rep is true	while ( rep -- )
+	while ( rep -- )	1
+read a read b	cin >> a >> b ;
+	cin >> a >> b ;	1
+decrement counter by a	counter -= a ;
+	counter -= a ;	1
+increment counter by b	counter += b ;
+	counter += b ;	1
+if counter is greater than tranSize , set tranSize to counter	if ( counter > tranSize ) tanSize = counter ;
+	if ( counter > tranSize ) { tranSize = counter ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print tranSize print newline	cout << tranSize << endl ;
+	cout << tranSize << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

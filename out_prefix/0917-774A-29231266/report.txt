@@ -1,0 +1,39 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , m , i , j , p , q , cnt , c1 , c2 , x , y , mn	long long n, m, i, j, p, q, cnt, c1, c2, x, y, mn ;
+	long long n , m , i , j , p , q , cnt , c1 , c2 , x , y , mn ;	NA
+create string s	string s ;
+	string s ;	1
+while read n read c1 read c2 is true	while ( cin >> n >> c1 >> c2 )
+	while ( cin >> n >> c1 >> c2 )	1
+read charaacter	getchar ( ) ;
+	getchar ( ) ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+set cnt to 0	cnt = 0 ;
+	cnt = 0 ;	1
+set mn to LONG_LONG_MAX	long long mn = LONG_LONG_MAX ;
+	mn = LONG_LONG_MAX ;	NA
+for i = 0 to size of s exclusive	for ( int i = 0 ; i < s. size ( ) ; i ++ )
+	for ( i = 0 ; i < s . size ( ) ; i ++ )	NA
+if s [ i ] is ' 1 ' , increment cnt	if ( s [ i ] =='1') cnt ++ ;
+	if ( s [ i ] == ' 1 ' ) cnt ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 1 to cnt inclusive	for ( int i = 1 ; i <= cnt ; i ++ )
+	for ( i = 1 ; i <= cnt ; i ++ )	NA
+set x to n / i	x = n / i ;
+	x = n / i ;	1
+set y to n % i	y = n % i ;
+	y = n % i ;	1
+set p to ( c1 + c2 * ( x - 1 ) * ( x - 1 ) ) * ( i - y )	long long p = ( c1 + c2 * ( x - 1 ) * ( long long ) x + 1 ) ) * i - y ;
+	p = ( c1 + c2 * ( x - 1 ) * ( x - 1 ) ) * ( i - y ) ;	NA
+set q to ( c1 + ( c2 * x * x ) ) * y	q = ( c1 + ( c2 * x * x ) ) * y ;
+	q = ( c1 + ( c2 * x * x ) ) * y ;	1
+set m to p + q	m = p + q ;
+	m = p + q ;	1
+set mn to minimum of mn and m	mn = min ( mn, m ) ;
+	mn = min ( mn , m ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print mn print newline	cout << mn << endl ;
+	cout << mn << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,49 @@
+declare long long variables a , b and n	long long a, b, n ;
+	long long a , b , n ;	NA
+declare long long array ans with size 1010	long long ans [ 1010 ] ;
+	long long ans [ 1010 ] ;	1
+declare boolean flag	bool flag ;
+	bool flag ;	1
+function dfs with long long arguments x , y and step	void dfs ( long long x, long long y, long int step )
+	void dfs ( long long x , long long y , long long step )	NA
+change ans [ step ] to x	ans [ step ] = x ;
+	ans [ step ] = x ;	1
+if flag is true or x > y , return	if ( flag == true || x > y ) return ;
+	if ( flag || x > y ) return ;	NA
+if x = y	if ( x == y )
+	if ( x == y )	1
+assign step to n	n = step ;
+	n = step ;	1
+set flag to true	flag = true ;
+	flag = true ;	1
+return	return ;
+	return ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+call dfs ( x * 2 , y , step + 1 )	dfs ( x * 2, y, step + 1 ) ;
+	dfs ( x * 2 , y , step + 1 ) ;	NA
+if flag is false , call dfs ( x * 10 + 1 , y , step + 1 )	if (! flag ) dfs ( x * 10 + 1, y, step + 1 ) ;
+	if ( ! flag ) dfs ( x * 10 + 1 , y , step + 1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+loop , reading a and b from the input	while ( cin >> a >> b )
+	while ( cin >> a >> b )	1
+change flag to false	flag = false ;
+	flag = false ;	1
+call dfs ( a , b , 1 )	dfs ( a, b, 1 ) ;
+	dfs ( a , b , 1 ) ;	NA
+if flag is true	if ( flag )
+	if ( flag )	1
+print " YES "	cout << " YES " << endl ;
+	cout << " YES " << endl ;	1
+print n	cout << n << endl ;
+	cout << n << endl ;	1
+loop i from 1 to n inclusive , print ans [ i ] and ' \ n ' if i = n , or ' '	for ( int i = 1 ; i <= n ; i ++ ) cout << ans [ i ] << ( i == n?'\n':' ') ;
+	for ( int i = 1 ; i <= n ; i ++ ) cout << ans [ i ] << ( i == n ? ' \n ' : ' ' ) ;	NA
+else	else
+	else	1
+print " NO "	cout << " NO\n " ;
+	cout << " NO " << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,96 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n and m be integers	int n, m ;
+	int n , m ;	NA
+declare string called st	string st ;
+	string st ;	1
+read n and m	cin >> n >> m ;
+	cin >> n >> m ;	1
+res is an integer array with size m	int res [ m ] ;
+	int res [ m ] ;	1
+fill res with 0	memset ( res, 0, sizeof ( res ) ) ;
+	for ( int i = 0 ; i < m ; i ++ ) { res [ i ] = 0 ; }	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read st	cin >> st ;
+	cin >> st ;	1
+if there is no character " 1 " in st	if ( st. find ( " 1 " ) == st. end ( ) )
+	if ( st . find ( ' 1 ' ) == string :: npos )	NA
+print - 1 and a new line	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+cur is an integer array with 3 * m elements	int cur [ 3 * m ] ;
+	int cur [ 3 * m ] ;	1
+curAns is an array of integers with size m	int curAns [ m ] ;
+	int curAns [ m ] ;	1
+for j = 0 to 3 * m exclusive set cur [ j ] to st [ j % m ] - ' 0 '	for ( int j = 0 ; j < 3 * m ; j ++ ) cur [ j ] = st [ j % m ] -'0';
+	for ( int j = 0 ; j < 3 * m ; j ++ ) { cur [ j ] = st [ j % m ] - ' 0 ' ; }	NA
+declare integer called counter = 0	int counter = 0 ;
+	int counter = 0 ;	1
+for a = m - 1 to 0 inclusive counting down	for ( int a = m - 1 ; a >= 0 ; a -- )
+	for ( int a = m - 1 ; a >= 0 ; a -- )	1
+if cur [ a ] = 1	if ( cur [ a ] == 1 )
+	if ( cur [ a ] == 1 )	1
+break the loop	break ;
+	break ;	1
+else	else
+	else	1
+increase counter	counter ++ ;
+	counter ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for k = m to 2 * m exclusive	for ( int k = m ; k < 2 * m ; ++ k )
+	for ( int k = m ; k < 2 * m ; k ++ )	NA
+if cur [ k ] = 1	if ( cur [ k ] == 1 )
+	if ( cur [ k ] == 1 )	1
+curAns [ k % m ] = 0	curAns [ k % m ] = 0 ;
+	curAns [ k % m ] = 0 ;	1
+set counter to 0	counter = 0 ;
+	counter = 0 ;	1
+else	else
+	else	1
+increment counter and set curAns [ k % m ] = counter	curAns [ k % m ] = counter ++ ;
+	curAns [ k % m ] = ++ counter ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+assign value of 0 to counter	counter = 0 ;
+	counter = 0 ;	1
+for a = 2 * m to 3 * m exclusive	for ( long long a = 2 * m ; a < 3 * m + 1 ; a ++ )
+	for ( int a = 2 * m ; a < 3 * m ; a ++ )	NA
+if cur [ a ] = 1	if ( cur [ a ] == 1 )
+	if ( cur [ a ] == 1 )	1
+stop the loop	break ;
+	break ;	1
+else	else
+	else	1
+increment counter	counter ++ ;
+	counter ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for integer k = 2 * m - 1 to m inclusive counting down	for ( int k = 2 * m - 1 ; k >= m ; k -- )
+	for ( int k = 2 * m - 1 ; k >= m ; k -- )	1
+if cur [ k ] = 1	if ( cur [ k ] == 1 )
+	if ( cur [ k ] == 1 )	1
+curAns [ k % m ] = 0	curAns [ k % m ] = 0 ;
+	curAns [ k % m ] = 0 ;	1
+set value of counter to 0	counter = 0 ;
+	counter = 0 ;	1
+else	else
+	else	1
+increment counter	counter ++ ;
+	counter ++ ;	1
+curAns [ k % m ] = min of curAns [ k % m ] and counter	curAns [ k % m ] = min ( curAns ( k % k ), counter ) ;
+	curAns [ k % m ] = min ( curAns [ k % m ] , counter ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for integer j = 0 to m exclusive increase res [ j ] by curAns [ j ]	for ( int j = 0 ; j < m ; j ++ ) { res [ j ] += curAns [ k ] ; }
+	for ( int j = 0 ; j < m ; j ++ ) { res [ j ] += curAns [ j ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare integer variable called min = INT_MAX	int min = INT_MAX ;
+	int min = INT_MAX ;	1
+for integer i = 0 to m exclusive	for ( int i = 0 ; i < m ; i ++ )
+	for ( int i = 0 ; i < m ; i ++ )	1
+if min is greater than res [ i ] , set min to res [ i ]	if ( min > res [ j ] ) min = res [ i ] ;
+	if ( min > res [ i ] ) min = res [ i ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print min and a new line	cout << min << endl ;
+	cout << min << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

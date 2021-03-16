@@ -1,0 +1,40 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer A with size 6	int A [ 6 ] ;
+	int A [ 6 ] ;	1
+for i = 0 to 6 exclusive , read A [ i ]	for ( int i = 0 ; i < 6 ; i ++ ) cin >> A [ i ] ;
+	for ( int i = 0 ; i < 6 ; ++ i ) { cin >> A [ i ] ; }	NA
+sort elements from A to A + 6	sort ( A, A + 6 ) ;
+	sort ( A , A + 6 ) ;	NA
+create integers B , C	int B, C ;
+	int B , C ;	NA
+if A [ 0 ] is A [ 3 ]	if ( A [ 0 ] == A [ 3 ] )
+	if ( A [ 0 ] == A [ 3 ] )	1
+set B to A [ 4 ] , set C to A [ 5 ]	B == A [ 4 ], C = A [ 5 ] ;
+	B = A [ 4 ] , C = A [ 5 ] ;	NA
+else if A [ 1 ] is A [ 4 ]	else if ( A [ 1 ] == A [ 4 ] )
+	else if ( A [ 1 ] == A [ 4 ] )	1
+set B to A [ 0 ] , set C to A [ 5 ]	B == A [ 0 ], C = A [ 5 ] ;
+	B = A [ 0 ] , C = A [ 5 ] ;	NA
+else if A [ 2 ] is A [ 5 ]	else if ( A [ 2 ] == A [ 5 ] )
+	else if ( A [ 2 ] == A [ 5 ] )	1
+set B to A [ 0 ] , set C to A [ 1 ]	B = A [ 0 ], C = C [ 1 ] ;
+	B = A [ 0 ] , C = A [ 1 ] ;	NA
+else	else
+	else	1
+print " Alien " print newline	cout << " Alien " << endl ;
+	cout << " Alien " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if B is C	if ( B == C )
+	if ( B == C )	1
+print " Elephant " print newline	cout << " Elephant " << endl ;
+	cout << " Elephant " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if B is less than C	if ( B < C )
+	if ( B < C )	1
+print " Bear " print newline	cout << " Bear " << endl ;
+	cout << " Bear " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,30 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer array a with 6 elements	int a [ 6 ] ;
+	int a [ 6 ] ;	1
+read 6 elements into a	for ( int i = 0 ; i < 6 ; i ++ ) { cin >> a [ i ] ; }
+	for ( int i = 0 ; i < 6 ; ++ i ) cin >> a [ i ] ;	NA
+create integer n = a [ 0 ] + a [ 1 ]	int n = a [ 0 ] + a [ 1 ] ;
+	int n = a [ 0 ] + a [ 1 ] ;	1
+declare integer arrays l and r with size n	int l [ n ], r [ n + 1 ] ;
+	int l [ n ] = { } , r [ n ] = { } ;	NA
+for i = 0 to a [ 1 ] exclusive , set l [ i ] to 1	for ( int i = 0 ; i < a [ 1 ] ; i ++ ) l [ i ] = 1 ;
+	for ( int i = 0 ; i < a [ 1 ] ; ++ i ) l [ i ] = 1 ;	NA
+for integer i = a [ 1 ] + 1 to n exclusive , set l [ i ] to - 1	for ( int i = a [ 1 ] + 1 ; i < n ; i ++ ) { l [ i ] = - 1 ; }
+	for ( int i = a [ 1 ] + 1 ; i < n ; ++ i ) l [ i ] = - 1 ;	NA
+for i = 0 to a [ 3 ] exclusive , set r [ i ] to 1	for ( int i = 0 ; i < a [ 3 ] ; i ++ ) r [ i ] = 1 ;
+	for ( int i = 0 ; i < a [ 3 ] ; ++ i ) r [ i ] = 1 ;	NA
+for i = a [ 3 ] + 1 to n exclusive , set r [ i ] to - 1	for ( int i = a [ 3 ] + 1 ; i < n ; i ++ ) r [ i ] = - 1 ;
+	for ( int i = a [ 3 ] + 1 ; i < n ; ++ i ) r [ i ] = - 1 ;	NA
+declare integers ans = 0 and step = 2 * a [ 2 ] - 1	int ans = 0, step = 2 * a [ 2 ] - 1 ;
+	int ans = 0 , step = 2 * a [ 2 ] - 1 ;	NA
+for integer i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+increase step by l [ i ] + r [ i ]	step += l [ i ] + r [ i - 1 ] ;
+	step += l [ i ] + r [ i ] ;	NA
+increase ans by step	ans += step ;
+	ans += step ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,18 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+k , d = integers	int k, d ;
+	int k , d ;	NA
+Read k , d	cin >> k >> d ;
+	cin >> k >> d ;	1
+if d is equal to 0 and k is greater than 1	if ( d == 0 && k > 1 )
+	if ( d == 0 && k > 1 )	1
+print No solution and a new line	cout << " No " << endl ;
+	cout << " No solution " << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print d	cout << d << endl ;
+	cout << d ;	NA
+for j = 1 to k exclusive , print 0	for ( int j = 1 ; j <= k ; j ++ ) { cout << 0 ; }
+	for ( int i = 1 ; i < k ; i ++ ) { cout << 0 ; }	NA
+print a new line	<< " \n " ;
+	cout << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

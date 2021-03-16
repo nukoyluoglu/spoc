@@ -1,0 +1,41 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integers n , m , a , b , rub , with rub = 0	int n, m, a, b, rub = 0 ;
+	int n , m , a , b , rub = 0 ;	NA
+read n , m , a and b	cin >> n >> m >> a >> b ;
+	cin >> n >> m >> a >> b ;	1
+while n is greater than 0	while ( n > 0 )
+	while ( n > 0 )	1
+if n is less than m	if ( n < m )
+	if ( n < m )	1
+set integer flag to n * a	int flag = n * a ;
+	int flag = n * a ;	1
+if flag is less than b	if ( flag < b )
+	if ( flag < b )	1
+increase rub by flag	rub += flag ;
+	rub += flag ;	1
+n = 0	n = 0 ;
+	n = 0 ;	1
+else	else
+	else	1
+increase rub by b	rub += b ;
+	rub += b ;	1
+decrease n by m	n -= m ;
+	n -= m ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+else if ( a * m ) is greater than b	else if ( ( a * m ) > b )
+	else if ( ( a * m ) > b )	1
+decrease n by m	n -= m ;
+	n -= m ;	1
+increase rub by b	rub += b ;
+	rub += b ;	1
+else	else
+	else	1
+increase rub by n * a	rub += n * a ;
+	rub += n * a ;	1
+assign value of 0 to the n	n = 0 ;
+	n = 0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print rub and " \ n "	cout << rub << " \n " ;
+	cout << rub << " \n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

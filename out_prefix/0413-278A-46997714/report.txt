@@ -1,0 +1,19 @@
+create ints K , X , Y , M , and N and int array A of size 105	int K, X, Y, M, N, A [ 105 ] ;
+	int K , A [ 105 ] , X , Y , M , N ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read K	cin >> K ;
+	cin >> K ;	1
+for i = 1 to K	for ( int i = 1 ; i <= K ; i ++ )
+	for ( int i = 1 ; i <= K ; i ++ )	1
+read A [ i ]	cin >> A [ i ] ;
+	cin >> A [ i ] ;	1
+set N to N + A [ i ]	N += A [ i ] ;
+	N += A [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+read X and Y	cin >> X >> Y ;
+	cin >> X >> Y ;	1
+for i = min ( X , Y ) to max ( X , Y ) , set M to M + A [ i ]	for ( int i = min ( X, Y ) ; i <= max ( X [ Y ] ) ; ++ i ) M += A [ i ] ;
+	for ( int i = min ( X , Y ) ; i < max ( X , Y ) ; i ++ ) { M += A [ i ] ; }	NA
+print the min of M and N - M	cout << min ( M, N - M ) << endl ;
+	cout << min ( M , N - M ) << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

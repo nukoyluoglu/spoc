@@ -1,0 +1,28 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+arr = int array of size n	int arr [ n ] ;
+	int arr [ n ] ;	1
+read n values into arr	for ( int i = 0 ; i < n ; i ++ ) { cin >> arr [ i ] ; }
+	for ( int i = 0 ; i < n ; ++ i ) cin >> arr [ i ] ;	NA
+a , b = int	int a, b ;
+	int a , b ;	NA
+read a then b	cin >> a >> b ;
+	cin >> a >> b ;	1
+x = int with x = max of a and b	int x = max ( a, b ) ;
+	int x = max ( a , b ) ;	NA
+y = int with y = min of a and b	int y = min ( a, b ) ;
+	int y = min ( a , b ) ;	NA
+d1 = int with d1 = 0	int d1 = 0 ;
+	int d1 = 0 ;	1
+for i = x - 1 to n + y - 1 increment d1 by arr [ i mod n ]	for ( int i = x - 1 ; i < n + y ; i ++ ) { d1 += arr [ i % n ] ; }
+	for ( int i = x - 1 ; i < n + ( y - 1 ) ; i ++ ) { d1 += arr [ i % n ] ; }	NA
+d2 = int with d2 = 0	int d2 = 0 ;
+	int d2 = 0 ;	1
+for i = x - 2 to y - 1 inclusive decrementing i increment d2 by arr [ i mod n ]	for ( int i = x - 2 ; i >= y - 1 ; i -- ) { d2 += arr [ i % n ] ; }
+	for ( int i = x - 2 ; i >= y - 1 ; i -- ) { d2 += arr [ i % n ] ; }	1
+print min of d1 and d2	cout << min ( d1, d2 ) << endl ;
+	cout << min ( d1 , d2 ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

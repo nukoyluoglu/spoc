@@ -1,0 +1,30 @@
+in the function desperate_optimization	void desperate_optimization ( )
+	void desperate_optimization ( int precision )	NA
+set format flag ios : : fixed of the output	cout << fixed << ios :: fixed ;
+	cout . setf ( ios :: fixed ) ;	NA
+set format flag ios : : showpoint of the output	cout << flag. setf ( ios :: showpoint ) << endl ;
+	cout . setf ( ios :: showpoint ) ;	NA
+set output precision to precision	cout. precision ( precision ) ;
+	cout . precision ( precision ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call desperate_optimization ( 10 )	desperate_optimization ( 10 ) ;
+	desperate_optimization ( 10 ) ;	1
+let n , p and k be integers	int n, p, k ;
+	int n , p , k ;	NA
+read n , p and k	cin >> n >> p >> k ;
+	cin >> n >> p >> k ;	1
+if p - k is greater than 1	if ( p - k > 1 )
+	if ( p - k > 1 ) cout << " << " ;	NA
+for i = max of 1 and p - k to p exclusive , print i and " "	for ( int i = max ( 1, p - k ) ; i < p ; i ++ ) cout << i << " " ;
+	for ( int i = max ( 1 , p - k ) ; i < p ; i ++ ) { cout << i << " " ; }	NA
+print " ( " , p and " ) "	cout << " ( " << p << " " ) << endl ;
+	cout << " ( " << p << " ) " ;	NA
+for i = p + 1 to min of n and p + k inclusive , print " " and i	for ( int i = p + 1 ; i <= min ( n, p + k ) ; i ++ ) cout << " " << i << endl ;
+	for ( int i = p + 1 ; i <= min ( n , p + k ) ; i ++ ) { cout << " " << i ; }	NA
+if p + k is less than n , print " > > "	if ( p + k < n ) cout << " > " << endl ;
+	if ( p + k < n ) cout << " >> " ;	NA
+print ' \ n '	cout <<'\n';
+	cout << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

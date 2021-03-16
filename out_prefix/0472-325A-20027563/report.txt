@@ -1,0 +1,32 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+integers = n , a , b , c , d , w , h , x1 = 2e9 , y1 = 2e9 , x2 = 0 , y2 = 0 , area = 0	int n, a, b, c, d, w, h, x1 = 2e9, y2 = 0, y1 = 1, area = 0 ;
+	int n , a , b , c , d , w , h , x1 = 2e9 , y1 = 2e9 , x2 = 0 , y2 = 0 , area = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+if n is true do the following	while ( n -- )
+	while ( n -- )	1
+read a , b , c , d	cin >> a >> b >> c >> d ;
+	cin >> a >> b >> c >> d ;	1
+set w to c - a	w = c - a ;
+	w = c - a ;	1
+set h to d - b	h = d - b ;
+	h = d - b ;	1
+area equals area plus w * h	area += w * h ;
+	area += w * h ;	1
+set x1 to min ( x1 , a )	x1 = min ( x1, a ) ;
+	x1 = min ( x1 , a ) ;	NA
+set y1 to min ( y1 , b )	y1 = min ( y1, b ) ;
+	y1 = min ( y1 , b ) ;	NA
+set x2 to max ( x2 , c )	x2 = max ( x2, c ) ;
+	x2 = max ( x2 , c ) ;	NA
+set y2 to max ( y2 , d )	y2 = max ( y2, d ) ;
+	y2 = max ( y2 , d ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+set w to x2 - x1	w = x2 - x1 ;
+	w = x2 - x1 ;	1
+set h to y2 - y1	h = y2 - y1 ;
+	h = y2 - y1 ;	1
+if w = h and area = w * h print YES else NO )	cout << ( w == h && area == w * h? " YES " : " NO " ) << endl ;
+	cout << ( w == h && area == w * h ? " YES " : " NO " ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

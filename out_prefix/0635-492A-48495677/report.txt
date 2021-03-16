@@ -1,0 +1,23 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer array a with size 151 ; create integers sum and sum1 where sum1 = 0	int a [ 151 ], sum, sum1 = 0 ;
+	int a [ 151 ] , sum , sum1 = 0 ;	NA
+read variable sum from the input	cin >> sum ;
+	cin >> sum ;	1
+in the for loop , change i from 1 to 150 inclusive	for ( int i = 1 ; i <= 150 ; i ++ )
+	for ( int i = 1 ; i <= 150 ; i ++ )	1
+set a [ i ] to ( 1 + i ) * i / 2	a [ i ] = ( 1 + i ) * i / 2 ;
+	a [ i ] = ( 1 + i ) * i / 2 ;	1
+increase sum1 by a [ i ]	sum1 += a [ i ] ;
+	sum1 += a [ i ] ;	1
+set a [ i + 1 ] to ( 2 + i ) * ( i + 1 ) / 2	a [ i + 1 ] = ( 2 + i ) * ( i + 2 ) / 2 ;
+	a [ i + 1 ] = ( 2 + i ) * ( i + 1 ) / 2 ;	NA
+if sum > = sum1 and sum < sum1 + a [ i + 1 ]	if ( sum >= sum1 && sum < sum1 + a [ i + 1 ] )
+	if ( sum >= sum1 && sum < sum1 + a [ i + 1 ] )	1
+print i to the standard output	cout << i << endl ;
+	cout << i << endl ;	1
+break the loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,21 @@
+create integer length = 1e5	int length = 1e5 ;
+	int length = 1e5 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let ints n , i , and sum = 0	int n, i, sum = 0 ;
+	int n , i , sum = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+create int vector a of size n + 1	vector < int > a ( n + 1 ) ;
+	vector < int > a ( n + 1 ) ;	1
+set a [ 0 ] to 0	a [ 0 ] = 0 ;
+	a [ 0 ] = 0 ;	1
+for i = 1 to n , set a [ i ] to a [ i - 1 ] + i	for ( i = 1 ; i <= n ; i ++ ) { a [ i ] = a [ 1 ] + i ; }
+	for ( i = 1 ; i <= n ; i ++ ) { a [ i ] = a [ i - 1 ] + i ; }	NA
+for i = 1 until sum < = n and i < = n are false , set sum to sum + a [ i ]	for ( i = 1 ; sum <= n && i <= n ; i ++ ) sum += a [ i ] ;
+	for ( i = 1 ; ( sum <= n ) && ( i <= n ) ; i ++ ) { sum += a [ i ] ; }	NA
+if n is equal to 1 , increase 1 by 1	if ( n == 1 ) ++ i ;
+	if ( n == 1 ) i ++ ;	NA
+print the result of i - 2	cout << i - 2 << endl ;
+	cout << i - 2 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

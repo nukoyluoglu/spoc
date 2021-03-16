@@ -1,0 +1,108 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n	int n ;
+	int n ;	1
+read input to n	cin >> n ;
+	cin >> n ;	1
+let A be integer array with size n	int A [ n ] ;
+	int A [ n ] ;	1
+read n elements into A	for ( int i = 0 ; i < n ; i ++ ) cin >> A [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> A [ i ] ; }	NA
+create integer ansf = 1	int ansf = 1 ;
+	int ansf = 1 ;	1
+create integer j = 0	int j = 0 ;
+	int j = 0 ;	1
+create integer ch = 0	int ch = 0 ;
+	int ch = 0 ;	1
+create integer max1 = 1	int max1 = 1 ;
+	int max1 = 1 ;	1
+create integer x = 1	int x = 1 ;
+	int x = 0 ;	NA
+declare integer array dp with size n filled with 0	int dp [ n ] = { 0 } ;
+	int dp [ n ] = { 0 } ;	1
+for integer i = 1 to n exclusive incrementing i	for ( int i = 1 ; i < n ; i ++ )
+	for ( int i = 1 ; i < n ; i ++ )	1
+if A [ i ] is greater than A [ i - 1 ]	if ( A [ i ] > a [ i - 1 ] )
+	if ( A [ i ] > A [ i - 1 ] )	NA
+change dp [ i ] to dp [ i - 1 ] + 1	dp [ i ] = dp [ i - 1 ] + 1 ;
+	dp [ i ] = dp [ i - 1 ] + 1 ;	1
+else	else
+	else	1
+assign 0 to dp [ i ]	dp [ i ] = 0 ;
+	dp [ i ] = 0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+loop i from 1 to n exclusive	for ( int i = 1 ; i < n ; i ++ )
+	for ( int i = 1 ; i < n ; i ++ )	1
+if A [ i ] is greater than A [ i - 1 ]	if ( A [ i ] > A [ j - 1 ] )
+	if ( A [ i ] > A [ i - 1 ] )	NA
+increment ansf by one	ansf ++ ;
+	ansf ++ ;	1
+else	else
+	else	1
+if ch is 0	if ( ch == 0 )
+	if ( ch == 0 )	1
+assign A [ i ] to x	x = A [ i ] ;
+	x = A [ i ] ;	1
+assign A [ i - 1 ] + 1 to A [ i ]	A [ i ] = A [ i - 1 ] + 1 ;
+	A [ i ] = A [ i - 1 ] + 1 ;	1
+change j to i	j = i ;
+	j = i ;	1
+assign 1 to ch	ch = 1 ;
+	ch = 1 ;	1
+increment ansf by one	ansf ++ ;
+	ansf ++ ;	1
+else	else
+	else	1
+assign i - j to ansf	ansf = i - j ;
+	ansf = i - j ;	1
+change A [ j ] to x	A [ j ] = x ;
+	A [ j ] = x ;	1
+if ansf = 1	if ( ansf == 1 )
+	if ( ansf == 1 )	1
+if A [ i ] is greater than A [ i - 1 ]	if ( A [ j ] > A [ i - 1 ] )
+	if ( A [ i ] > A [ i - 1 ] )	NA
+increment ansf by one	ansf ++ ;
+	ansf ++ ;	1
+change x to A [ i - 2 ]	x = A [ i - 2 ] ;
+	x = A [ i - 2 ] ;	1
+increment ansf by one	ansf ++ ;
+	ansf ++ ;	1
+assign i - 2 to j	j = i - 2 ;
+	j = i - 2 ;	1
+change A [ i - 2 ] to A [ i - 1 ] - 1	A [ i - 2 ] -= 1 ;
+	A [ i - 2 ] = A [ i - 1 ] - 1 ;	NA
+if i > = 3 and A [ i - 2 ] > A [ i - 3 ] , increase ansf by dp [ i - 2 ]	if ( i >= 3 && A [ i - 2 ] > A [ j - 3 ] ) { ansf += dp [ i + 2 ] ; }
+	if ( i >= 3 && A [ i - 2 ] > A [ i - 3 ] ) ansf = ansf + dp [ i - 2 ] ;	NA
+else	else
+	else	1
+increment ansf	ansf ++ ;
+	ansf ++ ;	1
+assign A [ i - 1 ] to x	x = A [ i - 1 ] ;
+	x = A [ i - 1 ] ;	1
+assign i - 1 to j	j = i - 1 ;
+	j = i - 1 ;	1
+change A [ i - 1 ] to A [ i ] - 1	A [ i - 1 ] -= 1 ;
+	A [ i - 1 ] = A [ i ] - 1 ;	NA
+if A [ i - 1 ] is greater than A [ i - 2 ] , increase ansf by dp [ i - 1 ]	if ( A [ i - 1 ] > A [ j - 2 ] ) { ansf += dp [ i ] ; }
+	if ( A [ i - 1 ] > A [ i - 2 ] ) ansf = ansf + dp [ i - 1 ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+if A [ j ] is less than A [ j + 1 ] , increment ansf	if ( A [ j ] < A [ i + 1 ] ) ansf ++ ;
+	if ( A [ j ] < A [ j + 1 ] ) ansf ++ ;	NA
+change x to A [ i ]	x = A [ i ] ;
+	x = A [ i ] ;	1
+set j to i	j = i ;
+	j = i ;	1
+change A [ i ] to A [ i - 1 ] + 1	A [ i ] = A [ i - 1 ] + 1 ;
+	A [ i ] = A [ i - 1 ] + 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+change max1 to max of max1 and ansf	max1 = max ( max1, ansf ) ;
+	max1 = max ( max1 , ansf ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print max1 and " \ n "	cout << max1 << " \n " ;
+	cout << max1 << " \n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

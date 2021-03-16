@@ -1,0 +1,58 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+ax , ay , bx , by , cx , cy , n = integers	int ax, ay, bx, by, cx, cy, n ;
+	int ax , ay , bx , by , cx , cy , n ;	NA
+Read ax , ay , bx , by , cx , cy , n	cin >> ax >> ay >> bx >> by >> cx >> cy >> n ;
+	cin >> n >> ax >> ay >> bx >> by >> cx >> cy ;	NA
+if cx is greater than bx	if ( cx > bx )
+	if ( cx > bx )	1
+if cy is greater than by	if ( cy > by )
+	if ( cy > by )	1
+if ( ax is less than cx and ax is greater than bx ) OR ( ay is less than cy and ay is greater than by )	if ( ( ax < cx && ax > bx ) || ( ay < cy && ay > by ) )
+	if ( ( ax < cx && ax > bx ) || ( ay < cy && ay > by ) )	1
+print NO and a new line	cout << " NO " << endl ;
+	cout << " NO\n " ;	NA
+else do the following	else
+	else	1
+print YES and a new line	cout << " YES\n " ;
+	cout << " YES\n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+else do the following	else
+	else	1
+if ( ax is less than cx and ax is greater than bx ) OR ( ay is greater than cy and ay is less than by )	if ( ( ax < cx && ax > bx ) || ( ay > cy && ay < by ) )
+	if ( ( ax < cx && ax > bx ) || ( ay > cy && ay < by ) )	1
+print NO and a new line	cout << " NO " << endl ;
+	cout << " NO\n " ;	NA
+else do the following	else
+	else	1
+print YES and a new line	cout << " YES " << endl ;
+	cout << " YES\n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+else do the following	else
+	else	1
+if cy is greater than by	if ( cy > by )
+	if ( cy > by )	1
+if ( ax is greater than cx and ax is less than bx ) OR | ( ay is less than cy and ay is greater than by	if ( ( ax > cx && ax < bx ) || ( ay < cy && ay > by ) )
+	if ( ( ax > cx && ax < bx ) || ( ay < cy && ay > by ) )	1
+print NO and a new line	cout << " NO " << endl ;
+	cout << " NO\n " ;	NA
+else do the following	else
+	else	1
+print YES and a new line	cout << " YES " << endl ;
+	cout << " YES\n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+else do the following	else
+	else	1
+if ( ax is greater than cx and ax is less than bx ) OR | ( ay is greater than cy and ay is less than by )	if ( ax > cx && ax < bx ) || || ( ay > cy && ay < by ) )
+	if ( ( ax > cx && ax < bx ) || ( ay > cy && ay < by ) )	NA
+print NO and a new line	cout << " NO " << endl ;
+	cout << " NO\n " ;	NA
+else do the following	else
+	else	1
+print YES and a new line	cout << " YES " << endl ;
+	cout << " YES\n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,42 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+declare integer pointer a = new integer array size n	int * a = new int [ n ] ;
+	int * a = new int [ n ] ;	1
+declare long long integer min = 99999999999999999	long long int min = 9999999999999 ;
+	long long int min = 99999999999999999 ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read a [ i ]	cin >> a [ i ] ;
+	cin >> a [ i ] ;	1
+if a [ i ] is less than min , let min = a [ i ]	if ( a [ i ] < min ) min = a [ 1 ] ;
+	if ( a [ i ] < min ) { min = a [ i ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare integer array p size 100000	int p [ 100000 ] ;
+	int p [ 100000 ] ;	1
+declare integer c = 0	int c = 0 ;
+	int c = 0 ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if a [ i ] is min	if ( a [ i ] == min )
+	if ( a [ i ] == min )	1
+let p [ c ] be i	p [ c ] = i ;
+	p [ c ] = i ;	1
+increment c	c ++ ;
+	c ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+let min be 99999999999999999	min = 9999999999999 ;
+	min = 99999999999999999 ;	NA
+for i = 1 to c exclusive	for ( int i = 1 ; i < c ; i ++ )
+	for ( int i = 1 ; i < c ; i ++ )	1
+declare integer r = p [ i ] - p [ i - 1 ]	int r = p [ i ] - p [ j - 1 ] ;
+	int r = p [ i ] - p [ i - 1 ] ;	NA
+if r is less than min , let min be r	if ( r < min ) min = r ;
+	if ( r < min ) { min = r ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print min , newline	cout << min << endl ;
+	cout << min << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

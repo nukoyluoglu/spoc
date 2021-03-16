@@ -1,0 +1,42 @@
+create 2d integer array mp with size 1010 by 1010	int mp [ 1010 ] [ 10000 ] ;
+	int mp [ 1010 ] [ 1010 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers m , n , k	int m, n, k ;
+	int m , n , k ;	NA
+read m read n read k	cin >> m >> n >> k ;
+	cin >> m >> n >> k ;	1
+set bytes from m to size of m to value 0	memset ( m, 0, sizeof ( m ) ) ;
+	memset ( mp , 0 , sizeof ( mp ) ) ;	NA
+create integer flog with flag = 0	int flog = 0 ;
+	int flog = 0 ;	1
+create integer ans with ans = 0	int ans = 0 ;
+	int ans = 0 ;	1
+for i = 1 to k inclusive	for ( int i = 1 ; i <= k ; i ++ )
+	for ( int i = 1 ; i <= k ; i ++ )	1
+create integers x , y	int x, y ;
+	int x , y ;	NA
+read x read y	cin >> x >> y ;
+	cin >> x >> y ;	1
+set mp [ x ] [ y ] to 1	mp [ x ] [ y ] = 1 ;
+	mp [ x ] [ y ] = 1 ;	1
+if flag is 0	if ( flag == 0 )
+	if ( flog == 0 )	NA
+if ( mp [ x - 1 ] [ y ] and mp [ x - 1 ] [ y - 1 ] and mp [ x ] [ y - 1 ] ) , set flog to 1	if ( mp [ x - 1 ] [ y ] && mp [ 0 ] [ 1 ] && mmp [ x ] [ Y - 1 + 1 ] ) flog = 1 ;
+	if ( mp [ x - 1 ] [ y ] && mp [ x - 1 ] [ y - 1 ] && mp [ x ] [ y - 1 ] ) flog = 1 ;	NA
+if ( mp [ x + 1 ] [ y ] and mp [ x + 1 ] [ y + 1 ] and mp [ x ] [ y + 1 ] ) , set flog to 1	if ( mp [ x + 1 ] [ y ] && mp [ 0 ] [ x - 1 ] and mp [ 1 ]. y ++ ] ) flog = 1 ;
+	if ( mp [ x + 1 ] [ y ] && mp [ x + 1 ] [ y + 1 ] && mp [ x ] [ y + 1 ] ) flog = 1 ;	NA
+if ( mp [ x - 1 ] [ y ] and mp [ x - 1 ] [ y + 1 ] and mp [ x ] [ y + 1 ] ) , set flog to 1	if ( mp [ x - 1 ] [ y ] && mp [ 0 ] [ x + 1 ] &&! mp [ y ) ) flog = 1 ;
+	if ( mp [ x - 1 ] [ y ] && mp [ x - 1 ] [ y + 1 ] && mp [ x ] [ y + 1 ] ) flog = 1 ;	NA
+if ( mp [ x + 1 ] [ y ] and mp [ x + 1 ] [ y - 1 ] and mp [ x ] [ y - 1 ] ) , set flog to 1	if ( mp [ x + 1 ] [ y ] && mp [ 0 ] [ x - 1 ] && mmp [ x ] [ Y - 2 ] ) flog = 1 ;
+	if ( mp [ x + 1 ] [ y ] && mp [ x + 1 ] [ y - 1 ] && mp [ x ] [ y - 1 ] ) flog = 1 ;	NA
+if flog is true	if ( flog )
+	if ( flog )	1
+print i print newline	cout << i << endl ;
+	cout << i << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " 0 " print newline	cout << " 0 " << endl ;
+	cout << " 0 " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

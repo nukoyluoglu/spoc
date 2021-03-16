@@ -1,0 +1,80 @@
+create constant long long OO with OO = 1e5 + 555	const long long OO = 1e5 + 555 ;
+	const long long OO = 1e5 + 555 ;	1
+declare rakm with character x as argument , returning long long	long long rakm ( char x )
+	long long rakm ( char x )	1
+return x - 48 from function	return x - 48 ;
+	return x - 48 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare _7rf with long long x as argument , returning character	char _7rf ( long long x )
+	char _7rf ( long long x )	1
+return x + 48 from function	return x + 48 ;
+	return x + 48 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare odd with long long x as argument , returning boolean	bool odd ( long long x )
+	bool odd ( long long x )	1
+return x % 2	return x % 2 ;
+	return x % 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare even with long long x as argument , returning boolean	bool even ( long long x )
+	bool even ( long long x )	1
+return 1 - x % 2	return 1 - x % 2 ;
+	return 1 - x % 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare factorial with long long x as argument , returning long long	long long factorial ( long long x )
+	long long factorial ( long long x )	1
+if x is 0 or x is 1	if ( x == 0 || x == 1 )
+	if ( x == 0 || x == 1 )	1
+return 1 from function	return 1 ;
+	return 1 ;	1
+else	else
+	else	1
+return x * result of run factorial with x - 1 as argument	return x * factorial ( x - 1 ) ;
+	return x * factorial ( x - 1 ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+declare ss with long long x as argument , returning long long	long long ss ( long long x )
+	long long ss ( long long x )	1
+create long long sum with sum = 0	long long sum = 0 ;
+	long long sum = 0 ;	1
+while x is greater than 0	while ( x > 0 )
+	while ( x > 0 )	1
+increment sum by x % 10	sum += x % 10 ;
+	sum += x % 10 ;	1
+set x to x / 10	x /= 10 ;
+	x /= 10 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return sum from function	return sum ;
+	return sum ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare a3ks with long long x as argument , returning long long	long long a3ks ( long long x )
+	long long a3ks ( long long x )	1
+create long longs b , u , with b = 0 , u = x	long long b = 0, u = x ;
+	long long b = 0 , u = x ;	NA
+while u is greater than 0	while ( u > 0 )
+	while ( u > 0 )	1
+set b to ( b * 10 ) + u % 10	b = ( b * 10 ) + u % 10 ;
+	b = ( b * 10 ) + u % 10 ;	1
+set u to u / 10	u /= 10 ;
+	u /= 10 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return b from function	return b ;
+	return b ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare prime with long long x as argument , returning boolean	bool prime ( long long x )
+	bool prime ( long long x )	1
+for i = 2 to x exclusive	for ( long long i = 2 ; i < x ; i ++ )
+	for ( int i = 2 ; i < x ; i ++ )	NA
+if x % i is 0 , return 0 from function	if ( x % i == 0 ) return 0 ;
+	if ( x % i == 0 ) { return 0 ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 1 from function	return 1 ;
+	return 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers a , b , c	int a, b, c ;
+	int a , b , c ;	NA
+read a read b read c	cin >> a >> b >> c ;
+	cin >> a >> b >> c ;	1
+print ( a * b * c ) - ( ( a - 1 ) * ( b - 1 ) * ( c - 1 ) ) print newline	cout << ( a * b * c ) - ( ( a - 1 ) * ( b - 1) * ( c - 1.0 ) ) << endl ;
+	cout << ( a * b * c ) - ( ( a - 1 ) * ( b - 1 ) * ( c - 1 ) ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

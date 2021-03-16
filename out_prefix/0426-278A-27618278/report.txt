@@ -1,0 +1,30 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , s , t , len1 , len2 = int with len1 = 0 and len2 = 0 and arr = int array of size 103	int arr [ 103 ], n, s, t, len1 = 0, len2 = 0 ;
+	int n , arr [ 103 ] , s , t , len1 = 0 , len2 = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+read n values into arr	for ( int i = 0 ; i < n ; i ++ ) cin >> arr [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) cin >> arr [ i ] ;	1
+read s then t	cin >> s >> t ;
+	cin >> s >> t ;	1
+if s is greater then t then swap s and t	if ( s > t ) swap ( s, t ) ;
+	if ( s > t ) swap ( s , t ) ;	NA
+for i = s - 1 to t - 1 increment len1 by arr [ i ]	for ( int i = s - 1 ; i < t ; i ++ ) len1 += arr [ i ] ;
+	for ( int i = s - 1 ; i < t - 1 ; i ++ ) len1 += arr [ i ] ;	NA
+f = int with f = n - t + s	int f = n - t + s ;
+	int f = n - t + s ;	1
+tt = int with tt = t - 1	int tt = t - 1 ;
+	int tt = t - 1 ;	1
+loop f times	while ( f -- )
+	while ( f -- )	1
+if tt is even set tt to 0	if ( tt % 2 == 0 ) tt = 0 ;
+	if ( tt % n == 0 ) tt = 0 ;	NA
+increment len2 by arr [ tt ]	len2 += arr [ tt ] ;
+	len2 += arr [ tt ] ;	1
+increment tt	tt ++ ;
+	tt ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print min of len1 and len2	cout << min ( len1, len2 ) << endl ;
+	cout << min ( len1 , len2 ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

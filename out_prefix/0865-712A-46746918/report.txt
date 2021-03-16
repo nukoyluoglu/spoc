@@ -1,0 +1,12 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n create integer array ara with size 100000	int n, ara [ 100000 ] ;
+	int n , ara [ 100000 ] ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive , read ara [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> ara [ i ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> ara [ i ] ; }	1
+for i = 0 to n - 1 exclusive , print ara [ i ] + ara [ i + 1 ] print ' '	for ( int i = 0 ; i < n - 1 ; i ++ ) { cout << ( ara [ i ] + ( arr [ i + 1 ] ) ) <<' '; }
+	for ( int i = 0 ; i < n - 1 ; i ++ ) { cout << ara [ i ] + ara [ i + 1 ] << ' ' ; }	NA
+print ara [ n - 1 ] print newline	cout << ara [ n - 1 ] << endl ;
+	cout << ara [ n - 1 ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

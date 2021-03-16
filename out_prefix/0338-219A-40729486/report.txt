@@ -1,0 +1,49 @@
+let solve be a void function which accepts string str , integer k	void solve ( string str, int k )
+	void solve ( string str , int k )	NA
+cnt = array of integers of length 26	int cnt [ 26 ] ;
+	int cnt [ 26 ] ;	1
+memset of cnt , 0 , length of cnt	memset ( cnt, 0, sizeof cnt ) ;
+	memset ( cnt , 0 , sizeof ( cnt ) ) ;	NA
+for i = 0 to length of str exclusive , increment cnt [ str [ i ] - a ] by 1	for ( int i = 0 ; i < str. length ( ) ; i ++ ) cnt [ str [ i ] -'a'] ++ ;
+	for ( int i = 0 ; i < str . length ( ) ; i ++ ) cnt [ str [ i ] - ' a ' ] ++ ;	NA
+let s1 be a string	string s1 ;
+	string s1 ;	1
+initialize integer i to 0	int i = 0 ;
+	int i = 0 ;	1
+for i is less than 26 , increment i by 1	for ( ; i < 26 ; i ++ )
+	for ( ; i < 26 ; i ++ )	1
+if cnt [ i ] modulo k is not equal to 0	if ( cnt [ i ] % k!= 0 )
+	if ( cnt [ i ] % k != 0 )	NA
+stop	break ;
+	break ;	1
+else do the following	else
+	else	1
+It extends the string s1 by appending cnt [ i ] / k , ' a ' + i	s1. extends ( cnt [ i ] / k,'a'+ i ) ;
+	s1 . append ( cnt [ i ] / k , ' a ' + i ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if i is equal to 26	if ( i == 26 )
+	if ( i == 26 )	1
+while k is decremented by 1 , print s1	while ( k -- ) cout << s1 ;
+	while ( k -- ) { cout << s1 ; }	NA
+print newline	cout << endl ;
+	cout << endl ;	1
+else do the following	else
+	else	1
+print - 1 and newline	cout << - 1 << endl ;
+	cout << " -1 " << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let k be a integer	int k ;
+	int k ;	1
+read k	cin >> k ;
+	cin >> k ;	1
+let str be a string	string str ;
+	string str ;	1
+read str	cin >> str ;
+	cin >> str ;	1
+solve the values str , k	solve ( str, k ) ;
+	solve ( str , k ) ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

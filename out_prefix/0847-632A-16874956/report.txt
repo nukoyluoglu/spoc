@@ -1,0 +1,45 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create ints n and p	int n, p ;
+	int n , p ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+read p	cin >> p ;
+	cin >> p ;	1
+create long double apples = 0	long double apples = 0 ;
+	long double apples = 0 ;	1
+let long long answer = 0	long long answer = 0 ;
+	long long answer = 0 ;	1
+create string vector data	vector < string > data ;
+	vector < string > data ;	1
+for i = 0 to n exclusive	for ( long long i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	NA
+create string temp	string temp ;
+	string temp ;	1
+read temp	cin >> temp ;
+	cin >> temp ;	1
+append temp to data	data. push_back ( temp ) ;
+	data . push_back ( temp ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = n - 1 to 0	for ( int i = n - 1 ; i >= 0 ; i -- )
+	for ( int i = n - 1 ; i >= 0 ; i -- )	1
+if data [ i ] is equal to " halfplus "	if ( data [ i ] == " halfplus " )
+	if ( data [ i ] == " halfplus " )	1
+set apples to apples + 0 . 5	apples += 0.5 ;
+	apples += 0.5 ;	1
+set apples to apples * 2	apples *= 2 ;
+	apples *= 2 ;	1
+set answer to answer + ( apples / 2 . 0 ) * p	answer += ( apples / 2.0 ) * p ;
+	answer += ( apples / 2.0 ) * p ;	1
+else	else
+	else	1
+set apples to apples * 2	apples *= 2 ;
+	apples *= 2 ;	1
+set answer to answer + ( apples / 2 . 0 ) * p	answer += ( apples / 2.0 ) * p ;
+	answer += ( apples / 2.0 ) * p ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print answer	cout << answer << endl ;
+	cout << answer << endl ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

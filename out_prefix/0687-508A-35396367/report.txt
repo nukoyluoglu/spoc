@@ -1,0 +1,52 @@
+declare long longs n , m , i , k , v1 , v2 and f where f = 0 , and 2d long long array a with size 1007 by 1007	long long n, m, i, k, v1, v2, f = 0, a [ 1007 ] [ 10007 ] ;
+	long long n , m , i , a [ 1007 ] [ 1007 ] , k , v1 , v2 , f = 0 ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , m and k	cin >> n >> m >> k ;
+	cin >> n >> m >> k ;	1
+for i from 1 to k inclusive	for ( i = 1 ; i <= k ; i ++ )
+	for ( i = 1 ; i <= k ; i ++ )	1
+read v1 and v2	cin >> v1 >> v2 ;
+	cin >> v1 >> v2 ;	1
+change a [ v1 ] [ v2 ] to 1	a [ v1 ] [ v2 ] = 1 ;
+	a [ v1 ] [ v2 ] = 1 ;	1
+if ( a [ v1 ] [ v2 ] + a [ v1 + 1 ] [ v2 ] + a [ v1 + 1 ] [ v2 + 1 ] + a [ v1 ] [ v2 + 1 ] ) = 4	if ( ( a [ v1 ] [ v2 ] + a [ V1 + 1 ] [ V2 ] ) < 4 ) { m ++ ; }
+	if ( ( a [ v1 ] [ v2 ] + a [ v1 + 1 ] [ v2 ] + a [ v1 + 1 ] [ v2 + 1 ] + a [ v1 ] [ v2 + 1 ] ) == 4 )	NA
+print i	cout << i << endl ;
+	cout << i << endl ;	1
+assign 1 to f	f = 1 ;
+	f = 1 ;	1
+break the loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if a [ v1 ] [ v2 ] + a [ v1 - 1 ] [ v2 ] + a [ v1 ] [ v2 + 1 ] + a [ v1 - 1 ] [ v2 + 1 ] = 4	if ( ( a [ v1 ] [ v2 ] + a [ V1 - 1 ] [ V2 ] ) + ( b [ v3 ] [v2 + 1 ] + ( a1 - l2 ) + 1 ) == 4 )
+	if ( ( a [ v1 ] [ v2 ] + a [ v1 - 1 ] [ v2 ] + a [ v1 ] [ v2 + 1 ] + a [ v1 - 1 ] [ v2 + 1 ] ) == 4 )	NA
+print i	cout << i << endl ;
+	cout << i << endl ;	1
+set f to 1	f = 1 ;
+	f = 1 ;	1
+stop the loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if a [ v1 ] [ v2 ] + a [ v1 ] [ v2 - 1 ] + a [ v1 + 1 ] [ v2 ] + a [ v1 + 1 ] [ v2 - 1 ] = 4	if ( ( a [ v1 ] [ v2 ] + a [ V1 ]. v2 - 1 ] ) + ( a1 + 1 ] [ V2 ] ) < 4 ) { f = 0 ; }
+	if ( ( a [ v1 ] [ v2 ] + a [ v1 ] [ v2 - 1 ] + a [ v1 + 1 ] [ v2 ] + a [ v1 + 1 ] [ v2 - 1 ] ) == 4 )	NA
+print i	cout << i << endl ;
+	cout << i << endl ;	1
+set f to 1	f = 1 ;
+	f = 1 ;	1
+stop the loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if a [ v1 ] [ v2 ] + a [ v1 - 1 ] [ v2 ] + a [ v1 ] [ v2 - 1 ] + a [ v1 - 1 ] [ v2 - 1 ] = 4	if ( ( a [ v1 ] [ v2 ] + a [ V1 - 1 ] [ V2 ] ) + b [ v3 ] [ ( v2 + 1 ] ) - a [v1 - 2 ] [ { v2 - 1 } ) == 4 )
+	if ( ( a [ v1 ] [ v2 ] + a [ v1 - 1 ] [ v2 ] + a [ v1 ] [ v2 - 1 ] + a [ v1 - 1 ] [ v2 - 1 ] ) == 4 )	NA
+print i	cout << i << endl ;
+	cout << i << endl ;	1
+change f to 1	f = 1 ;
+	f = 1 ;	1
+break the loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if f is equal to 0 , print 0	if ( f == 0 ) cout << 0 << endl ;
+	if ( f == 0 ) cout << 0 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

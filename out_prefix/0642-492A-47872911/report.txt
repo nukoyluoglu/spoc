@@ -1,0 +1,33 @@
+in function sum taking an int n and returning an int	int sum ( int n )
+	int sum ( int n )	1
+s = int with s = ( n * ( n + 1 ) ) / 2	int s = ( n * ( n + 1 ) ) / 2 ;
+	int s = ( n * ( n + 1 ) ) / 2 ;	1
+return s	return s ;
+	return s ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+i = int with i = 0	int i = 0 ;
+	int i = 0 ;	1
+s = int with s = 0	int s = 0 ;
+	int s = 0 ;	1
+loop infinitely	while ( 1 )
+	while ( true )	NA
+increment s by sum of i	s += i + 1 ;
+	s = s + sum ( i ) ;	NA
+if s > n	if ( s > n )
+	if ( s > n )	1
+break	break ;
+	break ;	1
+else	else
+	else	1
+increment i	i ++ ;
+	i ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print i - 1	cout << i - 1 << endl ;
+	cout << ( i - 1 ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

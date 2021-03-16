@@ -1,0 +1,100 @@
+boolean function l that takes character c as argument	bool l ( char c )
+	bool l ( char c )	1
+return true if c is a letter	if ( c =='letter') return true ;
+	if ( c >= ' a ' && c <= ' z ' ) { return true ; }	NA
+return true if c is a capital letter	if ( c >='A'&& c <='Z') return true ;
+	if ( c >= ' A ' && c <= ' Z ' ) { return true ; }	NA
+return true if c is a digit	if ( c >='0'&& c <='9') return true ;
+	if ( c >= ' 0 ' && c <= ' 9 ' ) { return true ; }	NA
+return true if c is an underscore	if ( c >='A'&& c <='Z') return true ;
+	if ( c == ' _ ' ) { return true ; }	NA
+return false	return false ;
+	return false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+function un with string argument s	bool un ( string s )
+	bool un ( string s )	1
+set value of int n to length s	int n = s. length ( ) ;
+	int n = s . size ( ) ;	NA
+if n is 0 or n > 16 return false	if ( n == 0 || n > 16 ) return false ;
+	if ( n == 0 || n > 16 ) { return false ; }	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if l ( s at index i ) is false return false	if (! l ( s [ i ] ) ) return false ;
+	if ( ! l ( s [ i ] ) ) { return false ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return true	return true ;
+	return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+function hn with string argument s	bool hn ( string s )
+	bool hn ( string s )	1
+declare integers n = size of s , i , nw = 0	int n = s. size ( ), i, nw = 0 ;
+	int n = s . size ( ) , i , nw = 0 ;	NA
+if n is 0 or n > 32 return false	if ( n == 0 || n > 32 ) return false ;
+	if ( n == 0 || n > 32 ) { return false ; }	NA
+appen character ' . ' to s	s = '.'+ s ;
+	s += ' . ' ;	NA
+for i = 0 to n + 1 exclusive	for ( i = 0 ; i < n + 1 ; i ++ )
+	for ( i = 0 ; i < n + 1 ; i ++ )	1
+if s [ i ] is character " . "	if ( s [ i ] == '.')
+	if ( s [ i ] == ' . ' )	NA
+if nw is equal to 0 or nw is greater than 16 return false	if ( nw == 0 || nw > 16 ) return false ;
+	if ( nw == 0 || nw > 16 ) { return false ; }	NA
+nw = 0	nw = 0 ;
+	nw = 0 ;	1
+else	else
+	else	1
+if l ( s at index i ) is false return false	if (! l ( s [ i ] ) ) return false ;
+	if ( ! l ( s [ i ] ) ) { return false ; }	NA
+increase nw	nw ++ ;
+	nw ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return true	return true ;
+	return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+boolean function r with string argument s	bool r ( string s )
+	bool r ( string s )	1
+return un ( s )	return un ( s ) ;
+	return un ( s ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+boolean function f with string argument s	bool f ( string s )
+	bool f ( string s )	1
+int n = length of s , i , j	int n = s. length ( ), i, j ;
+	int n = s . size ( ) , i , j ;	NA
+for i = 0 to n exclusive	for ( i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	1
+if s at index i is " @ " break the loop	if ( s [ i ] =='@') break ;
+	if ( s [ i ] == ' @ ' ) { break ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if i is equal to n return false	if ( i == n ) return false ;
+	if ( i == n ) { return false ; }	NA
+if un ( substring of s from 0 to i ) is false return false	if (! un ( s. substr ( 0, i ) ) return false ;
+	if ( ! un ( s . substr ( 0 , i ) ) ) { return false ; }	NA
+for j = from i + 1 to n exclusive	for ( j = i + 1 ; j < n ; j ++ )
+	for ( j = i + 1 ; j < n ; j ++ )	1
+if s [ j ] is " / " break the loop	if ( s [ j ] =='/') break ;
+	if ( s [ j ] == ' / ' ) { break ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if hn ( substring of s from i + 1 to j - i - 1 ) is false return false	if (! hn ( s. substr ( i + 1, j - i - 1 ) ) return false ;
+	if ( ! hn ( s . substr ( i + 1 , j - i - 1 ) ) ) { return false ; }	NA
+if j is not equal to n and r ( substring of s from 0 to j + 1 ) is false return false	if ( j!= n &&! r ( s. substr ( 0, j + 1 ) ) return false ;
+	if ( j != n && ! r ( s . substr ( j + 1 ) ) ) { return false ; }	NA
+return true	return true ;
+	return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+let s be string	string s ;
+	string s ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read s	cin >> s ;
+	cin >> s ;	1
+if f ( s )	if ( f ( s ) )
+	if ( f ( s ) )	1
+print " YES " and a new line	cout << " YES " << endl ;
+	cout << " YES " << endl ;	1
+else	else
+	else	1
+print " NO " and a new line	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

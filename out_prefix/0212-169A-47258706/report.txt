@@ -1,0 +1,14 @@
+create integers n , a , and b	int n, a, b ;
+	int n , a , b ;	NA
+let chores be an array of integers of length 2000	int chores [ 2000 ] ;
+	int chores [ 2000 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , a , and b	cin >> n >> a >> b ;
+	cin >> n >> a >> b ;	1
+for i to n exclusive , read chores [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> chores [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> chores [ i ] ; }	NA
+sort arrary chores	sort ( chores, chores + n ) ;
+	sort ( chores , chores + n ) ;	NA
+output chores [ b ] - chores [ b - 1 ] and new line	cout << chores [ 0 ] - chores [ b - 1 ] << endl ;
+	cout << chores [ b ] - chores [ b - 1 ] << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

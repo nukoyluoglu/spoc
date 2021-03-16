@@ -1,0 +1,35 @@
+in function solve that returns nothing	void solve ( )
+	void solve ( ) ;	NA
+in function speed_up that returns nothing	void speed_up ( ) { }
+	void speed_up ( ) { }	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call speed_up	speed_up ( ) ;
+	speed_up ( ) ;	1
+call solve	solve ( ) ;
+	solve ( ) ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+in function solve that returns nothing	void solve ( )
+	void solve ( )	1
+n , b , p = long long	long long n, b, p ;
+	long long n , b , p ;	NA
+read n , b , p	cin >> n >> b >> p ;
+	cin >> n >> b >> p ;	1
+y = long long = n * p	long long y = n * p ;
+	long long y = n * p ;	1
+sor = long long = 0	long long sor = 0 ;
+	long long sor = 0 ;	1
+while n > 1	while ( n > 1 )
+	while ( n > 1 )	1
+st = long long = 2	long long st = 2 ;
+	long long st = 2 ;	1
+while st * 2 < = n , then st = st * 2	while ( st * 2 <= n ) st *= 2 ;
+	while ( st * 2 <= n ) st *= 2 ;	1
+sor = sor + ( st / 2 ) * ( b * 2 + 1 )	sor += ( st / 2 ) * ( b * 2 + 1 ) ;
+	sor += ( st / 2 ) * ( b * 2 + 1 ) ;	1
+n = n - st / 2	n -= st / 2 ;
+	n -= st / 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print sor y	cout << sor << endl ;
+	cout << sor << " " << y << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

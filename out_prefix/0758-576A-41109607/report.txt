@@ -1,0 +1,64 @@
+maxn = const integer with maxn = 1010	const int maxn = 1010 ;
+	const int maxn = 1010 ;	1
+v = vector of integer	vector < int > v ;
+	vector < int > v ;	1
+is_prime = bool array of size maxn	bool is_prime [ maxn ] ;
+	bool is_prime [ maxn ] ;	1
+prime = integer array of size maxn	int prime [ maxn ] ;
+	int prime [ maxn ] ;	1
+k = integer	int k ;
+	int k ;	1
+in the function Euler that takes integer n	void Euler ( int n )
+	void Euler ( int n )	1
+i , j = integers	int i, j ;
+	int i , j ;	NA
+k = 0	k = 0 ;
+	k = 0 ;	1
+for i = 2 to n exclusive	for ( i = 2 ; i < n ; i ++ )
+	for ( i = 2 ; i < n ; i ++ )	1
+if is_prime [ i ] is false , prime [ increment k ] = i	if (! is_prime [ i ] ) prime [ ++ k ] = i ;
+	if ( is_prime [ i ] == false ) prime [ k ++ ] = i ;	NA
+for j < k and i * prime [ j ] < n	for ( j < k && i * prime [ j ] < n ; j ++ )
+	for ( j = 0 ; j < k && i * prime [ j ] < n ; j ++ )	NA
+is_prime [ i * prime [ j ] ] = true	is_prime [ i * prime [ j ] ] = true ;
+	is_prime [ i * prime [ j ] ] = true ;	1
+if i modulo prime [ j ] is 0 , break loop	if ( i % prime [ j ] == 0 ) break ;
+	if ( i % prime [ j ] == 0 ) break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , x = integer	int n, x ;
+	int n , x ;	NA
+Euler of maxn	Euler ( maxn ) ;
+	Euler ( maxn ) ;	1
+ans = integer with ans = ( 0 )	int ans = ( 0 ) ;
+	int ans ( 0 ) ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to k exclusive	for ( int i = 0 ; i < k ; i ++ )
+	for ( int i = 0 ; i < k ; i ++ )	1
+if prime [ i ] < = n	if ( prime [ i ] <= n )
+	if ( prime [ i ] <= n )	1
+p = integer with p = prime [ i ]	int p = prime [ i ] ;
+	int p = prime [ i ] ;	1
+while p < = n	while ( p <= n )
+	while ( p <= n )	1
+append p in v	v. push_back ( p ) ;
+	v . push_back ( p ) ;	NA
+p = p * prime [ i ]	p *= prime [ i ] ;
+	p *= prime [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print v . size ( )	cout << v. size ( ) << endl ;
+	cout << v . size ( ) << endl ;	NA
+if v . size ( ) > 0	if ( v. size ( ) > 0 )
+	if ( v . size ( ) > 0 )	NA
+for i = 0 to v . size ( ) - 1 exclusive , print v [ i ]	for ( int i = 0 ; i < v. size ( ) - 1 ; i ++ ) cout << v [ i ] << endl ;
+	for ( int i = 0 ; i < v . size ( ) - 1 ; i ++ ) cout << v [ i ] << ' ' ;	NA
+print v [ v . size ( ) - 1 ]	cout << v [ v. size ( ) - 1 ] << endl ;
+	cout << v [ v . size ( ) - 1 ] << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

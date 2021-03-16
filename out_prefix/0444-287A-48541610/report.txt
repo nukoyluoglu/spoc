@@ -1,0 +1,35 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let grid = array of strings of length 4	string grid [ 4 ] ;
+	string grid [ 4 ] ;	1
+read the 0th element of grid , 1st element of grid , 2nd element of grid and 3rd element of grid	for ( int i = 0 ; i < grid. size ( ) ; i ++ ) { cin >> grid [ i ] [ i + 1 ] >> grid. 2 ] ; }
+	cin >> grid [ 0 ] >> grid [ 1 ] >> grid [ 2 ] >> grid [ 3 ] ;	NA
+boolean found is equal to false	bool found = false ;
+	bool found = false ;	1
+for i = 0 to 3 exclusive	for ( int i = 0 ; i < 3 ; i ++ )
+	for ( int i = 0 ; i < 3 ; i ++ )	1
+for j = 0 to 3 exclusive	for ( int j = 0 ; j < 3 ; j ++ )
+	for ( int j = 0 ; j < 3 ; j ++ )	1
+let the integers c1 , c2 are assigned as c1 is equal to 0 and c2 is equal to 0 respectively	int c1 = 0, c2 = 0 ;
+	int c1 = 0 , c2 = 0 ;	NA
+for ( int i1 = i to i + 1 inclusive )	for ( int i1 = i ; i <= i + 1 ; i1 ++ )
+	for ( int i1 = i ; i1 <= i + 1 ; i1 ++ )	NA
+for ( int j1 = j to j + 1 inclusive )	for ( int j1 = j ; j1 <= j + 1 ; ++ j1 )
+	for ( int j1 = j ; j1 <= j + 1 ; j1 ++ )	NA
+if ( the 2d array grid [ i1 ] [ j1 ] is equal to . )	if ( grid [ i1 ] [ j1 ] == '.')
+	if ( grid [ i1 ] [ j1 ] == ' . ' )	NA
+increase c1 by 1	c1 ++ ;
+	c1 ++ ;	1
+else do the following	else
+	else	1
+increase c2 by 1	c2 ++ ;
+	c2 ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if ( c1 is not equal to 2 ) , found is equal to true	if ( c1!= 2 ) found = true ;
+	if ( c1 != 2 ) { found = true ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print YES if found else print NO	cout << ( found? " YES " : " NO " ) << endl ;
+	cout << ( found ? " YES " : " NO " ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

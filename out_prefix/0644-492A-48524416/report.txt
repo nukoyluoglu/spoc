@@ -1,0 +1,20 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+tot , ans = int with tot = 0 and ans = 0	int tot = 0, ans = 0 ;
+	int tot = 0 , ans = 0 ;	NA
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i += 1 )	NA
+increment tot by i * ( i + 1 ) / 2	tot += i * ( i + 1 ) / 2 ;
+	tot += i * ( i + 1 ) / 2 ;	1
+if tot > n break	if ( tot > n ) break ;
+	if ( tot > n ) break ;	1
+set ans to i	ans = i ;
+	ans = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

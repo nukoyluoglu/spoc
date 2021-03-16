@@ -1,0 +1,15 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , m , a , b	int n, m, a, b ;
+	int n , m , a , b ;	NA
+read n read m read a read b	cin >> n >> m >> a >> b ;
+	cin >> n >> m >> a >> b ;	1
+if m * a is greater than b	if ( m * a > b )
+	if ( m * a > b )	1
+print minimum of ( ( n / m ) * b + ( n % m ) * a and ( ( n / m ) + 1 ) * b ) print newline	cout << min ( ( ( n / m ) * b + ( n % m ) + a, ( ( long long ) ( ( double ) ( m ) ) + 1 ) * ( b ) ) << endl ;
+	cout << min ( ( n / m ) * b + ( n % m ) * a , ( ( n / m ) + 1 ) * b ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print minimum of n * a and ( ( n / m ) + 1 ) * b print newline	cout << min ( n * a, ( ( n / m ) + 1 ) * b ) << endl ;
+	cout << min ( n * a , ( ( n / m ) + 1 ) * b ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

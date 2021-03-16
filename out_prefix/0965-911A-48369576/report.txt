@@ -1,0 +1,46 @@
+let maxn be a constant integer with maxn = 1e6 + 7	const int maxn = 1e6 + 7 ;
+	const int maxn = 1e6 + 7 ;	1
+let mod be a constant integer with mod = 998244353	const int mod = 998244353 ;
+	const int mod = 998244353 ;	1
+read the integer data	cin >> n ;
+	int read ( )	NA
+let c , Nig , x be integers with Nig = 1 , x = 0	int c, Nig = 1, x = 0 ;
+	int c = getchar ( ) , Nig = 1 , x = 0 ;	NA
+while not isdigit of c , c = getchar ( )	while (! isdigit ( c ) ) c = getchar ( ) ;
+	while ( ! isdigit ( c ) ) c = getchar ( ) ;	NA
+if c is equal to - , Nig = - 1 , c = getchar ( )	if ( c =='-') Nig = - 1, c = getchar ( ) ;
+	if ( c == ' - ' ) Nig = - 1 , c = getchar ( ) ;	NA
+while isdigit of c , x is equal to ( ( x < < 1 ) + ( x < < 3 ) ) + ( c ^ ' 0 ' ) , c is equal to getchar ( )	while (! isdigit ( c ) ) { x = ( ( x << 1 ) + ( x < 3 ) ) + c ^'0'), c = getchar ( ) ; }
+	while ( isdigit ( c ) ) x = ( ( x << 1 ) + ( x << 3 ) ) + ( c ^ ' 0 ' ) , c = getchar ( ) ;	NA
+return the value of Nig * x	return Nig * x ;
+	return Nig * x ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+a = array of integers of length maxn	int a [ maxn ] ;
+	int a [ maxn ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read from n	cin >> n ;
+	int n = read ( ) ;	NA
+for i = 1 to n inclusive , read a [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 1 ; i <= n ; i ++ ) { a [ i ] = read ( ) ; }	NA
+let minl be a integer with minl = * min_element ( a + 1 , a + 1 + n )	int minl = * min_element ( a + i, a + 1 + n ) ;
+	int minl = * min_element ( a + 1 , a + 1 + n ) ;	NA
+let pos , ans be integers with pos = - 1 , ans = 0x3f3f3f3f	int pos = - 1, ans = 0x3f3f2f ;
+	int pos = - 1 , ans = 0x3f3f3f3f ;	NA
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if a [ i ] is equal to minl	if ( a [ i ] == minl )
+	if ( a [ i ] == minl )	1
+if ~ pos	if ( ~ pos )
+	if ( ~ pos )	1
+ans is equal to minimum of ans and i - pos , pos is equal to i	ans = min ( ans, i - pos ), pos = i ;
+	ans = min ( ans , i - pos ) , pos = i ;	NA
+else do the following	else
+	else	1
+pos is equal to i	pos = i ;
+	pos = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans and new line	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

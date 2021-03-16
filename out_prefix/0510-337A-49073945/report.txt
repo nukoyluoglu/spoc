@@ -1,0 +1,51 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+numbuy = int	int numbuy ;
+	int num , buy ;	NA
+v = vector of int	vector < int > v ;
+	vector < int > v ;	1
+read num , buy	cin >> num >> buy ;
+	cin >> num >> buy ;	1
+for i = 0 to buy exclusive	for ( int i = 0 ; i < buy ; i ++ )
+	for ( int i = 0 ; i < buy ; i ++ )	1
+x = int	int x ;
+	int x ;	1
+read x	cin >> x ;
+	cin >> x ;	1
+add x at end of v	v. push_back ( x ) ;
+	v . push_back ( x ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort v	sort ( v. begin ( ), v. end ( ) ) ;
+	sort ( v . begin ( ) , v . end ( ) ) ;	NA
+max , min = 0 , differ = 1000000	int max, min = 0, differ = 1000000 ;
+	int max = 0 , min = 0 , differ = 1000000 ;	NA
+for i = 0 to size of v exclusive	for ( int i = 0 ; i < v. size ( ) ; i ++ )
+	for ( int i = 0 ; i < v . size ( ) ; i ++ )	NA
+if i + num > size of v	if ( i + num > v. size ( ) )
+	if ( ( i + num ) > v . size ( ) )	NA
+break	break ;
+	break ;	1
+else	else
+	else	1
+min = min_element ( first item of v + i , first item of v + i + num ) - first item of v	min = min_element ( v. begin ( ) + i, v. first + i + num ) - v. end ( ) ;
+	min = min_element ( v . begin ( ) + i , v . begin ( ) + ( i + num ) ) - v . begin ( ) ;	NA
+max = max_element ( first item of v + i , first item of v + i + num ) - first item of v	max = max_element ( v. begin ( ) + i, v. first + i + num ) - v. end ( ) ;
+	max = max_element ( v . begin ( ) + i , v . begin ( ) + ( i + num ) ) - v . begin ( ) ;	NA
+if pos of max in v - pos of min in v < differ differ = pos of max in v - pos of min in v	if ( v. find ( max ) - v. rend ( min ) < differ ) differ = pos ( max in v. begin ( ), v. end ( ) ) - pos ( minin. begin_ ) ;
+	if ( ( v . at ( max ) - v . at ( min ) ) < differ ) { differ = v . at ( max ) - v . at ( min ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to size of v exclusive	for ( int i = 0 ; i < v. size ( ) ; i ++ )
+	for ( int i = 0 ; i < v . size ( ) ; i ++ )	NA
+total = count ( occurrences of i in v )	total = count ( v. begin ( ), v. end ( ) + i ) ;
+	int total = count ( v . begin ( ) , v . end ( ) , v . at ( i ) ) ;	NA
+if total > = num	if ( total >= num )
+	if ( total >= num )	1
+differ = 0	differ = 0 ;
+	differ = 0 ;	1
+break	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print differ	cout << differ << endl ;
+	cout << differ << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

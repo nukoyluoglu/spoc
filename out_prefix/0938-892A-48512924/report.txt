@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , sum with sum = 0	long long n, sum = 0 ;
+	long long n , sum = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+create long long array a with size n	long long a [ n ] ;
+	long long a [ n ] ;	1
+create long long array b with size n	long long b [ n ] ;
+	long long b [ n ] ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( long long i = 0 ; i < n ; i ++ )	NA
+read a [ i ]	cin >> a [ i ] ;
+	cin >> a [ i ] ;	1
+increment sum by a [ i ]	sum += a [ i ] ;
+	sum += a [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive , read b [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> b [ i ] ; }
+	for ( long long i = 0 ; i < n ; i ++ ) { cin >> b [ i ] ; }	NA
+sort elements from b to b + n	sort ( b, b + n ) ;
+	sort ( b , b + n ) ;	NA
+print " YES " if b [ n - 2 ] + b [ n - 1 ] is greater than or equal to sum , else " NO " , print ' \ n '	cout << ( b [ n - 2 ] + b [ N - 1 ] >= sum? " YES " : " NO " ) <<'\n';
+	cout << ( b [ n - 2 ] + b [ n - 1 ] >= sum ? " YES " : " NO " ) << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

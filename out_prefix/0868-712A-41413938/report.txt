@@ -1,0 +1,20 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = integer	int n ;
+	int n ;	1
+x , k = integers with k = 0	int x, k = 0 ;
+	int k = 0 , x ;	NA
+Read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n exclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+Read x	cin >> x ;
+	cin >> x ;	1
+if i is not 1 , then print x + k and a new line	if ( i!= 1 ) { cout << x + k << endl ; }
+	if ( i != 1 ) cout << x + k << " " ;	NA
+set k to x	k = x ;
+	k = x ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print x and a new line	cout << x << endl ;
+	cout << x << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

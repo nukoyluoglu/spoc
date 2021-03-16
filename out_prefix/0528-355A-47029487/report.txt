@@ -1,0 +1,21 @@
+create integers k , d	int k, d ;
+	int k , d ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read k read d	cin >> k >> d ;
+	cin >> k >> d ;	1
+if d is 0 and k is greater than 1	if ( d == 0 && k > 1 )
+	if ( d == 0 && k > 1 )	1
+print " No solution " print newline	cout << " No solution " << endl ;
+	cout << " No solution " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print d	cout << d ;
+	cout << d ;	1
+decrement k	k -- ;
+	k -- ;	1
+while decrement k is true , print 0	while ( k -- ) cout << 0 ;
+	while ( k -- ) cout << 0 ;	1
+print newline	<< " \n " ;
+	cout << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

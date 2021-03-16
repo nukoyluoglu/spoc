@@ -1,0 +1,20 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , a , b , c = integers	int n, a, b, c ;
+	int n , a , b , c ;	NA
+Read n , a , b , c	cin >> n >> a >> b >> c ;
+	cin >> n >> a >> b >> c ;	1
+res = integer with 0	int res = 0 ;
+	int res = 0 ;	1
+for i = 0 to n / a exclusive	for ( int i = 0 ; i < n / a ; i ++ )
+	for ( int i = 0 ; i <= n / a ; i ++ )	NA
+for i = 0 to n / b exclusive	for ( int i = 0 ; i < n / b ; i ++ )
+	for ( int j = 0 ; j <= n / b ; j ++ )	NA
+set k to n - i * a - j * b	int k = n - i * a - j * b ;
+	int k = n - i * a - j * b ;	1
+if k is greater than 0 and k modulo c is 0 , then set res to maximum value of res and i + j + k / c	if ( k > 0 && k % c == 0 ) res = max ( res, i + j + k / c ) ;
+	if ( k >= 0 && k % c == 0 ) res = max ( res , i + j + k / c ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print res and a new line	cout << res << endl ;
+	cout << res << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

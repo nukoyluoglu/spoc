@@ -1,0 +1,39 @@
+in function compare taking two pointers to const void x1 and x2 and returning an int	int compare ( const void * x1, const void & x2 )
+	int compare ( const void * x1 , const void * x2 )	NA
+return value of x1 as pointer to in - value of x2 as pointer to int	return * x1 - * x2 ;
+	return ( * ( int * ) x1 - * ( int * ) x2 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+N = int	int N ;
+	int N ;	1
+final = int	int final ;
+	int final ;	1
+read N	cin >> N ;
+	cin >> N ;	1
+massiv = int array of size N	int massiv [ N ] ;
+	int massiv [ N ] ;	1
+d = int	int d ;
+	int d ;	1
+R = int	int R ;
+	int R ;	1
+for R = 0 to N	for ( R = 0 ; R < N ; R ++ )
+	for ( R = 0 ; R < N ; R ++ )	1
+read d	cin >> d ;
+	cin >> d ;	1
+set massiv [ R ] to d	massiv [ R ] = d ;
+	massiv [ R ] = d ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+call qsort on massiv , N , sizeof of int and compare	qsort ( massiv, N, sizeof ( int ) ) ;
+	qsort ( massiv , N , sizeof ( int ) , compare ) ;	NA
+if N is even	if ( N % 2 == 0 )
+	if ( N % 2 == 0 )	1
+set final to massiv [ R / 2 - 1 ]	final = massiv [ R / 2 - 1 ] ;
+	final = massiv [ R / 2 - 1 ] ;	1
+else	else
+	else	1
+set final to massiv [ R / 2 ]	final = massiv [ R / 2 ] ;
+	final = massiv [ R / 2 ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print final	cout << final << endl ;
+	cout << final << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

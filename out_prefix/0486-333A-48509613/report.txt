@@ -1,0 +1,13 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+define integers i , j , k , and n	int i, j, k, n ;
+	long long i , j , k , n ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+define j and set to 3 ; for i from 1 to 35 , set j to itself * 3	for ( j = 1 ; j <= 35 ; j = i * 3 )
+	for ( i = 1 , j = 3 ; i <= 35 ; i ++ , j *= 3 )	NA
+if n modulo j isn ' t 0 , then break out	if ( n % j!= 0 ) break ;
+	if ( n % j != 0 ) break ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print n / j + 1 and a newline	cout << n / j + 1 << " \n " ;
+	cout << ( n / j ) + 1 << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,30 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , M , M2 , s , with s = 0	long long n, M, M2, s = 0 ;
+	long long n , M , M2 , s = 0 ;	NA
+create long long array t with size 100005	long long t [ 100005 ] ;
+	long long t [ 100005 ] ;	1
+create long long array t2 with size 100005	long long t2 [ 100005 ] ;
+	long long t2 [ 100005 ] ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( long long i = 0 ; i < n ; i ++ )	NA
+read t [ i ]	cin >> t [ i ] ;
+	cin >> t [ i ] ;	1
+increment s by t [ i ]	s += t [ i ] ;
+	s += t [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive , read t2 [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> t2 [ i ] ; }
+	for ( long long i = 0 ; i < n ; i ++ ) { cin >> t2 [ i ] ; }	NA
+sort elements from t2 to t2 + n	sort ( t2, t2 + n ) ;
+	sort ( t2 , t2 + n ) ;	NA
+if s is less than or equal to t2 [ n - 1 ] + t2 [ n - 2 ]	if ( s <= t2 [ n - 1 ] + t2. at ( n - 2 ) )
+	if ( s <= t2 [ n - 1 ] + t2 [ n - 2 ] )	NA
+print " YES " print newline	cout << " YES " << endl ;
+	cout << " YES " << endl ;	1
+else	else
+	else	1
+print " NO " print newline	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

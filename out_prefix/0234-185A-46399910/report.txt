@@ -1,0 +1,40 @@
+MOD = 1000000007	const long long MOD = 1000000007 ;
+	long long MOD = 1e9 + 7 ;	NA
+mod = 1000000007	mod = 1000000007 ;
+	long long mod = 1e9 + 7 ;	NA
+N = 100005	const int N = 1e5 + 5 ;
+	const int N = 100005 ;	NA
+inv = array of 100005 long long	long long inv [ 100005 ] ;
+	long long inv [ 100005 ] ;	1
+function powmod ( get long long a and b , return long long )	long long powmod ( long long a, long long b )
+	long long powmod ( long long a , long long b )	NA
+res = 1	long long res = 1 ;
+	long long res = 1 ;	1
+a = a modulo mod	a %= mod ;
+	a %= mod ;	1
+while b = b > > 1	while ( b == b >> 1 )
+	for ( ; b ; b >>= 1 )	NA
+if b and 1 multiply res by a modulo mod	if ( b & 1 ) res = res * a % mod ;
+	if ( b & 1 ) res = res * a % mod ;	1
+multiply a by a modulo mod	a = a % mod ;
+	a = a * a % mod ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return res	return res ;
+	return res ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = long long	long long n ;
+	long long n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+inv [ 1 ] = 1	inv [ 1 ] = 1 ;
+	inv [ 1 ] = 1 ;	1
+for i = 2 to N exclusive inv [ i ] = ( MOD - MOD / i ) * inv [ MOD modulo i ] modulo MOD	for ( long long i = 2 ; i < N ; i ++ ) inv [ i ] = ( MOD - MOD / i ) * inv [ MOD % i ] % MOD ;
+	for ( int i = 2 ; i < N ; i ++ ) { inv [ i ] = ( MOD - MOD / i ) * inv [ MOD % i ] % MOD ; }	NA
+d = powmod ( 2 , n )	long long d = powmod ( 2, n ) ;
+	long long d = powmod ( 2 , n ) ;	NA
+ans = d * ( d + 1 ) modulo mod * inv [ 2 ] modulo mod	long long ans = d * ( d + 1 ) % mod * inv [ 2 ] % mod ;
+	long long ans = d * ( d + 1 ) % mod * inv [ 2 ] % mod ;	1
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

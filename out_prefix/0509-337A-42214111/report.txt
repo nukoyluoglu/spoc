@@ -1,0 +1,18 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare int variables n and m	int n, m ;
+	int n , m ;	NA
+read n and m from the input	cin >> n >> m ;
+	cin >> n >> m ;	1
+arr is a new array ofintegers with m elements	int arr [ m ] ;
+	int arr [ m ] ;	1
+in the for loop , change i from 0 to m exclusive , reading variable arr [ i ] from the input	for ( int i = 0 ; i < m ; i ++ ) cin >> arr [ i ] ;
+	for ( int i = 0 ; i < m ; ++ i ) cin >> arr [ i ] ;	NA
+sort arr from index 0 to m exclusive	sort ( arr, arr + m ) ;
+	sort ( arr , arr + m ) ;	NA
+declare integer mn = 1e9	int mn = 1e9 ;
+	int mn = 1e9 ;	1
+for i = 0 to m - n inclusive , change mn to min of mn and arr [ i + n - 1 ] - arr [ i ]	for ( int i = 0 ; i <= m - n ; i ++ ) { mn = min ( mn, arr [ i + n - 1 ] - arr [ 1 ] ) ; }
+	for ( int i = 0 ; i <= m - n ; ++ i ) mn = min ( mn , arr [ i + n - 1 ] - arr [ i ] ) ;	NA
+print mn to the standard output	cout << mn << endl ;
+	cout << mn << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

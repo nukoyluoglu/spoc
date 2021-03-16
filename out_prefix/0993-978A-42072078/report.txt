@@ -1,0 +1,34 @@
+create constant integer Max with Max = 1e3 + 10	const int Max = 1e3 + 10 ;
+	const int Max = 1e3 + 10 ;	1
+create integer arrays a , ans , flag , with a size Max , ans size Max , flag size Max	int a [ Max ], ans [ Max ++ ], flag [ Max -- ] ;
+	int a [ Max ] , ans [ Max ] , flag [ Max ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , tot with tot = 0	int n, tot = 0 ;
+	int n , tot = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n inclusive , read a [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;
+	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;	1
+for i = n to 1 inclusive , decrementing i	for ( int i = n ; i >= 1 ; i -- )
+	for ( int i = n ; i >= 1 ; i -- )	1
+if not flag [ a [ i ] ]	if (! flag [ a [ i ] ] )
+	if ( ! flag [ a [ i ] ] )	NA
+set flag [ a [ i ] ] to 1	flag [ a [ i ] ] = 1 ;
+	flag [ a [ i ] ] = 1 ;	1
+set ans [ increment tot ] to a [ i ]	ans [ tot ++ ] = a [ i ] ;
+	ans [ tot ++ ] = a [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print tot print newline	cout << tot << endl ;
+	cout << tot << endl ;	1
+for i = tot - 1 to 0 inclusive , decrementing i	for ( int i = tot - 1 ; i >= 0 ; i -- )
+	for ( int i = tot - 1 ; i >= 0 ; i -- )	1
+print ans [ i ]	cout << ans [ i ] ;
+	cout << ans [ i ] ;	1
+if i is not 0 print " "	if ( i!= 0 ) cout << " " ;
+	if ( i != 0 ) cout << " " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print newline	cout << endl ;
+	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

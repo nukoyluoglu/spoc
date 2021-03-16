@@ -1,0 +1,15 @@
+a , b , r = integers	int a, b, r ;
+	int a , b , r ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+Read a , b , r	cin >> a >> b >> r ;
+	cin >> a >> b >> r ;	1
+if a is less than 2 * r OR b is less than 2 * r	if ( ( a < 2 * r ) || ( b < 2 + r ) )
+	if ( a < 2 * r || b < 2 * r )	NA
+print Second and a new line	cout << " Second\n " ;
+	cout << " Second\n " ;	1
+else do the following	else
+	else	1
+print First and a new line	cout << " First\n " ;
+	cout << " First\n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare new long longs n , b and p	long long n, b, p ;
+	long long n , b , p ;	NA
+read variables n , b and p from the input	cin >> n >> b >> p ;
+	cin >> n >> b >> p ;	1
+B is a new long long = 0	long long B = 0 ;
+	long long B = 0 ;	1
+declare new long long called T = n * p	long long T = n * p ;
+	long long T = n * p ;	1
+while n > 1	while ( n > 1 )
+	while ( n > 1 )	1
+create long long variable with name now = 1	long long now = 1 ;
+	long long now = 1 ;	1
+while now * 2 < = n	while ( now * 2 <= n )
+	while ( now * 2 <= n ) now *= 2 ;	NA
+change B to B + ( now / 2 ) * ( 2 * b + 1 )	B += ( now / 2 ) * ( 2 * b + 1 ) ;
+	B += ( now / 2 ) * ( 2 * b + 1 ) ;	1
+set n to now / 2 + ( n - now )	n = now / 2 + ( n - now ) ;
+	n = now / 2 + ( n - now ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print B , " " and T	cout << B << " " << T << endl ;
+	cout << B << " " << T << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,47 @@
+N = const integer with N = 1e5 + 50	const int N = 1e5 + 50 ;
+	const int N = 1e5 + 50 ;	1
+a , b , cnt = long long	long long a, b, cnt ;
+	long long a , b , cnt ;	NA
+ans = long long array of size N	long long ans [ N ] ;
+	long long ans [ N ] ;	1
+i , j , k , t , m , n = integers	int i, j, k, t, m, n ;
+	int i , j , k , t , m , n ;	NA
+in the function dfs that takes long long st , step	void dfs ( long long st )
+	void dfs ( long long st , long long step )	NA
+if st > b , return	if ( st > b ) return ;
+	if ( st > b ) return ;	1
+ans [ step ] = st	ans [ step ] = st ;
+	ans [ step ] = st ;	1
+if st is b	if ( st == b )
+	if ( st == b )	1
+cnt = step	cnt = step ;
+	cnt = step ;	1
+print YES	cout << " YES\n " ;
+	cout << " YES " << ' \n ' ;	NA
+print cnt + 1	cout << cnt + 1 << endl ;
+	cout << cnt + 1 << ' \n ' ;	NA
+print ans [ 0 ]	cout << ans [ 0 ] << endl ;
+	cout << ans [ 0 ] ;	NA
+for i = 1 to cnt exclusive , print " " , ans [ i ]	for ( int i = 1 ; i < cnt ; i ++ ) cout << " " << ans [ i ] << endl ;
+	for ( i = 1 ; i < cnt + 1 ; i ++ ) cout << " " << ans [ i ] ;	NA
+print new line	cout << endl ;
+	cout << ' \n ' ;	NA
+return	return ;
+	return ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if st * 2 < = b , dfs on st * 2 and step + 1	if ( st * 2 <= b ) dfs ( st. begin ( ) + 2, step + 1 ) ;
+	if ( st * 2 <= b ) dfs ( st * 2 , step + 1 ) ;	NA
+if st * 10 + 1 < = b , dfs on st * 10 + 1 and step + 1	if ( st * 10 + 1 <= b ) dfs ( st. begin ( ) + 10, step + 1 ) ;
+	if ( st * 10 + 1 <= b ) dfs ( st * 10 + 1 , step + 1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read a and b	cin >> a >> b ;
+	cin >> a >> b ;	1
+cnt = 0	int cnt = 0 ;
+	cnt = 0 ;	NA
+dfs on a and 0	dfs ( a, 0 ) ;
+	dfs ( a , 0 ) ;	NA
+if not cnt , print NO	if (! cnt ) cout << " NO " << endl ;
+	if ( ! cnt ) cout << " NO " << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

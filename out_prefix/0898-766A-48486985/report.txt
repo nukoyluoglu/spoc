@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let a , b be strings	string a, b ;
+	string a , b ;	NA
+let c be a integer with c = 0	int c = 0 ;
+	int c = 0 ;	1
+read a , b	cin >> a >> b ;
+	cin >> a >> b ;	1
+let len1 be a integer with len1 is equal to length of a	int len1 = a. length ( ) ;
+	int len1 = a . size ( ) ;	NA
+let len2 be a integer with len2 is equal to length of b	int len2 = b. length ( ) ;
+	int len2 = b . size ( ) ;	NA
+if a is equal to b	if ( a == b )
+	if ( a == b )	1
+print - 1 and newline	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+else do the following	else
+	else	1
+print maximum of len1 , len2 and newline	cout << max ( len1, len2 ) << endl ;
+	cout << max ( len1 , len2 ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

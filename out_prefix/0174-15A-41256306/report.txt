@@ -1,0 +1,48 @@
+let mp be a map from long long to long long	map < long long, long long > mp ;
+	map < long long , long long > mp ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+integers n , t and c with c = 2	int n, t, c = 2 ;
+	int n , t , c = 2 ;	NA
+read n and t	cin >> n >> t ;
+	cin >> n >> t ;	1
+declare doubles called x and y	double x, y ;
+	double x , y ;	NA
+p is array of pairs of double , double with size n	pair < double, double > p [ n ] ;
+	pair < double , double > p [ n ] ;	NA
+for integer i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read x and y	cin >> x >> y ;
+	cin >> x >> y ;	1
+if x > = 0	if ( x >= 0 )
+	if ( x >= 0 )	1
+p [ i ] . first = x - ( y / 2 )	p [ i ]. first = x - ( y / 2 ) ;
+	p [ i ] . first = x - ( y / 2 ) ;	NA
+p [ i ] . second = x + ( y / 2 )	p [ i ]. second = x + ( y / 2 ) ;
+	p [ i ] . second = x + ( y / 2 ) ;	NA
+else	else
+	else	1
+p [ i ] . first = x - ( y / 2 )	p [ i ]. first = x - ( y / 2 ) ;
+	p [ i ] . first = x - ( y / 2 ) ;	NA
+p [ i ] . second = x + ( y / 2 )	p [ i ]. second = x + ( y / 2 ) ;
+	p [ i ] . second = x + ( y / 2 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+sort array p	sort ( p, p + y ) ;
+	sort ( p , p + n ) ;	NA
+for integer i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+x = p [ i ] . first - p [ i - 1 ] . second	x = p [ i ]. first - p [ 1 ]. second ;
+	x = p [ i ] . first - p [ i - 1 ] . second ;	NA
+if x is equal to t	if ( x == t )
+	if ( x == t )	1
+increase c	c ++ ;
+	c ++ ;	1
+else if x is greater than t	else if ( x > t )
+	else if ( x > t )	1
+increase c by 2	c += 2 ;
+	c += 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print c and a new line	cout << c << endl ;
+	cout << c << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

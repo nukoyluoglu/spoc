@@ -1,0 +1,49 @@
+create map m from integer to string	map < int, string > m ;
+	map < int , string > m ;	NA
+create map iterator it from integer to string	map < int, string > :: iterator it ;
+	map < int , string > :: iterator it ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create character array s with size 20	char s [ 20 ] ;
+	char s [ 20 ] ;	1
+create integer n	int n ;
+	int n ;	1
+set m [ 0 ] to " January "	m [ 0 ] = " January " ;
+	m [ 0 ] = " January " ;	1
+set m [ 1 ] to " February "	m [ 1 ] = " February " ;
+	m [ 1 ] = " February " ;	1
+set m [ 2 ] to " March "	m [ 2 ] = " March " ;
+	m [ 2 ] = " March " ;	1
+set m [ 3 ] to " April "	m [ 3 ] = " April " ;
+	m [ 3 ] = " April " ;	1
+set m [ 4 ] to " May "	m [ 4 ] = " May " ;
+	m [ 4 ] = " May " ;	1
+set m [ 5 ] to " June "	m [ 5 ] = " June " ;
+	m [ 5 ] = " June " ;	1
+set m [ 6 ] to " July "	m [ 6 ] = " July " ;
+	m [ 6 ] = " July " ;	1
+set m [ 7 ] to " August "	m [ 7 ] = " August " ;
+	m [ 7 ] = " August " ;	1
+set m [ 8 ] to " September "	m [ 8 ] = " September " ;
+	m [ 8 ] = " September " ;	1
+set m [ 9 ] to " October "	m [ 9 ] = " October " ;
+	m [ 9 ] = " October " ;	1
+set m [ 10 ] to " November "	m [ 10 ] = " November " ;
+	m [ 10 ] = " November " ;	1
+set m [ 11 ] to " December "	m [ 11 ] = " December " ;
+	m [ 11 ] = " December " ;	1
+while read s read n	while ( cin >> s >> n )
+	while ( cin >> s >> n )	1
+create integer j with j = 0	int j = 0 ;
+	int j = 0 ;	1
+for it = beginning of m to it is not end of m , incrementing it	for ( it = m. begin ( ) ; it!= m. end ( ) - 1 ; it ++ )
+	for ( it = m . begin ( ) ; it != m . end ( ) ; it ++ )	NA
+increment j	j ++ ;
+	++ j ;	NA
+if second element of it is s , break loop	if ( it -> second == s ) break ;
+	if ( it -> second == s ) break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print m [ ( j + n - 1 ) % 12 ] print newline	cout << m [ ( j + n - 1 ) % 12 ] << endl ;
+	cout << m [ ( j + n - 1 ) % 12 ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

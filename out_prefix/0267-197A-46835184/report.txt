@@ -1,0 +1,16 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+integers = a , b , r	int a, b, r ;
+	int a , b , r ;	NA
+read a , b , r	cin >> a >> b >> r ;
+	cin >> a >> b >> r ;	1
+multiply r by 2	r *= 2 ;
+	r *= 2 ;	1
+if r is greater than minimum of a or b then proceed with the following	if ( r > min ( a, b ) )
+	if ( r > min ( a , b ) )	NA
+output Second	cout << " Second\n " ;
+	cout << " Second " << ' \n ' ;	NA
+else	else
+	else	1
+output First	cout << " First\n " ;
+	cout << " First " << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,60 @@
+pi = const double with pi = 3 . 14159265359	const double pi = 3.14159265359 ;
+	const double pi = 3.14159265359 ;	1
+MOD = const long long with MOD = 1000 * 1000 * 1000 + 7	const long long MOD = 1000 + 1000 * 1000 + 7 ;
+	const long long MOD = 1000 * 1000 * 1000 + 7 ;	NA
+N = const int with N = 200 * 1000 + 10	const int N = 200 * 1000 + 10 ;
+	const int N = 200 * 1000 + 10 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , b = int	int a, b ;
+	int a , b ;	NA
+read a then b	cin >> a >> b ;
+	cin >> a >> b ;	1
+aa , bb = int with aa = a * a and bb = b * b	int aa = a * a, bb = b * b ;
+	int aa = a * a , bb = b * b ;	NA
+as = int vector	vector < int > as ;
+	vector < int > as ;	1
+bs = int vector	vector < int > bs ;
+	vector < int > bs ;	1
+for i = 1 to aa	for ( int i = 1 ; i <= aa ; i ++ )
+	for ( int i = 1 ; i < aa ; i ++ )	NA
+int sq = sqrt of aa - i * -	int sq = sqrt ( aa - i * -- ) ;
+	int sq = sqrt ( aa - i * i ) ;	NA
+if sq * sq + i * i is aa then append i to as	if ( sq * sqrt ( i * i ) == aa ) as. push_back ( i ) ;
+	if ( sq * sq + i * i == aa ) as . push_back ( i ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 1 to bb	for ( int i = 1 ; i <= bb ; i ++ )
+	for ( int i = 1 ; i < bb ; i ++ )	NA
+sq = int with sq = sqrt of bb - i * i	int sq = sqrt ( bb - i * i ) ;
+	int sq = sqrt ( bb - i * i ) ;	1
+if sq * sq + i * i is bb then append i to bs	if ( sq * sq + i * i == bb ) bs. push_back ( i ) ;
+	if ( sq * sq + i * i == bb ) bs . push_back ( i ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to size of as	for ( int i = 0 ; i < as. size ( ) ; i ++ )
+	for ( int i = 0 ; i < as . size ( ) ; i ++ )	NA
+for j = 0 to size of bs	for ( int j = 0 ; j < bs. size ( ) ; j ++ )
+	for ( int j = 0 ; j < bs . size ( ) ; j ++ )	NA
+xa = int with xa = as [ i ]	int xa = as [ i ] ;
+	int xa = as [ i ] ;	1
+ya = int with ya = sqrt of aa - xa * xa	int ya = sqrt ( aa - xa * xa ) ;
+	int ya = sqrt ( aa - xa * xa ) ;	1
+xb = int with xb = bs [ j ]	int xb = bs [ j ] ;
+	int xb = bs [ j ] ;	1
+yb = int with yb = sqrt of bb - xb * xb	int yb = sqrt ( bb ) - xb * xb ;
+	int yb = sqrt ( bb - xb * xb ) ;	NA
+if ( xb - xa ) * ( xb - xa ) + ( ya + yb ) * ( ya + yb ) is aa + bb and xb is not xa	if ( ( xb - xa ) * ( xa - xb ) + ( ya + yb ) * db == aa + bb && xb!= xa)
+	if ( ( xb - xa ) * ( xb - xa ) + ( ya + yb ) * ( ya + yb ) == aa + bb && xb != xa )	NA
+print " YES "	cout << " YES\n " ;
+	cout << " YES\n " ;	1
+print xa and ya	cout << xa << " " << ya << endl ;
+	cout << xa << " " << ya << ' \n ' ;	NA
+print xb and - yb	cout << xb << " " << - yb << endl ;
+	cout << xb << " " << - yb << ' \n ' ;	NA
+print 0 and 0	cout << " 0 " << 0 << endl ;
+	cout << 0 << " " << 0 << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " NO "	puts ( " NO " ) ;
+	cout << " NO\n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

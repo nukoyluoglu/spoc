@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , d with 255 elements , s , and t be integers	int n, d [ 255 ], s, t ;
+	int n , d [ 255 ] , s , t ;	NA
+let res1 and res2 be integers with value 0	int res1 = 0, res2 = 0 ;
+	int res1 = 0 , res2 = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+read n values into array i	for ( int i = 0 ; i < n ; i ++ ) cin >> i [ i ] ;
+	for ( int i = 1 ; i <= n ; i ++ ) { cin >> d [ i ] ; }	NA
+iterate and set 2 * n values into array d with element i - n	for ( int i = 0 ; i < n ; i ++ ) { cin >> d [ i ] [ i - n ] ; }
+	for ( int i = n + 1 ; i <= 2 * n ; i ++ ) { d [ i ] = d [ i - n ] ; }	NA
+read s and t	cin >> s >> t ;
+	cin >> s >> t ;	1
+if s is more than t , swap s and t	if ( s > t ) swap ( s, t ) ;
+	if ( s > t ) swap ( s , t ) ;	NA
+for i from s to t exclusive , add d at element i to res1	for ( int i = s ; i < t ; i ++ ) res1. insert ( d [ i ] ) ;
+	for ( int i = s ; i < t ; i ++ ) { res1 += d [ i ] ; }	NA
+for i from t to n + s exclusive , add d at element i to res2	for ( int i = t ; i < n + s ; i ++ ) res2. push_back ( d ) ;
+	for ( int i = t ; i < n + s ; i ++ ) { res2 += d [ i ] ; }	NA
+print min of res1 and res2	cout << min ( res1, res2 ) << endl ;
+	cout << min ( res1 , res2 ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

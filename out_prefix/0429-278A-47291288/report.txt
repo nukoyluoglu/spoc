@@ -1,0 +1,29 @@
+let N be int	int N ;
+	int N ;	1
+let x , s and t = int	int x, s, t ;
+	int x , s , t ;	NA
+let d be vector of int	vector < int > d ;
+	vector < int > d ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read N	cin >> N ;
+	cin >> N ;	1
+read x and d . push_back of x N times exclusive	for ( int i = 0 ; i < N ; i ++ ) cin >> x, d. push_back ( x ) ;
+	for ( int i = 0 ; i < N ; ++ i ) cin >> x , d . push_back ( x ) ;	NA
+read s and t	cin >> s >> t ;
+	cin >> s >> t ;	1
+if decremented s is greater than decremented t then swap s and t	if ( s > t ) swap ( s, t ) ;
+	if ( ( -- s ) > ( -- t ) ) swap ( s , t ) ;	NA
+let d1 be integer set to 0	int d1 = 0 ;
+	int d1 = 0 ;	1
+add d of i to d1 i times from s to t exclusive	for ( int i = s ; i < t ; i ++ ) { d1 += d ( i ) ; }
+	for ( int i = s ; i < t ; ++ i ) d1 += d [ i ] ;	NA
+let d2 be integer set to 0	int d2 = 0 ;
+	int d2 = 0 ;	1
+add d of i to d2 i times from t to N exclusive	for ( int i = t ; i < N ; i ++ ) { d2 += d ( i ) ; }
+	for ( int i = t ; i < N ; ++ i ) d2 += d [ i ] ;	NA
+add d of i to d2 i times from 0 to s exclusive	for ( int i = 0 ; i < s ; i ++ ) { d2 += d ( i ) ; }
+	for ( int i = 0 ; i < s ; ++ i ) d2 += d [ i ] ;	NA
+print min of d1 and d2	cout << min ( d1, d2 ) << endl ;
+	cout << min ( d1 , d2 ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

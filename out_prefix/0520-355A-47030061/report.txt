@@ -1,0 +1,23 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let k be a integer	int k ;
+	int k ;	1
+let d be a character	char d ;
+	char d ;	1
+read the values k and d	cin >> k >> d ;
+	cin >> k >> d ;	1
+if ( d is equal to 0 and k is greater than 1 )	if ( d == 0 && k > 1 )
+	if ( d == ' 0 ' && k > 1 )	NA
+print No solution and newline	cout << " No solution " << endl ;
+	cout << " No solution " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+let temp be a string	string temp ;
+	string temp ;	1
+push temp vector to back when element d is given ( temp . push_back ( d ) )	back. push_back ( temp ) ;
+	temp . push_back ( d ) ;	NA
+for ( int i is equal to 1 , i is less than k ; increment i value by 1 ) , temp . push_back ( ' 0 ' )	for ( int i = 1 ; i < k ; i ++ ) { temp. push_back ('0') ; }
+	for ( int i = 1 ; i < k ; i ++ ) temp . push_back ( ' 0 ' ) ;	NA
+print temp and newline	cout << temp << endl ;
+	cout << temp << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

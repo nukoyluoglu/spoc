@@ -1,0 +1,30 @@
+in function cil taking two long longs x and y and returning a long long	long long cil ( long long x, long long y )
+	long long cil ( long long x , long long y )	NA
+if x is a multiple if y	if ( x % y == 0 )
+	if ( x % y == 0 )	1
+return x / y	return x / y ;
+	return x / y ;	1
+else	else
+	else	1
+return x / y + 1	return x / y + 1 ;
+	return x / y + 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , i , j = long long with j = 0	long long n, i, j = 0 ;
+	long long n , i , j = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+set i to n	i = n ;
+	i = n ;	1
+loop while n is a multiple of 3 and greater than 0	while ( n % 3 == 0 && i > 0 )
+	while ( n % 3 == 0 && n > 0 )	NA
+increment j	j ++ ;
+	j ++ ;	1
+set n to n / 3	n /= 3 ;
+	n /= 3 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+l = long long with l = pow of 3 and j + 1	long long l = pow ( 3, j + 1 ) ;
+	long long l = pow ( 3 , j + 1 ) ;	NA
+print cil of i and l	cout << cil ( i, l ) << endl ;
+	cout << cil ( i , l ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

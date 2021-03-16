@@ -1,0 +1,39 @@
+create character array ab with size 2 , with ab = { ' a ' , ' b ' }	char ab [ 2 ] = {'a ','b'} ;
+	char ab [ 2 ] = { ' a ' , ' b ' } ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , k	int n, k ;
+	int n , k ;	NA
+read n read k	cin >> n >> k ;
+	cin >> n >> k ;	1
+if ( k is 1 and n is not 1 ) or ( k is greater than n )	if ( ( k == 1 && n!= 1 ) || ( k > n ) )
+	if ( ( k == 1 && n != 1 ) || ( k > n ) )	NA
+print - 1 print newline	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+create integer frst with frst = n - k + 2	int frst = n - k + 2 ;
+	int frst = n - k + 2 ;	1
+create boolean flag with flag = 0	bool flag = 0 ;
+	bool flag = 0 ;	1
+create integer i with i = 0	int i = 0 ;
+	int i = 0 ;	1
+for i is less than frst and i is less than n , incrementing i	for ( ; i < frst && i < n ; i ++ )
+	for ( ; i < frst && i < n ; i ++ )	1
+print ab [ flag ]	cout << ab [ flag ] ;
+	cout << ab [ flag ] ;	1
+set flag to ( not flag bitwise and 1 )	flag = (! flag & 1 ) ;
+	flag = ( ! flag & 1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create character c with c = ' c '	char c ='c';
+	char c = ' c ' ;	NA
+for i is less than n , incrementing i	for ( ; i < n ; i ++ )
+	for ( ; i < n ; i ++ )	1
+print c	cout << c << endl ;
+	cout << c ;	NA
+increment c	c ++ ;
+	c ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print newline	cout << endl ;
+	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

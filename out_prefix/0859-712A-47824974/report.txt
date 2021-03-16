@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long integers n , i	long long int n, i ;
+	long long int n , i ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+create long long integer array arr of size n	long long int arr [ n ] ;
+	long long int arr [ n ] ;	1
+for i = 0 to n exclusive , read arr [ i ]	for ( i = 0 ; i < n ; i ++ ) { cin >> arr [ i ] ; }
+	for ( i = 0 ; i < n ; i ++ ) { cin >> arr [ i ] ; }	1
+for i = 0 to n exclusive	for ( i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	1
+if i is n - 1	if ( i == n - 1 )
+	if ( i == n - 1 )	1
+print arr [ n - 1 ] print newline	cout << arr [ n - 1 ] << endl ;
+	cout << arr [ n - 1 ] << endl ;	1
+else	else
+	else	1
+print arr [ i ] + arr [ i + 1 ] print " "	cout << arr [ i ] + arr [ 1 ] << " " ;
+	cout << arr [ i ] + arr [ i + 1 ] << " " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

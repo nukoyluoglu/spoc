@@ -1,0 +1,21 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , r , t = int with r = 0 and t = 0	int n, r = 0, t = 0 ;
+	int n , r = 0 , t = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1	for ( int i = 1 ; ; i ++ )
+	for ( int i = 1 ; ; ++ i )	NA
+increment r by i	r += i ;
+	r += i ;	1
+increment t by r	t += r ;
+	t += r ;	1
+if t > n	if ( t > n )
+	if ( t > n )	1
+print i - 1	cout << i - 1 << endl ;
+	cout << ( i - 1 ) << endl ;	NA
+break	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

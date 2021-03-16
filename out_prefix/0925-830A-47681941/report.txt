@@ -1,0 +1,66 @@
+N = const long long with N = 1000 + 5	const long long N = 1000 + 5 ;
+	const long long N = 1000 + 5 ;	1
+N = const long long with K = 2000 + 5	const long long K = 2000 + 5 ;
+	const long long K = 2000 + 5 ;	1
+n , m , fi = long long	long long n, m, fi ;
+	long long n , m , fi ;	NA
+p = array of N long long	long long p [ N ] ;
+	long long p [ N ] ;	1
+k = array of K long long	long long k [ K ] ;
+	long long k [ K ] ;	1
+in the function di that takes long long a and b and returns long long	long long di ( long long a, long long b )
+	long long di ( long long a , long long b )	NA
+return abs of a - b	return abs ( a - b ) ;
+	return abs ( a - b ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in the function ok that takes long long t and returns bool	bool ok ( long long t )
+	bool ok ( long long t )	1
+set poz to 1	poz = 1 ;
+	long long poz = 1 ;	NA
+for i = 1 to n inclusive	for ( long long i = 1 ; i <= n ; i ++ )
+	for ( long long i = 1 ; i <= n ; i ++ )	1
+if poz > m return 0	if ( poz > m ) return 0 ;
+	if ( poz > m ) return 0 ;	1
+while 1	while ( 1 )
+	while ( 1 )	1
+tot = long long with tot = di of p [ i ] and k [ poz ] + di of k [ poz ] and fi	long long tot = di ( p [ i ], k [ poz ] ) + di ( k [ pz ], fi ) ;
+	long long tot = di ( p [ i ] , k [ poz ] ) + di ( k [ poz ] , fi ) ;	NA
+if tot < = t break loop	if ( tot <= t ) break ;
+	if ( tot <= t ) break ;	1
+increment poz	poz ++ ;
+	poz ++ ;	1
+if poz > m return 0	if ( poz > m ) return 0 ;
+	if ( poz > m ) return 0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+increment poz	poz ++ ;
+	poz ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 1	return 1 ;
+	return 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , m , fi	cin >> n >> m >> fi ;
+	cin >> n >> m >> fi ;	1
+for i = 1 to n inclusive read p [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> p [ i ] ;
+	for ( long long i = 1 ; i <= n ; i ++ ) { cin >> p [ i ] ; }	NA
+for i = 1 to m inclusive read k [ i ]	for ( int i = 1 ; i <= m ; i ++ ) cin >> k [ i ] ;
+	for ( long long i = 1 ; i <= m ; i ++ ) { cin >> k [ i ] ; }	NA
+sort p + 1 and p + n + 1	sort ( p + 1, p + n + 1 ) ;
+	sort ( p + 1 , p + n + 1 ) ;	NA
+sort k + 1 and k + m + 1	sort ( k + 1, k + m + 1 ) ;
+	sort ( k + 1 , k + m + 1 ) ;	NA
+r , pas = long long with r = - 1 , pas = 1LL < < 60	long long r = - 1, pas = 1LL << 60 ;
+	long long r = - 1 , pas = ( 1LL << 60 ) ;	NA
+while pas	while ( pas )
+	while ( pas )	1
+if ok ( r + pas ) is 0 r = r + pas	if ( ok ( r + pas ) == 0 ) { r += pas ; }
+	if ( ok ( r + pas ) == 0 ) { r += pas ; }	1
+pas = pas > > 1	pas >>= 1 ;
+	pas >>= 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+increment r	r ++ ;
+	r ++ ;	1
+print r	cout << r << endl ;
+	cout << r << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

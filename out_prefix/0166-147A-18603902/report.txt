@@ -1,0 +1,56 @@
+create const double PI = 3 . 1415926535897932384626433832795	const double PI = 3.1415926535897932384626433832795 ;
+	const double PI = 3.1415926535897932384626433832795 ;	1
+declare long long mod = 1e9 + 7	long long mod = 1e9 + 7 ;
+	long long mod = 1e9 + 7 ;	1
+function isp with char argument c that returns bool	bool isp ( char c )
+	bool isp ( char c )	1
+return true if c = ' . ' | | c = ' , ' | | c = ' ? ' | | c = ' ! ' and false otherwise	return ( ( c == '.'|| c!= ',') || ( c? '?': '!') ) ;
+	return ( c == ' . ' || c == ' , ' || c == ' ? ' || c == ' ! ' ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+change output decimal precision to 12	cout. precision ( 12 ) ;
+	cout . precision ( 12 ) ;	NA
+change output decimal format to fixed	cout << fixed ;
+	cout << fixed ;	1
+let s and ans be strings where ans = " "	string s, ans = " " ;
+	string s , ans = " " ;	NA
+read s and loop further	while ( cin >> s )
+	while ( cin >> s )	1
+if length of s = 1 and isp of s [ 0 ] return true and size of ans > 0	if ( s. length ( ) == 1 && isp ( s [ 0 ] ) && ans. size ( ) > 0 )
+	if ( s . size ( ) == 1 && isp ( s [ 0 ] ) && ans . size ( ) )	NA
+assign s [ 0 ] to ans [ ans . size ( ) - 1 ] and append " " to ans	ans [ ans. size ( ) - 1 ] += " " ;
+	ans [ ans . size ( ) - 1 ] = s [ 0 ] , ans += " " ;	NA
+else	else
+	else	1
+change ans to ans + s + " "	ans += s + " " ;
+	ans = ans + s + " " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create int sz = length of ans	int sz = ans. size ( ) ;
+	int sz = ans . size ( ) ;	NA
+create integers last and i = 0	int last = 0, i = 0 ;
+	int last = 0 , i = 0 ;	NA
+for i = 0 , last = 0 to sz - 1 exclusive	for ( i = 0, last = 0 ; last < sz - 1 ; last ++ )
+	for ( i = 0 , last = 0 ; i < sz - 1 ; ++ i )	NA
+if ans [ i ] = ' ' and isp ( ans [ i + 1 ] ) is true	if ( ans [ i ] ==' '&& isp ( ans [] i + 1 ] ) )
+	if ( ans [ i ] == ' ' && isp ( ans [ i + 1 ] ) )	NA
+print ( substring of ans from position last to position i - last ) + ans [ i + 1 ] + " " , set value of last to i + 2 and increment i	cout << ans. substr ( last, i - last ) + ans [ i + 1 ] + " ", last = i + 2, i ++ ;
+	cout << ans . substr ( last , i - last ) + ans [ i + 1 ] + " " , last = i + 2 , i ++ ;	NA
+else if ans [ i ] = ' '	else if ( ans [ i ] ==' ')
+	else if ( ans [ i ] == ' ' )	NA
+print substring of ans from position last with length of i - last + 1 , then change last to i + 1	cout << ans. substr ( last, i - last + 1 ) << endl, last = i + 1 ;
+	cout << ans . substr ( last , i - last + 1 ) , last = i + 1 ;	NA
+else if isp ( ans [ i ] ) is true	else if ( isp ( ans [ i ] ) )
+	else if ( isp ( ans [ i ] ) )	1
+if ans [ i + 1 ] ! = ' '	if ( ans [ i + 1 ]!=' ')
+	if ( ans [ i + 1 ] != ' ' )	NA
+print substring of ans from position last with length of i - last + 1 and " " , then change last to i + 1	cout << ans. substr ( last, i - last + 1 ) << " ", last = i + 1 ;
+	cout << ans . substr ( last , i - last + 1 ) + " " , last = i + 1 ;	NA
+else	else
+	else	1
+print substring of ans from position last with length of i - last + 1 and " " , then change last to i + 1	cout << ans. substr ( last, i - last + 1 ) << " ", last = i + 1 ;
+	cout << ans . substr ( last , i - last + 1 ) , last = i + 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print substring of ans from position last to i and ' \ n '	cout << ans. substr ( last, i ) <<'\n';
+	cout << ans . substr ( last , i - last ) << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

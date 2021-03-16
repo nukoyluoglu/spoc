@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int , Max and Count = 0	int n, Max = 0, Count = 0 ;
+	int n , Max = 0 , Count = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+a and b = array of n int	int b [ n ] ;
+	int a [ n ] , b [ n ] ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read a [ i ] , b [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ i ] >> b [ ++ i ] ; }
+	cin >> a [ i ] >> b [ i ] ;	NA
+subtract a [ i ] from Count	Count -= a [ i ] ;
+	Count -= a [ i ] ;	1
+add b [ i ] to Count	Count += b [ i ] ;
+	Count += b [ i ] ;	1
+if Count > Max Max = Count	if ( Count > Max ) Max = Count ;
+	if ( Count > Max ) { Max = Count ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print Max	cout << Max << endl ;
+	cout << Max << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,44 @@
+long long function solve with long long arguments k , b , n and t	long long solve ( long long k, long long b, long int n, long double t )
+	long long solve ( long long k , long long b , long long n , long long t )	NA
+if k = 1	if ( k == 1 )
+	if ( k == 1 )	1
+declare long longs low = - 1 and high = n	long long low = - 1, high = n ;
+	long long low = - 1 , high = n ;	NA
+while high - low is greater than 1	while ( high - low > 1 )
+	while ( high - low > 1 )	1
+declare long long variable mid = ( low + high ) / 2	long long mid = ( low + high ) / 2 ;
+	long long mid = ( low + high ) / 2 ;	1
+if 1 - t + b * ( n - mid ) < = 0	if ( 1 - t + b * ( n - mid ) <= 0 )
+	if ( 1 - t + b * ( n - mid ) <= 0 )	1
+assign value of mid to high	high = mid ;
+	high = mid ;	1
+else	else
+	else	1
+assign value of mid to low	low = mid ;
+	low = mid ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return high	return high ;
+	return high ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare long long variable answ = n	long long answ = n ;
+	long long answ = n ;	1
+declare __float128 variable pow = 1	const __float64_pow = 1 ;
+	__float128 pow = 1 ;	NA
+while answ > 0 & & ( k - 1 ) * ( pow * k - t ) + b * ( pow * k - 1 ) < = 0	while ( answ > 0 && ( ( k - 1 ) * ( pow * k - t ) + b * ( Pow * k + 1 ) <= 0 ) ) { pow ++ ; }
+	while ( answ > 0 && ( k - 1 ) * ( pow * k - t ) + b * ( pow * k - 1 ) <= 0 )	NA
+multiply pow by k	pow *= k ;
+	pow *= k ;	1
+decrease answ	answ -- ;
+	answ -- ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return answ	return answ ;
+	return answ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare long long variables k , b , n and t	long long k, b, n, t ;
+	long long k , b , n , t ;	NA
+while car read k , b , n and t , print solve ( k , b , n , t )	while ( cin >> k >> b >> n >> t ) { cout << solve ( k, b, n, t ) << endl ; }
+	while ( cin >> k >> b >> n >> t ) { cout << solve ( k , b , n , t ) << endl ; }	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

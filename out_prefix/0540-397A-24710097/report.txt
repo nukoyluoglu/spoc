@@ -1,0 +1,50 @@
+in int function miniel which takes an int vecotr v and an int x	int miniel ( int v, int x )
+	int minel ( vector < int > v , int x )	NA
+let l = int = 11111111	int l = 11111111 ;
+	int l = 11111111 ;	1
+for i = 0 to x inclusive	for ( int i = 0 ; i <= x ; i ++ )
+	for ( int i = 0 ; i <= x ; i ++ )	1
+if v at i < l then set l = v at 1	if ( v [ i ] < l ) l = v [ 1 ] ;
+	if ( v [ i ] < l ) { l = v [ i ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return l	return l ;
+	return l ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , s , e , p be integers	int n, s, e, p ;
+	int n , s , e , p ;	NA
+read n , s , e	cin >> n >> s >> e ;
+	cin >> n >> s >> e ;	1
+let arr be an integer array of length 100 , with arr [ 0 ] = 0	int arr [ 100 ] = { 0 } ;
+	int arr [ 100 ] = { 0 } ;	1
+sum = int = 0	int sum = 0 ;
+	int sum = 0 ;	1
+l = int = - 111	int l = - 111 ;
+	int l = - 111 ;	1
+for i = 1 to n	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i < n ; i ++ )	NA
+let x , y be int	int x, y ;
+	int x , y ;	NA
+read x and y	cin >> x >> y ;
+	cin >> x >> y ;	1
+if e < = y	if ( e <= y )
+	if ( e <= y )	1
+set p to e	p = e ;
+	p = e ;	1
+else	else
+	else	1
+set p to y	p = y ;
+	p = y ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = x to p , set arr [ i ] to arr [ i ] + 1	for ( int i = x ; i <= p ; i ++ ) { arr [ i ] += 1 ; }
+	for ( int i = x ; i < p ; i ++ ) { arr [ i ] = arr [ i ] + 1 ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = s to e	for ( int i = s ; i <= e ; i ++ )
+	for ( int i = s ; i < e ; i ++ )	NA
+if arr at i is 0 then increment sum	if ( arr [ i ] == 0 ) sum ++ ;
+	if ( arr [ i ] == 0 ) { sum ++ ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print sum and new line	cout << sum << endl ;
+	cout << sum << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

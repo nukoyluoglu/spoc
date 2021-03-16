@@ -1,0 +1,51 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+v is a vector of strings with 120 elements	vector < string > v ( 120 ) ;
+	vector < string > v ( 120 ) ;	1
+for integer i = 0 to 120 exclusive	for ( int i = 0 ; i < 120 ; i ++ )
+	for ( int i = 0 ; i < 120 ; i += 12 )	NA
+v [ i ] = " January "	v [ i ] = " January " ;
+	v [ i ] = " January " ;	1
+v [ i + 1 ] = " February "	v [ i + 1 ] = " February " ;
+	v [ i + 1 ] = " February " ;	1
+v [ i + 2 ] = " March "	v [ i + 2 ] = " March " ;
+	v [ i + 2 ] = " March " ;	1
+v [ i + 3 ] = " April "	v [ i + 3 ] = " April " ;
+	v [ i + 3 ] = " April " ;	1
+v [ i + 4 ] = " May "	v [ i + 4 ] = " May " ;
+	v [ i + 4 ] = " May " ;	1
+v [ i + 5 ] = " June "	v [ i + 5 ] = " June " ;
+	v [ i + 5 ] = " June " ;	1
+v [ i + 6 ] = " July "	v [ i + 6 ] = " July " ;
+	v [ i + 6 ] = " July " ;	1
+v [ i + 7 ] = " August "	v [ i + 7 ] = " August " ;
+	v [ i + 7 ] = " August " ;	1
+v [ i + 8 ] = " September "	v [ i + 8 ] = " September " ;
+	v [ i + 8 ] = " September " ;	1
+v [ i + 9 ] = " October "	v [ i + 9 ] = " October " ;
+	v [ i + 9 ] = " October " ;	1
+v [ i + 10 ] = " November "	v [ i + 10 ] = " November " ;
+	v [ i + 10 ] = " November " ;	1
+v [ i + 11 ] = " December "	v [ i + 11 ] = " December " ;
+	v [ i + 11 ] = " December " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+x = string	string x ;
+	string x ;	1
+read x	cin >> x ;
+	cin >> x ;	1
+declare integers n and z	int n, z ;
+	int n , z ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to 120 exclusive	for ( int i = 0 ; i < 120 ; i ++ )
+	for ( int i = 0 ; i < 120 ; i ++ )	1
+if v [ i ] = x	if ( v [ i ] == x )
+	if ( v [ i ] == x )	1
+assign value of i to the z	z = i ;
+	z = i ;	1
+break the loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print v [ z + n ] and a new line	cout << v [ z + n ] << endl ;
+	cout << v [ z + n ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

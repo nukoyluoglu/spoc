@@ -1,0 +1,23 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , c with c = 0 , create integer array arr with size 1001	int n, arr [ 1001 ], c = 0 ;
+	int n , arr [ 1001 ] , c = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read arr [ i ]	cin >> arr [ i ] ;
+	cin >> arr [ i ] ;	1
+if arr [ i ] is 1 increment c	if ( arr [ i ] == 1 ) c ++ ;
+	if ( arr [ i ] == 1 ) c ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print c print newline	cout << c << endl ;
+	cout << c << endl ;	1
+for i = 1 to n exclusive	for ( int i = 1 ; i < n ; i ++ )
+	for ( int i = 1 ; i < n ; i ++ )	1
+if arr [ i ] is 1 , print arr [ i - 1 ] print " "	if ( arr [ i ] == 1 ) { cout << arr [ 1 - 1 ] << " " ; }
+	if ( arr [ i ] == 1 ) { cout << arr [ i - 1 ] << " " ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print arr [ n - 1 ] print newline	cout << arr [ n - 1 ] << endl ;
+	cout << arr [ n - 1 ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

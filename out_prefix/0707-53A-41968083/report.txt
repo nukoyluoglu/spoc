@@ -1,0 +1,47 @@
+create constant integer INF = 1e9	const int INF = 1e9 ;
+	const int INF = 1e9 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let string s	string s ;
+	string S ;	NA
+create int N	int N ;
+	int N ;	1
+create string array A of size 128	string A [ 128 ] ;
+	string A [ 128 ] ;	1
+read S and N	cin >> S >> N ;
+	cin >> S >> N ;	1
+for i = 0 to N exclusive , read A [ i ]	for ( int i = 0 ; i < N ; i ++ ) cin >> A [ i ] ;
+	for ( int i = 0 ; i < N ; i ++ ) { cin >> A [ i ] ; }	NA
+sort A	sort ( A, A + N ) ;
+	sort ( A , A + N ) ;	NA
+let string ans = S	string ans = S ;
+	string ans = S ;	1
+for i = 0 to N exclusive	for ( int i = 0 ; i < N ; i ++ )
+	for ( int i = 0 ; i < N ; i ++ )	1
+let bool check = true	bool check = true ;
+	bool check = true ;	1
+for j = 0 to size of S exclusive	for ( int j = 0 ; j < S. size ( ) ; j ++ )
+	for ( int j = 0 ; j < S . size ( ) ; j ++ )	NA
+if S [ j ] is not equal to A [ i ] [ j ]	if ( S [ j ]!= A [ i ] [ k ] )
+	if ( S [ j ] != A [ i ] [ j ] )	NA
+set check to false	check = false ;
+	check = false ;	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if check is equal to false	if ( check == false )
+	if ( check == false )	1
+continue loop	continue ;
+	continue ;	1
+else	else
+	else	1
+set ans to A [ i ]	ans = A [ i ] ;
+	ans = A [ i ] ;	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

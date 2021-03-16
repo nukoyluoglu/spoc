@@ -1,0 +1,51 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variables i , j , k , l , n and m	int i, j, k, l, n, m ;
+	int i , j , k , l , n , m ;	NA
+read n and m	cin >> n >> m ;
+	cin >> n >> m ;	1
+k = m	k = m ;
+	k = m ;	1
+if n < m or ( m = 1 and n is greater than 1 )	if ( n < m || ( m == 1 && n > 1 ) )
+	if ( n < m || ( m == 1 && n > 1 ) )	1
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+create a map from integers to characters called mm	map < int, char > mm ;
+	map < int , char > mm ;	NA
+create character h = ' a '	char h ='a';
+	char h = ' a ' ;	NA
+for i = 0 to 26 exclusive	for ( int i = 0 ; i < 26 ; i ++ )
+	for ( i = 0 ; i < 26 ; i ++ )	NA
+set value of mm [ i ] to h	mm [ i ] = h ;
+	mm [ i ] = h ;	1
+increase h by one	h ++ ;
+	h ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare string variable st = " "	string st = " " ;
+	string st = " " ;	1
+if n = m	if ( n == m )
+	if ( n == m )	1
+for i = 0 to n exclusive , apped mm [ i ] to st	for ( int i = 0 ; i < n ; i ++ ) { st = mm [ i ] ; }
+	for ( i = 0 ; i < n ; i ++ ) { st += mm [ i ] ; }	NA
+print st	cout << st << endl ;
+	cout << st << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n - ( m - 2 ) exclusive	for ( int i = 0 ; i < n - ( m - 2 ) ; i ++ )
+	for ( i = 0 ; i < n - ( m - 2 ) ; i ++ )	NA
+if i is even	if ( i % 2 == 0 )
+	if ( i % 2 == 0 )	1
+append mm [ 0 ] to st	st += mm [ 0 ] ;
+	st += mm [ 0 ] ;	1
+else	else
+	else	1
+append mm [ 1 ] to st	st += mm [ 1 ] ;
+	st += mm [ 1 ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to m - 2 exclusive , append mm [ i + 2 ] to st	for ( int i = 0 ; i < m - 2 ; i ++ ) { st += mm [ i + 2 ] ; }
+	for ( i = 0 ; i < m - 2 ; i ++ ) { st += mm [ i + 2 ] ; }	NA
+print st	cout << st << endl ;
+	cout << st << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

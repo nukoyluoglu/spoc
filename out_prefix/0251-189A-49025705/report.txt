@@ -1,0 +1,32 @@
+create integers a , b and c	int a, b, c ;
+	int a , b , c ;	NA
+declare int array memo with size 4001	int memo [ 4001 ] ;
+	int memo [ 4001 ] ;	1
+function solve with int argument i that returns integer	int solve ( int i )
+	int solve ( int i )	1
+if i = 0 , return 0	if ( i == 0 ) return 0 ;
+	if ( i == 0 ) return 0 ;	1
+if memo [ i ] ! = - 1 , return memo [ i ]	if ( memo [ i ]!= - 1 ) return memo [ 1 ] ;
+	if ( memo [ i ] != - 1 ) return memo [ i ] ;	NA
+create integers opt1 , opt2 and opt3 = - 1e9	int opt1, opt2, opt3 = - 1e9 ;
+	int opt1 = - 1e9 , opt2 = - 1e9 , opt3 = - 1e9 ;	NA
+if i > = a , change opt1 to solve ( i - a ) + 1	if ( i >= a ) { opt1 = solve ( i - a ) + 1 ; }
+	if ( i >= a ) { opt1 = solve ( i - a ) + 1 ; }	1
+if i > = b , change opt2 to solve ( i - b ) + 1	if ( i >= b ) { opt2 = solve ( i - b ) + 1 ; }
+	if ( i >= b ) { opt2 = solve ( i - b ) + 1 ; }	1
+if i > = c , change opt3 to solve ( i - c ) + 1	if ( i >= c ) { opt3 = solve ( i - c ) + 1 ; }
+	if ( i >= c ) { opt3 = solve ( i - c ) + 1 ; }	1
+return memo [ i ] = max of opt1 and ( max of opt2 and opt3 )	return memo [ i ] = max ( opt1, opt2 ) ;
+	return memo [ i ] = max ( opt1 , max ( opt2 , opt3 ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+set first sizeof memo bytes at the pointer memo to - 1	memset ( memo, - 1, sizeof memo ) ;
+	memset ( memo , - 1 , sizeof memo ) ;	NA
+declare integer variable n	int n ;
+	int n ;	1
+read n , a , b and c	cin >> n >> a >> b >> c ;
+	cin >> n >> a >> b >> c ;	1
+print result of solve ( n )	cout << solve ( n ) << endl ;
+	cout << solve ( n ) << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

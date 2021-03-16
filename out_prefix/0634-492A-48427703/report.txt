@@ -1,0 +1,17 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , a , b = integers with a = 0 , b = 0	int n, a = 0, b = 0 ;
+	int n , a = 0 , b = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n exclusive	for ( int i = 1 ; i < n ; i ++ )
+	for ( int i = 1 ; a < n ; i ++ )	NA
+a = a + i	a += i ;
+	a += i ;	1
+n = n - a	n -= a ;
+	n -= a ;	1
+if n > = 0 , increment b	if ( n >= 0 ) b ++ ;
+	if ( n >= 0 ) b ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print b	cout << b << endl ;
+	cout << b << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

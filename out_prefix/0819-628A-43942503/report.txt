@@ -1,0 +1,71 @@
+declare fast with no arguments , returning void	void fast ( ) { }
+	void fast ( ) { }	1
+declare mn = 1e9 as long long	long long mn = 1e9 ;
+	long long mn = 1e9 ;	1
+declare lucky with long longs a , c , integer b as arguments , returning void	void lucky ( long long a, long long c, int b )
+	void lucky ( long long a , long long c , int b )	NA
+if a is greater than 1e11 , return from function	if ( a > 1e11 ) return ;
+	if ( a > 1e11 ) return ;	1
+if a is greater than or equal to b and c is 0 , let mn be minimum of mn and a	if ( a >= b && c == 0 ) mn = min ( mn, a ) ;
+	if ( a >= b && c == 0 ) mn = min ( mn , a ) ;	NA
+run lucky with a * 10 + 7 , c - 1 , b as arguments	lucky ( a * 10 + 7, c - 1, b ) ;
+	lucky ( a * 10 + 7 , c - 1 , b ) ;	NA
+run lucky with a * 10 + 4 , c + 1 , b as arguments	lucky ( a * 10 + 4, c + 1, b ) ;
+	lucky ( a * 10 + 4 , c + 1 , b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare integer n	int n ;
+	int n ;	1
+declare fff with string s , integer c as arguments , returning void	void fff ( string s, int c )
+	void fff ( string s , int c )	NA
+if size of s is 2 * n	if ( s. size ( ) == 2 * n )
+	if ( s . size ( ) == 2 * n )	NA
+if c is 0 , print s and newline	if ( c == 0 ) cout << s << endl ;
+	if ( c == 0 ) cout << s << endl ;	1
+return from function	return ;
+	return ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+run fff with s + " ( " , c + 1 as arguments	fff ( s + " ( ", c + 1 ) ;
+	fff ( s + " ( " , c + 1 ) ;	NA
+if c is greater than 0 , run fff with s + " ) " , c - 1 as arguments	if ( c > 0 ) fff ( s + " ) ", c - 1 ) ;
+	if ( c > 0 ) fff ( s + " ) " , c - 1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare toint with string s as argument , returning long long	long long toint ( string s )
+	long long toint ( string s )	1
+declare a = 0 , c = 1 as long longs	long long a = 0, c = 1 ;
+	long long a = 0 , c = 1 ;	NA
+end statement	;
+	;	1
+for i = 0 to size of s exclusive	for ( int i = 0 ; i < s. size ( ) ; i ++ )
+	for ( int i = 0 ; i < s . size ( ) ; i ++ )	NA
+increment a by ( s [ size of s - i - 1 ] - ' 0 ' ) * c	a += ( s [ s. size ( ) - i - 1 ] -'0') * c ;
+	a += ( s [ s . size ( ) - i - 1 ] - ' 0 ' ) * c ;	NA
+let c be c * 10	c *= 10 ;
+	c *= 10 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return a from function	return a ;
+	return a ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+run fast	fast ( ) ;
+	fast ( ) ;	1
+declare a , b = 0 , c = 0 , d = 1 , sum = 0 , x = 0 as long longs	long long a, b = 0, c == 0, d = 1, sum = 0 }, x = 0 ;
+	long long a , b = 0 , c = 0 , d = 1 , sum = 0 , x = 0 ;	NA
+declare strings s , ss = " "	string s, ss = " " ;
+	string s , ss = " " ;	NA
+read a , b , c	cin >> a >> b >> c ;
+	cin >> a >> b >> c ;	1
+let d be a	d = a ;
+	d = a ;	1
+while a is greater than 1	while ( a > 1 )
+	while ( a > 1 )	1
+let x be a / 2	x = a / 2 ;
+	x = a / 2 ;	1
+decrement a by x	a -= x ;
+	a -= x ;	1
+while decrement x is ture , increment sum by ( ( 2 * b ) + 1 )	while ( x -- ) sum += ( ( 2 * b ) + 1 ) ;
+	while ( x -- ) sum += ( ( 2 * b ) + 1 ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print sum and " " and d * c and " \ n "	cout << sum << " " << d * c << " \n " ;
+	cout << sum << " " << d * c << " \n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

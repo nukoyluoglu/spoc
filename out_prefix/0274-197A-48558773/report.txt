@@ -1,0 +1,15 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , b , r = integers	int a, b, r ;
+	int a , b , r ;	NA
+read a , b , r	cin >> a >> b >> r ;
+	cin >> a >> b >> r ;	1
+if 2 * r < = min ( a , b )	if ( 2 * r <= min ( a, b ) )
+	if ( 2 * r <= min ( a , b ) )	NA
+print First	cout << " First " << endl ;
+	cout << " First " << endl ;	1
+else	else
+	else	1
+print Second	cout << " Second " << endl ;
+	cout << " Second " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,20 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+if n mod 2 = 1	if ( n % 2 == 1 )
+	if ( n % 2 == 1 )	1
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+otherwise	else
+	else	1
+print 2 1	cout << 2 << " " << 1 << endl ;
+	cout << " 2 1 " ;	NA
+for i = 3 to n exclusive , print " " , i + 1 , " " , i	for ( int i = 3 ; i < n ; i ++ ) { cout << " " << i + 1 <<' '<< i << endl ; }
+	for ( int i = 3 ; i < n ; i += 2 ) { cout << " " << i + 1 << " " << i ; }	NA
+print a new line	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

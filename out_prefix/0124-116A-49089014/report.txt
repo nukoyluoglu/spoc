@@ -1,0 +1,18 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , a , b , c , m with c = 0 , m = 0	int n, a, b, c = 0, m = 0 ;
+	int n , a , b , c = 0 , m = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read a read b	cin >> a >> b ;
+	cin >> a >> b ;	1
+set c to c + b - a	c += b - a ;
+	c = c + b - a ;	NA
+if m is less than c , set m to c	if ( m < c ) m = c ;
+	if ( m < c ) m = c ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print m print newline	cout << m << endl ;
+	cout << m << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs ax , ay , bx , by , cx , cy	long long ax, ay, bx, by, cx, cy ;
+	long long ax , ay , bx , by , cx , cy ;	NA
+read ax read ay read bx read by read cx read cy	cin >> ax >> ay >> bx >> by >> cx >> cy ;
+	cin >> ax >> ay >> bx >> by >> cx >> cy ;	1
+create long long ds with ds = ( bx * cy - by * cx ) - ( ax * cy - ay * cx ) + ( ax * by - ay * bx )	long long ds = ( bx * cy - by * cx ) - ( ax * cy -= ay * cx) + ( ax / by - ay * bx ) ;
+	long long ds = ( bx * cy - by * cx ) - ( ax * cy - ay * cx ) + ( ax * by - ay * bx ) ;	NA
+if ds is 0	if ( ds == 0 )
+	if ( ds == 0 )	1
+print " TOWARDS "	cout << " TOWARDS "
+	cout << " TOWARDS " ;	NA
+else if ds is less than 0	else if ( ds < 0 )
+	else if ( ds < 0 )	1
+print " RIGHT "	cout << " RIGHT\n " ;
+	cout << " RIGHT " ;	NA
+else	else
+	else	1
+print " LEFT "	cout << " LEFT\n " ;
+	cout << " LEFT " ;	NA
+print ' \ n '	cout <<'\n';
+	cout << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

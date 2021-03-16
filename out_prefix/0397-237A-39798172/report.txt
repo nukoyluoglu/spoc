@@ -1,0 +1,40 @@
+create constant int N = 1e5 + 5	const int N = 1e5 + 5 ;
+	const int N = 1e5 + 5 ;	1
+create integers n , res and Max with res and Max = 1	int n, res = 1, Max = 1 ;
+	int n , res = 1 , Max = 1 ;	NA
+a is an array of int / int pairs with N elements	pair < int, int > a [ N ] ;
+	pair < int , int > a [ N ] ;	NA
+void function Input	void Input ( )
+	void Input ( )	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i from 1 to n inclusive incrementing i , read a [ i ] . first and a [ i ] . second	for ( int i = 1 ; i <= n ; i ++ ) { cin >> a [ i ]. first >> ( a [ 1 ]. second ) ; }
+	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] . first >> a [ i ] . second ;	NA
+sort a from index 1 to n + 1	sort ( a + 1, a + n + 1 ) ;
+	sort ( a + 1 , a + n + 1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+Solve is a void function	void Solve ( )
+	void Solve ( )	1
+declare integer curr = 1	int curr = 1 ;
+	int curr = 1 ;	1
+loop i from 2 to n inclusive	for ( int i = 2 ; i <= n ; i ++ )
+	for ( int i = 2 ; i <= n ; i ++ )	1
+if a [ i ] . first = a [ i - 1 ] . first and a [ i ] . second = a [ i - 1 ] . second	if ( a [ i ]. first == a [ ( i - 1 ] ). first && a [ 1 ]. second == ( 1 ). second )
+	if ( a [ i ] . first == a [ i - 1 ] . first && a [ i ] . second == a [ i - 1 ] . second )	NA
+increment curr and set res to max of res and curr	res = max ( res, curr ) ;
+	curr ++ , res = max ( res , curr ) ;	NA
+else	else
+	else	1
+change curr to 1	curr = 1 ;
+	curr = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print res and ' \ n '	cout << res <<'\n';
+	cout << res << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call function Input	Input ( ) ;
+	Input ( ) ;	1
+call function Solve	Solve ( ) ;
+	Solve ( ) ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

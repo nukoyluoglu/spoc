@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , a , b , c be integers	int n, a, b, c ;
+	int n , a , b , c ;	NA
+read n , a , b , c	cin >> n >> a >> b >> c ;
+	cin >> n >> a >> b >> c ;	1
+let x , y , z , p , i be integers with p = 0	int x, y, z, p = 0, i ;
+	int x , y , z , p = 0 , i ;	NA
+i is equal to minimum of a , minimum of b and c	i = min ( a, min ( b, c ) ) ;
+	i = min ( a , min ( b , c ) ) ;	NA
+i is equal to n / i	i = n / i ;
+	i = n / i ;	1
+for x is equal to i , x > = 0 , decrease x by 1	for ( x = i ; x >= 0 ; x -- )
+	for ( x = i ; x >= 0 ; x -- )	1
+for y = 0 to i inclusive	for ( y = 0 ; y <= i ; y ++ )
+	for ( y = 0 ; y <= i ; y ++ )	1
+z is equal to absolute value of ( n - ( a * x + b * y ) ) / c	z = abs ( n - ( a * x + b * y ) ) / c ;
+	z = abs ( ( n - ( a * x + b * y ) ) / c ) ;	NA
+if a * x + b * y + c * z is equal to n , p = maximum of p and x + y + z	if ( a * x + b * y + c * z == n ) p = max ( p, x + y + z ) ;
+	if ( ( a * x + b * y + c * z ) == n ) { p = max ( p , x + y + z ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print p and newline	cout << p << endl ;
+	cout << p << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

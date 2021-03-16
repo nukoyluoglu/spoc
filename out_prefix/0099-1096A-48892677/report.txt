@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+t = int	int t ;
+	int t ;	1
+read t	cin >> t ;
+	cin >> t ;	1
+l , r , d = int	int l, r, d ;
+	int l , r , d ;	NA
+while decremented t not equal 0	while ( t -- )
+	while ( t -- )	1
+read l , r	cin >> l >> r ;
+	cin >> l >> r ;	1
+if r modulo l is zero	if ( r % l == 0 )
+	if ( r % l == 0 )	1
+print l , space , r	cout << l <<' '<< r << endl ;
+	cout << l << " " << r << endl ;	NA
+else	else
+	else	1
+d = r modulo l	d = r % l ;
+	d = r % l ;	1
+d = r - d	d = r - d ;
+	d = r - d ;	1
+print l , space , d	cout << l << " " << d << endl ;
+	cout << l << " " << d << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

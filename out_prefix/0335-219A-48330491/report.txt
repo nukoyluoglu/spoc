@@ -1,0 +1,59 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers k	int k ;
+	int k ;	1
+read k	cin >> k ;
+	cin >> k ;	1
+create string str	string str ;
+	string str ;	1
+read str	cin >> str ;
+	cin >> str ;	1
+create integer n with n = length of str	int n = str. length ( ) ;
+	int n = str . length ( ) ;	NA
+create map characters from character to integer	map < char, int > m ;
+	map < char , int > characters ;	NA
+create map iterator itr from character to integer	map < char, int > :: iterator itr ;
+	map < char , int > :: iterator itr ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if first index of str [ i ] in characters is not end of characters	if ( strstr ( str [ i ] )!= str. end ( ) )
+	if ( characters . find ( str [ i ] ) != characters . end ( ) )	NA
+increment characters [ str [ i ] ] by 1	char characters [ str [ i ] ] += 1 ;
+	characters [ str [ i ] ] += 1 ;	NA
+else	else
+	else	1
+set characters [ str [ i ] ] to 1	char characters [ str [ i ] ] = 1 ;
+	characters [ str [ i ] ] = 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for itr = beginning of characters to itr is not end of characters , incrementing itr	for ( itr = characters. begin ( ) ; itr!= char :: iterator itr ; ++ itr )
+	for ( itr = characters . begin ( ) ; itr != characters . end ( ) ; itr ++ )	NA
+if second element of itr is less than k	if ( itr. second < k )
+	if ( itr -> second < k )	NA
+print - 1 print newline	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+exit program with code 0	exit ( 0 ) ;
+	exit ( 0 ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+create string new_str with new_str = " "	string new_str = " " ;
+	string new_str = " " ;	1
+for itr = beginning of characters to itr is not end of characters , incrementing itr	for ( itr = characters. begin ( ) ; itr!= char :: npos ; ++ itr )
+	for ( itr = characters . begin ( ) ; itr != characters . end ( ) ; itr ++ )	NA
+create integer repeat with repeat = second element of itr / k	int repeat = itr. second / k ;
+	int repeat = itr -> second / k ;	NA
+for i = 0 to repeat exclusive , set new_str to new_str + first element of itr	for ( int i = 0 ; i < repeat ; i ++ ) { new_str += itr. first ; }
+	for ( int i = 0 ; i < repeat ; i ++ ) { new_str = new_str + itr -> first ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if length of new_str * k is less than n	if ( new_str. length ( ) * k < n )
+	if ( new_str . length ( ) * k < n )	NA
+print - 1 print newline	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+exit program with code 0	exit ( 0 ) ;
+	exit ( 0 ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to k exclusive , print new_str	for ( int i = 0 ; i < k ; i ++ ) cout << new_str << endl ;
+	for ( int i = 0 ; i < k ; i ++ ) { cout << new_str ; }	NA
+print newline	cout << endl ;
+	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

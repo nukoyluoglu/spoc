@@ -1,0 +1,32 @@
+niz = array of integers of length 200005	int niz [ 200005 ] ;
+	int niz [ 200005 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n be a integer	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to 2 * n inclusive , read niz [ i ]	for ( int i = 1 ; i <= 2 * n ; i ++ ) cin >> niz [ i ] ;
+	for ( int i = 1 ; i <= 2 * n ; i ++ ) { cin >> niz [ i ] ; }	NA
+sort the values niz + 1 and niz + 2 * n + 1	sort ( ( niz + 1 ), _n ) + 2 * n + 1 ;
+	sort ( niz + 1 , niz + 2 * n + 1 ) ;	NA
+let dx be a integer with dx = niz [ n ] - niz [ 1 ]	int dx [ n ] - niz [ 1 ] ;
+	int dx = niz [ n ] - niz [ 1 ] ;	NA
+let dy be a integer with dy = niz [ 2 * n ] - niz [ n + 1 ]	int dy [ 2 * n ] - niz [ n + 1 ] ;
+	int dy = niz [ 2 * n ] - niz [ n + 1 ] ;	NA
+let p be a long integer with p = 0	long long p = 0 ;
+	long long int p = 0 ;	NA
+the value ( long long int ) dx * dy is initialized to p	p = ( long long int ) dx * dy ;
+	p = ( long long int ) dx * dy ;	1
+set the long integer tren to 0	long long int tren = 0 ;
+	long long int tren = 0 ;	1
+for i = n + 1 to 2 * n - 1 inclusive	for ( int i = n + 1 ; i <= 2 * n - 1 ; ++ i )
+	for ( int i = n + 1 ; i <= 2 * n - 1 ; i ++ )	NA
+the long integer value of ( niz [ i ] - niz [ i - n + 1 ] ) * ( niz [ 2 * n ] - niz [ 1 ] ) is assigned to tren	tren = ( long long int ) ( niz [ i ] - niz ( i - n + 1 ] ) * ( naz [ 2 * n ] - Niz [ 1 ]) ) ;
+	tren = ( long long int ) ( niz [ i ] - niz [ i - n + 1 ] ) * ( niz [ 2 * n ] - niz [ 1 ] ) ;	NA
+if tren is less than p , the value of p is equal to tren	if ( tren < p ) p = tren ;
+	if ( tren < p ) p = tren ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print p and newline	cout << p << endl ;
+	cout << p << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

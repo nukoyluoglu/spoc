@@ -1,0 +1,26 @@
+a = array of integers of length 10010	int a [ 10010 ] ;
+	int a [ 10010 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+1st element in a is equal to 1	a [ 1 ] = 1 ;
+	a [ 1 ] = 1 ;	1
+let sum , m be long integers	long long sum, m ;
+	long long int sum , m ;	NA
+for i = 2 to 10000 inclusive , the value of a [ i ] is equal to a [ i - 1 ] + i	for ( int i = 2 ; i <= 10000 ; i ++ ) { a [ i ] = a [ ( i - 1 ] + i ) ; }
+	for ( int i = 2 ; i <= 10000 ; i ++ ) a [ i ] = a [ i - 1 ] + i ;	NA
+while reading m	while ( cin >> m )
+	while ( cin >> m )	1
+for i = 1 to 10000 inclusive	for ( int i = 1 ; i <= 10000 ; i ++ )
+	for ( int i = 1 ; i <= 10000 ; i ++ )	1
+decrement m by a [ i ]	m -= a [ i ] ;
+	m -= a [ i ] ;	1
+if m is less than a [ i + 1 ]	if ( m < a [ i + 1 ] )
+	if ( m < a [ i + 1 ] )	1
+print i and newline	cout << i << endl ;
+	cout << i << endl ;	1
+stop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

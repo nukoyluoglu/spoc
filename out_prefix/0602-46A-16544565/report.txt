@@ -1,0 +1,20 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+integers n and i , integer array a of size 200	int n, i, a [ 200 ] ;
+	int n , a [ 200 ] , i ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+set value of a [ 0 ] to 1	a [ 0 ] = 1 ;
+	a [ 0 ] = 1 ;	1
+for i = 1 to n - 1 inclusive	for ( i = 1 ; i <= n - 1 ; ++ i )
+	for ( i = 1 ; i <= n - 1 ; i ++ )	NA
+a [ i ] = ( a [ i - 1 ] + i ) % n	a [ i ] = ( a [ i - 1 ] + i ) % n ;
+	a [ i ] = ( a [ i - 1 ] + i ) % n ;	1
+set a [ i ] to n if a [ i ] is 0	if ( a [ i ] == 0 ) a [ j ] = n ;
+	if ( a [ i ] == 0 ) a [ i ] = n ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 1 to n - 1 exclusive print a [ i ] and " "	for ( int i = 1 ; i < n - 1 ; ++ i ) cout << a [ i ] << " " ;
+	for ( i = 1 ; i < n - 1 ; i ++ ) { cout << a [ i ] << " " ; }	NA
+print a [ n - 1 ] and a new line	cout << a [ n - 1 ] << endl ;
+	cout << a [ n - 1 ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

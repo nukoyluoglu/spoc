@@ -1,0 +1,45 @@
+num = array of 225 integers	int num [ 225 ] ;
+	int num [ 225 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , m , i , j , k = integers	int n, m, i, j, k ;
+	int n , m , i , j , k ;	NA
+read n and k	cin >> n >> k ;
+	cin >> n >> k ;	1
+set a index of num to k	a = find ( num, k ) ;
+	num [ ' a ' ] = k ;	NA
+for i = 1 to k exclusive increment num [ ' a ' + i ]	for ( i = 1 ; i < k ; i ++ ) num ['a'+ i ] ++ ;
+	for ( i = 1 ; i < k ; i ++ ) num [ ' a ' + i ] ++ ;	NA
+if k > n	if ( k > n )
+	if ( k > n )	1
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+else if n is 1	else if ( n == 1 )
+	else if ( n == 1 )	1
+print a	cout << a << endl ;
+	cout << ' a ' << endl ;	NA
+else if k is 1 and n > 1	else if ( k == 1 && n > 1 )
+	else if ( k == 1 && n > 1 )	1
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+else	else
+	else	1
+set f to 1	f = 1 ;
+	int f = 1 ;	NA
+for i = 1 to n - ( k - 2 ) inclusive	for ( int i = 1 ; i <= n - ( k - 2 ) ; i ++ )
+	for ( i = 1 ; i <= n - ( k - 2 ) ; i ++ )	NA
+if i modulo 2	if ( i % 2 )
+	if ( i % 2 )	1
+print a	cout << a << endl ;
+	cout << ' a ' ;	NA
+else	else
+	else	1
+print b	cout << b << endl ;
+	cout << ' b ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 1 to k - 2 inclusive print ( char ) ( ' b ' + i )	for ( int i = 1 ; i <= k - 2 ; i ++ ) cout << ( char ) ('b'+ i ) << endl ;
+	for ( i = 1 ; i <= k - 2 ; i ++ ) { cout << ( char ) ( ' b ' + i ) ; }	NA
+print a new line	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

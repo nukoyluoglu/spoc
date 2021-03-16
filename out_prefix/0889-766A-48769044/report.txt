@@ -1,0 +1,10 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create strings a and b	string a, b ;
+	string a , b ;	NA
+read standard input to a and b	cin >> a >> b ;
+	cin >> a >> b ;	1
+if a = b , print - 1 to the standard output and exit the program	if ( a == b ) cout << - 1 << endl, exit ( 0 ) ;
+	if ( a == b ) cout << - 1 << endl , exit ( 0 ) ;	NA
+print max of length of a and length of b	cout << max ( a. length ( ), b. size ( ) ) << endl ;
+	cout << max ( a . size ( ) , b . size ( ) ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

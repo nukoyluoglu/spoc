@@ -1,0 +1,18 @@
+str = array of 30100 strings	string str [ 30100 ] ;
+	string str [ 30100 ] ;	1
+a , b , r = int	int a, b, r ;
+	int a , b , r ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read a , b , r	cin >> a >> b >> r ;
+	cin >> a >> b >> r ;	1
+multiply r by 2	r *= 2 ;
+	r *= 2 ;	1
+if r < = a and r < = b	if ( r <= a && r <= b )
+	if ( r <= a && r <= b )	1
+print " First "	puts ( " First " ) ;
+	puts ( " First " ) ;	1
+else	else
+	else	1
+print " Second "	cout << " Second " << endl ;
+	puts ( " Second " ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

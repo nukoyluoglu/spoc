@@ -1,0 +1,55 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integers a and b	int a, b ;
+	int a , b ;	NA
+while read a and b	while ( cin >> a >> b )
+	while ( cin >> a >> b )	1
+declare integer i	int i ;
+	int i ;	1
+if a = 1	if ( a == 1 )
+	if ( a == 1 )	1
+if b is greater than 1	if ( b > 1 )
+	if ( b > 1 )	1
+print " - 1 "	cout << " -1 " << endl ;
+	cout << " -1 " << endl ;	1
+else	else
+	else	1
+print " a "	cout << " a " ;
+	cout << ' a ' << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+declare character variable q = ' c '	char q ='c';
+	char q = ' c ' ;	NA
+declare integer pl = 0	int pl = 0 ;
+	int pl = 0 ;	1
+if b > a or ( b = 1 and a > 1 )	if ( b > a || ( b == 1 && a > 1 ) )
+	if ( b > a || ( b == 1 && a > 1 ) )	1
+print " - 1 "	cout << " -1 " << endl ;
+	cout << " -1 " << endl ;	1
+else	else
+	else	1
+for i = 0 to a - ( b - 2 ) exclusive	for ( int i = 0 ; i < a - ( b - 2 ) ; i ++ )
+	for ( i = 0 ; i < a - ( b - 2 ) ; i ++ )	NA
+if pl is even	if ( pl % 2 == 0 )
+	if ( pl % 2 == 0 )	1
+increase pl by one	pl ++ ;
+	pl ++ ;	1
+print ' a '	cout <<'a';
+	cout << ' a ' ;	NA
+else	else
+	else	1
+increment pl	pl ++ ;
+	pl ++ ;	1
+print ' b '	cout <<'b';
+	cout << ' b ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to b - 2 exclusive	for ( int i = 0 ; i < b - 2 ; i ++ )
+	for ( i = 0 ; i < b - 2 ; i ++ ) { cout << q ++ ; }	NA
+print new line	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

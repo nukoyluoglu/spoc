@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int a , b , n , i , au , nx	int a, b, n, i, au, nx ;
+	int a , b , n , i , au , nx ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+read a and b	cin >> a >> b ;
+	cin >> a >> b ;	1
+create vector int c	vector < int > c ;
+	vector < int > c ;	1
+for i = 0 to n exclusive	for ( i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	1
+read au	cin >> au ;
+	cin >> au ;	1
+put au at the end of c	c. push_back ( au ) ;
+	c . push_back ( au ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort c	sort ( c. begin ( ), c. end ( ) ) ;
+	sort ( c . begin ( ) , c . end ( ) ) ;	NA
+set nx to c [ b ] - c [ b - 1 ]	int nx = c [ b ] - c [ c - 1 ] ;
+	nx = c [ b ] - c [ b - 1 ] ;	NA
+print nx and a newline	cout << nx <<'\n';
+	cout << nx << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

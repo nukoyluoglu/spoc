@@ -1,0 +1,31 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n be an integer	int n ;
+	int n ;	1
+while reading n	while ( cin >> n )
+	while ( cin >> n )	1
+let a be an integer array of length n	int a [ n ] ;
+	int a [ n ] ;	1
+let b be an integer array of length n	int b [ n ] ;
+	int b [ n ] ;	1
+let max be an int	int max ;
+	int max ;	1
+let count = 0 be an int	int count = 0 ;
+	int count = 0 ;	1
+read a n times	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ i ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ i ] ; }	1
+set max = a at 0	max = a [ 0 ] ;
+	max = a [ 0 ] ;	1
+for q = 1 to n exclusive	for ( int q = 1 ; q < n ; q ++ )
+	for ( int q = 1 ; q < n ; q ++ )	1
+if a at q is 1 then increment count , set b [ count ] to a [ q - 1 ]	if ( a [ q ] == 1 ) count ++, b [ count ++ ] = a [ Q - 1 ] ;
+	if ( a [ q ] == 1 ) { b [ ++ count ] = a [ q - 1 ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print count + 1	cout << count + 1 << endl ;
+	cout << count + 1 << endl ;	1
+for j = 1 to count inclusive print b	for ( int j = 1 ; j <= count ; j ++ ) { cout << b ; }
+	for ( int j = 1 ; j <= count ; j ++ ) cout << b [ j ] << " " ;	NA
+print a [ n - 1 ]	cout << a [ n - 1 ] << endl ;
+	cout << a [ n - 1 ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,17 @@
+a , b = string	string a, b ;
+	string a , b ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read a then b	cin >> a >> b ;
+	cin >> a >> b ;	1
+if a is not b	if ( a!= b )
+	if ( a != b )	NA
+print max of size of a , size of b	cout << max ( a. length ( ), b. size ( ) ) << endl ;
+	cout << max ( a . size ( ) , b . size ( ) ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+print " - 1 "	cout << " -1 " << endl ;
+	cout << " -1 " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

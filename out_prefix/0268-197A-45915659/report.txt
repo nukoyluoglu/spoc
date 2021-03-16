@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+define ints n , a , b , c	int n, a, b, c ;
+	int n , a , b , c ;	NA
+read a , b , c	cin >> a >> b >> c ;
+	cin >> a >> b >> c ;	1
+if a < c * 2 or b < c * 2	if ( a < c * 2 || b < c + 2 )
+	if ( a < c * 2 || b < c * 2 )	NA
+print " Second " and newline	cout << " Second " << endl ;
+	cout << " Second " << endl ;	1
+otherwise	else
+	else	1
+print " First " and a newline	cout << " First " <<'\n';
+	cout << " First " << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
