@@ -8,6 +8,7 @@ import subprocess
 from enum import Enum
 import itertools
 import traceback
+from collections import defaultdict
 
 
 # Global arguments
@@ -331,6 +332,8 @@ def true_oracle_linebyline(inp_stmt, pred_stmt, probid, subid):
     curr_i = 0
     num_lines = 0
     num_success = 0
+    success_per_rank = defaultdict(int)
+    all_gold_found = True
     # check for predictions in the i-th line with everything else gold
     for inp_i, pred_i in zip(inp_stmt, pred_stmt):
         if pred_i[_pred.text] == 'DUMMY':
@@ -370,13 +373,15 @@ def true_oracle_linebyline(inp_stmt, pred_stmt, probid, subid):
                 curr_j += 1
             passing = oracle_code_check(code, probid, subid)
             if passing:
-                gold_found = True
+                gold_found, gold_rank = True, i - _pred.pred_best + 1
                 break
         if gold_found:
             num_success += 1
+            success_per_rank[gold_rank] += 1
+        all_gold_found = all_gold_found and gold_found
         num_lines += 1
         curr_i += 1
-    return num_lines, num_success
+    return all_gold_found, num_lines, num_success, success_per_rank
 
 
 def filter_error_message(message, unique_id):
@@ -1319,15 +1324,15 @@ def stitch():
         if in_beam_exact_match:
             tmp_f = open("in_beam_exact_match.txt", "w")
             tmp_f.close()
-        # check if in beam for true oracle
-        in_beam_true_oracle = true_oracle(inp_stmt, pred_stmt, probid, subid)
+        # check if in beam for true oracle (all lines, line by line, by rank)
+        in_beam_true_oracle, num_lines, num_success, success_per_rank = true_oracle_linebyline(inp_stmt, pred_stmt, probid, subid)
         if in_beam_true_oracle:
             tmp_f = open("in_beam_true_oracle.txt", "w")
-            tmp_f.close()
-        # check if in beam for true oracle, line by line
-        num_lines, num_success = true_oracle_linebyline(inp_stmt, pred_stmt, probid, subid)
+            tmp_f.close()        
         tmp_f = open("in_beam_true_oracle_linebyline.txt", "w")
-        tmp_f.writelines([str(num_lines) + '\n', str(num_success)])
+        tmp_f.writelines([str(num_lines) + '\n', str(num_success) + '\n'])
+        for rank, success in success_per_rank.items():
+            tmp_f.write(str(rank) + ' ' + str(success) + '\n')
         tmp_f.close()
     # detailed oracle
     if ARGS.detailed_oracle:
@@ -1438,7 +1443,7 @@ def main():
 
     global ARGS
     ARGS = parser.parse_args()
-    ARGS.num_preds = 1
+    ARGS.num_preds = 100
 
     if os.environ.get('PROG_DIR'):
         ARGS.prog_dir = str(os.environ['PROG_DIR'])    

@@ -11,9 +11,14 @@ P=10
 N=$(tail -n+2 ${1}.tsv | cut -f 3-6 | uniq | wc -l)
 
 # Change the stitcher (-o) to the appropriate one!
-i=1
+i=151
 while [[ $i -le $N ]]; do
-  echo Submitting $'python stitcher/stitch.py -o -p '"$P"' '"$1"' '"$i"''
-	python stitcher/stitch.py -o -p $P $1 $i --out-dir out/
-  i=$(($i + 1))
+  for j in {1..15}; do
+    if [[ $i -le $N ]]; then
+      echo Submitting $'python stitcher/stitch.py -o -p '"$P"' '"$1"' '"$i"''
+      python stitcher/stitch.py -o -p $P $1 $i --out-dir out/ &
+      i=$(($i + 1))
+    fi
+  done
+  wait
 done
