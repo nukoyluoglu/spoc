@@ -1,0 +1,22 @@
+in function sq taking an int a and returning an int	int sq ( int a )
+	int sq ( int a )	1
+return a * a	return a * a ;
+	return a * a ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+i , j , k , a , b , c = int and A = int array of size 6	int i, j, k, a, b, c, A [ 6 ] ;
+	int A [ 6 ] , i , j , k , a , b , c ;	NA
+read 6 values into A	for ( i = 0 ; i < 6 ; i ++ ) cin >> A [ i ] ;
+	for ( i = 0 ; i < 6 ; i ++ ) { cin >> A [ i ] ; }	NA
+set a to A [ 0 ] + A [ 1 ] + A [ 2 ]	a += A [ 1 ] + A [ 2 ] ;
+	a = A [ 0 ] + A [ 1 ] + A [ 2 ] ;	NA
+set b to sq of a	b = sq ( a ) ;
+	b = sq ( a ) ;	1
+set c to sq of A [ 0 ] + sq of A [ 2 ] + sq of A [ 4 ]	c = sq ( A [ 0 ] ) + sq ( B [ 2 ] + sq [ 4 ] ) ;
+	c = sq ( A [ 0 ] ) + sq ( A [ 2 ] ) + sq ( A [ 4 ] ) ;	NA
+set j to b - c	j = b - c ;
+	j = b - c ;	1
+print j	cout << j << endl ;
+	cout << j << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

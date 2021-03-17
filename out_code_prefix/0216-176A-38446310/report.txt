@@ -1,0 +1,78 @@
+create 2d array of integers a with size 15 by 105	int a [ 15 ] [ 105 ] ;
+	int a [ 15 ] [ 105 ] ;	1
+create 2d array of integers b with size 15 by 105	int b [ 15 ] [ 105 ] ;
+	int b [ 15 ] [ 105 ] ;	1
+create 2d array of integers c with size 15 by 105	int c [ 15 ] [ 105 ] ;
+	int c [ 15 ] [ 105 ] ;	1
+declare boolean array vis with 105 elements	bool vis [ 105 ] ;
+	bool vis [ 105 ] ;	1
+declare ints n , m and k	int n, m, k ;
+	int n , m , k ;	NA
+function Cal with int arguments x and y that returns int	int Cal ( int x, int y )
+	int Cal ( int x , int y )	NA
+set first sizeof vis bytes at the pointer vis to 0	memset ( vis, 0, sizeof vis ) ;
+	memset ( vis , 0 , sizeof vis ) ;	NA
+if x = y , return - 1	if ( x == y ) return - 1 ;
+	if ( x == y ) return - 1 ;	1
+declare int variable cost = k	int cost = k ;
+	int cost = k ;	1
+create int ans = 0	int ans = 0 ;
+	int ans = 0 ;	1
+while cost ! = 0	while ( cost )
+	while ( cost )	1
+create integer flag	int flag ;
+	int flag ;	1
+declare integer maxgas = 0	int maxgas = 0 ;
+	int maxgas = 0 ;	1
+declare integer variable dp = 1	int dp = 1 ;
+	int dp = 1 ;	1
+for integer i = 1 to m inclusive	for ( int i = 1 ; i <= m ; i ++ )
+	for ( int i = 1 ; i <= m ; i ++ )	1
+if vis [ i ] is true , skip the rest of the loop	if ( vis [ i ] ) continue ;
+	if ( vis [ i ] ) continue ;	1
+if b [ y ] [ i ] - a [ x ] [ i ] is greater than maxgas	if ( b [ y ] [ i ] - a [ x ] [ 1 ] > maxgas )
+	if ( b [ y ] [ i ] - a [ x ] [ i ] > maxgas )	NA
+assign 0 to dp	dp = 0 ;
+	dp = 0 ;	1
+assign b [ y ] [ i ] - a [ x ] [ i ] to maxgas	maxgas = b [ y ] [ i ] - a [ x ] [ 1 ] ;
+	maxgas = b [ y ] [ i ] - a [ x ] [ i ] ;	NA
+change flag to i	flag = i ;
+	flag = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if dp is true , break the loop	if ( dp ) break ;
+	if ( dp ) break ;	1
+set vis [ flag ] to 1	vis [ flag ] = 1 ;
+	vis [ flag ] = 1 ;	1
+add min of cost and c [ x ] [ flag ] * maxgas to ans	ans += min ( cost, c [ x ] [ flag ] * maxgas ) ;
+	ans += min ( cost , c [ x ] [ flag ] ) * maxgas ;	NA
+decrease cost by min of cost and c [ x ] [ flag ]	cost -= min ( cost, c [ x ] [ flag ] ) ;
+	cost -= min ( cost , c [ x ] [ flag ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return ans	return ans ;
+	return ans ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+set first sizeof vis bytes at the pointer vis to 0	memset ( vis, 0, sizeof vis ) ;
+	memset ( vis , 0 , sizeof vis ) ;	NA
+read n , m and k	cin >> n >> m >> k ;
+	cin >> n >> m >> k ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+create string s	string s ;
+	string s ;	1
+read input to s	cin >> s ;
+	cin >> s ;	1
+for j from 1 to m inclusive , read a [ i ] [ j ] , b [ i ] [ j ] and c [ i ] [ j ]	for ( int j = 1 ; j <= m ; j ++ ) { cin >> a [ i ] [ j ] >> b [ i - [ j - 1 ] >> c [ i ++ [ j + 1 ] ; }
+	for ( int j = 1 ; j <= m ; j ++ ) { cin >> a [ i ] [ j ] >> b [ i ] [ j ] >> c [ i ] [ j ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare int variable ans = 0	int ans = 0 ;
+	int ans = 0 ;	1
+change i from 1 to n inclusive in a loop	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+change j from 1 to n inclusive in a loop , setting ans to max of ans and Cal ( i , j )	for ( int j = 1 ; j <= n ; j ++ ) { ans = max ( ans, Cal ( i, j ) ) ; }
+	for ( int j = 1 ; j <= n ; j ++ ) { ans = max ( ans , Cal ( i , j ) ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

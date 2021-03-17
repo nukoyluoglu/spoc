@@ -1,0 +1,25 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare new integers N , B and P	int N, B, P ;
+	int N , B , P ;	NA
+read from the input to N , B and P	cin >> N >> B >> P ;
+	cin >> N >> B >> P ;	1
+Ile is a new integer variable with value 0	int Ile = 0 ;
+	int Ile = 0 ;	1
+create new integer variable Reczniki with value N * P	int Reczniki = N * P ;
+	int Reczniki = N * P ;	1
+while N > 1	while ( N > 1 )
+	while ( N > 1 )	1
+declare integer variable Potega with value 1	int Potega = 1 ;
+	int Potega = 1 ;	1
+while Potega * 2 < = N	while ( Potega * 2 <= N )
+	while ( Potega * 2 <= N ) { Potega *= 2 ; }	NA
+declare new integer IleMeczy = Potega / 2	int IleMeczy = Potega / 2 ;
+	int IleMeczy = Potega / 2 ;	1
+add IleMeczy * 2 * B + IleMeczy to Ile	Ile += ( IleMeczy * 2 * B ) + Ile ;
+	Ile += IleMeczy * 2 * B + IleMeczy ;	NA
+change N to ( N - Potega ) + IleMeczy	N = ( N - Potega ) + IleMeczy ;
+	N = ( N - Potega ) + IleMeczy ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print Ile , " " , Reczniki and " \ n "	cout << Ile << " " << Reczniki << " \n " ;
+	cout << Ile << " " << Reczniki << " \n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

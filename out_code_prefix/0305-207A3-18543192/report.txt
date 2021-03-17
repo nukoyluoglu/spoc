@@ -1,0 +1,37 @@
+MAX = const int with MAX = 2e5	const int MAX = 2e5 ;
+	const int MAX = 2e5 ;	1
+a = pair of pair of long long and long long and long long array of size MAX + 9	pair < long long, long long > a [ MAX + 9 ] ;
+	pair < pair < long long , long long > , long long > a [ MAX + 9 ] ;	NA
+n , k , a0 , x , y , m , ans , cnt , t , tmp = long long	long long n, k, a0, x, y, m, ans, cnt, t, tmp ;
+	long long n , k , a0 , x , y , m , ans , cnt , t , tmp ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read k then a0 then x then y then m then set t to 0	cin >> k >> a0 >> x >> y >> m, t = 0 ;
+	cin >> k >> a0 >> x >> y >> m , t = 0 ;	NA
+for j = 0 to k	for ( int j = 0 ; j < k ; j ++ )
+	for ( int j = 0 ; j < k ; j ++ )	1
+if cnt is less or equal to MAX then set a [ cnt ] to { { t , a0 } , i } then increment cnt	if ( cnt <= MAX ) a [ cnt ++ ] = { { t, a0 }, i } ;
+	if ( cnt <= MAX ) a [ cnt ++ ] = { { t , a0 } , i } ;	NA
+set tmp to ( a0 * x + y ) mod m	tmp = ( a0 * x + y ) % m ;
+	tmp = ( a0 * x + y ) % m ;	1
+if tmp is less than a0 and j is not k - 1 increment t	if ( tmp < a0 && j!= k - 1 ) t ++ ;
+	if ( tmp < a0 && j != k - 1 ) t ++ ;	NA
+set a0 to tmp	a0 = tmp ;
+	a0 = tmp ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set ans to max of ans and t	ans = max ( ans, t ) ;
+	ans = max ( ans , t ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << ' \n ' ;	NA
+if cnt is less than MAX	if ( cnt < MAX )
+	if ( cnt <= MAX )	NA
+call sort on a and a + cnt	sort ( a, a + cnt ) ;
+	sort ( a , a + cnt ) ;	NA
+for i = 0 to cnt print a [ i ] . first . second and a [ i ] . second + 1	for ( int i = 0 ; i < cnt ; i ++ ) { cout << a [ i ]. first. second << " " << ( a [ 1 ]. second + 1 ) <<'\n'; }
+	for ( int i = 0 ; i < cnt ; i ++ ) cout << a [ i ] . first . second << " " << a [ i ] . second + 1 << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

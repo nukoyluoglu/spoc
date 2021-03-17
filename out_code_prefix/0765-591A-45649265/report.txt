@@ -1,0 +1,9 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int l , p and q	int l, p, q ;
+	int l , p , q ;	NA
+read l , p and q	cin >> l >> p >> q ;
+	cin >> l >> p >> q ;	1
+print l * p / ( p + q )	cout << l * p / ( p + q ) << endl ;
+	cout << l * p / ( double ) ( p + q ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

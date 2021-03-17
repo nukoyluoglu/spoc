@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long l and r	long long l, r ;
+	long long l , r ;	NA
+read l and r	cin >> l >> r ;
+	cin >> l >> r ;	1
+if r - l + 1 < 3	if ( r - l + 1 < 3 )
+	if ( r - l + 1 < 3 )	1
+read - 1	cin >> - 1 ;
+	cout << - 1 << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if r - l + 1 = 3 and r mod 2 different from 0 or l mod 2 different from 0	if ( ( r - l + 1 == 3 ) && ( r % 2!= 0 ) || ( l % 2 == 0 ) )
+	if ( r - l + 1 == 3 && ( r % 2 != 0 || l % 2 != 0 ) )	NA
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if l is even and l + 2 is even	if ( l % 2 == 0 && l + 2 % 2!= 0 )
+	if ( l % 2 == 0 && ( l + 2 ) % 2 == 0 )	NA
+print l , " " , l + 1 , " " , l + 2	cout << l << " " << ( l + 1 ) <<' '<< l + 2 << endl ;
+	cout << l << " " << l + 1 << " " << l + 2 << endl ;	NA
+else	else
+	else	1
+print l + 1 , " " , l + 2 , " " , l + 3	cout << l + 1 << " " << ( l + 2 ) <<' '<< i + 3 << endl ;
+	cout << l + 1 << " " << l + 2 << " " << l + 3 << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

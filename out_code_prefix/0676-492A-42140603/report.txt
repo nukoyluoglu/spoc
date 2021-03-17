@@ -1,0 +1,33 @@
+cum = long long array of size 102	long long cum [ 102 ] ;
+	long long cum [ 100 + 2 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+for i = 1 to 100 inclusive set cum [ i ] to i	for ( long long i = 1 ; i <= 100 ; i ++ ) { cum [ i ] = i ; }
+	for ( int i = 1 ; i <= 100 ; i ++ ) cum [ i ] = i ;	NA
+for i = 2 to 100 inclusive increment cum [ i ] by cum [ i - 1 ]	for ( int i = 2 ; i <= 100 ; i ++ ) { cum [ i ] += cum [ j - 1 ] ; }
+	for ( int i = 2 ; i <= 100 ; i ++ ) { cum [ i ] += cum [ i - 1 ] ; }	NA
+n = int	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+sum = long long with sum = 0	long long sum = 0 ;
+	long long sum = 0 ;	1
+Count = int with Count = 0	int Count = 0 ;
+	int Count = 0 ;	1
+i = int	int i ;
+	int i ;	1
+iterate i starting at 1 while sum < = n	for ( i = 1 ; sum <= n ; i ++ )
+	for ( i = 1 ; sum <= n ; i ++ )	1
+increment sum by cum [ i ]	sum += cum [ i ] ;
+	sum += cum [ i ] ;	1
+if sum > n	if ( sum > n )
+	if ( sum > n )	1
+break	break ;
+	break ;	1
+else	else
+	else	1
+increment Count	Count ++ ;
+	Count ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print Count	cout << Count << endl ;
+	cout << Count << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

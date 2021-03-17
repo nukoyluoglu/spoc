@@ -1,0 +1,27 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integers k , d and i	int k, d, i ;
+	int k , d , i ;	NA
+read k and d	cin >> k >> d ;
+	cin >> k >> d ;	1
+if d = 0	if ( d == 0 )
+	if ( d == 0 )	1
+if k = 1	if ( k == 1 )
+	if ( k == 1 )	1
+print 0 and a new line	cout << 0 << endl ;
+	cout << 0 << endl ;	1
+else	else
+	else	1
+print " No solution \ n "	cout << " No\n " ;
+	cout << " No solution\n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+print d	cout << d << endl ;
+	cout << d ;	NA
+for i = 1 to k exclusive , print 0	for ( int i = 1 ; i < k ; i ++ ) cout << 0 ;
+	for ( i = 1 ; i < k ; i ++ ) { cout << 0 ; }	NA
+print new line	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,104 @@
+declare expo_fast with long long integers a , b as arguments , returning long long integer	long long expo_fast ( long long a, long long b )
+	long long int expo_fast ( long long int a , long long int b )	NA
+set a to a	a = a ;
+	a = a ;	1
+create long long integer result with result = 1	long long int result = 1 ;
+	long long int result = 1 ;	1
+while b is true	while ( b )
+	while ( b )	1
+if b bitwise and 1 , set result to result * a	if ( b & 1 ) { result *= a ; }
+	if ( b & 1 ) result = ( result * a ) ;	NA
+set b to b bitshift right 1	b >>= 1 ;
+	b >>= 1 ;	1
+set a to a * a	a = a * a ;
+	a = ( a * a ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return result from function	return result ;
+	return ( result ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare take_in with long long integer vector pointer arr as argument returning void	void take_in ( vector < long long int > * arr )
+	void take_in ( vector < long long int > * arr )	1
+for i = 0 to result of run size from arr exclusive , read value of arr [ i ]	for ( long long int i = 0 ; i < arr. size ( ) ; i ++ ) { cin >> arr [ i ] ; }
+	for ( int i = 0 ; i < arr -> size ( ) ; i ++ ) cin >> ( * ( arr ) ) [ i ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare disp_arr with long long integer vector pointer as argument , returning void	void disp_arr ( vector < long long int > * * arr )
+	void disp_arr ( vector < long long int > * arr )	NA
+for i = 0 to result of run size from arr exclusive , print value of arr [ i ] print " "	for ( int i = 0 ; i < arr. size ( ) ; i ++ ) cout << * ( arr [ i ] ) << " " ;
+	for ( int i = 0 ; i < arr -> size ( ) ; i ++ ) cout << ( * ( arr ) ) [ i ] << " " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare func with string s , integer n as arguments , returning string	string func ( string s, int n )
+	string func ( string s , int n )	NA
+create string q	string q ;
+	string q ;	1
+resize q to size n	q. resize ( n ) ;
+	q . resize ( n ) ;	NA
+set q [ 0 ] to s [ 0 ]	q [ 0 ] = s [ 1 ] ;
+	q [ 0 ] = s [ 0 ] ;	NA
+set q [ 1 ] to s [ 1 ]	q [ 1 ] = s [ 0 ] ;
+	q [ 1 ] = s [ 1 ] ;	NA
+set q [ 2 ] to s [ 2 ]	q [ 2 ] = s [ 1 ] ;
+	q [ 2 ] = s [ 2 ] ;	NA
+for i = 3 to n exclusive	for ( int i = 3 ; i < n ; i ++ )
+	for ( int i = 3 ; i < n ; i ++ )	1
+if i % 3 is 0	if ( i % 3 == 0 )
+	if ( i % 3 == 0 )	1
+set q [ i ] to q [ 0 ]	q [ i ] = q [ 0 ] ;
+	q [ i ] = q [ 0 ] ;	1
+else if i % 3 is 1	else if ( i % 3 == 1 )
+	else if ( i % 3 == 1 )	1
+set q [ i ] to q [ 1 ]	q [ i ] = q [ 1 ] ;
+	q [ i ] = q [ 1 ] ;	1
+else	else
+	else	1
+set q [ i ] to q [ 2 ]	q [ i ] = q [ 2 ] ;
+	q [ i ] = q [ 2 ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return q from function	return q ;
+	return q ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string s	string s ;
+	string s ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+create character stack stk	stack < char > stk ;
+	stack < char > stk ;	1
+create long long integers ans with ans = 0	long long int ans = 0 ;
+	long long int ans = 0 ;	1
+create booleans cond1 , cond2 with cond1 = true , cond2 = true	bool cond1 = true, cond2 = true ;
+	bool cond1 = true , cond2 = true ;	NA
+for i = 0 to length of s exclusive	for ( int i = 0 ; i < s. size ( ) ; i ++ )
+	for ( int i = 0 ; i < s . length ( ) ; i ++ )	NA
+if s [ i ] is ' 0 '	if ( s [ i ] =='0')
+	if ( s [ i ] == ' 0 ' )	NA
+if cond1 is true	if ( cond1 )
+	if ( cond1 )	1
+set cond1 to false	cond1 = false ;
+	cond1 = false ;	1
+print " 1 1 \ n "	cout << " 1 1\n " ;
+	cout << " 1 1\n " ;	1
+else	else
+	else	1
+set cond1 to true	cond1 = true ;
+	cond1 = true ;	1
+print " 3 1 \ n "	cout << " 3 1\n " ;
+	cout << " 3 1\n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+if cond2 is true	if ( cond2 )
+	if ( cond2 )	1
+set cond2 to false	cond2 = false ;
+	cond2 = false ;	1
+print " 4 3 \ n "	cout << " 4 3\n " ;
+	cout << " 4 3\n " ;	1
+else	else
+	else	1
+set cond2 to true	cond2 = true ;
+	cond2 = true ;	1
+print " 4 1 \ n "	cout << " 4 1\n " ;
+	cout << " 4 1\n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,32 @@
+create constant long long INF with INF = ( 1ll bitshift left 62 ) - 1	const long long INF = ( 1ll << 62 ) - 1 ;
+	const long long INF = ( 1ll << 62 ) - 1 ;	1
+create constant long long M with M = 1e9 + 7	const long long M = 1e9 + 7 ;
+	const long long M = 1e9 + 7 ;	1
+declare modularExponentiation with long longs x , y as arguments , returning long long	long long modularExponentiation ( long long x, long long y )
+	long long modularExponentiation ( long long x , long long y )	NA
+create integer res with res = 1	int res = 1 ;
+	int res = 1 ;	1
+while y is greater than 0	while ( y > 0 )
+	while ( y > 0 )	1
+if y bitwise and 1 , set res to ( res * x ) % M	if ( y & 1 ) res = ( res * x ) % M ;
+	if ( y & 1 ) res = ( res * x ) % M ;	1
+set y to y bitshift right 1	y = y >> 1 ;
+	y = y >> 1 ;	1
+set x to ( x * x ) % M	x = ( x * x ) % M ;
+	x = ( x * x ) % M ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return res from function	return res ;
+	return res ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long n	long long n ;
+	long long n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create long long ans with ans = result of run modularExponentiation with 2 , n as arguments	long long ans = modularExponentiation ( 2, n ) ;
+	long long ans = modularExponentiation ( 2 , n ) ;	NA
+set ans to ( ans + ( ans * ans ) ) / 2	ans = ( ans + ( ans * ans ) ) / 2 ;
+	ans = ( ans + ( ans * ans ) ) / 2 ;	1
+print ans % M print newline	cout << ans % M << endl ;
+	cout << ans % M << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

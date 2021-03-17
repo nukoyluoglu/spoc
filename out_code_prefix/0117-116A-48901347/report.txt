@@ -1,0 +1,20 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create integer a , b , i , cnt , max , set cnt = 0 , max = 0	int a, b, i, cnt = 0, max = 0 ;
+	int a , b , i , cnt = 0 , max = 0 ;	NA
+for i = 0 to n execute	for ( i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	1
+print a , b	cout << a << " " << b << endl ;
+	cin >> a >> b ;	NA
+set cnt = cnt + b - a	cnt += b - a ;
+	cnt = cnt + b - a ;	NA
+if cnt > max set max = cnt	if ( cnt > max ) max = cnt ;
+	if ( cnt > max ) max = cnt ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print max	cout << max << endl ;
+	cout << max << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

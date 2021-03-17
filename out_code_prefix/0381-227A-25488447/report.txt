@@ -1,0 +1,98 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+x1 , y1 , x2 , y2 , x3 , y3 = integers	int x1, y1, x2, y2, x3, y3 ;
+	int x1 , y1 , x2 , y2 , x3 , y3 ;	NA
+Read x1 , y1 , x2 , y2 , x3 , y3	cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3 ;
+	cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3 ;	1
+if ( y2 - y1 ) * ( x3 - x2 ) is equal to ( y3 - y2 ) * ( x2 - x1 )	if ( ( y2 - y1 ) * ( x3 - x2 ) == ( y3 - y2 ) *( x2 - x1 )
+	if ( ( y2 - y1 ) * ( x3 - x2 ) == ( y3 - y2 ) * ( x2 - x1 ) )	NA
+print TOWARDS and a new line	cout << " TOWARDS\n " ;
+	cout << " TOWARDS " << endl ;	NA
+else if y1 is equal to y2	else if ( y1 == y2 )
+	else if ( y1 == y2 )	1
+if x2 is greater than x1	if ( x2 > x1 )
+	if ( x2 > x1 )	1
+if y3 is greater than y2	if ( y3 > y2 )
+	if ( y3 > y2 )	1
+print LEFT and a new line	cout << " LEFT\n " ;
+	cout << " LEFT " << endl ;	NA
+else do the following	else
+	else	1
+print RIGHT and a new line	cout << " RIGHT " << endl ;
+	cout << " RIGHT " << endl ;	1
+else do the following	else
+	else	1
+if y3 is less than y2	if ( y3 < y2 )
+	if ( y3 < y2 )	1
+print LEFT and a new line	cout << " LEFT " << endl ;
+	cout << " LEFT " << endl ;	1
+else do the following	else
+	else	1
+print RIGHT and a new line	cout << " RIGHT " << endl ;
+	cout << " RIGHT " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+else if x1 is equal to x2	else if ( x1 == x2 )
+	else if ( x1 == x2 )	1
+if y1 is less than y2	if ( y1 < y2 )
+	if ( y1 < y2 )	1
+if x3 is greater than x2	if ( x3 > x2 )
+	if ( x3 > x2 )	1
+print RIGHT and a new line	cout << " RIGHT " << endl ;
+	cout << " RIGHT " << endl ;	1
+else do the following	else
+	else	1
+print LEFT and a new line	cout << " LEFT " << endl ;
+	cout << " LEFT " << endl ;	1
+else do the following	else
+	else	1
+if x3 is less than x2	if ( x3 < x2 )
+	if ( x3 < x2 )	1
+print RIGHT and a new line	cout << " RIGHT " << endl ;
+	cout << " RIGHT " << endl ;	1
+else do the following	else
+	else	1
+print LEFT and a new line	cout << " LEFT " << endl ;
+	cout << " LEFT " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+else if x1 is less than x2 and y1 is less than y2	else if ( x1 < x2 && y1 < y2 )
+	else if ( x1 < x2 && y1 < y2 )	1
+if x3 is less than x2	if ( x3 < x2 )
+	if ( x3 < x2 )	1
+print LEFT and a new line	cout << " LEFT " << endl ;
+	cout << " LEFT " << endl ;	1
+else do the following	else
+	else	1
+print RIGHT and a new line	cout << " RIGHT " << endl ;
+	cout << " RIGHT " << endl ;	1
+else if x1 is greater than x2 and y1 is greater than y2	else if ( x1 > x2 && y1 > y2 )
+	else if ( x1 > x2 && y1 > y2 )	1
+if x3 is greater than x2	if ( x3 > x2 )
+	if ( x3 > x2 )	1
+print LEFT and a new line	cout << " LEFT " << endl ;
+	cout << " LEFT " << endl ;	1
+else do the following	else
+	else	1
+print RIGHT and a new line	cout << " RIGHT " << endl ;
+	cout << " RIGHT " << endl ;	1
+else if x1 is less than x2 and y1 is greater than y2	else if ( x1 < x2 && y1 > y2 )
+	else if ( x1 < x2 && y1 > y2 )	1
+if x3 is greater than x2	if ( x3 > x2 )
+	if ( x3 > x2 )	1
+print LEFT and a new line	cout << " LEFT " << endl ;
+	cout << " LEFT " << endl ;	1
+else do the following	else
+	else	1
+print RIGHT and a new line	cout << " RIGHT " << endl ;
+	cout << " RIGHT " << endl ;	1
+else do the following	else
+	else	1
+if x3 is less than x2	if ( x3 < x2 )
+	if ( x3 < x2 )	1
+print LEFT and a new line	cout << " LEFT " << endl ;
+	cout << " LEFT " << endl ;	1
+else do the following	else
+	else	1
+print RIGHT and a new line	cout << " RIGHT " << endl ;
+	cout << " RIGHT " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,63 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+r , c = integers	int r, c ;
+	int r , c ;	NA
+flag = integer with flag = - 1	int flag = - 1 ;
+	int flag = - 1 ;	1
+read r , c	cin >> r >> c ;
+	cin >> r >> c ;	1
+v = 2d character array of size [ r ] [ c ]	char v [ r ] [ c ] ;
+	char v [ r ] [ c ] ;	1
+empt , wolf , sheep = integers with empt = 0 , wolf = 0 , sheep = 0	int empt ( 0 ), wolf ( 0.0 ), sheep = 0 ;
+	int empt = 0 , wolf = 0 , sheep = 0 ;	NA
+p = character	char p ;
+	char p ;	1
+for i = 0 to r exclusive	for ( int i = 0 ; i < r ; i ++ )
+	for ( int i = 0 ; i < r ; i ++ )	1
+for j = 0 to c exclusive	for ( int j = 0 ; j < c ; j ++ )
+	for ( int j = 0 ; j < c ; j ++ )	1
+read p	cin >> p ;
+	cin >> p ;	1
+if p is .	if (! p )
+	if ( p == ' . ' )	NA
+v [ i ] [ j ] = D	v [ i ] [ j ] ='D';
+	v [ i ] [ j ] = ' D ' ;	NA
+else	else
+	else	1
+v [ i ] [ j ] = p	v [ i ] [ j ] = p ;
+	v [ i ] [ j ] = p ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to r exclusive	for ( int i = 0 ; i < r ; i ++ )
+	for ( int i = 0 ; i < r ; i ++ )	1
+for j = 0 to c exclusive	for ( int j = 0 ; j < c ; j ++ )
+	for ( int j = 0 ; j < c ; j ++ )	1
+if v [ i ] [ j ] is S	if ( v [ i ] [ j ] =='S')
+	if ( v [ i ] [ j ] == ' S ' )	NA
+if v [ i - 1 ] [ j ] is W and i - 1 > = 0 , flag = 0	if ( v [ i - 1 ] [ j ] =='W'&& i - i >= 0 ) flag = 0 ;
+	if ( v [ i - 1 ] [ j ] == ' W ' && i - 1 >= 0 ) flag = 0 ;	NA
+if v [ i + 1 ] [ j ] is W and i + 1 < r , flag = 0	if ( v [ i + 1 ] [ j ] =='W'&& j + 1 < r ) flag = 0 ;
+	if ( v [ i + 1 ] [ j ] == ' W ' && i + 1 < r ) flag = 0 ;	NA
+if v [ i ] [ j + 1 ] is W and j + 1 < c , flag = 0	if ( v [ i ] [ j + 1 ] =='W'&& i + 1 < c ) flag = 0 ;
+	if ( v [ i ] [ j + 1 ] == ' W ' && j + 1 < c ) flag = 0 ;	NA
+if v [ i ] [ j - 1 ] is W and j - 1 > = 0 , flag = 0	if ( v [ i ] [ j - 1 ] =='W'&& j + 1 >= 0 ) flag = 0 ;
+	if ( v [ i ] [ j - 1 ] == ' W ' && j - 1 >= 0 ) flag = 0 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if flag is 0	if ( flag == 0 )
+	if ( flag == 0 )	1
+print NO	cout << " NO\n " ;
+	cout << " NO " << endl ;	NA
+else	else
+	else	1
+print YES	cout << " YES " << endl ;
+	cout << " YES " << endl ;	1
+for i = 0 to r exclusive	for ( int i = 0 ; i < r ; i ++ )
+	for ( int i = 0 ; i < r ; i ++ )	1
+for j = 0 to c exclusive , print v [ i ] [ j ]	for ( int j = 0 ; j < c ; j ++ ) { cout << v [ i ] [ j ] ; }
+	for ( int j = 0 ; j < c ; j ++ ) { cout << v [ i ] [ j ] ; }	1
+print new line	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

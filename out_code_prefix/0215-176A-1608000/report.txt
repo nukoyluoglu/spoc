@@ -1,0 +1,64 @@
+create integer arrays p of size 101 within an array of size 101 , ai of size 1000 , bi of size 1000	int p [ 101 ], ai [ 1000 ], bi [ 100 ] ;
+	int p [ 101 ] [ 101 ] , ai [ 1000 ] , bi [ 1000 ] ;	NA
+create unsigned integer array ci of size 1000	unsigned int ci [ 1000 ] ;
+	unsigned int ci [ 1000 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+created unsigned integers n , m , and k	unsigned int n, m, k ;
+	unsigned int n , m , k ;	NA
+read n , m , and k	cin >> n >> m >> k ;
+	cin >> n >> m >> k ;	1
+create string u	string u ;
+	string u ;	1
+create unsigned integer o = 0	unsigned int o = 0 ;
+	unsigned int o = 0 ;	1
+for i = 0 to n exclusive	for ( unsigned int i = 0 ; i < n ; i ++ )
+	for ( unsigned int i = 0 ; i < n ; ++ i )	NA
+read u	cin >> u ;
+	cin >> u ;	1
+for j = 0 to m exclusive	for ( unsigned int j = 0 ; j < m ; ++ j )
+	for ( unsigned int j = 0 ; j < m ; ++ j )	1
+create unsigned integer ix = o + j	unsigned int ix = o + j ;
+	unsigned int ix = o + j ;	1
+read ai [ ix ] , bi [ ix ] , ci [ ix ]	while ( cin >> ai [ ix ] >> bi [ i ] >> ci [ iix ] )
+	cin >> ai [ ix ] >> bi [ ix ] >> ci [ ix ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+set o to the result of o + m	o = o + m ;
+	o += m ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+created unsigned integer e = n * m	unsigned int e = n * m ;
+	unsigned int e = n * m ;	1
+create integer ma = 0	int ma = 0 ;
+	int ma = 0 ;	1
+for u = 0 to e exclusive in increments of m	for ( int u = 0 ; u < e ; u += m )
+	for ( unsigned int u = 0 ; u < e ; u += m )	NA
+for v = 0 to e exclusive in increments of m	for ( unsigned int v = 0 ; v < e ; v += m )
+	for ( unsigned int v = 0 ; v < e ; v += m )	1
+if u is equal to v , continue to next loop iteration	if ( u == v ) continue ;
+	if ( u == v ) continue ;	1
+for i = 1 to m inclusive	for ( unsigned int i = 1 ; i <= m ; i ++ )
+	for ( unsigned int i = 1 ; i <= m ; ++ i )	NA
+created unsigned integer ix = u + i - 1	unsigned int ix = u + i - 1 ;
+	unsigned int ix = u + i - 1 ;	1
+for j = 1 to k inclusive	for ( unsigned int j = 1 ; j <= k ; ++ j )
+	for ( unsigned int j = 1 ; j <= k ; ++ j )	1
+create integer mx = p [ j ] [ i - 1 ]	int mx = p [ j ] [ i - 1 ] ;
+	int mx = p [ j ] [ i - 1 ] ;	1
+for x = 1 to ci [ ix ] inclusive and j inclusive	for ( int x = 1 ; x <= ci [ ix ] && x <= j ; ++ x )
+	for ( unsigned int x = 1 ; x <= ci [ ix ] && x <= j ; ++ x )	NA
+create integer mm = p [ j - x ] [ i - 1 ] + ( bi [ v + i - 1 ] - ai [ ix ] ) * x	int mm = p [ j - x ] [ i - 1 ] + ( bi [ v + i - i ] - ai [ ix ] ) * x ;
+	int mm = p [ j - x ] [ i - 1 ] + ( bi [ v + i - 1 ] - ai [ ix ] ) * x ;	NA
+if mm is greater than mx , set mx to mm	if ( mm > mx ) mx = mm ;
+	if ( mm > mx ) mx = mm ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set p [ j ] [ i ] to mx	p [ j ] [ i ] = mx ;
+	p [ j ] [ i ] = mx ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if p [ k ] [ m ] is greater than ma , set ma to p [ k ] [ m ]	if ( p [ k ] [ m ] > ma ) ma = p [ j ] [ n ] ;
+	if ( p [ k ] [ m ] > ma ) ma = p [ k ] [ m ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ma	cout << ma << endl ;
+	cout << ma << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

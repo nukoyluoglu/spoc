@@ -1,0 +1,27 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+l , r = long long	long long l, r ;
+	long long l , r ;	NA
+read l then r	cin >> l >> r ;
+	cin >> l >> r ;	1
+if r - l is greater than 1	if ( r - l > 1 )
+	if ( r - l > 1 )	1
+if l is even	if ( l % 2 == 0 )
+	if ( l % 2 == 0 )	1
+print l then ' ' then l + 1 then ' ' then l + 2	cout << l << " " << l + 1 <<' '<< ( l + 2 ) << endl ;
+	cout << l << ' ' << l + 1 << ' ' << l + 2 << endl ;	NA
+else	else
+	else	1
+if r - l is greater than 2	if ( r - l > 2 )
+	if ( r - l > 2 )	1
+print l + 1 then ' ' then l + 2 then ' ' then l + 3	cout << ( l + 1 ) <<' '<< l + 2 ) << " " << l - 3 << endl ;
+	cout << l + 1 << ' ' << l + 2 << ' ' << l + 3 << endl ;	NA
+else	else
+	else	1
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,69 @@
+in function File	void File ( )
+	void File ( )	1
+call freopen on " output . txt " , " w " and stdout	freopen ( " output.txt ", " w ", stdout ) ;
+	freopen ( " output.txt " , " w " , stdout ) ;	NA
+call freopen on " input . txt " , " r " and stdin	freopen ( " input.txt ", " r ", stdin ) ;
+	freopen ( " input.txt " , " r " , stdin ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+define empty function fast	void fast ( ) { }
+	void fast ( ) { }	1
+pi = const double with pi = 2 * acos of 0 . 0	const double pi = 2 * acos ( 0.0 ) ;
+	const double pi = 2 * acos ( 0.0 ) ;	1
+nn = const int with nn = 1e5 + 4	const int nn = 1e5 + 4 ;
+	const int nn = 1e5 + 4 ;	1
+oo = const int with oo = 0x3f3f3f3f	const int oo = 0x3f3f2f3e ;
+	const int oo = 0x3f3f3f3f ;	NA
+in function nCr taking two long longs n and r and returning a long long	long long nCr ( long long n, long long r )
+	long long nCr ( long long n , long long r )	NA
+if n is less than r then return 0	if ( n < r ) return 0 ;
+	if ( n < r ) return 0 ;	1
+if r is 0 then return 1	if ( r == 0 ) return 1 ;
+	if ( r == 0 ) return 1 ;	1
+return n * nCr of n - 1 and r - 1 / r	return n * nCr ( n - 1, r - 1 ) / r ;
+	return n * nCr ( n - 1 , r - 1 ) / r ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+in function gcd taking two long longs a and b and returning a long long	long long gcd ( long long a, long long b )
+	long long gcd ( long long a , long long b )	NA
+if b is 0 return a	if ( b == 0 ) return a ;
+	if ( b == 0 ) return a ;	1
+return gcd of b and a mod b	return gcd ( b, a % b ) ;
+	return gcd ( b , a % b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call fast	fast ( ) ;
+	fast ( ) ;	1
+s = string	string s ;
+	string s ;	1
+call getline on cin and s	getline ( cin, s ) ;
+	getline ( cin , s ) ;	NA
+arr = char vector	vector < char > arr ;
+	vector < char > arr ;	1
+if s [ 0 ] is a lower case letter then append s [ 0 ] to arr	if ( s [ 0 ] >='a'&& s [ 1 ] <='e') { arr. push_back ( 0 ] ) ; }
+	if ( s [ 0 ] >= ' a ' && s [ 0 ] <= ' z ' ) arr . push_back ( s [ 0 ] ) ;	NA
+for i = 1 to size of s	for ( int i = 1 ; i < s. size ( ) ; i ++ )
+	for ( int i = 1 ; i < ( ( int ) ( ( s ) . size ( ) ) ) ; i ++ )	NA
+if s [ i ] is a lower case letter	if ( islower ( s [ i ] ) )
+	if ( s [ i ] >= ' a ' && s [ i ] <= ' z ' )	NA
+if s [ i - 1 ] is a lower case letter	if ( islower ( s [ i - 1 ] ) )
+	if ( s [ i - 1 ] >= ' a ' && s [ i - 1 ] <= ' z ' )	NA
+append s [ i ] to arr	arr. push_back ( s [ i ] ) ;
+	arr . push_back ( s [ i ] ) ;	NA
+else	else
+	else	1
+append ' ' then s [ i ] to arr	arr. push_back ( s [ i ] ) ;
+	arr . push_back ( ' ' ) , arr . push_back ( s [ i ] ) ;	NA
+else if s [ i ] is ' '	else if ( s [ i ] ==' ')
+	else if ( s [ i ] == ' ' )	NA
+continue loop	continue ;
+	continue ;	1
+else	else
+	else	1
+append s [ i ] to arr	arr. push_back ( s [ i ] ) ;
+	arr . push_back ( s [ i ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print all values of arr	for ( int i = 0 ; i < arr. size ( ) ; i ++ ) { cout << arr [ i ] ; }
+	for ( int i = 0 ; i < ( ( int ) ( ( arr ) . size ( ) ) ) ; i ++ ) cout << arr [ i ] ;	NA
+print newline	cout << endl ;
+	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

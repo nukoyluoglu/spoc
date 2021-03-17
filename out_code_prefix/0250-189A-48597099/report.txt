@@ -1,0 +1,33 @@
+p = array of 3 integers	int p [ 3 ] ;
+	int p [ 3 ] ;	1
+dp = 2d array of size [ 4010 ] [ 4010 ]	int dp [ 4010 ] [ 4000 ] ;
+	bool dp [ 4000 + 10 ] [ 4000 + 10 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = integer	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to 2 , read p [ i ]	for ( int i = 0 ; i < 3 ; i ++ ) { cin >> p [ i ] ; }
+	for ( int i = 0 ; i < 3 ; i ++ ) cin >> p [ i ] ;	NA
+minp , maxp = integers with minp = min ( min ( p [ 0 ] , p [ 1 ] ) , p [ 2 ] ) , maxp = max ( max ( p [ 0 ] , p [ 1 ] ) , p [ 2 ] )	long long minp = min ( min ( p [ 0 ], p [ 1 ] ), min [ 2 ] ) ;
+	int minp = min ( min ( p [ 0 ] , p [ 1 ] ) , p [ 2 ] ) , maxp = max ( max ( p [ 0 ] , p [ 1 ] ) , p [ 2 ] ) ;	NA
+dp [ 0 ] [ 0 ] = true	dp [ 0 ] ['0'] = true ;
+	dp [ 0 ] [ 0 ] = true ;	NA
+for i = minp to n	for ( int i = minp ; i <= n ; i ++ )
+	for ( int i = minp ; i <= n ; i ++ )	1
+for k = 1 to i / minp	for ( int k = 1 ; k <= i / minp ; k ++ )
+	for ( int k = 1 ; k <= i / minp ; k ++ )	1
+for j = 0 to 2	for ( int j = 0 ; j < 3 ; j ++ )
+	for ( int j = 0 ; j < 3 ; j ++ )	1
+if i > = p [ j ] , dp [ i ] [ k ] = dp [ i ] [ k ] binary or dp [ i - p [ j ] ] [ k - 1 ]	if ( i >= p [ j ] ) dp [ i ] [ k ] = ( dp. substr ( 0, k ) ) | ( ddp [ i - p [ 1 ] ] [ ( k - 1 ] ) ) ;
+	if ( i >= p [ j ] ) dp [ i ] [ k ] |= dp [ i - p [ j ] ] [ k - 1 ] ;	NA
+for i = n / minp down to 1	for ( int i = n / minp ; i >= 1 ; i -- )
+	for ( int i = n / minp ; i >= 1 ; i -- )	1
+if dp [ n ] [ i ]	if ( dp [ n ] [ i ] )
+	if ( dp [ n ] [ i ] )	1
+print i	cout << i << endl ;
+	cout << i << endl ;	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

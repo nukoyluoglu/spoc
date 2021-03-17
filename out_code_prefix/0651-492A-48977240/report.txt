@@ -1,0 +1,21 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create int ans , t and q , set ans to 0 and t , q to 1	int ans = 0, t = 1, q = 1 ;
+	int ans = 0 , t = 1 , q = 1 ;	NA
+ans = ans + t	ans += t ;
+	ans = ans + t ;	NA
+while n > = ans	while ( n >= ans )
+	while ( n >= ans )	1
+increment q	q ++ ;
+	q ++ ;	1
+set t to t + q	t = t + q ;
+	t = t + q ;	1
+assign ans + t to ans	ans = ans + t ;
+	ans = ans + t ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print q - 1	cout << q - 1 << endl ;
+	cout << q - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,13 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers a , b , c , d , e , and f	int a, b, c, d, e, f ;
+	int a , b , c , d , e , f ;	NA
+print a b c d e and f	cin >> a >> b >> c >> d >> f ;
+	cin >> a >> b >> c >> d >> e >> f ;	NA
+set integer x equal to a + b + c	int x = a + b + c ;
+	int x = a + b + c ;	1
+let res be an integer equal to ( x * x ) - ( a * a ) - ( c * c ) - ( e * e )	int res = ( int ) ( x * x ) - ( a * a ) / ( c * c ) + ( e * e ) ;
+	int res = ( x * x ) - ( a * a ) - ( c * c ) - ( e * e ) ;	NA
+print res and a new line	cout << res << endl ;
+	cout << res << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

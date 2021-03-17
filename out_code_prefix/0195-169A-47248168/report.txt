@@ -1,0 +1,14 @@
+create string T	string T ;
+	string T ;	1
+create long long N , K , M , A , B , C [ 2005 ] , D , sum	long long N, K, M, A, B, C [ 2005 ], D, sum ;
+	long long N , K , M , A , B , C [ 2005 ] , D , sum ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read N , A and B	cin >> N >> A >> B ;
+	cin >> N >> A >> B ;	1
+for i = 1 to N inclusive , read C [ i ]	for ( int i = 1 ; i <= N ; i ++ ) cin >> C [ i ] ;
+	for ( int i = 1 ; i <= N ; i ++ ) { cin >> C [ i ] ; }	NA
+sort elements between C + 1 and C + N + 1	sort ( C + 1, C + N + 1 ) ;
+	sort ( C + 1 , C + N + 1 ) ;	NA
+print C [ B + 1 ] - C [ B ] and a newline	cout << C [ B + 1 ] - C [ N ] << " \n " ;
+	cout << C [ B + 1 ] - C [ B ] << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , cnt , i with cnt = 1 , i = 0	int n, cnt = 1, i = 0 ;
+	int n , cnt = 1 , i = 0 ;	NA
+create string s	string s ;
+	string s ;	1
+read n read s	cin >> n >> s ;
+	cin >> n >> s ;	1
+while true	while ( true )
+	while ( true )	1
+print s [ i ]	cout << s [ i ] ;
+	cout << s [ i ] ;	1
+increment i by cnt	i += cnt ;
+	i += cnt ;	1
+increment cnt	cnt ++ ;
+	cnt ++ ;	1
+if i + cnt is greater than n , break loop	if ( i + cnt > n ) break ;
+	if ( i + cnt > n ) { break ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print newline	cout << endl ;
+	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

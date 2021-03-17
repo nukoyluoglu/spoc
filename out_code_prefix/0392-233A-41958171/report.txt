@@ -1,0 +1,32 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = long long	long long n ;
+	long long n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+if n is uneven	if ( n % 2 == 1 )
+	if ( n % 2 == 1 )	1
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+else	else
+	else	1
+i = 1 to n inclusive	for ( long long i = 1 ; i <= n ; i ++ )
+	for ( long long i = 1 ; i <= n ; i ++ )	1
+if i is uneven	if ( i % 2 == 1 )
+	if ( i % 2 == 1 )	1
+print i + 1	cout << i + 1 << endl ;
+	cout << i + 1 ;	NA
+else	else
+	else	1
+print i - 1	cout << i - 1 ;
+	cout << i - 1 ;	1
+if i equals n	if ( i == n )
+	if ( i == n )	1
+print newline	cout << endl ;
+	cout << endl ;	1
+else	else
+	else	1
+print " "	cout << " " ;
+	cout << " " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

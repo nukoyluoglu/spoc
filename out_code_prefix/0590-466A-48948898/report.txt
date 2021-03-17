@@ -1,0 +1,31 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer TESTS with TESTS = 1	int TESTS = 1 ;
+	int TESTS = 1 ;	1
+while decrementing TESTS is true	while ( TESTS -- )
+	while ( TESTS -- )	1
+create long longs n , m , a , b	long long n, m, a, b ;
+	long long n , m , a , b ;	NA
+read n read m read a read b	cin >> n >> m >> a >> b ;
+	cin >> n >> m >> a >> b ;	1
+create long long integer vector v	vector < long long int > v ;
+	vector < long long int > v ;	1
+if b is greater than or equal to m * a	if ( b >= m * a )
+	if ( b >= m * a )	1
+read n * a read ' \ n '	cin >> n * a >>'\n';
+	cout << n * a << ' \n ' ;	NA
+else	else
+	else	1
+create long long c with c = n / m	long long c = n / m ;
+	long long c = n / m ;	1
+create long long ans with ans = c * b	long long ans = c * b ;
+	long long ans = c * b ;	1
+decrement n by c * m	n -= c * m ;
+	n -= c * m ;	1
+increment ans by minimum of b and a * n	ans += min ( b, a * n ) ;
+	ans += min ( b , a * n ) ;	NA
+print ans print ' \ n '	cout << ans <<'\n';
+	cout << ans << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

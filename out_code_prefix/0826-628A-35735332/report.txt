@@ -1,0 +1,63 @@
+N , B , P = int	int N, B, P ;
+	int N , B , P ;	NA
+qplays = int	int qplays ;
+	int qplays ;	1
+qplayers = int	int qplayers ;
+	int qplayers ;	1
+qoutplayers = int	int qoutplayers ;
+	int qoutplayers ;	1
+tplays = int	int tplays ;
+	int tplays ;	1
+tplayers = int	int tplayers ;
+	int tplayers ;	1
+in function calc taking int n	void calc ( int n )
+	void calc ( int n )	1
+k = int with k = 1	int k = 1 ;
+	int k = 1 ;	1
+loop while k < n set k to k bithsift left by 1	for ( ; k < n ; k = k - 1 )
+	while ( k < n ) k <<= 1 ;	NA
+if k > n set k to k bitshift right by 1	if ( k > n ) k <<= 1 ;
+	if ( k > n ) k >>= 1 ;	NA
+set qplays to k - 1	qplays = k - 1 ;
+	qplays = k - 1 ;	1
+set qoutplayers to n - k	qoutplayers = n - k ;
+	qoutplayers = n - k ;	1
+set qplayers to 0	qplayers = 0 ;
+	qplayers = 0 ;	1
+loop while k > = 1	while ( k >= 1 )
+	while ( k >= 1 )	1
+increment qplayers by k	qplayers += k ;
+	qplayers += k ;	1
+set k to k bitshift right by 1	k = k >> 1 ;
+	k >>= 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+decrement qplayers	qplayers -- ;
+	-- qplayers ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read N then B then P	cin >> N >> B >> P ;
+	cin >> N >> B >> P ;	1
+set tplays to 0	tplays = 0 ;
+	tplays = 0 ;	1
+set tplayers to 0	tplayers = 0 ;
+	tplayers = 0 ;	1
+set qoutplayers to 0	qoutplayers = 0 ;
+	qoutplayers = 0 ;	1
+n = int with n = N	int n = N ;
+	int n = N ;	1
+do	do
+	do	1
+call calc of n	calc ( n ) ;
+	calc ( n ) ;	1
+increment tplayers by qplayers	tplayers += qplayers ;
+	tplayers += qplayers ;	1
+increment tplays by qplays	tsplays += qplays ;
+	tplays += qplays ;	NA
+set n to 1 + qoutplayers	n = 1 + qoutplayers ;
+	n = 1 + qoutplayers ;	1
+while qoutplayers > 0	while ( qoutplayers )
+	while ( qoutplayers > 0 ) ;	NA
+print ( ( tplayers * B ) + tplays ) and N * P	cout << ( ( tplayers * B ) + tplays ) << " " << N * P << endl ;
+	cout << ( ( tplayers * B ) + tplays ) << " " << ( N * P ) << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

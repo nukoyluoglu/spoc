@@ -1,0 +1,41 @@
+create vector integer v	vector < int > v ;
+	vector < int > v ;	1
+create integer arrays num , value , with num size 51 , value size 51	int num [ 51 ] = { 0 }, value [ 51 } ;
+	int num [ 51 ] , value [ 51 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , index with index = 1	int n, index = 1 ;
+	int n , index = 1 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive , read num [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> num [ i ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> num [ i ] ; }	1
+add element num [ n - 1 ] to end of v	v. push_back ( num [ n - 1 ] ) ;
+	v . push_back ( num [ n - 1 ] ) ;	NA
+for i = n - 2 to 0 inclusive , decrementing i	for ( int i = n - 2 ; i >= 0 ; i -- )
+	for ( int i = n - 2 ; i >= 0 ; i -- )	1
+create integers j , flag with j = 0 , flag = 0	int j = 0, flag = 0 ;
+	int j = 0 , flag = 0 ;	NA
+while j is less than size of v	while ( j < v. size ( ) )
+	while ( j < v . size ( ) )	NA
+if num [ i ] is v [ j ]	if ( num [ i ] == v [ j ] )
+	if ( num [ i ] == v [ j ] )	1
+set flag to 1	flag = 1 ;
+	flag = 1 ;	1
+break loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+increment j	j ++ ;
+	j ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if not flag , add element num [ i ] to end of v	if (! flag ) v. push_back ( num [ i ] ) ;
+	if ( ! flag ) v . push_back ( num [ i ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print size of v print newline	cout << v. size ( ) << endl ;
+	cout << v . size ( ) << endl ;	NA
+print v [ size of v - 1 ]	cout << v [ v. size ( ) - 1 ] << endl ;
+	cout << v [ v . size ( ) - 1 ] ;	NA
+for i = size of v - 2 to 0 inclusive , decrementing i , print " " print v [ i ]	for ( int i = v. size ( ) - 2 ; i >= 0 ; i -- ) cout << " " << v [ i ] << endl ;
+	for ( int i = v . size ( ) - 2 ; i >= 0 ; i -- ) cout << " " << v [ i ] ;	NA
+print newline	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

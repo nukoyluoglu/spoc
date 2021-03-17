@@ -1,0 +1,20 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+p = integer	int p ;
+	int p ;	1
+read p	cin >> p ;
+	cin >> p ;	1
+if p modulo 2 is 1	if ( p % 2 == 1 )
+	if ( p % 2 == 1 )	1
+print - 1	cout << - 1 << endl ;
+	cout << " -1\n " ;	NA
+else	else
+	else	1
+print 2 1	cout << 2 << " 1\n " ;
+	cout << " 2 1 " ;	NA
+for i = 4 to p inclusive with i = i + 2 then print i , i - 1	for ( int i = 4 ; i <= p ; i += 2 ) cout << i << " -1\n " ;
+	for ( int i = 4 ; i <= p ; i += 2 ) cout << " " << i << " " << i - 1 ;	NA
+print new line	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

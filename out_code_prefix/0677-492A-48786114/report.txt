@@ -1,0 +1,23 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int sum = 1	int sum = 1 ;
+	int sum = 1 ;	1
+make int levels = 1	int levels = 1 ;
+	int levels = 1 ;	1
+make integer counter = 0	int counter = 0 ;
+	int counter = 0 ;	1
+let int n	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 2 to n	for ( int i = 2 ; i <= n ; i ++ )
+	for ( int i = 2 ; sum <= n ; i ++ )	NA
+increment counter	counter ++ ;
+	counter ++ ;	1
+set levels to levels + i	levels += i ;
+	levels = levels + i ;	NA
+set sum to sum + levels	sum = sum + levels ;
+	sum = sum + levels ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print counter	cout << counter << endl ;
+	cout << counter << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,21 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a = int array of length 1001 , n = int , s = int = 0	int a [ 1001 ], n, s = 0 ;
+	int a [ 1001 ] , n , sum = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+read n values into array a	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ i ] ; }
+	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;	NA
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if a at i is 1 increment sum	if ( a [ i ] == 1 ) sum ++ ;
+	if ( a [ i ] == 1 ) sum ++ ;	1
+print sum	cout << sum << endl ;
+	cout << sum << endl ;	1
+for i = 1 to n exclusive	for ( int i = 1 ; i < n ; i ++ )
+	for ( int i = 1 ; i < n ; i ++ )	1
+if a at i + 1 is 1 print a at i	if ( a [ i + 1 ] == 1 ) cout << a [ j ] << endl ;
+	if ( a [ i + 1 ] == 1 ) cout << a [ i ] << " " ;	NA
+print a at n	cout << a [ n ] << endl ;
+	cout << a [ n ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

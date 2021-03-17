@@ -1,0 +1,18 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare long longs n , m , a and b	long long n, m, a, b ;
+	long long n , m , a , b ;	NA
+read n , m , a and b	cin >> n >> m >> a >> b ;
+	cin >> n >> m >> a >> b ;	1
+if m * a is less than b	if ( m * a < b )
+	if ( m * a < b )	1
+print n * a and a new line	cout << n * a << endl ;
+	cout << n * a << endl ;	1
+else	else
+	else	1
+create variable price of type long long = ( n / m ) * b + min of ( n % m ) * a and b	long long price = ( n / m ) * b + min ( n % m, a, b ) ;
+	long long price = ( n / m ) * b + min ( ( n % m ) * a , b ) ;	NA
+print price and a new line	cout << price << endl ;
+	cout << price << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

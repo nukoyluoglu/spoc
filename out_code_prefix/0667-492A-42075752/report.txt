@@ -1,0 +1,12 @@
+declare int variables n and i	int n, i ;
+	int n , i ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read user input to n	cin >> n ;
+	cin >> n ;	1
+for i from 1 to 40 inclusive incrementing i	for ( i = 1 ; i <= 40 ; i ++ )
+	for ( i = 1 ; i <= 40 ; i ++ )	1
+if i * ( i + 1 ) * ( i + 2 ) / 6 is greater than n , stop the loop	if ( i * ( i + 1 ) * ( j + 2 ) / 6 > n ) break ;
+	if ( i * ( i + 1 ) * ( i + 2 ) / 6 > n ) break ;	NA
+print i - 1 to the standard output	cout << i - 1 << endl ;
+	cout << i - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

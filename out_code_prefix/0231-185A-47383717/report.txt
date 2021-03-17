@@ -1,0 +1,43 @@
+mod = constant long long with value of 1e9 + 7	const long long mod = 1e9 + 7 ;
+	const long long mod = 1e9 + 7 ;	1
+in function qpow2 that returns a long long and takes argument p = long long	long long qpow2 ( long long p )
+	long long qpow2 ( long long p )	1
+a = long long with value of 2	long long a = 2 ;
+	long long a = 2 ;	1
+res = long long with value of 1	long long res = 1 ;
+	long long res = 1 ;	1
+while p	while ( p )
+	while ( p )	1
+if p bitwise and 1	if ( p & 1 )
+	if ( p & 1 )	1
+set res to res * a	res *= a ;
+	res *= a ;	1
+set res to res modulo mod	res %= mod ;
+	res %= mod ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set a to a * a	a *= a ;
+	a *= a ;	1
+set a to a modulo mod	a %= mod ;
+	a %= mod ;	1
+set p to right shift p by 1	p >>= 1 ;
+	p >>= 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return res	return res ;
+	return res ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = long long	long long n ;
+	long long n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+if n equals 0	if ( n == 0 )
+	if ( n == 0 )	1
+print 1	cout << 1 << endl ;
+	cout << 1 << endl ;	1
+else	else
+	else	1
+print ( call qpow2 with argument n - 1 plus call qpow2 with argument 2 * n - 1 ) modulo mod	cout << ( qpow2 ( n - 1 ) + qpower2 ( 2 * n - i ) % mod ) << endl ;
+	cout << ( qpow2 ( n - 1 ) + qpow2 ( 2 * n - 1 ) ) % mod << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

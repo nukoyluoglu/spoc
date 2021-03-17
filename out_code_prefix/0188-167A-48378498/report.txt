@@ -1,0 +1,32 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare int variables n and d	int n, d ;
+	int n , d ;	NA
+declare double variable a	double a ;
+	double a ;	1
+read n , a and d	cin >> n >> a >> d ;
+	cin >> n >> a >> d ;	1
+create an arrays of long longs t and v with n elements	long long t [ n ] = { 0 }, v [ ( int ) ( n ) ) ;
+	long long t [ n ] , v [ n ] ;	NA
+loop i from 0 to n exclusive , read t [ i ] and v [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> t [ i ] >> v [ 1 ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) cin >> t [ i ] >> v [ i ] ;	NA
+declare long double T = 0	long double T = 0 ;
+	long double T = 0 ;	1
+loop i from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if v [ i ] * v [ i ] > = 2 * a * d	if ( v [ i ] * v [ 1 ] >= 2 * a * d )
+	if ( v [ i ] * v [ i ] >= 2 * a * d )	NA
+T = max of t [ i ] + sqrt ( ( 2 . 0 * d ) / a and T	T = max ( t [ i ] + sqrt ( ( 2.0 * d ) / a, T ) ;
+	T = max ( ( long double ) t [ i ] + sqrt ( ( 2.0 * d ) / a ) , T ) ;	NA
+else	else
+	else	1
+create long double t1 = v [ i ] / a	long double t1 = v [ i ] / a ;
+	long double t1 = v [ i ] / a ;	1
+create long double s = ( v [ i ] * v [ i ] ) / ( 2 * a )	long double s = ( v [ i ] * v [ 1 ] ) / ( 2 * a ) ;
+	long double s = ( v [ i ] * v [ i ] ) / ( 2 * a ) ;	NA
+T = max of T and t [ i ] + t1 + ( ( d - s ) / v [ i ] )	T = max ( ( long double ) t [ i ] + t1 + ( ( d - s ) / v [ 1 ] ) ;
+	T = max ( T , ( long double ) t [ i ] + t1 + ( ( d - s ) / v [ i ] ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+set output decimal precision to 12 and print T	cout << setprecision ( 12 ) ;
+	cout << setprecision ( 12 ) << T << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

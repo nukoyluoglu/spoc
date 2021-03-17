@@ -1,0 +1,37 @@
+create const ints N = 1e5 + 5 and OO = 0x3f3f3f3f	const int N = 1e5 + 5, OO = 0x3f3f 3f3c3f ;
+	const int N = 1e5 + 5 , OO = 0x3f3f3f3f ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare string variable str	string str ;
+	string str ;	1
+read input into str	getline ( cin, str ) ;
+	getline ( cin , str ) ;	NA
+loop i from 0 to length of str exclusive	for ( int i = 0 ; i < str. size ( ) ; i ++ )
+	for ( int i = 0 ; i < str . size ( ) ; i ++ )	NA
+if str [ i ] is equal to ' ' and str [ i + 1 ] is equal to ' '	if ( str [ i ] ==' '&& str [ ( i + 1 ) == '.')
+	if ( str [ i ] == ' ' && str [ i + 1 ] == ' ' )	NA
+remove element at position i from str	str. erase ( str. at ( i ) ) ;
+	str . erase ( str . begin ( ) + i ) ;	NA
+decrement i by one	i -- ;
+	i -- ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if str [ i ] = ' , ' or str [ i ] = ' ! ' or str [ i ] = ' ? ' or str [ i ] = ' . '	if ( str [ i ] == ','|| str [ j ] == "!'|| s [ i - 1 ]!= '?') str [ 1 ] = '.';
+	if ( str [ i ] == ' , ' || str [ i ] == ' ! ' || str [ i ] == ' ? ' || str [ i ] == ' . ' )	NA
+if str [ i + 1 ] ! = ' ' and i < length of str - 1	if ( str [ i + 1 ]!=' '&& i < str. size ( ) - 1 )
+	if ( str [ i + 1 ] != ' ' && i < str . size ( ) - 1 )	NA
+declare string a = " "	string a = " " ;
+	string a = " " ;	1
+insert a to position i + 1 of str	str. insert ( i + 1 ) ;
+	str . insert ( i + 1 , a ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if str [ i - 1 ] is equal to ' '	if ( str [ i - 1 ] ==' ')
+	if ( str [ i - 1 ] == ' ' )	NA
+remove element at position i - 1 from str	str. erase ( str. begin ( ) + i - 1 ) ;
+	str . erase ( str . begin ( ) + ( i - 1 ) ) ;	NA
+decrement i by one	i -- ;
+	i -- ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print str	cout << str << endl ;
+	cout << str << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

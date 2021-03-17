@@ -1,0 +1,29 @@
+create integers n , m , x , y , ans , ans1 , create integer arrays dist , prefs with dist size 100015 , prefs size 100015	int n, m, x, y, dist [ 100015 ], prefs [ 100000 ], ans1 ;
+	int n , m , dist [ 100015 ] , x , y , prefs [ 100015 ] , ans , ans1 ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive , read dist [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> dist [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> dist [ i ] ; }	NA
+set prefs [ 0 ] to dist [ 0 ]	pref [ 0 ] = dist [ 0.0 ] ;
+	prefs [ 0 ] = dist [ 0 ] ;	NA
+for i = 1 to n exclusive , set prefs [ i ] to dist [ i ] + prefs [ i - 1 ]	for ( int i = 1 ; i < n ; i ++ ) { prefs [ i ] = dist [ ( i ] + prefs ( i - 1 ] ) ; }
+	for ( int i = 1 ; i < n ; i ++ ) { prefs [ i ] = dist [ i ] + prefs [ i - 1 ] ; }	NA
+read x read y	cin >> x >> y ;
+	cin >> x >> y ;	1
+decrement x	x -- ;
+	x -- ;	1
+decrement y	y -- ;
+	y -- ;	1
+if x is greater than y , swap values between x and y	if ( x > y ) swap ( x, y ) ;
+	if ( x > y ) { swap ( x , y ) ; }	NA
+set ans to prefs [ y - 1 ]	ans = prefs [ y - 1 ] ;
+	ans = prefs [ y - 1 ] ;	1
+decrement ans by prefs [ x - 1 ]	ans -= prefs [ x - 1 ] ;
+	ans -= prefs [ x - 1 ] ;	1
+set ans1 to prefs [ n - 1 ] - ans	ans1 = prefs [ n - 1 ] - ans ;
+	ans1 = prefs [ n - 1 ] - ans ;	1
+print minimum of ans and ans1 print newline	cout << min ( ans, ans1 ) << endl ;
+	cout << min ( ans , ans1 ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

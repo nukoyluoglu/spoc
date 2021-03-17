@@ -1,0 +1,9 @@
+a , b , r = integers	int a, b, r ;
+	double l , p , q ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+Read l , p , q	cin >> l >> p >> q ;
+	cin >> l >> p >> q ;	1
+print l / ( q + p ) * p and a new line	cout << l / ( q + p ) * p << endl ;
+	cout << l / ( q + p ) * p << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

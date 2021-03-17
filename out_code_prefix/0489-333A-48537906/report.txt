@@ -1,0 +1,21 @@
+set first 4 elements of dx to 0 , 0 , - 1 , 1	int dx [ 4 ] = { 0, 0, - 1, 1 } ;
+	int dx [ 4 ] = { 0 , 0 , - 1 , 1 } ;	NA
+assign 1 , - 1 , 0 , 0 to first 4 elements of dy	int dy [ 4 ] = { 1, - 1, 0, 0 } ;
+	int dy [ 4 ] = { 1 , - 1 , 0 , 0 } ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long int n	long long int n ;
+	long long int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+set x and ans to 1	long long int x = 1, ans = 1 ;
+	long long int x = 1 , ans = 1 ;	NA
+while x less than n	while ( x < n )
+	while ( x < n )	1
+if n mod x different from 0 , set ans = max of ans and n / x + 1	if ( n % x ) { ans = max ( ans, n / x + 1 ) ; }
+	if ( n % x != 0 ) ans = max ( ans , n / x + 1 ) ;	NA
+set x = x * 3	x *= 3 ;
+	x = x * 3 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans and a newline	cout << ans << " \n " ;
+	cout << ans << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

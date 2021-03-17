@@ -1,0 +1,46 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+v = vector of characters	vector < char > v ;
+	vector < char > v ;	1
+s = vector of characters	vector < char > s ;
+	vector < char > s ;	1
+count and size are integers , with count = 1	int count = 1, size ;
+	int count = 1 , size ;	NA
+declare character variable called c	char c ;
+	char c ;	1
+read size	cin >> size ;
+	cin >> size ;	1
+for integer i = 0 to size exclusive	for ( int i = 0 ; i < size ; i ++ )
+	for ( int i = 0 ; i < size ; i ++ )	1
+read c	cin >> c ;
+	cin >> c ;	1
+push c into v	v. push_back ( c ) ;
+	v . push_back ( c ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+let in and i be integers , with i = 0	int in, i = 0 ;
+	int in , i = 0 ;	NA
+while i is less than size	while ( i < size )
+	while ( i < size )	1
+if i = 0	if ( i == 0 )
+	if ( i == 0 )	1
+push v [ i ] into s	s. push_back ( v [ i ] ) ;
+	s . push_back ( v [ i ] ) ;	NA
+increase i by one	i ++ ;
+	i ++ ;	1
+else	else
+	else	1
+set value of in to count	in = count ;
+	in = count ;	1
+for integer j = 0 to in exclusive	for ( int j = 0 ; j < in ; j ++ )
+	for ( int j = 0 ; j < in ; j ++ ) { i ++ ; }	NA
+if i is less than size push v [ i ] into s	if ( i < size ) { s. push_back ( v [ i ] ) ; }
+	if ( i < size ) s . push_back ( v [ i ] ) ;	NA
+increase count	count ++ ;
+	count ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for integer i = 0 to length of s exclusive , print s [ i ]	for ( int i = 0 ; i < s. size ( ) ; i ++ ) { cout << s [ i ] ; }
+	for ( int i = 0 ; i < s . size ( ) ; i ++ ) { cout << s [ i ] ; }	NA
+print new line	cout << endl ;
+	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

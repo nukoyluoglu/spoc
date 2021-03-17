@@ -1,0 +1,111 @@
+integer constant INF = 1 < < 29	const int INF = 1 << 29 ;
+	const int INF = 1 << 29 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variables n and m	int n, m ;
+	int n , m ;	NA
+read n and m	cin >> n >> m ;
+	cin >> n >> m ;	1
+a is an array of strings with size n	string a [ n ] ;
+	string a [ n ] ;	1
+read n elements into a	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ i ] ; }
+	for ( int i = 0 ; i < ( n ) ; i ++ ) cin >> a [ i ] ;	NA
+ans is an array of integers with size m	int ans [ m ] ;
+	int ans [ m ] ;	1
+set m elements of ans to 0	for ( int i = 0 ; i < ( m ) ; i ++ ) ans [ i ] = { 0 } ;
+	for ( int i = 0 ; i < ( m ) ; i ++ ) ans [ i ] = 0 ;	NA
+chk is integer	int chk ;
+	int chk ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < ( n ) ; i ++ )
+	for ( int i = 0 ; i < ( n ) ; i ++ )	1
+set value of chk to 0	chk = 0 ;
+	chk = 0 ;	1
+for integer j = 0 to m exclusive , increment chk by 1 if a [ i ] [ j ] = ' 1 '	for ( int j = 0 ; j < ( m ) ; j ++ ) chk += a [ i ] [ j ] =='1 '? 1 : 1 ;
+	for ( int j = 0 ; j < ( m ) ; j ++ ) { chk += ( a [ i ] [ j ] == ' 1 ' ) ; }	NA
+if chk = 0	if ( chk == 0 )
+	if ( chk == 0 )	1
+print " - 1 \ n "	cout << " -1\n " ;
+	cout << " -1\n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive	for ( int i = 0 ; i < ( n ) ; i ++ )
+	for ( int i = 0 ; i < ( n ) ; i ++ )	1
+declare integer called last	int last ;
+	int last ;	1
+declare boolean variable called found = 0	bool found = 0 ;
+	bool found = 0 ;	1
+for j = m - 1 to 0 inclusive counting down	for ( int j = m - 1 ; j >= 0 ; j -- )
+	for ( int j = m - 1 ; j >= 0 ; -- j )	NA
+if a [ i ] [ j ] = ' 1 '	if ( a [ i ] [ j ] =='1')
+	if ( a [ i ] [ j ] == ' 1 ' )	NA
+set value of last to j	last = j ;
+	last = j ;	1
+stop the loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+, curr is an array of integers with size m	int curr [ m ] ;
+	int curr [ m ] ;	1
+for j = 0 to m exclusive , curr [ j ] = INT_MAX	for ( int j = 0 ; j < m ; ++ j ) { curr [ j ] = INT_MAX ; }
+	for ( int j = 0 ; j < ( m ) ; j ++ ) curr [ j ] = INT_MAX ;	NA
+for j = 0 to m exclusive	for ( int j = 0 ; j < ( m ) ; j ++ )
+	for ( int j = 0 ; j < ( m ) ; j ++ )	1
+if a [ i ] [ j ] = ' 1 '	if ( a [ i ] [ j ] =='1')
+	if ( a [ i ] [ j ] == ' 1 ' )	NA
+set value of last to j	last = j ;
+	last = j ;	1
+found = 1	found = 1 ;
+	found = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if found is 0	if ( found == 0 )
+	if ( ! found )	NA
+curr [ j ] = min ( curr [ j ] , ( m - last ) + j )	curr [ j ] = min ( curr [ i ], ( m - last ) + j ) ;
+	curr [ j ] = min ( curr [ j ] , ( m - last ) + j ) ;	NA
+else	else
+	else	1
+curr [ j ] = min of curr [ j ] and abs ( j - last )	curr [ j ] = min ( curr [ k ], abs ( j - last ) ) ;
+	curr [ j ] = min ( curr [ j ] , abs ( j - last ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+found = 0	found = 0 ;
+	found = 0 ;	1
+for j = 0 to m exclusive	for ( int j = 0 ; j < m ; j ++ )
+	for ( int j = 0 ; j < m ; ++ j )	NA
+if a [ i ] [ j ] = ' 1 '	if ( a [ i ] [ j ] =='1')
+	if ( a [ i ] [ j ] == ' 1 ' )	NA
+last = j	last = j ;
+	last = j ;	1
+break the loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for integer j = m - 1 to 0 inclusive counting down	for ( int j = m - 1 ; j >= 0 ; -- j )
+	for ( int j = m - 1 ; j >= 0 ; -- j )	1
+if a [ i ] [ j ] = ' 1 '	if ( a [ i ] [ j ] =='1')
+	if ( a [ i ] [ j ] == ' 1 ' )	NA
+set value of last to j	last = j ;
+	last = j ;	1
+assign value of 1 to found	found = 1 ;
+	found = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if found is 0	if (! found )
+	if ( ! found )	NA
+curr [ j ] = min ( curr [ j ] , ( last + 1 ) + ( m - 1 - j ) )	curr [ j ] = min ( curr [ i ], ( last + 1 ) + ( m - 1 - j ) ) ;
+	curr [ j ] = min ( curr [ j ] , ( last + 1 ) + ( m - 1 - j ) ) ;	NA
+else	else
+	else	1
+curr [ j ] = min ( curr [ j ] , abs ( j - last ) )	curr [ j ] = min ( curr [ i ], abs ( j - last ) ) ;
+	curr [ j ] = min ( curr [ j ] , abs ( j - last ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for integer j = 0 to m exclusive increment ans [ j ] by curr [ j ]	for ( int j = 0 ; j < m ; j ++ ) { ans [ j ] += curr [ j - 1 ] ; }
+	for ( int j = 0 ; j < ( m ) ; j ++ ) ans [ j ] += curr [ j ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+res is integer = INT_MAX	int res = INT_MAX ;
+	int res = INT_MAX ;	1
+for i = 0 to m exclusive , set res to min ( res , ans [ i ] )	for ( int i = 0 ; i < ( m ) ; i ++ ) res = min ( res, ans [ i ] ) ;
+	for ( int i = 0 ; i < ( m ) ; i ++ ) res = min ( res , ans [ i ] ) ;	NA
+print res and a new line	cout << res << endl ;
+	cout << res << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,35 @@
+MOD = integer	int MOD ;
+	int MOD ;	1
+in function mod_pow with arguments of long long a and long long b and returns a long long	long long mod_pow ( long long a, long long b )
+	long long mod_pow ( long long a , long long b )	NA
+if b is 0 , then return 1	if ( b == 0 ) return 1 ;
+	if ( b == 0 ) return 1 ;	1
+if b is 1 , then return a modulo MOD	if ( b == 1 ) return a % MOD ;
+	if ( b == 1 ) return a % MOD ;	1
+if the last bit in binary of b is 1 , then return a modulo MOD * the result of calling mod_pow with arguments a , b - 1 and then modulo the result of that function by MOD	if ( b & 1 ) return a % MOD * mod_pow ( a, b - 1 ), modulo MOD ;
+	if ( b & 1 ) return ( ( a % MOD ) * mod_pow ( a , b - 1 ) ) % MOD ;	NA
+x = long long = the result of calling mod_pow with arguments a , and the b with its elements shifted to the right by one bit	long long x = mod_pow ( a, b ) >> 1 ;
+	long long x = mod_pow ( a , b >> 1 ) ;	NA
+return ( x * x ) modulo MOD	return ( x * x ) % MOD ;
+	return ( x * x ) % MOD ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , m = integer	int n, m ;
+	int n , m ;	NA
+read n , m	cin >> n >> m ;
+	cin >> n >> m ;	1
+MOD = m	long long MOD = m ;
+	MOD = m ;	NA
+r = integer = the result of calling mod_pow with arguments 3 , n	int r = mod_pow ( 3, n ) ;
+	int r = mod_pow ( 3 , n ) ;	NA
+if r is 0	if ( r == 0 )
+	if ( r == 0 )	1
+print the result of m - 1	cout << m - 1 << endl ;
+	cout << m - 1 << endl ;	1
+else	else
+	else	1
+print the result of r - 1	cout << r - 1 << endl ;
+	cout << r - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

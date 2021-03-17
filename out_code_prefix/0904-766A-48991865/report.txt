@@ -1,0 +1,15 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let a , b strings	string a, b ;
+	string a , b ;	NA
+read in a and b	cin >> a >> b ;
+	cin >> a >> b ;	1
+if a same as b	if ( a == b )
+	if ( a == b )	1
+print - 1 to stdout	puts ( " -1 " ) ;
+	puts ( " -1 " ) ;	1
+otherwise	else
+	else	1
+print max ( length of a , length of b )	cout << max ( a. length ( ), b. size ( ) ) << endl ;
+	cout << max ( a . length ( ) , b . length ( ) ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

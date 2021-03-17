@@ -1,0 +1,47 @@
+function read ( no args , return long long )	inline long long read ( )
+	inline long long read ( )	1
+c = getchar ( )	char c = getchar ( ) ;
+	char c = getchar ( ) ;	1
+while c is not ' - ' and ( c < ' 0 ' or c > ' 9 ' ) c = getchar ( )	while ( c!='-'&& ( c <'0'|| c >'9') ) c = getchar ( ) ;
+	while ( c != ' - ' && ( c < ' 0 ' || c > ' 9 ' ) ) c = getchar ( ) ;	NA
+k = 0 , kk = 1	long long k = 0, kk = 1 ;
+	long long k = 0 , kk = 1 ;	NA
+if c is ' - ' c = getchar ( ) , kk = - 1	if ( c =='-') { kk = - 1 ; }
+	if ( c == ' - ' ) c = getchar ( ) , kk = - 1 ;	NA
+while c > = ' 0 ' and c < = ' 9 ' k = k * 10 + c - ' 0 ' , c = getchar ( )	while ( c >='0'&& c <='9') k = k * 10 + c -'1 ', c = getchar ( ) ;
+	while ( c >= ' 0 ' && c <= ' 9 ' ) k = k * 10 + c - ' 0 ' , c = getchar ( ) ;	NA
+return kk * k	return kk * k ;
+	return kk * k ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+function write ( get long long x , return nothing )	void write ( long long x )
+	void write ( long long x )	1
+if x < 0 x = - x , putchar ( ' - ' )	if ( x < 0 ) x = - x, putchar ('-') ;
+	if ( x < 0 ) x = - x , putchar ( ' - ' ) ;	NA
+if x / 10 write ( w / 10 )	if ( x / 10 write ( w / 10 ) )
+	if ( x / 10 ) write ( x / 10 ) ;	NA
+putchar ( x modulo 10 + ' 0 ' )	putchar ( x % 10 +'0') ;
+	putchar ( x % 10 + ' 0 ' ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+function writlne ( get long long x , return nothing )	void writlne ( long long x )
+	void writeln ( long long x )	NA
+write ( x )	write ( x ) ;
+	write ( x ) ;	1
+puts ( " " )	puts ( " " ) ;
+	puts ( " " ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+n , b , p = long long	long long n, b, p ;
+	long long n , b , p ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = read ( )	n = read ( ) ;
+	n = read ( ) ;	1
+b = read ( )	b = read ( ) ;
+	b = read ( ) ;	1
+p = read ( )	p = read ( ) ;
+	p = read ( ) ;	1
+write ( ( b + b + 1 ) * ( n - 1 ) )	write ( ( b + b + 1 ) * ( n - 1 ) ) ;
+	write ( ( b + b + 1 ) * ( n - 1 ) ) ;	1
+putchar ( ' ' )	putchar (' ') ;
+	putchar ( ' ' ) ;	NA
+writeln ( p * n )	writeln ( p * n ) ;
+	writeln ( p * n ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

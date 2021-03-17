@@ -1,0 +1,10 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare doubles d , a and b	double d, a, b ;
+	double d , a , b ;	NA
+read d , a and b	cin >> d >> a >> b ;
+	cin >> d >> a >> b ;	1
+create double t = d / ( a + b )	double t = d / ( a + b ) ;
+	double t = d / ( a + b ) ;	1
+print t * a	cout << t * a << endl ;
+	cout << t * a << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

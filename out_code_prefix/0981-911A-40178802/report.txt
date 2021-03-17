@@ -1,0 +1,45 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , i = int	int n, i ;
+	int n , i ;	NA
+a = int array of size 100005	int a [ 100005 ] ;
+	int a [ 100005 ] ;	1
+loop while reading n	while ( cin >> n )
+	while ( cin >> n )	1
+Min = int with Min = 0x7fffffff	int Min = 0x7fffffff ;
+	int Min = 0x7fffffff ;	1
+for i = 1 to n inclusive	for ( i = 1 ; i <= n ; i ++ )
+	for ( i = 1 ; i <= n ; i ++ )	1
+read a [ i ]	cin >> a [ i ] ;
+	cin >> a [ i ] ;	1
+set Min to min of a [ i ] and Min	Min = min ( a [ i ], Min ) ;
+	Min = min ( a [ i ] , Min ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+ans = int with ans = 0x7fffffff	int ans = 0x7fffffff ;
+	int ans = 0x7fffffff ;	1
+t = int with t = - 1	int t = - 1 ;
+	int t = - 1 ;	1
+for i = 1 to n inclusive	for ( i = 1 ; i <= n ; i ++ )
+	for ( i = 1 ; i <= n ; i ++ )	1
+if a [ i ] is Min	if ( a [ i ] == Min )
+	if ( a [ i ] == Min )	1
+set t to i	t = i ;
+	t = i ;	1
+break	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = t + 1 to n inclusive	for ( i = t + 1 ; i <= n ; i ++ )
+	for ( i = t + 1 ; i <= n ; i ++ )	1
+if a [ i ] is Min	if ( a [ i ] == Min )
+	if ( a [ i ] == Min )	1
+set ans to min of i - t and ans	ans = min ( i - t, ans ) ;
+	ans = min ( i - t , ans ) ;	NA
+set t to i	t = i ;
+	t = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

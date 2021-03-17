@@ -1,0 +1,37 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n and an array of integers ar with size 100010	int n, ar [ 100010 ] ;
+	int n , ar [ 100010 ] ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+read input into ar n times	for ( int i = 0 ; i < n ; i ++ ) cin >> ar [ i ] ;
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> ar [ i ] ; }	NA
+declare integer variable mn = ar [ 0 ]	int mn = ar [ 0 ] ;
+	int mn = ar [ 0 ] ;	1
+for i from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if mn is greater than ar [ i ] , assign ar [ i ] to mn	if ( mn > ar [ 1 ] ) { mn = ar [ i ] ; }
+	if ( mn > ar [ i ] ) mn = ar [ i ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare integers p1 , p2 and d with p1 and p2 = - 1	int p1 = - 1, p2 = - 2, d ;
+	int p1 = - 1 , p2 = - 1 , d ;	NA
+create int mnd = n	int mnd = n ;
+	int mnd = n ;	1
+for integer i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if ar [ i ] = mn	if ( ar [ i ] == mn )
+	if ( ar [ i ] == mn )	1
+assign i to p1	p1 = i ;
+	p1 = i ;	1
+if p2 ! = - 1	if ( p2!= - 1 )
+	if ( p2 != - 1 )	NA
+if mnd is greater than ( p1 - p2 ) , change mnd to p1 - p2	if ( mnd > ( p1 - p2 ) ) { mnd = p1 + p2 ; }
+	if ( mnd > ( p1 - p2 ) ) { mnd = p1 - p2 ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+assign p1 to p2	p2 = p1 ;
+	p2 = p1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print mnd	cout << mnd << endl ;
+	cout << mnd << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,39 @@
+ar = int array of size 12	int ar [ 12 ] ;
+	int ar [ 12 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , b , c , d , e , f = int	int a, b, c, d, e, f ;
+	int a , b , c , d , e , f ;	NA
+read a then b then c then d then e then f	cin >> a >> b >> c >> d >> e >> f ;
+	cin >> a >> b >> c >> d >> e >> f ;	1
+increment ar [ a ]	ar [ a ] ++ ;
+	ar [ a ] ++ ;	1
+increment ar [ b ]	ar [ b ] ++ ;
+	ar [ b ] ++ ;	1
+increment ar [ c ]	ar [ c ] ++ ;
+	ar [ c ] ++ ;	1
+increment ar [ d ]	ar [ d ] ++ ;
+	ar [ d ] ++ ;	1
+increment ar [ e ]	ar [ e ] ++ ;
+	ar [ e ] ++ ;	1
+increment ar [ f ]	ar [ f ] ++ ;
+	ar [ f ] ++ ;	1
+paichi = bool with paichi = false	bool paichi = false ;
+	bool paichi = false ;	1
+for i = 1 to 9 inclusive	for ( int i = 1 ; i <= 9 ; i ++ )
+	for ( int i = 1 ; i <= 9 ; i ++ )	1
+if ar [ i ] > = 4 set paichi to true	if ( ar [ i ] >= 4 ) paichi = true ;
+	if ( ar [ i ] >= 4 ) { paichi = true ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if not paichi print " Alien " and return 0	if (! paichi ) return cout << " Alien " << endl, 0 ;
+	if ( ! paichi ) return cout << " Alien\n " , 0 ;	NA
+cnt = int with cnt = 0	int cnt = 0 ;
+	int cnt = 0 ;	1
+for i = 1 to 9 inclusive	for ( int i = 1 ; i <= 9 ; i ++ )
+	for ( int i = 1 ; i <= 9 ; i ++ )	1
+if ar [ i ] is 2 or 6 print " Elephant " and return 0	if ( ar [ i ] == 2 || ar [ j ] == 6 ) return cout << " Elephant\n ", 0 ;
+	if ( ar [ i ] == 2 or ar [ i ] == 6 ) return cout << " Elephant\n " , 0 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print " Bear "	return cout << " Bear\n ", 0 ;
+	cout << " Bear\n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,35 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n be a integer	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+create ints x0 , y0 , x1 , y1 , a with a = 0	int x0, y0, x1, y1, a = 0 ;
+	int x0 , y0 , x1 , y1 , a = 0 ;	NA
+set x0 and y0 to 1e9 + 87	x0 = y0 = 1e9 + 87 ;
+	x0 = y0 = 1e9 + 87 ;	1
+assign - 9e8 to y1 and x1	y1 = x1 = - 9e8 ;
+	x1 = y1 = - 9e8 ;	NA
+for n iterations	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; ++ i )	NA
+create integers l , b , r , u	int l, b, r, u ;
+	int l , b , r , u ;	NA
+read l , b , r and u	cin >> l >> b >> r >> u ;
+	cin >> l >> b >> r >> u ;	1
+add a to ( r - l ) * ( u - b ) and assign the result to a	a = ( r - l ) * ( u - b ) ;
+	a += ( r - l ) * ( u - b ) ;	NA
+set x0 to min ( x0 , l )	x0 = min ( x0, l ) ;
+	x0 = min ( x0 , l ) ;	NA
+assign the greater of x1 and r to x1	x1 = max ( x1, r ) ;
+	x1 = max ( x1 , r ) ;	NA
+set y0 to min ( y0 , b )	y0 = min ( y0, b ) ;
+	y0 = min ( y0 , b ) ;	NA
+set y1 to max of y1 and u	y1 = max ( y1, u ) ;
+	y1 = max ( y1 , u ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+x1 = x1 - x0	x1 -= x0 ;
+	x1 -= x0 ;	1
+set y1 to y1 - y0	y1 -= y0 ;
+	y1 -= y0 ;	1
+print ( x1 = = y1 & & x1 * y1 = = a ? " YES \ n " : " NO \ n " )	cout << ( x1 == y1 && x1 * y1 == a? " YES\n " : " NO\m " ) ;
+	cout << ( x1 == y1 && x1 * y1 == a ? " YES\n " : " NO\n " ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

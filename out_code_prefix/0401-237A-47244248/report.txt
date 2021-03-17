@@ -1,0 +1,30 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , i , c = int with c = 0 and x , y = int array of size 100010 each	int n, i, x [ 100010 ], y [ 100000 ], c = 0 ;
+	int n , i , x [ 100010 ] , y [ 100010 ] , c = 0 ;	NA
+v = int vector	vector < int > v ;
+	vector < int > v ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+mp = map of pair of int and int and int	map < pair < int >, int > mp ;
+	map < pair < int , int > , int > mp ;	NA
+for i = 0 to n	for ( i = 0 ; i < n ; i ++ )
+	for ( i = 0 ; i < n ; i ++ )	1
+read x [ i ] then y [ i ]	for ( i = 0 ; i < n ; i ++ ) { cin >> x [ i ] >> y [ j ] ; }
+	cin >> x [ i ] >> y [ i ] ;	NA
+increment mp [ make_pair of x [ i ] and y [ i ] ]	mp [ make_pair ( x [ i ], y [ 1 ] ) ] ++ ;
+	mp [ make_pair ( x [ i ] , y [ i ] ) ] ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n append mp [ make_pair of x [ i ] and y [ i ] ] to v	for ( i = 0 ; i < n ; i ++ ) v. push_back ( mp [ make_pair ( x [ i ], y [ 1 ] ) ] ) ;
+	for ( i = 0 ; i < n ; i ++ ) { v . push_back ( mp [ make_pair ( x [ i ] , y [ i ] ) ] ) ; }	NA
+sort v	sort ( v. begin ( ), v. end ( ) ) ;
+	sort ( v . begin ( ) , v . end ( ) ) ;	NA
+if last element of v is 0	if ( v. back ( ) == 0 )
+	if ( v [ v . size ( ) - 1 ] == 0 )	NA
+print " 1 "	puts ( " 1 " ) ;
+	cout << " 1 " << endl ;	NA
+else	else
+	else	1
+print last element of v	cout << v. back ( ) ;
+	cout << v [ v . size ( ) - 1 ] << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

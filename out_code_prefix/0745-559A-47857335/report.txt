@@ -1,0 +1,11 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a1 , a2 , a3 , a4 , a5 , a6 , result = integers with result = 0	int a1, a2, a3, a4, a5, a6, result = 0 ;
+	int a1 , a2 , a3 , a4 , a5 , a6 , result = 0 ;	NA
+Read a1 , a2 , a3 , a4 , a5 , a6	cin >> a1 >> a2 >> a3 >> a4 >> a5 >> a6 ;
+	cin >> a1 >> a2 >> a3 >> a4 >> a5 >> a6 ;	1
+set result to ( ( a1 + a2 + a3 ) * ( a1 + a2 + a3 ) ) - ( a1 * a1 ) - ( a3 * a3 ) - ( a5 * a5 )	result = ( ( a1 + a2 + a3 ) * ( b1 + b2 + b3 ) ) - ( a2 * a1 ) / ( a3 * a3) - ( b5 * a5 ) ;
+	result = ( ( a1 + a2 + a3 ) * ( a1 + a2 + a3 ) ) - ( a1 * a1 ) - ( a3 * a3 ) - ( a5 * a5 ) ;	NA
+print result and a new line	cout << result << endl ;
+	cout << result << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

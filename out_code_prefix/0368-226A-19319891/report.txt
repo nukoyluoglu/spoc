@@ -1,0 +1,41 @@
+declare f taking in long long integers n and m and returning long long int	long long f ( long long n, long long m )
+	long long f ( long long n , long long m )	NA
+if n is equal to 0	if ( n == 0 )
+	if ( n == 0 )	1
+return the result of 1 % m	return 1 % m ;
+	return 1 % m ;	1
+else if n is equal to 1	else if ( n == 1 )
+	else if ( n == 1 )	1
+return 3 % m	return 3 % m ;
+	return 3 % m ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+create long long tmp = f ( n / 2 , m )	long long tmp = f ( n / 2, m ) ;
+	long long tmp = f ( n / 2 , m ) ;	NA
+if n modulo 2 is 0	if ( n % 2 == 0 )
+	if ( n % 2 == 0 )	1
+return the result of tmp * tmp % m	return tmp * tmp % m ;
+	return tmp * tmp % m ;	1
+otherwise	else
+	else	1
+return ( tmp * tmp % m ) * 3 % m	return ( tmp * tmp % m ) * 3 % m ;
+	return ( tmp * tmp % m ) * 3 % m ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create ints n and m	int n, m ;
+	int n , m ;	NA
+read n and m	cin >> n >> m ;
+	cin >> n >> m ;	1
+create long long int fx = f ( n , m )	long long fx = f ( n, m ) ;
+	long long fx = f ( n , m ) ;	NA
+if fx is 0	if ( fx == 0 )
+	if ( fx == 0 )	1
+print m - 1	cout << m - 1 << endl ;
+	cout << m - 1 << endl ;	1
+else	else
+	else	1
+print fx - 1	cout << fx - 1 << endl ;
+	cout << fx - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

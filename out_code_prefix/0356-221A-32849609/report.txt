@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer a	int a ;
+	int a ;	1
+loop while reading a	while ( cin >> a )
+	while ( cin >> a )	1
+print a	cout << a << endl ;
+	cout << a ;	NA
+for integer i = 1 to a exclusive , print ' ' and i	for ( int i = 1 ; i < a ; i ++ ) cout <<' '<< i << endl ;
+	for ( int i = 1 ; i < a ; i ++ ) cout << ' ' << i ;	NA
+print new line	cout << endl ;
+	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

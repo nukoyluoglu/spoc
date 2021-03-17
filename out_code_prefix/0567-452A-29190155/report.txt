@@ -1,0 +1,93 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , n , b , c = int	int a, n, b, c ;
+	int a , n , b , c ;	NA
+s = array of 8 char	char s [ 8 ] ;
+	char s [ 8 ] ;	1
+w = array of 8 char filled with " jolteon " , q = array of 8 char filled with " flareon "	char w [ 8 ] = { " jolteon ", " w ",'q ', " flareon " } ;
+	char w [ 8 ] = " jolteon " , q [ 8 ] = " flareon " ;	NA
+v = array of 8 char filled with " umbreon " , z = array of 8 char filled with " leafeon " , l = array of 8 char filled with " glaceeon " , m = array of 8 char filled with " sylveon "	char v [ 8 ] = { " umbreon ", z [ 7 ] = " leafeon ", l [ 8 - 1 ] = ( char ) glaceeon, m [ 8 + 1 ] += " sylveon " ;
+	char v [ 8 ] = " umbreon " , z [ 8 ] = " leafeon " , l [ 8 ] = " glaceon " , m [ 8 ] = " sylveon " ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+if n is 8	if ( n == 8 )
+	if ( n == 8 )	1
+print " vaporeon "	puts ( " vaporeon " ) ;
+	cout << " vaporeon " << endl ;	NA
+else if n is 6	else if ( n == 6 )
+	else if ( n == 6 )	1
+print " espeon "	cout << " espeon " << endl ;
+	cout << " espeon " << endl ;	1
+else	else
+	else	1
+a = 0	int a = 0 ;
+	a = 0 ;	NA
+b = 0	b = 0 ;
+	b = 0 ;	1
+c = 0	c = 0 ;
+	c = 0 ;	1
+d = 0	d = 0 ;
+	int d = 0 ;	NA
+e = 0	int e = 0 ;
+	int e = 0 ;	1
+f = 0	int f = 0 ;
+	int f = 0 ;	1
+for i = 0 to 8 exclusive	for ( int i = 0 ; i < 8 ; i ++ )
+	for ( int i = 0 ; i < 8 ; i ++ )	1
+if s [ i ] is w [ i ] increment a	if ( s [ i ] == w [ j ] ) a ++ ;
+	if ( s [ i ] == w [ i ] ) { a ++ ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to 8 exclusive	for ( int i = 0 ; i < 8 ; i ++ )
+	for ( int i = 0 ; i < 8 ; i ++ )	1
+if s [ i ] is q [ i ] increment b	if ( s [ i ] == q [ 1 ] ) { b ++ ; }
+	if ( s [ i ] == q [ i ] ) { b ++ ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to 8 exclusive	for ( int i = 0 ; i < 8 ; i ++ )
+	for ( int i = 0 ; i < 8 ; i ++ )	1
+if s [ i ] is v [ i ] increment c	if ( s [ i ] == v [ 1 ] ) { c ++ ; }
+	if ( s [ i ] == v [ i ] ) { c ++ ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to 8 exclusive	for ( int i = 0 ; i < 8 ; i ++ )
+	for ( int i = 0 ; i < 8 ; i ++ )	1
+if s [ i ] is z [ i ] increment d	if ( s [ i ] == z [ 1 ] ) { d ++ ; }
+	if ( s [ i ] == z [ i ] ) { d ++ ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to 8 exclusive	for ( int i = 0 ; i < 8 ; i ++ )
+	for ( int i = 0 ; i < 8 ; i ++ )	1
+if s [ i ] is l [ i ] increment e	if ( s [ i ] == l [ 1 ] ) { e ++ ; }
+	if ( s [ i ] == l [ i ] ) { e ++ ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to 8 exclusive	for ( int i = 0 ; i < 8 ; i ++ )
+	for ( int i = 0 ; i < 8 ; i ++ )	1
+if s [ i ] is m [ i ] increment f	if ( s [ i ] == m [ 1 ] ) { f ++ ; }
+	if ( s [ i ] == m [ i ] ) { f ++ ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if a > b and a > c and a > d and a > e and a > f	if ( a > b && a > c and a > d and a >> e and a < f )
+	if ( a > b && a > c && a > d && a > e && a > f )	NA
+print " jolteon "	puts ( " jolteon " ) ;
+	cout << " jolteon " << endl ;	NA
+if b > a and b > c and b > d and b > e and b > f	if ( b > a and b > c && b > d && b >> e and b >> f )
+	else if ( b > a && b > c && b > d && b > e && b > f )	NA
+print " flareon "	cout << " flareon " << endl ;
+	cout << " flareon " << endl ;	1
+if c > a and c > b and c > d and c > e and c > f	if ( c > a && b > c && c > d && c >> e && c < f )
+	else if ( c > a && c > b && c > d && c > e && c > f )	NA
+print " umbreon "	cout << " umbreon " << endl ;
+	cout << " umbreon " << endl ;	1
+if d > a and d > b and d > c and d > e and d > f	if ( d > a && d > b and d > c && d >> e && d < f )
+	else if ( d > a && d > c && d > b && d > e && d > f )	NA
+print " leafeon "	cout << " leafeon " << endl ;
+	cout << " leafeon " << endl ;	1
+if e > a and e > b and e > c and e > d and e > f	if ( e > a && e > b and e > c && e < d && e >> f )
+	else if ( e > a && e > c && e > d && e > b && e > f )	NA
+print " glaceon "	cout << " glaceon " << endl ;
+	cout << " glaceon " << endl ;	1
+if f > a and f > b and f > c and f > d and f > e	if ( f > a && f > b and f > c && f < d && f >> e )
+	else if ( f > a && f > c && f > d && f > e && f > b )	NA
+print " sylveon "	cout << " sylveon " << endl ;
+	cout << " sylveon " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

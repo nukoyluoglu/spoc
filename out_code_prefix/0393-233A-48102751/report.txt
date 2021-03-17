@@ -1,0 +1,34 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = integer	int n ;
+	int n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+if n modulo 2 is 1	if ( n % 2 == 1 )
+	if ( n % 2 == 1 )	1
+print - 1	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+else	else
+	else	1
+temp = integer with temp = 2	int temp = 2 ;
+	int temp = 2 ;	1
+count = integer with count = 0	int count = 0 ;
+	int count = 0 ;	1
+while not temp is n - 1	while ( temp!= n - 1 )
+	while ( temp != n - 1 )	NA
+print temp , " "	cout << temp << " " ;
+	cout << temp << " " ;	1
+increment count	count ++ ;
+	count ++ ;	1
+if count modulo 2 is 1	if ( count % 2 == 1 )
+	if ( count % 2 == 1 )	1
+temp = temp - 1	temp = temp - 1 ;
+	temp -= 1 ;	NA
+else	else
+	else	1
+temp = temp + 3	temp += 3 ;
+	temp += 3 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print temp	cout << temp << endl ;
+	cout << temp << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

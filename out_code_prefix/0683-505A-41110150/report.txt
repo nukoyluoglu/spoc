@@ -1,0 +1,47 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string s	string s ;
+	string s ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+create integer flag with flag = - 1	int flag = - 1 ;
+	int flag = - 1 ;	1
+create integer sz with sz = size of s	int sz = s. size ( ) ;
+	int sz = s . size ( ) ;	NA
+for i = 0 to 26 exclusive	for ( int i = 0 ; i < 26 ; i ++ )
+	for ( int i = 0 ; i < 26 ; i ++ )	1
+create string a	string a ;
+	string a ;	1
+add element ( ' a ' + i ) to end of a	a. push_back ('a'+ i ) ;
+	a . push_back ( ' a ' + i ) ;	NA
+increment a by s	a += s ;
+	a += s ;	1
+for j = 0 to sz exclusive	for ( int j = 0 ; j < sz ; j ++ )
+	for ( int j = 0 ; j < sz ; j ++ )	1
+create string b with b = 0	string b = 0 ;
+	string b = a ;	NA
+reverse element order from beginning of b to end of b	reverse ( b. begin ( ), b. end ( ) ) ;
+	reverse ( b . begin ( ) , b . end ( ) ) ;	NA
+if a is b	if ( a == b )
+	if ( a == b )	1
+print a print newline	cout << a << endl ;
+	cout << a << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+swap element values from a [ j ] to a [ j + 1 ]	swap ( b, a [ j ] ) ;
+	swap ( a [ j ] , a [ j + 1 ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create string b with b = a	string b = a ;
+	string b = a ;	1
+reverse element order from beginning of b to end of b	reverse ( b. begin ( ), b. end ( ) ) ;
+	reverse ( b . begin ( ) , b . end ( ) ) ;	NA
+if a is b	if ( a == b )
+	if ( a == b )	1
+print a print newline	cout << a << endl ;
+	cout << a << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " NA " print newline	cout << " NA " << endl ;
+	cout << " NA " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

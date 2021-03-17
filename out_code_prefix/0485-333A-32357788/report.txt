@@ -1,0 +1,15 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n be a long integer	long long n ;
+	long long n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+let sum , x be long integers with x = 3	long long sum, x = 3 ;
+	long long sum , x = 3 ;	NA
+while n modulo x is equal to 0 , x is equal to x * 3	while ( n % x == 0 ) { x *= 3 ; }
+	while ( n % x == 0 ) { x *= 3 ; }	1
+n / x + 1 is assigned to sum	sum = n / x + 1 ;
+	sum = n / x + 1 ;	1
+print sum and newline	cout << sum << endl ;
+	cout << sum << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,71 @@
+create string array nam of size 50	string nam [ 50 ] ;
+	string nam [ 50 ] ;	1
+let int n and int arrays wp of size 50 , dg of size 50 , and sg of size 50	int n, wp [ 50 ], dg [ 55 ], sg [ 51 ] ;
+	int n , wp [ 50 ] , dg [ 50 ] , sg [ 50 ] ;	NA
+declare comp taking in ints a and b and returning bool	bool comp ( int a, int b )
+	bool comp ( int a , int b )	NA
+if wp [ a ] is not equal to wp [ b ]	if (! wp [ a ] )
+	if ( wp [ a ] != wp [ b ] )	NA
+return wp [ a ] > wp [ b ]	return ( wp [ a ] > ww [ b ] ) ;
+	return wp [ a ] > wp [ b ] ;	NA
+else if dg [ a ] is not equal to dg [ b ]	else if ( bg [ a ]!= dg [ b ] )
+	else if ( dg [ a ] != dg [ b ] )	NA
+return the result of dg [ a ] > dg [ b ]	return bg [ a ] > dg [ b ] ;
+	return dg [ a ] > dg [ b ] ;	NA
+else do	else
+	else	1
+return sg [ a ] > sg [ b ]	return strg [ a ] > sg [ b ] ;
+	return sg [ a ] > sg [ b ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive , read nam [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> nam [ i ] ; }
+	for ( int i = 0 ; i < ( int ) ( n ) ; i ++ ) cin >> nam [ i ] ;	NA
+for i = 0 to n * ( n - 1 ) / 2 exclusive	for ( int i = 0 ; i < ( int ) ( n * ( n - 1 ) / 2 ) ; i ++ )
+	for ( int i = 0 ; i < ( int ) ( n * ( n - 1 ) / 2 ) ; i ++ )	1
+create strings tmp , a , and b	string tmp, a, b ;
+	string tmp , a , b ;	NA
+make ints p and q	int p, q ;
+	int p , q ;	NA
+create char c	char c ;
+	char c ;	1
+read tmp , p , c , and q	cin >> tmp >> p >> c >> q ;
+	cin >> tmp >> p >> c >> q ;	1
+set a to tmp . substr ( 0 , tmp . find ( ' - ' ) )	a = tmp. substr ( 0, tmp. find ('-') ) ;
+	a = tmp . substr ( 0 , tmp . find ( ' - ' ) ) ;	NA
+set b to tmp . substr ( tmp . find ( ' - ' ) + 1 )	b = tmp. substr ( tmp. find ('-') + 1 ) ;
+	b = tmp . substr ( tmp . find ( ' - ' ) + 1 ) ;	NA
+create ints ai = find ( nam , nam + n , a ) - nam and bi = find ( nam , nam + n , b ) - nam	int ai = find ( nam, nam + n, ( a ) - nam ), bi = find_ nam, nam += n, b ) - ( namd ) ;
+	int ai = find ( nam , nam + n , a ) - nam , bi = find ( nam , nam + n , b ) - nam ;	NA
+if p is more than q	if ( p > q )
+	if ( p > q )	1
+set wp [ ai ] to wp [ ai ] + 3	dp [ ai ] += 3 ;
+	wp [ ai ] += 3 ;	NA
+else if p is less than q	else if ( p < q )
+	else if ( p < q )	1
+set wp [ bi ] to wp [ bi ] + 3	dp [ bi ] += 3 ;
+	wp [ bi ] += 3 ;	NA
+else	else
+	else	1
+add 1 to wp [ ai ] and ap [ bi ]	dp [ ai ] += ap [ bi ] ;
+	wp [ ai ] ++ , wp [ bi ] ++ ;	NA
+set dg [ ai ] to ad [ ai ] + p - q , add p to sg [ ai ] , add q - p to dg [ bi ] , and add q to sg [ bi ]	gg [ bi ] += ad [ ai ] + p - q, { sg [ i ] += p, dg [ bi ++ ] += q - p, }
+	dg [ ai ] += p - q , sg [ ai ] += p , dg [ bi ] += q - p , sg [ bi ] += q ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create integer array a of size 50	int a [ 50 ] ;
+	int a [ 50 ] ;	1
+for i = 0 to n exclusive , set a [ i ] to i	for ( int i = 0 ; i < n ; i ++ ) a [ i ] = i ;
+	for ( int i = 0 ; i < ( int ) ( n ) ; i ++ ) a [ i ] = i ;	NA
+sort a using a + n and comp	sort ( a, a + n, comp ) ;
+	sort ( a , a + n , comp ) ;	NA
+create string array names of size 50	string names [ 50 ] ;
+	string names [ 50 ] ;	1
+for i = 0 to n / 2 exclusive , set names [ i ] to nam [ a [ i ] ]	for ( int i = 0 ; i < ( int ) ( n / 2 ) ; i ++ ) { names [ i ] = nam [ a [ 1 ] ] ; }
+	for ( int i = 0 ; i < ( int ) ( n / 2 ) ; i ++ ) names [ i ] = nam [ a [ i ] ] ;	NA
+sort names using names + n / 2	sort ( names, names + n / 2 ) ;
+	sort ( names , names + n / 2 ) ;	NA
+for i = 0 to n / 2 exclusive , print names [ i ]	for ( int i = 0 ; i < ( int ) ( n / 2 ) ; i ++ ) cout << names [ i ] ;
+	for ( int i = 0 ; i < ( int ) ( n / 2 ) ; i ++ ) cout << names [ i ] << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

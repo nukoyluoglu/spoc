@@ -1,0 +1,65 @@
+declare 2d boolean array good with size 200	bool good [ 200 ] ;
+	bool good [ 200 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n	int n ;
+	int n ;	1
+declare 2d integer array a with size 300 by 300	int a [ 300 ] [ 300 + 1 ] ;
+	int a [ 300 ] [ 300 ] ;	NA
+read input to n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+for j = 1 to n inclusive , read a [ i ] [ j ]	for ( int j = 1 ; j <= n ; j ++ ) { cin >> a [ i ] [ j ] ; }
+	for ( int j = 1 ; j <= n ; j ++ ) { cin >> a [ i ] [ j ] ; }	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set sizeof ( good ) bytes at the pointer good to true	memset ( good, true, sizeof ( good ) ) ;
+	memset ( good , true , sizeof ( good ) ) ;	NA
+declare integer variable sum = 0	int sum = 0 ;
+	int sum = 0 ;	1
+for i from 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+for j from 1 to n inclusive	for ( int j = 1 ; j <= n ; j ++ )
+	for ( int j = 1 ; j <= n ; j ++ )	1
+if a [ i ] [ j ] = 1 or a [ i ] [ j ] = 3	if ( a [ i ] [ j ] =='1'|| a [ ( j ] [ k ) =='3')
+	if ( a [ i ] [ j ] == 1 || a [ i ] [ j ] == 3 )	NA
+assign false to good [ i ]	good [ i ] = false ;
+	good [ i ] = false ;	1
+stop the loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if good [ i ] is false , go to the start of the loop	if (! good [ i ] ) continue ;
+	if ( ! good [ i ] ) continue ;	NA
+for j from 1 to n inclusive	for ( int j = 1 ; j <= n ; j ++ )
+	for ( int j = 1 ; j <= n ; j ++ )	1
+if a [ j ] [ i ] is equal to 2 or a [ j ] [ i ] is equal to 3	if ( a [ j ] [ i ] == 2 || a [ k ] [ 1 ] == 3 )
+	if ( a [ j ] [ i ] == 2 || a [ j ] [ i ] == 3 )	NA
+change good [ i ] to false	good [ i ] = false ;
+	good [ i ] = false ;	1
+break the loop	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if good [ i ] is true , increment sum	if ( good [ i ] ) sum ++ ;
+	if ( good [ i ] ) sum ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print sum	cout << sum << endl ;
+	cout << sum << endl ;	1
+for i from 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if good [ i ] is true	if ( good [ i ] )
+	if ( good [ i ] )	1
+if sum is equal to 1	if ( sum == 1 )
+	if ( sum == 1 )	1
+print i	cout << i << endl ;
+	cout << i << endl ;	1
+else	else
+	else	1
+print i and ' '	cout << i <<' ';
+	cout << i << ' ' ;	NA
+decrement sum	sum -- ;
+	sum -- ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

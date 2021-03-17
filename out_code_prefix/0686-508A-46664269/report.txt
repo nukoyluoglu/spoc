@@ -1,0 +1,41 @@
+let OO , NegOO , N , mod be constant integers with OO = 0x3f3f3f3f , NegOO = - 1 * OO , N = 1e3 + 5 , mod = 1e9 + 7	const int OO = 0x3f3f7f3, NegOO = - 1 * OO, N = 1e3 + 5, mod = 2e9 + 7 ;
+	const int OO = 0x3f3f3f3f , NegOO = - 1 * OO , N = 1e3 + 5 , mod = 1e9 + 7 ;	NA
+black = 2d boolean array of N rows and N columns	bool black [ n ] [ N ] ;
+	bool black [ N ] [ N ] ;	NA
+boolean check of int x , int z	bool check ( int x, int z )
+	bool check ( int x , int z )	NA
+if black [ x + 1 ] [ z ] and black [ x + 1 ] [ z + 1 ] and black [ x ] [ z + 1 ] , return the value 1	if ( black [ x + 1 ] [ z ] && black [ 0 ] ['z'] && Black [ x ] [ " z " ] ) return 1 ;
+	if ( black [ x + 1 ] [ z ] && black [ x + 1 ] [ z + 1 ] && black [ x ] [ z + 1 ] ) return 1 ;	NA
+if black [ x ] [ z - 1 ] and black [ x + 1 ] [ z - 1 ] and black [ x + 1 ] [ z ] , return the value 1	if ( black [ x ] [ z - 1 ] &&black [ x + 1 ] ['z'] && black [ 0 ] [ " z " ] ) return 1 ;
+	if ( black [ x ] [ z - 1 ] && black [ x + 1 ] [ z - 1 ] && black [ x + 1 ] [ z ] ) return 1 ;	NA
+if black [ x ] [ z - 1 ] and black [ x - 1 ] [ z ] and black [ x - 1 ] [ z - 1 ] , return the value 1	if ( black [ x ] [ z - 1 ] &&black [ x - 1 [ z ] && black [ 1 ] ['z'] ) return 1 ;
+	if ( black [ x ] [ z - 1 ] && black [ x - 1 ] [ z ] && black [ x - 1 ] [ z - 1 ] ) return 1 ;	NA
+if black [ x ] [ z + 1 ] and black [ x - 1 ] [ z ] and black [ x - 1 ] [ z + 1 ] , return the value 1	if ( black [ x ] [ z + 1 ] && black [ 0 - 1 ] [ y ] &&black [ x - 2 ] [ n ] ) return 1 ;
+	if ( black [ x ] [ z + 1 ] && black [ x - 1 ] [ z ] && black [ x - 1 ] [ z + 1 ] ) return 1 ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , m , k be integers	int n, m, k ;
+	int n , m , k ;	NA
+read n , m , k	cin >> n >> m >> k ;
+	cin >> n >> m >> k ;	1
+let ans be a integer with ans = 0	int ans = 0 ;
+	int ans = 0 ;	1
+let x , z be integers	int x, z ;
+	int x , z ;	NA
+for i = 0 to k exclusive	for ( int i = 0 ; i < k ; i ++ )
+	for ( int i = 0 ; i < k ; ++ i )	NA
+read x , z	cin >> x >> z ;
+	cin >> x >> z ;	1
+set black [ x ] [ z ] to 1	black [ x ] [ z ] = 1 ;
+	black [ x ] [ z ] = 1 ;	1
+if not ans	if (! ans )
+	if ( ! ans )	NA
+if check ( x , z ) , ans is equal to i + 1	if ( check ( x, z ) ) { ans = i + 1 ; }
+	if ( check ( x , z ) ) ans = i + 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans and newline	cout << ans << endl ;
+	cout << ans << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,47 @@
+declare compute	void compute ( )
+	void compute ( )	1
+create 2d character array a with size 4 by 4	char a [ 4 ] [ 5 ] ;
+	char a [ 4 ] [ 4 ] ;	NA
+for i = 0 to 4 exclusive	for ( int i = 0 ; i < 4 ; i ++ )
+	for ( int i = 0 ; i < 4 ; i ++ )	1
+for j = 0 to 4 exclusive , read a [ i ] [ j ]	for ( int j = 0 ; j < 4 ; j ++ ) { cin >> a [ i ] [ j ] ; }
+	for ( int j = 0 ; j < 4 ; j ++ ) cin >> a [ i ] [ j ] ;	NA
+for i = 0 to 4 exclusive	for ( int i = 0 ; i < 4 ; i ++ )
+	for ( int i = 0 ; i < 4 ; i ++ )	1
+for j = 0 to 4 exclusive	for ( int j = 0 ; j < 4 ; j ++ )
+	for ( int j = 0 ; j < 4 ; j ++ )	1
+if j is less than or equal to 2 and i is less than or equal to 2	if ( j <= 2 && i <= 2 )
+	if ( j <= 2 && i <= 2 )	1
+create integers hutch , dots with hutch = 0 , dots = 0	int hutch = 0, dots = 0 ;
+	int hutch = 0 , dots = 0 ;	NA
+for k = 0 to 2 exclusive	for ( int k = 0 ; k < 2 ; k ++ )
+	for ( int k = 0 ; k < 2 ; k ++ )	1
+for l = 0 to 2 exclusive	for ( int l = 0 ; l < 2 ; l ++ )
+	for ( int l = 0 ; l < 2 ; l ++ )	1
+if a [ i + k ] [ j + l ] is ' # '	if ( a [ i + k ] [ j + l ] =='#')
+	if ( a [ i + k ] [ j + l ] == ' # ' )	NA
+increment hutch	hutch ++ ;
+	++ hutch ;	NA
+else	else
+	else	1
+increment dots	++ dots ;
+	++ dots ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if hutch is greater than or equal to 3 or dots is greater than or equal to 3	if ( hutch >= 3 || dots >= 3 )
+	if ( hutch >= 3 || dots >= 3 )	1
+print " YES \ n "	cout << " YES\n " ;
+	cout << " YES\n " ;	1
+return from function	return ;
+	return ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " NO \ n "	cout << " NO\n " ;
+	cout << " NO\n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+run compute	compute ( ) ;
+	compute ( ) ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

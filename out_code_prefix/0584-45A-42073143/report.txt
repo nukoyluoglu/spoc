@@ -1,0 +1,87 @@
+let num be an array of integers of length 3005	int num [ 3005 ] ;
+	int num [ 3005 ] ;	1
+create a map from strings to integers with name ma	map < string, int > ma ;
+	map < string , int > ma ;	NA
+set integer ans to 0	int ans = 0 ;
+	int ans = 0 ;	1
+boolean function is_prime with integer arguments u	bool is_prime ( int u )
+	bool is_prime ( int u ) ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+s = string	string s ;
+	string s ;	1
+s = " January "	s = " January " ;
+	s = " January " ;	1
+ma [ s ] = 1	ma [ s ] = 1 ;
+	ma [ s ] = 1 ;	1
+s = " February "	s = " February " ;
+	s = " February " ;	1
+ma [ s ] = 2	ma [ s ] = 2 ;
+	ma [ s ] = 2 ;	1
+s = " March "	s = " March " ;
+	s = " March " ;	1
+ma [ s ] = 3	ma [ s ] = 3 ;
+	ma [ s ] = 3 ;	1
+s = " April "	s = " April " ;
+	s = " April " ;	1
+set value of ma [ s ] to 4	ma [ s ] = 4 ;
+	ma [ s ] = 4 ;	1
+s = " May "	s = " May " ;
+	s = " May " ;	1
+ma [ s ] = 5	ma [ s ] = 5 ;
+	ma [ s ] = 5 ;	1
+ma [ " June " ] = 6	ma [ " June " ] = 6 ;
+	ma [ " June " ] = 6 ;	1
+ma [ " July " ] = 7	ma [ " July " ] = 7 ;
+	ma [ " July " ] = 7 ;	1
+ma [ " August " ] = 8	ma [ " August " ] = 8 ;
+	ma [ " August " ] = 8 ;	1
+ma [ " September " ] = 9	ma [ " September " ] = 9 ;
+	ma [ " September " ] = 9 ;	1
+ma [ " October " ] = 10	ma [ " October " ] = 10 ;
+	ma [ " October " ] = 10 ;	1
+ma [ " November " ] = 11	ma [ " November " ] = 11 ;
+	ma [ " November " ] = 11 ;	1
+ma [ " December " ] = 12	ma [ " December " ] = 12 ;
+	ma [ " December " ] = 12 ;	1
+n = integer	int n ;
+	int n ;	1
+read s	cin >> s ;
+	cin >> s ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+if n % 12 = 0	if ( n % 12 == 0 )
+	if ( n % 12 == 0 )	1
+print s and a new line	cout << s << endl ;
+	cout << s << endl ;	1
+else	else
+	else	1
+set integer a to ma [ s ]	int a = ma [ s ] ;
+	int a = ma [ s ] ;	1
+increase n by a	n += a ;
+	n += a ;	1
+if n % 12 = 1 , print " January " and a new line	if ( n % 12 == 1 ) cout << " January " << endl ;
+	if ( n % 12 == 1 ) cout << " January " << endl ;	1
+if n % 12 = 2 , print " February " and a new line	if ( n % 12 == 2 ) cout << " February " << endl ;
+	if ( n % 12 == 2 ) cout << " February " << endl ;	1
+if n % 12 = 3 , print " March " and a new line	if ( n % 12 == 3 ) cout << " March " << endl ;
+	if ( n % 12 == 3 ) cout << " March " << endl ;	1
+if n % 12 = 4 , print " April " and a new line	if ( n % 12 == 4 ) cout << " April " << endl ;
+	if ( n % 12 == 4 ) cout << " April " << endl ;	1
+if n % 12 = 5 , print " May " and a new line	if ( n % 12 == 5 ) cout << " May " << endl ;
+	if ( n % 12 == 5 ) cout << " May " << endl ;	1
+if n % 12 = 6 , print " June " and a new line	if ( n % 12 == 6 ) cout << " June " << endl ;
+	if ( n % 12 == 6 ) cout << " June " << endl ;	1
+if n % 12 = 7 , print " July " and a new line	if ( n % 12 == 7 ) cout << " July " << endl ;
+	if ( n % 12 == 7 ) cout << " July " << endl ;	1
+if n % 12 = 8 , print " August " and a new line	if ( n % 12 == 8 ) cout << " August " << endl ;
+	if ( n % 12 == 8 ) cout << " August " << endl ;	1
+if n % 12 = 9 , print " September " and a new line	if ( n % 12 == 9 ) cout << " September " << endl ;
+	if ( n % 12 == 9 ) cout << " September " << endl ;	1
+if n % 12 = 10 , print " October " and a new line	if ( n % 12 == 10 ) cout << " October " << endl ;
+	if ( n % 12 == 10 ) cout << " October " << endl ;	1
+if n % 12 = 11 , print " November " and a new line	if ( n % 12 == 11 ) cout << " November " << endl ;
+	if ( n % 12 == 11 ) cout << " November " << endl ;	1
+if n % 12 = 0 , print " December " and a new line	if ( n % 12 == 0 ) cout << " December " << endl ;
+	if ( n % 12 == 0 ) cout << " December " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,43 @@
+declare strings n , n2	string n, n2 ;
+	string n , n2 ;	NA
+declare compare with strings s1 , s2 , integer length as arguments , returning boolean	bool compare ( string s1, string s2, int length )
+	bool compare ( string s1 , string s2 , int length )	NA
+for i = 0 to length exclusive	for ( int i = 0 ; i < length ; i ++ )
+	for ( int i = 0 ; i < length ; i ++ )	1
+if s1 [ i ] is not s2 [ i ] , return false from function	if ( s1 [ i ]!= s2 [ j ] ) return false ;
+	if ( s1 [ i ] != s2 [ i ] ) { return false ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return true from function	return true ;
+	return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , n2	cin >> n >> n2 ;
+	cin >> n >> n2 ;	1
+declare l1 , l2 , greater as integers	int l1, l2, greater ;
+	int l1 , l2 , greater ;	NA
+let l1 be greater = length of n	l1 = greater = n. length ( ) ;
+	l1 = greater = n . length ( ) ;	NA
+let l2 be length of n2	l2 = n2. length ( ) ;
+	l2 = n2 . length ( ) ;	NA
+if l2 is greater than l1 , let greater be l2	if ( l2 > l1 ) greater = l2 ;
+	if ( l2 > l1 ) { greater = l2 ; }	NA
+if l1 is l2	if ( l1 == l2 )
+	if ( l1 == l2 )	1
+declare x as boolean = result of run compare with n , n2 , l1 as arguments	bool x = compare ( n, n2, l1 ) ;
+	bool x = compare ( n , n2 , l1 ) ;	NA
+if x is true	if ( x )
+	if ( x )	1
+print - 1 and newline	cout << - 1 << endl ;
+	cout << - 1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else	else
+	else	1
+print l1 print newline	cout << l1 << endl ;
+	cout << l1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print greater print newline	cout << greater << endl ;
+	cout << greater << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

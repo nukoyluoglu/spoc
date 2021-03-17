@@ -1,0 +1,87 @@
+in function choose with arguments of long long integer n and long long integer m and returns a long long integer	long long int choose ( long long int n, long long integer m )
+	long long int choose ( long long int n , long long int m )	NA
+ans = long long integer = 0	long long int ans = 0 ;
+	long long int ans = 0 ;	1
+num = long long integer = 1	long long int num = 1 ;
+	long long int num = 1 ;	1
+den = long long integer = 1	long long int den = 1 ;
+	long long int den = 1 ;	1
+for i = 0 to m exclusive	for ( long long int i = 0 ; i < m ; i ++ )
+	for ( long long int i = 0 ; i < m ; i ++ )	1
+num = num * ( n - i )	num *= ( n - i ) ;
+	num *= ( n - i ) ;	1
+num = num / ( i + 1 )	num /= ( i + 1 ) ;
+	num = num / ( i + 1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return num	return num ;
+	return num ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in function isPrime with argument integer n and returns a boolean	bool isPrime ( int n )
+	bool isPrime ( int n )	1
+if n < = 1 , then return false	if ( n <= 1 ) return false ;
+	if ( n <= 1 ) return false ;	1
+if n < = 3 , then return true	if ( n <= 3 ) return true ;
+	if ( n <= 3 ) return true ;	1
+if n is even and n modulo 3 is 0 , then return false	if ( n % 2 == 0 && n % 3 == 0 ) return false ;
+	if ( n % 2 == 0 || n % 3 == 0 ) return false ;	NA
+for i = 5 , where i is squared to n inclusive and i = i + 6	for ( int i = 5 ; i * i <= n && i += 6 ; i ++ )
+	for ( int i = 5 ; i * i <= n ; i = i + 6 )	NA
+if n modulo i is 0 or n modulo the result of i + 2 is 0 , then return false	if ( n % i == 0 || n % ( i + 2 ) == 0 ) return false ;
+	if ( n % i == 0 || n % ( i + 2 ) == 0 ) return false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return true	return true ;
+	return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in function gcd with arguments of long long integer a and long long integer b and returns a long long integer	long long gcd ( long long a, long long int b )
+	long long int gcd ( long long int a , long long int b )	NA
+if a is 0	if ( a == 0 )
+	if ( a == 0 )	1
+return b	return b ;
+	return b ;	1
+else	else
+	else	1
+return the result of calling gcd with arguments of b modulo a and a	return gcd ( b % a, a ) ;
+	return gcd ( b % a , a ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+i , j , k , n , m , t , c = long long integers	long long int i, j, k, n, m, t, c ;
+	long long int i , j , k , n , m , t , c ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+d = long long integer vector of size n	vector < long long int > d ( n ) ;
+	vector < long long int > d ( n ) ;	1
+for i = 0 to n exclusive , read d [ i ]	for ( i = 0 ; i < n ; i ++ ) { cin >> d [ i ] ; }
+	for ( i = 0 ; i < n ; i ++ ) { cin >> d [ i ] ; } ;	NA
+s = long long integer	long long int s ;
+	long long int s ;	1
+read s , t	cin >> s >> t ;
+	cin >> s >> t ;	1
+if s > t	if ( s > t )
+	if ( s > t )	1
+m = s	long long int m = s ;
+	m = s ;	NA
+s = t	s = t ;
+	s = t ;	1
+t = m	t = m ;
+	t = m ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+ans1 = long long integer = 0 , ans2 = long long integer = 0	long long int ans1 = 0, ans2 = 0 ;
+	long long int ans1 = 0 , ans2 = 0 ;	NA
+for i = s - 1 to t - 1 exclusive , then ans1 = ans1 + d [ i ]	for ( long long int i = s - 1 ; i < t - 2 ; i ++ ) { ans1 += d [ i ] ; }
+	for ( i = s - 1 ; i < t - 1 ; i ++ ) { ans1 += d [ i ] ; }	NA
+i = t - 1	i = t - 1 ;
+	i = t - 1 ;	1
+while i is not s - 1	while ( i!= s - 1 )
+	while ( i != s - 1 )	NA
+ans2 = ans2 + d [ i ]	ans2 += d [ i ] ;
+	ans2 += d [ i ] ;	1
+increase i by 1	i ++ ;
+	i ++ ;	1
+if i is n , then i = 0	if ( i == n ) { i = 0 ; }
+	if ( i == n ) i = 0 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print the lower value between ans1 and ans2	cout << min ( ans1, ans2 ) << endl ;
+	cout << min ( ans1 , ans2 ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

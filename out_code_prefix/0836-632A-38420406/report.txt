@@ -1,0 +1,35 @@
+set maxn to 5005	const int maxn = 5005 ;
+	const int maxn = 5005 ;	1
+assign 0x3f3f3f3f to inf	const long long inf = 0x3f3f2f3ll ;
+	const int inf = 0x3f3f3f3f ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int a and b	int a, b ;
+	int a , b ;	NA
+read a , b	cin >> a >> b ;
+	cin >> a >> b ;	1
+create string s of size 50	string s [ 50 ] ;
+	string s [ 50 ] ;	1
+for i = 1 to a inclusive , read s [ i ]	for ( int i = 1 ; i <= a ; i ++ ) { cin >> s [ i ] ; }
+	for ( int i = 1 ; i <= a ; i ++ ) { cin >> s [ i ] ; }	1
+set ans to b / 2 and num to 1	int ans = b / 2, num = 1 ;
+	long long ans = b / 2 , num = 1 ;	NA
+for i = a - 1 to 1 inclusive	for ( int i = ( a - 1 ) ; i >= 1 ; i -- )
+	for ( int i = a - 1 ; i >= 1 ; i -- )	NA
+if s [ i ] = halfplus	if ( s [ i ] % 2 == 1 )
+	if ( s [ i ] == " halfplus " )	NA
+set ans to ans + ( num + 0 . 5 ) * b	ans += ( num + 0.5 ) * b ;
+	ans += ( num + 0.5 ) * b ;	1
+assign num * 2 + 1 to num	num = num * 2 + 1 ;
+	num = num * 2 + 1 ;	1
+else	else
+	else	1
+set ans to ans + bum * b	ans += bum * b ;
+	ans += num * b ;	NA
+num = num * 2	num = num * 2 ;
+	num *= 2 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

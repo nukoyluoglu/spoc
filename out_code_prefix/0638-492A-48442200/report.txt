@@ -1,0 +1,33 @@
+create constant int INF = 1e9	const int INF = 1e9 ;
+	const int INF = 1e9 ;	1
+let const integer N = 1e5	const int N = 1e5 ;
+	const int N = 1e5 ;	1
+let int array arr of size 10001	int arr [ 10001 ] ;
+	int arr [ 10001 ] ;	1
+declare prework	void prework ( )
+	void prework ( )	1
+set arr [ 0 ] to 0	arr [ 0 ] = 0 ;
+	arr [ 0 ] = 0 ;	1
+for i = 1 to 10000 , set arr [ i ] to arr [ i - 1 ] + i	for ( int i = 1 ; i <= 10000 ; i ++ ) { arr [ i ] = arr [ j - 1 ] + i ; }
+	for ( int i = 1 ; i <= 10000 ; i ++ ) { arr [ i ] = arr [ i - 1 ] + i ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call prework	prework ( ) ;
+	prework ( ) ;	1
+let ints n and cnt = 0	int n, cnt = 0 ;
+	int n , cnt = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 , loop indefinitely	for ( int i = 1 ; ; i ++ )
+	for ( int i = 1 ; ; i ++ )	1
+if n is less than arr [ i ] , break loop	if ( n < arr [ i ] ) break ;
+	if ( n < arr [ i ] ) break ;	1
+set n to n - arr [ i ]	n = n - arr [ i ] ;
+	n -= arr [ i ] ;	NA
+increment cnt	cnt ++ ;
+	cnt ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print cnt	cout << cnt << endl ;
+	cout << cnt << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

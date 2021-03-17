@@ -1,0 +1,102 @@
+create constant integer max4 with max4 = 10004	const int max4 = 10004 ;
+	const int max4 = 10004 ;	1
+create constant integer maxx with maxx = 200005	const int maxx = 200005 ;
+	const int maxx = 200005 ;	1
+create constant integer max6 with max6 = 1000006	const int max6 = 1000006 ;
+	const int max6 = 1000006 ;	1
+create constant integer lg5 with lg5 = 17	const int lg5 = 17 ;
+	const int lg5 = 17 ;	1
+create constant integer INF with INF = 1000000007	const int INF = 1000000007 ;
+	const int INF = 1000000007 ;	1
+create constant long long INFLL with INFLL = 4LL * 1000000000 * 1000000000	const long long INFLL = 4LL * 1000000000 * 100000000 ;
+	const long long INFLL = 4LL * 1000000000 * 1000000000 ;	NA
+declare powmod with integers a , b , mod as arguments , returning integer	int powmod ( int a, int b, int mod )
+	int powmod ( int a , int b , int mod )	NA
+create integer res with res = 1	int res = 1 ;
+	int res = 1 ;	1
+set a to a % mod	a %= mod ;
+	a %= mod ;	1
+for b , setting b to b bitshift right 1	for ( ; b ; b >>= 1 )
+	for ( ; b ; b >>= 1 )	1
+if b bitwise and 1 , set res to 1LL * res * a % mod	if ( b & 1 ) res = 1LL * res * a % mod ;
+	if ( b & 1 ) { res = 1LL * res * a % mod ; }	NA
+set a to 1LL * a * a % mod	a = 1LL * a * a % mod ;
+	a = 1LL * a * a % mod ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return res from function	return res ;
+	return res ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare gcd with integers a , b as arguments , returning integer	int gcd ( int a, int b )
+	int gcd ( int a , int b )	NA
+while b is greater than 0	while ( b > 0 )
+	while ( b > 0 )	1
+create integer t with t = a % b	int t = a % b ;
+	int t = a % b ;	1
+set a to b , set b to t	a = b, b = t ;
+	a = b , b = t ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return a from function	return a ;
+	return a ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare lcm with integers a , b as arguments , returning integer	int lcm ( int a, int b )
+	int lcm ( int a , int b )	NA
+return ( a / ( result of run gcd with a , b as arguments ) ) * b	return ( a / gcd ( a, b ) ) * b ;
+	return ( a / gcd ( a , b ) ) * b ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare is_prime with integer n as argument , returning integer	int is_prime ( int n )
+	int is_prime ( int n )	1
+if n is less than or equal to 1 or n is greater than 3 and ( n % 2 is 0 or n % 3 is 0 ) , return 0 from function	if ( n <= 1 || n > 3 && ( n % 2 == 0 || n % 3 == 0 ) ) return 0 ;
+	if ( n <= 1 || n > 3 && ( n % 2 == 0 || n % 3 == 0 ) ) return 0 ;	1
+for i = 5 , t = 2 to i * i is less than or equal to n , incrementing i by t , setting t to 6 - t	for ( int i = 5, t = 2 ; i * i <= n ; i += t ) t = 6 - t ;
+	for ( int i = 5 , t = 2 ; i * i <= n ; i += t , t = 6 - t )	NA
+if n % i is 0 , return 0 from function	if ( n % i == 0 ) return 0 ;
+	if ( n % i == 0 ) return 0 ;	1
+return 1 from function	return 1 ;
+	return 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+create integer n , create integer arrays arr , pref , suff , with arr size maxx , pref size maxx , suff size maxx	int n, arr [ maxx ], pref [ maxax ], suff [ maxmaxx ] ;
+	int n , arr [ maxx ] , pref [ maxx ] , suff [ maxx ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+if n is 1 , return print 1 print ' \ n ' , 0 from function	if ( n == 1 ) return cout << 1 <<'\n ', 0 ;
+	if ( n == 1 ) { return cout << 1 << ' \n ' , 0 ; }	NA
+for i = 1 to n inclusive , read arr [ i ]	for ( int i = 1 ; i <= n ; i ++ ) { cin >> arr [ i ] ; }
+	for ( int i = 1 ; i <= n ; i ++ ) { cin >> arr [ i ] ; }	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )
+	for ( int i = 1 ; i <= n ; i ++ )	1
+if arr [ i ] is greater than arr [ i - 1 ]	if ( arr [ i ] > arr [ j - 1 ] )
+	if ( arr [ i ] > arr [ i - 1 ] )	NA
+set pref [ i ] to pref [ i - 1 ] + 1	pref [ i ] = pref [ i - 1 ] + 1 ;
+	pref [ i ] = pref [ i - 1 ] + 1 ;	1
+else	else
+	else	1
+set pref [ i ] to 1	pref [ i ] = 1 ;
+	pref [ i ] = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = n to 1 inclusive , decrementing i	for ( int i = n ; i >= 1 ; i -- )
+	for ( int i = n ; i >= 1 ; i -- )	1
+if i is n or arr [ i ] is less than arr [ i + 1 ]	if ( i == n || arr [ i ] < arr [ 1 ] )
+	if ( i == n || arr [ i ] < arr [ i + 1 ] )	NA
+set suff [ i ] to suff [ i + 1 ] + 1	suff [ i ] = suff [ i + 1 ] + 1 ;
+	suff [ i ] = suff [ i + 1 ] + 1 ;	1
+else	else
+	else	1
+set suff [ i ] to 1	suff [ i ] = 1 ;
+	suff [ i ] = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+create integer res with res = 2	int res = 2 ;
+	int res = 2 ;	1
+for i = 2 to n exclusive	for ( int i = 2 ; i < n ; i ++ )
+	for ( int i = 2 ; i < n ; i ++ )	1
+if arr [ i + 1 ] is greater than arr [ i - 1 ] + 1 , set res to maximum of ( res and pref [ i - 1 ] + suff [ i + 1 ] + 1 )	if ( arr [ i + 1 ] > arr [ 1 ] + 1 ) res = max ( res, pref [ i - 1 ] ) + suff [ i ] + 2 ) ;
+	if ( arr [ i + 1 ] > arr [ i - 1 ] + 1 ) { res = max ( res , pref [ i - 1 ] + suff [ i + 1 ] + 1 ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 2 to n exclusive , set res to maximum of ( res and maximum of ( pref [ i ] and suff [ i ] ) + 1 )	for ( int i = 2 ; i < n ; i ++ ) { res = max ( res, max ( pref [ i ], suff [ 1 ] ) + 1 ) ; }
+	for ( int i = 2 ; i < n ; i ++ ) { res = max ( res , max ( pref [ i ] , suff [ i ] ) + 1 ) ; }	NA
+print res print ' \ n '	cout << res <<'\n';
+	cout << res << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

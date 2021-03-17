@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = long long	long long n ;
+	long long n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+val , ans = long long with val = 0 and ans = 0	long long val = 0, ans = 0 ;
+	long long val = 0 , ans = 0 ;	NA
+for i = 0 to 10001	for ( int i = 0 ; i < 10001 ; i ++ )
+	for ( long long i = 0 ; i < 10001 ; i ++ )	NA
+increment val by i	val += i ;
+	val += i ;	1
+increment ans by val	ans += val ;
+	ans += val ;	1
+if ans > n	if ( ans > n )
+	if ( ans > n )	1
+print i - 1	cout << i - 1 << endl ;
+	cout << i - 1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

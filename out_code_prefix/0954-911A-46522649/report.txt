@@ -1,0 +1,22 @@
+n , a , mink , pr , mind = integers with a = integer array of size 100001 , mink = 2e9 , pr = - 1 , mind = 2e9	int n, a [ 100001 ], mink = 2e9, pr = - 1, mind = 1e9 ;
+	int n , a [ 100001 ] , mink = 2e9 , pr = - 1 , mind = 2e9 ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read a [ i ]	cin >> a [ i ] ;
+	cin >> a [ i ] ;	1
+mink = min of mink and a [ i ]	mink = min ( mink, a [ i ] ) ;
+	mink = min ( mink , a [ i ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+if pr is not - 1 and a [ i ] is mink , mind = min ( mind , i - pr )	if ( pr!= - 1 && a [ i ] == mink ) { mind = min ( mind, i - pr ) ; }
+	if ( pr != - 1 && a [ i ] == mink ) { mind = min ( mind , i - pr ) ; }	NA
+if a [ i ] is mink , pr = i	if ( a [ i ] == mink ) { pr = i ; }
+	if ( a [ i ] == mink ) { pr = i ; }	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print mind	cout << mind << endl ;
+	cout << mind << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

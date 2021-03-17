@@ -1,0 +1,31 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , b , p = int	int n, b, p ;
+	int n , b , p ;	NA
+read n then b then p	cin >> n >> b >> p ;
+	cin >> n >> b >> p ;	1
+bottles = int with bottles = 0	int bottles = 0 ;
+	int bottles = 0 ;	1
+towels = int with towels = n * p	int towels = n * p ;
+	int towels = n * p ;	1
+loop while n is greater than 1	while ( n > 1 )
+	while ( n > 1 )	1
+k = int with k = 0	int k = 0 ;
+	int k = 0 ;	1
+for i = 32 - 1 to 0 inclusive decrementing i	for ( int i = 32 - 1 ; i >= 0 ; i -- )
+	for ( int i = 32 - 1 ; i >= 0 ; i -- )	1
+if n bitwise - and ( 1 bitshift left by i ) is 1	if ( n & ( 1 << i ) == 1 )
+	if ( n & ( 1 << i ) )	NA
+set k to 1 bitshift left by i	k = ( 1 << i ) ;
+	k = ( 1 << i ) ;	1
+break	break ;
+	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+set n to ( n - k ) + k / 2	n = ( n - k ) + k / 2 ;
+	n = ( n - k ) + k / 2 ;	1
+increment bottles by b * k + k / 2	bottles += b * k + k / 2 ;
+	bottles += b * k + k / 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print bottles and towels	cout << bottles << " " << towels << endl ;
+	cout << bottles << " " << towels << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

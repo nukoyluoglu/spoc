@@ -1,0 +1,33 @@
+n , k , p = integer	int n, k, p ;
+	int n , k , p ;	NA
+person = long long array of size 1005 , key = long long array of size 2005	long long person [ 1005 ], key [ 2005 ] ;
+	long long person [ 1005 ] , key [ 2005 ] ;	NA
+ans , tmp = long long	long long ans, tmp ;
+	long long ans , tmp ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+while read n , k , p	while ( cin >> n >> k >> p )
+	while ( cin >> n >> k >> p )	1
+ans = 99999999999999LL	ans = 99999999999999LL ;
+	ans = 99999999999999LL ;	1
+for i = 0 to n exclusive , read person [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> person [ i ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> person [ i ] ; }	1
+for i = 0 to k exclusive , read key [ i ]	for ( int i = 0 ; i < k ; i ++ ) { cin >> key [ i ] ; }
+	for ( int i = 0 ; i < k ; i ++ ) { cin >> key [ i ] ; }	1
+sort person and person + n	sort ( person, person + n ) ;
+	sort ( person , person + n ) ;	NA
+sort key and key + k	sort ( key, key + k ) ;
+	sort ( key , key + k ) ;	NA
+for i = 0 to i + n < = k	for ( int i = 0 ; i + n <= k ; i ++ )
+	for ( int i = 0 ; i + n <= k ; i ++ )	1
+tmp = 0	int tmp = 0 ;
+	tmp = 0 ;	NA
+for j = 0 to n exclusive , tmp = max of tmp and abs of key [ i + j ] - person [ j ] + abs of p - key [ i + j ]	for ( int j = 0 ; j < n ; j ++ ) { tmp = max ( tmp, abs ( key [ i + j ] - person [ j ] ) + abs ( p - key [ 1 ] ) ) ; }
+	for ( int j = 0 ; j < n ; j ++ ) { tmp = max ( tmp , abs ( key [ i + j ] - person [ j ] ) + abs ( p - key [ i + j ] ) ) ; }	NA
+ans = min of tmp and ans	ans = min ( tmp, ans ) ;
+	ans = min ( tmp , ans ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;
+	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

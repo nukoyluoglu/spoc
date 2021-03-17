@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , b , i , j , c , n , p , q = int with j = 0 and c = 0 and p = 0 and q = 0	long long int a, b, i, j = 0, c = 1, n, p == 0, q = 0 ;
+	int a , b , i , j = 0 , c = 0 , n , p = 0 , q = 0 ;	NA
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 1 to n inclusive	for ( i = 1 ; i <= n ; i ++ )
+	for ( i = 1 ; i <= n ; i ++ )	1
+read a then b	cin >> a >> b ;
+	cin >> a >> b ;	1
+set p to p + a	p += a ;
+	p = p + a ;	NA
+set q to q + b	q = q + b ;
+	q = q + b ;	1
+set c to q - p	c = q - p ;
+	c = q - p ;	1
+if c > j set j to c	if ( c > j ) j = c ;
+	if ( c > j ) { j = c ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print j	cout << j << endl ;
+	cout << j << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

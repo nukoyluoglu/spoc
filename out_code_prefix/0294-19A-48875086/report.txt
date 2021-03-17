@@ -1,0 +1,74 @@
+n = int , wp , dg and sg = array of 55 int	int n, wp [ 55 ], dg [ 57 ], sg [ 59 ] ;
+	int n , wp [ 55 ] , dg [ 55 ] , sg [ 55 ] ;	NA
+name = array of 55 string	string name [ 55 ] ;
+	string name [ 55 ] ;	1
+function cmp ( get int a and b , return bool )	bool cmp ( int a, int b )
+	bool cmp ( int a , int b )	NA
+if wp [ a ] is not wp [ b ] return wp [ a ] > wp [ b ]	if ( wp [ a ]!= wpp [ b ] ) return wp. a ] > wp. b ] ;
+	if ( wp [ a ] != wp [ b ] ) { return wp [ a ] > wp [ b ] ; }	NA
+if dg [ a ] is not dg [ b ] return dg [ a ] > dg [ b ]	if ( bg [ a ]!= dg [ b ] ) { return dg. a ++ ; }
+	if ( dg [ a ] != dg [ b ] ) { return dg [ a ] > dg [ b ] ; }	NA
+return sg [ a ] > sg [ b ]	return strcmp ( sg [ a ], cmp + b ) > 0 ;
+	return sg [ a ] > sg [ b ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;
+	cin >> n ;	1
+for i = 0 to n exclusive read name [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> name [ i ] ; }
+	for ( int i = 0 ; i < n ; i ++ ) { cin >> name [ i ] ; }	1
+for i = 0 to n * ( n - 1 ) / 2 exclusive	for ( int i = 0 ; i < n * ( n - 1 ) / 2 ; i ++ )
+	for ( int i = 0 ; i < n * ( n - 1 ) / 2 ; i ++ )	1
+s , a , b = string	string s, a, b ;
+	string s , a , b ;	NA
+p , q = int	int p, q ;
+	int p , q ;	NA
+c = char	char c ;
+	char c ;	1
+read s , p , c , q	cin >> s >> p >> c >> q ;
+	cin >> s >> p >> c >> q ;	1
+a = left portion of s before ' - '	a = s. size ( ) - 1 ;
+	a = s . substr ( 0 , s . find ( ' - ' ) ) ;	NA
+b = right portion of s after ' - '	b = s. find ('-') ;
+	b = s . substr ( s . find ( ' - ' ) + 1 ) ;	NA
+a1 = find ( name , name + n , a ) - name , b1 = find ( name , name + n , b ) - name	a1 = find ( name, name + n, a ) - name, b1 = endl, name += n, b ) ;
+	int a1 = find ( name , name + n , a ) - name , b1 = find ( name , name + n , b ) - name ;	NA
+if p > q	if ( p > q )
+	if ( p > q )	1
+add 3 to wp [ a1 ]	dp [ a1 ] += 3 ;
+	wp [ a1 ] += 3 ;	NA
+else if q is p	else if ( q == p )
+	else if ( q == p )	1
+increment wp [ a1 ]	dp [ a1 ] += 1 ;
+	wp [ a1 ] ++ ;	NA
+increment wp [ b1 ]	dp [ b1 ] ++ ;
+	wp [ b1 ] ++ ;	NA
+else	else
+	else	1
+add 3 to wp [ b1 ]	dp [ b1 ] += 3 ;
+	wp [ b1 ] += 3 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+add p - q to dg [ a1 ]	dp [ a1 ] += p - q ;
+	dg [ a1 ] += p - q ;	NA
+add p to sg [ a1 ]	sb [ a1 ] += p ;
+	sg [ a1 ] += p ;	NA
+add q - p to dg [ b1 ]	dp [ b1 ] += q - p ;
+	dg [ b1 ] += q - p ;	NA
+add q to sg [ b1 ]	sb [ b1 ] += q ;
+	sg [ b1 ] += q ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+a = array of 55 int	int a [ 55 ] ;
+	int a [ 55 ] ;	1
+for i = 0 to n exclusive a [ i ] = i	for ( int i = 0 ; i < n ; i ++ ) a [ i ] = i ;
+	for ( int i = 0 ; i < n ; i ++ ) { a [ i ] = i ; }	NA
+sort first n items of a using function cmp	sort ( a, a + n, cmp ) ;
+	sort ( a , a + n , cmp ) ;	NA
+ans = array of 55 string	string ans [ 55 ] ;
+	string ans [ 55 ] ;	1
+for i = 0 to n / 2 exclusive ans [ i ] = name [ a [ i ] ]	for ( int i = 0 ; i < n / 2 ; i ++ ) { ans [ i ] = name [ a [ 1 ] ] ; }
+	for ( int i = 0 ; i < n / 2 ; i ++ ) { ans [ i ] = name [ a [ i ] ] ; }	NA
+sort first n / 2 items of ans	sort ( ans, ans + n / 2 ) ;
+	sort ( ans , ans + n / 2 ) ;	NA
+for i = 0 to n / 2 exclusive print ans [ i ]	for ( int i = 0 ; i < n / 2 ; i ++ ) { cout << ans [ i ] ; }
+	for ( int i = 0 ; i < n / 2 ; i ++ ) { cout << ans [ i ] << endl ; }	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,34 @@
+mul is a long long function with long long arguments x and p	long long mul ( long long x, long long p )
+	long long mul ( long long x , long long p )	NA
+declare long long ans = 1	long long ans = 1 ;
+	long long ans = 1 ;	1
+while p is not 0	while ( p )
+	while ( p )	1
+if p & 1 ! = 0 , assign ans * x % 1000000007 to ans	if ( p & 1 ) ans = ans * x % 1000000007 ;
+	if ( p & 1 ) ans = ans * x % 1000000007 ;	1
+set x to x * x % 1000000007	x = x * x % 1000000007 ;
+	x = x * x % 1000000007 ;	1
+assign p > > 1 to p	p >>= 1 ;
+	p = p >> 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return ans	return ans ;
+	return ans ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare long long variable n	long long n ;
+	long long n ;	1
+read n	cin >> n ;
+	cin >> n ;	1
+if n is equal to 0	if ( n == 0 )
+	if ( n == 0 )	1
+print 1	cout << 1 << endl ;
+	cout << 1 << endl ;	1
+else	else
+	else	1
+declare long long variable w = mul ( 2 , n - 1 ) % 1000000007	long long w = mul ( 2, n - 1 ) % 1000000007 ;
+	long long w = mul ( 2 , n - 1 ) % 1000000007 ;	NA
+print ( w + w * w % 1000000007 * 2 % 1000000007 ) % 1000000007	cout << ( long long ) ( w + w * w % 1000000007 * 2 ) % 10000000007 << endl ;
+	cout << ( w + w * w % 1000000007 * 2 % 1000000007 ) % 1000000007 << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

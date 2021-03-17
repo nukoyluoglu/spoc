@@ -1,0 +1,31 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create n , sum , s as int set sum and s to 0	int n, sum = 0, s = 0 ;
+	int n , sum = 0 , s = 0 ;	NA
+read in to n	cin >> n ;
+	cin >> n ;	1
+create int array arr and ar both size n	int ar [ n ], sum = 0 ;
+	int arr [ n ] , ar [ n ] ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read in to arr [ i ]	cin >> arr [ i ] ;
+	cin >> arr [ i ] ;	1
+increase sum by arr [ i ]	sum += arr [ i ] ;
+	sum += arr [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )
+	for ( int i = 0 ; i < n ; i ++ )	1
+read in to ar [ i ]	cin >> ar [ i ] ;
+	cin >> ar [ i ] ;	1
+increase s by ar [ i ]	s += ar [ i ] ;
+	s += ar [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if s < = sum	if ( s <= sum )
+	if ( s <= sum )	1
+print YES	cout << " YES\n " ;
+	cout << " YES " << endl ;	NA
+else	else
+	else	1
+print NO	cout << " NO " << endl ;
+	cout << " NO " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

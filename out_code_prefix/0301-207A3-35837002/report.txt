@@ -1,0 +1,28 @@
+a = pair of pair of int and int and int of size 200020	pair < int, int > a [ 200020 ] ;
+	pair < pair < int , int > , int > a [ 200020 ] ;	NA
+n , k , c , x , y , m , z , ac , t , b , i = long long	long long n, k, c, x, y, m, z, ac, t, b, i ;
+	long long n , k , c , x , y , m , z , ac , t , b , i ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n then loop n times decrementing n and incrementing i each time	while ( cin >> n ) n --, i ++ ;
+	for ( cin >> n ; n -- ; i ++ )	NA
+read k then c then x then y then m and set t to 0 then loop k times decrementing k and setting z to max of z and t each time	while ( cin >> k >> c >> x >> y >> m ) { t = 0 ; }
+	for ( cin >> k >> c >> x >> y >> m , t = 0 ; k -- ; z = max ( z , t ) )	NA
+if ac is less or equal to 200000 then set a [ ac ] to value of make_pair of pair of int and int of t and c and i then increment ac	if ( ac <= 200000 ) a [ ac ++ ] = * make_pair ( pair < int, int > t, c, i ) ;
+	if ( ac <= 200000 ) a [ ac ++ ] = make_pair ( pair < int , int > ( t , c ) , i ) ;	NA
+set b to ( c * x + y ) mod m	b = ( c * x + y ) % m ;
+	b = ( c * x + y ) % m ;	1
+if b is less than c and k is not 0 then increment t	if ( b < c && k!= 0 ) t ++ ;
+	if ( b < c && k ) t ++ ;	NA
+set c to b	c = b ;
+	c = b ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print z	cout << z << endl ;
+	cout << z << endl ;	1
+if ac is less than 200001	if ( ac < 200001 )
+	if ( ac < 200001 )	1
+call sort on a and a + ac	sort ( a, a + ac ) ;
+	sort ( a , a + ac ) ;	NA
+for i = 0 to ac print a [ i ] . first . second and a [ i ] . second + 1	for ( int i = 0 ; i < ac ; i ++ ) { cout << a [ i ]. first. second + 1 << endl ; }
+	for ( int i = 0 ; i < ac ; i ++ ) cout << a [ i ] . first . second << " " << a [ i ] . second + 1 << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
