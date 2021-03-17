@@ -11,4 +11,4 @@ cp out/translate.summary out/spoc-train-test.summary
 cp ./data/train/split/spoc-train-test.tsv out/
 bash stitcher/stitching.sh out/spoc-train-test
 
-python ./count_matches.py
+python ./count_matches_beam.py
