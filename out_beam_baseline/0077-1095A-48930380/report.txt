@@ -1,0 +1,22 @@
+define function compare with arguments p1 and p2 of type pair of string and int	pair < string, int > compare ( p1, p2 )	int compare ( pair < string , int > p1 , pair < string , int > p2 )	NA
+return true if p1 . second > p2 . second or false if it is not	return p1. second > p2. second ;	return ( p1 . second > p2 . second ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n is integer	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+declare string called s	string s ;	string s ;	1
+read s	cin >> s ;	cin >> s ;	1
+declare string variable called ans = " "	string ans = " " ;	string ans = " " ;	1
+declare integer called h = 1	int h = 1 ;	int h = 1 ;	1
+declare integer variable called c = 1	int c = 1 ;	int c = 1 ;	1
+for integer i = 0 to length of s exclusive	for ( int i = 0 ; i < s. length ( ) ; i ++ )	for ( int i = 0 ; i < int ( s . size ( ) ) ; i ++ )	NA
+if c = h	if ( c == h )	if ( c == h )	1
+increase ans by s [ i ]	ans += s [ i ] ;	ans += s [ i ] ;	1
+increment h	h ++ ;	h ++ ;	1
+c = 1	c = 1 ;	c = 1 ;	1
+else	else	else	1
+increase c by one	c ++ ;	c ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans and a new line	cout << ans << endl ;	cout << ans << endl ;	1
+read n	cin >> n ;	cin >> n ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

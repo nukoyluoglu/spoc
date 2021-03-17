@@ -1,0 +1,22 @@
+create long longs n , p , b and q	long long n, p, b, q ;	long long n , p , b , q ;	NA
+long long function gcd with long long arguments a and b	long long gcd ( long long a, long long b )	long long gcd ( long long a , long long b )	NA
+return a if b = 0	if ( b == 0 ) return a ;	if ( b == 0 ) return a ;	1
+return gcd ( b , a % b )	return gcd ( b, a % b ) ;	return gcd ( b , a % b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;	cin >> n ;	1
+decrement n and loop further , while n > 0	while ( n -- )	while ( n -- )	1
+read from the input to p , q and b	cin >> p >> q >> b ;	cin >> p >> q >> b ;	1
+declare long long variable tmp = gcd ( p , q )	long long tmp = gcd ( p, q ) ;	long long tmp = gcd ( p , q ) ;	NA
+divide p by tmp	p /= tmp ;	p /= tmp ;	1
+divide q by tmp	q /= tmp ;	q /= tmp ;	1
+create long long div = gcd of b and q	long long div = gcd ( b, q ) ;	long long div = gcd ( b , q ) ;	NA
+while div = ( gcd ( b , q ) ! = 1 )	while ( div = ( gcd ( b, q ) )!= 1 )	while ( ( div = gcd ( b , q ) ) != 1 )	NA
+while q % div is 0 , divide q by div	while ( q % div == 0 ) q /= div ;	while ( q % div == 0 ) q /= div ;	1
+if q is 1	if ( q == 1 )	if ( q == 1 )	1
+print " Finite "	cout << " Finite " << endl ;	cout << " Finite " << endl ;	1
+else	else	else	1
+print " Infinite "	cout << " Infinite " << endl ;	cout << " Infinite " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,11 @@
+INF is a new constant integer = 0x3f3f3f3f	const int INF = ( 0x3f3f )3f ;	const int INF = 0x3f3f3f3f ;	NA
+create new constant integer mod with value 998244353	const int mod = 998244353 ;	const int mod = 998244353 ;	1
+declare character arrays a and b with 100005 elements	char a [ 100005 ], b [ 100000 ] ;	char a [ 100005 ] , b [ 100005 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read input to a and b	cin >> a >> b ;	cin >> a >> b ;	1
+if content of a and b matches	if ( strcmp ( a, b ) == 0 )	if ( strcmp ( a , b ) == 0 )	NA
+return puts ( " - 1 " )	return puts ( " -1 " ) ;	return puts ( " -1 " ) , 0 ;	NA
+else	else	else	1
+print max of length of a and length of b to the standard output	cout << max ( a. length ( ), b. size ( ) ) << endl ;	cout << max ( strlen ( a ) , strlen ( b ) ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

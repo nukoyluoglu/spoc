@@ -1,0 +1,9 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , a , b , i = long long int	long long int n, a, b, i ;	long long int n , a , b , i ;	NA
+read n then a then b	cin >> n >> a >> b ;	cin >> n >> a >> b ;	1
+p = long long int array of size n	long long int p [ n ] ;	long long int p [ n ] ;	1
+read n values into p	for ( int i = 0 ; i < n ; i ++ ) cin >> p [ i ] ;	for ( i = 0 ; i < n ; i ++ ) cin >> p [ i ] ;	3
+sort p	sort ( p, p + n ) ;	sort ( p , p + n ) ;	NA
+x = long long int with x = p [ n - a ] - p [ b - 1 ]	long long int x = p [ n - a ] - p [ b - 1 ] ;	long long int x = p [ n - a ] - p [ b - 1 ] ;	1
+print x	cout << x << endl ;	cout << x << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

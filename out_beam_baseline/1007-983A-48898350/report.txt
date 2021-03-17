@@ -1,0 +1,23 @@
+n = integer	int n ;	int n ;	1
+p , q , b = long long	long long p, q, b ;	long long p , q , b ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;	cin >> n ;	1
+while decrement n	while ( n -- )	while ( n -- )	1
+read p , q , b	cin >> p >> q >> b ;	cin >> p >> q >> b ;	1
+if p modulo q is 0	if ( p % q == 0 )	if ( p % q == 0 )	1
+print Finite	cout << " Finite " << endl ;	cout << " Finite\n " ;	2
+continue iteration	continue ;	continue ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+q = q / gcd of p and q	q = q / gcd ( p, q ) ;	q /= __gcd ( p , q ) ;	NA
+g = long long	long long g ;	long long g ;	1
+while 1	while ( 1 )	while ( 1 )	1
+g = gcd of q and b	g = __gcd ( q, b ) ;	g = __gcd ( q , b ) ;	NA
+if g is 1 , break loop	if ( g == 1 ) break ;	if ( g == 1 ) break ;	1
+while q modulo g is 0 , q = q / g	while ( q % g == 0 ) q /= g ;	while ( q % g == 0 ) q /= g ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if q is not 1	if ( q!= 1 )	if ( q != 1 )	NA
+print Infinite	cout << " Infinite " << endl ;	cout << " Infinite\n " ;	2
+else	else	else	1
+print Finite	cout << " Finite " << endl ;	cout << " Finite\n " ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,11 @@
+create constant integer N with N = 5000 + 100	const int N = 5000 + 100 ;	const int N = 5000 + 100 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create doubles l , q , p , t , ans	double l, q, p, t, ans ;	double l , q , p , t , ans ;	NA
+while read l is true	while ( cin >> l )	while ( cin >> l )	1
+read p read q	cin >> p >> q ;	cin >> p >> q ;	1
+set t to l / ( p + q )	t = l / ( p + q ) ;	t = l / ( p + q ) ;	1
+set ans to p * t	ans = p * t ;	ans = p * t ;	1
+print ans print newline	cout << ans << endl ;	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

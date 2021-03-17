@@ -1,0 +1,8 @@
+create FILE pointer stream	void setf ( ) { }	FILE * stream ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long n	long long n ;	long long n ;	1
+read n	cin >> n ;	cin >> n ;	1
+create long long x with x = 1	long long x = 1 ;	long long x = 1 ;	1
+while n % x is 0 , set x to x * 3	while ( n % x == 0 ) x *= 3 ;	while ( n % x == 0 ) { x *= 3 ; }	2
+print ( n / x ) + 1 print newline	cout << ( n / x ) + 1 << endl ;	cout << ( n / x ) + 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

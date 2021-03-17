@@ -1,0 +1,13 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create ints n , ans1 = 0 , ans2 = 0 , f , t , and tot = 0 and int array d of size 105	int n, d [ 105 ], ans1 = 1, ans2 = 0, f, t, tot = 0 ;	int n , ans1 = 0 , ans2 = 0 , d [ 105 ] , f , t , tot = 0 ;	NA
+read n	cin >> n ;	cin >> n ;	1
+for i = 1 to n	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; i ++ )	1
+read d [ i ]	cin >> d [ i ] ;	cin >> d [ i ] ;	1
+set tot to tot + d [ i ]	tot += d [ i ] ;	tot += d [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+read f and t	cin >> f >> t ;	cin >> f >> t ;	1
+if f is greater than t , swap the values of f and t	if ( f > t ) swap ( f, t ) ;	if ( f > t ) swap ( f , t ) ;	NA
+for i = f to t exclusive , set ans1 to ans1 + d [ i ]	for ( int i = f ; i < t ; i ++ ) ans1 += d [ i ] ;	for ( int i = f ; i < t ; i ++ ) ans1 += d [ i ] ;	1
+set ans2 to tot - ans1	ans2 = tot - ans1 ;	ans2 = tot - ans1 ;	1
+print the min of ans1 and ans2	cout << min ( ans1, ans2 ) << endl ;	cout << min ( ans1 , ans2 ) << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

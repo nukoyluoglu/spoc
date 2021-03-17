@@ -1,0 +1,10 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+x1 , y1 , x2 , y2 , x3 , y3 = long longs	long long x1, y1, x2, y2, x3, y3 ;	long long x1 , y1 , x2 , y2 , x3 , y3 ;	NA
+read x1 , y1 , x2 , y2 , x3 , y3	cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3 ;	cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3 ;	1
+vx1 = long long = x2 - x1 , vy1 = long long = y2 - y1 , vx2 = long long = x3 - x2 , vy2 = long long = y3 - y2	long long vx1 = x2 - x1, xy1 = y2 - y1, vx2 = x3 - x2, vy2 = y3 - y2 ;	long long vx1 = x2 - x1 , vy1 = y2 - y1 , vx2 = x3 - x2 , vy2 = y3 - y2 ;	NA
+cha = long long = vx1 * vy2 - vx2 * vy1	long long cha = vx1 + vy2 - vx2 * vy1 ;	long long cha = vx1 * vy2 - vx2 * vy1 ;	NA
+if cha > 0 , then print LEFT	if ( cha > 0 ) cout << " LEFT " << endl ;	if ( cha > 0 ) { cout << " LEFT " << endl ; }	NA
+if cha < 0 , then print RIGHT	if ( cha < 0 ) cout << " RIGHT " << endl ;	if ( cha < 0 ) { cout << " RIGHT " << endl ; }	2
+if cha is 0 , then print TOWARDS	if ( cha == 0 ) cout << " TOWARDS " << endl ;	if ( cha == 0 ) { cout << " TOWARDS " << endl ; }	2
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

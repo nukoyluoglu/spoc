@@ -1,0 +1,118 @@
+create pair of integer , integer array par with size 10001	pair < int, int > par [ 10001 ] ;	pair < int , int > par [ 10001 ] ;	NA
+create string set str	set < string > str ;	set < string > str ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string s	string s ;	string s ;	1
+create integers n , i	int n, i ;	int n , i ;	NA
+read n read s	cin >> n >> s ;	cin >> n >> s ;	1
+if n is 8	if ( n == 8 )	if ( n == 8 )	1
+print " vaporeon " print newline	cout << " vaporeon " << endl ;	cout << " vaporeon " << endl ;	1
+else if n is 6	else if ( n == 6 )	else if ( n == 6 )	1
+print " espeon " print newline	cout << " espeon " << endl ;	cout << " espeon " << endl ;	1
+else if n is 7	else if ( n == 7 )	else if ( n == 7 )	1
+if s [ 0 ] is ' . '	if ( s [ 0 ] == '.')	if ( s [ 0 ] == ' . ' )	NA
+if s [ 1 ] is ' o '	if ( s [ 1 ] =='o')	if ( s [ 1 ] == ' o ' )	NA
+print " jolteon " print newline	cout << " jolteon " << endl ;	cout << " jolteon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 1 ] is ' m '	if ( s [ 1 ] =='m')	if ( s [ 1 ] == ' m ' )	NA
+print " umbreon " print newline	cout << " umbreon " << endl ;	cout << " umbreon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 1 ] is ' e '	if ( s [ 1 ] =='e')	if ( s [ 1 ] == ' e ' )	NA
+print " leafeon " print newline	cout << " leafeon " << endl ;	cout << " leafeon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 1 ] is ' y '	if ( s [ 1 ] =='y')	if ( s [ 1 ] == ' y ' )	NA
+print " sylveon " print newline	cout << " sylveon " << endl ;	cout << " sylveon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 1 ] is ' l '	if ( s [ 1 ] =='l')	if ( s [ 1 ] == ' l ' )	NA
+if s [ 3 ] is ' r '	if ( s [ 3 ] =='r')	if ( s [ 3 ] == ' r ' )	NA
+print " flareon " print newline	cout << " flareon " << endl ;	cout << " flareon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else	else	else	1
+print " glaceon " print newline	cout << " glaceon " << endl ;	cout << " glaceon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 1 ] is ' . '	if ( s [ 1 ] == '.')	if ( s [ 1 ] == ' . ' )	NA
+if s [ 2 ] is ' b '	if ( s [ 2 ] =='b')	if ( s [ 2 ] == ' b ' )	NA
+print " umbreon " print newline	cout << " umbreon " << endl ;	cout << " umbreon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 2 ] is ' l '	if ( s [ 2 ] =='l')	if ( s [ 2 ] == ' l ' )	NA
+if s [ 3 ] is ' t '	if ( s [ 3 ] =='t')	if ( s [ 3 ] == ' t ' )	NA
+print " jolteon " print newline	cout << " jolteon " << endl ;	cout << " jolteon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else	else	else	1
+print " sylveon " print newline	cout << " sylveon " << endl ;	cout << " sylveon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 2 ] is ' a '	if ( s [ 2 ] =='a')	if ( s [ 2 ] == ' a ' )	NA
+if s [ 3 ] is ' r '	if ( s [ 3 ] =='r')	if ( s [ 3 ] == ' r ' )	NA
+print " flareon " print newline	cout << " flareon " << endl ;	cout << " flareon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 3 ] is ' c '	if ( s [ 3 ] =='c')	if ( s [ 3 ] == ' c ' )	NA
+print " glaceon " print newline	cout << " glaceon " << endl ;	cout << " glaceon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else	else	else	1
+print " leafeon " print newline	cout << " leafeon " << endl ;	cout << " leafeon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 2 ] is ' . '	if ( s [ 2 ] == '.')	if ( s [ 2 ] == ' . ' )	NA
+if s [ 3 ] is ' r '	if ( s [ 3 ] =='r')	if ( s [ 3 ] == ' r ' )	NA
+print " flareon " print newline	cout << " flareon " << endl ;	cout << " flareon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 3 ] is ' c '	if ( s [ 3 ] =='c')	if ( s [ 3 ] == ' c ' )	NA
+print " glaceon " print newline	cout << " glaceon " << endl ;	cout << " glaceon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 3 ] is ' f '	if ( s [ 3 ] =='f')	if ( s [ 3 ] == ' f ' )	NA
+print " leafeon " print newline	cout << " leafeon " << endl ;	cout << " leafeon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 3 ] is ' t '	if ( s [ 3 ] =='t')	if ( s [ 3 ] == ' t ' )	NA
+print " jolteon " print newline	cout << " jolteon " << endl ;	cout << " jolteon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 3 ] is ' v '	if ( s [ 3 ] =='v')	if ( s [ 3 ] == ' v ' )	NA
+print " sylveon " print newline	cout << " sylveon " << endl ;	cout << " sylveon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else	else	else	1
+print " umbreon " print newline	cout << " umbreon " << endl ;	cout << " umbreon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 0 ] is ' j '	if ( s [ 0 ] =='j')	if ( s [ 0 ] == ' j ' )	NA
+print " jolteon " print newline	cout << " jolteon " << endl ;	cout << " jolteon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 0 ] is ' f '	if ( s [ 0 ] =='f')	if ( s [ 0 ] == ' f ' )	NA
+print ' flareon " print newline	cout << " flareon " << endl ;	cout << " flareon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 0 ] is ' u '	if ( s [ 0 ] =='u')	if ( s [ 0 ] == ' u ' )	NA
+print " umbreon " print newline	cout << " umbreon " << endl ;	cout << " umbreon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 0 ] is ' l '	if ( s [ 0 ] =='l')	if ( s [ 0 ] == ' l ' )	NA
+print " leafeon " print newline	cout << " leafeon " << endl ;	cout << " leafeon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 0 ] is ' g '	if ( s [ 0 ] =='g')	if ( s [ 0 ] == ' g ' )	NA
+print " glaceon " print newline	cout << " glaceon " << endl ;	cout << " glaceon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if s [ 0 ] is ' s '	if ( s [ 0 ] =='s')	if ( s [ 0 ] == ' s ' )	NA
+print " sylveon " print newline	cout << " sylveon " << endl ;	cout << " sylveon " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

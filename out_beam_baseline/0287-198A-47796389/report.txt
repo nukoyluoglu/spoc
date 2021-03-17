@@ -1,0 +1,11 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+k , b , n , t = long longs	long long k, b, n, t ;	long long k , b , n , t ;	NA
+read k , b , n and t	cin >> k >> b >> n >> t ;	cin >> k >> b >> n >> t ;	1
+declare cnt as long long set to 1	long long cnt = 1 ;	long long cnt = 1 ;	1
+while c less than or equal to t	while ( c <= t )	while ( cnt <= t )	NA
+set cnt to cnt * k + b	cnt *= k + b ;	cnt = cnt * k + b ;	2
+decrement n	n -- ;	n -- ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print max ( 0LL , n + 1 )	cout << max ( 0LL, n + 1 ) << endl ;	cout << max ( 0LL , n + 1 ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

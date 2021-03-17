@@ -1,0 +1,72 @@
+me is a map of long long to long long	map < long long, long long > me ;	map < long long , long long > me ;	NA
+create long long array fine with 100000 + 5 elements	long long fine [ 100000 + 5 ] ;	long long fine [ 100000 + 5 ] ;	1
+pre is a void function	void pre ( )	void pre ( )	1
+for long long i = 2 to 100000 inclusive	for ( long long i = 2 ; i <= 100000 ; i ++ )	for ( long long i = 2 ; i <= 100000 ; i ++ )	1
+if fine [ i ] is equal to 0	if ( fine [ i ] == 0 )	if ( fine [ i ] == 0 )	1
+for j from 2 * i to 100000 inclusive increasing j by i , assign 1 to fine [ j ]	for ( int j = 2 * i ; j <= 100000 ; j += i ) { fine [ j ] = 1 ; }	for ( long long j = 2 * i ; j <= 100000 ; j += i ) { fine [ j ] = 1 ; }	2
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+create an arrays of long longs fact and invfact with 100000 elements each	long long fact [ 1000000 ], invfact [ 100000 ] ;	long long fact [ 100000 ] , invfact [ 100000 ] ;	NA
+pow is a long long function with long long arguments a , b and m	long long pow ( long long a, long long m )	long long pow ( long long a , long long b , long long m )	NA
+declare long long variable ans = 1	long long ans = 1 ;	long long ans = 1 ;	1
+while b is not 1	while ( b!= 1 )	while ( b )	3
+if b & 1 is not 0 , assign ( ans * a ) % m to ans	if ( b & 1 ) ans = ( ans * a ) % m ;	if ( b & 1 ) ans = ( ans * a ) % m ;	1
+divide b by 2	b /= 2 ;	b /= 2 ;	1
+change a to ( a * a ) % m	a = ( a * a ) % m ;	a = ( a * a ) % m ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return ans	return ans ;	return ans ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+long long function modinv with long long argument k	long long modinv ( long long k )	long long modinv ( long long k )	1
+return pow ( k , 1000000007 - 2 , 1000000007 )	return pow ( k, 1e9 + 7 - 2, 1000000007 ) ;	return pow ( k , 1000000007 - 2 , 1000000007 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+define function precompute	void precompute ( )	void precompute ( )	1
+set fact [ 0 ] to set fact [ 1 ] to 1	fact [ 0 ] = fact [ 1 ] = 1 ;	fact [ 0 ] = fact [ 1 ] = 1 ;	1
+for i from 2 to 100000 exclusive	for ( int i = 2 ; i < 100000 ; i ++ )	for ( long long i = 2 ; i < 100000 ; i ++ )	3
+assign fact [ i - 1 ] * i to fact [ i ]	fact [ i ] = fact [ i - 1 ] * i ;	fact [ i ] = fact [ i - 1 ] * i ;	1
+fact [ i ] % = 1000000007	fact [ i ] %= 1000000007 ;	fact [ i ] %= 1000000007 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set invfact [ 100000 - 1 ] to modinv ( fact [ 100000 - 1 ] )	for ( int i = 0 ; i < 100000 ; i ++ ) invfact [ 1e9 ] = modinv ( fact [ 100000 - 1 ] ) ;	invfact [ 100000 - 1 ] = modinv ( fact [ 100000 - 1 ] ) ;	NA
+for i from 100000 - 2 to 0 inclusive decrementing i	for ( int i = 100000 - 2 ; i >= 0 ; i -- )	for ( long long i = 100000 - 2 ; i >= 0 ; i -- )	2
+change invfact [ i ] to invfact [ i + 1 ] * ( i + 1 )	invfact [ i ] = invfact [ 1 + 1 ] * ( i + 1 ) ;	invfact [ i ] = invfact [ i + 1 ] * ( i + 1 ) ;	NA
+invfact [ i ] % = 1000000007	invfact [ i ] %= 1000000007 ;	invfact [ i ] %= 1000000007 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+function nCr with long long arguments x and y that returns long long	long long nCr ( long long x, long long y )	long long nCr ( long long x , long long y )	NA
+if y is greater than x , return 0	if ( y > x ) return 0 ;	if ( y > x ) return 0 ;	1
+set long long num to fact [ x ]	long long num = fact [ x ] ;	long long num = fact [ x ] ;	1
+multiply num by invfact [ y ]	num *= invfact [ y ] ;	num *= invfact [ y ] ;	1
+num % = 1000000007	const int num %= 1000000007 ;	num %= 1000000007 ;	2
+multiply num by invfact [ x - y ]	num *= invfact [ x - y ] ;	num *= invfact [ x - y ] ;	1
+num % = 1000000007	const int num %= 1000000007 ;	num %= 1000000007 ;	2
+return num	return num ;	return num ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long n	long long n ;	long long n ;	1
+read n	cin >> n ;	cin >> n ;	1
+call precompute ( )	precompute ( ) ;	precompute ( ) ;	1
+call pre ( )	pre ( ) ;	pre ( ) ;	1
+loop i from 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( long long i = 1 ; i <= n ; i ++ )	3
+create long long temp	long long temp ;	long long temp ;	1
+read temp	cin >> temp ;	cin >> temp ;	1
+for j = 2 to 100000 inclusive	for ( int j = 2 ; j <= 100000 ; j ++ )	for ( long long j = 2 ; j <= 100000 ; j ++ )	4
+create long long cur = 0	long long cur = 0 ;	long long cur = 0 ;	1
+if temp < = 1 , stop the loop	if ( temp <= 1 ) break ;	if ( temp <= 1 ) break ;	1
+while temp modulo j = 0 & & temp > 1	while ( temp % j == 0 && temp > 1 )	while ( temp % j == 0 && temp > 1 )	1
+increment cur	cur ++ ;	cur ++ ;	1
+divide temp by j	temp /= j ;	temp /= j ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if cur ! = 0 , increase me [ j ] by cur	if ( cur!= 0 ) me [ j ] += cur ;	if ( cur != 0 ) me [ j ] += cur ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if temp ! = 1 , increase me [ temp ] by 1	if ( temp!= 1 ) me [ temp ] += 1 ;	if ( temp != 1 ) me [ temp ] += 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create map iterator it	map < string, int > :: iterator it ;	map < long long , long long > :: iterator it ;	NA
+declare long long ans = 1	long long ans = 1 ;	long long ans = 1 ;	1
+move it through me in a loop	for ( it = getchar ( ) ; it!='\n'; it ++ )	for ( it = me . begin ( ) ; it != me . end ( ) ; it ++ )	NA
+declare long long variable temp = it - > second	long long temp = it -> second ;	long long temp = it -> second ;	1
+multiply ans by nCr ( temp + n - 1 , temp )	ans *= nCr ( temp + n - 1, temp ) ;	ans *= nCr ( temp + n - 1 , temp ) ;	NA
+ans % = 1000000007	int ans %= 1000000007 ;	ans %= 1000000007 ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

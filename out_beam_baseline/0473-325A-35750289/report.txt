@@ -1,0 +1,19 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+declare integers x0 , y0 , x1 , y1 and a with a = 0	int x0, y0, x1, y1, a = 0 ;	int x0 , y0 , x1 , y1 , a = 0 ;	NA
+change x0 and y0 to 1e9 + 87	x0 = y0 = 1e9 + 87 ;	x0 = y0 = 1e9 + 87 ;	1
+change x1 and y1 to - 9e8	x1 = y1 = - 9e8 ;	x1 = y1 = - 9e8 ;	1
+for integer i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; ++ i )	2
+declare ints l , b , r and u	int l, b, r, u ;	int l , b , r , u ;	NA
+read l , b , r and u	cin >> l >> b >> r >> u ;	cin >> l >> b >> r >> u ;	1
+add ( r - l ) * ( u - b ) to a	a += ( r - l ) * ( u - b ) ;	a += ( r - l ) * ( u - b ) ;	1
+change x0 to min of x0 and l	x0 = min ( x0, l ) ;	x0 = min ( x0 , l ) ;	NA
+change x1 to max of x1 and r	x1 = max ( x1, r ) ;	x1 = max ( x1 , r ) ;	NA
+change y0 to min of y0 and b	y0 = min ( y0, b ) ;	y0 = min ( y0 , b ) ;	NA
+change y1 to max of y1 and u	y1 = max ( y1, u ) ;	y1 = max ( y1 , u ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+subtract x0 from x1	x1 -= x0 ;	x1 -= x0 ;	1
+decrease y1 by y0	y1 -= y0 ;	y1 -= y0 ;	1
+print " YES \ n " if x1 = y1 and x1 * y1 = a , or " NO \ n " otherwise	cout << ( x1 == y1 && x1 * y1 == a ) << " NO\n " ;	cout << ( x1 == y1 && x1 * y1 == a ? " YES\n " : " NO\n " ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

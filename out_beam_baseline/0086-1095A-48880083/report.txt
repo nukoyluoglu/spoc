@@ -1,0 +1,10 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n and it ; it = 1	int n, it = 1 ;	int n , it = 1 ;	NA
+create string s	string s ;	string s ;	1
+read n and s	cin >> n >> s ;	cin >> n >> s ;	1
+for i = 0 to n exclusive with step of it	for ( int i = 0 ; i < n ; i += it )	for ( int i = 0 ; i < n ; i += it )	1
+increase it by one	it ++ ;	it ++ ;	1
+print s [ i ]	cout << s [ i ] ;	cout << s [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print new line	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

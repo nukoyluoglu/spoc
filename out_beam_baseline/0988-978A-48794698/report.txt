@@ -1,0 +1,29 @@
+create integer array num of size 100	int num [ 100 ] ;	int num [ 100 ] ;	1
+create integer array nn of size 100	int nn [ 100 ] ;	int nn [ 100 ] ;	1
+create integer cnt with cnt = 0	int cnt = 0 ;	int cnt = 0 ;	1
+create integer cc1 with cc1 = 0	int cc1 = 0 ;	int cc1 = 0 ;	1
+declare num_find with integer in as argument , returning boolean	bool num_find ( int in )	bool num_find ( int in )	1
+for i = 0 to cnt exclusive	for ( int i = 0 ; i < cnt ; i ++ )	for ( int i = 0 ; i < cnt ; i ++ )	1
+if num [ i ] is in , return true from function	if ( num [ i ] == in ) return true ;	if ( num [ i ] == in ) return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return false from function	return false ;	return false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer N	int N ;	int N ;	1
+read N	cin >> N ;	cin >> N ;	1
+for i = 0 to N exclusive	for ( int i = 0 ; i < N ; i ++ )	for ( int i = 0 ; i < N ; i ++ )	1
+read nn [ cc1 ]	cin >> nn [ cc1 ] ;	cin >> nn [ cc1 ] ;	1
+increment cc1	cc1 ++ ;	cc1 ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = N - 1 to 0 inclusive , decrement i	for ( int i = N - 1 ; i >= 0 ; i -- )	for ( int i = N - 1 ; i >= 0 ; i -- )	1
+create integer tmp	int tmp ;	int tmp ;	1
+set tmp to nn [ i ]	tmp = nn [ i ] ;	tmp = nn [ i ] ;	1
+if result of num_find with tmp as argument is false	if (! num_find ( tmp ) )	if ( ! num_find ( tmp ) )	NA
+set num [ cnt ] is tmp	num [ cnt ] = tmp ;	num [ cnt ] = tmp ;	1
+increment cnt	cnt ++ ;	cnt ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print cnt print newlien	cout << cnt << endl ;	cout << cnt << endl ;	1
+for i = cnt - 1 to 0 exclusive , decrementing i , print num [ i ] print " "	for ( int i = cnt - 1 ; i > 0 ; i -- ) { cout << num [ i ] << " " ; }	for ( int i = cnt - 1 ; i > 0 ; i -- ) cout << num [ i ] << " " ;	3
+print num [ 0 ] print newline	cout << num [ 0 ] << endl ;	cout << num [ 0 ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

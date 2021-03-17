@@ -1,0 +1,12 @@
+integers = a array that is size 4	int a [ 4 ] ;	int a [ 4 ] ;	1
+integers = dp array size 4001	int dp [ 4001 ] ;	int dp [ 4001 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+integers = n	int n ;	int n ;	1
+read n , a [ 1 ] , a [ 2 ] , a [ 3 ]	cin >> n >> a [ 1 ] >> b [ 2 ] >> c [ 3 ] ;	cin >> n >> a [ 1 ] >> a [ 2 ] >> a [ 3 ] ;	NA
+create memset dp with a size of dp	memset ( dp, 0, sizeof dp ) ;	memset ( dp , - 42 , sizeof ( dp ) ) ;	NA
+set dp [ 0 ] to 0	dp [ 0 ] = 0 ;	dp [ 0 ] = 0 ;	1
+for i = 1 to less than or equal to 3 do the following	for ( int i = 1 ; i <= 3 ; i ++ )	for ( int i = 1 ; i <= 3 ; i ++ )	1
+for j = a [ i ] to less than or equal to n then dp [ j ] = the maximum out of dp [ j ] and dp [ j - a [ i ] + 1	for ( long long j = a [ i ] ; j <= n ; j ++ ) { dp [ j ] = max3 ; }	for ( int j = a [ i ] ; j <= n ; j ++ ) { dp [ j ] = max ( dp [ j ] , dp [ j - a [ i ] ] + 1 ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+output dp [ n ]	cout << dp [ n ] << endl ;	cout << dp [ n ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

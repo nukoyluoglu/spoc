@@ -1,0 +1,13 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , l , r , a , b , sum = int with sum = 0 and my = int array of size 105 with all values set to 0	int n, l, r, a, b, my [ 105 ] = { 0 }, sum = 0 ;	int n , my [ 105 ] = { 0 } , l , r , a , b , sum = 0 ;	NA
+read n	cin >> n ;	cin >> n ;	1
+read l then r	cin >> l >> r ;	cin >> l >> r ;	1
+for i = 0 to n - 1	for ( int i = 0 ; i < n - 1 ; i ++ )	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+read a then b	cin >> a >> b ;	cin >> a >> b ;	1
+for j = a + 1 to b inclusive set m [ j ] to 1	for ( int j = a + 1 ; j <= b ; j ++ ) m [ j ] = 1 ;	for ( int j = a + 1 ; j <= b ; j ++ ) my [ j ] = 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = l + 1 to r inclusive	for ( int i = l + 1 ; i <= r ; i ++ )	for ( int i = l + 1 ; i <= r ; i ++ )	1
+if m [ i ] is 0 increment sum	if ( m [ i ] == 0 ) sum ++ ;	if ( my [ i ] == 0 ) sum ++ ;	NA
+print sum	cout << sum << endl ;	cout << sum << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

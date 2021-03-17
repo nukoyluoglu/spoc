@@ -1,0 +1,18 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , k be integers	int n, k ;	int n , k ;	NA
+while ( read the values of n and k )	while ( cin >> n >> k )	while ( cin >> n >> k )	1
+let temp be a long integer with value as 0	long long temp = 0 ;	long long temp = 0 ;	1
+let a be a long integer	long long a ;	long long a ;	1
+let j be a integer with value as 1	int j = 1 ;	int j = 1 ;	1
+for integer i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; i ++ )	1
+read a	cin >> a ;	cin >> a ;	1
+if ( temp - ( i - 1 ) * ( n - i ) * a is less than k )	if ( temp - ( i - 1 ) * ( n - i ) * a < k )	if ( temp - ( i - 1 ) * ( n - i ) * a < k )	1
+print j and newline	cout << j << endl ;	cout << j << endl ;	1
+decrease the value of i by 1 , decrease the value of n by 1	i --, n -- ;	i -- , n -- ;	NA
+else do the following	else	else	1
+temp is equal to temp + ( i - 1 ) * a	temp += ( i - 1 ) * a ;	temp += ( i - 1 ) * a ;	1
+increase j value by 1	j ++ ;	j ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,24 @@
+bool function lucky with integer argument n	bool lucky ( int n )	bool lucky ( int n )	1
+while n ! = 0	while ( n!= 0 )	while ( n != 0 )	NA
+if n % 10 ! = 4 & & n % 10 ! = 7 return false	if ( n % 100!= 4 && n % 10!= 7 ) return false ;	if ( n % 10 != 4 && n % 10 != 7 ) { return false ; }	NA
+divide n by 10	n /= 10 ;	n /= 10 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return true	return true ;	return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+almost_lucky is a boolean function with integer argument n	bool almost_lucky ( int n )	bool almost_lucky ( int n )	1
+if lucky ( n ) is true , return true	if ( lucky ( n ) ) return true ;	if ( lucky ( n ) ) { return true ; }	2
+for i = 2 while i * i < = n	for ( int i = 2 ; i * i <= n ; i ++ )	for ( int i = 2 ; i * i <= n ; ++ i )	4
+if n % i = 0 & & ( lucky ( i ) or lucky ( n / i ) is true )	if ( n % i == 0 && ( lucky ( i ) || lucky ( n / i ) ) )	if ( n % i == 0 && ( lucky ( i ) || lucky ( n / i ) ) ) { return true ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return false	return false ;	return false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer n	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+if almost_lucky ( n ) is true	if ( almost_lucky ( n ) )	if ( almost_lucky ( n ) )	1
+print " YES "	cout << " YES " << endl ;	cout << " YES " << endl ;	1
+else	else	else	1
+print " NO "	cout << " NO " << endl ;	cout << " NO " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,15 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let str be a string , s = array of strings of length 101	string str, s [ 101 ] ;	string str , s [ 101 ] ;	NA
+let n be a integer	int n ;	int n ;	1
+read str	cin >> str ;	cin >> str ;	1
+read n	cin >> n ;	cin >> n ;	1
+for i = 1 to n inclusive , read s [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> s [ i ] ;	for ( int i = 1 ; i <= n ; i ++ ) cin >> s [ i ] ;	1
+sort the values s + 1 and s + n + 1	sort ( s + 1, s + n + 1 ) ;	sort ( s + 1 , s + n + 1 ) ;	NA
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; i ++ )	1
+if s [ i ] . substr ( 0 , length of str ) is equal to str	if ( s [ i ]. substr ( 0, str. length ( ) ) == str )	if ( s [ i ] . substr ( 0 , str . length ( ) ) == str )	NA
+print s [ i ] and newline	cout << s [ i ] << endl ;	cout << s [ i ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print str and newline	cout << str << endl ;	cout << str << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

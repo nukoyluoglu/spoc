@@ -1,0 +1,6 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int n , b , p	int n, b, p ;	int n , b , p ;	NA
+read n , b , p	cin >> n >> b >> p ;	cin >> n >> b >> p ;	1
+print ( n - 1 ) * ( 2 * b + 1 ) , " " , n * p and a newline	cout << ( n - 1 ) * ( 2 * b + 1 ) << " " << n * p << " \n " ;	cout << ( n - 1 ) * ( 2 * b + 1 ) << " " << n * p << " \n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,18 @@
+oo = 1000000000 , MD = 1000000007	const int oo = 1000000000, MD = 1000000007 ;	const int oo = 1e9 , MD = 1e9 + 7 ;	NA
+function fastExp ( get long long b and e , return long long )	long long fastExp ( long long b, long long e )	long long fastExp ( long long b , long long e )	NA
+ans = 1	ans = 1 ;	long long ans = 1 ;	3
+while e > 0	while ( e > 0 )	while ( e > 0 )	1
+if e and 1 ans = ( ans * b ) modulo MD	if ( e & 1 ) ans = ( ans * b ) % MD ;	if ( e & 1 ) ans = ( ans * b ) % MD ;	1
+b = ( b * b ) modulo MD	b = ( b * b ) % MD ;	b = ( b * b ) % MD ;	1
+right shift e	e >>= 1 ;	e >>= 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return ans	return ans ;	return ans ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = long long	long long n ;	long long n ;	1
+read n	cin >> n ;	cin >> n ;	1
+ans = ( fastExp ( 4 , n ) + fastExp ( 2 , n ) ) modulo MD	for ( int i = 0 ; i < MD ; i ++ ) cin >> a [ i ] + fastExp ( 2, n ) ) % MD ;	long long ans = ( fastExp ( 4 , n ) + fastExp ( 2 , n ) ) % MD ;	NA
+ans = ( ans * fastExp ( 2 , MD - 2 ) ) modulo MD	ans = ( ans * fastExp ( 2, MD - 2 ) ) % MD ;	ans = ( ans * fastExp ( 2 , MD - 2 ) ) % MD ;	NA
+print ans	cout << ans << endl ;	cout << ans << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

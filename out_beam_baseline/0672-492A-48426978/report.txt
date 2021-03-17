@@ -1,0 +1,37 @@
+in function inum taking pointer to an int a , int k , int i returning int	int inum ( int * a, int k, int i )	int inum ( int * a , int k , int i )	NA
+for l = 1 to k	for ( int l = 1 ; l <= k ; l ++ )	for ( int l = 1 ; l < k ; l ++ )	5
+if a [ l - 1 ] is not 1	if ( a [ l - 1 ]!= 1 )	if ( a [ l - 1 ] != - 1 )	NA
+set a [ l ] to a [ l - 1 ] + ( l + 1 )	a [ l ] = a [ l - 1 ] + ( l + 1 ) ;	a [ l ] = a [ l - 1 ] + ( l + 1 ) ;	1
+else	else	else	1
+set a [ l ] to ( inum of a , l , i ) + l + 1	a [ l ] = ( inum ( a, l, i ) ) + l + 1 ;	a [ l ] = inum ( a , l , i ) + l + 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return value of ( a + ( k - 1 ) )	return ( a + ( k - 1 ) ) ;	return * ( a + ( k - 1 ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+in function isum taking int i returning int	int isum ( int i )	int isum ( int i )	1
+arr , a = int array of size i each	int arr [ j ], a [ i ] ;	int arr [ i ] , a [ i ] ;	NA
+set arr [ i ] to - 1	arr [ i ] = - 1 ;	arr [ i ] = { - 1 } ;	NA
+set a [ i ] to - 1	a [ i ] = - 1 ;	a [ i ] = { - 1 } ;	35
+set a [ 0 ] to 1	a [ 0 ] = 1 ;	a [ 0 ] = 1 ;	1
+set arr [ 0 ] to 1	arr [ 0 ] = 1 ;	arr [ 0 ] = 1 ;	1
+if i is 1	if ( i == 1 )	if ( i == 1 )	1
+return i	return i ;	return i ;	1
+else	else	else	1
+j = int with j = 1	int j = 1 ;	int j = 1 ;	1
+for j to i	for ( j ; j < i ; j ++ )	for ( j ; j < i ; j ++ )	1
+if arr [ j - 1 ] is not - 1	if ( arr [ j - 1 ]!= - 1 )	if ( arr [ j - 1 ] != - 1 )	NA
+set arr [ j ] to arr [ j - 1 ] + inum of a , j + 1 , i	arr [ j ] = arr [ j - 1 ] + inum ( a, j + 1, i ) ;	arr [ j ] = arr [ j - 1 ] + inum ( a , j + 1 , i ) ;	NA
+else	else	else	1
+set arr [ j ] to isnum of j + j + 1	arr [ j ] = isnum ( j + j + 1 ) ;	arr [ j ] = isum ( j ) + ( j + 1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return value of arr + ( i - 1 )	return arr + ( i - 1 ) ;	return * ( arr + ( i - 1 ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , i = int with i = 1	int n, i = 1 ;	int n , i = 1 ;	NA
+read n	cin >> n ;	cin >> n ;	1
+loop while isnum of i < = n increment i	for ( ;! ( i <= n ) ; i ++ )	while ( isum ( i ) <= n ) { i ++ ; }	NA
+print i - 1	cout << i - 1 << endl ;	cout << ( i - 1 ) << endl ;	4
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

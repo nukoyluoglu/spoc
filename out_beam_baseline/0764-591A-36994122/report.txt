@@ -1,0 +1,10 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+define floating point numbers m , a , s	float m, a, s ;	double m , a , s ;	NA
+define doubles i , j	double i, j ;	double i , j ;	NA
+while read m , i , j	while ( cin >> m >> i >> j )	while ( cin >> m >> i >> j )	1
+set a to i + j	a = i + j ;	a = i + j ;	1
+assign m / a to s	s = m / a ;	s = m / a ;	1
+print s * i and a newline	cout << s * i << " \n " ;	cout << s * i << endl ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

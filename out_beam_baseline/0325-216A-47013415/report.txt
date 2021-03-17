@@ -1,0 +1,8 @@
+N = 100100	const int N = 100100 ;	const int N = 1e5 + 100 ;	2
+a , b , c = int	int a, b, c ;	int a , b , c ;	NA
+v = vector of int	vector < int > v ;	vector < int > v ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read a , b , c	cin >> a >> b >> c ;	cin >> a >> b >> c ;	1
+print ( b * c ) + ( a - 1 ) * ( b + c - 1 )	cout << ( b * c ) + ( a - l ) * ( b + c - 1 ) << endl ;	cout << ( b * c ) + ( a - 1 ) * ( b + c - 1 ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

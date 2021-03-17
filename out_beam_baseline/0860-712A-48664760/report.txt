@@ -1,0 +1,9 @@
+a = int array of size 100005	int a [ 100005 ] ;	int a [ 100005 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;	int n ;	1
+while reading n	while ( cin >> n )	while ( cin >> n )	1
+for i = i to n inclusive rad a [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;	for ( int i = 1 ; i <= n ; i ++ ) { cin >> a [ i ] ; }	2
+for i = 1 to n print a [ i ] + a [ i + 1 ]	for ( int i = 1 ; i <= n ; i ++ ) { cout << a [ i ] + b [ i + 1 ] << endl ; }	for ( int i = 1 ; i < n ; i ++ ) { cout << a [ i ] + a [ i + 1 ] << ' ' ; }	NA
+print a [ n ]	cout << a [ n ] << endl ;	cout << a [ n ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,16 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare character array s1 with size 100006 s2 with size 100003	char s1 [ 100006 ], s2 [ 100003 ] ;	char s1 [ 100006 ] , s2 [ 100003 ] ;	NA
+while read s1 , s2	while ( cin >> s1 >> s2 )	while ( cin >> s1 >> s2 )	1
+declare p as integer = string comparison between s1 and s2	int p = strcmp ( s1, s2 ) ;	int p = strcmp ( s1 , s2 ) ;	NA
+declare len1 as integer = string length of s1	int len1 = strlen ( s1 ) ;	int len1 = strlen ( s1 ) ;	1
+declare len2 as integer = string length of s2	int len2 = strlen ( s2 ) ;	int len2 = strlen ( s2 ) ;	1
+if p is 0	if ( p == 0 )	if ( p == 0 )	1
+print " - 1 " print newline	cout << " -1 " << endl ;	cout << " -1 " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if len1 is greater than len2	if ( len1 > len2 )	if ( len1 > len2 )	1
+print len1 , newline	cout << len1 << endl ;	cout << len1 << endl ;	1
+else	else	else	1
+print len2 , newline	cout << len2 << endl ;	cout << len2 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

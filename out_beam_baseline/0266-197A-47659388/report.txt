@@ -1,0 +1,9 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+define ints a , b , and r	int a, b, r ;	int a , b , r ;	NA
+read a , b , r	cin >> a >> b >> r ;	cin >> a >> b >> r ;	1
+if 2 r < = a and 2 r < = b	if ( 2 <= a && 2 <= b )	if ( 2 * r <= a && 2 * r <= b )	NA
+print First and newline	cout << " First " << endl ;	cout << " First\n " ;	2
+else . . .	else	else	1
+print Second followed by newline	cout << " Second " << endl ;	cout << " Second\n " ;	2
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

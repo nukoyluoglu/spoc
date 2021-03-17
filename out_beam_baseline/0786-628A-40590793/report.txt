@@ -1,0 +1,14 @@
+create ints n , b , p , x = 0 , and y	int n, b, p, x = 0, y ;	int n , b , p , x = 0 , y ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , b , and p	cin >> n >> b >> p ;	cin >> n >> b >> p ;	1
+set b to 2 * b + 1	b = 2 * b + 1 ;	b = 2 * b + 1 ;	1
+set y to n * p	y = n * p ;	y = n * p ;	1
+while n is greater than 1	while ( n > 1 )	while ( n > 1 )	1
+create integer k = 1	int k = 1 ;	int k = 1 ;	1
+while 2 * k is less than or equal to n , set k to k * 2	while ( 2 * k <= n ) { k *= 2 ; }	while ( 2 * k <= n ) k *= 2 ;	2
+set x to x + b * k / 2	x += b * k / 2 ;	x += b * k / 2 ;	1
+set n to n - k / 2	n = n - k / 2 ;	n -= k / 2 ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+print x , " " , and y	cout << x << " " << y << endl ;	cout << x << " " << y << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

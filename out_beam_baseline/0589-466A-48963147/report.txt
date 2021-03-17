@@ -1,0 +1,8 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , m , a , b = integers	int n, m, a, b ;	int n , m , a , b ;	NA
+Read n , m , a , b	cin >> n >> m >> a >> b ;	cin >> n >> m >> a >> b ;	1
+x = integer , set to ( n / m ) * b + ( n % m ) * a	int x = ( n / m ) * b + ( n % m ) + a ;	int x = ( n / m ) * b + ( n % m ) * a ;	NA
+y = integer , set to ( n / m + 1 ) * b	int y = ( n / m + 1 ) * b ;	int y = ( n / m + 1 ) * b ;	1
+z = integer , set to n * a	int z = n * a ;	int z = n * a ;	1
+print minimum value of x and minimum value of y and z and a new line	cout << min ( x, min ( y, z ) ) << endl ;	cout << min ( x , min ( y , z ) ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

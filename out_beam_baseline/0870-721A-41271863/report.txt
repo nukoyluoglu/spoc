@@ -1,0 +1,28 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int n	int n ;	int n ;	1
+create string s	string s ;	string s ;	1
+read n and s	cin >> n >> s ;	cin >> n >> s ;	1
+declare integer variable cnt = - 1 and an array of integers ans with 100 elements filled with 0	int ans [ 100 ] = { 0 }, cnt = - 1 ;	int cnt = - 1 , ans [ 100 ] = { 0 } ;	NA
+create character p = ' W '	char p ='W';	char p = ' W ' ;	NA
+loop i from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; ++ i )	3
+declare character variable c = s [ i ]	char c = s [ i ] ;	char c = s [ i ] ;	1
+if c = ' B '	if ( c =='B')	if ( c == ' B ' )	NA
+if p = ' W '	if ( p =='W')	if ( p == ' W ' ) { ++ cnt ; }	NA
+increase ans [ cnt ]	ans [ cnt ] ++ ;	++ ans [ cnt ] ;	5
+}	}	}	DUMMY	DUMMY	DUMMY
+set p to c	p = c ;	p = c ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print cnt + 1	cout << cnt + 1 << endl ;	cout << cnt + 1 << endl ;	1
+if cnt + 1 is greater than 0	if ( cnt + 1 > 0 )	if ( cnt + 1 > 0 )	1
+declare boolean first = true	bool first = true ;	bool first = true ;	1
+loop i from 0 to cnt inclusive	for ( int i = 0 ; i <= cnt ; i ++ )	for ( int i = 0 ; i <= cnt ; ++ i )	3
+if first is true	if ( first )	if ( first )	1
+set first to false	first = false ;	first = false ;	1
+else	else	else	1
+print " "	cout << " " ;	cout << " " ;	1
+print ans [ i ]	cout << ans [ i ] << endl ;	cout << ans [ i ] ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+print new line	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

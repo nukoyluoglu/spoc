@@ -1,0 +1,8 @@
+create integers n and k	int n, k ;	int n , k ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n and k	cin >> n >> k ;	cin >> n >> k ;	1
+if n * ( n - 1 ) / 2 < = k	if ( n * ( n - 1 ) / 2 <= k )	if ( n * ( n - 1 ) / 2 <= k )	1
+print " no solution \ n "	cout << " no solution\n " ;	cout << " no solution\n " ;	1
+else	else	else	1
+print " 0 " , n and " \ n	cout << " 0 " << n << " \n " ;	for ( ; n -- ; ) cout << " 0 " << n << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

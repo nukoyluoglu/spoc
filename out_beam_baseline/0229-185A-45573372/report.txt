@@ -1,0 +1,24 @@
+power2 is a long long function with long long arguments pow and mod	long long power2 ( long long pow, long long mod )	long long power2 ( long long pow , long long mod )	NA
+declare long longs res = 1ll and x = 2ll	long long res = 1ll, x = 2ll ;	long long res = 1ll , x = 2ll ;	NA
+while pow > 0	while ( pow > 0 )	while ( pow > 0 )	1
+if pow & 1 is true , set res to ( res * x ) modulo mod	if ( pow & 1 ) res = ( res * x ) % mod ;	if ( pow & 1 ) res = ( res * x ) % mod ;	1
+pow > > = 1	pow >>= 1 ;	pow >>= 1 ;	1
+assign ( x * x ) modulo mod to x	x = ( x * x ) % mod ;	x = ( x * x ) % mod ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return res	return res ;	return res ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long n	long long n ;	long long n ;	1
+read n	cin >> n ;	cin >> n ;	1
+if n is true	if ( n )	if ( n )	1
+declare long long M = 1 * 1000 * 1000 * 1000 + 7	long long M = 1.0 * 1000 * 1000 + 7 ;	long long M = 1 * 1000 * 1000 * 1000 + 7 ;	NA
+declare long long variable sol	long long sol ;	long long sol ;	1
+assign power2 ( 2 * n - 1 , M ) to sol	sol = power2 ( 2 * n - 1, M ) ;	sol = power2 ( 2 * n - 1 , M ) ;	NA
+increase sol by power2 ( n - 1 , M )	sol += power2 ( n - 1, M ) ;	sol += power2 ( n - 1 , M ) ;	NA
+sol = sol modulo M	sol %= M ;	sol %= M ;	1
+print sol	cout << sol << endl ;	cout << sol << endl ;	1
+else	else	else	1
+print 1	cout << 1 << endl ;	cout << 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

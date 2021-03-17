@@ -1,0 +1,23 @@
+create constant integer N with N = 6e5 + 10	const int N = 6e5 + 10 ;	const int N = 6e5 + 10 ;	1
+create integer arrays v , A , B with v size N , A size N , B size N	int v [ N ] = { " A ", " B " } ;	int v [ N ] , A [ N ] , B [ N ] ;	NA
+create integer n	int n ;	int n ;	1
+declare dfs with integer x as argument	void dfs ( int x )	void dfs ( int x )	1
+if v [ x ] is true , return from function	if ( v [ x ] ) return ;	if ( v [ x ] ) return ;	1
+set v [ x ] to 1	v [ x ] = 1 ;	v [ x ] = 1 ;	1
+run dfs with A [ x ] as argument	dfs ( A [ x ] ) ;	dfs ( A [ x ] ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;	cin >> n ;	1
+create integer ans with ans = 0	int ans = 0 ;	int ans = 0 ;	1
+for i = 1 to n inclusive , read A [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> A [ i ] ;	for ( int i = 1 ; i <= n ; ++ i ) cin >> A [ i ] ;	4
+for i = 1 to n inclusive , read B [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> B [ i ] ;	for ( int i = 1 ; i <= n ; ++ i ) cin >> B [ i ] ;	3
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; ++ i )	3
+if v [ i ] is 0 , run dfs with i as argument , increment ans	if ( v [ i ] == 0 ) dfs ( i ), ans ++ ;	if ( v [ i ] == 0 ) dfs ( i ) , ++ ans ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+create integer t with t = 1	int t = 1 ;	int t = 1 ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; ++ i )	3
+if B [ i ] is true , set t to t ^ 1	if ( B [ i ] ) t ^= 1 ;	if ( B [ i ] ) t ^= 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if ans is 1 , decrement ans	if ( ans == 1 ) ans -- ;	if ( ans == 1 ) -- ans ;	2
+print ans + t print newline	cout << ans + t << endl ;	cout << ans + t << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,10 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , agua , toalha = int with toalha = 0	int n, agua, toalha = 0 ;	int n , agua , toalha = 0 ;	NA
+read n then agua then toalha	cin >> n >> agua >> toalha ;	cin >> n >> agua >> toalha ;	1
+nrod , tagua , ttoalha = int with ttoalha = 0	int nrod, tagua, ttoalha = 0 ;	int nrod , tagua , ttoalha = 0 ;	NA
+set nrod to n - 1	nrod = n - 1 ;	nrod = n - 1 ;	1
+set tagua to nrod + nrod * agua * 2	tagua = nrod + nrod * agua * 2 ;	tagua = nrod + nrod * agua * 2 ;	1
+set ttoalha to toalha * n	ttoalha *= n ;	ttoalha = toalha * n ;	2
+print tagua and ttoalha	cout << tagua << ttoalha << endl ;	cout << tagua << " " << ttoalha << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

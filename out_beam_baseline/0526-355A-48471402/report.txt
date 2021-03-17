@@ -1,0 +1,16 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+d = large long	long long d ;	long long k , d ;	NA
+read k and d	cin >> k >> d ;	cin >> k >> d ;	1
+if d = 0 and k > 1	if ( d == 0 && k > 1 )	if ( d == 0 && k > 1 )	1
+print No Solution	cout << " No Solution " << endl ;	cout << " No solution " << endl ;	14
+else	else	else	1
+print d	cout << d << endl ;	cout << d ;	2
+increment k	k ++ ;	k -- ;	4
+while k > -	while ( k >'-')	while ( k )	10
+print 0	cout << 0 << endl ;	cout << 0 ;	4
+decrement k	k -- ;	k -- ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print newline	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

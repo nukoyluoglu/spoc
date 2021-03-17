@@ -1,0 +1,27 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , b = string	string a, b ;	string a , b ;	NA
+read a then b	cin >> a >> b ;	cin >> a >> b ;	1
+if size of a is not size of b	if ( a. resize ( b. size ( ) )!= 0 )	if ( a . size ( ) != b . size ( ) )	NA
+print max of size of a and size of b	cout << max ( a. begin ( ), b. end ( ) ) << endl ;	cout << max ( a . size ( ) , b . size ( ) ) << endl ;	NA
+else if compare of b on a is 0	else if ( a. compare ( b ) == 0 )	else if ( a . compare ( b ) == 0 )	NA
+print " - 1 "	cout << " -1 " << endl ;	cout << " -1 " << endl ;	1
+else	else	else	1
+s = int with s = size of a	int s = a. size ( ) ;	int s = a . size ( ) ;	NA
+mp = string and int map	map < string, int > mp ;	map < string , int > mp ;	NA
+x = int with x = s	int x = s ;	int x = s ;	1
+loop while x is greater than 0	while ( x > 0 )	while ( x > 0 )	1
+for i = 0 to s and i + x is less or equal to s	for ( int i = 0 ; s && i + x <= s ; i ++ )	for ( int i = 0 ; i < s && i + x <= s ; i ++ )	2
+st = string with st = substring of a starting at i and a length of x	string st = a. substr ( i, x ) ;	string st ( a , i , x ) ;	NA
+set mp [ st ] to 1	mp [ st ] = 1 ;	mp [ st ] = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to s and i + x is less or equal to s	for ( int i = 0 ; s && i + x <= s ; i ++ )	for ( int i = 0 ; i < s && i + x <= s ; i ++ )	2
+st = string with st = substring of b starting at i and a length of x	string st = b. substr ( i, x ) ;	string st ( b , i , x ) ;	NA
+if mp [ st ] is 0	if ( mp [ st ] == 0 )	if ( mp [ st ] == 0 )	1
+print size of st	cout << st. size ( ) << endl ;	cout << st . size ( ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+decrement x	x -- ;	x -- ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

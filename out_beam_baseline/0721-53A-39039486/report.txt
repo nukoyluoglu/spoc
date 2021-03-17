@@ -1,0 +1,16 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+var = string and str = pointer to a string	string var, str = string * ( ) ;	string * str , var ;	NA
+n = int	int n ;	int n ;	1
+read var then n	cin >> var >> n ;	cin >> var >> n ;	1
+set str to new string array of size n	str = new string [ n ] ;	str = new string [ n ] ;	1
+read n values into str	for ( int i = 0 ; i < n ; i ++ ) cin >> str [ i ] ;	for ( int i = 0 ; i < n ; i ++ ) cin >> str [ i ] ;	1
+sort str	sort ( str, str + n ) ;	sort ( str , str + n ) ;	NA
+for i = 0 to n	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+if str [ i ] starts with var	if ( str [ i ] == var )	if ( str [ i ] . find ( var ) == 0 )	NA
+print str [ i ]	cout << str [ i ] ;	cout << str [ i ] << endl ;	2
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print var	cout << var << endl ;	cout << var << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

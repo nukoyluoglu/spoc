@@ -1,0 +1,38 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , m , a , b	int n, m, a, b ;	int n , m , a , b ;	NA
+read n , m , a , b	cin >> n >> m >> a >> b ;	cin >> n >> m >> a >> b ;	1
+create integer sum with sum = a * n	int sum = a * n ;	int sum = a * n ;	1
+create integer msum with msum = b	int msum = b ;	int msum = b ;	1
+create integer rides with rides = m	int rides = m ;	int rides = m ;	1
+do the following while rides less than or equal to n	while ( rides <= n )	while ( rides <= n )	1
+add b to msum	msum += b ;	msum += b ;	1
+add m to rides	rides += m ;	rides += m ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+subtract b from msum	msum -= b ;	msum -= b ;	1
+subtract m from rides	rides -= m ;	rides -= m ;	1
+if sum less than or equal to msum then do the following	if ( sum <= msum )	if ( sum <= msum )	1
+print sum and a new line	cout << sum << endl ;	cout << sum << " \n " ;	2
+else do the following	else	else	1
+if rides less than n	if ( rides < n )	if ( rides < n )	1
+create integer newsum with newsum = msum + ( n - rides ) * a	int newsum = msum + ( n - rides ) * a ;	int newsum = msum + ( n - rides ) * a ;	1
+add b to msum	msum += b ;	msum += b ;	1
+add m to rides	rides += m ;	rides += m ;	1
+create numsum1 with newsum1 = msum	int numsum1 = msum ;	int newsum1 = msum ;	19
+if newsum1 less than or equal to newsum then do the following	if ( newsum1 <= newsum )	if ( newsum1 <= newsum )	1
+print newsum1 and a new line	cout << newsum1 << endl ;	cout << newsum1 << endl ;	1
+else do the following	else	else	1
+print newsum and a new line	cout << newsum << endl ;	cout << newsum << endl ;	1
+else if rides greater than n then do the following	else if ( rides > n )	else if ( rides > n )	1
+create integer newsum with newsum = msum + ( n - rides ) * a	int newsum = msum + ( n - rides ) * a ;	int newsum = msum + ( n - rides ) * a ;	1
+add b to msum	msum += b ;	msum += b ;	1
+add m to rides	rides += m ;	rides += m ;	1
+create newsum1 with newsum1 = msum	int newsum1 = msum ;	int newsum1 = msum ;	1
+if newsum1 less than or equal to newsum then do the following	if ( newsum1 <= newsum )	if ( newsum1 <= newsum )	1
+print newsum1 and a new line	cout << newsum1 << endl ;	cout << newsum1 << endl ;	1
+else do the following	else	else	1
+print newsum and a new line	cout << newsum << endl ;	cout << newsum << endl ;	1
+else do the following	else	else	1
+print msum and a new line	cout << msum << endl ;	cout << msum << " \n " ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

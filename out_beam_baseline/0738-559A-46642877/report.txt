@@ -1,0 +1,6 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare long long variables a , b , c , d , e and f	long long a, b, c, d, e, f ;	long long a , b , c , d , e , f ;	NA
+read a , b , c , d , e and f	cin >> a >> b >> c >> d >> e >> f ;	cin >> a >> b >> c >> d >> e >> f ;	1
+print ( c + d + e ) * ( c + d + e ) - ( a * a ) - ( c * c ) - ( e * e ) and " \ n "	cout << ( long long ) ( c + d + e ) * ( ( long double ) ( a * a ) - ( c * c) - ( e * e ) ) << " \n " ;	cout << ( c + d + e ) * ( c + d + e ) - ( a * a ) - ( c * c ) - ( e * e ) << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

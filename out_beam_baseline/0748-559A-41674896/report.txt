@@ -1,0 +1,6 @@
+maxn = constant integer with value of 105	const int maxn = 105 ;	const int maxn = 105 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , b , c , d , e , f = integers	int a, b, c, d, e, f ;	int a , b , c , d , e , f ;	NA
+read a , b , c , d , e , and f	cin >> a >> b >> c >> d >> e >> f ;	cin >> a >> b >> c >> d >> e >> f ;	1
+print ( a + b + c ) * ( a + b + c ) - a * a - c * c - e * e	cout << ( a + b + c ) - a * a - c * c - e * e << endl ;	cout << ( a + b + c ) * ( a + b + c ) - a * a - c * c - e * e << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

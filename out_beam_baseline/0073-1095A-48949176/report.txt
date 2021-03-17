@@ -1,0 +1,12 @@
+create long longs x , y and z , with z = 1	long long x, y, z = 1 ;	long long x , y , z = 1 ;	NA
+declare string variables s and ss	string s, ss ;	string s , ss ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read x and s	cin >> x >> s ;	cin >> x >> s ;	1
+for integer i = 0 to x exclusive	for ( int i = 0 ; i < x ; i ++ )	for ( int i = 0 ; i < x ; )	10
+increase ss by s [ i ]	ss += s [ i ] ;	ss += s [ i ] ;	1
+increase i by z	i += z ;	i += z ;	1
+increment z	z ++ ;	z ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ss and a new line	cout << ss << endl ;	cout << ss << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

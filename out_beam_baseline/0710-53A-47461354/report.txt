@@ -1,0 +1,21 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+s , t = string	string s, t ;	string s , t ;	NA
+n , j = int with j = 0	int n, j = 0 ;	int n , j = 0 ;	NA
+read s then n	cin >> s >> n ;	cin >> s >> n ;	1
+ar = string array of size n	string ar [ n ] ;	string ar [ n ] ;	1
+slength = int with slength = length of s	int slength = s. length ( ) ;	int slength = s . size ( ) ;	NA
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; i ++ )	1
+read t	cin >> t ;	cin >> t ;	1
+if t starts with s	if ( t == s )	if ( t . substr ( 0 , slength ) == s )	NA
+set ar [ j ] to t	ar [ j ] = t ;	ar [ j ] = t ;	1
+increment j	j ++ ;	j ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if j is 0	if ( j == 0 )	if ( j == 0 )	1
+print s	cout << s << endl ;	cout << s << ' \n ' ;	NA
+else	else	else	1
+sort ar from position 0 to j	sort ( ar, ar + j ) ;	sort ( ar , ar + j ) ;	NA
+print ar [ 0 ]	cout << ar [ 0 ] ;	cout << ar [ 0 ] << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

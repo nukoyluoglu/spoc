@@ -1,0 +1,15 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+k , b , n , t , i , j , m , ans , r , x , xx = long long int with m = 0 , x = 1 , xx = 0	long long int k, b, n, t, i, j, m = 0, ans, r, x = 1, xx = 0 ;	long long int k , b , n , t , i , j , m = 0 , ans , r , x = 1 , xx = 0 ;	NA
+read k , b , n , t	cin >> k >> b >> n >> t ;	cin >> k >> b >> n >> t ;	1
+for i = 1 increment i	for ( int i = 1 ; ; i ++ )	for ( i = 1 ; ; i ++ )	2
+r = ( x * k ) + b	r = ( x * k ) + b ;	r = ( x * k ) + b ;	1
+if r < = t	if ( r <= t )	if ( r <= t )	1
+increment m	m ++ ;	m ++ ;	1
+else	else	else	1
+break loop	break ;	break ;	1
+x = r	x = r ;	x = r ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+ans = n - m	ans = n - m ;	ans = n - m ;	1
+ans = max of xx and ans	ans = max ( xx, ans ) ;	ans = max ( xx , ans ) ;	NA
+print ans	cout << ans << endl ;	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

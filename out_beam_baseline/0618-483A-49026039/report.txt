@@ -1,0 +1,55 @@
+tmp , min1 , max1 , sum_n , index_max , index_min = int	int tmp = min1 = max1, sum_n = index_max, index_min = 0 ;	int tmp , min1 , max1 , sum_n , index_max , index_min ;	NA
+arr1 = two dimensional int array of sizes 1000 and 1000	int arr1 [ 100 + 10 ] [ 1000 ] ;	int arr1 [ 1000 ] [ 1000 ] ;	NA
+arr3 = char array of size 100	char arr3 [ 100 ] ;	char arr3 [ 100 ] ;	1
+arr = int array of size 10000	int arr [ 10000 ] ;	int arr [ 10000 ] ;	1
+in function display_vector taking an int vector v	void display_vector ( vector < int > v )	void display_vector ( vector < int > v )	1
+for i = 0 to size of v print v [ i ] then " "	for ( int i = 0 ; i < v. size ( ) ; i ++ ) { cout << v [ i ] << " " ; }	for ( int i = 0 ; i < v . size ( ) ; i ++ ) cout << v [ i ] << " " ;	NA
+print newline	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+define empty function speed	void speed ( ) { }	void speed ( ) { }	1
+in function min_max taking an int vector v and an int l	void min_max ( vector < int > v, int l )	void min_max ( vector < int > v , int l )	NA
+set min1 to INT_MAX	min1 = INT_MAX ;	min1 = INT_MAX ;	1
+set max1 to INT_MIN	max1 = INT_MIN ;	max1 = INT_MIN ;	1
+for i = l to size of v	for ( int i = l ; i < v. size ( ) ; i ++ )	for ( int i = l ; i < v . size ( ) ; i ++ )	NA
+if v [ i ] is less or equal to min1	if ( v [ i ] <= min1 )	if ( v [ i ] <= min1 )	1
+set min1 to v [ i ]	min1 = v [ i ] ;	min1 = v [ i ] ;	1
+set index_min to i	index_min = i ;	index_min = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if v [ i ] is greater or equal to max1	if ( v [ i ] >= max1 )	if ( v [ i ] >= max1 )	1
+set max1 to v [ i ]	max1 = v [ i ] ;	max1 = v [ i ] ;	1
+set index_max to i	index_max = i ;	index_max = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+in function sum_v taking an int vector v and returning an int	int sum_v ( vector < int > v )	int sum_v ( vector < int > v )	1
+for i = 0 to size of v increment sum_n by v [ i ]	for ( int i = 0 ; i < v. size ( ) ; i ++ ) sum_n += v [ i ] ;	for ( int i = 0 ; i < v . size ( ) ; i ++ ) sum_n += v [ i ] ;	NA
+return sum_n	return sum_n ;	return sum_n ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in function is_it_sorted_acs taking an int vector v and returning a bool	bool is_it_sorted_acs ( vector < int > v )	bool is_it_sorted_acs ( vector < int > v )	1
+test1 = bool with test1 = false	bool test1 = false ;	bool test1 = false ;	1
+for i = 0 to size of v - 1	for ( int i = 0 ; i < v. size ( ) - 1 ; i ++ )	for ( int i = 0 ; i < v . size ( ) - 1 ; i ++ )	NA
+if v [ i + 1 ] is less or equal to v [ i ]	if ( v [ i + 1 ] <= v [ 1 ] )	if ( v [ i + 1 ] <= v [ i ] )	NA
+set test1 to false	test1 = false ;	test1 = false ;	1
+return test1	return test1 ;	return test1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set test1 to true	test1 = true ;	test1 = true ;	1
+return test1	return test1 ;	return test1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+in function is_it_sorted_des taking an int vector v and returning a bool	bool is_it_sorted_des ( vector < int > v )	bool is_it_sorted_des ( vector < int > v )	1
+test1 = bool with test1 = false	bool test1 = false ;	bool test1 = false ;	1
+for i = 0 to size of v - 1	for ( int i = 0 ; i < v. size ( ) - 1 ; i ++ )	for ( int i = 0 ; i < v . size ( ) - 1 ; i ++ )	NA
+if v [ i + 1 ] is greater or equal to v [ i ]	if ( v [ i + 1 ] >= v [ 1 ] )	if ( v [ i + 1 ] >= v [ i ] )	NA
+set test1 to false	test1 = false ;	test1 = false ;	1
+return test1	return test1 ;	return test1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set test1 to true	test1 = true ;	test1 = true ;	1
+return test1	return test1 ;	return test1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call speed	speed ( ) ;	speed ( ) ;	1
+l , r = long long	long long l, r ;	long long l , r ;	NA
+read l then r	cin >> l >> r ;	cin >> l >> r ;	1
+if l is uneven then increment l	if ( l % 2 == 1 ) l ++ ;	if ( l % 2 != 0 ) l ++ ;	NA
+if r - l is less than 2 then print - 1 and return 0	if ( r - l < 2 ) return cout << - 1 << endl, 0 ;	if ( r - l < 2 ) return cout << - 1 << endl , 0 ;	NA
+print l and l + 1 and l + 2	cout << l << ( l + 1 ) << " " << l + 2 << endl ;	cout << l << " " << l + 1 << " " << l + 2 << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

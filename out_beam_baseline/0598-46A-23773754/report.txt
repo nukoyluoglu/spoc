@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n and m = integers with m = 2	int n, m = 2 ;	int n , m = 2 ;	NA
+read n	cin >> n ;	cin >> n ;	1
+print m	cout << m << endl ;	cout << m ;	4
+for i = 1 to n - 1 exclusive	for ( int i = 1 ; i < n - 1 ; ++ i )	for ( int i = 1 ; i < n - 1 ; i ++ )	NA
+increase m by i + 1	m += i + 1 ;	m += ( i + 1 ) ;	2
+if m % n is equal to 0	if ( m % n == 0 )	if ( m % n == 0 )	1
+print " " and n	<< " " << n << endl ;	cout << " " << n ;	2
+else	else	else	1
+print " " and m % n	cout << " " << m % n << endl ;	cout << " " << m % n ;	3
+}	}	}	DUMMY	DUMMY	DUMMY
+print new line	cout << endl ;	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,21 @@
+function min with int arguments a and b that returns integer	int min ( int a, int b )	int min ( int a , int b )	NA
+return a if a < b , or b otherwise	return a < b? a : b ;	return a < b ? a : b ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+max is an integer function with int arguments a and b	int max ( int a, int b )	int max ( int a , int b )	NA
+return a if a > b , or b otherwise	return a > b? a : b ;	return a > b ? a : b ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variables n , b , p and matches with the value of matches = 0	int n, b, p, matches = 0 ;	int n , b , p , matches = 0 ;	NA
+create integer variable with name x = 256	int x = 256 ;	int x = 256 ;	1
+read n , b and p	cin >> n >> b >> p ;	cin >> n >> b >> p ;	1
+declare integer N with value n	int N = n ;	int N = n ;	1
+while n ! = 1	while ( n!= 1 )	while ( n != 1 )	NA
+if x is greater than n	if ( x > n )	if ( x > n )	1
+change the value of x to x divided by 2	x /= 2 ;	x /= 2 ;	1
+skip the rest of the loop	continue ;	continue ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+subtract x / 2 from n	n -= x / 2 ;	n -= x / 2 ;	1
+add x / 2 to matches	matches += ( x / 2 ) ;	matches += x / 2 ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+print matches * ( 1 + 2 * b ) , " " and N * p to the standard output	cout << matches * ( 1 + 2 * b ) << " " << N * p << endl ;	cout << matches * ( 1 + 2 * b ) << " " << N * p << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,18 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;	int n ;	1
+l , r = int	int l, r ;	int l , r ;	NA
+vis = array of 101 int	int vis [ 101 ] ;	int vis [ 101 ] ;	1
+while read n	while ( cin >> n )	while ( cin >> n )	1
+fill vis with 0	memset ( vis, 0, sizeof ( vis ) ) ;	memset ( vis , 0 , sizeof ( vis ) ) ;	NA
+read l , r	cin >> l >> r ;	cin >> l >> r ;	1
+for i = l + 1 to r inclusive vis [ i ] = 1	for ( int i = l + 1 ; i <= r ; i ++ ) vis [ i ] = 1 ;	for ( int i = l + 1 ; i <= r ; i ++ ) { vis [ i ] = 1 ; }	6
+x , y = int	int x, y ;	int x , y ;	NA
+for i = 1 to n - 1 inclusive	for ( int i = 1 ; i <= n - 1 ; ++ i )	for ( int i = 1 ; i <= n - 1 ; i ++ )	NA
+read x , y	cin >> x >> y ;	cin >> x >> y ;	1
+for j = x + 1 to y inclusive vis [ j ] = 0	for ( int j = x + 1 ; j <= y ; j ++ ) vis [ j ] = 0 ;	for ( int j = x + 1 ; j <= y ; j ++ ) { vis [ j ] = 0 ; }	2
+}	}	}	DUMMY	DUMMY	DUMMY
+cnt = 0	int cnt = 0 ;	int cnt = 0 ;	1
+for i = l + 1 to r inclusive add vis [ i ] to cnt	for ( int i = l + 1 ; i <= r ; i ++ ) cnt += vis [ i ] ;	for ( int i = l + 1 ; i <= r ; i ++ ) { cnt += vis [ i ] ; }	2
+print cnt	cout << cnt << endl ;	cout << cnt << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

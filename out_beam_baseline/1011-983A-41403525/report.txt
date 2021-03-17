@@ -1,0 +1,26 @@
+declare int n	int n ;	int n ;	1
+declare long longs p , q , and b	long long p, q, b ;	long long p , q , b ;	NA
+declare long long NWD with long long x and long long y	long long NWD ( long long x, long long y )	long long NWD ( long long x , long long y )	NA
+if y is 0	if ( y == 0 )	if ( y == 0 )	1
+return x	return x ;	return x ;	1
+else	else	else	1
+return the NWD of y , and x mod y	return NWD ( y, x % y ) ;	return NWD ( y , x % y ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+input n	cin >> n ;	cin >> n ;	1
+loop i between 1 and n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; i ++ )	1
+input p , q , and b	cin >> p >> q >> b ;	cin >> p >> q >> b ;	1
+declare long long blep to be NWD of p and q	long long blep = NWD ( p, q ) ;	long long blep = NWD ( p , q ) ;	NA
+divide q by q over blep	q /= blep ;	q /= blep ;	1
+set blep to NWD of q and b	blep = NWD ( q, b ) ;	blep = NWD ( q , b ) ;	NA
+while blep is more than 1	while ( blep > 1 )	while ( blep > 1 )	1
+while q mod blep is zero , then set q to q over blep	while ( q % blep == 0 ) { q = q / blep ; }	while ( q % blep == 0 ) q /= blep ;	8
+set blep to NWD of q and b	blep = NWD ( q, b ) ;	blep = NWD ( q , b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if q is greater than 1	if ( q > 1 )	if ( q > 1 )	1
+output " Infinite "	cout << " Infinite " << endl ;	cout << " Infinite " << endl ;	1
+else	else	else	1
+output " Finite "	cout << " Finite " << endl ;	cout << " Finite " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

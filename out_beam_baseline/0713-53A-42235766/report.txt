@@ -1,0 +1,25 @@
+create new constant integer variable N with value 110	const int N = 110 ;	const int N = 110 ;	1
+declare new string input and string array hist with size N	string input, hist [ N ] ;	string hist [ N ] , input ;	NA
+declare vector of strings called prefixed	vector < string > prefixed ;	vector < string > prefixed ;	1
+declare new integer n	int n ;	int n ;	1
+boolean function comp with string arguments s1 and s2	bool comp ( string s1, string s2 )	bool comp ( string s1 , string s2 )	NA
+return true if s1 is less than s2 in lexicographic order , or false otherwise	return s1 < s2 ;	return strcmp ( s1 . c_str ( ) , s2 . c_str ( ) ) < 0 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+isPref is a boolean function with string arguments s1 and s2	bool isPref ( string s1, string s2 )	bool isPref ( string s1 , string s2 )	NA
+if length of s1 is less than length of s2 , return false	if ( s1. length ( ) < s2. size ( ) ) return false ;	if ( s1 . size ( ) < s2 . size ( ) ) return false ;	NA
+for integer i = 0 to length of s2 exclusive	for ( int i = 0 ; i < s2. length ( ) ; i ++ )	for ( int i = 0 ; i < s2 . size ( ) ; i ++ )	NA
+if s1 [ i ] ! = s2 [ i ] , return false	if ( s1 [ i ]!= s2 [ j ] ) { return false ; }	if ( s1 [ i ] != s2 [ i ] ) return false ;	NA
+return true	return true ;	return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read input and n from the input	cin >> input >> n ;	cin >> input >> n ;	1
+for integer i = 0 to n exclusive incrementing i	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+read hist [ i ] from the user input	cin >> hist [ i ] ;	cin >> hist [ i ] ;	1
+if isPref ( hist [ i ] , input ) returned true , push hist [ i ] into prefixed	if ( isPref ( hist. at ( i ), input ) ) prefixed. push_back ( hist [ i ] ) ;	if ( isPref ( hist [ i ] , input ) ) prefixed . push_back ( hist [ i ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if prefixed is not emptu	if (! prefixed. empty ( ) )	if ( ! prefixed . empty ( ) )	NA
+sort prefixed	sort ( prefixed, prefixed + n ) ;	sort ( prefixed . begin ( ) , prefixed . end ( ) , comp ) ;	NA
+print first element of prefixed to the standard output	cout << prefixed [ 0 ] << endl ;	cout << prefixed [ 0 ] << endl ;	1
+else	else	else	1
+print input	cout << input << endl ;	cout << input << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

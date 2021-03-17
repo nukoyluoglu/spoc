@@ -1,0 +1,26 @@
+let int array arr of size 1000	int arr [ 1000 ] ;	int arr [ 1000 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let int n	int n ;	int n ;	1
+while cin > > n is truthy	while ( cin >> n )	while ( cin >> n )	1
+let int total = 0	int total = 0 ;	int total = 0 ;	1
+set every index of arr to 0	memset ( arr, 0, sizeof ( arr ) ) ;	memset ( arr , 0 , sizeof ( arr ) ) ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+read arr [ i ]	cin >> arr [ i ] ;	cin >> arr [ i ] ;	1
+set total to total + arr [ i ]	total += arr [ i ] ;	total += arr [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+let ints s and t	int s, t ;	int s , t ;	NA
+read s and t	cin >> s >> t ;	cin >> s >> t ;	1
+create int tmp	int tmp ;	int tmp ;	1
+if s is greater than t	if ( s > t )	if ( s > t )	1
+set tmp to s	tmp = s ;	tmp = s ;	1
+set s to t	s = t ;	s = t ;	1
+set t to tmp	t = tmp ;	t = tmp ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+decrease s by 1	s -- ;	s -- ;	1
+reduce t by 1	t -- ;	t -- ;	1
+let ints a1 = 0 and a2 = 0	int a1 = 0, a2 = 0 ;	int a1 = 0 , a2 = 0 ;	NA
+for i = s to t exclusive , set a1 to a1 + arr [ i ]	for ( int i = s ; i < t ; i ++ ) { a1 += arr [ i ] ; }	for ( int i = s ; i < t ; i ++ ) { a1 += arr [ i ] ; }	1
+set a2 to total - a1	a2 = total - a1 ;	a2 = total - a1 ;	1
+print the min of a2 and a1	cout << min ( a2, a1 ) << endl ;	cout << min ( a2 , a1 ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

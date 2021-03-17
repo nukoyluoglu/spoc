@@ -1,0 +1,21 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , b , c , d , e , f , ans , x , y and z are integers where ans , x , y and z = 0	int a, b, c, d, e, f, ans = 0, x ='0 ', y ='9 ', z = 0 ;	int a , b , c , d , e , f , ans = 0 , x = 0 , y = 0 , z = 0 ;	NA
+read a , b , c , d , e and f	cin >> a >> b >> c >> d >> e >> f ;	cin >> a >> b >> c >> d >> e >> f ;	1
+if b is greater than f	if ( b > f )	if ( b > f )	1
+increase ans by 2 * a * f + f * ( f + 1 ) - f	ans += 2 * a * f + f * ( f + 1 ) - f ;	ans += 2 * a * f + f * ( f + 1 ) - f ;	1
+set value of x to a + f	x = a + f ;	x = a + f ;	1
+else	else	else	1
+increase ans by 2 * a * b + b * ( b + 1 ) - b	ans += 2 * a * b + b * ( b + 1 ) - b ;	ans += 2 * a * b + b * ( b + 1 ) - b ;	1
+set value of x to a + b	x = a + b ;	x = a + b ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if c is greater than e	if ( c > e )	if ( c > e )	1
+increase ans by 2 * d * e + e * ( e + 1 ) - e	ans += 2 * d * e + e * ( e + 1 ) - e ;	ans += 2 * d * e + e * ( e + 1 ) - e ;	1
+assign value of c - e to y	y = c - e ;	y = c - e ;	1
+else	else	else	1
+increase ans by 2 * d * c + c * ( c + 1 ) - c	ans += 2 * d * c + c * ( c + 1 ) - c ;	ans += 2 * d * c + c * ( c + 1 ) - c ;	1
+y = e - c	y = e - c ;	y = e - c ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+increase ans by 2 * x * y	ans += 2 * x * y ;	ans += 2 * x * y ;	1
+print ans and ' \ n '	cout << ans <<'\n';	cout << ans << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

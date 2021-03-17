@@ -1,0 +1,19 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+i = int	int i ;	int i ;	1
+x = int vector of size n	vector < int > x ( n ) ;	vector < int > x ( n ) ;	1
+y = int vector of size n	vector < int > y ( n ) ;	vector < int > y ( n ) ;	1
+z = int vector of size 101 with all values set to 1	vector < int > z ( 101, 1 ) ;	vector < int > z ( 101 , 1 ) ;	NA
+read n values into x then y	for ( int j = 0 ; j < n ; j ++ ) { cin >> x [ j ] >> y [ i ] ; }	for ( i = 0 ; i < n ; i ++ ) { cin >> x [ i ] >> y [ i ] ; }	NA
+k = int	int k ;	int k ;	1
+for i = 1 to n	for ( int i = 1 ; i <= n ; i ++ )	for ( i = 1 ; i < n ; i ++ )	7
+for j = x [ i ] to y [ i ] set z [ k ] to 0	for ( int j = x [ i ] ; j <= y [ j ] ; ++ j ) { z [ k ] = 0 ; }	for ( k = x [ i ] ; k < y [ i ] ; k ++ ) { z [ k ] = 0 ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+ct = int with ct = 0	int ct = 0 ;	int ct = 0 ;	1
+for i = x [ 0 ] to y [ 0 ]	for ( int i = x [ 0 ] ; i <= y [ 1 ] ; ++ i )	for ( i = x [ 0 ] ; i < y [ 0 ] ; i ++ )	NA
+if z [ i ] is 1 increment ct	if ( z [ i ] == 1 ) ct ++ ;	if ( z [ i ] == 1 ) { ct ++ ; }	2
+}	}	}	DUMMY	DUMMY	DUMMY
+print ct	cout << ct << endl ;	cout << ct << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

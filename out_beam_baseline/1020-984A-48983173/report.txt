@@ -1,0 +1,9 @@
+create long int array arr with size 1001	long int arr [ 1001 ] ;	long int arr [ 1001 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , i and mid	int n, i, mid ;	int n , i , mid ;	NA
+read input to n	cin >> n ;	cin >> n ;	1
+for i from 0 to n exclusive , read arr [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> arr [ i ] ; }	for ( i = 0 ; i < n ; i ++ ) { cin >> arr [ i ] ; }	3
+sort arr	sort ( arr, arr + 4 ) ;	sort ( arr , arr + n ) ;	NA
+mid = n / 2 rounded up	mid = ceil ( n / 2 ) ;	mid = ceil ( ( double ) n / 2 ) ;	5
+print arr [ mid - 1 ]	cout << arr [ mid - 1 ] << endl ;	cout << arr [ mid - 1 ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

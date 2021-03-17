@@ -1,0 +1,24 @@
+double constant PI is acos ( - 1 . 0 )	const double PI = acos ( - 1.0 ) ;	const double Pi = acos ( - 1.0 ) ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n and s be integers	int n, s ;	int n , s ;	NA
+read n and s	cin >> n >> s ;	cin >> n >> s ;	1
+create integers x and size	int x, size ;	int x , size ;	NA
+create arrays of doubles start and end with size 1005	double start [ 100005 ], end [ 1005 ] ;	double start [ 1005 ] , end [ 1005 ] ;	NA
+call memset with arguments start , 0 and sizeof ( start )	memset ( start, 0, sizeof ( start ) ) ;	memset ( start , 0 , sizeof ( start ) ) ;	NA
+call memset with arguments end , 0 and sizeof ( end )	memset ( end, 0, sizeof ( end ) ) ;	memset ( end , 0 , sizeof ( end ) ) ;	NA
+for integer i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+read x and size	cin >> x >> size ;	cin >> x >> size ;	1
+start [ i ] = x - size / 2 . 0	start [ i ] = x - size / 2.0 ;	start [ i ] = x - size / 2.0 ;	1
+end [ i ] = x + size / 2 . 0	end [ i ] = x + size / 2.0 ;	end [ i ] = x + size / 2.0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+sort n elements of array start	sort ( start, start + n ) ;	sort ( start , start + n ) ;	NA
+sort n elements of array end	sort ( end, end + n ) ;	sort ( end , end + n ) ;	NA
+res is integer = 2	int res = 2 ;	int res = 2 ;	1
+for integer i = 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+set double gap to start [ i + 1 ] - end [ i ]	double gap = start [ i + 1 ] - end [ i ] ;	double gap = start [ i + 1 ] - end [ i ] ;	1
+if s is less than gap increase res by 2	if ( s < gap ) res += 2 ;	if ( s < gap ) { res += 2 ; }	2
+if s = gap increase res by 1	if ( s == gap ) res ++ ;	if ( s == gap ) { res ++ ; }	4
+}	}	}	DUMMY	DUMMY	DUMMY
+print res and " \ n "	cout << res << " \n " ;	cout << res << " \n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

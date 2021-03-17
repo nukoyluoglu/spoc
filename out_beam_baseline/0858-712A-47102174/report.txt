@@ -1,0 +1,9 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+create long long array a with 100050 elements	long long a [ 100050 ] ;	long long a [ 100050 ] ;	1
+for integer i = 0 to n exclusive , read a [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;	1
+for integer i = 1 to n exclusive , print a [ i ] + a [ i - 1 ] and " "	for ( int i = 1 ; i < n ; i ++ ) { cout << A [ i ] + a [ i - 1 ] << " " ; }	for ( int i = 1 ; i < n ; i ++ ) cout << a [ i ] + a [ i - 1 ] << " " ;	NA
+print a [ n - 1 ]	cout << a [ n - 1 ] << endl ;	cout << a [ n - 1 ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

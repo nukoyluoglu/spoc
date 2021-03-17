@@ -1,0 +1,9 @@
+dx = int array with the values 0 , 1 , 0 , - 1 , 1 , 1 , - 1 , - 1	int dx [ ] = { " 0, 1, " 0 ", " -1 " } << 1 << " 1 " << - 1, - 1 } ;	int dx [ ] = { 0 , 1 , 0 , - 1 , 1 , 1 , - 1 , - 1 } ;	NA
+dy = int array with the values 1 , 0 , - 1 , 0 , 1 , - 1 , 1 , - 1	int dy [ ] = { 1, 0, - 1, " 0 ",'1 ','-1 ', " 1 ", " -1 " } ;	int dy [ ] = { 1 , 0 , - 1 , 0 , 1 , - 1 , 1 , - 1 } ;	NA
+define empty function fast	void fast ( ) { }	void fast ( ) { }	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call fast	fast ( ) ;	fast ( ) ;	1
+s , t = string	string s, t ;	string s , t ;	NA
+read s then t	cin >> s >> t ;	cin >> s >> t ;	1
+print - 1 if s is t else print max of size of s and size of t	cout << ( s == t? - 1 : max ( strlen ( s ), t. size ( ) ) ) << endl ;	cout << ( s == t ? - 1 : ( int ) max ( s . size ( ) , t . size ( ) ) ) << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

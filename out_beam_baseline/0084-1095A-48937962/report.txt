@@ -1,0 +1,12 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n is integer	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+let a be an array of characters of length n	char a [ n ] ;	char a [ n ] ;	1
+for i = 0 to n exclusive put input to a [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;	1
+let incr be integer = 1	int incr = 1 ;	int incr = 1 ;	1
+for integer i = 0 to n exclusive incrementing by incr	for ( int i = 0 ; i < n ; i += incr )	for ( int i = 0 ; i < n ; i = i + incr )	8
+print a [ i ]	cout << a [ i ] ;	cout << a [ i ] ;	1
+increase incr	incr ++ ;	incr ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print new line	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

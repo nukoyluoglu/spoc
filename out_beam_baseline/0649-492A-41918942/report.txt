@@ -1,0 +1,17 @@
+create int array a of length 10010	int a [ 10010 ] ;	int a [ 10010 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+set a [ 0 ] to 0	a [ 0 ] = 0 ;	a [ 0 ] = 0 ;	1
+for i = 1 to 10000 inclusive set a [ i ] = a [ i - 1 ] + i	for ( int i = 1 ; i <= 10000 ; i ++ ) A [ i ] = a [ i - 1 ] + i ;	for ( int i = 1 ; i <= 10000 ; i ++ ) a [ i ] = a [ i - 1 ] + i ;	NA
+create int n	int n ;	int n ;	1
+while read n	while ( cin >> n )	while ( cin >> n )	1
+ans = 0	int ans = 0 ;	int ans = 0 ;	1
+loop over i starting from i = 1	for ( int i = 1 ; ; i ++ )	for ( int i = 1 ; ; i ++ )	1
+if n > = a [ i ]	if ( n >= a [ i ] )	if ( n >= a [ i ] )	1
+set n to n - a [ i ] , increment ans	n -= a [ i ], ans ++ ;	n -= a [ i ] , ans ++ ;	NA
+else	else	else	1
+break	break ;	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

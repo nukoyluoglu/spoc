@@ -1,0 +1,28 @@
+let xx be a char array of length 1000002	char xx [ 1000002 ] ;	char xx [ 1000002 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , k = integers	int n, k ;	int n , k ;	NA
+while n and k are read	while ( cin >> n >> k )	while ( cin >> n >> k )	1
+if n is equal to or greater than 2 and k is less than 2 , or n is less than k	if ( n >= 2 && k < 2 || n < k )	if ( n < k || ( n >= 2 && k < 2 ) )	NA
+print - 1 and a new line	cout << - 1 << endl ;	cout << " -1 " << endl ;	2
+otherwise	else	else	1
+set integer a equal to k - 2	int a = k - 2 ;	int a = k - 2 ;	1
+set t = 0	t = 0 ;	int t = 0 ;	2
+set all contents of xx to 0	memset ( xx, 0, sizeof ( xx ) ) ;	memset ( xx , 0 , sizeof ( xx ) ) ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+if i is less than n - ( k - 2 )	if ( i < n - ( k - 2 ) )	if ( i < n - ( k - 2 ) )	1
+if i modulo 2 equal to 0	if ( i % 2 == 0 )	if ( i % 2 == 0 )	1
+set xx [ i ] = a	xx [ i ] = a ;	xx [ i ] = ' a ' ;	NA
+otherwise	else	else	1
+set xx [ i ] equal to b	xx [ i ] = b ;	xx [ i ] = ' b ' ;	NA
+otherwise	else	else	1
+if i is less than n	if ( i < n )	if ( i < n )	1
+set xx [ i ] = 99 + t	xx [ i ] = 99 + t ;	xx [ i ] = 99 + t ;	1
+increment t	t ++ ;	t ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print xx and a new line	cout << xx << endl ;	cout << xx << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,39 @@
+assign value 11000 to constant integer maxn	const int maxn = 11000 ;	const int maxn = 11000 ;	1
+create integer INF = 1 < < 30	const int INF = 1 << 30 ;	int INF = 1 << 30 ;	2
+let m and n be integers	int m, n ;	int m , n ;	NA
+da is an 2d array of integers with size 110 by maxn	int da [ 110 ] [ maxn ] ;	int da [ 110 ] [ maxn ] ;	1
+joo is an 2d array of integers with size 110 by maxn	int joo [ 110 ] [ maxn ] ;	int joo [ 110 ] [ maxn ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read m and n	cin >> m >> n ;	cin >> m >> n ;	1
+create string s	string s ;	string s ;	1
+for i = 0 to m exclusive	for ( int i = 0 ; i < m ; i ++ )	for ( int i = 0 ; i < m ; i ++ )	1
+read s	cin >> s ;	cin >> s ;	1
+for integer j = 0 to n exclusive set da [ i ] [ j ] to 1 if s [ j ] = ' 1 ' , 0 if it is not	for ( int j = 0 ; j < n ; j ++ ) cout << s [ j ] =='1 '? 1 : 0 ;	for ( int j = 0 ; j < n ; j ++ ) da [ i ] [ j ] = ( s [ j ] == ' 1 ' ? 1 : 0 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+declare integers t and jj	int t, jj ;	int t , jj ;	NA
+for i = 0 to m exclusive	for ( int i = 0 ; i < m ; i ++ )	for ( int i = 0 ; i < m ; i ++ )	1
+t = INF	int t = INF ;	t = INF ;	3
+for j = 0 while j < n * 2	for ( int j = 0 ; j < n * 2 ; j ++ )	for ( int j = 0 ; j < n * 2 ; j ++ )	1
+jj = j % n	jj = j % n ;	jj = j % n ;	1
+if da [ i ] [ jj ] = 1 , set t to 0	if ( da [ i ] [ jj ] == 1 ) t = 0 ;	if ( da [ i ] [ jj ] == 1 ) t = 0 ;	1
+set joo [ i ] [ jj ] = t and increment t	joo [ i ] [ jj ] = t ++ ;	joo [ i ] [ jj ] = t ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+t = INF	int t = INF ;	t = INF ;	3
+for integer j = n * 2 to 0 inclusive counting down	for ( int j = n * 2 ; j >= 0 ; j -- )	for ( int j = n * 2 ; j >= 0 ; j -- )	1
+jj = j % n	jj = j % n ;	jj = j % n ;	1
+if da [ i ] [ jj ] = 1 , set t to 0	if ( da [ i ] [ jj ] == 1 ) t = 0 ;	if ( da [ i ] [ jj ] == 1 ) t = 0 ;	1
+joo [ i ] [ jj ] = min of joo [ i ] [ jj ] and t	joo [ j ] [ ij ] = min ( joo [ i ] [ jj ], t ) ;	joo [ i ] [ jj ] = min ( joo [ i ] [ jj ] , t ++ ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+declare long longs mi = INF and sum	long long mi = INF, sum ;	long long mi = INF , sum ;	NA
+for integer j = 0 to n exclusive	for ( int j = 0 ; j < n ; j ++ )	for ( int j = 0 ; j < n ; j ++ )	1
+assign value of 0 to sum	sum = 0 ;	sum = 0 ;	1
+for integer i = 0 to m exclusive add joo [ i ] [ j ] to sum	for ( int i = 0 ; i < m ; i ++ ) sum += joo [ i ] [ j ] ;	for ( int i = 0 ; i < m ; i ++ ) { sum += joo [ i ] [ j ] ; }	2
+set mi to min of sum and mi	mi = min ( sum, mi ) ;	mi = min ( sum , mi ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if mi > = INF	if ( mi >= INF )	if ( mi >= INF )	1
+print - 1 and a new line	cout << - 1 << endl ;	cout << - 1 << endl ;	1
+else	else	else	1
+print mi and a new line	cout << mi << endl ;	cout << mi << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,9 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare int variables l , p and q	int l, p, q ;	int l , p , q ;	NA
+create doubles sum and su	double sum, su ;	double sum , su ;	NA
+read l , p and q and keep looping	while ( cin >> l >> p >> q )	while ( cin >> l >> p >> q )	1
+change sum to l / ( 2 * ( p + q ) )	sum = l / ( 2 * ( p + q ) ) ;	sum = ( double ) l / ( 2 * ( p + q ) ) ;	NA
+assign l - sum * q * 2 to su	su = l - sum * q * 2 ;	su = ( double ) l - sum * q * 2 ;	NA
+print su	cout << su << endl ;	cout << su << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

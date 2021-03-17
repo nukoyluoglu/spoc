@@ -1,0 +1,8 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare string variables s1 and s2	string s1, s2 ;	string s1 , s2 ;	NA
+read from the input to s1 and s2	cin >> s1 >> s2 ;	cin >> s1 >> s2 ;	1
+if s1 is equal to s2	if ( s1 == s2 )	if ( s1 == s2 )	1
+print - 1 and a new line	cout << - 1 << endl ;	cout << - 1 << endl ;	1
+else	else	else	1
+print max of length of s1 and length of s2 to the standard output	cout << max ( s1. size ( ), s2. length ( ) ) << endl ;	cout << max ( s1 . length ( ) , s2 . length ( ) ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

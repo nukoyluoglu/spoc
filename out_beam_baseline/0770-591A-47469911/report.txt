@@ -1,0 +1,11 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+l , x , y = double	double l, x, y ;	double l , x , y ;	NA
+read l	cin >> l ;	cin >> l ;	1
+read x , y	cin >> x >> y ;	cin >> x >> y ;	1
+if y > x	if ( y > x )	if ( y > x )	1
+print l - ( ( l / ( x + y ) ) * the greatest value between x and y )	cout << l - ( ( l / ( x + y ) ) * max ( x, y ) << endl ;	cout << l - ( ( l / ( x + y ) ) * max ( x , y ) ) << endl ;	NA
+else	else	else	1
+print ( ( l / ( x + y ) ) * the greatest value between x and y )	cout << ( ( l / ( x + y ) ) * max ( x, y ) << endl ;	cout << ( l / ( x + y ) ) * max ( x , y ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

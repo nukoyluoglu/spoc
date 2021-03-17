@@ -1,0 +1,12 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare ints n , b and p	int n, b, p ;	int n , b , p ;	NA
+read variables n , b and p from the input	cin >> n >> b >> p ;	cin >> n >> b >> p ;	1
+create ints bowl = 0 and towl = n * p	int bowl = 0, towl = n * p ;	int bowl = 0 , towl = n * p ;	NA
+while n > 1	while ( n > 1 )	while ( n > 1 )	1
+new integer k = pow ( 2 , ( log ( n ) / log ( 2 ) ) )	int k = pow ( 2, ( log ( n ) / log ( 2 ) ) ) ;	int k = pow ( 2 , ( int ) ( log ( n ) / log ( 2 ) ) ) ;	NA
+increase bowl by k / 2 * ( 2 * b + 1 )	bowl += k / 2 * ( 2 * b + 1 ) ;	bowl += k / 2 * ( 2 * b + 1 ) ;	1
+change n to n - k / 2	n = n - k / 2 ;	n -= k / 2 ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+print bowl , ' ' and towl to the standard output	cout << bowl <<' '<< towl << endl ;	cout << bowl << ' ' << towl << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

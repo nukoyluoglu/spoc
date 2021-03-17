@@ -1,0 +1,16 @@
+s , d = strings	string s, d ;	string s , sd ;	NA
+n , i , l = long long	long long n, i, l ;	long long n , i , l ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;	cin >> n ;	1
+read s	cin >> s ;	cin >> s ;	1
+while n is not 0	while ( n!= 0 )	while ( n != 0 )	NA
+increment l	l ++ ;	l ++ ;	1
+n = n - l	n -= l ;	n -= l ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 1 to less or equal l	for ( int i = 1 ; i <= l ; i ++ )	for ( i = 1 ; i <= l ; i ++ )	2
+sd = sd + s [ 0 ]	sd = sd + s [ 0 ] ;	sd = sd + s [ 0 ] ;	1
+Erases the portion of the string	;	s . erase ( 0 , i ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print sd and new line	cout << sd << endl ;	cout << sd << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

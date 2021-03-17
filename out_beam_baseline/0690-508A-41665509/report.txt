@@ -1,0 +1,27 @@
+create bool a [ 1005 ] [ 1005 ]	bool a [ 100005 ] [ 1005 ] ;	bool a [ 1005 ] [ 1005 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int n and m	int n, m ;	int n , m ;	NA
+read n , m	cin >> n >> m ;	cin >> n >> m ;	1
+create int k	int k ;	int k ;	1
+read k	cin >> k ;	cin >> k ;	1
+for c = 1 to k inclusive	for ( int c = 1 ; c <= k ; c ++ )	for ( int c = 1 ; c <= k ; c ++ )	1
+create int x and y	int x, y ;	int x , y ;	NA
+read x , y	cin >> x >> y ;	cin >> x >> y ;	1
+set a [ x ] [ y ] = true	a [ x ] [ y ] = true ;	a [ x ] [ y ] = true ;	1
+if a [ x ] [ y ] , a [ x + 1 ] [ y ] , a [ x ] [ y + 1 ] , a [ x + 1 ] [ y + 1 ] are true	if ( a [ x ] [ y ] == true )	if ( a [ x ] [ y ] && a [ x + 1 ] [ y ] && a [ x ] [ y + 1 ] && a [ x + 1 ] [ y + 1 ] )	NA
+print c	cout << c << endl ;	cout << c << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else if a [ x ] [ y ] and a [ x - 1 ] [ y ] and a [ x ] [ y + 1 ] and a [ x - 1 ] [ y + 1 ] are not false	else if (! flag &&! a [ x ] [ y ] &&! flag ||! flag )	else if ( a [ x ] [ y ] && a [ x - 1 ] [ y ] && a [ x ] [ y + 1 ] && a [ x - 1 ] [ y + 1 ] )	NA
+print c and a newline	cout << c << endl ;	cout << c << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else if a [ x ] [ y ] , a [ x - 1 ] [ y ] , a [ x ] [ y - 1 ] , a [ x - 1 ] [ y - 1 ] = true	else if ( a [ x ] [ y ] == true )	else if ( a [ x ] [ y ] && a [ x - 1 ] [ y ] && a [ x ] [ y - 1 ] && a [ x - 1 ] [ y - 1 ] )	NA
+print c	cout << c << endl ;	cout << c << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else if a [ x ] [ y ] and a [ x + 1 ] [ y ] and a [ x ] [ y - 1 ] and a [ x + 1 ] [ y - 1 ] different from false	else if ( i!= 0 && a [ x ] [ y ] && i < n && i > 0 && i!= false && i ++ )	else if ( a [ x ] [ y ] && a [ x + 1 ] [ y ] && a [ x ] [ y - 1 ] && a [ x + 1 ] [ y - 1 ] )	NA
+print c	cout << c << endl ;	cout << c << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print 0 and a newline	cout << 0 << " \n " ;	cout << 0 << endl ;	2
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

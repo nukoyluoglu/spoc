@@ -1,0 +1,16 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , a , b , s , t	int n, a, b, s, t ;	int n , a , b , s , t ;	NA
+while read n is true	while ( cin >> n )	while ( cin >> n )	1
+set t to 0	t = 0 ;	t = 0 ;	1
+create integers r , z , with r = 0 , z = 0	int r = 0, z = 0 ;	int r = 0 , z = 0 ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+read a read b	cin >> a >> b ;	cin >> a >> b ;	1
+increment r by a	r += a ;	r += a ;	1
+increment z by b	z += b ;	z += b ;	1
+set s to z - r	s = z - r ;	s = z - r ;	1
+set t to maximum of t ans s	t = max ( t, s ) ;	t = max ( t , s ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print t print newline	cout << t << endl ;	cout << t << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

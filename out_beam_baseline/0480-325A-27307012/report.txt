@@ -1,0 +1,19 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+mn , mn2 = integers with mn = 50000 , mn2 = mn	int mn = 50000, mn2 = mn ;	int mn = 50000 , mn2 = mn ;	NA
+N , mx , mx2 , Ar = integers with mx = - 1 , mx2 = mx , Ar = 0	int N, Mx = - 1, mx2 = mx, Ar = 0 ;	int N , mx = - 1 , mx2 = mx , Ar = 0 ;	NA
+read N	cin >> N ;	cin >> N ;	1
+for i = 1 to N	for ( int i = 1 ; i <= N ; i ++ )	for ( int i = 1 ; i <= N ; ++ i )	2
+a , b , x , y = integers	int a, b, x, y ;	int a , b , x , y ;	NA
+read a , b , x , y	cin >> a >> b >> x >> y ;	cin >> a >> b >> x >> y ;	1
+Ar = Ar + ( x - a ) * ( y - b )	Ar += ( x - a ) * ( y - b ) ;	Ar += ( x - a ) * ( y - b ) ;	1
+mn = min of mn and min ( a , x )	mn = min ( mn, min ( a, x ) ) ;	mn = min ( mn , min ( a , x ) ) ;	NA
+mn2 = min of mn2 and min ( b , y )	mn2 = min ( mn2, min ( b, y ) ) ;	mn2 = min ( mn2 , min ( b , y ) ) ;	NA
+mx = max of mx and max ( a , x )	mx = max ( mx, max ( a, x ) ) ;	mx = max ( mx , max ( a , x ) ) ;	NA
+mx2 = max of mx2 and max ( b , y )	mx2 = max ( mx2, max ( b, y ) ) ;	mx2 = max ( mx2 , max ( b , y ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if ( mx - mn is mx2 - mn2 and Ar is ( mx - mn ) * ( mx2 - mn2 ) )	if ( ( mx -= mn == mx2 - mn2 ) &&! Ar )	if ( mx - mn == mx2 - mn2 && Ar == ( mx - mn ) * ( mx2 - mn2 ) )	NA
+print YES	cout << " YES " << endl ;	cout << " YES\n " ;	2
+else	else	else	1
+print NO	cout << " NO " << endl ;	cout << " NO\n " ;	2
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

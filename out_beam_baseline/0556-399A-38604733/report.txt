@@ -1,0 +1,31 @@
+create integer queue q	queue < int > q ;	queue < int > q ;	1
+create boolean array p with size 10000 with p = { }	bool p [ 10000 ] = { } ;	bool p [ 10000 ] = { } ;	1
+create integer pe	int pe ;	int pe ;	1
+declare print with integers c , a , b as arguments , returning void	void print ( int c, int a, int b )	void print ( int c , int a , int b )	NA
+if a is less than c or a is greater than b or p [ a ] or a is greater than pe or a is less than 1 , return from function	if ( a < c || a > b || ( p [ a ] ) || ( a > pe || a < l ) ) return ;	if ( a < c || a > b || p [ a ] || a > pe || a < 1 ) return ;	NA
+set p [ a ] to true	p [ a ] = true ;	p [ a ] = true ;	1
+run print with c , a - 1 , b as arguments	print ( c, a - 1, b ) ;	print ( c , a - 1 , b ) ;	NA
+add element a to end of q	q. push ( a ) ;	q . push ( a ) ;	NA
+run print with c , a + 1 , b as arguments	print ( c, a + 1, b ) ;	print ( c , a + 1 , b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , k	int n, k ;	int n , k ;	NA
+read pe read n read k	cin >> pe >> n >> k ;	cin >> pe >> n >> k ;	1
+if n - k is greater than 1 , print " < < "	if ( n - k > 1 ) cout << " << " << endl ;	if ( n - k > 1 ) { cout << " << " ; }	9
+run print with n - k , n , n + k as arguments	print ( n - k, n, n + k ) ;	print ( n - k , n , n + k ) ;	NA
+while q is not empty	while (! q. empty ( ) )	while ( ! q . empty ( ) )	NA
+if size of q is not 1 and front of q is not n	if ( q. resize ( 1 ) && q. front ( )!= n )	if ( q . size ( ) != 1 && q . front ( ) != n )	NA
+print front of q print " "	cout << q. front ( ) << " " ;	cout << q . front ( ) << " " ;	NA
+else if front of q is n	else if ( q. front ( ) == n )	else if ( q . front ( ) == n )	NA
+print " ( " print front of q	cout << " ( " << q. front ( ) ) << endl ;	cout << " ( " << q . front ( ) ;	NA
+if size of q is not 1	if ( q. size ( )!= 1 )	if ( q . size ( ) != 1 )	NA
+print " ) "	cout << " ) " ;	cout << " ) " ;	1
+else	else	else	1
+print " ) "	cout << " ) " ;	cout << " ) " ;	1
+else	else	else	1
+print front of q	cout << q. front ( ) << endl ;	cout << q . front ( ) ;	NA
+remove element from end of q	q. pop ( ) ;	q . pop ( ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if n + k is less than pe , print " > > "	if ( n + k < pe ) cout << " >> " ;	if ( n + k < pe ) { cout << " >> " ; }	3
+print newline	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

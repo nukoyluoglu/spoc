@@ -1,0 +1,11 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , temp = integer 2d array of size [ 24 ] [ 60 ] , maxi , h , m = integers with temp = { 0 } , maxi = 0	int n, temp [ 24 ] [ 60 ], maxi = 0, h, m ;	int n , temp [ 24 ] [ 60 ] = { 0 } , maxi = 0 , h , m ;	NA
+read n	cin >> n ;	cin >> n ;	1
+while n	while ( n )	while ( n -- )	2
+read h , m	cin >> h >> m ;	cin >> h >> m ;	1
+increment temp [ h ] [ m ]	temp [ h ] [ m ] ++ ;	temp [ h ] [ m ] ++ ;	1
+if temp [ h ] [ m ] > maxi , maxi = temp [ h ] [ m ]	if ( temp [ h ] [ m ] > maxi ) ++ maxi ;	if ( temp [ h ] [ m ] > maxi ) maxi = temp [ h ] [ m ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print maxi	cout << maxi << endl ;	cout << maxi << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

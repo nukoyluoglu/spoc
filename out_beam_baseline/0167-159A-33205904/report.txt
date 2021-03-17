@@ -1,0 +1,26 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , dx	int n, dx ;	int n , dx ;	NA
+read n read dx	cin >> n >> dx ;	cin >> n >> dx ;	1
+create string arrays a , b , c , d , with a size 1001 , b size 1001 , c size 1001 , d size 1001	string a [ 1001 ] = { " a ", " b ", { " c ", ( 1001 ), " d " } ;	string a [ 1001 ] , b [ 1001 ] , c [ 1001 ] , d [ 1001 ] ;	NA
+create integer array t with size 1001	int t [ 1001 ] ;	int t [ 1001 ] ;	1
+create integer sum with sum = 0	int sum = 0 ;	int sum = 0 ;	1
+for i = 0 to n exclusive , read a [ i ] read b [ i ] read t [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ 1 ] >> b [ 2 ] >> t [ i ] ; }	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] >> b [ i ] >> t [ i ] ;	NA
+or i = 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+for j = i + 1 to n exclusive	for ( int j = i + 1 ; j < n ; j ++ )	for ( int j = i + 1 ; j < n ; j ++ )	1
+if t [ j ] - t [ i ] is greater than 0 and t [ j ] - t [ i ] is less than or equal to dx	if ( t [ j ] - t [ i ] > 0 )	if ( t [ j ] - t [ i ] > 0 && t [ j ] - t [ i ] <= dx )	NA
+if a [ i ] is b [ j ] and b [ i ] is a [ j ]	if ( a [ i ] == b [ j ] )	if ( a [ i ] == b [ j ] && b [ i ] == a [ j ] )	NA
+create integer flat with flat = 0	int flat = 0 ;	int flat = 0 ;	1
+for k = 0 to sum exclusive	for ( int k = 0 ; k < sum ; k ++ )	for ( int k = 0 ; k < sum ; k ++ )	1
+if a [ i ] is c [ k ] and b [ i ] is d [ k ] or a [ i ] is d [ k ] and b [ i ] is c [ k ]	if ( ( a [ 0 ] == c [ k ] ) && ( b [ i ] == d [ K ] ) || ( a1 + 1 )!= ( b1 + 2 ) ) { cin >> a [ 1 ] ; }	if ( a [ i ] == c [ k ] && b [ i ] == d [ k ] || a [ i ] == d [ k ] && b [ i ] == c [ k ] )	NA
+set flat to 1	flat = 1 ;	flat = 1 ;	1
+break loop	break ;	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if not flag	if (! flag )	if ( ! flat )	NA
+set c [ sum ] to a [ i ]	c [ sum ] = a [ i ] ;	c [ sum ] = a [ i ] ;	1
+set d [ sum ] to b [ i ]	d [ sum ] = b [ i ] ;	d [ sum ] = b [ i ] ;	1
+increment sum	sum ++ ;	sum ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print sum print newline	cout << sum << endl ;	cout << sum << endl ;	1
+for i = 0 to sum exclusive , print c [ i ] print " " print d [ i ] print newline	for ( int i = 0 ; i < sum ; i ++ ) { cout << c [ i ] << " " << d [ j ] << endl ; }	for ( int i = 0 ; i < sum ; i ++ ) { cout << c [ i ] << " " << d [ i ] << endl ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY

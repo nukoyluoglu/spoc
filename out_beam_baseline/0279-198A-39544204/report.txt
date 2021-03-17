@@ -1,0 +1,11 @@
+k , b , n , t , ans = integers	int k, b, n, t, ans ;	int k , b , n , t , ans ;	NA
+assign 1 to m	m = 1 ;	long long m = 1 ;	3
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read k , b , n , t	cin >> k >> b >> n >> t ;	cin >> k >> b >> n >> t ;	1
+while m equal to or greater than t , assign m * k + b to m , increment ans	while ( m >= t ) m = m * k + b, ans ++ ;	while ( m <= t ) m = m * k + b , ans ++ ;	NA
+if n > = ans	if ( n >= ans )	if ( n >= ans )	1
+print n - ans + 1	cout << n - ans + 1 << endl ;	cout << n - ans + 1 << endl ;	1
+otherwise	else	else	1
+print 0 and a new line	cout << 0 << endl ;	cout << 0 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

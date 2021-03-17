@@ -1,0 +1,12 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int t and i	int t, i ;	int t , i ;	NA
+read t	cin >> t ;	cin >> t ;	1
+if t mod 2 = 1	if ( t % 2 == 1 )	if ( t % 2 == 1 )	1
+print - 1	cout << - 1 << endl ;	cout << - 1 << endl ;	1
+else	else	else	1
+print 2 1	cout << 2 << endl ;	cout << " 2 1 " ;	19
+for i = 3 to t exclusive , print " " , i + 1 , " " , i	for ( int i = 3 ; i < t ; i ++ ) { cout << ( char ) ( i + 1 ) << " " << i << endl ; }	for ( i = 3 ; i < t ; i += 2 ) { cout << " " << i + 1 << " " << i ; }	NA
+print a new line	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

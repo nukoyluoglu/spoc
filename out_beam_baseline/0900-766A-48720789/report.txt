@@ -1,0 +1,8 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+s , s1 = string	string s, s1 ;	string s , s1 ;	NA
+read s then s1	cin >> s >> s1 ;	cin >> s >> s1 ;	1
+if s is s1	if ( s == s1 )	if ( s == s1 )	1
+print - 1	cout << - 1 << endl ;	cout << - 1 << endl ;	1
+else	else	else	1
+print max of size of s , size of s1	cout << max ( strlen ( s ), s1. size ( ) ) << endl ;	cout << max ( s . size ( ) , s1 . size ( ) ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

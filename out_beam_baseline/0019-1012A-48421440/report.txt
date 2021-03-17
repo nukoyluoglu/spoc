@@ -1,0 +1,14 @@
+N = const integer with N = 2e5 + 50	const int N = 2e5 + 50 ;	const int N = 2e5 + 50 ;	1
+M = const integer with M = 1e6	const int M = 1e6 ;	const int M = 1e6 ;	1
+oo = const long long with oo = 1e18	const long long oo = 1e18 ;	const long long oo = 1e18 ;	1
+mod = const integer mod = 1e9 + 7	const int mod = 1e9 + 7 ;	const int mod = 1e9 + 7 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = integer	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+a ( 2 * n ) = vector of long long	vector < long long > a ( 2 * n ) ;	vector < long long > a ( 2 * n ) ;	1
+for i = 0 to n * 2 exclusive , read a [ i ]	for ( int i = 0 ; i < n * 2 ; i ++ ) cin >> a [ i ] ;	for ( int i = 0 ; i < n * 2 ; i ++ ) cin >> a [ i ] ;	1
+sort a . begin ( ) and a . end ( )	sort ( a. begin ( ), a. end ( ) ) ;	sort ( a . begin ( ) , a . end ( ) ) ;	NA
+ans = long long with ans = ( a [ n - 1 ] - a [ 0 ] ) * ( a . back ( ) - a [ n ] )	long long ans = ( a [ n - 1 ] - a [ 0 ] ) * ( a. back ( ) - b [ n ] ) ;	long long ans = ( a [ n - 1 ] - a [ 0 ] ) * ( a . back ( ) - a [ n ] ) ;	NA
+for i = 1 to n exclusive , ans = min ( ans , ( a [ i + n - 1 ] - a [ i ] ) * ( a . back ( ) - a [ 0 ] ) )	for ( int i = 1 ; i < n ; i ++ ) ans = min ( ans, ( a [ i + n - 1 ] -'a'[ i ] ) * ( a. back ( ) - a [ 0 ] ) ) ;	for ( int i = 1 ; i < n ; i ++ ) { ans = min ( ans , ( a [ i + n - 1 ] - a [ i ] ) * ( a . back ( ) - a [ 0 ] ) ) ; }	NA
+print ans	cout << ans << endl ;	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

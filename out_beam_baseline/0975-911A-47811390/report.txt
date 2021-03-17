@@ -1,0 +1,19 @@
+n , mn , skr , mnd = integers with mn = 1e9 + 7 , skr = 1e9 + 7 , mnd = 1e6	int n, mn = ( 1e9 + 7 ), skr = _n + 7, mnd = 1e6 ;	int n , mn = 1e9 + 7 , skr = 1e9 + 7 , mnd = 1e6 ;	NA
+in the function masuk that takes integer idx	void masuk ( int idx )	void masuk ( int idx )	1
+if idx < n	if ( idx < n )	if ( idx < n )	1
+ai = integer	int ai ;	int ai ;	1
+read ai	cin >> ai ;	cin >> ai ;	1
+mn = min of mn and ai	mn = min ( mn, ai ) ;	mn = min ( mn , ai ) ;	NA
+masuk of idx + 1	masuk ( idx + 1 ) ;	masuk ( idx + 1 ) ;	1
+if ai is mn	if ( ai == mn )	if ( ai == mn )	1
+mnd = min of mnd and skr - idx	mnd = min ( mnd, skr - idx ) ;	mnd = min ( mnd , skr - idx ) ;	NA
+skr = idx	skr = idx ;	skr = idx ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;	cin >> n ;	1
+masuk of 0	masuk ( 0 ) ;	masuk ( 0 ) ;	1
+print mnd	cout << mnd << endl ;	cout << mnd << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

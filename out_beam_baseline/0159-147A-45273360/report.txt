@@ -1,0 +1,20 @@
+create character variable c with size of 10005	char c [ 10005 ] ;	char c [ 10005 ] ;	1
+s = string	string s ;	string s ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+input line into array c of 10005 size	cin. getline ( c [ 10005 ] ) ;	cin . getline ( c , 10005 ) ;	NA
+set int i to 0	int i = 0 ;	int i = 0 ;	1
+set int lg to strlen ( c )	int lg = strlen ( c ) ;	int lg = strlen ( c ) ;	1
+set bool ok to 0	bool ok = 0 ;	bool ok = 0 ;	1
+if i is less than lg then do	if ( i < lg )	while ( i < lg )	2
+if isalpha is true	if ( isalpha )	if ( isalpha ( c [ i ] ) )	NA
+if ok = 0 and i is not equal to 0 and not isalpha ( c [ i - 1 ] then add a space character to s	if ( ok == 0 && i!= 0 &&! isalpha ( c [ i - 1 ] ) ) s += " " ;	if ( ok == 0 && i != 0 && ! isalpha ( c [ i - 1 ] ) ) s += ' ' ;	NA
+s equals s plus c [ i ]	s += c [ i ] ;	s += c [ i ] ;	1
+set ok to 0	ok = 0 ;	ok = 0 ;	1
+else	else	else	1
+set if ( c [ i ] = ? or c [ i ] = ! or c [ i ] = , or c [ i ] = . ) s + = c [ i ] then add a c [ i ] to s and add a space to s , and make ok = 1	if ( s >= ( c [ i ] == '?'|| s <= '.') || s = s + " a " || s += " " ) { ok = 1 ; }	if ( c [ i ] == ' ? ' || c [ i ] == ' ! ' || c [ i ] == ' , ' || c [ i ] == ' . ' ) s += c [ i ] , s += ' ' , ok = 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+add one to i	i ++ ;	++ i ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+output s	cout << s << endl ;	cout << s << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

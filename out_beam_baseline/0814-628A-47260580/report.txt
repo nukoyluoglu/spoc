@@ -1,0 +1,5 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+i , b , p , j , n , m , k = int	int i, b, p, j, n, m, k ;	int i , b , p , j , n , m , k ;	NA
+read n , b , p	cin >> n >> b >> p ;	cin >> n >> b >> p ;	1
+print ( 2 * b + 1 ) * ( n - 1 ) and space and n * p	cout << ( 2 * b + 1 ) * ( n - 1 ) << " " << n * p << endl ;	cout << ( 2 * b + 1 ) * ( n - 1 ) << " " << n * p << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

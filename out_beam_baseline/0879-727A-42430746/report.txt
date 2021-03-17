@@ -1,0 +1,33 @@
+a , b , jum = long long	long long a, b, jum ;	long long a , b , jum ;	NA
+v = long long vector	vector < long long > v ;	vector < long long > v ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read a then b	cin >> a >> b ;	cin >> a >> b ;	1
+loop while b is greater than 0	while ( b > 0 )	while ( b >= 1 )	19
+increment jum	jum ++ ;	jum ++ ;	1
+append b to v	v. push_back ( b ) ;	v . push_back ( b ) ;	NA
+if a is b then break loop	if ( a == b ) break ;	if ( a == b ) { break ; }	2
+if a b is less than a	if ( a < b )	if ( b < a )	15
+print " NO "	cout << " NO " << endl ;	cout << " NO " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else if b is even	else if ( b % 2 == 0 )	else if ( b % 2 == 0 )	1
+set b to b / 2	b /= 2 ;	b = b / 2 ;	2
+else if b is uneven	else if ( b % 2 == 1 )	else if ( b % 2 == 1 )	1
+decrement b	b -- ;	b -- ;	1
+if b is a multiple of 10	if ( b % 10 == 0 )	if ( b % 10 == 0 )	1
+set b to b / 10	b /= 10 ;	b = b / 10 ;	2
+else	else	else	1
+print " NO "	cout << " NO " << endl ;	cout << " NO " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+sort v	sort ( v. begin ( ), v. end ( ) ) ;	sort ( v . begin ( ) , v . end ( ) ) ;	NA
+print " YES " and jum	cout << " YES " << endl << jum ;	cout << " YES " << endl << jum << endl ;	NA
+for i = 0 to jum	for ( int i = 0 ; i < jum ; i ++ )	for ( int i = 0 ; i < jum ; i ++ )	1
+print v [ i ]	cout << v [ i ] ;	cout << v [ i ] ;	1
+if i is less than jum - 1	if ( i < jum - 1 )	if ( i < jum - 1 )	1
+print " "	cout << " " ;	cout << " " ;	1
+else	else	else	1
+print newline	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

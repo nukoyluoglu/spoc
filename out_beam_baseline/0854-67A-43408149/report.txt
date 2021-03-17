@@ -1,0 +1,22 @@
+n = long long integers	long long n ;	long long int n ;	2
+integers = answer array with size of 2000	int answer [ 2000 ] ;	int answer [ 2000 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;	cin >> n ;	1
+set integer small to 1	int small = 1 ;	int small = 1 ;	1
+create character variable s	char s ;	char s [ n ] ;	68
+read n values into array s	for ( int i = 0 ; i < n ; i ++ ) cin >> s [ i ] ;	for ( int i = 0 ; i < n - 1 ; i ++ ) cin >> s [ i ] ;	55
+make n values of array answer = 1	for ( int i = 0 ; i < n ; i ++ ) answer [ i ] = 1 ;	for ( int i = 0 ; i < n ; i ++ ) answer [ i ] = 1 ;	1
+for i = n - 2 to greater than or equal to 0 then do	for ( int i = n - 2 ; i >= 0 ; i -- )	for ( int i = n - 2 ; i >= 0 ; i -- )	1
+if s [ i ] is L then do the following	if ( s [ i ] =='L')	if ( s [ i ] == ' L ' )	NA
+set answer [ i ] to answer [ i + 1 ] + 1	answer [ i ] = answer [ i + 1 ] + 1 ;	answer [ i ] = answer [ i + 1 ] + 1 ;	1
+else if s [ i ] is = then do the following	else if ( s [ i ] =='==')	else if ( s [ i ] == ' = ' )	NA
+set answer [ i ] to answer [ i + 1 ]	answer [ i ] = answer [ i + 1 ] ;	answer [ i ] = answer [ i + 1 ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to less than n - 1 do the following	for ( int i = 0 ; i < n - 1 ; i ++ )	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+if s [ i ] = R and answer [ i ] is greater than or equal to answer [ i + 1 ] then do the following	if ( s [ i ] =='R'&& answer [ j ] >= answer [ i + 1 ] )	if ( s [ i ] == ' R ' && answer [ i ] >= answer [ i + 1 ] )	NA
+set answer [ i + 1 ] to answer [ i ] + 1	answer [ i + 1 ] = answer [ i ] + 1 ;	answer [ i + 1 ] = answer [ i ] + 1 ;	1
+else if s [ i ] is = then do the following	else if ( s [ i ] =='==')	else if ( s [ i ] == ' = ' )	NA
+set answer [ i + 1 ] to answer [ i ]	answer [ i + 1 ] = answer [ i ] ;	answer [ i + 1 ] = answer [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+output n values from array answer	for ( int i = 0 ; i < n ; i ++ ) { cout << answer [ i ] << endl ; }	for ( int i = 0 ; i < n ; i ++ ) cout << answer [ i ] << " \n " [ i == n - 1 ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

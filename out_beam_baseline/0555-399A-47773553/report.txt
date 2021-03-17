@@ -1,0 +1,24 @@
+create integer vector v	vector < int > v ;	vector < int > v ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , p , k	int n, p, k ;	int n , p , k ;	NA
+read n read p read k	cin >> n >> p >> k ;	cin >> n >> p >> k ;	1
+for x = p - k to p + k inclusive	for ( int x = p - k ; x <= p + k + 1 ; x ++ )	for ( int x = p - k ; x <= p + k ; x ++ )	NA
+if x is less than 1 , break current loop iteration	if ( x < 1 ) continue ;	if ( x < 1 ) continue ;	1
+if x is greater than n , break current loop iteration	if ( x > n ) continue ;	if ( x > n ) continue ;	1
+add element x to end of v	v. push_back ( x ) ;	v . push_back ( x ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if v [ 0 ] is not 1 , print " < < "	if ( v [ 0 ]!= 1 ) cout << " << " << endl ;	if ( v [ 0 ] != 1 ) cout << " << " ;	NA
+for i = 0 to integer casted size of v exclusive	for ( int i = 0 ; i < ( int ) v. size ( ) ; i ++ )	for ( int ( i ) = ( 0 ) ; ( i ) < ( ( ( int ) v . size ( ) ) ) ; ++ ( i ) )	NA
+if v [ i ] is p , print " ( "	if ( v [ i ] == p ) cout << " ( " ;	if ( v [ i ] == p ) cout << " ( " ;	1
+print v [ i ]	cout << v [ i ] ;	cout << v [ i ] ;	1
+if v [ i ] is p , print " ) "	if ( v [ i ] == p ) cout << " ) " << endl ;	if ( v [ i ] == p ) cout << " ) " ;	2
+if i is integer casted size of v - 1	if ( i == ( int ) v. size ( ) - 1 )	if ( i == ( ( int ) v . size ( ) ) - 1 )	NA
+if v [ i ] is less than n	if ( v [ i ] < n )	if ( v [ i ] < n )	1
+print " > > " print newline	cout << " >>> " << endl ;	cout << " >> " << endl ;	2
+else	else	else	1
+print newline	cout << endl ;	cout << endl ;	1
+else	else	else	1
+print " "	cout << " " ;	cout << " " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create strings a and b	string a, b ;	string a , b ;	NA
+read a and b	cin >> a >> b ;	cin >> a >> b ;	1
+if the length of a is not equal to the length of b	if ( a. size ( )!= b. length ( ) )	if ( a . length ( ) != b . length ( ) )	NA
+print the max of length of a and length of b	cout << max ( a. length ( ), b. size ( ) ) << endl ;	cout << max ( a . length ( ) , b . length ( ) ) << endl ;	NA
+else	else	else	1
+if a is equal to b	if ( a == b )	if ( a == b )	1
+print - 1	cout << - 1 << endl ;	cout << - 1 << endl ;	1
+else	else	else	1
+print the length of a	cout << a. size ( ) << endl ;	cout << a . length ( ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

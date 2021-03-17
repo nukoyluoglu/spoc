@@ -1,0 +1,15 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer n	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+declare integer cont = 0	int cont = 0 ;	int cont = 0 ;	1
+declare integer sumador = 1	int sumador = 1 ;	int sumador = 1 ;	1
+declare i = 1 as integer	int i = 1 ;	int i = 1 ;	1
+while n is greater than 0 and n is greater than or equal to sumador	while ( n > 0 && n >= sumador )	while ( n > 0 && n >= sumador )	1
+let n be n - sumador	n = n - sumador ;	n = n - sumador ;	1
+increment cont	cont ++ ;	cont ++ ;	1
+increment i	i ++ ;	i ++ ;	1
+let sumador = sumador + 1	sumador += 1 ;	sumador = sumador + i ;	22
+}	}	}	DUMMY	DUMMY	DUMMY
+print cont , " \ n "	cout << cont << " \n " ;	cout << cont << " \n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

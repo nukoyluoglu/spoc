@@ -1,0 +1,19 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+create integers ans , cnt , ph , pm , with ans = 1 , cnt = 1 , ph = 99 , pm = 99	int ans ( 1 ), cnt = 1, ph = 99, pm = 99 ;	int ans = 1 , cnt = 1 , ph = 99 , pm = 99 ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; ++ i )	3
+create integers h , m	int h, m ;	int h , m ;	NA
+read h read m	cin >> h >> m ;	cin >> h >> m ;	1
+if h is ph and m is pm	if ( h == ph && m == pm )	if ( h == ph && m == pm )	1
+increment cnt	cnt ++ ;	++ cnt ;	2
+if ans is less than cnt , set ans to cnt	if ( ans < cnt ) ans = cnt ;	if ( ans < cnt ) ans = cnt ;	1
+else	else	else	1
+set cnt to 1	cnt = 1 ;	cnt = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set ph to h	ph = h ;	ph = h ;	1
+set pm to m	pm = m ;	pm = m ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans print newline	cout << ans << endl ;	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

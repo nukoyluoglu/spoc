@@ -1,0 +1,21 @@
+let d , n , x be integers with d = 2d array of integers with 107 rows and 107 columns respectively	int d [ 105 ] [ 107 ], n, x ;	int d [ 100 + 7 ] [ 100 + 7 ] , n , x ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;	cin >> n ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; i ++ )	1
+for j = 1 to n inclusive , d [ i ] [ j ] is equal to INT_MAX / 10	for ( int j = 1 ; j <= n ; j ++ ) { d [ i ] [ j ] = INT_MAX / 10 ; }	for ( int j = 1 ; j <= n ; j ++ ) d [ i ] [ j ] = INT_MAX / 10 ;	2
+for i = 1 to n inclusive , d [ i ] [ i ] is equal to 0	for ( int i = 1 ; i <= n ; i ++ ) { d [ i ] [ j ] = 0 ; }	for ( int i = 1 ; i <= n ; i ++ ) d [ i ] [ i ] = 0 ;	NA
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; i ++ )	1
+read x	cin >> x ;	cin >> x ;	1
+let j be a integer with j = i + 1	int j = i + 1 ;	int j = i + 1 ;	1
+if j is greater than n , decrement j by n	if ( j > n ) j -= n ;	if ( j > n ) j -= n ;	1
+d [ i ] [ j ] is equal to x	d [ i ] [ j ] = x ;	d [ i ] [ j ] = x ;	1
+d [ j ] [ i ] is equal to x	d [ j ] [ i ] = x ;	d [ j ] [ i ] = x ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for k = 1 to n inclusive	for ( int k = 1 ; k <= n ; k ++ )	for ( int k = 1 ; k <= n ; k ++ )	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; i ++ )	1
+for j = 1 to n inclusive	for ( int j = 1 ; j <= n ; j ++ )	for ( int j = 1 ; j <= n ; j ++ )	1
+if d [ i ] [ k ] + d [ k ] [ j ] is less than d [ i ] [ j ] , d [ i ] [ j ] is equal to d [ i ] [ k ] + d [ k ] [ j ]	for ( int j = 0 ; j < k ; j ++ ) { d [ i ] [ k ] += d [ 1 ] [ j ] ; }	if ( d [ i ] [ k ] + d [ k ] [ j ] < d [ i ] [ j ] ) d [ i ] [ j ] = d [ i ] [ k ] + d [ k ] [ j ] ;	NA
+let s , t be integers	int s, t ;	int s , t ;	NA
+read s , t	cin >> s >> t ;	cin >> s >> t ;	1
+print d [ s ] [ t ] and newline	cout << d [ s ] [ t ] << endl ;	cout << d [ s ] [ t ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

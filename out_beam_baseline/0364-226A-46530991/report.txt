@@ -1,0 +1,23 @@
+MAX = const integer with MAX = 3e4 + 5	const int MAX = 3e4 + 5 ;	const int MAX = 3e4 + 5 ;	1
+MAX2 = const long long with MAX2 = 11	const long long MAX2 = 11 ;	const long long MAX2 = 11 ;	1
+MOD = const integer with MOD = 1000000000 + 7	const int MOD = 1000000000 + 7 ;	const int MOD = 1000000000 + 7 ;	1
+INF = const long long with INF = 20000	const long long INF = 20000 ;	const long long INF = 20000 ;	1
+dr = const integer array with dr = { 1 , 0 , - 1 , 0 , 1 , 1 , - 1 , - 1 }	const int dr [ ] = { 1, 0, - 1, " 0 ", " 1 ",'-1 ', " -1 " } ;	const int dr [ ] = { 1 , 0 , - 1 , 0 , 1 , 1 , - 1 , - 1 } ;	NA
+dc = const integer array with dc = { 0 , 1 , 0 , - 1 , 1 , - 1 , 1 , - 1 }	const int dc [ ] = { " 0, 1 ", " 0 ", - 1, " 1.0 ",'1 ', " -1 " } ;	const int dc [ ] = { 0 , 1 , 0 , - 1 , 1 , - 1 , 1 , - 1 } ;	NA
+pi = const double with pi = acos ( - 1 )	const double pi = acos ( - 1 ) ;	const double pi = acos ( - 1 ) ;	1
+eps = const double with eps = 1e - 9	const double eps = 1e-9 ;	const double eps = 1e-9 ;	1
+n , m = long long	long long n, m ;	long long n , m ;	NA
+in the function pw that returns long long	long long pw ( )	long long pw ( )	1
+ret = long long with ret = 1 , x = 3	long long ret = 1, x = 3 ;	long long ret = 1 , x = 3 ;	NA
+while n	while ( n )	while ( n )	1
+if n bitwise and 1 , ret = ( ret * x ) modulo m	if ( n & 1 ) ret = ( ret * x ) % m ;	if ( n & 1 ) ret = ( ret * x ) % m ;	1
+x = ( x * x ) modulo m	x = ( x * x ) % m ;	x = ( x * x ) % m ;	1
+n = right shift n 1 place	n = n >> 1 ;	n >>= 1 ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+return ret	return ret ;	return ret ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , m	cin >> n >> m ;	cin >> n >> m ;	1
+print ( pw ( ) + m - 1 ) modulo m	cout << ( pw ( ) + m - 1 ) % m << endl ;	cout << ( pw ( ) + m - 1 ) % m << " \n " ;	2
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

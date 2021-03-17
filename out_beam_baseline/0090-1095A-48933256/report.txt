@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+create string s	string s ;	string s ;	1
+read s	cin >> s ;	cin >> s ;	1
+create string ans	string ans ;	string ans ;	1
+create integers cnt , sum with cnt = 0 , sum = 0	int cnt = 0, sum = 0 ;	int cnt = 0 , sum = 0 ;	NA
+for i = 0 to n exclusive , incrementing i by cnt	for ( int i = 0 ; i < n ; i += cnt )	for ( int i = 0 ; i < n ; i += cnt )	1
+add element s [ i ] to end of ans	ans. push_back ( s [ i ] ) ;	ans . push_back ( s [ i ] ) ;	NA
+increment cnt	cnt ++ ;	cnt ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans print newline	cout << ans << endl ;	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

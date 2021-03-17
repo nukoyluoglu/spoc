@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare string variable s	string s ;	string s ;	1
+loop when read data from input into s	while ( gets ( s ) )	while ( getline ( cin , s ) )	NA
+declare string n = " "	string n = " " ;	string n = " " ;	1
+declare integer d = length of s	int d = s. length ( ) ;	int d = s . length ( ) ;	NA
+for i = 0 to d exclusive incrementing i	for ( int i = 0 ; i < d ; i ++ )	for ( int i = 0 ; i < d ; i ++ )	1
+if s [ i ] is equal to ' '	if ( s [ i ] ==' ')	if ( s [ i ] == ' ' )	NA
+if n [ n . length ( ) - 1 ] is not ' ' , incremen n by s [ i ]	if ( n [ n. length ( ) - 1 ]!=' ') n += s [ i ] ;	if ( n [ n . length ( ) - 1 ] != ' ' ) { n = n + s [ i ] ; }	NA
+else if s [ i ] = ' . ' | | s [ i ] = ' , ' | | s [ i ] = ' ! ' | | s [ i ] = ' ? '	else if ( ( strcmp ( s [ i ], '.') || ( x % 2 ) == 0 && ( y % 2!= 0 ) && ( z % 2 == 0 ) )	else if ( s [ i ] == ' . ' || s [ i ] == ' , ' || s [ i ] == ' ! ' || s [ i ] == ' ? ' )	NA
+if n [ n . length ( ) - 1 ] is not ' '	if ( n [ n. length ( ) - 1 ]!=' ')	if ( n [ n . length ( ) - 1 ] != ' ' )	NA
+append s [ i ] + ' ' to n	n += s [ i ] +' ';	n = n + s [ i ] + ' ' ;	NA
+else	else	else	1
+remove n . length ( ) - 1 elements from n	n. erase ( n. length ( ) - 1 ) ;	n . erase ( n . length ( ) - 1 ) ;	NA
+append s [ i ] + ' ' to n	n += s [ i ] +' ';	n = n + s [ i ] + ' ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+else	else	else	1
+append s [ i ] to n	n += s [ i ] ;	n = n + s [ i ] ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print all elements of n sequentially	for ( int i = 0 ; i < n. size ( ) ; i ++ ) cout << n [ i ] << endl ;	for ( int i = 0 ; i < n . length ( ) ; i ++ ) cout << n [ i ] ;	NA
+print a new line	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

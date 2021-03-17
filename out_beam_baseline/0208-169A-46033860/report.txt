@@ -1,0 +1,9 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int n , a and b	int n, a, b ;	int n , a , b ;	NA
+read n , a and b	cin >> n >> a >> b ;	cin >> n >> a >> b ;	1
+create vector int h ( n )	vector < int > h ( n ) ;	vector < int > h ( n ) ;	1
+for i = 0 to n exclusive , read h [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> h [ i ] ;	for ( int i = 0 ; i < n ; i ++ ) { cin >> h [ i ] ; }	2
+sort vector h	sort ( h. begin ( ), h. end ( ) ) ;	sort ( h . begin ( ) , h . end ( ) ) ;	NA
+print h [ b ] - h [ b - 1 ] and a newline	cout << h [ bi ] - h [ b - 1 ] << " \n " ;	cout << h [ b ] - h [ b - 1 ] << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

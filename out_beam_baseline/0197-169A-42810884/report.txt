@@ -1,0 +1,13 @@
+define int constant maxn , set to 5e3 + 5	const int maxn = 5e3 + 5 ;	const int maxn = 5e3 + 5 ;	1
+define unsigned integer constant base , set to 311	const unsigned int base = 311 ;	const unsigned long long base = 311 ;	3
+define unsigned integer array A to be of maxn elements	unsigned int A [ maxn ] ;	unsigned long long A [ maxn ] ;	3
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+define integer N	int N ;	int N ;	1
+read N	cin >> N ;	cin >> N ;	1
+define integers a and b	int a, b ;	int a , b ;	NA
+read a , b	cin >> a >> b ;	cin >> a >> b ;	1
+for int i from 1 to N by 1 , read A [ i ]	for ( int i = 1 ; i <= N ; i ++ ) cin >> A [ i ] ;	for ( int i = ( 1 ) ; i <= ( N ) ; i += ( 1 ) ) cin >> A [ i ] ;	NA
+sort ( A + 1 , A + N + 1 )	sort ( A + 1, A + N + 1 ) ;	sort ( A + 1 , A + N + 1 ) ;	NA
+print A [ b + 1 ] - A [ b ] and a newline	cout << A [ bi + 1 ] - A [ b ] << " \n " ;	cout << A [ b + 1 ] - A [ b ] << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,23 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , count with count = 0	long long n, count = 0 ;	long long n , count = 0 ;	NA
+read n	cin >> n ;	cin >> n ;	1
+create constant integer max_i with max_i = 2e5	const int max_i = 2e5 ;	const int max_i = 2e5 ;	1
+create integer counter with counter = 0	int counter = 0 ;	int counter = 0 ;	1
+create tuple array data with integer , integer , integer , with size max_i + 9	tuple < int, int > data [ max_i + 9 ] ;	tuple < int , int , int > data [ max_i + 9 ] ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+create long longs k , a0 , x , y , m , t , a , with t = 0 , a = 0	long long k, a0, x, y, m, t = 0, a = 0 ;	long long k , a0 , x , y , m , t = 0 , a = 0 ;	NA
+read k read a0 read x read y read m	cin >> k >> a0 >> x >> y >> m ;	cin >> k >> a0 >> x >> y >> m ;	1
+for j = 0 to k exclusive	for ( int j = 0 ; j < k ; j ++ )	for ( int j = 0 ; j < k ; j ++ )	1
+if counter is less than or equal to max_i , set data [ increment counter ] to make tuple from t , a0 , i	if ( counter <= max_i ) data [ ++ counter ] = make_pair ( t, a0, i ) ;	if ( counter <= max_i ) { data [ counter ++ ] = make_tuple ( t , a0 , i ) ; }	NA
+set a to ( a0 * x + y ) % m	a = ( a0 * x + y ) % m ;	a = ( a0 * x + y ) % m ;	1
+if a is less than a0 and j is not k - 1 , increment t	if ( a < a0 && j!= k - 1 ) t ++ ;	if ( a < a0 && j != k - 1 ) { t ++ ; }	NA
+set a0 to a	a0 = a ;	a0 = a ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set count to maximum of count and t	count = max ( count, t ) ;	count = max ( count , t ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print count print newline	cout << count << endl ;	cout << count << endl ;	1
+if counter is less than or equal to max_i	if ( counter <= max_i )	if ( counter <= max_i )	1
+sort elements from data to data + counter	sort ( data, data + counter ) ;	sort ( data , data + counter ) ;	NA
+for i = 0 to counter exclusive , print get element 1 from data [ i ] print " " print get element 2 from data [ i ] + 1 print newline	for ( int i = 0 ; i < counter ; i ++ ) { cout << data [ i ]. get ( 1, 2 ) << endl ; }	for ( int i = 0 ; i < counter ; i ++ ) { cout << get < 1 > ( data [ i ] ) << " " << get < 2 > ( data [ i ] ) + 1 << endl ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

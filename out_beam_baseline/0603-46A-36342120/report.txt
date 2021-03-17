@@ -1,0 +1,23 @@
+mp = map from long long to long long	map < long long, long long > mp ;	map < long long , long long > mp ;	NA
+declare vector of strings called s	vector < string > s ;	vector < string > s ;	1
+declare vector of integers called v	vector < int > v ;	vector < int > v ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable m	int m ;	int m ;	1
+read m	cin >> m ;	cin >> m ;	1
+let k , i and j be integers with k = m , i = 1 and j = 1	int k = m, i = 1, j = 1 ;	int k = m , i = 1 , j = 1 ;	NA
+decrease m by one	m -- ;	m -- ;	1
+while m - -	while ( m -- )	while ( m -- )	1
+increase j by i	j += i ;	j += i ;	1
+integer ans = j % k	int ans = j % k ;	int ans = j % k ;	1
+if ans is equal to 0 set ans to j	if ( ans == 0 ) ans = j ;	if ( ans == 0 ) ans = j ;	1
+print ans	cout << ans << endl ;	cout << ans ;	4
+if m is equal to 0	if ( m == 0 )	if ( m == 0 )	1
+print new line	cout << endl ;	cout << endl ;	1
+else	else	else	1
+print " "	cout << " " ;	cout << " " ;	1
+increase i by one	i ++ ;	i ++ ;	1
+j % = k	j %= k ;	j %= k ;	1
+if j is equal to 0 , set j to ans	if ( j == 0 ) j = ans ;	if ( j == 0 ) j = ans ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

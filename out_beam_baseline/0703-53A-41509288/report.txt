@@ -1,0 +1,31 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare string variable with name ss	string ss ;	string ss ;	1
+read standard input to ss	cin >> ss ;	cin >> ss ;	1
+create new integer n	int n ;	int n ;	1
+read variable n from the input	cin >> n ;	cin >> n ;	1
+read and discard the input data	cin. ignore ( ) ;	cin . ignore ( ) ;	NA
+create string res = ss	string res = ss ;	string res = ss ;	1
+declare new boolean noe with value 0	bool noe = 0 ;	bool noe = 0 ;	1
+for integer i = 0 to n exclusive incrementing i	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+s is a new string	string s ;	string s ;	1
+read variable s from the input	cin >> s ;	cin >> s ;	1
+declare string tmp with value " "	string tmp = " " ;	string tmp = " " ;	1
+for j = 0 and ii = 0 while j < length of s , increment j	for ( int j = 0, ii = 0 ; j < s. length ( ) ; j ++ )	for ( int j = 0 , ii = 0 ; j < s . length ( ) ; j ++ )	NA
+if ss [ ii ] = s [ j ]	if ( ss [ ii ] == s [ j ] )	if ( ss [ ii ] == s [ j ] )	1
+increment ii	ii ++ ;	ii ++ ;	1
+else	else	else	1
+assign 0 to ii	ii = 0 ;	ii = 0 ;	1
+if ii is equal to length of ss	if ( ii == ss. size ( ) )	if ( ii == ss . length ( ) )	NA
+if noe is false	if (! noe )	if ( ! noe )	NA
+set res to the substring of s from index j - ii + 1 to the end ; set noe to 1	res = s. substr ( j - ii + 1 ) ;	res = s . substr ( j - ii + 1 , s . length ( ) ) , noe = 1 ;	NA
+else	else	else	1
+change tmp to the substring of s from index j - ii + 1 to the end	tmp = s. substr ( j - ii + 1 ) ;	tmp = s . substr ( j - ii + 1 , s . length ( ) ) ;	NA
+set res to min of res and tmp	res = min ( res, tmp ) ;	res = min ( res , tmp ) ;	NA
+assign 0 to ii	ii = 0 ;	ii = 0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print res and ' \ n '	cout << res <<'\n';	cout << res << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

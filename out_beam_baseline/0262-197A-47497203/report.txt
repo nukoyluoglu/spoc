@@ -1,0 +1,11 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , b , r = int	int a, b, r ;	int a , b , r ;	NA
+read a then b then r	cin >> a >> b >> r ;	cin >> a >> b >> r ;	1
+set r to r * 2	r *= 2 ;	r *= 2 ;	1
+if a or b is less than r	if ( a < r || b < r )	if ( a < r || b < r )	1
+print " Second "	cout << " Second " << endl ;	cout << " Second " << endl ;	1
+else	else	else	1
+print " First "	cout << " First " << endl ;	cout << " First " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

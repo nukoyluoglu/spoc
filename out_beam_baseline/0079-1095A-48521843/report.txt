@@ -1,0 +1,16 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string a	string a ;	string a ;	1
+create integers n , num , l with num = 0 , l = 2	int n, num = 0, l = 2 ;	int n , num = 0 , l = 2 ;	NA
+read n read a	cin >> n >> a ;	cin >> n >> a ;	1
+while true	while ( true )	while ( true )	1
+if num is less than n - 1	if ( num < n - 1 )	if ( num < n - 1 )	1
+print a [ num ]	cout << a [ num ] << endl ;	cout << a [ num ] ;	2
+increment num by l	num += l ;	num += l ;	1
+increment l	l ++ ;	l ++ ;	1
+else	else	else	1
+print a [ num ] print newline	cout << a [ num ] << endl ;	cout << a [ num ] << endl ;	1
+break loop	break ;	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

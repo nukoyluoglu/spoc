@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+i , j , k = int with k = 0 and a = int array of size n + 1	int i, j, k = 0, a [ n + 1 ] ;	int a [ n + 1 ] , i , j , k = 0 ;	NA
+for i = 0 to n	for ( int i = 0 ; i < n ; i ++ )	for ( i = 0 ; i < n ; i ++ )	2
+read a [ i ]	cin >> a [ i ] ;	cin >> a [ i ] ;	1
+if a [ i ] is 1 then increment k	if ( a [ i ] == 1 ) k ++ ;	if ( a [ i ] == 1 ) k ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print k	cout << k << endl ;	cout << k << endl ;	1
+for i = 1 to n	for ( int i = 1 ; i <= n ; i ++ )	for ( i = 1 ; i < n ; i ++ )	7
+if a [ i ] is 1 print a [ i - 1 ] and " "	if ( a [ 1 ] == 1 ) cout << a [ i - 1 ] << " " ;	if ( a [ i ] == 1 ) cout << a [ i - 1 ] << " " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print a [ n - 1 ]	cout << a [ n - 1 ] << endl ;	cout << a [ n - 1 ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

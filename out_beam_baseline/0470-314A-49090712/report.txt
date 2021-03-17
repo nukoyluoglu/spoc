@@ -1,0 +1,16 @@
+create long longs n , k , a , sum , l	long long n, k, a, sum, l ;	long long n , k , a , sum , l ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n read k	cin >> n >> k ;	cin >> n >> k ;	1
+for i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( long long i = 1 ; i <= n ; i ++ )	4
+read a	cin >> a ;	cin >> a ;	1
+if i is not 1	if ( i!= 1 )	if ( i != 1 )	NA
+if sum - ( n - 1 ) * ( i - 1 ) * a is less than k	if ( sum - ( n - i ) * ( i - 1 ) * a < k )	if ( sum - ( n - i ) * ( i - 1 ) * a < k )	1
+print i + l print newline	cout << i + l << endl ;	cout << i + l << endl ;	1
+decrement i	i -- ;	i -- ;	1
+decrement n	n -- ;	n -- ;	1
+increment l	l ++ ;	l ++ ;	1
+else	else	else	1
+increment sum by a * ( i - 1 )	sum += a * ( i - 1 ) ;	sum += a * ( i - 1 ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

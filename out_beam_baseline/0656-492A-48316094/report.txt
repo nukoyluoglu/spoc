@@ -1,0 +1,15 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;	int n ;	1
+a = int with a = 0	int a = 0 ;	int a = 0 ;	1
+b = int with b = 1	int b = 1 ;	int b = 1 ;	1
+c = int with c = 0	int c = 0 ;	int c = 0 ;	1
+read n	cin >> n ;	cin >> n ;	1
+loop infinitely	while ( 1 )	while ( true )	2
+for i = 1 to b inclusive increment a by i	for ( int i = 1 ; i <= b ; i ++ ) a += i ;	for ( int i = 1 ; i <= b ; i ++ ) { a += i ; }	2
+increment b	b ++ ;	b ++ ;	1
+if a > n break	if ( a > n ) break ;	if ( a > n ) { break ; }	2
+increment c	c ++ ;	c ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print c	cout << c << endl ;	cout << c << " \n " ;	2
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

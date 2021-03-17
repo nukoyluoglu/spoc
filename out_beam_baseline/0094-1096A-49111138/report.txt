@@ -1,0 +1,9 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers t , n , l	int t, n, l ;	int t , n , l ;	NA
+read t	cin >> t ;	cin >> t ;	1
+while decrement t is true	while ( t -- )	while ( t -- )	1
+read n read l	cin >> n >> l ;	cin >> n >> l ;	1
+print n print " " print ( l / n ) * n print newline	cout << n << " " << ( l / n ) * n << endl ;	cout << n << " " << ( l / n ) * n << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

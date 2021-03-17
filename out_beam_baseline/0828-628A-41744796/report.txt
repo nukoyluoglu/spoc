@@ -1,0 +1,11 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , m , p	int n, m, p ;	int n , m , p ;	NA
+get n , m , p	cin >> n >> m >> p ;	cin >> n >> m >> p ;	1
+create integer ans with ans = 0	int ans = 0 ;	int ans = 0 ;	1
+create integer c with c = n	int c = n ;	int c = n ;	1
+while n not equal to 1 do the following	while ( n!= 1 )	while ( n != 1 )	NA
+add n / 2 to ans	ans += n / 2 ;	ans += n / 2 ;	1
+subtract n / 2 from n	n -= n / 2 ;	n -= n / 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+compute and print two expressions ans * ( m * 2 + 1 ) and c * p with a blank space between	cout << ans * ( m * 2 + 1 ) << " " << c * p << endl ;	cout << ans * ( m * 2 + 1 ) << " " << c * p << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

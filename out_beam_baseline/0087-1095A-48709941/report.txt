@@ -1,0 +1,15 @@
+a and b are char arrays with size 60	char a [ 60 ] = {'A ','B'} ;	char a [ 60 ] , b [ 60 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n be integer	int n ;	int n ;	1
+read n in a loop	while ( cin >> n )	while ( cin >> n )	1
+call memset ( b , 0 and sizeof ( b ) )	memset ( b, 0, sizeof ( b ) ) ;	memset ( b , 0 , sizeof ( b ) ) ;	NA
+read n elements into a starting from index 1	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;	for ( int i = 1 ; i <= n ; i ++ ) { cin >> a [ i ] ; }	2
+k and d are integers = 0	int k = 0, d = 0 ;	int k = 0 , d = 0 ;	NA
+for i = 1 to n inclusive , incrementing by k	for ( int i = 1 ; i <= n ; i += k )	for ( int i = 1 ; i <= n ; i = i + k )	4
+set b [ d ] to a [ i ]	b [ d ] = a [ i ] ;	b [ d ] = a [ i ] ;	1
+increment d	d ++ ;	d ++ ;	1
+increase k	k ++ ;	k ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print b and a new line	cout << b << endl ;	cout << b << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

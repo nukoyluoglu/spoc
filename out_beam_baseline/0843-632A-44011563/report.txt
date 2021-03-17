@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n and p be long long integers	long long n, p ;	long long int n , p ;	NA
+read n and p	cin >> n >> p ;	cin >> n >> p ;	1
+let cost be a long long in with value 0	long long cost = 0 ;	long long int cost = 0 ;	3
+arr with n elements = string	string arr [ n ] ;	string arr [ n ] ;	1
+read i long long elements into arr from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ ) { cin >> arr [ i ] ; }	for ( long long int i = 0 ; i < n ; i ++ ) { cin >> arr [ i ] ; }	4
+let num = long long int with value 0	long long int num = 0 ;	long long int num = 0 ;	1
+for i from n - 1 to 0 inclusive decreasing	for ( int i = n - 1 ; i >= 0 ; i -- )	for ( long long int i = n - 1 ; i >= 0 ; i -- )	5
+if arr at element i equals halfplus	if ( arr [ i ] == halfplus )	if ( arr [ i ] == " halfplus " )	21
+num equals num times 2 plus 1	num = num * 2 + 1 ;	num = ( num * 2 ) + 1 ;	11
+else	else	else	1
+num equals itself times 2	num *= 2 ;	num = ( num * 2 ) ;	5
+}	}	}	DUMMY	DUMMY	DUMMY
+for i from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( long long int i = 0 ; i < n ; i ++ )	5
+if arr at i equals halfplus	if ( arr [ i ] == halfplus )	if ( arr [ i ] == " halfplus " )	25
+cost equals cost plus ( num / 2 ) * p + ( p / 2 )	cost += ( num / 2.0 ) * p + ( p / 2 ) ;	cost += ( num / 2 ) * p + ( p / 2 ) ;	NA
+num equals num minus half of num minus 1	num -= ( num / 2 ) - 1 ;	num = num - ( num / 2 ) - 1 ;	2
+else	else	else	1
+cost equals cost plus ( num / 2 ) * p	cost += ( num / 2 ) * p ;	cost += ( num / 2 ) * p ;	1
+num equals num minus half of num	num -= ( num / 2 ) ;	num = num - ( num / 2 ) ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print cost	cout << cost << endl ;	cout << cost << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

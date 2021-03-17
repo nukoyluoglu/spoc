@@ -1,0 +1,12 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers minx , n , a , b and test with minx and test = 0	int minx = 0, n, a, b, test = 0 ;	int minx = 0 , n , a , b , test = 0 ;	NA
+read variable n from the input	cin >> n ;	cin >> n ;	1
+for integer i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; ++ i )	2
+read standard input to a and b	cin >> a >> b ;	cin >> a >> b ;	1
+change test to test - a	test -= a ;	test -= a ;	1
+change test to sum of test and b	test += b ;	test += b ;	1
+change minx to max of minx and test	minx = max ( minx, test ) ;	minx = max ( minx , test ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print minx to the standard output	cout << minx << endl ;	cout << minx << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,17 @@
+declare g taking in int n and returning integer	int g ( int n )	int g ( int n )	1
+while _builtin_popcount ( n ) is greater than 1 , set n to n & ( n - 1 )	while ( _builtin_popcount ( n ) > 1 ) { n &= ( n - 1 ) ; }	while ( __builtin_popcount ( n ) > 1 ) n = n & ( n - 1 ) ;	NA
+return n	return n ;	return n ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let ints n , b , p , r = 0 , and m	int n, b, p, r = 0, m ;	int n , b , p , r = 0 , m ;	NA
+read n , b , and p	cin >> n >> b >> p ;	cin >> n >> b >> p ;	1
+set m to n	m = n ;	m = n ;	1
+while n is greater than 1	while ( n > 1 )	while ( n > 1 )	1
+create int x = g ( n )	int x = g ( n ) ;	int x = g ( n ) ;	1
+set r to r + x * ( b )	r += x * ( b ) ;	r += x * ( b ) ;	1
+set r to r + x / 2	r += x / 2 ;	r += x / 2 ;	1
+set n to n - x / 2	n = n - x / 2 ;	n -= x / 2 ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+print r , " " , and p * m	cout << r << " " << p * m << endl ;	cout << r << " " << p * m << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

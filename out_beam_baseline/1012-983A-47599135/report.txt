@@ -1,0 +1,26 @@
+in function gcd taking two long longs a and b and returning a long long	long long gcd ( long long a, long long b )	long long gcd ( long long a , long long b )	NA
+return __gcd of a and b	return __gcd ( a, b ) ;	return __gcd ( a , b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+in function solve returning a bool	bool solve ( )	bool solve ( )	1
+p , q , b = long long	long long p, q, b ;	long long p , q , b ;	NA
+read p then q then b	cin >> p >> q >> b ;	cin >> p >> q >> b ;	1
+if p is 0 then return true	if ( p == 0 ) return true ;	if ( p == 0 ) return true ;	1
+gc = long long with gc = gcd of p and q	long long gc = gcd ( p, q ) ;	long long gc = gcd ( p , q ) ;	NA
+set p to p / gc	p /= gc ;	p /= gc ;	1
+set q to q / gc	q /= gc ;	q /= gc ;	1
+x = long long	long long x ;	long long x ;	1
+loop while setting x to gcd of q and b and x is greater than 1	while ( x = gcd ( q, b ) && x > 1 )	while ( ( x = gcd ( q , b ) ) > 1 )	NA
+loop while q mod x is 0 set q to q / x	while ( q % x == 0 ) q /= x ;	while ( q % x == 0 ) q /= x ;	1
+set x to gcd of q and b	x = gcd ( q, b ) ;	x = gcd ( q , b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return true if q is 1 else return false	return q == 1 ;	return q == 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+t = int	int t ;	int t ;	1
+read t	cin >> t ;	cin >> t ;	1
+loop t times	while ( t -- )	while ( t -- )	1
+is = bool with is = solve	bool is = solve ;	bool is = solve ( ) ;	2
+print " Finite " if is is true else print " Infinte "	cout << ( is? " Finite " : " Infinte " ) << endl ;	cout << ( is ? " Finite " : " Infinite " ) << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

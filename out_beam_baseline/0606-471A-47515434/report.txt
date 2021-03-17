@@ -1,0 +1,25 @@
+declare new array of integers a with size 10	int a [ 10 ] ;	int a [ 10 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create new integer variable x	int x ;	int x ;	1
+for i from 1 to 6 inclusive incrementing i	for ( int i = 1 ; i <= 6 ; i ++ )	for ( int i = 1 ; i <= 6 ; i ++ )	1
+read variable x from the input	cin >> x ;	cin >> x ;	1
+increment a [ x ]	a [ x ] ++ ;	a [ x ] ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare new ints y and z = - 1	int y = 0, z = - 1 ;	int y = - 1 , z = - 1 ;	NA
+start for loop from i = 1 to 9 inclusive	for ( int i = 1 ; i <= 9 ; i ++ )	for ( int i = 1 ; i <= 9 ; i ++ )	1
+if a [ i ] > = 4 , assign i to z	if ( a [ i ] >='4') z = i ;	if ( a [ i ] >= 4 ) { z = i ; }	4
+}	}	}	DUMMY	DUMMY	DUMMY
+if z is not - 1	if ( z!= - 1 )	if ( z != - 1 )	NA
+assign a [ z ] - 4 to a [ z ]	a [ z ] -= 4 ;	a [ z ] = a [ z ] - 4 ;	NA
+for i = 1 to 9 inclusive	for ( int i = 1 ; i <= 9 ; i ++ )	for ( int i = 1 ; i <= 9 ; i ++ )	1
+if a [ i ] is equal to 1 and y = - 1 , change y to i	if ( a [ i ] == 1 && y == - 1 ) y = i ;	if ( a [ i ] == 1 && y == - 1 ) { y = i ; }	2
+if a [ i ] = 1 and y is not - 1 , set z to i	if ( a [ i ] == 1 && y!= - 1 ) z = i ;	if ( a [ i ] == 1 && y != - 1 ) { z = i ; }	NA
+if a [ i ] is equal to 2 , change y to set z to a [ i ]	if ( a [ i ] == 2 ) y = z = a [ j ] ;	if ( a [ i ] == 2 ) { y = z = a [ i ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if y is equal to z	if ( y == z )	if ( y == z )	1
+print " Elephant "	cout << " Elephant " << endl ;	cout << " Elephant " << endl ;	1
+else	else	else	1
+print " Bear " to the standard output	cout << " Bear " << endl ;	cout << " Bear " << endl ;	1
+else	else	else	1
+print " Alien "	cout << " Alien " << endl ;	cout << " Alien " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,20 @@
+create const long long inf = 1e9 + 7	const long long inf = 1e9 + 7 ;	const long long inf = 1e9 + 7 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer n	int n ;	int n ;	1
+read from the input to n	cin >> n ;	cin >> n ;	1
+create long long ans = 0 and long long arrays a , left and right with size n + 2	long long * a, * left [ n + 2 ], ++ ans = 0 ;	long long a [ n + 2 ] , left [ n + 2 ] , right [ n + 2 ] , ans = 0 ;	NA
+change a [ 0 ] to - 1	a [ 0 ] = - 1 ;	a [ 0 ] = - 1 ;	1
+assign inf to a [ n + 1 ]	a [ n + 1 ] = inf ;	a [ n + 1 ] = inf ;	1
+loop i from 1 to n inclusive incrementing i	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;	NA
+set right [ 0 ] to 0	right [ 0 ] = 0 ;	right [ 0 ] = 0 ;	1
+loop i from 1 to n inclusive , change right [ i ] to right [ i - 1 ] + 1 if a [ i ] > a [ i - 1 ] , or else 1	for ( int i = 1 ; i <= n ; i ++ ) { right [ i ] = ( a [ j ] > a [ i - 1 ] )? 1 : 1 ; }	for ( int i = 1 ; i <= n ; i ++ ) right [ i ] = ( a [ i ] > a [ i - 1 ] ? right [ i - 1 ] + 1 : 1 ) ;	NA
+set left [ n + 1 ] to 0	left [ n + 1 ] = 0 ;	left [ n + 1 ] = 0 ;	1
+loop i from n to 0 inclusive decrementing i , change left [ i ] to left [ i + 1 ] + 1 if a [ i ] < a [ i + 1 ] , or else 1	for ( int i = n ; i >= 0 ; i -- ) left [ i ] = i < a [ i + 1 ] + 1? 1 : 1 ;	for ( int i = n ; i > 0 ; i -- ) left [ i ] = ( a [ i ] < a [ i + 1 ] ? left [ i + 1 ] + 1 : 1 ) ;	NA
+loop i from 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; i ++ )	1
+if a [ i - 1 ] + 1 is less than a [ i + 1 ]	if ( i [ i - 1 ] + 1 < a [ i + 1 ] )	if ( a [ i - 1 ] + 1 < a [ i + 1 ] )	NA
+set ans to max of ans and 1 + left [ i + 1 ] + right [ i - 1 ]	ans = max ( ans, 1 + left [ i + 1 ] + right [ i - 1 ] ) ;	ans = max ( ans , 1 + left [ i + 1 ] + right [ i - 1 ] ) ;	NA
+else	else	else	1
+set ans to max of ans and ( max of left [ i ] and right [ i ] + 1 )	ans = max ( ans, max ( left [ 1 ], right [ i ] + 1 ) ) ;	ans = max ( ans , max ( left [ i ] , right [ i ] ) + 1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

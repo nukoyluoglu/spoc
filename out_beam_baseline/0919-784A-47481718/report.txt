@@ -1,0 +1,36 @@
+n = long long	long long n ;	long long n ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;	cin >> n ;	1
+if n is 1 print 4	if ( n == 1 ) cout << 4 << endl ;	if ( n == 1 ) cout << 4 ;	3
+if n is 2 print 22	if ( n == 2 ) cout << 22 << endl ;	if ( n == 2 ) cout << 22 ;	3
+if n is 3 print 27	if ( n == 3 ) cout << 27 << endl ;	if ( n == 3 ) cout << 27 ;	3
+if n is 4 print 58	if ( n == 4 ) cout << 58 << endl ;	if ( n == 4 ) cout << 58 ;	5
+if n is 5 print 85	if ( n == 5 ) cout << 85 << endl ;	if ( n == 5 ) cout << 85 ;	6
+if n is 6 print 94	if ( n == 6 ) cout << 94 << endl ;	if ( n == 6 ) cout << 94 ;	20
+if n is 7 print 121	if ( n == 7 ) cout << " 121 " << endl ;	if ( n == 7 ) cout << 121 ;	52
+if n is 8 print 166	if ( n == 8 ) cout << 166 << endl ;	if ( n == 8 ) cout << 166 ;	6
+if n is 9 print 202	if ( n == 9 ) cout << 202 << endl ;	if ( n == 9 ) cout << 202 ;	6
+if n is 10 print 265	if ( n == 10 ) cout << 265 << endl ;	if ( n == 10 ) cout << 265 ;	14
+if n is 11 print 274	if ( n == 11 ) cout << " 274 " << endl ;	if ( n == 11 ) cout << 274 ;	9
+if n is 12 print 319	if ( n == 12 ) cout << " 319 " << endl ;	if ( n == 12 ) cout << 319 ;	14
+if n is 13 print 346	if ( n == 13 ) cout << 346 << endl ;	if ( n == 13 ) cout << 346 ;	5
+if n is 14 print 355	if ( n == 14 ) cout << 355 << endl ;	if ( n == 14 ) cout << 355 ;	9
+if n is 15 print 378	if ( n == 15 ) cout << 378 << endl ;	if ( n == 15 ) cout << 378 ;	8
+if n is 16 print 382	if ( n == 16 ) cout << " 382 " << endl ;	if ( n == 16 ) cout << 382 ;	88
+if n is 17 print 391	if ( n == 17 ) cout << 391 << endl ;	if ( n == 17 ) cout << 391 ;	5
+if n is 18 print 438	if ( n == 18 ) cout << 438 << endl ;	if ( n == 18 ) cout << 438 ;	9
+if n is 19 print 454	if ( n == 19 ) cout << 454 << endl ;	if ( n == 19 ) cout << 454 ;	3
+if n is 20 print 483	if ( n == 20 ) cout << 483 << endl ;	if ( n == 20 ) cout << 483 ;	3
+if n is 21 print 517	if ( n == 21 ) cout << 517 << endl ;	if ( n == 21 ) cout << 517 ;	3
+if n is 22 print 526	if ( n == 22 ) cout << 526 << endl ;	if ( n == 22 ) cout << 526 ;	4
+if n is 23 print 535	if ( n == 23 ) cout << 535 << endl ;	if ( n == 23 ) cout << 535 ;	4
+if n is 24 print 562	if ( n == 24 ) cout << 562 << endl ;	if ( n == 24 ) cout << 562 ;	8
+if n is 25 print 576	if ( n == 25 ) cout << 576 << endl ;	if ( n == 25 ) cout << 576 ;	5
+if n is 26 print 588	if ( n == 26 ) cout << 588 << endl ;	if ( n == 26 ) cout << 588 ;	5
+if n is 27 print 627	if ( n == 27 ) cout << 627 << endl ;	if ( n == 27 ) cout << 627 ;	3
+if n is 28 print 634	if ( n == 28 ) cout << 634 << endl ;	if ( n == 28 ) cout << 634 ;	3
+if n is 29 print 636	if ( n == 29 ) cout << 636 << endl ;	if ( n == 29 ) cout << 636 ;	3
+if n is 30 print 645	if ( n == 30 ) cout << 645 << endl ;	if ( n == 30 ) cout << 645 ;	4
+print a new line	cout << endl ;	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,22 @@
+declare desperate_optimization with integer precision as argument , returning void	void desperate_optimization ( int precision )	void desperate_optimization ( int precision )	1
+set cout stream flag ios : : fixed	cout. setf ( ios :: fixed ) ;	cout . setf ( ios :: fixed ) ;	NA
+set cout stream flag ios : : showpoint	cout. setf ( ios :: showpoint ) ;	cout . setf ( ios :: showpoint ) ;	NA
+set cout floating point precision to precision	cout. precision ( precision ) ;	cout . precision ( precision ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+run desperate_optimization with 10 as argument	desperate_optimization ( 10 ) ;	desperate_optimization ( 10 ) ;	1
+create integers n , k	int n, k ;	int n , k ;	NA
+read n read k	cin >> n >> k ;	cin >> n >> k ;	1
+if k is 0 and n is not 1	if ( k == 0 && n!= 1 )	if ( k == 0 && n != 1 )	NA
+print " No solution " print ' \ n '	cout << " No solution " <<'\n';	cout << " No solution " << ' \n ' ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if k is 0	if ( k == 0 )	if ( k == 0 )	1
+print 0 print ' \ n	cout << 0 <<'\n';	cout << 0 << ' \n ' ;	NA
+else	else	else	1
+print k	cout << k << endl ;	cout << k ;	2
+for i = 1 to n exclusive , print 0	for ( int i = 1 ; i < n ; i ++ ) { cout << 0 << endl ; }	for ( int i = 1 ; i < n ; i ++ ) cout << 0 ;	4
+print ' \ n '	cout <<'\n';	cout << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

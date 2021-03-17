@@ -1,0 +1,12 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = integer	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+set integer cur to 0	int cur = 0 ;	int cur = 0 ;	1
+for integer i = 1 to n exclusive	for ( int i = 1 ; i < n ; i ++ )	for ( int i = 1 ; i < n ; ++ i )	3
+if i is greater than 1 print whitespace	if ( i > 1 ) cout << whitespace << endl ;	if ( i > 1 ) cout << " " ;	12
+increase cur by i	cur += i ;	cur += i ;	1
+set cur to remainder of division of cur by n	cur %= n ;	cur %= n ;	1
+print cur + 1	cout << cur + 1 << endl ;	cout << cur + 1 ;	5
+}	}	}	DUMMY	DUMMY	DUMMY
+print new line	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

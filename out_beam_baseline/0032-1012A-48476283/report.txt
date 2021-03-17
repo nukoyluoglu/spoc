@@ -1,0 +1,17 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integer variable n	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+create long longs vector a with n * 2 elements	vector < long long > a ( n * 2 ) ;	vector < long long > a ( n * 2 ) ;	1
+for i = 0 to n * 2 exclusive , read a [ i ]	for ( int i = 0 ; i < n * 2 ; i ++ ) cin >> a [ i ] ;	for ( int i = 0 ; i < n * 2 ; i ++ ) { cin >> a [ i ] ; }	2
+sort a	sort ( a, a + n ) ;	sort ( a . begin ( ) , a . end ( ) ) ;	NA
+create long long ans = LLONG_MAX	long long ans = LLONG_MAX ;	long long ans = LLONG_MAX ;	1
+loop i from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+if i = 0	if ( i == 0 )	if ( i == 0 )	1
+assign min of ans and ( a [ n - 1 ] - a [ 0 ] ) * ( a [ n * 2 - 1 ] - a [ n ] ) to ans	ans = min ( ans, A [ n - 1 ] - a [ 0 ] ) * ( a [ n * 2 - i ] - b [ n ] ) ;	ans = min ( ans , ( a [ n - 1 ] - a [ 0 ] ) * ( a [ n * 2 - 1 ] - a [ n ] ) ) ;	NA
+else	else	else	1
+assign min of ans and ( a [ i + n - 1 ] - a [ i ] ) * ( a [ n * 2 - 1 ] - a [ 0 ] ) to ans	ans = min ( ans, A [ i + n - 1 ] - a [ i ] ) * ( a [ n * 2 - i ] + a [ 0 ] ) ;	ans = min ( ans , ( a [ i + n - 1 ] - a [ i ] ) * ( a [ n * 2 - 1 ] - a [ 0 ] ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

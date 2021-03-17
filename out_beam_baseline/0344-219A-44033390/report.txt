@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers k , i and j	int k, i, j ;	int k , i , j ;	NA
+declare string s	string s ;	string s ;	1
+create integer array c with size 26	int c [ 26 ] ;	int c [ 26 ] = { 0 } ;	NA
+read input to k and s	cin >> k >> s ;	cin >> k >> s ;	1
+if length of s % k ! = 0	if ( s. length ( ) % k!= 0 )	if ( s . size ( ) % k != 0 )	NA
+print - 1 to the standart output	cout << - 1 << endl ;	cout << - 1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to length of s exclusive ,	for ( int i = 0 ; i < s. length ( ) ; i ++ )	for ( i = 0 ; i < s . size ( ) ; i ++ ) { c [ s [ i ] - ' a ' ] ++ ; }	NA
+for i = 0 to 26 exclusive	for ( int i = 0 ; i < 26 ; i ++ )	for ( i = 0 ; i < 26 ; i ++ )	2
+if c [ i ] % k ! = 0	if ( c [ i ] % k!= 0 )	if ( c [ i ] % k != 0 )	NA
+print - 1 to the standart output	cout << - 1 << endl ;	cout << - 1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+create string result	string result ;	string result ;	1
+for i = 0 to 26 exclusive	for ( int i = 0 ; i < 26 ; i ++ )	for ( i = 0 ; i < 26 ; i ++ )	2
+for j from 0 to c [ i ] / k exclusive , append char ( ' a ' + i ) to result	for ( int j = 0 ; j < c [ i ] / k ; j ++ ) result += char ('a'+ i ) ;	for ( j = 0 ; j < c [ i ] / k ; j ++ ) { result = result + char ( ' a ' + i ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i from 0 to k exclusive , print result to the standart output	for ( int i = 0 ; i < k ; i ++ ) { cout << result << endl ; }	for ( i = 0 ; i < k ; i ++ ) { cout << result ; }	58
+print new line	cout << endl ;	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

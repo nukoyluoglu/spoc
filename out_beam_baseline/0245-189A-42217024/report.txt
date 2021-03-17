@@ -1,0 +1,20 @@
+arr = integer array of size 5 , n = integer	int arr [ 5 ], n ;	int arr [ 5 ] , n ;	NA
+dp = integer array of size 4004 , mn = integer	int dp [ 4004 ], mn ;	int dp [ 4004 ] , mn ;	NA
+in the function fun that takes integer rem and returns integer	int fun ( int rem )	int fun ( int rem )	1
+if rem is 0 , return 0	if ( rem == 0 ) return 0 ;	if ( rem == 0 ) return 0 ;	1
+if rem < mn , return - 11111111	if ( rem < mn ) return - 11111111 ;	if ( rem < mn ) return - 11111111 ;	1
+if dp [ rem ] is not - 1 , return dp [ rem ]	if ( dp [ rem ]!= - 1 ) break ;	if ( dp [ rem ] != - 1 ) return dp [ rem ] ;	NA
+ret = integer with ret = - 11111111	int ret = - 11111111 ;	int ret = - 11111111 ;	1
+for i = 0 to 3 , ret = max ( ret , 1 + fun ( rem - arr [ i ] ) )	for ( int i = 0 ; i < 3 ; i ++ ) ret = max ( ret, 1 + fun ( rem - arr [ i ] ) ) ;	for ( int i = 0 ; i < 3 ; i ++ ) { ret = max ( ret , 1 + fun ( rem - arr [ i ] ) ) ; }	NA
+return dp [ rem ] = ret	return dp [ rem ] = ret ;	return dp [ rem ] = ret ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+set all contents of dp to - 1	memset ( dp, - 1, sizeof dp ) ;	memset ( dp , - 1 , sizeof dp ) ;	NA
+read n	cin >> n ;	cin >> n ;	1
+mn = 100000000	const int mn = 1e9 + 7 ;	mn = 100000000 ;	52
+for i = 0 to 2	for ( int i = 0 ; i < 3 ; i ++ )	for ( int i = 0 ; i < 3 ; i ++ )	1
+read arr [ i ]	cin >> arr [ i ] ;	cin >> arr [ i ] ;	1
+mn = min of arr [ i ] and mn	mn = min ( arr [ i ], mn ) ;	mn = min ( arr [ i ] , mn ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print fun ( n )	cout << fun ( n ) << endl ;	cout << fun ( n ) << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare NumberOfStations as integer	int NumberOfStations ;	int NumberOfStations ;	1
+declare integers From , To	int From, To ;	int From , To ;	NA
+declare integer SumOfDistance = 0	int SumOfDistance = 0 ;	int SumOfDistance = 0 ;	1
+read NumberOfStations	cin >> NumberOfStations ;	cin >> NumberOfStations ;	1
+declare integer vector StationsDistance initialized with NumberOfStations	vector < int > StationsDistance ( NumberOfStations ) ;	vector < int > StaionsDistance ( NumberOfStations ) ;	NA
+for Index = 0 to NumberOfStations exclusive	for ( int Index = 0 ; Index < NumberOfStations ; Index ++ )	for ( int Index = 0 ; Index < NumberOfStations ; Index ++ )	1
+read StationsDistance [ Index ]	cin >> StationsDistance [ Index ] ;	cin >> StaionsDistance [ Index ] ;	NA
+increment SumOfDistance by StationsDistance [ Index ]	SumOfDistance += StationsDistance [ Index ] ;	SumOfDistance += StaionsDistance [ Index ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+read From and To	cin >> From >> To ;	cin >> From >> To ;	1
+declare integers Start , End	int Start, End ;	int Start , End ;	NA
+if From is less than To	if ( From < To )	if ( From < To )	1
+let Start be From	Start = From ;	Start = From ;	1
+let End be To	End = To ;	End = To ;	1
+else	else	else	1
+let Start be To	Start = To ;	Start = To ;	1
+let End be From	End = From ;	End = From ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+declare TheOtherDestance as integer = 0	int TheOtherDestance = 0 ;	int TheOtherDestance = 0 ;	1
+for Start is less than End , incrementing Start , increment TheOtherDestance by StaionsDistance [ Start - 1 ]	for ( ; Start < End ; Start ++ ) { TheOtherDestance += StaionsDistance [ Start - 1 ] ; }	for ( ; Start < End ; Start ++ ) TheOtherDestance += StaionsDistance [ Start - 1 ] ;	21
+print minimum of TheOtherDestance and ( SumOfDistance - TheOtherDestance ) , newline	cout << min ( TheOtherDestance, SumOfDistance - The otherDestance ) << endl ;	cout << min ( TheOtherDestance , ( SumOfDistance - TheOtherDestance ) ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,7 @@
+create long long ans , set k , b , n , t , x to 1	long long k, b, n, t, x = 1 ;	long long k , b , n , t , x = 1 , ans ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read k , b , n and t	cin >> k >> b >> n >> t ;	cin >> k >> b >> n >> t ;	1
+while x < = t , set x = x * k + b , increment ans	while ( x <= t ) x = x * k + b, ans ++ ;	while ( x <= t ) x = x * k + b , ans ++ ;	NA
+print max between 011 and n - ans + 1	cout << max ( 011, n - ans + 1 ) << endl ;	cout << max ( 0ll , n - ans + 1 ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

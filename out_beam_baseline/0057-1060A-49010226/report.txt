@@ -1,0 +1,16 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create character array s with size 101	char s [ 101 ] ;	char s [ 101 ] ;	1
+create integers n , i , sum8 , sum , total , with sum8 = 0 , sum = 0 , total = 0	int n, i, sum8 ( 0 ), sum = 0, total = 0 ;	int n , i , sum8 = 0 , sum = 0 , total = 0 ;	NA
+read n	cin >> n ;	cin >> n ;	1
+read s	cin >> s ;	cin >> s ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( i = 0 ; i < n ; i ++ )	2
+if s [ i ] is ' 8 ' , increment sum8	if ( s [ i ] =='8') sum8 ++ ;	if ( s [ i ] == ' 8 ' ) sum8 ++ ;	NA
+increment sum	sum ++ ;	sum ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if sum8 is greater than or equal to sum / 11	if ( sum8 >= sum / 11 )	if ( sum8 >= sum / 11 )	1
+set total to sum / 11	total = sum / 11 ;	total = sum / 11 ;	1
+else	else	else	1
+set total to sum8	total = sum8 ;	total = sum8 ;	1
+print total print newline	cout << total << endl ;	cout << total << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

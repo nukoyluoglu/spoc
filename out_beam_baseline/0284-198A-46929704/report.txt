@@ -1,0 +1,12 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long integers k , b , n and t	long long int k, b, n, t ;	long long int k , b , n , t ;	NA
+read k , b , n and t	cin >> k >> b >> n >> t ;	cin >> k >> b >> n >> t ;	1
+declare long long integer variable num = 1	long long int num = 1 ;	long long int num = 1 ;	1
+declare long long integer variable index = 0	long long int index = 0 ;	long long int index = 0 ;	1
+while num < = t	while ( num <= t )	while ( num <= t )	1
+num = k * num + b	num = k * num + b ;	num = k * num + b ;	1
+increment index	index ++ ;	index ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+decrease index	index -- ;	index -- ;	1
+print max of 0ll and n - index and ' \ n '	cout << max ( 0ll, n - index ) <<'\n';	cout << max ( 0ll , n - index ) << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

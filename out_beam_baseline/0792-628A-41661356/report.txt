@@ -1,0 +1,12 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , b , p be integers	int n, b, p ;	int n , b , p ;	NA
+read n , b , p	cin >> n >> b >> p ;	cin >> n >> b >> p ;	1
+let bottles , towels be integers with bottles = 0 , towels = n * p	int bottles = 0, towels = n * p ;	int bottles = 0 , towels = n * p ;	NA
+while n is greater than 1	while ( n > 1 )	while ( n > 1 )	1
+let matches be a integer with matches = ( 1 < < ( int ) log2 ( n ) ) / 2	int matches = ( 1 << ( int ) log2 ( n ) ) / 2 ;	int matches = ( 1 << ( int ) log2 ( n ) ) / 2 ;	1
+increment bottles by matches * ( 2 * b + 1 )	bottles += matches * ( 2 * b + 1 ) ;	bottles += matches * ( 2 * b + 1 ) ;	1
+decrement n by matches	n -= matches ;	n -= matches ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print bottles and space and towels and newline	cout << bottles << " " << towels << endl ;	cout << bottles << " " << towels << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

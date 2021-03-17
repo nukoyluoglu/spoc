@@ -1,0 +1,36 @@
+let x and y be arrays of double of size 100000	double x [ 1000 ], y [ 100000 ] ;	double x [ 100000 ] , y [ 100000 ] ;	NA
+n and t = integers	int n, t ;	int n , t ;	NA
+define function sorty	void sorty ( )	void sorty ( )	1
+let i and k be integers	int i, k ;	int i , k ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( i = 0 ; i < n ; i ++ )	2
+create integer min with value x [ i ]	int min = x [ i ] ;	int min = x [ i ] ;	1
+set integer pos to i	int pos = i ;	int pos = i ;	1
+for k = i + 1 to n exclusive	for ( int k = i + 1 ; k < n ; k ++ )	for ( k = i + 1 ; k < n ; k ++ )	2
+if x [ k ] is less than min	if ( x [ k ] < min )	if ( x [ k ] < min )	1
+set value of min to x [ k ]	min = x [ k ] ;	min = x [ k ] ;	1
+set value of pos to k	pos = k ;	pos = k ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+invoke function swap with arguments x [ i ] and x [ pos ]	swap ( x [ i ], x [ pos ] ) ;	swap ( x [ i ] , x [ pos ] ) ;	NA
+invoke function swap with arguments y [ i ] and y [ pos ]	swap ( y [ i ], y [ pos ] ) ;	swap ( y [ i ] , y [ pos ] ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n and t	cin >> n >> t ;	cin >> n >> t ;	1
+let i be integer	int i ;	int i ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( i = 0 ; i < n ; i ++ )	2
+a and b = doubles	double a, b ;	double a , b ;	NA
+read a and b	cin >> a >> b ;	cin >> a >> b ;	1
+x [ i ] = ( a - ( b / 2 . 0 ) )	x [ i ] = ( a - ( b / 2.0 ) ) ;	x [ i ] = ( a - ( b / 2.0 ) ) ;	1
+y [ i ] = ( a + ( b / 2 . 0 ) )	y [ i ] = ( a + ( b / 2.0 ) ) ;	y [ i ] = ( a + ( b / 2.0 ) ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+call sorty	sorty ( ) ;	sorty ( ) ;	1
+create integer ct with value 2	int ct = 2 ;	int ct = 2 ;	1
+for i = 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )	for ( i = 0 ; i < n - 1 ; i ++ )	2
+create double h with value y [ i ] + t	double h = y [ i ] + t ;	double h = y [ i ] + t ;	1
+if x [ i + 1 ] > = h increment ct	if ( x [ i + 1 ] >= h ) ct ++ ;	if ( x [ i + 1 ] >= h ) { ct ++ ; }	2
+h = x [ i + 1 ] - t	h = x [ i + 1 ] - t ;	h = x [ i + 1 ] - t ;	1
+if y [ i ] is less than h increment ct	if ( y [ i ] < h ) ct ++ ;	if ( y [ i ] < h ) { ct ++ ; }	2
+}	}	}	DUMMY	DUMMY	DUMMY
+print ct and a new line	cout << ct << endl ;	cout << ct << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

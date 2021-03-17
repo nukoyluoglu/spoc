@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int n and a and int array ans of size 105	int n, a, ans [ 105 ] ;	int n , a , ans [ 105 ] ;	NA
+while cin > > n is truthy	while ( cin >> n )	while ( cin >> n )	1
+set all contents of ans to 0	memset ( ans, 0, sizeof ( ans ) ) ;	memset ( ans , 0 , sizeof ( ans ) ) ;	NA
+for i = 1 to n	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; i ++ )	1
+for j = 1 to n	for ( int j = 1 ; j <= n ; j ++ )	for ( int j = 1 ; j <= n ; j ++ )	1
+read a	cin >> a ;	cin >> a ;	1
+if a is equal to 1 or a is equal to 3 , set ans [ i ] to 1	if ( a == 1 || a == 3 ) ans [ i ] = 1 ;	if ( a == 1 || a == 3 ) ans [ i ] = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+let int cnt = 0 and int array b of size 105	int cnt = 0, b [ 105 ] ;	int cnt = 0 , b [ 105 ] ;	NA
+for i = 1 to n	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; i ++ )	1
+if ans [ i ] is equal to 0 , set b [ cnt + + ] to i	if ( ans [ i ] == 0 ) b [ cnt ++ ] = i ;	if ( ans [ i ] == 0 ) b [ cnt ++ ] = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if cnt is truthy	if ( cnt )	if ( cnt )	1
+print cnt	cout << cnt << endl ;	cout << cnt << endl ;	1
+for i = 0 to cnt - 1 exclusive , print b [ i ] and ' '	for ( int i = 0 ; i < cnt - 1 ; i ++ ) { cout << b [ i ] <<' '; }	for ( int i = 0 ; i < cnt - 1 ; i ++ ) cout << b [ i ] << ' ' ;	NA
+print b [ cnt - 1 ]	cout << b [ cnt - 1 ] << endl ;	cout << b [ cnt - 1 ] << endl ;	1
+else	else	else	1
+print 0	cout << 0 << endl ;	cout << 0 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

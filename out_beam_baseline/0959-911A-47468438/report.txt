@@ -1,0 +1,16 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let int s = 9999999999	int s = 9999999999 ;	int s = 9999999999 ;	1
+let int n	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+create pair array a of int and int of size n	pair < int, int > a [ n ] ;	pair < int , int > a [ n ] ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+read a [ i ] . first	cin >> a [ i ]. first ;	cin >> a [ i ] . first ;	NA
+set a [ i ] . second to i + 1	a [ i ]. second = i + 1 ;	a [ i ] . second = i + 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort array a	sort ( a, a + n ) ;	sort ( a , a + n ) ;	NA
+for i = 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+if a [ i ] . first equals a [ i + 1 ] . first and a [ 0 ] . first equals a [ i ] . first , set s to min of s and a [ i + 1 ] . second - a [ i ] . second	if ( ch == a [ i + 1 ]. first && ch == ch ) { s = min ( s, ch == ( ch ) -'a'[ i ]. second ) ; }	if ( a [ i ] . first == a [ i + 1 ] . first && a [ 0 ] . first == a [ i ] . first ) { s = min ( s , a [ i + 1 ] . second - a [ i ] . second ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print s	cout << s << endl ;	cout << s << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

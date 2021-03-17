@@ -1,0 +1,9 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+l , b , r = integers	int l, b, r ;	int l , b , r ;	NA
+read l , b , r	cin >> l >> b >> r ;	cin >> l >> b >> r ;	1
+d , plates = integers with d = 2 * r , plates = 0	int d = 2 * r, plates = 0 ;	int d = 2 * r , plates = 0 ;	NA
+if min ( l , b ) < d	if ( min ( l, b ) < d )	if ( min ( l , b ) < d )	NA
+print Second	cout << " Second " << endl ;	cout << " Second " << endl ;	1
+else	else	else	1
+print First	cout << " First " << endl ;	cout << " First " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

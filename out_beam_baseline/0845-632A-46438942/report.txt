@@ -1,0 +1,14 @@
+create string array s with size 41	string s [ 41 ] ;	string s [ 41 ] ;	1
+create long longs n , p , sum	long long n, p, sum ;	long long n , p , sum ;	NA
+create double curr	double curr ;	double curr ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n read p	cin >> n >> p ;	cin >> n >> p ;	1
+for i = 0 to n exclusive , read s [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> s [ i ] ;	for ( int i = 0 ; i < n ; i ++ ) cin >> s [ i ] ;	1
+for i = n - 1 to 0 inclusive , decrementing i	for ( int i = n - 1 ; i >= 0 ; i -- )	for ( int i = n - 1 ; i >= 0 ; i -- )	1
+if s [ i ] is " halfplus " , increment curr by 0 . 5	if ( s [ i ] == " halfplus " ) curr += 0.5 ;	if ( s [ i ] == " halfplus " ) curr += 0.5 ;	1
+increment sum by curr * p	sum += curr * p ;	sum += curr * p ;	1
+set curr to curr * 2	curr *= 2 ;	curr *= 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print sum print newline	cout << sum << endl ;	cout << sum << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

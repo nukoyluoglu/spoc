@@ -1,0 +1,25 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers i , j , n , p , q , flag with p = 0 , flag = 0 , create integer array a with size 10 with a = { 0 }	int i, j, n, p = 0, q, a [ 10 ] = { 0 } ;	int i , j , n , p = 0 , q , flag = 0 , a [ 10 ] = { 0 } ;	NA
+for i = 0 to 6 exclusive	for ( int i = 0 ; i < 6 ; i ++ )	for ( i = 0 ; i < 6 ; i ++ )	2
+read n	cin >> n ;	cin >> n ;	1
+increment a [ n ]	a [ n ] ++ ;	a [ n ] ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to 9 inclusive	for ( int i = 0 ; i <= 9 ; i ++ )	for ( i = 0 ; i <= 9 ; i ++ )	2
+if a [ i ] is greater than or equal to 4	if ( a [ i ] >= 4 )	if ( a [ i ] >= 4 )	1
+decrement a [ i ] by 4	a [ i ] -= 4 ;	a [ i ] -= 4 ;	1
+set flag to 1	flag = 1 ;	flag = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if flag is 0	if ( flag == 0 )	if ( flag == 0 )	1
+print " Alien " print newline	cout << " Alien " << endl ;	cout << " Alien " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to 9 inclusive	for ( int i = 0 ; i <= 9 ; i ++ )	for ( i = 0 ; i <= 9 ; i ++ )	2
+if a [ i ] is 2	if ( a [ i ] == 2 )	if ( a [ i ] == 2 )	1
+print " Elephant " print newline	cout << " Elephant " << endl ;	cout << " Elephant " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print " Bear " print newline	cout << " Bear " << endl ;	cout << " Bear " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , i	int n, i ;	int n , i ;	NA
+read n	cin >> n ;	cin >> n ;	1
+create integer arrays a , b , with a size n + 2 , b size n + 2	int a [ 3 ], b [ n + 2 ] ;	int a [ n + 2 ] , b [ n + 2 ] ;	NA
+create integer m with m = 0	int m = 0 ;	int m = 0 ;	1
+create 2d integer array c with size 24 by 60 , with c = { 0 }	int c [ 24 ] [ 60 ] = { 0 } ;	int c [ 24 ] [ 60 ] = { 0 } ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( i = 0 ; i < n ; i ++ )	2
+read a [ i ] read b [ i ]	for ( int j = 0 ; j < m ; j ++ ) { cin >> a [ i ] >> b [ j ] ; }	cin >> a [ i ] >> b [ i ] ;	NA
+increment c [ a [ i ] ] [ b [ i ] ]	c [ a [ i ] ] [ b [ j ] ] ++ ;	c [ a [ i ] ] [ b [ i ] ] ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive , set m to maximum of m and c [ a [ i ] ] [ b [ i ] ]	for ( int i = 0 ; i < n ; i ++ ) { m = max ( m, c [ a [ i ] ] [ b [ j ] ] ) ; }	for ( i = 0 ; i < n ; i ++ ) { m = max ( m , c [ a [ i ] ] [ b [ i ] ] ) ; }	NA
+print m print " \ n "	cout << m << " \n " ;	cout << m << " \n " ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,24 @@
+in function File	void File ( )	void File ( )	1
+call freopen of " output . txt " , " w " and stdout	freopen ( " output.txt ", " w ", stdout ) ;	freopen ( " output.txt " , " w " , stdout ) ;	NA
+call freopen of " input . txt " , " r " and stdin	freopen ( " input.txt ", " r ", stdin ) ;	freopen ( " input.txt " , " r " , stdin ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+define empty function fast	void fast ( ) { }	void fast ( ) { }	1
+pi = const double with pi = 2 * acos of 0 . 0	const double pi = 2 * acos ( 0.0 ) ;	const double pi = 2 * acos ( 0.0 ) ;	1
+nn = const int with nn = 2e5 + 5	const int nn = 2e5 + 5 ;	const int nn = 2e5 + 5 ;	1
+oo = const int with oo = 0x3f3f3f3f	const int oo = ( 0x3f3f )3f ;	const int oo = 0x3f3f3f3f ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call fast	fast ( ) ;	fast ( ) ;	1
+n , b , e , ans = int with ans = 0	int n, b, e, ans = 0 ;	int n , b , e , ans = 0 ;	NA
+arr = int array of size nn	int arr [ nn ] ;	int arr [ nn ] = { } ;	2
+read n	cin >> n ;	cin >> n ;	1
+read b then e	cin >> b >> e ;	cin >> b >> e ;	1
+for i = 0 to n - 1	for ( int i = 0 ; i < n - 1 ; i ++ )	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+x , y = int	int x, y ;	int x , y ;	NA
+read x then y	cin >> x >> y ;	cin >> x >> y ;	1
+for j = x to y increment arr [ j ]	for ( int j = x ; j <= y ; j ++ ) { arr [ j ] ++ ; }	for ( int j = x ; j < y ; j ++ ) arr [ j ] ++ ;	5
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = b to e	for ( int i = b ; i <= e ; i ++ )	for ( int i = b ; i < e ; i ++ )	3
+if arr8i ] is 0 increment ans	if ( arr [ i ] == 0 ) ans ++ ;	if ( ! arr [ i ] ) ans ++ ;	NA
+print ans	cout << ans << endl ;	cout << ans << " \n " ;	2
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

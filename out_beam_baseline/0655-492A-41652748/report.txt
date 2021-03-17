@@ -1,0 +1,16 @@
+a is a new array of integers with size 10010	int a [ 10010 ] ;	int a [ 10010 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+set a [ 1 ] to 1	a [ 1 ] = 1 ;	a [ 1 ] = 1 ;	1
+declare new long long int variables sum and m	long long int sum, m ;	long long int sum , m ;	NA
+for i from 2 to 10000 inclusive , change a [ i ] to a [ i - 1 ] + i	for ( int i = 2 ; i <= 10000 ; i ++ ) A [ i ] = a [ i - 1 ] + i ;	for ( int i = 2 ; i <= 10000 ; i ++ ) a [ i ] = a [ i - 1 ] + i ;	NA
+read m and loop further	while ( cin >> m )	while ( cin >> m )	1
+start for loop from i = 1 to 10000 inclusive incrementing i	for ( int i = 1 ; i <= 10000 ; i ++ )	for ( int i = 1 ; i <= 10000 ; i ++ )	1
+decrease m by a [ i ]	m -= a [ i ] ;	m -= a [ i ] ;	1
+if m is less than a [ i + 1 ]	if ( m < a [ i + 1 ] )	if ( m < a [ i + 1 ] )	1
+print i	cout << i << endl ;	cout << i << endl ;	1
+break the loop	break ;	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

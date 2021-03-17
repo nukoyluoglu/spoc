@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create int n	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+ans = 0	int ans = 0 ;	int ans = 0 ;	1
+temp = 0	temp = 0 ;	int temp = 0 ;	2
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+create int a and b	int a, b ;	int a , b ;	NA
+read a and b	cin >> a >> b ;	cin >> a >> b ;	1
+set temp to temp - a	temp -= a ;	temp -= a ;	1
+assign temp + b to temp	temp += b ;	temp += b ;	1
+set ans = max of temp and ans	ans = max ( temp, ans ) ;	ans = max ( temp , ans ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

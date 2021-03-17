@@ -1,0 +1,13 @@
+mod = long long = 1000000007	long long mod = 1000000007 ;	const long long int MOD = 1000000007 ;	46
+N , M , K , H , W , L , R = long long integer	long long int N, M, K, H, W, L, R ;	long long int N , M , K , H , W , L , R ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read N	cin >> N ;	cin >> N ;	1
+v = integer vector of size N + 1	vector < int > v ( N + 1 ) ;	vector < int > v ( N + 1 ) ;	1
+for i = 1 to N inclusive , then read v [ i ]	for ( int i = 1 ; i <= N ; i ++ ) cin >> v [ i ] ;	for ( int i = 1 ; i <= N ; i ++ ) cin >> v [ i ] ;	1
+M = sum of all values of v	for ( int i = 0 ; i < v. size ( ) ; i ++ ) { M = M + v [ i ] ; }	M = accumulate ( v . begin ( ) , v . end ( ) , 0 ) ;	NA
+for i = 1 to N inclusive , v [ i ] = v [ i ] + v [ i - 1 ]	for ( int i = 1 ; i <= N ; i ++ ) V [ i ] += v [ i - 1 ] ;	for ( int i = 1 ; i <= N ; i ++ ) v [ i ] += v [ i - 1 ] ;	NA
+read L , R	cin >> L >> R ;	cin >> L >> R ;	1
+if L > R swap the values of L , R	if ( L > R ) swap ( L, R ) ;	if ( L > R ) swap ( L , R ) ;	NA
+print the result of the lower value between v [ R - 1 ] - v [ L - 1 ] and M in integer form - v [ R - 1 ] + v [ L - 1 ]	cout << min ( ( int ) v [ R - i ] - v [ L - 1 ], M ) - s [ V [ R + 1 ] + s [ L ] ) << endl ;	cout << min ( v [ R - 1 ] - v [ L - 1 ] , ( int ) M - v [ R - 1 ] + v [ L - 1 ] ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

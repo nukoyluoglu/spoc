@@ -1,0 +1,34 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , p , k	int n, p, k ;	int n , p , k ;	NA
+create booleans start , end with start = 1 , end = 0	bool start = 1, end = 0 ;	bool start = 1 , end = 0 ;	NA
+read n read p read k	cin >> n >> p >> k ;	cin >> n >> p >> k ;	1
+for i = p - k to p + k inclusive	for ( int i = p - k ; i <= p + k ; ++ i )	for ( int i = p - k ; i <= p + k ; i ++ )	NA
+if start is true	if ( start )	if ( start )	1
+if i is less than or equal to 1	if ( i <= 1 )	if ( i <= 1 )	1
+if p is 1	if ( p == 1 )	if ( p == 1 )	1
+print " ( " print 1 print " ) "	cout << " ( " << 1 << " ) " << endl ;	cout << " ( " << 1 << " ) " ;	4
+else	else	else	1
+print 1	cout << 1 << endl ;	cout << 1 ;	5
+set i to 1	i = 1 ;	i = 1 ;	1
+else	else	else	1
+print " < < " print i	cout << " << " << i << endl ;	cout << " << " << i ;	2
+set start to 0	start = 0 ;	start = 0 ;	1
+break current loop iteration	continue ;	continue ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if i is greater than or equal to n	if ( i >= n )	if ( i >= n )	1
+set end to 1	end = 1 ;	end = 1 ;	1
+if p is n	if ( p == n )	if ( p == n )	1
+print " ( " print n print " ) "	cout << " ( " << n << " ) " << endl ;	cout << " ( " << n << " ) " ;	5
+else	else	else	1
+print " " print n	cout << " " << n << endl ;	cout << " " << n ;	3
+break loop	break ;	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if i is p	if ( i == p )	if ( i == p )	1
+print " ( " print i print " ) "	cout << " ( " << i << " ) " << endl ;	cout << " ( " << i << " ) " ;	5
+else	else	else	1
+print " " print i	cout << " " << i << endl ;	cout << " " << i ;	3
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if not end print " > > "	if (! end ) cout << " >> " << endl ;	if ( ! end ) cout << " >> " ;	NA
+print ' \ n '	cout <<'\n';	cout << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

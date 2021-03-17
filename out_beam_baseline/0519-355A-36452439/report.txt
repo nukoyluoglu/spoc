@@ -1,0 +1,15 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+k and d = integers	int k, d ;	int k , d ;	NA
+read k and d	cin >> k >> d ;	cin >> k >> d ;	1
+if d = 0	if ( d == 0 )	if ( d == 0 )	1
+if k = 1	if ( k == 1 )	if ( k == 1 )	1
+print " 0 " and a new line	cout << " 0 " << endl ;	cout << " 0 " << endl ;	1
+else	else	else	1
+print " No solution " and a new line	cout << " No solution " << endl ;	cout << " No solution " << endl ;	1
+else	else	else	1
+print d	cout << d << endl ;	cout << d ;	2
+print " 0 " k - 1 times	for ( int j = 0 ; j < k - 1 ; j ++ ) cout << " 0 " ;	for ( int i = 0 ; i < k - 1 ; ++ i ) { cout << " 0 " ; }	NA
+print new line	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

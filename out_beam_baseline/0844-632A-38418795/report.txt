@@ -1,0 +1,21 @@
+create constant long long mod with mod = 1e9 + 7	const long long mod = 1e9 + 7 ;	const long long mod = 1e9 + 7 ;	1
+create constant double esp with esp = 1e - 5	const double esp = 1e-5 ;	const double esp = 1e-5 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , p	long long n, p ;	long long n , p ;	NA
+create string array a with size 50	string a [ 50 ] ;	string a [ 50 ] ;	1
+while read n read p is true	while ( cin >> n >> p )	while ( cin >> n >> p )	1
+for i = 1 to n inclusive , read a [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;	for ( long long i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;	6
+create long longs num , t , with num = 1 , t = 1	long long num = 1, t = 1 ;	long long num = 1 , t = 1 ;	NA
+for i = n - 1 to 1 inclusive , decrementing i	for ( int i = n - 1 ; i >= 1 ; -- i )	for ( int i = n - 1 ; i >= 1 ; i -- )	NA
+if a [ i ] is " halfplus "	if ( a [ i ] == " halfplus " )	if ( a [ i ] == " halfplus " )	1
+set num to ( num + 0 . 5 ) * 2	num = ( num + 0.5 ) * 2 ;	num = ( num + 0.5 ) * 2 ;	1
+increment t	t ++ ;	t ++ ;	1
+else	else	else	1
+set num to num * 2	num *= 2 ;	num = num * 2 ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+create long long ans with ans = 0	long long ans = 0 ;	long long ans = 0 ;	1
+set ans to num * p - t * ( p / 2 )	ans = num * p - t * ( p / 2 ) ;	ans = num * p - t * ( p / 2 ) ;	1
+print ans print newline	cout << ans << endl ;	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

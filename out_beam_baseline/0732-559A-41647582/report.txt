@@ -1,0 +1,11 @@
+sq is a function that returns an integer and receive integer x	int sq ( int x )	inline int sq ( int x )	43
+return square of x	return sqrt ( x ) ;	return x * x ;	60
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a = array of integers of length 11	int a [ 11 ] ;	int a [ 11 ] ;	1
+for ( integer i = 0 to 6 exclusive ) , read i th element of array a	for ( int i = 0 ; i < 6 ; i ++ ) { cin >> a [ i ] ; }	for ( int i = 0 ; i < 6 ; i ++ ) cin >> a [ i ] ;	2
+ans is an integer and equals square of ( a [ 0 ] + a [ 1 ] + a [ 2 ] )	int ans = sqrt ( a [ 0 ] + b [ 1 ] + a [ 2 ] ) ;	int ans = sq ( a [ 0 ] + a [ 1 ] + a [ 2 ] ) ;	NA
+decrement ans by square of a [ 0 ] ) + sq ( a [ 2 ] ) + sq ( a [ 4 ]	ans -= sq [ a [ 0 ] ] + sq ( a [ 2 ] ) + sq( a [ 4 ] ) ;	ans -= sq ( a [ 0 ] ) + sq ( a [ 2 ] ) + sq ( a [ 4 ] ) ;	NA
+print ans and a new line	cout << ans << endl ;	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

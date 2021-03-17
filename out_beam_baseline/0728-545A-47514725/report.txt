@@ -1,0 +1,41 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+define 2D int array r to be 200 x 200 , and define ints a , b , c , d , and e	int * r = 200 * 200, a, b, c, d, e ;	int r [ 200 ] [ 200 ] , a , b , c , d , e ;	NA
+while read into a	while ( cin >> a )	while ( cin >> a )	1
+define int dynamic array v2	vector < int > v2 [ 105 ] ;	vector < int > v2 ;	2
+define 200 - elt . array v	vector < int > v [ 200 ] ;	int v [ 200 ] ;	2
+for b from 1 to a by 1	for ( b = 1 ; b <= a ; b ++ )	for ( b = 1 ; b <= a ; b ++ )	1
+set v [ b ] to 1	v [ b ] = 1 ;	v [ b ] = 1 ;	1
+for c by 1 from 1 to a , read into r [ b ] [ c ]	for ( int c = 1 ; c <= a ; c ++ ) cin >> r [ b ] [ c ] ;	for ( c = 1 ; c <= a ; c ++ ) { cin >> r [ b ] [ c ] ; }	4
+}	}	}	DUMMY	DUMMY	DUMMY
+for b by 1 from 1 to a	for ( b = 1 ; b <= a ; b ++ )	for ( b = 1 ; b <= a ; b ++ )	1
+for c from 1 to a by 1	for ( int c = 1 ; c <= a ; c ++ )	for ( c = 1 ; c <= a ; c ++ )	2
+if b is c , then continue	if ( b == c ) continue ;	if ( b == c ) continue ;	1
+if r [ b ] [ c ] is one , then zero v [ b ]	if ( r [ b ] [ c ] == one ) { n = 0 ; }	if ( r [ b ] [ c ] == 1 ) v [ b ] = 0 ;	NA
+if r [ b ] [ c ] is two , then set v [ c ] to zero	if ( r [ b ] [ c ] == 2 ) { v [ j ] = 0 ; }	if ( r [ b ] [ c ] == 2 ) v [ c ] = 0 ;	NA
+if r [ b ] [ c ] is three , then set v [ b ] and v [ c ] to zero	if ( r [ b ] [ c ] == a [ n - 1 ] ) { v [ n ] = v [ m - 2 ] = 0 ; }	if ( r [ b ] [ c ] == 3 ) v [ b ] = 0 , v [ c ] = 0 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+assign zero to c	c = 0 ;	c = 0 ;	1
+for b from 1 to a by 1	for ( b = 1 ; b <= a ; b ++ )	for ( b = 1 ; b <= a ; b ++ )	1
+if v [ b ] is one	if ( v [ b ] == one )	if ( v [ b ] == 1 )	2
+increment c	c ++ ;	c ++ ;	1
+append b onto v2	v2. push_back ( b ) ;	v2 . push_back ( b ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if c	if ( c )	if ( c )	1
+print c and newline	cout << c << endl ;	cout << c << endl ;	1
+for d from 1 to c by 1	for ( int d = 1 ; d <= c ; d ++ )	for ( d = 1 ; d <= c ; d ++ )	2
+if d is one	if ( d == one )	if ( d == 1 )	2
+print v2 [ d - 1 ]	cout << v2 [ d - 1 ] << endl ;	cout << v2 [ d - 1 ] ;	2
+otherwise	else	else	1
+print " " and v2 [ d - 1 ]	cout << " " << v2 [ d - 1 ] << endl ;	cout << " " << v2 [ d - 1 ] ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print newline	cout << endl ;	cout << endl ;	1
+else	else	else	1
+print c followed by newline	cout << c << endl ;	cout << c << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+clear out v2	v2. clear ( ) ;	v2 . clear ( ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

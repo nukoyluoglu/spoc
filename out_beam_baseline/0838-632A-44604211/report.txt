@@ -1,0 +1,24 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integers n , p and halfs where halfs = 0	int n, p, halfs = 0 ;	int n , p , halfs = 0 ;	NA
+create long long current = 0	long long current = 0 ;	long long current = 0 ;	1
+read n and p from the user input	cin >> n >> p ;	cin >> n >> p ;	1
+create new stack of strings s	stack < string > s ;	stack < string > s ;	1
+create string variable temp	string temp ;	string temp ;	1
+for i from 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+read standard input to temp	cin >> temp ;	cin >> temp ;	1
+push temp to the stack s	s. push_back ( temp ) ;	s . push ( temp ) ;	NA
+if temp is equal to " halfplus " , increment halfs	if ( temp == " halfplus " ) halfs ++ ;	if ( temp == " halfplus " ) halfs ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if top element of s is equal to " halfplus "	if ( s. top ( ) == " halfplus " )	if ( s . top ( ) == " halfplus " )	NA
+assign 1 to current	current = 1 ;	current = 1 ;	1
+remove top element from s	s. pop ( ) ;	s . pop ( ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+loop while s is not empty	while (! s. empty ( ) )	while ( ! s . empty ( ) )	NA
+change the value of current to current multiplied by 2	current *= 2 ;	current *= 2 ;	1
+if value of the top element of s is " halfplus " , increment current by one	if ( s. top ( ) == " halfplus " ) current ++ ;	if ( s . top ( ) == " halfplus " ) current ++ ;	NA
+remove top element from s	s. pop ( ) ;	s . pop ( ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+change current to current * p - ( 0 . 5 * p * halfs )	current = current * p - ( 0.5 * p * halfs ) ;	current = current * p - ( 0.5 * p * halfs ) ;	1
+print current	cout << current << endl ;	cout << current << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

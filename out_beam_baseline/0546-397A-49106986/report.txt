@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n be a integer	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+let x , y be integers	int x, y ;	int x , y ;	NA
+read x , y	cin >> x >> y ;	cin >> x >> y ;	1
+let d be a integer with d = y - x	int d = y - x ;	int d = y - x ;	1
+a = array of integers of length d	int a [ d ] ;	int a [ d ] ;	1
+for i = 0 to d exclusive , the value of a [ i ] is equal to 1	for ( int i = 0 ; i < d ; i ++ ) a [ i ] = 1 ;	for ( int i = 0 ; i < d ; i ++ ) a [ i ] = 1 ;	1
+for i = 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+let m , n be integers	int m, n ;	int m , n ;	NA
+read m , n	cin >> m >> n ;	cin >> m >> n ;	1
+decrement n by 1	n -- ;	n -- ;	1
+for p = m to n inclusive	for ( int p = m ; p <= n ; p ++ )	for ( int p = m ; p <= n ; p ++ )	1
+if p > = y or p is less than x , proceed to next	if ( p >= y || p < x ) continue ;	if ( p >= y || p < x ) continue ;	1
+the value of a [ p - x ] is equal to 0	a [ p - x ] = 0 ;	a [ p - x ] = 0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+let sum be a integer with sum = 0	int sum = 0 ;	int sum = 0 ;	1
+for j = 0 to d exclusive , increment sum by a [ j ]	for ( int j = 0 ; j < d ; j ++ ) { sum += a [ j ] ; }	for ( int j = 0 ; j < d ; j ++ ) sum += a [ j ] ;	2
+print sum and newline	cout << sum << endl ;	cout << sum << " \n " ;	2
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

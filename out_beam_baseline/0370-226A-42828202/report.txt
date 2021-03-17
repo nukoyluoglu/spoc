@@ -1,0 +1,14 @@
+declare power with long longs a , b , m as arguments , returning long long	long long power ( long long a, long long b, long int m )	long long power ( long long a , long long b , long long m )	NA
+create long longs temp , ans with temp = a , ans = 1	long long temp = a, ans = 1 ;	long long temp = a , ans = 1 ;	NA
+while b is true	while ( b )	while ( b )	1
+if b bitwise and 1 is true , set ans to ( ans % m * temp % m ) % m	if ( b & 1 ) ans = ( ans % m * temp % m ) % m ;	if ( b & 1 ) ans = ( ans % m * temp % m ) % m ;	1
+set temp to ( temp % m * temp % m ) % m	temp = ( temp % ( m * temp % m ) ) % m ;	temp = ( temp % m * temp % m ) % m ;	NA
+set b to b / 2	b /= 2 ;	b /= 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return ans from function	return ans ;	return ans ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , m	long long n, m ;	long long n , m ;	NA
+read n read m	cin >> n >> m ;	cin >> n >> m ;	1
+print ( result of run power with 3 , n , m as arguments - 1 + m ) % m print newline	cout << power ( 3, n, m ) - 1 + m ) % m << endl ;	cout << ( power ( 3 , n , m ) - 1 + m ) % m << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

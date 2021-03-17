@@ -1,0 +1,37 @@
+create long long integer pair p of 3007 size	pair < long long, long long > p [ 3007 ] ;	pair < long long int , long long int > p [ 3007 ] ;	NA
+c = long long integers array of length 3007	long long int c [ 3007 ] ;	long long int c [ 3007 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+integer n , m = long long integers	long long int n, m ;	long long int n , m ;	NA
+read n , m	cin >> n >> m ;	cin >> n >> m ;	1
+set long long integer mx to 0	long long int mx = 0 ;	long long int mx = 0 ;	1
+for i = 0 to less than n do the following	for ( int i = 0 ; i < n ; i ++ )	for ( long long int i = 0 ; i < n ; i ++ )	23
+read p [ i ] . second , p [ i ] . first	for ( int i = 0 ; i < second ; i ++ ) { cin >> p [ i ]. first ; }	cin >> p [ i ] . second >> p [ i ] . first ;	NA
+add one to c [ p [ i ] . second ]	c [ p [ i ]. second ] ++ ;	c [ p [ i ] . second ] ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort the values of p to p + n	sort ( p, p + n ) ;	sort ( p , p + n ) ;	NA
+for i = 2 to less than or equal to m then make mx the maximum of mx or c [ i ]	for ( int i = 2 ; i <= m ; i ++ ) mx = max ( mx, c [ i ] ) ;	for ( long long int i = 2 ; i <= m ; i ++ ) mx = max ( mx , c [ i ] ) ;	NA
+set long long integer ans to 21474836470000	long long int ans = 21474836470000 ;	long long int ans = 21474836470000 ;	1
+set long long integer sum to 0	long long int sum = 0 ;	long long int sum = 0 ;	1
+for i = mx to greater than or equal to 0 do the following	for ( int i = mx ; i >= 0 ; i -- )	for ( long long int i = mx ; i >= 0 ; i -- )	8
+for j = 0 to less than n do the following	for ( int j = 0 ; j < n ; j ++ )	for ( long long int j = 0 ; j < n ; j ++ )	82
+if p [ j ] . second is not equal to 1 and c [ p [ j ] . second ] > i then do the following	c [ p [ j ]. second!= 1 ] += i ;	if ( p [ j ] . second != 1 && c [ p [ j ] . second ] > i )	NA
+minus 1from c [ p [ j ] . second ]	c [ p [ j ]. second ] -- ;	c [ p [ j ] . second ] -- ;	NA
+set p [ j ] . second to 1	p [ j ]. second = 1 ;	p [ j ] . second = 1 ;	NA
+add 1 to c [ 1 ]	c [ 1 ] ++ ;	c [ 1 ] ++ ;	1
+sum equals sum plus p [ j ] . first	sum += p [ j ]. first ;	sum += p [ j ] . first ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+set long long integer k to i - c [ 1 ] + 1	long long int k = i - c [ 1 ] + 1 ;	long long int k = i - c [ 1 ] + 1 ;	1
+set long long integer t to sum	long long int t = sum ;	long long int t = sum ;	1
+for j = 0 to less than n do the following	for ( int j = 0 ; j < n ; j ++ )	for ( long long int j = 0 ; j < n ; j ++ )	82
+if k is greater than 0 then do the following	while ( k > 0 )	if ( k > 0 )	2
+if p [ j ] . second is not equal to 1 then do the following	if ( p [ j ]. second!= 1 )	if ( p [ j ] . second != 1 )	NA
+t equals t plus p [ j ] . first	t += p [ j ]. first ;	t += p [ j ] . first ;	NA
+minus 1 from k - -	k -- ;	k -- ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+set ans to min ( ans , t )	ans = min ( ans, t ) ;	ans = min ( ans , t ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+output ans , \ n	cout << ans <<'\n';	cout << ans << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

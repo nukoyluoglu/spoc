@@ -1,0 +1,25 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , i , j , k , flag = int , a = array of 100 by 100 int , b = array of 100 int filled with 0	int n, i, j, k, b [ 100 ] = { 0 }, flag ;	int n , i , j , a [ 100 ] [ 100 ] , b [ 100 ] = { 0 } , k , flag ;	NA
+read n	cin >> n ;	cin >> n ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( i = 0 ; i < n ; i ++ )	2
+for j = 0 to n exclusive read a [ i ] [ j ]	for ( int j = 0 ; j < n ; j ++ ) { cin >> a [ i ] [ j ] ; }	for ( j = 0 ; j < n ; j ++ ) { cin >> a [ i ] [ j ] ; }	3
+}	}	}	DUMMY	DUMMY	DUMMY
+k = 0	k = 0 ;	k = 0 ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( i = 0 ; i < n ; i ++ )	2
+flag = 1	flag = 1 ;	flag = 1 ;	1
+for j = 0 to n exclusive	for ( int j = 0 ; j < n ; j ++ )	for ( j = 0 ; j < n ; j ++ )	2
+if i ! = j	if ( i!= j )	if ( i != j )	NA
+if a [ i ] [ j ] is 1 or 3 flag = 0	if ( ( a [ i ] [ j ] == 1? 0 : 3 ) ) flag = 0 ;	if ( a [ i ] [ j ] == 1 || a [ i ] [ j ] == 3 ) flag = 0 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if flag b [ k ] = i + 1 , increment k	if ( flag ) b [ k ++ ] = i + 1 ;	if ( flag ) b [ k ++ ] = i + 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if b [ 0 ] is 0	if ( b [ 0 ] == 0 )	if ( b [ 0 ] == 0 )	1
+print " 0 "	cout << " 0 " << endl ;	cout << " 0 " << endl ;	1
+else	else	else	1
+print k	cout << k << endl ;	cout << k << endl ;	1
+for i = 0 to k - 1 excluisve print b [ i ] , space	for ( int i = 0 ; i < k - 1 ; i ++ ) { cout << b [ i ] << " " ; }	for ( i = 0 ; i < k - 1 ; i ++ ) { cout << b [ i ] << " " ; }	3
+print b [ k - 1 ]	cout << b [ k - 1 ] << endl ;	cout << b [ k - 1 ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,20 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long ints n , p , count = 0 , and y = 0	long long n, p, count = 0, y = 0 ;	long long n , p , count = 0 , y = 0 ;	NA
+let string x	string x ;	string x ;	1
+read n and p	cin >> n >> p ;	cin >> n >> p ;	1
+make string vector a	vector < string > a ;	vector < string > a ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+read x	cin >> x ;	cin >> x ;	1
+append x to vector a	a. push_back ( x ) ;	a . push_back ( x ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = n - 1 to 0	for ( int i = n - 1 ; i >= 0 ; i -- )	for ( int i = n - 1 ; i >= 0 ; i -- )	1
+if a [ i ] is equal to " halfplus "	if ( a [ i ] == " halfplus " )	if ( a [ i ] == " halfplus " )	1
+set count to count * 2 + 1	count = count * 2 + 1 ;	count = count * 2 + 1 ;	1
+increment y	y ++ ;	y ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if a [ i ] is equal to " half " , set count to 2 * count	if ( a [ i ] == " half " ) count = 2 * count ;	if ( a [ i ] == " half " ) { count = 2 * count ; }	2
+}	}	}	DUMMY	DUMMY	DUMMY
+let long long int ans = p * count - ( p * y ) / 2	long long ans = p * count - ( p * y ) / 2 ;	long long ans = p * count - ( p * y ) / 2 ;	1
+print ans	cout << ans << endl ;	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,10 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long int s , n , i , j , p , h , set h to 0	long long int s, n, i, j, p, h = 0 ;	long long int s , n , i , j , p , h = 0 ;	NA
+read n	cin >> n ;	cin >> n ;	1
+if n equal to 0	if ( n == 0 )	if ( n == 0 )	1
+print 0	cout << 0 << endl ;	cout << " 0 " << endl ;	NA
+else if n is even	else if ( n % 2 == 0 )	else if ( n % 2 == 0 )	1
+print n + 1	cout << n + 1 << endl ;	cout << n + 1 << endl ;	1
+else	else	else	1
+print ( n + 1 ) / 2 and a newline	cout << ( n + 1 ) / 2 << endl ;	cout << ( n + 1 ) / 2 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

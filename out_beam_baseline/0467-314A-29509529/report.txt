@@ -1,0 +1,20 @@
+create long long vector v	vector < long long > v ;	vector < long long > v ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , k , a , s , j , p , i with s = 0 , j = 2	long long n, k, a, s = 0, j = 2, p, i ;	long long n , k , a , s = 0 , j = 2 , p , i ;	NA
+read n read k	cin >> n >> k ;	cin >> n >> k ;	1
+create long long m with m = n	long long m = n ;	long long m = n ;	1
+read a	cin >> a ;	cin >> a ;	1
+for i = 2 to n inclusive	for ( int i = 2 ; i <= n ; i ++ )	for ( i = 2 ; i <= n ; i ++ )	2
+read a	cin >> a ;	cin >> a ;	1
+set p to s - ( j - 1 ) * ( m - j ) * a	p = s - ( j - 1 ) * ( m - j ) * a ;	p = s - ( j - 1 ) * ( m - j ) * a ;	1
+if p is less than k	if ( p < k )	if ( p < k )	1
+add element i to end of v	v. push_back ( i ) ;	v . push_back ( i ) ;	NA
+set m to m - 1	m = m - 1 ;	m = m - 1 ;	1
+else	else	else	1
+set s to s + ( j - 1 ) * a	s = s + ( j - 1 ) * a ;	s = s + ( j - 1 ) * a ;	1
+set j to j + 1	j = j + 1 ;	j = j + 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to size of v exclusive , print v [ i ] print newline	for ( int i = 0 ; i < v. size ( ) ; i ++ ) { cout << v [ i ] << endl ; }	for ( i = 0 ; i < v . size ( ) ; i ++ ) cout << v [ i ] << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,6 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+double integers = l , p , q	double l, p, q ;	double l , p , q ;	NA
+read l , p , q	cin >> l >> p >> q ;	cin >> l >> p >> q ;	1
+output l / ( p + q ) * p	cout << l / ( p + q ) * p << endl ;	cout << l / ( p + q ) * p << " \n " ;	2
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,21 @@
+create string s	string s ;	string s ;	1
+create integers i and j , and an array of integers arr with 10000 elements	int i, j, arr [ 10000 ] ;	int i , j , arr [ 10000 ] ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers a , b , c , d , t , cnt and cn where cnt and cn = 0	int a, b, c, d, t, cnt = 0, cn = 0 ;	int a , b , c , d , t , cnt = 0 , cn = 0 ;	NA
+read from the input to t	cin >> t ;	cin >> t ;	1
+in a for loop , change k from 1 to t inclusive , reading variable arr [ k ] from the input	for ( int k = 1 ; k <= t ; k ++ ) cin >> arr [ k ] ;	for ( int k = 1 ; k <= t ; k ++ ) { cin >> arr [ k ] ; }	2
+read variables a and b from the input	cin >> a >> b ;	cin >> a >> b ;	1
+if a is greater than b , swap a and b	if ( a > b ) swap ( a, b ) ;	if ( a > b ) { swap ( a , b ) ; }	NA
+in the for loop , change i from a to b exclusive , increasing cnt by arr [ i ]	for ( int i = a ; i < b ; i ++ ) { cnt += arr [ i ] ; }	for ( i = a ; i < b ; i ++ ) { cnt += arr [ i ] ; }	3
+start for loop with i = b , incrementing i by 1	for ( int i = b ; ; i ++ )	for ( i = b ; ; i ++ )	2
+if i = a , stop the loop	if ( i == a ) break ;	if ( i == a ) break ;	1
+change cn to cn + arr [ i ]	cn += arr [ i ] ;	cn += arr [ i ] ;	1
+if i = t , set i to 0	if ( i == t ) i = 0 ;	if ( i == t ) { i = 0 ; }	2
+}	}	}	DUMMY	DUMMY	DUMMY
+if cnt is greater than cn	if ( cnt > cn )	if ( cnt > cn )	1
+print cn to the standard output	cout << cn << endl ;	cout << cn << endl ;	1
+else	else	else	1
+print cnt	cout << cnt << endl ;	cout << cnt << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

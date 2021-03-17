@@ -1,0 +1,18 @@
+int function Addition with int argument n	int Addition ( int n )	int Addition ( int n )	1
+declare new integer s	int s ;	int s ;	1
+set s to ( n * ( 1 + n ) ) / 2	s = ( n * ( 1 + n ) ) / 2 ;	s = ( n * ( 1 + n ) ) / 2 ;	1
+return s	return s ;	return s ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a and i are integers with i = 0	int a, i = 0 ;	int a , i = 0 ;	NA
+read input to a	cin >> a ;	cin >> a ;	1
+if a is greater than 0	if ( a > 0 )	if ( a > 0 )	1
+change a to a - the result of Addition ( i )	a -= Addition ( i ) ;	a = a - Addition ( i ) ;	2
+while a > 0	while ( a > 0 )	while ( a > 0 )	1
+increment i	i ++ ;	i ++ ;	1
+assign a - the result of Addition ( i + 1 ) to a	a -= Addition ( i + 1 ) ;	a = a - Addition ( i + 1 ) ;	3
+}	}	}	DUMMY	DUMMY	DUMMY
+print i to the standard output	cout << i << endl ;	cout << i << endl ;	1
+else	else	else	1
+print " 0 " to the standard output	cout << " 0 " << endl ;	cout << " 0 " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

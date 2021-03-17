@@ -1,0 +1,55 @@
+create a map from integers to integers with name mp	map < int, int > mp ;	map < int , int > mp ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+for integer i = 0 to 6 exclusive	for ( int i = 0 ; i < 6 ; i ++ )	for ( int i = 0 ; i < 6 ; i ++ )	1
+declare int p	int p ;	int p ;	1
+read p	cin >> p ;	cin >> p ;	1
+increment mp [ p ]	mp [ p ] ++ ;	mp [ p ] ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if length of mp is greater than 3	if ( mp. size ( ) > 3 )	if ( mp . size ( ) > 3 )	NA
+print " Alien "	cout << " Alien " << endl ;	cout << " Alien " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if length of mp is equal to 3	if ( mp. size ( ) == 3 )	if ( mp . size ( ) == 3 )	NA
+create integer f = 0	int f = 0 ;	int f = 0 ;	1
+it is a map iterator	map < string, int > :: iterator it ;	map < int , int > :: iterator it ;	NA
+move it through mp	for ( it = mp. begin ( ) ; it!= mp. end ( ) - 1 ; it ++ )	for ( it = mp . begin ( ) ; it != mp . end ( ) ; it ++ )	NA
+if it - > second = 4	if ( it -> second == 4 )	if ( it -> second == 4 )	1
+change f to 1	f = 1 ;	f = 1 ;	1
+break the loop	break ;	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if f ! = 0	if ( f!= 0 )	if ( f )	2
+print " Bear "	cout << " Bear " << endl ;	cout << " Bear " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else	else	else	1
+print " Alien "	cout << " Alien " << endl ;	cout << " Alien " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if length of mp is equal to 2	if ( mp. size ( ) == 2 )	if ( mp . size ( ) == 2 )	NA
+declare integer variable f = 0	int f = 0 ;	int f = 0 ;	1
+it is a map iterator	map < string, int > :: iterator it ;	map < int , int > :: iterator it ;	NA
+move it through mp	for ( it = mp. begin ( ) ; it!= mp. end ( ) - 1 ; it ++ )	for ( it = mp . begin ( ) ; it != mp . end ( ) ; it ++ )	NA
+if it - > second = 2	if ( it -> second == 2 )	if ( it -> second == 2 )	1
+change f to 1	f = 1 ;	f = 1 ;	1
+break the loop	break ;	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if if it - > second = 3	if ( it -> second == 3 )	if ( it -> second == 3 )	1
+print " Alien "	cout << " Alien " << endl ;	cout << " Alien " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if f ! = 0	if ( f!= 0 )	if ( f )	2
+print " Elephant "	cout << " Elephant " << endl ;	cout << " Elephant " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+else	else	else	1
+print " Bear "	cout << " Bear " << endl ;	cout << " Bear " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if length of mp = 1	if ( mp. size ( ) == 1 )	if ( mp . size ( ) == 1 )	NA
+print " Elephant "	cout << " Elephant " << endl ;	cout << " Elephant " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

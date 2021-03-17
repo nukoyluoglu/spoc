@@ -1,0 +1,17 @@
+a = integer array of size 100001	int a [ 100001 ] ;	int a [ 100001 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = integer	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+for i = 1 to n + 1 exclusive , read a [ i ]	for ( int i = 1 ; i < n + 1 ; ++ i ) cin >> a [ i ] ;	for ( int i = 1 ; i < n + 1 ; i ++ ) cin >> a [ i ] ;	NA
+res = long long with res = 0	long long res = 0 ;	long long res = 0 ;	1
+t = integer	int t ;	int t ;	1
+for i = 1 to n exclusive	for ( int i = 1 ; i < n ; i ++ )	for ( int i = 1 ; i < n ; i ++ )	1
+for t = 1 , i + t < = n , t = t * 2	for ( t = 1 ; i + t <= n ; t *= 2 )	for ( t = 1 ; i + t <= n ; t *= 2 )	1
+;	;	;	1
+t = right shift t 1 place	t >>= 1 ;	t >>= 1 ;	1
+res = res + a [ i ]	res += a [ i ] ;	res += a [ i ] ;	1
+a [ i + t ] = a [ i + t ] + a [ i ]	a [ i + t ] += a [ i ] ;	a [ i + t ] += a [ i ] ;	1
+print res	cout << res << endl ;	cout << res << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,13 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long n and m	long long n, m ;	long long n , m ;	NA
+read n	cin >> n ;	cin >> n ;	1
+create long long l and r	long long l, r ;	long long l , r ;	NA
+while decrement n	while ( n -- )	while ( n -- )	1
+read l and r	cin >> l >> r ;	cin >> l >> r ;	1
+if r mod l = 0	if ( r % l == 0 )	if ( r % l == 0 )	1
+print l , " " , r	cout << l << " " << r << endl ;	cout << l << " " << r << endl ;	1
+else	else	else	1
+print l , " " , r - ( r mod l )	cout << l << " " << r - ( r % l ) << endl ;	cout << l << " " << r - ( r % l ) << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,19 @@
+integer function selsort with an array of long long argument arr and int argument n	int selsort ( long long arr [ ], int n )	int selsort ( long long arr [ ] , int n )	NA
+loop i from 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+declare integer min = i	int min = i ;	int min = i ;	1
+for j = to n exclusive	for ( int j = 0 ; j < n ; j ++ )	for ( int j = i + 1 ; j < n ; j ++ )	NA
+if arr [ j ] is less than arr [ min ] , set min to j	if ( arr [ j ] < arr [ min ] ) { min = j ; }	if ( arr [ j ] < arr [ min ] ) { min = j ; }	1
+}	}	}	DUMMY	DUMMY	DUMMY
+create long long t with value arr [ i ]	long long t = arr [ i ] ;	long long t = arr [ i ] ;	1
+set arr [ i ] to arr [ min ]	arr [ i ] = arr [ min ] ;	arr [ i ] = arr [ min ] ;	1
+assign t to arr [ min ]	arr [ min ] = t ;	arr [ min ] = t ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integers n , a and b	int n, a, b ;	int n , a , b ;	NA
+read n , a and b	cin >> n >> a >> b ;	cin >> n >> a >> b ;	1
+let arr be long long array with size n	long long arr [ n ] ;	long long arr [ n ] ;	1
+loop i from 0 to n exclusive , read input to arr [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> arr [ i ] ;	for ( int i = 0 ; i < n ; i ++ ) { cin >> arr [ i ] ; }	2
+call selsort ( arr , n )	selsort ( arr, n ) ;	selsort ( arr , n ) ;	NA
+print arr [ n - a ] - arr [ n - a - 1 ] and " \ n "	cout << arr [ N - a ] - arr [ n - a - 1 ] << " \n " ;	cout << arr [ n - a ] - arr [ n - a - 1 ] << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

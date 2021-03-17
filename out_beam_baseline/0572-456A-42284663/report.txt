@@ -1,0 +1,13 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+t , a , b , h , p = int with h = 0 and p = 0	int t, a, b, h = 0, p = 0 ;	int t , a , b , h = 0 , p = 0 ;	NA
+read t	cin >> t ;	cin >> t ;	1
+loop t times	while ( t -- )	while ( t -- )	1
+read a then b	cin >> a >> b ;	cin >> a >> b ;	1
+if a is not equal to b increment p	if ( a!= b ) p ++ ;	if ( a != b ) p ++ ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if p is not equal 0	if ( p!= 0 )	if ( p != 0 )	NA
+print " Happy Alex "	cout << " Happy Alex " << endl ;	cout << " Happy Alex " << endl ;	1
+else	else	else	1
+print " Poor Alex "	cout << " PoorAlex " << endl ;	cout << " Poor Alex " << endl ;	2
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

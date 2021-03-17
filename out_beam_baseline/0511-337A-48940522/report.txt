@@ -1,0 +1,16 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare integers n , m	int n, m ;	int n , m ;	NA
+read n , m	cin >> n >> m ;	cin >> n >> m ;	1
+declare integer array a size m	int a [ m ] ;	int a [ m ] ;	1
+for i = 0 to m exclusive , read a [ i ]	for ( int i = 0 ; i < m ; i ++ ) cin >> a [ i ] ;	for ( int i = 0 ; i < m ; i ++ ) { cin >> a [ i ] ; }	2
+sort from a to a + m	sort ( a, a + m ) ;	sort ( a , a + m ) ;	NA
+declare integers i = 0 , j = n - 1	int i = 0, j = n - 1 ;	int i = 0 , j = n - 1 ;	NA
+declare psum = a [ j ] - a [ i ] as integer	int psum = a [ j ] - a [ i ] ;	int psum = a [ j ] - a [ i ] ;	1
+while j is less than m	while ( j < m )	while ( j < m )	1
+declare sum = a [ j ] - a [ i ] as integer	int sum = a [ j ] - a [ i ] ;	int sum = a [ j ] - a [ i ] ;	1
+if sum is less than or equal to psum , let psum = sum	if ( sum <= psum ) { psum = sum ; }	if ( sum <= psum ) psum = sum ;	2
+increment i	i ++ ;	i ++ ;	1
+increment j	j ++ ;	j ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print psum , " \ n "	cout << psum << " \n " ;	cout << psum << " \n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

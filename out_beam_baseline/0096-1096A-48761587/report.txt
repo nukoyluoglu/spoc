@@ -1,0 +1,12 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer numberOfInputs	int numberOfInputs ;	int numberOfInputs ;	1
+read numberOfInputs	cin >> numberOfInputs ;	cin >> numberOfInputs ;	1
+create long longs input1 and input2	long long input1, input2 ;	long long input1 , input2 ;	NA
+while numberOfInputs > 0 , decrement it and keep looping	while ( numberOfInputs -- )	while ( numberOfInputs -- )	1
+read input1 and input2	cin >> input1 >> input2 ;	cin >> input1 >> input2 ;	1
+create long long div = input2 / input1	long long div = input2 / input1 ;	long long div = input2 / input1 ;	1
+create long long answer = input1 * div	long long answer = input1 * div ;	long long answer = input1 * div ;	1
+print input1 , " " and answer	cout << input1 << " " << answer << endl ;	cout << input1 << " " << answer << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

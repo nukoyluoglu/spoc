@@ -1,0 +1,19 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare long longs n , p , q and b	long long n, p, q, b ;	long long n , p , q , b ;	NA
+read input to n	cin >> n ;	cin >> n ;	1
+for integer i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; i ++ )	1
+read p , q and b from the input	cin >> p >> q >> b ;	cin >> p >> q >> b ;	1
+declare long long variable t = __gcd of p and q	long long t = __gcd ( p, q ) ;	long long t = __gcd ( p , q ) ;	NA
+divide q by t	q /= t ;	q /= t ;	1
+assign b to t	t = b ;	t = b ;	1
+while q ! = 1	while ( q!= 1 )	while ( q != 1 )	NA
+assign result of __gcd ( q , t ) to t	t = __gcd ( q, t ) ;	t = __gcd ( q , t ) ;	NA
+divide q by t	q /= t ;	q /= t ;	1
+break if t = 1	if ( t == 1 ) break ;	if ( t == 1 ) break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if q = 1	if ( q == 1 )	if ( q == 1 )	1
+print " Finite \ n "	cout << " Finite\n " ;	cout << " Finite\n " ;	1
+else	else	else	1
+print " Infinite \ n "	cout << " Infinite\n " ;	cout << " Infinite\n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

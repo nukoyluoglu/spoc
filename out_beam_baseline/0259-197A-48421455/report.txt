@@ -1,0 +1,9 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , k , l = long long integers	long long int n, k, l ;	long long int n , k , l ;	NA
+input n , k , l	cin >> n >> k >> l ;	cin >> n >> k >> l ;	1
+if 2 * l is less than or equal to minimum of n and k then do the following	if ( 2 * l <= min ( n, k ) )	if ( 2 * l <= min ( n , k ) )	NA
+output First	cout << " First " << endl ;	cout << " First " << endl ;	1
+else	else	else	1
+output Second	cout << " Second " << endl ;	cout << " Second " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

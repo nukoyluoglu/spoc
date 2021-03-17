@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long longs n , p	long long n, p ;	long long n , p ;	NA
+read n read p	cin >> n >> p ;	cin >> n >> p ;	1
+create string array str with size n	string str [ n ] ;	string str [ n ] ;	1
+create long long i	long long i ;	long long i ;	1
+create long longs ans , fans with fans = 0	long long ans, fans = 0 ;	long long ans , fans = 0 ;	NA
+for i = 0 to n exclusive , read str [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> str [ i ] ;	for ( i = 0 ; i < n ; i ++ ) cin >> str [ i ] ;	4
+reverse sort elements from str to str + n	reverse ( str, str + n ) ;	reverse ( str , str + n ) ;	NA
+if str [ 0 ] is " half "	if ( str [ 0 ] =='half')	if ( str [ 0 ] == " half " )	2
+set ans to 2	ans = 2 ;	ans = 2 ;	1
+else	else	else	1
+set ans to 1	ans = 1 ;	ans = 1 ;	1
+increment fans by ans * p / 2	fans += ans * p / 2 ;	fans += ans * p / 2 ;	1
+for i = 1 to n exclusive	for ( int i = 1 ; i < n ; i ++ )	for ( i = 1 ; i < n ; i ++ )	3
+if str [ i ] is " half "	if ( str [ i ] =='half')	if ( str [ i ] == " half " )	2
+set ans to ans * 2	ans *= 2 ;	ans *= 2 ;	1
+else	else	else	1
+set ans to ans * 2 + 1	ans = ans * 2 + 1 ;	ans = ans * 2 + 1 ;	1
+increment fans by ans * p / 2	fans += ans * p / 2 ;	fans += ans * p / 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print fans print newline	cout << fans << endl ;	cout << fans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

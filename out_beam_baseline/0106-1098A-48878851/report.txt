@@ -1,0 +1,53 @@
+declare const int maxn = 1e5 + 5	const int maxn = 1e5 + 5 ;	const int maxn = 1e5 + 5 ;	1
+declare const long long inf = 0x3f3f3f3f	const long long inf = ( 0x3f3f )3f ;	const long long inf = 0x3f3f3f3f ;	NA
+declare an array of integer vectors G with size maxn	vector < int > G [ maxn ] ;	vector < int > G [ maxn ] ;	1
+create long long arrays sum and a with maxn elements	long long sum [ MAXN ], a [ maxn ] ;	long long sum [ maxn ] , a [ maxn ] ;	NA
+create integer array minson with maxn elements	int minson [ maxn ] ;	int minson [ maxn ] ;	1
+declare int variable n	int n ;	int n ;	1
+define function getson	void getson ( )	int getson ( int v )	NA
+declare int minkey = inf	int minkey = inf ;	int minkey = inf ;	1
+for i = 0 to length of G [ v ] exclusive	for ( int i = 0 ; i < G [ v ]. size ( ) ; i ++ )	for ( int i = 0 ; i < G [ v ] . size ( ) ; ++ i )	NA
+create int to = G [ v ] [ i ]	int to = G [ v ] [ i ] ;	int to = G [ v ] [ i ] ;	1
+if minkey is greater than getson ( to )	if ( minkey > getson ( to ) )	if ( minkey > getson ( to ) )	1
+set minkey to sum [ to ]	minkey = sum [ to ] ;	minkey = sum [ to ] ;	1
+change minson [ v ] to to	minson [ v ] = to ;	minson [ v ] = to ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return sum [ v ]	return sum [ v ] ;	return sum [ v ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+void function dfs with int arguments v and deep and long long argument fasum	void dfs ( int v, long long fasum )	void dfs ( int v , long long fasum , int deep )	NA
+if deep & 1 is not 0	if ( deep & 1 )	if ( deep & 1 )	1
+assign sum [ v ] - fasum to a [ v ]	a [ V ] = sum [ v ] - fasum ;	a [ v ] = sum [ v ] - fasum ;	NA
+else if length of G [ v ] is not 0	else if ( G [ v ]. size ( )!= 0 )	else if ( ! G [ v ] . size ( ) )	NA
+change a [ v ] to 0	a [ v ] = 0 ;	a [ v ] = 0 ;	1
+return	return ;	return ;	1
+else	else	else	1
+set a [ v ] to sum [ minson [ v ] ] - fasum	a [ V ] = sum [ minson [ v ] ] - fasum ;	a [ v ] = sum [ minson [ v ] ] - fasum ;	NA
+for i = 0 to length of G [ v ] exclusive , call dfs ( G [ v ] [ i ] , fasum + a [ v ] , deep + 1 )	for ( int i = 0 ; i < G [ v ]. size ( ) ; i ++ ) fasum += a [ V ], deep + 1 ;	for ( int i = 0 ; i < G [ v ] . size ( ) ; ++ i ) dfs ( G [ v ] [ i ] , fasum + a [ v ] , deep + 1 ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n and loop further	while ( cin >> n )	while ( cin >> n )	1
+create int pa	int pa ;	int pa ;	1
+for i = 2 to n inclusive	for ( int i = 2 ; i <= n ; i ++ )	for ( int i = 2 ; i <= n ; ++ i )	3
+read pa	cin >> pa ;	cin >> pa ;	1
+push i to G [ pa ]	G [ pa ]. push_back ( i ) ;	G [ pa ] . push_back ( i ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for integer i = 1 to n inclusive , read sum [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> sum [ i ] ;	for ( int i = 1 ; i <= n ; ++ i ) cin >> sum [ i ] ;	3
+call function getson with argument 1	getson ( 1 ) ;	getson ( 1 ) ;	1
+call function dfs with arguments 1 , 0 and 1	dfs ( 1, 0, 1 ) ;	dfs ( 1 , 0 , 1 ) ;	NA
+create long long maxsum = 0	long long maxsum = 0 ;	long long maxsum = 0 ;	1
+create integer flag = 0	int flag = 0 ;	int flag = 0 ;	1
+for integer i = 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; i <= n ; ++ i )	2
+if a [ i ] > = 0	if ( a [ i ] >= 0 )	if ( a [ i ] >= 0 )	1
+add a [ i ] to maxsum	maxsum += a [ i ] ;	maxsum += a [ i ] ;	1
+else	else	else	1
+set flag to 1	flag = 1 ;	flag = 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if flag is 0	if ( flag == 0 )	if ( ! flag )	NA
+print maxsum	cout << maxsum << endl ;	cout << maxsum << endl ;	1
+else	else	else	1
+print - 1	cout << - 1 << endl ;	cout << - 1 << endl ;	1
+for i = 0 to n inclusive , clear G [ i ]	for ( int i = 0 ; i <= n ; i ++ ) G [ i ]. clear ( ) ;	for ( int i = 0 ; i <= n ; ++ i ) G [ i ] . clear ( ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

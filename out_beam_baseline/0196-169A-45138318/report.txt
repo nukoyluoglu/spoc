@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create ints n , a , b and way	int n, a, b, way ;	int n , a , b , way ;	NA
+read n , a and b	cin >> n >> a >> b ;	cin >> n >> a >> b ;	1
+create int pointer * chore to the new array of int with n elements	int * chore = new int [ n ] ;	int * chore = new int [ n ] ;	1
+loop i from 0 to n exclusive , read chore [ i ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> chore [ i ] ; }	for ( int i = 0 ; i < n ; i ++ ) cin >> chore [ i ] ;	2
+sort chore	sort ( chore, chore + n ) ;	sort ( chore , chore + n ) ;	NA
+declare int j = n - 1	int j = n - 1 ;	int j = n - 1 ;	1
+decrement j while j > n - a	while ( j > n - a ) j -- ;	while ( j > n - a ) { j -- ; }	NA
+if chore [ j ] = chore [ j - 1 ]	if ( chore [ j ] == chore [ i - 1 ] )	if ( chore [ j ] == chore [ j - 1 ] )	NA
+print 0 and " \ n "	cout << 0 << " \n " ;	cout << 0 << " \n " ;	1
+else	else	else	1
+print chore [ j ] - chore [ j - 1 ] and " \ n "	cout << choreo [ j ] - chore [ j - 1 ] << " \n " ;	cout << chore [ j ] - chore [ j - 1 ] << " \n " ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

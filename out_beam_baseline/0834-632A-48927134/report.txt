@@ -1,0 +1,15 @@
+op = array of strings 444	string op [ 444 ] ;	string op [ 444 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , p be long integers	long long n, p ;	long long n , p ;	NA
+read n and p	cin >> n >> p ;	cin >> n >> p ;	1
+the value of p = p / 2	p /= 2 ;	p /= 2 ;	1
+for i = 1 to n inclusive , read op [ i ]	for ( int i = 1 ; i <= n ; i ++ ) cin >> op [ i ] ;	for ( int i = 1 ; i <= n ; i ++ ) { cin >> op [ i ] ; }	2
+let ans , send be long integers with ans = 0 , send = 0	long long ans = 0, send = 0 ;	long long ans = 0 , send = 0 ;	NA
+for i is equal to n , i > = 1 , decrement i by 1	for ( i = n ; i >= 1 ; i -- )	for ( int i = n ; i >= 1 ; i -- )	2
+send = send * 2	send *= 2 ;	send *= 2 ;	1
+if op [ i ] is equal to halfplus , increment send by 1	if ( op [ i ] == halfplus ) send += 1 ;	if ( op [ i ] == " halfplus " ) { send ++ ; }	NA
+increment ans by send	ans += send ;	ans += send ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans * p and newline	cout << ans * p << endl ;	cout << ans * p << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

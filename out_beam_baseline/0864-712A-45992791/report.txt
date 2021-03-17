@@ -1,0 +1,8 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n , create integer array arr with size 100010	int n, arr [ 100010 ] ;	int n , arr [ 100010 ] ;	NA
+read n	cin >> n ;	cin >> n ;	1
+for i = 0 to n exclusive , read arr [ i1 ]	for ( int i = 0 ; i < n ; i ++ ) { cin >> arr [ i1 ] ; }	for ( int i = 0 ; i < n ; i ++ ) { cin >> arr [ i ] ; }	8
+for i = 1 to n exclusive , print arr [ i ] + arr [ i - 1 ] print " "	for ( int i = 1 ; i < n ; i ++ ) { cout << arr [ 1 ] + arr [ i - 1 ] << " " ; }	for ( int i = 1 ; i < n ; i ++ ) { cout << arr [ i ] + arr [ i - 1 ] << " " ; }	NA
+print arr [ n - 1 ] print newline	cout << arr [ n - 1 ] << endl ;	cout << arr [ n - 1 ] << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

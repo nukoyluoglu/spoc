@@ -1,0 +1,23 @@
+create constant integer MAXN with value 100000 + 5	const int MAXN = 100000 + 5 ;	const int MAXN = 100000 + 5 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string s	string s ;	string s ;	1
+read s	cin >> s ;	cin >> s ;	1
+let cnt1 and cnt2 be integers = 0	int cnt1 = 0, cnt2 = 0 ;	int cnt1 = 0 , cnt2 = 0 ;	NA
+for integer i = 0 to length of s exclusive	for ( int i = 0 ; i < s. length ( ) ; i ++ )	for ( int i = 0 ; i < s . size ( ) ; i ++ )	NA
+if s [ i ] = ' 0 '	if ( s [ i ] =='0')	if ( s [ i ] == ' 0 ' )	NA
+if cnt1 is even	if ( cnt1 % 2 == 0 )	if ( cnt1 % 2 == 0 )	1
+print 1 , " " and 1	cout << l << " " << 1 << endl ;	cout << 1 << " " << 1 ;	4
+else	else	else	1
+print 3 , " " and 1	cout << 3 << " " << 1 << endl ;	cout << 3 << " " << 1 ;	3
+increment cnt1	cnt1 ++ ;	cnt1 ++ ;	1
+else	else	else	1
+if cnt2 is even	if ( cnt2 % 2 == 0 )	if ( cnt2 % 2 == 0 )	1
+print 4 , " " and 3	cout << 4 << " " << 3 << endl ;	cout << 4 << " " << 3 ;	3
+else	else	else	1
+print 4 , " " and 1	cout << 4 << " " << 1 << endl ;	cout << 4 << " " << 1 ;	3
+increase cnt2	cnt2 ++ ;	cnt2 ++ ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print " \ n "	<< " \n " ;	cout << " \n " ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

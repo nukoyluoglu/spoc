@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long int n	long long int n ;	long long int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+create long long int a [ n + 5 ]	long long int a [ n + 5 ] ;	long long int a [ n + 5 ] ;	1
+for i = 0 to n inclusive , read a [ i ]	for ( int i = 0 ; i <= n ; i ++ ) cin >> a [ i ] ;	for ( int i = 1 ; i <= n ; i ++ ) cin >> a [ i ] ;	5
+set c to 0	c = 0 ;	long long int c = 0 ;	4
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 1 ; i < n ; i ++ )	10
+set c to c + a [ i ]	c += a [ i ] ;	c += a [ i ] ;	1
+print c and a newline	cout << c << endl ;	cout << c << " \n " ;	2
+j = 1	j = 1 ;	long long int j = 1 ;	NA
+while ( - 1 + j * 2 < n , set j to j * 2	while ( - 1 + j * 2 < n ) j *= 2 ;	while ( ( i - 1 ) + j * 2 < n ) j *= 2 ;	NA
+set a [ i + j ] to a [ i + j ] + a [ i ]	a [ i + j ] += a [ i ] ;	a [ i + j ] += a [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

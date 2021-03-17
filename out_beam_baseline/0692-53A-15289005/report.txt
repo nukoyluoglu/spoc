@@ -1,0 +1,18 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;	int n ;	1
+create strings str , s , ans , min with min = " z "	string str, s, ans, min = " z " ;	string str , s , ans , min = " z " ;	NA
+read str read n	cin >> str >> n ;	cin >> str >> n ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+read s	cin >> s ;	cin >> s ;	1
+if s is str	if ( s == str )	if ( s == str )	1
+set min to str	min = str ;	min = str ;	1
+break loop	break ;	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if first index of str in s is 0 and s is less than min , set min to s	if ( s. find ( str ) == 0 && s < min ) min = s ;	if ( ( s . find ( str ) == 0 ) && ( s < min ) ) min = s ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if min is " z "	if ( min == " z " )	if ( min == " z " )	1
+print str print newline	cout << str << endl ;	cout << str << endl ;	1
+else	else	else	1
+print min print newline	cout << min << endl ;	cout << min << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

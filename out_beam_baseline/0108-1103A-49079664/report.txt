@@ -1,0 +1,21 @@
+declare boolean variables l and r	bool l, r ;	bool l , r ;	NA
+let s be string	string s ;	string s ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read s	cin >> s ;	cin >> s ;	1
+for i = 0 to length of s exclusive	for ( int i = 0 ; i < s. length ( ) ; i ++ )	for ( int i = 0 ; i < s . size ( ) ; i ++ )	NA
+if s [ i ] = ' 0 ' & & l is true	if ( s [ i ] =='0'&& l )	if ( s [ i ] == ' 0 ' && l )	NA
+print " 3 1 " and a new line	cout << " 31 " << endl ;	cout << " 3 1 " << endl ;	2
+set value of l to false	l = false ;	l = false ;	1
+else if s [ i ] = ' 0 '	else if ( s [ i ] =='0')	else if ( s [ i ] == ' 0 ' )	NA
+print " 1 1 " and a new line	cout << " 1 1 " << endl ;	cout << " 1 1 " << endl ;	1
+l = true	l = true ;	l = true ;	1
+else if s [ i ] = ' 1 ' & & r is true	else if ( s [ i ] =='1'&& r )	else if ( s [ i ] == ' 1 ' && r )	NA
+print " 4 1 " and a new line	cout << " 41 " << endl ;	cout << " 4 1 " << endl ;	2
+assign value of false to r	r = false ;	r = false ;	1
+else	else	else	1
+print " 4 3 " and a new line	cout << " 43 " << endl ;	cout << " 4 3 " << endl ;	2
+r = true	r = true ;	r = true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

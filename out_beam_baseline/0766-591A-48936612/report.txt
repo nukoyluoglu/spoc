@@ -1,0 +1,5 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+double integers = d , n , m	double d, n, m ;	double d , n , m ;	NA
+read d , n , m	cin >> d >> n >> m ;	cin >> d >> n >> m ;	1
+output ( d * n ) / ( n + m )	cout << ( d * n ) / ( n + m ) << endl ;	cout << ( d * n ) / ( n + m ) << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

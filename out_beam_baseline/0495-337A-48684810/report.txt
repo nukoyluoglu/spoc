@@ -1,0 +1,20 @@
+in function power_of_two taking int n and returning bool	bool power_of_two ( int n )	bool power_of_two ( int n )	1
+m = int	int m ;	int m ;	1
+set m to n - 1	m = n - 1 ;	m = n - 1 ;	1
+if not n bitwise - and m	if (! n & m )	if ( ! n & m )	NA
+return true	return true ;	return true ;	1
+else	else	else	1
+return false	return false ;	return false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , m , a , mn = int with mn = 10000	int n, m, a, mn = 10000 ;	int n , m , a , mn = 10000 ;	NA
+read n then m	cin >> n >> m ;	cin >> n >> m ;	1
+v = int vector	vector < int > v ;	vector < int > v ;	1
+for i = 0 to m	for ( int i = 0 ; i < m ; i ++ )	for ( int i = 0 ; i < m ; i ++ )	1
+read a	cin >> a ;	cin >> a ;	1
+append a to v	v. push_back ( a ) ;	v . push_back ( a ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort v	sort ( v. begin ( ), v. end ( ) ) ;	sort ( v . begin ( ) , v . end ( ) ) ;	NA
+for i = n - 1 to m set mn to min of mn and v [ i ] - v [ i - n + 1 ]	for ( int i = n - 1 ; i < m ; i ++ ) mn = min ( mn, v [ i ] - V [ i - n + 1 ] ) ;	for ( int i = n - 1 ; i < m ; i ++ ) { mn = min ( mn , v [ i ] - v [ i - n + 1 ] ) ; }	NA
+print mn	cout << mn << endl ;	cout << mn << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

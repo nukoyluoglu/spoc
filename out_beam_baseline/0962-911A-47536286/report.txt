@@ -1,0 +1,22 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , menor , pos , ans , i = int	int n, menor, pos, ans, i ;	int n , menor , pos , ans , i ;	NA
+read n	cin >> n ;	cin >> n ;	1
+V = int vector of size n	vector < int > V ( n ) ;	vector < int > V ( n ) ;	1
+read n values into V	for ( int i = 0 ; i < n ; i ++ ) cin >> V [ i ] ;	for ( i = 0 ; i < n ; i ++ ) { cin >> V [ i ] ; }	5
+set menor to 2000000000	menor = 2000000000 ;	menor = 2000000000 ;	1
+for i = 0 to n set menor to min of menor and V [ i ]	for ( int i = 0 ; i < n ; i ++ ) menor = min ( menor, V [ i ] ) ;	for ( i = 0 ; i < n ; i ++ ) { menor = min ( menor , V [ i ] ) ; }	NA
+for i = 0 to n	for ( int i = 0 ; i < n ; i ++ )	for ( i = 0 ; i < n ; i ++ )	2
+if V [ i ] = menor	if ( V [ i ] == menor )	if ( V [ i ] == menor )	1
+set pos to i	pos = i ;	pos = i ;	1
+break	break ;	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+set ans to 1000000	int ans = 1000000 ;	ans = 1000000 ;	3
+for i = pos + 1 to n	for ( int i = pos + 1 ; i <= n ; i ++ )	for ( i = pos + 1 ; i < n ; i ++ )	6
+if V [ i ] = menor	if ( V [ i ] == menor )	if ( V [ i ] == menor )	1
+if i - pos < ans set ans to i - pos	if ( i + pos < ans ) ans = i - pos ;	if ( i - pos < ans ) ans = i - pos ;	NA
+set pos to i	pos = i ;	pos = i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;	cout << ans << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

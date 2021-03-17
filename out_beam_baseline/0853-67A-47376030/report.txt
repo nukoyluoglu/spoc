@@ -1,0 +1,42 @@
+vector_in is a int vector function with int argument n	vector < int > vector_in ( int n )	vector < int > vector_in ( int n )	1
+create vector of integers v with n elements	vector < int > v ( n ) ;	vector < int > v ( n ) ;	1
+loop i from 0 to n exclusive , reading v [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> v [ i ] ;	for ( int i = 0 ; i < n ; i ++ ) cin >> v [ i ] ;	1
+return v	return v ;	return v ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+function vector_out with vector of ints argument v	void vector_out ( vector < int > v )	void vector_out ( vector < int > v )	1
+for i from 0 to length of v exclusive , print v [ i ] and " "	for ( int i = 0 ; i < v. size ( ) ; i ++ ) { cout << v [ i ] << " " ; }	for ( int i = 0 ; i < v . size ( ) ; i ++ ) cout << v [ i ] << " " ;	NA
+print new line	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+function vector_sum with vector of ints argument v that returns integer	int vector_sum ( vector < int > v )	int vector_sum ( vector < int > v )	1
+create integer sum	int sum ;	int sum ;	1
+for i = 0 to length of v exclusive , increase sum by v [ i ]	for ( int i = 0 ; i < v. size ( ) ; i ++ ) sum += v [ i ] ;	for ( int i = 0 ; i < v . size ( ) ; i ++ ) sum += v [ i ] ;	NA
+return sum	return sum ;	return sum ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare int n	int n ;	int n ;	1
+create vector of integers T with 1001 element filled with 1	vector < int > T ( 1001, 1 ) ;	vector < int > T ( 1001 , 1 ) ;	NA
+create characters vector rla	vector < char > rla ;	vector < char > rla ;	1
+read input to n	cin >> n ;	cin >> n ;	1
+loop i from 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+declare character variable c	char c ;	char c ;	1
+read c	cin >> c ;	cin >> c ;	1
+push c into rla	rla. push_back ( c ) ;	rla . push_back ( c ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+for i from 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+if rla [ i ] = ' R '	if ( rla [ i ] =='R')	if ( rla [ i ] == ' R ' )	NA
+set T [ i + 1 ] to max of T [ i + 1 ] and T [ i ] + 1	T [ i + 1 ] = max ( T [ 1 ], T [ i ] + 1 ) ;	T [ i + 1 ] = max ( T [ i + 1 ] , T [ i ] + 1 ) ;	NA
+else if rla [ i ] is ' = '	else if ( rla [ i ] =='=')	else if ( rla [ i ] == ' = ' )	NA
+change T [ i + 1 ] to T [ i ]	T [ i + 1 ] = T [ i ] ;	T [ i + 1 ] = T [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for integer i = n - 2 to 0 inclusive counting down	for ( int i = n - 2 ; i >= 0 ; i -- )	for ( int i = n - 2 ; i >= 0 ; i -- )	1
+if rla [ i ] is equal to ' L '	if ( rla [ i ] =='L')	if ( rla [ i ] == ' L ' )	NA
+assign max of T [ i ] and T [ i + 1 ] + 1 to T [ i ]	T [ i ] = max ( T [ 1 ], T [ i + 1 ] + 1 ) ;	T [ i ] = max ( T [ i ] , T [ i + 1 ] + 1 ) ;	NA
+else if rla [ i ] is ' = '	else if ( rla [ i ] =='=')	else if ( rla [ i ] == ' = ' )	NA
+set T [ i ] to T [ i + 1 ]	T [ i ] = T [ i + 1 ] ;	T [ i ] = T [ i + 1 ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i from 0 to n exclusive , print T [ i ] and " \ n " [ i = n - 1 ]	for ( int i = 0 ; i < n ; i ++ ) { cout << T [ i ] << " \n " [ i = n - 1 ] ; }	for ( int i = 0 ; i < n ; i ++ ) { cout << T [ i ] << " \n " [ i == n - 1 ] ; }	2
+print flush	cout << flush << endl ;	cout << flush ;	4
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

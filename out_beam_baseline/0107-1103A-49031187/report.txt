@@ -1,0 +1,19 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create string x	string x ;	string x ;	1
+read x	cin >> x ;	cin >> x ;	1
+create integers v and h = 0	int v = 0, h = 0 ;	int v = 0 , h = 0 ;	NA
+for i = 0 to length of x exclusive	for ( int i = 0 ; i < x. size ( ) ; i ++ )	for ( int i = 0 ; i < x . size ( ) ; i ++ )	NA
+if x [ i ] is ' 0 '	if ( x [ i ] =='0')	if ( x [ i ] == ' 0 ' )	NA
+if v is 0	if ( v == 0 )	if ( ! v )	NA
+print 1 , ' ' , 1 and a new line , then increment v	cout << 1 <<' '<< v << endl ;	cout << 1 << ' ' << 1 << endl , v ++ ;	NA
+else	else	else	1
+print 3 , ' ' , 1 and a new line , then set v to 0	cout << 3 <<' '<< 1 << endl, v = 0 ;	cout << 3 << ' ' << 1 << endl , v = 0 ;	NA
+else	else	else	1
+if h is 0	if ( h == 0 )	if ( ! h )	NA
+print 4 , ' ' , 3 and a new line , then increment h	cout << 4 <<' '<< 3 << endl ;	cout << 4 << ' ' << 3 << endl , h ++ ;	NA
+else	else	else	1
+print 4 , ' ' , 1 and a new line , then set h to 0	cout << 4 <<' '<< 1 << endl, h = 0 ;	cout << 4 << ' ' << 1 << endl , h = 0 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

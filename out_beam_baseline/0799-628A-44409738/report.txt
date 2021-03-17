@@ -1,0 +1,12 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let n , b , p be integers	int n, b, p ;	int n , b , p ;	NA
+read n , b , p	cin >> n >> b >> p ;	cin >> n >> b >> p ;	1
+let ats1 , ats2 be integers with ats1 = 0 , ats2 = p * n	int ats1 = 0, ats2 = p * n ;	int ats1 = 0 , ats2 = p * n ;	NA
+while n is not equal to 1	while ( n!= 1 )	while ( n != 1 )	NA
+let k be a integer with k = 1	int k = 1 ;	int k = 1 ;	1
+while 2 * k < = n , k is equal to k * 2	while ( 2 * k <= n ) k *= 2 ;	while ( 2 * k <= n ) k *= 2 ;	1
+increment ats1 by k * b + k / 2	ats1 += k * b + k / 2 ;	ats1 += k * b + k / 2 ;	1
+decrement n by k / 2	n -= k / 2 ;	n -= k / 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print ats1 and space and ats2 and newline	cout << ( ats1 ) << " " << ats2 << endl ;	cout << ats1 << " " << ats2 << " \n " ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,28 @@
+n , m , k = static long long	static long long n, m, k ;	static long long n , m , k ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+p = vector of n int	vector < int > p ( n ) ;	vector < int > p ( n ) ;	1
+for i = 0 to n exclusive read p [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> p [ i ] ;	for ( int i = 0 ; i < n ; i ++ ) cin >> p [ i ] ;	1
+res = 0	int res = 0 ;	int res = 0 ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+x = int	int x ;	int x ;	1
+read x	cin >> x ;	cin >> x ;	1
+add x to res	res += x ;	res += x ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+res = ( res + 1 ) modulo 2	res = ( res + 1 ) % 2 ;	res = ( res + 1 ) % 2 ;	1
+visited = vector of n bool	vector < bool > visited ( n ) ;	vector < bool > visited ( n ) ;	1
+count = - 1	count = - 1 ;	int count = - 1 ;	2
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+if visited [ i ] continue	if ( visited [ i ] ) continue ;	if ( visited [ i ] ) continue ;	1
+increment count	count ++ ;	count ++ ;	1
+j = i	j = i ;	int j = i ;	2
+while not visited [ j ]	while (! visited [ j ] )	while ( ! visited [ j ] )	NA
+visited [ j ] = true	visited [ j ] = true ;	visited [ j ] = true ;	1
+j = p [ j ] - 1	j = p [ j ] - 1 ;	j = p [ j ] - 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if count > 0 increment res	if ( count > 0 ) res ++ ;	if ( count > 0 ) res ++ ;	1
+add count to res	res += count ;	res += count ;	1
+print res	cout << res << endl ;	cout << res << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

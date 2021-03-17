@@ -1,0 +1,5 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+a , b , c = integer	int a, b, c ;	int a , b , c ;	NA
+read a , b , c	cin >> a >> b >> c ;	cin >> a >> b >> c ;	1
+print the result of b * c + ( a - 1 ) * ( b + c - 1 )	cout << b * c + ( a - l ) * ( b + c - 1 ) << endl ;	cout << b * c + ( a - 1 ) * ( b + c - 1 ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

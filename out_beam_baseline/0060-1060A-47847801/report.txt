@@ -1,0 +1,11 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , k = integers with k = 0	int n, k = 0 ;	int n , k = 0 ;	NA
+Read n	cin >> n ;	cin >> n ;	1
+s = string	string s ;	string s ;	1
+Read s	cin >> s ;	cin >> s ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+if s [ i ] is 8 , then increment k	if ( s [ i ] =='8') k ++ ;	if ( s [ i ] == ' 8 ' ) { k ++ ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print minimum value of n / 11 and k and a new line	cout << min ( n / 11, k ) << endl ;	cout << min ( n / 11 , k ) << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

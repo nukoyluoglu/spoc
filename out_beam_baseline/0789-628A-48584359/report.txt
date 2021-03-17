@@ -1,0 +1,14 @@
+create const ints N = 1e6 + 5 , MAX = 3e7 and MOD = 1e9 + 7	const int N = 1e6 + 5, MAX = 3e7, MOD = ( 1e9 + 7 ) ;	const int N = 1e6 + 5 , MAX = 3e7 , MOD = 1e9 + 7 ;	NA
+declare ints n , p , b , x and y	int n, p, b, x, y ;	int n , p , b , x , y ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , p and b	cin >> n >> p >> b ;	cin >> n >> p >> b ;	1
+set y to b * n	y = b * n ;	y = b * n ;	1
+while n is not 0	while ( n!= 0 )	while ( n )	2
+if n / 2 is true	if ( n / 2 )	if ( n / 2 )	1
+increase x by ( n - n % 2 ) * p + n / 2	x += ( n - n % 2 ) * p + n / 2 ;	x += ( ( n - n % 2 ) * p + n / 2 ) ;	3
+else	else	else	1
+break the loop	break ;	break ;	1
+assign n / 2 + n % 2 to n	n = n / 2 + n % 2 ;	n = n / 2 + n % 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print x , " " , y and " \ n "	cout << x << " " << y << " \n " ;	cout << x << " " << y << " \n " ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

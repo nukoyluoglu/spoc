@@ -1,0 +1,17 @@
+create long longs n , a , b and c	long long n, a, b, c ;	long long n , a , b , c ;	NA
+let dp be 2d long long array with size 5006 by 5005	long long dp [ 5006 ] [ 5005 ] ;	long long dp [ 5006 ] [ 5005 ] ;	1
+long long function result with long long arguments total and cnt	long long result ( long long total, long long cnt )	long long result ( long long total , long long cnt )	NA
+if total = 0 return cnt	if ( total == 0 ) return cnt ;	if ( total == 0 ) return cnt ;	1
+declare long long variables d , e and f = 0	long long d = 1, e = 0, f = 0 ;	long long d = 0 , e = 0 , f = 0 ;	NA
+if dp [ total ] [ cnt ] is not - 1m return dp [ total ] [ cnt ]	if ( dp [ total ] [ cnt ]!= - 1 ) break ;	if ( dp [ total ] [ cnt ] != - 1 ) return dp [ total ] [ cnt ] ;	NA
+if a < = total , assign result ( total - a , cnt + 1 ) to d	if ( a <= total ) d = result ( total - a, cnt + 1 ) ;	if ( a <= total ) d = result ( total - a , cnt + 1 ) ;	NA
+if b < = total , assign result ( total - b , cnt + 1 ) to e	if ( b <= total ) e = result ( total - b, cnt + 1 ) ;	if ( b <= total ) e = result ( total - b , cnt + 1 ) ;	NA
+if c < = total , assign result ( total - c , cnt + 1 ) to f	if ( c <= total ) f = result ( total - c, cnt + 1 ) ;	if ( c <= total ) f = result ( total - c , cnt + 1 ) ;	NA
+return dp [ total ] [ cnt ] = max of d and max ( e , f )	return dp [ total ] [ cnt ] = max ( d, max ( e, f ) ) ;	return dp [ total ] [ cnt ] = max ( d , max ( e , f ) ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+set value of sizeofdp bytes at the pointer dp to - 1	memset ( dp, - 1, sizeof dp ) ;	memset ( dp , - 1 , sizeof dp ) ;	NA
+read input to n , a , b and c	cin >> n >> a >> b >> c ;	cin >> n >> a >> b >> c ;	1
+declare long long variable ans = result ( n , 0 )	long long ans = result ( n, 0 ) ;	long long ans = result ( n , 0 ) ;	NA
+print ans	cout << ans << endl ;	cout << ans << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

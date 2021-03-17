@@ -1,0 +1,27 @@
+N = const long long with N = 1e9 + 3	const long long N = 1e9 + 3 ;	const long long N = 1e9 + 3 ;	1
+MN = const long long with MN = 1e9 + 7	const long long MN = 1e9 + 7 ;	const long long MN = 1e9 + 7 ;	1
+MX = const long long with MX = - 1e9 - 7	const long long MX = - 1e9 - 7 ;	const long long MX = - 1e9 - 7 ;	1
+n , a , b , x , c1 , c2 , cnt = long long	long long n, a, b, x, c1, c2, cnt ;	long long n , a , b , x , c1 , c2 , cnt ;	NA
+s , s1 = string	string s, s1 ;	string s , s1 ;	NA
+bl = bool with bl = false	bool bl = false ;	bool bl = false ;	1
+c = long long	long long c ;	long long c ;	1
+pr = pair of long long and long long	pair < long long, long long > pr ;	pair < long long , long long > pr ;	NA
+v = vector of long long	vector < long long > v ;	vector < long long > v ;	1
+mp = map from long long to long long	map < long long, long long > mp ;	map < long long , long long > mp ;	NA
+st = set of long long	set < long long > st ;	set < long long > st ;	1
+iterator it = set of long long	set < long long > :: iterator it ;	set < long long > :: iterator it ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n , a , b	cin >> n >> a >> b ;	cin >> n >> a >> b ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( long long i = 0 ; i < n ; i ++ )	4
+read x	cin >> x ;	cin >> x ;	1
+append x in v	v. push_back ( x ) ;	v . push_back ( x ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+sort v . begin ( ) and v . end ( )	sort ( v. begin ( ), v. end ( ) ) ;	sort ( v . begin ( ) , v . end ( ) ) ;	NA
+if v [ b - 1 ] is v [ b ]	if ( v [ bi - 1 ] == v [ b ] )	if ( v [ b - 1 ] == v [ b ] )	NA
+print 0	cout << 0 << endl ;	cout << 0 ;	4
+else	else	else	1
+print v [ b ] - v [ b - 1 ]	cout << V [ b ] - v [ b - 1 ] << endl ;	cout << v [ b ] - v [ b - 1 ] ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print new line	cout << endl ;	cout << " \n " ;	2
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,81 @@
+declare integer variables co and cx	int co, cx ;	int co , cx ;	NA
+create const long long inf = - 1e16	const long long inf = - 1e16 ;	const long long inf = - 1e16 ;	1
+inlined long long function gox with int argument num	inline long long gox ( int num )	inline long long gox ( int num )	1
+return inf if num is greater than cx	if ( num > cx ) return inf ;	if ( num > cx ) return inf ;	1
+declare int ex = cx % num	int ex = cx % num ;	int ex = cx % num ;	1
+declare int variable anch = cx / num	int anch = cx / num ;	int anch = cx / num ;	1
+declare long long variable ans = 1LL * ( anch + 1 ) * ( anch + 1 ) * ex	long long ans = 1LL * ( anch + 1 ) * 2LL * ex ;	long long ans = 1LL * ( anch + 1 ) * ( anch + 1 ) * ex ;	NA
+increase ans by 1LL * anch * anch * ( num - ex )	ans += 1LL * anch * ( num - ex ) ;	ans += 1LL * anch * anch * ( num - ex ) ;	NA
+return - ans	return - ans ;	return - ans ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+inlined long long function goo with int argument num	inline long long goo ( int num )	inline long long goo ( int num )	1
+if num is greater than co	if ( num > co )	if ( num > co ) return inf ;	NA
+declare int variable juntos = co - num + 1	int juntos = co - num + 1 ;	int juntos = co - num + 1 ;	1
+create long long ans = 1LL * juntos * juntos	long long ans = int ( 1LL * juntos ) * int ( 0LL ) ;	long long ans = 1LL * juntos * juntos ;	NA
+increase ans by num - 1	ans += num - 1 ;	ans += num - 1 ;	1
+return ans	return ans ;	return ans ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+inlined void function build with int arguments x and o	inline void build ( int x, int o )	inline void build ( int x , int o )	NA
+create string s	string s ;	string s ;	1
+declare integer xx = cx / x	int xx = cx / x ;	int xx = cx / x ;	1
+create bool flag = true if x > o , else false	bool flag = x > o ;	bool flag = ( x > o ) ;	3
+declare bool variable fst = true	bool fst = true ;	bool fst = true ;	1
+create integer ex = cx % x	int ex = cx % x ;	int ex = cx % x ;	1
+declare integer prim = co - o + 1	int prim = co - o + 1 ;	int prim = co - o + 1 ;	1
+while either x or o is true	while ( x || o )	while ( x || o )	1
+if flag is true	if ( flag )	if ( flag )	1
+push ' x ' into s xx times	for ( int i = 0 ; i < xx ; i ++ ) s. push_back ('x') ;	for ( int i = int ( 0 ) ; i < int ( xx ) ; ++ i ) s . push_back ( ' x ' ) ;	NA
+if ex is greater than 0 , push ' x ' into s and decrement ex	if ( ex > 0 ) s. push_back ('x'), ex -- ;	if ( ex > 0 ) s . push_back ( ' x ' ) , ex -- ;	NA
+decrement x	x -- ;	x -- ;	1
+else	else	else	1
+if fst is true	if ( fst )	if ( fst )	1
+push ' o ' into s prim times	for ( int i = 0 ; i < prim ; i ++ ) s. push_back ('o') ;	for ( int i = int ( 0 ) ; i < int ( prim ) ; ++ i ) s . push_back ( ' o ' ) ;	NA
+set fst to false	fff = false ;	fst = false ;	2
+else	else	else	1
+push ' o ' into s	s. push_back ('o') ;	s . push_back ( ' o ' ) ;	NA
+decrement o	o -- ;	o -- ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+invert the value of flag	flag =! flag ;	flag = ( ! flag ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print s	cout << s << endl ;	cout << s << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read co and cx	cin >> co >> cx ;	cin >> co >> cx ;	1
+if co is 0 or cx is 0	if ( co == 0 || cx == 0 )	if ( co == 0 || cx == 0 )	1
+if co is greater than 0	if ( co > 0 )	if ( co > 0 )	1
+print 1LL * co * co	cout << 1LL * co * co << endl ;	cout << 1LL * co * co << endl ;	1
+print ' o ' co times	for ( int j = 0 ; j < co ; j ++ ) { cout <<'o'; }	for ( int i = int ( 0 ) ; i < int ( co ) ; ++ i ) cout << ' o ' ;	NA
+print a new line	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if cx is greater than 0	if ( cx > 0 )	if ( cx > 0 )	1
+print - 1LL * cx * cx	cout << - 1LL * cx * cx << endl ;	cout << - 1LL * cx * cx << endl ;	1
+print ' x ' cx times	for ( int i = 0 ; i < cx ; i ++ ) { cout <<'x'; }	for ( int i = int ( 0 ) ; i < int ( cx ) ; ++ i ) cout << ' x ' ;	NA
+print	cout << endl ;	cout << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+declare int lim = min of co and cx	int lim = min ( co, cx ) ;	int lim = min ( co , cx ) ;	NA
+create long long ans = LLONG_MIN	long long ans = LLONG_MIN ;	long long ans = LLONG_MIN ;	1
+pos is a pair of integers	pair < int, int > pos ;	pair < int , int > pos ;	NA
+for integer i = 1 to lim + 1 exclusive	for ( int i = 1 ; i < lim + 1 ; ++ i )	for ( int i = int ( 1 ) ; i < int ( lim + 1 ) ; ++ i )	NA
+if ans is less than gox ( i ) + goo ( i )	if ( ans < gox ( i ) + goo ( 1 ) )	if ( ans < gox ( i ) + goo ( i ) )	NA
+assign gox ( i ) + goo ( i ) to ans	ans = gox ( i ) + goo ( 1 ) ;	ans = gox ( i ) + goo ( i ) ;	NA
+pos = { i , i }	pos = { i, i } ;	pos = { i , i } ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 2 to cx + 1 exclusive	for ( int i = 2 ; i < cx + 1 ; i ++ )	for ( int i = int ( 2 ) ; i < int ( cx + 1 ) ; ++ i )	NA
+if ans is less than gox ( i ) + goo ( i - 1 )	if ( ans < gox ( i ) + goo ( i - 1 ) )	if ( ans < gox ( i ) + goo ( i - 1 ) )	1
+change ans to gox ( i ) + goo ( i - 1 )	ans = gox ( i ) + goo ( i - 1 ) ;	ans = gox ( i ) + goo ( i - 1 ) ;	1
+pos = { i , i - 1 }	pos = { i, i - 1 } ;	pos = { i , i - 1 } ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 2 to co + 1 exclusive	for ( int i = 2 ; i < co + 1 ; i ++ )	for ( int i = int ( 2 ) ; i < int ( co + 1 ) ; ++ i )	NA
+if ans is less than gox ( i - 1 ) + goo ( i )	if ( ans < gox ( i - 1 ) + goo ( i ) )	if ( ans < gox ( i - 1 ) + goo ( i ) )	1
+set ans to gox ( i - 1 ) + goo ( i )	ans = gox ( i - 1 ) + goo ( i ) ;	ans = gox ( i - 1 ) + goo ( i ) ;	1
+pos = { i - 1 , i }	pos = { i - 1, i } ;	pos = { i - 1 , i } ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print ans	cout << ans << endl ;	cout << ans << endl ;	1
+call build with arguments pos . first and pos . second	build ( pos. first, pos. second ) ;	build ( pos . first , pos . second ) ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

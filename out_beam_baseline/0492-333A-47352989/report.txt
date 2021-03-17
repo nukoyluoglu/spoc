@@ -1,0 +1,17 @@
+cil is a long long function with long long arguments x and y	long longcil ( long long x, long long y )	long long cil ( long long x , long long y )	NA
+if x % y is equal to 0	if ( x % y == 0 )	if ( x % y == 0 )	1
+return x / y	return x / y ;	return x / y ;	1
+else	else	else	1
+return x / y + 1	return x / y + 1 ;	return x / y + 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+declare long long variables n , i and j with j = 0	long long n, i, j = 0 ;	long long n , i , j = 0 ;	NA
+read input to n	cin >> n ;	cin >> n ;	1
+change i to n	i = n ;	i = n ;	1
+while n % 3 is 0 and n > 0	while ( n % 3 == 0 && n > 0 )	while ( n % 3 == 0 && n > 0 )	1
+increment j	j ++ ;	j ++ ;	1
+divide n by 3	n /= 3 ;	n /= 3 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+create long long l = 3 raised to power j + 1	long long l = pow ( 3, j + 1 ) ;	long long l = pow ( 3 , j + 1 ) ;	NA
+print cil ( i , l )	cout << cil ( i, l ) << endl ;	cout << cil ( i , l ) << endl ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

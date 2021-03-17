@@ -1,0 +1,18 @@
+create constant integer N with N = 1e5 + 10	const int N = 1e5 + 10 ;	const int N = 1e5 + 10 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+create integer arrays a , b , with a size N , b size N	int a [ n ], b [ N ] ;	int a [ N ] , b [ N ] ;	NA
+create long long sum with sum = 0	long long sum = 0 ;	long long sum = 0 ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+read a [ i ]	cin >> a [ i ] ;	cin >> a [ i ] ;	1
+increment sum by a [ i ]	sum += a [ i ] ;	sum += a [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+for i = 0 to n exclusive , read b [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> b [ i ] ;	for ( int i = 0 ; i < n ; i ++ ) cin >> b [ i ] ;	1
+sort elements from b to b + n using integer greater to compare	sort ( b, b + n, greater < int > ( ) ) ;	sort ( b , b + n , greater < int > ( ) ) ;	NA
+if sum is less than or equal to ( b [ 0 ] + b [ 1 ] )	if ( sum <= ( b [ 0 ] + b [ 1 ] ) )	if ( sum <= ( b [ 0 ] + b [ 1 ] ) )	1
+print " YES " print newline	cout << " YES " << endl ;	cout << " YES " << endl ;	1
+else	else	else	1
+print " NO " print newline	cout << " NO " << endl ;	cout << " NO " << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

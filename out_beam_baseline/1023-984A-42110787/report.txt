@@ -1,0 +1,17 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let int n	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+create int array a of size n	int a [ n ] ;	int a [ n ] ;	1
+for i = 0 to n exclusive , read a [ i ]	for ( int i = 0 ; i < n ; i ++ ) cin >> a [ i ] ;	for ( int i = 0 ; i < n ; i ++ ) { cin >> a [ i ] ; }	2
+for i = 0 to n - 1 exclusive	for ( int i = 0 ; i < n - 1 ; i ++ )	for ( int i = 0 ; i < n - 1 ; i ++ )	1
+for j = 0 to n - i - 1 exclusive	for ( int j = 0 ; j < n - i - 1 ; j ++ )	for ( int j = 0 ; j < n - i - 1 ; j ++ )	1
+if a [ j ] is greater than a [ j + 1 ] , swap values between a [ j ] and a [ j + 1 ]	if ( a [ i ] > a [ j + 1 ] ) { swap ( arr [ j ], arr [ k ] ) ; }	if ( a [ j ] > a [ j + 1 ] ) { swap ( a [ j ] , a [ j + 1 ] ) ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+if n modulo 2 is 0	if ( n % 2 == 0 )	if ( n % 2 == 0 )	1
+print a [ n / 2 - 1 ]	cout << a [ n / 2 - 1 ] << endl ;	cout << a [ n / 2 - 1 ] << endl ;	1
+else	else	else	1
+print a [ n / 2 ]	cout << a [ n / 2 ] << endl ;	cout << a [ n / 2 ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

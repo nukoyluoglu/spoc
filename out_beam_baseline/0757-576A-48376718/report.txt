@@ -1,0 +1,30 @@
+declare const int maxn = 1e6	const int maxn = 1e6 ;	const int maxn = 1e6 ;	1
+create an array of integers prime with maxn + 1 elements	int prime [ maxn + 1 ] ;	int prime [ maxn + 1 ] ;	1
+function getPrime	void getPrime ( )	void getPrime ( )	1
+set first sizeof ( prime ) bytes at the pointer prime to 0	memset ( prime, 0, sizeof ( prime ) ) ;	memset ( prime , 0 , sizeof ( prime ) ) ;	NA
+for i from 2 to maxn inclusive	for ( int i = 2 ; i <= maxn ; i ++ )	for ( int i = 2 ; i <= maxn ; i ++ )	1
+if prime [ i ] is 0 , increment prime [ 0 ] and set prime [ prime [ 0 ] ] to i	if ( prime [ i ] == 0 ) prime [ ++ prime [ 0 ] ] = i ;	if ( ! prime [ i ] ) prime [ ++ prime [ 0 ] ] = i ;	NA
+for j from 1 to prime [ 0 ] inclusive while prime [ j ] < = maxn / i , incrementing j	for ( int j = 1 ; prime [ 0 ] <= maxn / i ; j ++ )	for ( int j = 1 ; j <= prime [ 0 ] && prime [ j ] <= maxn / i ; j ++ )	NA
+prime [ prime [ j ] * i ] = 1	prime [ prime [ j ] * i ] = 1 ;	prime [ prime [ j ] * i ] = 1 ;	1
+if i % prime [ j ] is equal to 0 , break the loop	if ( i % prime [ j ] == 0 ) break ;	if ( i % prime [ j ] == 0 ) break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+call getPrime ( )	getPrime ( ) ;	getPrime ( ) ;	1
+declare int variable n	int n ;	int n ;	1
+loop , reading n from the input	while ( cin >> n )	while ( cin >> n )	1
+declare vector of integers v	vector < int > v ;	vector < int > v ;	1
+clear v	v. clear ( ) ;	v . clear ( ) ;	NA
+declare integer variables key = prime [ 1 ] and id = 1	int key = prime [ 1 ], id = 1 ;	int key = prime [ 1 ] , id = 1 ;	NA
+loop i from 1 to n inclusive	for ( int i = 1 ; i <= n ; i ++ )	for ( int i = 1 ; prime [ i ] <= n ; i ++ )	NA
+create int key = prime [ i ]	int key = prime [ i ] ;	int key = prime [ i ] ;	1
+while key < = n	while ( key <= n )	while ( key <= n )	1
+push key into v	v. push_back ( key ) ;	v . push_back ( key ) ;	NA
+multiply key by prime [ i ]	key *= prime [ i ] ;	key *= prime [ i ] ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print length of v	cout << v. size ( ) << endl ;	cout << v . size ( ) << endl ;	NA
+for integer i = 0 to length of v exclusive , print v [ i ] and " \ n " if i = length of v - 1 or " " if it is not	for ( int i = 0 ; i < v. size ( ) - 1 ; i ++ ) { cout << ( v [ i ]? " \n " : " " ) ; }	for ( int i = 0 ; i < v . size ( ) ; i ++ ) cout << v [ i ] << ( i == v . size ( ) - 1 ? " \n " : " " ) ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

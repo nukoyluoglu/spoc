@@ -1,0 +1,30 @@
+create string in	string in ;	string in ;	1
+declare string n = " "	string n = " " ;	string n = " " ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read line and store it into in	getline ( cin, in ) ;	getline ( cin , in ) ;	NA
+declare int m = length of in	int m = in. length ( ) ;	int m = in . size ( ) ;	NA
+declare boolean se = false	bool se = false ;	bool se = false ;	1
+for i from 0 to m exclusive	for ( int i = 0 ; i < m ; i ++ )	for ( int i = 0 ; i < m ; i ++ )	1
+if in [ i ] > = ' a ' and in [ i ] < = ' z '	if ( in [ 1 ] >='a'&& in [ i ] <='z')	if ( in [ i ] >= ' a ' && in [ i ] <= ' z ' )	NA
+append n to in [ i ]	in [ i ]. push_back ( n ) ;	n += in [ i ] ;	NA
+else if in [ i ] = ' '	else if ( in [ i ] ==' ')	else if ( in [ i ] == ' ' )	NA
+if n is equal to " " continue the loop from the start	if ( n == " " ) continue ;	if ( n == " " ) { continue ; }	2
+print n	cout << n << endl ;	cout << n ;	3
+assign ' ' to n	n =' ';	n = ' ' ;	NA
+change se to true	se = true ;	se = true ;	1
+continue the loop from the start	continue ;	continue ;	1
+else	else	else	1
+if se is true and n = " "	if ( se && n == " " )	if ( se && n == " " )	1
+print in [ i ]	cout << in [ i ] ;	cout << in [ i ] ;	1
+set n to ' '	n =' ';	n = ' ' ;	NA
+set se to false	se = false ;	se = false ;	1
+go to the start of the loop	continue ;	continue ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print n and in [ i ]	cin >> n >> in [ i ] ;	cout << n << in [ i ] ;	2
+change n to ' '	n =' ';	n = ' ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print n if if n ! = " "	if ( n!= " " ) cout << n << endl ;	if ( n != " " ) { cout << n ; }	NA
+print a new line	cout << endl ;	cout << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

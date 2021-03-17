@@ -1,0 +1,20 @@
+create const int maxn = 100 + 10	const int maxn = 100 + 10 ;	const int maxn = 100 + 10 ;	1
+let bool array mark size of maxn	bool mark [ maxn ] ;	bool mark [ maxn ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let int n	int n ;	int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+make ints L and R	int L, R ;	int L , R ;	NA
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+let ints l and r	int l, r ;	int l , r ;	NA
+read l and r	cin >> l >> r ;	cin >> l >> r ;	1
+if i is greater than 0	if ( i > 0 )	if ( i > 0 )	1
+for j = l to r exclusive , set mark [ j ] to true	for ( int j = l ; j < r ; j ++ ) mark [ j ] = true ;	for ( int j = l ; j < r ; j ++ ) mark [ j ] = true ;	1
+else	else	else	1
+set L to l and R to r	L = l, R = r ;	L = l , R = r ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+make integer ans = 0	int ans = 0 ;	int ans = 0 ;	1
+for i = 0 to maxn exclusive	for ( int i = 0 ; i < maxn ; i ++ )	for ( int i = 0 ; i < maxn ; i ++ )	1
+if ! mark [ i ] is truthy and L is less than or equal to i and i is less than R , increment ans	if (! mark [ i ] && L <= i && i < R ) ans ++ ;	if ( ! mark [ i ] && L <= i && i < R ) ans ++ ;	NA
+print ans	cout << ans << endl ;	cout << ans << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

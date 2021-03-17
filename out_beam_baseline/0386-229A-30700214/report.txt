@@ -1,0 +1,43 @@
+dist = array of 2 by 10004 int	int dist [ 2 ] [ 10004 ] ;	int dist [ 2 ] [ 10004 ] ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n , m = int	int n, m ;	int n , m ;	NA
+read n and m	cin >> n >> m ;	cin >> n >> m ;	1
+for i = 0 to n exclusive	for ( int i = 0 ; i < n ; i ++ )	for ( int i = 0 ; i < n ; i ++ )	1
+str = string	string str ;	string str ;	1
+read str	cin >> str ;	cin >> str ;	1
+firstone = - 1	firstone = - 1 ;	int firstone = - 1 ;	2
+ff = 0	ff = 0 ;	int ff = 0 ;	2
+while ff < m and str [ ff ] is not ' 1 ' increment ff	while ( ff < m && str [ ff ]!='1') ff ++ ;	while ( ff < m && str [ ff ] != ' 1 ' ) ff ++ ;	NA
+if ff is m	if ( ff == m )	if ( ff == m )	1
+print - 1	cout << - 1 << endl ;	cout << - 1 << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+firstone = ff	firstone = ff ;	firstone = ff ;	1
+dist [ 0 ] [ ff ] = 0	dist [ 0 ] [ ff ] = 0 ;	dist [ 0 ] [ ff ] = 0 ;	1
+j = ff + 1 modulo m	j = ff + 1 % m ;	int j = ( ff + 1 ) % m ;	NA
+while true	while ( true )	while ( true )	1
+if str [ j ] is ' 1 '	if ( str [ j ] =='1')	if ( str [ j ] == ' 1 ' )	NA
+dist [ 0 ] [ j ] = 0	dist [ 0 ] [ j ] = 0 ;	dist [ 0 ] [ j ] = 0 ;	1
+k = j	k = j ;	int k = j ;	2
+while dist [ 0 ] [ k ] < dist [ 0 ] [ k - 1 + m modulo m	for ( long long int k = 0 ; k < dist [ 0 ] [ k - 1 + m % m ; k ++ )	while ( dist [ 0 ] [ k ] < dist [ 0 ] [ ( k - 1 + m ) % m ] )	NA
+k = k - 1 + m modulo m	k = k - 1 + m % m ;	k = ( k - 1 + m ) % m ;	20
+dist [ 0 ] [ k ] = dist [ 0 ] [ k + 1 modulo m ] + 1	dist [ 0 ] [ k ] %= m ] + 1 ;	dist [ 0 ] [ k ] = dist [ 0 ] [ ( k + 1 ) % m ] + 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+if j is firstone break	if ( j == firstone ) break ;	if ( j == firstone ) break ;	1
+else	else	else	1
+dist [ 0 ] [ j ] = dist [ 0 ] [ j + m - 1 modulo m ] + 1	dist [ 0 ] [ j ] += ( m - 1 ) % m ] + 1 ;	dist [ 0 ] [ j ] = dist [ 0 ] [ ( j + m - 1 ) % m ] + 1 ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+j = j + 1 modulo m	j = j + 1 % m ;	j = ( j + 1 ) % m ;	3
+}	}	}	DUMMY	DUMMY	DUMMY
+for z = 0 to m exclusive	for ( int z = 0 ; z < m ; z ++ )	for ( int z = 0 ; z < m ; z ++ )	1
+increment dist [ 1 ] [ z ] by dist [ 0 ] [ z ]	dist [ i ] [ j ] += dist [ 0 ] [ z ] ;	dist [ 1 ] [ z ] += dist [ 0 ] [ z ] ;	NA
+dist [ 0 ] [ z ] = 0	dist [ 0 ] [ z ] = 0 ;	dist [ 0 ] [ z ] = 0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+minn = dist [ 1 ] [ 0 ]	minn = dist [ 1 ] [ 0 ] ;	int minn = dist [ 1 ] [ 0 ] ;	2
+for h = 1 to m exclusive	for ( int h = 1 ; h < m ; h ++ )	for ( int h = 1 ; h < m ; h ++ )	1
+if dist [ 1 ] [ h ] < minn minn = dist [ 1 ] [ h ]	if ( dist [ 1 ] [ h ] < minn ) ++ minn ;	if ( dist [ 1 ] [ h ] < minn ) { minn = dist [ 1 ] [ h ] ; }	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+print minn	cout << minn << endl ;	cout << minn << endl ;	1
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

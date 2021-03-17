@@ -1,0 +1,21 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create ints n , i , j , x , and mohi	int n, i, j, x, mohi ;	int n , i , j , x , mohi ;	NA
+create long long int sum = 0	long long int sum = 0 ;	long long int sum = 0 ;	1
+create integer vector v	vector < int > v ;	vector < int > v ;	1
+read n	cin >> n ;	cin >> n ;	1
+for i = 1 to n	for ( int i = 1 ; i <= n ; i ++ )	for ( i = 1 ; i <= n ; i ++ )	2
+for j = 1 to i	for ( int j = 1 ; j <= i ; j ++ )	for ( j = 1 ; j <= i ; j ++ )	2
+set mohi to ( j * ( j + 1 ) ) / 2	mohi = ( j * ( j + 1 ) ) / 2 ;	mohi = ( j * ( j + 1 ) ) / 2 ;	1
+set sum to sum + mohi	sum += mohi ;	sum += mohi ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if sum is less than n	if ( sum < n )	if ( sum > n )	18
+set x to i	x = i ;	x = i ;	1
+break loop	break ;	break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set sum to 0	sum = 0 ;	sum = 0 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if n is equal to 1	if ( n == 1 )	if ( n == 1 )	1
+print 1	cout << 1 << endl ;	cout << 1 << endl ;	1
+otherwise	else	else	1
+print x - 1	cout << x - 1 << endl ;	cout << x - 1 << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

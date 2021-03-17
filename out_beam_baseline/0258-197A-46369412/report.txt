@@ -1,0 +1,25 @@
+integers = t integer pi = 3 . 14	const int pi = 3.14 ;	const int pi = 3.14 ;	1
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+integers = a , b , r	int a, b, r ;	int a , b , r ;	NA
+read a , b , r	cin >> a >> b >> r ;	cin >> a >> b >> r ;	1
+if 2 * r is greater than min ( a , b then do the following	if ( 2 * r > min ( a, b ) )	if ( 2 * r > min ( a , b ) )	NA
+output Second	cout << " Second " << endl ;	cout << " Second " << endl ;	1
+else	else	else	1
+integers = cnt = 0	int cnt = 0 ;	int cnt = 0 ;	1
+integers = ans = max ( a , b )	int ans = max ( a, b ) ;	int ans = max ( a , b ) ;	NA
+integers = res = min ( a , b )	int res = min ( a, b ) ;	int res = min ( a , b ) ;	NA
+if 1 is true do the following	while ( 1 )	while ( 1 )	1
+set ans to maximum of ans and res	ans = max ( ans, res ) ;	ans = max ( ans , res ) ;	NA
+set res to minimum and ans and res	res = min, ans, res = 0 ;	res = min ( ans , res ) ;	NA
+cnt equals cnt plus res / ( 2 * r )	cnt += res / ( 2 * r ) ;	cnt += res / ( 2 * r ) ;	1
+subtract ( res / ( 2 * r ) ) * 2 * r from ans	ans -= ( res / ( 2.0 * r ) ) * 2 * r ;	ans -= ( res / ( 2 * r ) ) * 2 * r ;	NA
+integers = minn = minimum of ans or res	int minn = min ( ans, res ) ;	int minn = min ( ans , res ) ;	NA
+if minn is less than 2 * r then do the following break	if ( minn < 2 * r ) break ;	if ( minn < 2 * r ) break ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if cnt is greater than or equal to 1 then do the following	while ( cnt >= 1 )	if ( cnt >= 1 )	2
+output First	cout << " First " << endl ;	cout << " First " << endl ;	1
+else	else	else	1
+output Second	cout << " Second " << endl ;	cout << " Second " << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,17 @@
+declare new integer water	int water ;	int water ;	1
+create integers s , n , b and p	int s, n, b, p ;	int s , n , b , p ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read from the input to n , b and p	cin >> n >> b >> p ;	cin >> n >> b >> p ;	1
+declare new integer called k = n	int k = n ;	int k = n ;	1
+set water to 0	int water = 0 ;	water = 0 ;	4
+while n is not 1	while ( n!= 1 )	while ( n != 1 )	NA
+change s to n / 2	s = n / 2 ;	s = n / 2 ;	1
+if n is even	if ( n % 2 == 0 )	if ( n % 2 == 0 )	1
+set n to n divided by 2	n /= 2 ;	n /= 2 ;	1
+else	else	else	1
+change n to n / 2 + 1	n = n / 2 + 1 ;	n = n / 2 + 1 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+change water to sum of water and s * ( 2 * b + 1 )	water += s * ( 2 * b + 1 ) ;	water += s * ( 2 * b + 1 ) ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print water , " " and k * p to the standard output	cout << water << " " << k * p << endl ;	cout << water << " " << k * p << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

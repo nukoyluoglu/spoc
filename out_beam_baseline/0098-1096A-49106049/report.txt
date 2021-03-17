@@ -1,0 +1,16 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+t = int	int t ;	int t ;	1
+read t	cin >> t ;	cin >> t ;	1
+loop t times	while ( t -- )	while ( t -- )	1
+l , r = long int	long int l, r ;	long int l , r ;	NA
+read l then r	cin >> l >> r ;	cin >> l >> r ;	1
+if l equals 1	if ( l == 1 )	if ( l == 1 )	1
+print l and r	cin >> l >> r ;	cout << l << " " << r << endl ;	NA
+else	else	else	1
+print l and " "	cout << l << " " ;	cout << l << " " ;	1
+mod = long int with mod = r modulo l	long int mod = r % l ;	long int mod = ( r % l ) ;	3
+print r - mod	cout << r - mod << endl ;	cout << ( r - mod ) << endl ;	3
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

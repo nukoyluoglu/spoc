@@ -1,0 +1,13 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create long long int n	long long int n ;	long long int n ;	1
+read n	cin >> n ;	cin >> n ;	1
+if n = 0	if ( n == 0 )	if ( n == 0 )	1
+print n and a newline	cout << n << endl ;	cout << n << " \n " ;	2
+else	else	else	1
+if n is even	if ( n % 2 == 0 )	if ( n % 2 == 0 )	1
+print n + 1 and a newline	cout << n + 1 << endl ;	cout << n + 1 << " \n " ;	2
+otherwise	else	else	1
+print ( n + 1 ) / 2 and a newline	cout << ( n + 1 ) / 2 << endl ;	cout << ( n + 1 ) / 2 << " \n " ;	2
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

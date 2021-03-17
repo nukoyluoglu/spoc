@@ -1,0 +1,14 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers n , k	int n, k ;	int n , k ;	NA
+read n read k	cin >> n >> k ;	cin >> n >> k ;	1
+create doubles x , y , x0 , y0 , total with total initialized with 0 . 0	double x, y, x0, y0, total ( 0.0 ) ;	double x , y , x0 , y0 , total ( 0.0 ) ;	NA
+read x0 read y0	cin >> x0 >> y0 ;	cin >> x0 >> y0 ;	1
+while decrement n is true	while ( n -- )	while ( -- n )	3
+read x read y	cin >> x >> y ;	cin >> x >> y ;	1
+increment total by square root of ( ( x - x0 ) * ( x - x0 ) + ( y - y0 ) * ( y - y0 ) )	total += sqrt ( ( long long ) ( ( x - x0 ) * ( long double ) ( n - ( double ) y - (double ) y0, * ( y - y0 ) ) ) ;	total += sqrt ( ( x - x0 ) * ( x - x0 ) + ( y - y0 ) * ( y - y0 ) ) ;	NA
+set x0 to x	x0 = x ;	x0 = x ;	1
+set y0 to y	y0 = y ;	y0 = y ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+print fixed , set cout decimal precision to 6 , print total * k / 50 print newline	cout << fixed << setprecision ( 6 ), total * k / 50 << endl ;	cout << fixed << setprecision ( 6 ) << total * k / 50 << endl ;	3
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

@@ -1,0 +1,34 @@
+create integer array a with size 1005	int a [ 1005 ] ;	int a [ 1005 ] ;	1
+declare zhi with integer n as argument , returning boolean	bool zhi ( int n )	bool zhi ( int n )	1
+for i = 2 to n exclusive	for ( int i = 2 ; i < n ; i ++ )	for ( int i = 2 ; i < n ; i ++ )	1
+if n % i is 0 , return false from function	if ( n % i == 0 ) return false ;	if ( n % i == 0 ) return false ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return true from function	return true ;	return true ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integer n	int n ;	int n ;	1
+while read n	while ( cin >> n )	while ( cin >> n )	1
+if n is 1	if ( n == 1 )	if ( n == 1 )	1
+print 0 print newline	cout << 0 << endl ;	cout << 0 << endl ;	1
+break current loop iteration	continue ;	continue ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set bytes from a to size of a to value 0	memset ( a, 0, sizeof ( a ) ) ;	memset ( a , 0 , sizeof ( a ) ) ;	NA
+create integer j with j = 0	int j = 0 ;	int j = 0 ;	1
+for i = 2 to n inclusive	for ( int i = 2 ; i <= n ; i ++ )	for ( int i = 2 ; i <= n ; i ++ )	1
+if result of run zhi with i as argument is true	if ( zhi ( i ) )	if ( zhi ( i ) )	1
+set a [ j ] to i	a [ j ] = i ;	a [ j ] = i ;	1
+increment j	j ++ ;	j ++ ;	1
+create integer t with t = i	int t = i ;	int t = i ;	1
+set t to t * i	t *= i ;	t *= i ;	1
+while t is less than or equal to n	while ( t <= n )	while ( t <= n )	1
+set a [ j ] to t	a [ j ] = t ;	a [ j ] = t ;	1
+increment j	j ++ ;	j ++ ;	1
+set t to t * i	t *= i ;	t *= i ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
+print j print newline	cout << j << endl ;	cout << j << endl ;	1
+for i = 0 to j - 1 exclusive , print a [ i ] print " "	for ( int i = 0 ; i < j - 1 ; i ++ ) { cout << a [ i ] << " " ; }	for ( int i = 0 ; i < j - 1 ; i ++ ) { cout << a [ i ] << " " ; }	1
+print a [ j - 1 ] print newline	cout << a [ j - 1 ] << endl ;	cout << a [ j - 1 ] << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

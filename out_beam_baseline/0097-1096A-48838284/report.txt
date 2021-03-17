@@ -1,0 +1,10 @@
+create integers T , l , r	int T, l, r ;	int T , l , r ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers i , j	int i, j ;	int i , j ;	NA
+read T	cin >> T ;	cin >> T ;	1
+for i = 1 to T inclusive	for ( int i = 1 ; i <= T ; i ++ )	for ( i = 1 ; i <= T ; i ++ )	2
+read l read r	cin >> l >> r ;	cin >> l >> r ;	1
+print l print ' ' print ( r / l ) * l print ' \ n '	cout << l <<' '<< ( ( r / l ) * l ) <<'\n';	cout << l << ' ' << ( r / l ) * l << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

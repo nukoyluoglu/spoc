@@ -1,0 +1,20 @@
+m = long long	long long m ;	long long m ;	1
+in function power taking a long long a and an int n and returning an int	int power ( long long a, int n )	int power ( long long a , int n )	NA
+res = long long with res = 1	long long res = 1 ;	long long res = 1 ;	1
+loop while n is greater than 0	while ( n > 0 )	while ( n > 0 )	1
+if n is uneven	if ( n % 2 == 1 )	if ( n % 2 == 1 )	1
+set res to res * a	res *= a ;	res *= a ;	1
+set res to res mod m	res %= m ;	res %= m ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+set a to a * a	a = a * a ;	a *= a ;	2
+set a to a mod m	a %= m ;	a %= m ;	1
+set n to n / 2	n /= 2 ;	n /= 2 ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+return res	return res ;	return res ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+n = int	int n ;	int n ;	1
+read n then m	cin >> n >> m ;	cin >> n >> m ;	1
+print ( ( ( power of 3 and n ) - 1 ) mod m + m ) mod m	cout << ( ( power ( 3, n ) ) - 1 ) % m + m << " " << m << endl ;	cout << ( ( power ( 3 , n ) - 1 ) % m + m ) % m << endl ;	NA
+return 0;	return 0;	return 0;	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY

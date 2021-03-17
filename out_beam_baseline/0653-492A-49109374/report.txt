@@ -1,0 +1,7 @@
+create ints n and c	int n, c ;	int n , c ;	NA
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+read n	cin >> n ;	cin >> n ;	1
+for c = 1 , loop as long as c * ( c + 1 ) * ( c + 2 ) / 6 < = n	for ( c = 1 ; c * ( c + 1 ) * ( C + 2 ) / 6 <= n ; c ++ )	for ( c = 1 ; c * ( c + 1 ) * ( c + 2 ) / 6 <= n ; c ++ )	NA
+end statement	;	;	1
+print c - 1	cout << c - 1 << endl ;	cout << c - 1 << ' \n ' ;	NA
+}	}	}	DUMMY	DUMMY	DUMMY

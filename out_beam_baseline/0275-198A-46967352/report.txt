@@ -1,0 +1,12 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+let k , b , n , t be long integers	long long k, b, n, t ;	long long k , b , n , t ;	NA
+read k , b , n , t	cin >> k >> b >> n >> t ;	cin >> k >> b >> n >> t ;	1
+let the value of long integer z is equal to k + b	long long z = k + b ;	long long z = k + b ;	1
+let g be a integer with value g is equal to n	int g = n ;	int g = n ;	1
+while ( z is less than t and g is greater than 0 )	while ( z < t && g > 0 )	while ( z < t && g > 0 )	1
+decrease g by 1	g -- ;	g -- ;	1
+let the value of z is equal to z * k + b	z = z * k + b ;	z = z * k + b ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+if ( z is equal to t ) , decrease g by 1	if ( z == t ) g -- ;	if ( z == t ) { g -- ; }	2
+print g and newline	cout << g << endl ;	cout << g << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY

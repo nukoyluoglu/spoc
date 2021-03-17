@@ -1,0 +1,8 @@
+int main() {	int main() {	int main() {	DUMMY	DUMMY	DUMMY
+create integers T , l , r	int T, l, r ;	int T , l , r ;	NA
+read T	cin >> T ;	cin >> T ;	1
+for i = 1 to T inclusive	for ( int i = 1 ; i <= T ; i ++ )	for ( int i = 1 ; i <= T ; i ++ )	1
+read l read r	cin >> l >> r ;	cin >> l >> r ;	1
+print l print " " print l * ( r / l ) print newline	cout << l << " " << l * ( r / l ) << endl ;	cout << l << " " << l * ( r / l ) << endl ;	1
+}	}	}	DUMMY	DUMMY	DUMMY
+}	}	}	DUMMY	DUMMY	DUMMY
