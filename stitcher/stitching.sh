@@ -11,7 +11,7 @@ P=10
 N=$(tail -n+2 ${1}.tsv | cut -f 3-6 | uniq | wc -l)
 
 # Change the stitcher (-o) to the appropriate one!
-i=151
+i=1
 while [[ $i -le $N ]]; do
   for j in {1..15}; do
     if [[ $i -le $N ]]; then
