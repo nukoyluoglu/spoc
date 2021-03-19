@@ -336,6 +336,8 @@ def true_oracle_linebyline(inp_stmt, pred_stmt, probid, subid):
     all_gold_found = True
     # check for predictions in the i-th line with everything else gold
     for inp_i, pred_i in zip(inp_stmt, pred_stmt):
+        if pred_i == ['']:
+            break
         if pred_i[_pred.text] == 'DUMMY':
             curr_i += 1
             continue
@@ -346,7 +348,9 @@ def true_oracle_linebyline(inp_stmt, pred_stmt, probid, subid):
             curr_ind, prev_line = 0, " "
             code = code_header
             # generate code with everything else gold except the i-th line
-            for inp_j, pred_j in zip(inp_stmt, pred_stmt):            
+            for inp_j, pred_j in zip(inp_stmt, pred_stmt):  
+                if pred_j == ['']:
+                    break          
                 # find the number of tabs to insert
                 indent = '\t' * int(inp_j[_inp.indent])
                 tmp_ind = int(inp_j[_inp.indent])
@@ -364,6 +368,8 @@ def true_oracle_linebyline(inp_stmt, pred_stmt, probid, subid):
                         indent += (tmp_ind - curr_ind - 1) * "{ "
                 curr_ind = tmp_ind
                 # pick the line of code
+                if _pred.text >= len(pred_j):
+                    print(pred_j)
                 if pred_j[_pred.text] == 'DUMMY' or curr_j != curr_i:
                     code += indent + remove_braces_gold(inp_j[_inp.code]) + "\n"
                     prev_line = remove_braces_gold(inp_j[_inp.code])
